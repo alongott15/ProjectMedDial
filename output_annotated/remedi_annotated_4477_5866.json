@@ -1,0 +1,1412 @@
+{
+  "source_row_id": 4477,
+  "source_subject_id": 5866,
+  "source_hadm_id": 160429,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Good morning, thank you for coming in today. I understand you\u2019ve been experiencing abdominal pain, particularly a sharp, grabbing pain in the right lower quadrant. Can you describe in more detail how your abdominal pain has changed or progressed since it first began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sharp, grabbing pain in the right lower quadrant"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "progression or change of abdominal pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Good morning, doctor. Um, yes, it\u2019s mostly this abdominal pain that\u2019s been bothering me. It\u2019s just... it feels pretty sharp on the lower right side, and it\u2019s been getting a bit worse, I think. I\u2019m just not sure what\u2019s causing it, and I\u2019m starting to get a little worried.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Good morning, doctor."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "lower right side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "sharp"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "not sure what\u2019s causing it"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014persistent and worsening abdominal pain can be concerning. You mentioned the pain is sharp and located in the lower right side; have you noticed any changes in your bowel movements, such as constipation or difficulty passing stool, since your symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent and worsening abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sharp pain in the lower right side"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in bowel movements"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty passing stool"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Um, well, yes, I have noticed some constipation lately. It\u2019s been harder to go than usual since this right lower quadrant pain started. I\u2019m not sure if that\u2019s related, but it\u2019s definitely uncomfortable.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right lower quadrant pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "discomfort"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that\u2014you mentioned both right lower quadrant pain and recent constipation. I\u2019d like to understand more about your abdominal distention; have you noticed any visible swelling or bloating in your abdomen, and if so, how severe has that symptom been?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right lower quadrant pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal distention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "visible swelling or bloating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "severity of abdominal distention"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Yes, actually, now that you mention it\u2014there has been some abdominal distention. My abdomen looks a bit more swollen than usual, and it feels kind of tight or stretched out. It\u2019s not extremely severe, but it\u2019s definitely noticeable and adds to the discomfort. I\u2019m just not sure if that\u2019s something I should be really worried about?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdomen looks more swollen than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdomen feels tight or stretched out"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "asking if abdominal distention is something to be worried about"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the increasing abdominal pain and noticeable distention. To help with my assessment, have you experienced any nausea or episodes of vomiting along with your abdominal pain and constipation?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um, yes, I have had some nausea along with the abdominal pain and constipation. I haven\u2019t actually vomited, but I do feel queasy, especially when the abdominal distention gets worse. It\u2019s just been really uncomfortable overall, and I\u2019m hoping we can figure out what\u2019s going on.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "queasy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms so clearly. To further guide my assessment, have you noticed any fever, chills, or changes in your appetite accompanying the right lower quadrant pain and abdominal distension?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for describing your symptoms so clearly."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "right lower quadrant pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Let me think... I haven\u2019t really noticed any fever or chills, at least not that I can remember. My appetite has definitely gone down, though. With the nausea and this abdominal distension, I just don\u2019t feel like eating much. It\u2019s all been making me pretty uncomfortable, honestly.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "Thank you for explaining how your symptoms have affected your appetite. To help with my assessment of a possible partial bowel obstruction, have you noticed any changes in the color or consistency of your stool, or have you experienced any inability to pass gas since your abdominal pain and distention began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in color or consistency of stool"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "inability to pass gas"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "possible partial bowel obstruction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal pain and distention"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Well, um, since you mentioned partial bowel obstruction, I have been wondering about that because it\u2019s been really hard to have a bowel movement, and I haven\u2019t been able to pass much gas either. When I do go, the stool seems a bit harder and smaller than usual, but I haven\u2019t noticed any unusual color. It\u2019s just this feeling like symptoms aren\u2019t moving the way they should. Is this something that could be serious? Should I be worried about a partial bowel obstruction?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hard to have a bowel movement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "haven\u2019t been able to pass much gas"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "stool seems harder and smaller than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "partial bowel obstruction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is this something that could be serious? Should I be worried about a partial bowel obstruction?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d feel anxious\u2014persistent right lower quadrant pain and changes in your bowel habits can be concerning. To help with my assessment, have you experienced any fever or signs of infection, such as chills or sweats, along with your current symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d feel anxious"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent right lower quadrant pain and changes in bowel habits can be concerning"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "signs of infection such as chills or sweats"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining symptoms so clearly, doctor. Um, I haven\u2019t really noticed any fever, chills, or sweats with these symptoms. Mostly it\u2019s just the abdominal pain, constipation, and this abdominal distention that\u2019s making me so uncomfortable. I\u2019m not sure if it\u2019s normal to feel this way for several days. Should I be worried that this could turn into something more serious, like a full bowel obstruction or an infection? And is there anything I can do right now to get some relief?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining symptoms so clearly, doctor."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever, chills, or sweats"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it normal to feel this way for several days?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Should I be worried about a full bowel obstruction or infection?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything I can do right now to get some relief?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014persistent abdominal pain, constipation, and distention are uncomfortable and understandably concerning. To help with my assessment of your symptoms, have you noticed any tenderness or guarding when you press on your abdomen, or does the pain worsen significantly with movement or deep breaths?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "distention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "tenderness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "guarding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "pain worsens with movement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "pain worsens with deep breaths"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yes, actually, when I press on my abdomen, especially in that right lower quadrant, it does feel quite tender. I wouldn\u2019t say I\u2019m guarding exactly, but I do kind of tense up because it\u2019s uncomfortable. The pain does seem to get a bit worse if I move around too much or take a really deep breath. \n\nIs that something you\u2019re concerned about? I just want to make sure I\u2019m not missing any signs that this could be turning into something more serious. And, um, is there anything I can do right now to help with the discomfort while we figure out what\u2019s going on?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness in right lower quadrant of abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tensing up due to discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain worsens with movement or deep breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "concern about seriousness of condition"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "asking for ways to relieve discomfort"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014persistent right lower quadrant pain, tenderness on examination, and abdominal distention are important symptoms that deserve careful assessment. Based on your description, I am concerned about the possibility of a partial bowel obstruction or another underlying abdominal condition. To help further guide my assessment, have you noticed any blood in your stool or any black, tarry stools since your symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent right lower quadrant pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness on examination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "partial bowel obstruction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "underlying abdominal condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "blood in stool"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "black, tarry stools"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "No, I haven\u2019t noticed any blood in my stool or any black, tarry stools since these symptoms started. My bowel movements have just been really infrequent and hard, but the color seems normal to me. \n\nI appreciate you explaining symptoms so clearly, doctor. I\u2019m just feeling pretty uncomfortable and, honestly, a bit anxious about the possibility of a partial bowel obstruction. Is there anything I should be doing right now to help with the discomfort? And, um, how serious is a partial bowel obstruction\u2014does it usually require surgery, or are there other treatments?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no blood in stool"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no black, tarry stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "infrequent and hard bowel movements"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "normal stool color"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what to do for discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "seriousness of partial bowel obstruction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "does partial bowel obstruction require surgery or other treatments"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014persistent right lower quadrant pain, abdominal distention, and constipation can be uncomfortable and understandably cause anxiety. Based on your symptoms and what you\u2019ve described during our assessment, I am concerned about a possible partial bowel obstruction, which sometimes requires hospitalization and close monitoring. To help guide the next steps in your care, have you experienced any sudden worsening of your abdominal pain or any new symptoms such as fainting or severe weakness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent right lower quadrant pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible partial bowel obstruction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden worsening of abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fainting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "severe weakness"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so clearly, doctor. Um, I haven\u2019t had any fainting or really severe weakness, but the abdominal pain has definitely gotten a bit worse over the last day or so. It\u2019s still that sharp, grabbing pain in the right lower quadrant, and with the constipation and abdominal distention, it\u2019s just been really hard to get comfortable. I do feel a little more tired than usual, but I wouldn\u2019t say I\u2019m extremely weak.\n\nShould I be worried that this could get worse quickly? And if it is a partial bowel obstruction, what kind of treatments are usually needed? I just want to make sure I\u2019m doing everything I can to avoid symptoms getting more serious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "worry about symptoms getting worse quickly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "treatments for partial bowel obstruction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "how to avoid symptoms getting more serious"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your persistent abdominal pain, distention, constipation, and the recent worsening of your symptoms. Based on your clinical findings and our assessment so far, these symptoms are concerning for a partial bowel obstruction, which sometimes requires hospitalization and close monitoring. To further guide my evaluation, have you experienced any signs of infection such as fever or chills since your symptoms began?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so clearly, doctor. Um, I haven\u2019t really noticed any fever or chills since these symptoms started\u2014just the abdominal pain, constipation, and this abdominal distention that\u2019s been getting worse. I do feel pretty uncomfortable and a bit more tired than usual, but no obvious signs of infection that I can tell.\n\nI appreciate you being so thorough. If it is a partial bowel obstruction, is there anything I should be doing right now to help with the discomfort? And, um, how long does something like this usually take to get better? I\u2019m just feeling pretty anxious and would really like to know what to expect.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no obvious signs of infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what to do for discomfort with partial bowel obstruction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "how long does it take to get better"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014persistent abdominal pain, distention, and constipation can be very uncomfortable and worrying. Based on your symptoms and our assessment, a partial bowel obstruction is a serious condition that often requires hospitalization for close monitoring, intravenous fluids, bowel rest (meaning nothing by mouth), and sometimes medications to manage pain and prevent infection; surgery is only needed if the obstruction does not resolve or if there are signs of complications. While we continue your clinical evaluation, have you experienced any sudden increase in abdominal pain or new onset of vomiting since your last examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent abdominal pain, distention, constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "partial bowel obstruction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "hospitalization for close monitoring, intravenous fluids, bowel rest, medications to manage pain and prevent infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "surgery if obstruction does not resolve or if there are signs of complications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden increase in abdominal pain or new onset of vomiting"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so thoroughly, doctor. Um, since my last examination, I haven\u2019t had any new vomiting, but the abdominal pain has definitely gotten a bit sharper at times\u2014especially when I try to move or even just shift in bed. The distention seems a little worse too, and I\u2019m still not able to have a proper bowel movement or pass much gas.\n\nI really appreciate you being so clear about the partial bowel obstruction and what might be needed. I\u2019m just feeling pretty anxious and uncomfortable right now. Is there anything you can do to help with the pain while I\u2019m here? And, um, how long do patients usually have to stay in the hospital for something like this? I just want to make sure I understand what to expect, and if there\u2019s anything else I should be watching out for while we wait.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain sharper at times"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening abdominal distention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unable to have proper bowel movement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unable to pass much gas"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "help with the pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "how long do patients usually stay in the hospital for partial bowel obstruction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should be watching out for while we wait"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014persistent abdominal pain, distention, and constipation can be very distressing, especially when symptoms are worsening. Based on your clinical assessment and current symptoms, it is appropriate to continue close monitoring in the hospital, provide intravenous fluids, maintain bowel rest (nothing by mouth), and use medications for pain management as needed; surgery would only be considered if your symptoms progress or if there are signs of complications such as infection or complete obstruction. While we continue your treatment, have you noticed any new symptoms such as fever, chills, or changes in your mental status since your last examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent abdominal pain, distention, and constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "close monitoring in the hospital, intravenous fluids, bowel rest (nothing by mouth), medications for pain management"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "surgery if symptoms progress or complications arise"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new symptoms such as fever, chills, or changes in mental status"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so clearly, doctor. Um, since my last examination, I haven\u2019t noticed any new symptoms like fever or chills, and my mental status feels about the same\u2014just tired and a bit out of it from being uncomfortable, but nothing out of the ordinary for me. The abdominal pain and distention are still there, and I\u2019m still having trouble with constipation.\n\nI really appreciate you keeping such a close eye on symptoms. Is there anything else I should be watching out for while I\u2019m here? And, um, how will I know if symptoms are getting worse or if I might need surgery? I just want to make sure I\u2019m doing everything I can to help my recovery and avoid any complications.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining everything so clearly, doctor."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new symptoms like fever or chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status feels about the same\u2014just tired and a bit out of it from being uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain and distention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble with constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I really appreciate you keeping such a close eye on symptoms."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything else I should be watching out for while I\u2019m here?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "how will I know if symptoms are getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "if I might need surgery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Precaution",
+          "value": "I just want to make sure I\u2019m doing everything I can to help my recovery and avoid any complications."
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing your symptoms in such detail and for your thoughtful questions. Based on your clinical assessment, your persistent abdominal pain, distention, and constipation are consistent with a partial bowel obstruction, and it is appropriate to continue close monitoring, maintain bowel rest, provide intravenous fluids, and use pain management as needed. If you develop new symptoms such as increasing abdominal pain, fever, vomiting, or any changes in your mental status, please notify the medical team immediately, as these could indicate worsening of your condition or the need for surgical intervention. Are you experiencing any difficulty breathing or chest discomfort along with your current abdominal symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "partial bowel obstruction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "close monitoring, bowel rest, intravenous fluids, pain management"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing abdominal pain, fever, vomiting, changes in mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "notify the medical team immediately if new symptoms develop"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty breathing, chest discomfort"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so thoroughly, doctor. Um, I\u2019m not having any difficulty breathing or chest discomfort right now\u2014just the abdominal pain, distention, and constipation like we talked about. I do feel a bit anxious and uncomfortable, but my breathing feels normal.\n\nI really appreciate you keeping me informed about what to watch for. Is there anything else I can do to help with the discomfort while I\u2019m here? And, um, how will you know if the partial bowel obstruction is starting to resolve? I just want to make sure I\u2019m doing everything I can to get better and avoid any complications.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no difficulty breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "help with the discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "how will you know if the partial bowel obstruction is starting to resolve"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "make sure I\u2019m doing everything I can to get better and avoid any complications"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014persistent abdominal pain, distention, and constipation can be very uncomfortable and it\u2019s natural to feel anxious about your recovery. Based on your symptoms and our ongoing assessment, we will continue to monitor your abdominal examination closely, provide intravenous fluids, maintain bowel rest, and manage your pain as needed; improvement is usually assessn when abdominal pain lessens, distention decreases, and you are able to pass gas or have a bowel movement. Have you noticed any new ability to pass gas or any decrease in your abdominal distention since your last examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "distention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "monitor abdominal examination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "provide intravenous fluids"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "maintain bowel rest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "manage pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "ability to pass gas"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decrease in abdominal distention"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining all of that, doctor. Um, honestly, I haven\u2019t really noticed any improvement yet. I still haven\u2019t been able to pass gas, and the abdominal distention feels about the same\u2014maybe even a little more uncomfortable at times. The abdominal pain is still there too, especially when I move around.\n\nI\u2019m just feeling pretty uncomfortable and a bit anxious about how long this might last. Is it normal for symptoms like these to take a while to get better? And, um, is there anything else we can try to help with the discomfort or to help symptoms start moving again? I just want to make sure I\u2019m doing everything I can to recover.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "no improvement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unable to pass gas"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is it normal for symptoms to take a while to get better?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything else we can try to help with the discomfort or to help symptoms start moving again?"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014persistent symptoms like abdominal pain, distention, and constipation can be very uncomfortable and understandably cause anxiety. Based on your clinical assessment, it is not uncommon for a partial bowel obstruction to take several days to resolve with supportive care such as intravenous fluids, bowel rest, and pain management; we will continue to monitor your examination findings and laboratory clinical findings closely. Have you experienced any new onset of vomiting or signs of worsening abdominal pain since your last assessment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "distention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "partial bowel obstruction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "supportive care"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous fluids"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "bowel rest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "pain management"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new onset of vomiting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening abdominal pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so clearly, doctor. Um, since the last assessment, I haven\u2019t had any vomiting, but the abdominal pain does seem to get sharper at times, especially when I try to move or shift positions in bed. The distention is still there, and I\u2019m still not able to pass gas or have a proper bowel movement, so I\u2019m just feeling pretty uncomfortable overall.\n\nIs it normal for the abdominal pain and distention to stick around this long with a partial bowel obstruction? And is there anything else we can do to help relieve some of this discomfort while we wait for symptoms to improve? I just want to make sure I\u2019m doing everything I can to help my recovery, because it\u2019s getting a bit hard to stay positive with these symptoms hanging on.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining everything so clearly, doctor."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain gets sharper at times, especially when moving or shifting positions"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distention is still present"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unable to pass gas or have a proper bowel movement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable overall"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it normal for abdominal pain and distention to persist with partial bowel obstruction?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything else we can do to relieve discomfort while waiting for symptoms to improve?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "I want to make sure I\u2019m doing everything I can to help my recovery"
+        }
+      ]
+    }
+  ]
+}

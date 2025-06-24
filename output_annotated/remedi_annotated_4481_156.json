@@ -1,0 +1,1039 @@
+{
+  "source_row_id": 4481,
+  "source_subject_id": 156,
+  "source_hadm_id": 199280,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Good morning, thank you for coming in today. To help guide my assessment, can you describe any symptoms you have noticed recently, such as swelling, changes in urination, or shortness of breath, which could relate to volume overload or changes in kidney function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Good morning, thank you for coming in today."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Good morning, doctor. Um, well, the main thing that\u2019s been bothering me is this back pain. It\u2019s been pretty uncomfortable lately. I\u2019m not sure if it\u2019s related to everything else, but that\u2019s what I\u2019ve noticed the most.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Good morning, doctor."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that\u2014you mentioned your back pain has been quite uncomfortable, and I want to make sure we address that. To help with my assessment, have you noticed any other symptoms such as swelling in your legs, changes in your urine output, or difficulty breathing, which could indicate volume overload or changes in kidney function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um, I know they said something about acute renal failure when I was admitted. I\u2019m not sure exactly what that means for me, but I guess that\u2019s part of why I\u2019m here. Mostly, it\u2019s just this back pain that\u2019s really bothering me right now.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "acute renal failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "acute renal failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for letting me know about your back pain and your concerns regarding acute renal failure\u2014I understand that can be unsettling. In addition to the back pain, have you experienced any symptoms of volume overload, such as swelling in your legs, sudden weight gain, or shortness of breath?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for letting me know about your back pain and your concerns regarding acute renal failure\u2014I understand that can be unsettling."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "symptoms of volume overload, such as swelling in your legs, sudden weight gain, or shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, um, now that you mention it, I have noticed some swelling in my legs\u2014maybe that\u2019s what you mean by volume overload? It\u2019s been a bit puffy, especially around my ankles. And, actually, I\u2019ve had some trouble with mucus plugs in my airway too. It\u2019s made it a little harder to breathe at times. Should I be worried about that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "puffy ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mucus plugs in airway"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to breathe"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about that?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the swelling and difficulty breathing. To help guide my assessment, have you noticed any episodes of coughing up blood or blood-tinged mucus, which could suggest blood clots in your airway?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "coughing up blood or blood-tinged mucus"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "blood clots in airway"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um, actually, yes\u2014I have coughed up a few blood clots, I think. It was kind of alarming. There\u2019s been some mucus too, and sometimes it feels like I just can\u2019t get enough air\u2014like some respiratory insufficiency, I guess. It\u2019s been making me pretty uncomfortable. Is that something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coughed up blood clots"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mucus"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory insufficiency"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is that something serious?"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms so clearly. To help with my assessment, can you tell me if you have experienced any episodes of chest pain, fever, or worsening shortness of breath along with coughing up blood clots and mucus?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for describing your symptoms so clearly."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "coughing up blood clots"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "coughing up mucus"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I haven\u2019t really had any chest pain or fever. The shortness of breath comes and goes, but it hasn\u2019t gotten a lot worse\u2014just kind of stays the same. Other than that, I guess I\u2019ve been mostly asymptomatic, aside from the back pain and the symptoms I mentioned. I just feel pretty uncomfortable and would like to get some relief if possible.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath comes and goes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "relief"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these symptoms, especially the episodes of coughing up blood clots and mucus. To help guide my assessment, have you noticed any changes in the color or amount of your sputum, or have you experienced any new or worsening respiratory symptoms since these episodes began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coughing up blood clots and mucus"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in color or amount of sputum"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening respiratory symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, now that you mention it, the sputum has been thicker than usual and kind of a darker color\u2014sometimes almost brownish. There\u2019s definitely been more of it lately. The respiratory symptoms haven\u2019t really gotten worse, but I do feel like I have to clear my throat a lot more, and sometimes it feels like I\u2019m just not getting enough air in. \n\nIs this something that happens with volume overload or acute renal failure? I\u2019m just feeling pretty uncomfortable and, honestly, a bit anxious about all these symptoms. What should I be watching out for, or is there anything I can do to get some relief?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "thicker sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "darker color sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased sputum production"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "frequent throat clearing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling of not getting enough air"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "volume overload or acute renal failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what to watch out for"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "relief for symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d feel anxious with these symptoms, especially noticing blood clots and changes in your sputum. To help guide my assessment, have you experienced any episodes of sudden or severe shortness of breath, wheezing, or a sensation of airway obstruction when these blood clots appear?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood clots and changes in sputum"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden or severe shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sensation of airway obstruction when blood clots appear"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, when those blood clots come up, I do get this sudden sensation like my airway is kind of blocked\u2014it\u2019s almost like I have to really work to clear it out so I can breathe again. I wouldn\u2019t say it\u2019s full-on severe shortness of breath, but it definitely feels like an obstruction for a little bit until I can cough it up. Sometimes there\u2019s a bit of wheezing too, especially when I\u2019m trying to catch my breath afterward.\n\nIs that something that happens often with my kind of medical history? Should I be doing anything different when that happens, or is there a way to prevent these mucus plugs and blood clots from building up? I just want to make sure I\u2019m not missing something serious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sudden sensation of airway blockage"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "need to work to clear airway to breathe"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling of obstruction until coughing up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing after trying to catch breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "frequency of airway obstruction symptoms with medical history"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "actions to take during airway obstruction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "ways to prevent mucus plugs and blood clots"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "concern about missing something serious"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms so clearly. To help guide my assessment, have you noticed any changes in your voice, difficulty swallowing, or persistent hoarseness when these blood clots and mucus plugs occur in your airway?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in voice"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "persistent hoarseness"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, yeah, I have noticed my voice gets kind of hoarse sometimes, especially after I\u2019ve been coughing up those mucus plugs or blood clots. It\u2019s not all the time, but it does linger for a bit. I haven\u2019t really had much trouble swallowing\u2014maybe just a little bit of a scratchy feeling in my throat, but nothing that makes it hard to eat or drink.\n\nIs persistent hoarseness something I should be worried about with these symptoms? I just want to make sure I\u2019m not missing anything serious, and honestly, I\u2019d really like to get some relief from all this discomfort. Is there anything you recommend to help with the airway obstruction or the mucus plugs?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hoarse voice"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coughing up mucus plugs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coughing up blood clots"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "scratchy feeling in throat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "persistent hoarseness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "relief for airway obstruction or mucus plugs"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d feel anxious given your symptoms, especially with the airway obstruction, coughing up blood clots, and persistent hoarseness. Based on your medical history and these recent symptoms, I am concerned about possible airway irritation or bleeding, which could be related to your recent surgery, volume overload, or underlying respiratory conditions. To help guide my assessment, have you experienced any episodes of significant bleeding from your mouth or nose, or noticed blood in your sputum outside of these clots?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "airway obstruction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coughing up blood clots"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent hoarseness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Other",
+          "value": "possible airway irritation or bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent surgery"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "volume overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "underlying respiratory conditions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "significant bleeding from mouth or nose"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "blood in sputum outside of clots"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um, I haven\u2019t had any big episodes of bleeding from my mouth or nose\u2014nothing like a nosebleed or blood just pouring out. It\u2019s really just been those blood clots in my sputum, and sometimes the mucus is streaked with a little blood, but not a lot. I guess that\u2019s what you mean by blood in the sputum outside of the clots. \n\nIt\u2019s definitely made me more anxious, especially with my history of MRSA pneumonia and emphysema. I keep wondering if this is something serious or if it could get worse. Is there anything specific I should be watching for, or anything I can do to help clear these mucus plugs and prevent more airway obstruction? I\u2019d really appreciate any advice to get some relief\u2014I\u2019m just feeling pretty uncomfortable with all of this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood clots in sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mucus streaked with blood"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "MRSA pneumonia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "emphysema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything specific I should be watching for"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "anything I can do to help clear these mucus plugs and prevent more airway obstruction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "any advice to get some relief"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially given your history of MRSA pneumonia and emphysema, and now experiencing blood clots in your airway along with increased mucus and hoarseness. Based on your symptoms and recent laboratory findings, I am concerned about ongoing airway irritation and possible bleeding, which could be related to your underlying respiratory conditions or recent surgical interventions. To help guide my assessment, have you noticed any worsening of your respiratory symptoms\u2014such as increased frequency or severity of shortness of breath, or any new onset of chest discomfort\u2014since these blood clots began appearing?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "MRSA pneumonia and emphysema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood clots in airway, increased mucus, hoarseness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ongoing airway irritation and possible bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "related to underlying respiratory conditions or recent surgical interventions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening of respiratory symptoms, increased frequency or severity of shortness of breath, new onset of chest discomfort since blood clots began"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yeah, I appreciate you explaining all that, doctor. Since these blood clots started showing up, I wouldn\u2019t say my shortness of breath has gotten a lot worse, but it does seem to happen a bit more often\u2014especially when I\u2019m trying to clear out the mucus plugs. It\u2019s not constant, but there are moments where I feel like I need to catch my breath. I haven\u2019t really had any new chest discomfort, though\u2014no chest pain or pressure, just the same back pain I mentioned before.\n\nHonestly, this whole condition is making me pretty uncomfortable and anxious. Is this kind of airway irritation and bleeding something that\u2019s expected after my surgery, or is it more likely related to my emphysema or MRSA history? And is there anything specific I can do to help with the mucus plugs or to prevent more blood clots from forming in my airway? I\u2019d really like to get some relief and make sure I\u2019m not missing something serious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mucus plugs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "airway irritation and bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "emphysema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "MRSA"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "airway irritation and bleeding expected after surgery or related to emphysema/MRSA"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "ways to help with mucus plugs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "ways to prevent more blood clots in airway"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with your recent airway symptoms, history of emphysema and MRSA pneumonia, and the discomfort from back pain and swelling. Based on your medical history, recent surgery, and current symptoms\u2014including blood-tinged sputum, mucus plugs, and intermittent shortness of breath\u2014these findings could be related to airway irritation, underlying lung disease, or postoperative changes.\n\nTo help guide my assessment further, have you experienced any fevers, chills, or night sweats recently, which could indicate an active infection or inflammation contributing to your respiratory symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "emphysema and MRSA pneumonia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain and swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood-tinged sputum, mucus plugs, and intermittent shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "airway irritation, underlying lung disease, or postoperative changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fevers, chills, or night sweats"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I haven\u2019t really had any fevers or chills that I\u2019ve noticed. No night sweats either\u2014I\u2019ve been examinationing for that because I know it can be a sign of infection, especially with my history of MRSA pneumonia. Mostly it\u2019s just the blood-tinged sputum, mucus plugs, and this ongoing back pain and swelling that\u2019s making me uncomfortable.\n\nIs it possible for airway irritation or these postoperative changes to cause all these symptoms without an infection? And is there anything I can do at home to help clear the mucus plugs or manage the swelling? I just want to make sure I\u2019m doing everything I can to get some relief and not let symptoms get worse.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no night sweats"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "MRSA pneumonia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood-tinged sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mucus plugs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "airway irritation or postoperative changes causing symptoms without infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "home remedies to clear mucus plugs or manage swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "ways to prevent symptoms from getting worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details and for monitoring your symptoms so carefully. Based on your medical history, recent surgery, and current symptoms\u2014including blood-tinged sputum, mucus plugs, back pain, and swelling\u2014it is possible that airway irritation and postoperative changes are contributing to your respiratory symptoms, even in the absence of infection. \n\nAt home, strategies such as staying well-hydrated, using a humidifier, and performing gentle airway clearance techniques (like controlled coughing or chest physiotherapy if recommended) may help reduce mucus plugs. For swelling, elevating your legs and monitoring your fluid intake as advised can be beneficial, but it is important to follow any specific instructions from your care team regarding volume management due to your history of acute renal failure.\n\nGiven your ongoing symptoms, I recommend close monitoring for any new or worsening shortness of breath, increased swelling, or signs of infection. Have you recently had a follow-up examination with your surgical or pulmonary team since discharge to reassess your airway and volume status?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent surgery, acute renal failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood-tinged sputum, mucus plugs, back pain, swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Pathogeny",
+          "value": "airway irritation and postoperative changes contributing to respiratory symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "stay well-hydrated, use a humidifier, perform gentle airway clearance techniques"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "elevate legs and monitor fluid intake for swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "follow specific instructions from care team regarding volume management"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor for new or worsening shortness of breath, increased swelling, or signs of infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "follow-up examination with surgical or pulmonary team since discharge"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor, that\u2019s really helpful. Um, to answer your question\u2014I haven\u2019t had a follow-up with my surgical or pulmonary team yet since I was discharged. I\u2019ve mostly just been trying to manage symptoms at home, like keeping my legs elevated and watching my fluid intake like you mentioned. I do try to stay hydrated, but sometimes I worry about drinking too much because of the acute renal failure.\n\nI\u2019m definitely still feeling pretty uncomfortable, especially with the back pain and the mucus plugs\u2014sometimes it feels like I\u2019m just not getting enough relief. Is it important that I see my surgical or pulmonary team soon, or should I be coming in sooner if the blood-tinged sputum or swelling gets worse? And for the airway clearance\u2014are there specific techniques you recommend, or should I ask for a referral to someone who can show me chest physiotherapy?\n\nI just want to make sure I\u2019m doing everything right and not letting symptoms get worse. Thank you for taking the time to explain all this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "no follow-up with surgical or pulmonary team since discharge"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mucus plugs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood-tinged sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "keeping legs elevated"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "watching fluid intake"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "trying to stay hydrated"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "acute renal failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is it important to see surgical or pulmonary team soon?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I come in sooner if blood-tinged sputum or swelling gets worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Are there specific airway clearance techniques you recommend?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I ask for a referral for chest physiotherapy?"
+        }
+      ]
+    }
+  ]
+}

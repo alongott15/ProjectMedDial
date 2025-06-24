@@ -1,0 +1,28 @@
+
+🤖 ReMeDi Fixed Batch Validation Report
+═══════════════════════════════════════════
+
+📊 SUMMARY STATISTICS:
+├─ Total files processed: 19
+├─ Successful validations: 19
+├─ Failed validations: 0
+├─ Missing dialogue files: 0
+├─ Success rate: 100.0%
+└─ Total processing time: 425.0s
+
+🎯 AGGREGATED QUALITY SCORES:
+Overall Quality: 0.784/1.000 - 👍 GOOD
+
+Component Scores:
+├─ Structural Consistency: 0.941
+├─ Semantic Coherence: 0.749
+├─ Medical Relevance: 0.826
+└─ Annotation Completeness: 0.723
+
+🏆 TOP PERFORMING FILES:
+1. remedi_annotated_4482_84629.json: 0.898
+2. remedi_annotated_4489_26977.json: 0.880
+3. remedi_annotated_4481_156.json: 0.870
+4. remedi_annotated_4492_15298.json: 0.868
+5. remedi_annotated_4488_65904.json: 0.854
+

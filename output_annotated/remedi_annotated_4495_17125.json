@@ -1,0 +1,1479 @@
+{
+  "source_row_id": 4495,
+  "source_subject_id": 17125,
+  "source_hadm_id": 127377,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing increasing sleepiness and labored breathing over the past week. Can you describe if your symptoms of shortness of breath are worse with activity or while you are at rest?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "labored breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "worse with activity or at rest"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Um, hello, doctor. Well, I guess my main concern is just this labored breathing\u2014it\u2019s been getting worse lately. I\u2019m feeling pretty anxious about it, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "labored breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014worsening labored breathing can be very distressing. To help me better assess your symptoms, can you tell me if your shortness of breath is present all the time or if it gets worse when you are physically active or lying down?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening labored breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "if shortness of breath is constant or worsens with activity or lying down"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Um, well\u2026 I think the shortness of breath is there most of the time, but it does seem a bit worse when I try to move around. I get more anxious when that happens. Should I be worried?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "worse when moving around"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014experiencing constant shortness of breath and anxiety can be very unsettling. In addition to your breathing symptoms, have you noticed any changes in your level of alertness, such as increased sleepiness or experiencing unusually lethargic during the day?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried\u2014experiencing constant shortness of breath and anxiety can be very unsettling."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in level of alertness, increased sleepiness, unusually lethargic during the day"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have been feeling more sleepy during the day. I guess you\u2019d call it increased sleepiness, and maybe a bit lethargic too. It\u2019s like I just don\u2019t have much energy, even when I\u2019m awake. I\u2019m not sure if that\u2019s related to my other symptoms, but it\u2019s been worrying me.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased sleepiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lack of energy"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that\u2014you mentioned both increased sleepiness and lethargy. To help with my assessment, have you experienced any confusion, difficulty concentrating, or changes in your mental alertness along with these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty concentrating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in mental alertness"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 let me think. I don\u2019t think I\u2019ve been really confused, but I have noticed it\u2019s harder to concentrate lately. I guess you could say there\u2019s been some increased somnolence. And, actually, my respiratory status seems to be getting worse\u2014I just feel like I\u2019m working harder to breathe than before. It\u2019s making me pretty anxious, honestly.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to concentrate"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "working harder to breathe"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014experiencing increased sleepiness, lethargy, and worsening respiratory symptoms can be very concerning. To help with my assessment, have you noticed any new symptoms such as headaches, nausea, or swelling in your legs or feet along with your increased somnolence and breathing difficulties?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "headaches"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in legs or feet"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "breathing difficulties"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I have had some headpains off and on, but I thought maybe that was just from not sleeping well. I haven\u2019t really noticed any nausea or swelling in my legs or feet. But, actually, I feel like I\u2019m having more respiratory distress lately\u2014it\u2019s just harder to catch my breath, and sometimes I feel like I can\u2019t get enough air in. It\u2019s making me pretty anxious, to be honest. Should I be worried about these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headpains"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no swelling in legs or feet"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory distress"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to catch breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sometimes can't get enough air"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014worsening respiratory distress and increased sleepiness are important symptoms to pay attention to. To help with my assessment, have you noticed any changes in your ability to stay awake during the day, such as episodes where you unintentionally fall asleep or have difficulty staying alert during conversations or activities?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory distress"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ability to stay awake during the day"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of unintentionally falling asleep"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty staying alert during conversations or activities"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Well, actually\u2026 yes, I have noticed that it\u2019s been harder for me to stay awake during the day. Sometimes I\u2019ll just sort of doze off without meaning to, even if I\u2019m in the middle of a conversation or watching TV. It\u2019s not like me\u2014I usually try to keep myself alert, but lately I just feel overwhelmingly sleepy. \n\nIs this something that happens with worsening respiratory status? Should I be really concerned about these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to stay awake during the day"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dozing off without meaning to"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "overwhelmingly sleepy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "worsening respiratory status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "concern about these symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms\u2014experiencing increasing sleepiness and unintentional episodes of dozing off, especially with worsening respiratory status, is concerning. To help with my assessment, have you noticed any changes in your skin color, such as becoming more pale or developing a bluish tint around your lips or fingertips?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unintentional episodes of dozing off"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in skin color"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "becoming more pale"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "bluish tint around lips or fingertips"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 let me think. I haven\u2019t really noticed if my skin is more pale, but now that you mention it, I think my daughter said my lips looked a little bluish the other day. I didn\u2019t really pay much attention at the time, but now I\u2019m wondering if that\u2019s related to my respiratory distress and increased somnolence. \n\nIs that a sign that something serious is going on with my oxygen levels? Should I be doing something different at home, or do I need to come in right away?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lips looked a little bluish"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory distress"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is bluish lips a sign of something serious with oxygen levels?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I be doing something different at home or come in right away?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s important to consider all your symptoms together. In addition to your increasing sleepiness and lethargy, have you experienced any recent changes in your appetite or difficulty eating or drinking that might be contributing to your current condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty eating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty drinking"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I guess my appetite hasn\u2019t been great lately. I haven\u2019t really felt like eating much, and sometimes I just don\u2019t have the energy to make myself something. Drinking fluids is okay, but I\u2019m probably not drinking as much water as I should, either. \n\nDo you think all of these symptoms\u2014like the increased somnolence, respiratory distress, and now the poor appetite\u2014could be connected? I\u2019m just feeling really anxious about what\u2019s going on, and I\u2019m not sure if I should be doing something differently at home or if this is something serious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased energy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not drinking enough water"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "connection between increased somnolence, respiratory distress, and poor appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be doing something differently at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "is this something serious"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014experiencing increasing sleepiness, lethargy, poor appetite, and worsening respiratory distress can be very concerning, especially with the bluish discoloration noted on your lips. Based on your symptoms and medical history, I am concerned that your respiratory status may be affecting your oxygen levels and overall alertness. To help with my assessment, have you recently measured your oxygen saturation at home, or do you have access to a pulse oximeter to examine your current oxygen levels?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory distress"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bluish discoloration on lips"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "respiratory status may be affecting oxygen levels and alertness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "oxygen saturation measurement at home"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "access to pulse oximeter"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Oh, um\u2026 yes, I do have a pulse oximeter at home because of my COPD. I examinationed my oxygen saturation earlier today, and it was around 88%, maybe 89%\u2014it\u2019s usually higher than that when I\u2019m on my oxygen. I\u2019ve been using my oxygen more, but it doesn\u2019t seem to be helping as much as it used to. \n\nIs that low oxygen saturation something I should be really worried about? Does it explain the increased somnolence and respiratory distress I\u2019ve been having? I\u2019m just not sure what I should do next\u2014should I adjust my oxygen or come in to be seen?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "oxygen saturation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "88-89%"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory distress"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "using oxygen more"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "Is low oxygen saturation something to be worried about?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Does low oxygen explain increased somnolence and respiratory distress?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I adjust my oxygen or come in to be seen?"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms\u2014experiencing low oxygen saturation, increasing sleepiness, and persistent respiratory distress is understandably concerning, especially given your medical history of COPD. Based on your current symptoms and home oxygen readings, I am concerned that your hypoxemia may be contributing to your increased somnolence and lethargy. Have you noticed any changes in your ability to communicate clearly or any new slurring of speech during these episodes of increased sleepiness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent respiratory distress"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "hypoxemia contributing to increased somnolence and lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ability to communicate clearly"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new slurring of speech during episodes of increased sleepiness"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I think there have been a couple of times when my words came out a little slurred, or I just couldn\u2019t get the right words out as quickly as I wanted to. It\u2019s not all the time, but it\u2019s happened when I was feeling especially sleepy or having more shortness of breath. \n\nDoes hypoxemia usually cause that kind of thing? I\u2019m starting to get really worried\u2014should I be doing something right now to help with these symptoms, or do I need to come in and be seen in person?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slurred speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty finding words"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Does hypoxemia cause slurred speech or difficulty finding words?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I be doing something right now to help with these symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medical-place",
+          "value": "Do I need to come in and be seen in person?"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious\u2014experiencing increased somnolence, slurred speech, low oxygen saturation, and worsening respiratory distress are all concerning symptoms, especially with your medical history of COPD. Based on your current symptoms and examination findings at home, have you noticed any recent fever, chills, or signs of infection that could be contributing to your current respiratory status?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slurred speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory distress"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "signs of infection"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really had a fever that I know of, and I don\u2019t think I\u2019ve had any chills either. I haven\u2019t noticed any cough with sputum or anything like that\u2014just this persistent shortness of breath and increased somnolence. My respiratory distress just seems to be getting worse, and now with the low oxygen saturation and even some slurred speech, I\u2019m honestly getting pretty scared.\n\nIs it possible for my COPD to get this bad without an infection? Or could something else be causing these symptoms? I just want to make sure I\u2019m not missing something serious, and I\u2019m not sure if I should try to manage this at home or if it\u2019s safer to come in and be seen right away.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no cough with sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory distress"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slurred speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "COPD exacerbation without infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "other causes for symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "whether to manage at home or seek immediate care"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014your symptoms of worsening respiratory distress, increased somnolence, low oxygen saturation, and occasional slurred speech are concerning and could indicate significant hypoxemia or respiratory failure, even without signs of infection. Based on your medical history of COPD and your current assessment, I strongly recommend that you assessk immediate in-person medical evaluation to examine your oxygenation and overall condition more closely. Before you go in, have you noticed any recent chest pain or palpitations along with your other symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory distress"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "occasional slurred speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "hypoxemia or respiratory failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "immediate in-person medical evaluation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent chest pain or palpitations"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 thank you for explaining all of that. I haven\u2019t really had any chest pain, but now that you ask, I think I have felt my heart racing a little bit\u2014maybe some palpitations, especially when my shortness of breath gets worse. It\u2019s not constant, but it\u2019s definitely happened a few times.\n\nI\u2019m feeling pretty anxious about all these symptoms, especially with the low oxygen saturation and increased somnolence. I just want to make sure I\u2019m doing the right thing. So you think I should come in right away for an in-person evaluation? Is there anything I should do with my oxygen or medications before I leave, or just head straight in?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I come in right away for an in-person evaluation?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything I should do with my oxygen or medications before I leave, or just head straight in?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious\u2014your symptoms of worsening respiratory distress, low oxygen saturation, increased somnolence, and palpitations are concerning, especially given your medical history of COPD. Based on my assessment, I strongly recommend that you assessk immediate in-person medical evaluation, as these symptoms may indicate respiratory failure or significant hypoxemia that require urgent intervention. Before you leave, are you able to safely continue your supplemental oxygen at your prescribed rate during transport, and do you have someone who can accompany you to ensure your safety on the way to the hospital?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory distress"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "immediate in-person medical evaluation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "respiratory failure or significant hypoxemia (possible)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Medicine-category",
+          "value": "supplemental oxygen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Dose",
+          "value": "prescribed rate"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "someone to accompany to hospital"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor. Um, yes, I can keep using my supplemental oxygen at the rate my pulmonologist prescribed\u2014I have a portable tank I can take with me. My daughter is here with me right now, so she can drive me to the hospital and stay with me during transport.\n\nI\u2019m still feeling pretty anxious about all of this. Is there anything specific I should watch for or do on the way in? And, um, should I bring all my current medications with me? I just want to make sure I\u2019m doing everything right since you mentioned the possibility of respiratory failure and hypoxemia.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "using supplemental oxygen at prescribed rate"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "supplemental oxygen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medical-place",
+          "value": "hospital"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "daughter can drive and stay during transport"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Symptom",
+          "slot": "Symptom",
+          "value": "feeling anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything specific to watch for or do on the way in"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "should I bring all my current medications"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Other",
+          "slot": "Disease",
+          "value": "respiratory failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Other",
+          "slot": "Disease",
+          "value": "hypoxemia"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious\u2014your symptoms and medical history make this a very stressful condition. It\u2019s excellent that you have your supplemental oxygen and your daughter to assist with transport. On your way to the hospital, please continue to monitor for any worsening symptoms such as increased shortness of breath, severe chest pain, or further changes in mental alertness, and bring all your current medications with you for the medical team\u2019s assessment. Have you experienced any recent episodes of loss of consciousness or fainting during these periods of increased somnolence?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "stressful condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "supplemental oxygen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor for worsening symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Symptom",
+          "value": "severe chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Symptom",
+          "value": "changes in mental alertness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine",
+          "value": "bring all current medications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent episodes of loss of consciousness or fainting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "periods of increased somnolence"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 no, I haven\u2019t actually lost consciousness or fainted, even though I\u2019ve been really sleepy and sometimes kind of out of it. I do get a little lightheaded when I stand up, but I haven\u2019t completely passed out. I\u2019ll definitely keep an eye on that on the way in, like you said.\n\nThank you for being so thorough with your assessment. Is there anything else I should mention to the emergency team when I arrive? And, um, should I let them know about my history of SIADH and rectal adenocarcinoma too, or just focus on the respiratory distress and hypoxemia for now? I just want to make sure they have all the information they need.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sleepiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness when standing up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no loss of consciousness or fainting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything else I should mention to the emergency team?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "Should I let them know about my history of SIADH and rectal adenocarcinoma?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Should I focus on respiratory distress and hypoxemia for now?"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "You\u2019re doing exactly the right thing by preparing to bring all your current medications and sharing your full medical history, including SIADH and rectal adenocarcinoma, with the emergency team\u2014this information is essential for a thorough assessment of your condition. Based on your symptoms of worsening respiratory distress, hypoxemia, increased somnolence, and your complex medical history, immediate in-person evaluation is necessary to examine for potential respiratory failure or other acute complications. On arrival, please let the team know about your recent oxygen saturation readings, episodes of slurred speech, and any lightheadedness you\u2019ve experienced. \n\nBefore you leave, have you had any recent changes in urinary output or noticed any swelling that could suggest fluid retention, given your history of SIADH?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "Bring all current medications and share full medical history with emergency team"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "SIADH and rectal adenocarcinoma"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "worsening respiratory distress, hypoxemia, increased somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "Immediate in-person evaluation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in urinary output or swelling"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Um, let me think\u2026 I haven\u2019t really noticed any big changes in my urinary output\u2014it seems about the same as usual. And I haven\u2019t seen any swelling in my legs or feet, so I don\u2019t think I\u2019m retaining fluid right now. But I\u2019ll make sure to mention my history of SIADH and rectal adenocarcinoma when I get there, along with all the symptoms we talked about\u2014like the hypoxemia, increased somnolence, respiratory distress, and the slurred speech.\n\nThank you for being so thorough and patient with me. Is there anything else I should watch for or tell the emergency team when I arrive? And, um, should I expect to need any special tests or treatments because of my complex medical history? I just want to be prepared.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no change in urinary output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no swelling in legs or feet"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "SIADH"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "rectal adenocarcinoma"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory distress"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slurred speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else to watch for or tell the emergency team"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "need any special tests"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "need any special treatments"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing all of this information and for being so thorough in describing your symptoms and medical history\u2014it\u2019s very helpful for your assessment. Based on your worsening respiratory distress, hypoxemia, increased somnolence, and history of COPD, it is important that you receive urgent in-person evaluation, as you may require supplemental oxygen adjustment, advanced respiratory support, or further diagnostic diagnostic evaluationing such as arterial blood gas analysis and chest imaging. When you arrive, please inform the emergency team about your recent laboratory clinical findings, especially your sodium level given your history of SIADH. \n\nBefore you leave, have you experienced any recent changes in your vision or new onset of confusion that could indicate worsening hypoxemia or other acute complications?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "urgent in-person evaluation, supplemental oxygen adjustment, advanced respiratory support, further diagnostic evaluation such as arterial blood gas analysis and chest imaging"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory distress, hypoxemia, increased somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD, SIADH"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "sodium level, laboratory clinical findings"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in vision, new onset of confusion"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 actually, now that you mention it, I think my vision has been a little bit blurry at times, especially when I\u2019m feeling more sleepy or lightheaded. I haven\u2019t had any sudden vision loss or anything like that, but symptoms just seem a bit fuzzier than usual. As for confusion, I don\u2019t think I\u2019ve been really confused, but sometimes it takes me a moment to gather my thoughts or find the right words\u2014especially when my shortness of breath is worse or my oxygen saturation is low.\n\nI\u2019ll definitely let the emergency team know about all of these symptoms, including my sodium levels and SIADH history. Is there anything specific I should mention about my recent laboratory findings, or just that my sodium can run low? And, um, should I expect to need symptoms like arterial blood gas analysis or chest imaging right away? I just want to be as prepared as possible. Thank you for being so thorough and patient with me\u2014I really appreciate it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blurry vision"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sleepiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty gathering thoughts"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "word-finding difficulty"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "SIADH"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "low sodium levels"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "recent laboratory findings to mention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "need for arterial blood gas analysis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "need for chest imaging"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1315 @@
+{
+  "source_row_id": 4504,
+  "source_subject_id": 17125,
+  "source_hadm_id": 180931,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing stuttering chest pain and shortness of breath with exertion. Can you tell me more about when these symptoms began and if there is anything that assessms to trigger or relieve them?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Um, yes, thank you, doctor. Well, the main thing that\u2019s been worrying me is this stuttering chest pain I\u2019ve been having. It started last night and, um, I\u2019m just not sure what\u2019s causing it. I\u2019m a little anxious about it, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "stuttering chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "started last night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014chest pain can be very concerning, especially given your medical history. To help me with my assessment, can you describe whether your chest pain is associated with any shortness of breath or difficulty breathing, particularly when you exert yourself?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "relation to exertion"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um, yes, I did notice the chest pain was right in the center\u2014substernal, I think you\u2019d call it. It started around 7:00 last night. That\u2019s really what\u2019s been on my mind. I\u2019m just worried because it sort of came out of nowhere.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "center of chest (substernal)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "started around 7:00 last night"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the sudden onset of substernal chest pain last night. To help with my assessment, can you tell me if you also experienced any shortness of breath or dyspnea on exertion when the chest pain occurred?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sudden onset of substernal chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2026 now that you mention it, I did have some shortness of breath\u2014um, I guess you\u2019d call it dyspnea on exertion\u2014when the chest pain started last night. It happened again early this morning, around 5:00 a.m., the chest pain sort of came back. When I first got up to the floor here, the pain was pretty mild, maybe like a 1 out of 10, but it was still there. I\u2019m just not sure if I should be worried about these symptoms lingering like this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "last night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "early this morning, around 5:00 a.m."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "mild, 1 out of 10"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "should be worried about these symptoms lingering"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these lingering symptoms, especially given your medical history and the recent episodes of substernal chest pain with dyspnea on exertion. During these episodes, did you notice any other associated symptoms such as nausea, sweating, palpitations, or lightheadedness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lingering symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recent episodes of substernal chest pain with dyspnea on exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea, sweating, palpitations, or lightheadedness during episodes"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 um, yes, actually, I did feel a bit nauseated, especially when I first got up here to the floor. I didn\u2019t really notice any sweating or palpitations, but the nausea was there, and I even vomited once. The chest pain and dyspnea on exertion were still bothering me, too. I just feel kind of worn out and, honestly, a little scared about what\u2019s going on.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014experiencing substernal chest pain with nausea and shortness of breath can be very unsettling, especially given your medical history. To help with my assessment, can you tell me if the chest pain radiated to your arm, neck, jaw, or back during these episodes?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain radiating to arm, neck, jaw, or back"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um, let me think\u2026 No, I don\u2019t think the chest pain really radiated to my arm or jaw, or anything like that. It kind of just stayed right in the center of my chest. But, like I mentioned, I did have that dyspnea on exertion last night around 7:00 p.m., and then when I got up here to the floor, I felt pretty nauseated and ended up vomiting once. I\u2019m still feeling a bit anxious about all these symptoms, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "last night around 7:00 p.m."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014these symptoms can be very concerning, especially given your medical history of coronary artery disease. To help with my assessment, can you tell me if your substernal chest pain or dyspnea on exertion have been associated with any physical activity or emotional stress, or do they occur even at rest?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "coronary artery disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "substernal chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "association of symptoms with physical activity or emotional stress or at rest"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Well, um, let me think\u2026 I guess the substernal chest pain and dyspnea on exertion seem to happen more when I\u2019m up and moving around, like if I walk down the hall or even just get up from bed. But honestly, last night it kind of started when I was just sitting quietly, so I\u2019m not sure if it\u2019s always tied to activity or not. I haven\u2019t really noticed a strong connection to emotional stress, but I have been feeling pretty anxious since all this started.\n\nAlso, I wanted to mention\u2014I\u2019ve been feeling really fatigued, just kind of worn out ever since the chest pain episodes. And after the catheterization, I felt more nauseated than usual. Is that something I should be worried about?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea after catheterization"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "concern about nausea after catheterization"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially given your history and the recent episodes of substernal chest pain and dyspnea on exertion. To help with my assessment, can you describe whether the chest pain is accompanied by any pressure, tightness, or heaviness in your chest during these episodes?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pain and dyspnea on exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain accompanied by pressure, tightness, or heaviness"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2014now that you mention it, there is kind of a pressure or heaviness that comes with the chest pain. It\u2019s not really sharp, more like a tightness right in the center of my chest. Sometimes it feels like something is just sort of sitting there, making it hard to take a deep breath, especially when I\u2019m moving around. \n\nI\u2019m still feeling pretty anxious about all of this, especially since the symptoms haven\u2019t completely gone away. Should I be worried that I\u2019m still having this pressure and dyspnea on exertion after the stent placement? Is this normal, or does it mean something\u2019s wrong with the stent or my heart?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pressure or heaviness with chest pain, tightness in center of chest, hard to take a deep breath, dyspnea on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried that I\u2019m still having this pressure and dyspnea on exertion after the stent placement?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is this normal, or does it mean something\u2019s wrong with the stent or my heart?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially since you\u2019re still experiencing pressure and dyspnea on exertion after your stent placement. To help with my assessment, can you tell me if your symptoms of chest pressure and shortness of breath are improving, staying the same, or getting worse since the procedure?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be anxious"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pressure and dyspnea on exertion after stent placement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pressure and shortness of breath improving, staying the same, or getting worse since the procedure"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um, honestly, I think the symptoms are kind of staying the same. The chest pressure and dyspnea on exertion haven\u2019t really improved much since the stent placement. I was hoping I\u2019d feel a lot better by now, but I still get that tightness in my chest and shortness of breath when I try to do anything more than just sit or lie down. \n\nIt\u2019s making me pretty anxious, to be honest. Should I be worried that the stent isn\u2019t working, or could something else be causing these symptoms? Is this kind of recovery normal after a myocardial infarction and stent placement, or should I be expecting to feel better by now?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tightness in chest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "stent effectiveness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "other causes for symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "normal recovery after myocardial infarction and stent placement"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially since your symptoms of substernal chest pain and dyspnea on exertion have not improved since your stent placement. Based on your medical history and the persistence of these symptoms, my assessment will focus on ensuring your heart is receiving adequate blood flow and that there are no complications from your recent myocardial infarction or stent procedure. To help guide my clinical evaluation, have you noticed any new or worsening symptoms such as palpitations, dizziness, or swelling in your legs since the procedure?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "stent placement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "myocardial infarction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in your legs"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I haven\u2019t really noticed any palpitations or dizziness since the procedure. I haven\u2019t had any swelling in my legs either\u2014at least nothing that I can see or feel. It\u2019s mostly just the persistent chest pressure and dyspnea on exertion that are bothering me.\n\nI guess I\u2019m just worried because I thought I\u2019d feel a lot better after the stent placement, but these symptoms haven\u2019t really improved. Is it common to still have substernal chest pain and shortness of breath after a myocardial infarction and stent procedure? Or does this mean there could be a problem with my heart or the stent?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent chest pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it common to still have substernal chest pain and shortness of breath after a myocardial infarction and stent procedure?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Or does this mean there could be a problem with my heart or the stent?"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these persistent symptoms, especially after your recent myocardial infarction and stent placement. Based on your description of ongoing substernal chest pressure and dyspnea on exertion, my assessment will focus on ensuring there are no complications such as incomplete revascularization or residual ischemia. To guide the next steps in your clinical evaluation, have you experienced any changes in your exercise tolerance or ability to perform daily activities compared to before your hospitalization?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent myocardial infarction and stent placement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ongoing substernal chest pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible complications such as incomplete revascularization or residual ischemia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "changes in exercise tolerance or ability to perform daily activities compared to before hospitalization"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yes, actually, now that you mention it, I have noticed a change in my exercise tolerance. Before all of this happened, I could do my usual daily activities\u2014like walking around the house or going up and down the stairs\u2014without too much trouble. But since the myocardial infarction and stent placement, I get shortness of breath and that substernal chest pressure even with pretty minimal activity. Sometimes just getting up to use the restroom makes me feel fatigued and a little winded.\n\nI\u2019m honestly feeling pretty anxious about it, because I thought my symptoms would improve after the procedure. Is it normal to have this kind of residual ischemia or decreased exercise tolerance after a stent? Or does this mean something might still be wrong with my heart? Should I be doing anything differently, or is there something else you\u2019d recommend to help with these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased exercise tolerance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling winded"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "myocardial infarction and stent placement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Is it normal to have residual ischemia or decreased exercise tolerance after a stent?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Does this mean something might still be wrong with my heart?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Recommendation",
+          "value": "Should I be doing anything differently, or is there something else you\u2019d recommend to help with these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried and anxious, especially since your symptoms of substernal chest pressure and dyspnea on exertion have persisted after your myocardial infarction and stent placement. Based on your medical history and the clinical findings you\u2019ve described\u2014including decreased exercise tolerance and ongoing chest pressure\u2014my assessment will focus on evaluating for residual myocardial ischemia or other cardiac complications. To help guide the next steps, have you experienced any episodes of chest discomfort or shortness of breath at rest, or are these symptoms only present with physical activity?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "myocardial infarction and stent placement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased exercise tolerance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "residual myocardial ischemia or other cardiac complications (suspected)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of chest discomfort or shortness of breath at rest versus with physical activity"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um, I\u2019d say most of the substernal chest pressure and dyspnea happen when I\u2019m moving around\u2014like walking or even just getting up from bed. But there have been a couple of times when I was just sitting quietly and I still felt a bit of that chest discomfort, though it\u2019s usually milder than when I\u2019m active. It\u2019s not constant at rest, but it does worry me that it can come on even when I\u2019m not doing anything.\n\nI guess I\u2019m just anxious because I thought after the stent placement, the symptoms would go away, or at least get a lot better. Is it common to still have some residual myocardial ischemia after a procedure like this? And is there anything else I should be watching out for, or symptoms I should avoid doing right now?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest discomfort at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms worse with activity"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "stent placement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "residual myocardial ischemia after stent placement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "symptoms to watch out for or avoid"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these persistent symptoms, especially after your recent myocardial infarction and stent placement. It\u2019s not uncommon to experience some residual chest pressure and dyspnea on exertion during the recovery period, but given your ongoing symptoms\u2014even at rest\u2014it\u2019s important that we continue a thorough assessment to rule out residual myocardial ischemia or other cardiac complications. Have you noticed any new symptoms such as orthopnea (shortness of breath when lying flat) or paroxysmal nocturnal dyspnea (waking up at night short of breath) since your procedure?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "residual chest pressure and dyspnea on exertion can be common during recovery after myocardial infarction and stent placement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent myocardial infarction and stent placement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "orthopnea or paroxysmal nocturnal dyspnea since the procedure"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I haven\u2019t really noticed orthopnea\u2014I can still lie flat without feeling short of breath. And I haven\u2019t had paroxysmal nocturnal dyspnea either; I haven\u2019t woken up gasping for air or anything like that since the procedure. It\u2019s mostly just the substernal chest pressure and dyspnea on exertion, and sometimes a little discomfort even at rest, like I mentioned.\n\nI\u2019m still feeling pretty anxious about all of this, to be honest. Is it possible that I\u2019m having some kind of residual myocardial ischemia, or could there be something wrong with the stent? How long does it usually take for these symptoms to improve after a myocardial infarction and stent placement? And is there anything else I should be doing\u2014or avoiding\u2014while I\u2019m recovering?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "discomfort at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "residual myocardial ischemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "problem with the stent"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "duration of symptom improvement after myocardial infarction and stent placement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "activities to do or avoid during recovery"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these persistent symptoms, especially after your myocardial infarction and stent placement. Based on your medical history and ongoing substernal chest pressure and dyspnea on exertion, my clinical assessment is that you may be experiencing residual myocardial ischemia or incomplete revascularization, which can sometimes occur during the recovery phase. While some improvement can take a few weeks, persistent or worsening symptoms should always be evaluated further.\n\nFor now, it\u2019s important to avoid strenuous physical activity and closely monitor your symptoms. Have you noticed any changes in the frequency or severity of your chest pain since starting your current medication regimen, such as with your antiplatelet or beta-blocker therapy?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining all of that, doctor. Um, let me think\u2026 Since starting my current medications\u2014like the aspirin and the beta-blockers, I think it\u2019s Toprol XL and Lopressor\u2014the chest pain hasn\u2019t really changed much. The severity is about the same, maybe a little less intense than that first episode, but it still comes back, especially when I\u2019m up and moving around. I haven\u2019t noticed any big difference in how often it happens either.\n\nI\u2019m still feeling pretty anxious about this residual myocardial ischemia you mentioned. Is there a chance the stent isn\u2019t working properly, or could something else be causing these symptoms? And is it normal to still have this much substernal chest pressure and dyspnea on exertion even with all these medications? I just want to make sure I\u2019m doing everything I can for my recovery.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "aspirin, Toprol XL, Lopressor"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "severity about the same, maybe a little less intense"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Frequency",
+          "value": "no big difference in how often it happens"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there a chance the stent isn\u2019t working properly?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Could something else be causing these symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it normal to still have this much substernal chest pressure and dyspnea on exertion even with all these medications?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "I just want to make sure I\u2019m doing everything I can for my recovery."
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these persistent symptoms, especially given your medical history and the fact that your substernal chest pressure and dyspnea on exertion have not improved significantly with your current medications. Based on my assessment, it\u2019s important to continue close monitoring for residual myocardial ischemia or possible stent-related complications, and sometimes further diagnostic evaluation\u2014such as repeat cardiac imaging or stress diagnostic evaluationing\u2014may be necessary to guide treatment.\n\nIn addition to continuing your prescribed antiplatelet and cardiac medications, are you able to reliably recognize any specific activities or patterns that consistently trigger your symptoms, or do they assessm unpredictable at this point?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent substernal chest pressure and dyspnea on exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "residual myocardial ischemia or possible stent-related complications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "continue close monitoring and consider further diagnostic evaluation such as repeat cardiac imaging or stress testing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine",
+          "value": "continue prescribed antiplatelet and cardiac medications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "recognize specific activities or patterns that trigger symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining all of that, doctor. Um, let me think\u2026 I\u2019d say the substernal chest pressure and dyspnea on exertion are mostly brought on by physical activity\u2014like if I walk down the hall, climb stairs, or even just get up from bed and move around a bit. That seems to be the most consistent trigger. But there have been a couple of times when I was just sitting quietly and still felt some mild chest discomfort, so it\u2019s not completely predictable.\n\nI\u2019m honestly still pretty anxious about this possibility of residual myocardial ischemia or a stent complication. Is it common for people to need more testing like repeat cardiac imaging or a stress test after a myocardial infarction and stent placement? And if it turns out to be incomplete revascularization, what are the next steps? I just want to make sure I\u2019m doing everything right for my recovery, and I\u2019m worried about missing something important.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pressure and dyspnea on exertion brought on by physical activity"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mild chest discomfort at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is it common for people to need more testing like repeat cardiac imaging or a stress test after a myocardial infarction and stent placement?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "If it turns out to be incomplete revascularization, what are the next steps?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "anxious about possibility of residual myocardial ischemia or a stent complication"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these persistent symptoms and the possibility of residual myocardial ischemia or a stent complication\u2014your concerns are completely valid given your medical history and ongoing substernal chest pressure and dyspnea on exertion. Based on your symptoms and the fact that they are consistently triggered by physical activity, my clinical assessment is that further cardiac evaluation\u2014such as repeat cardiac imaging or a stress diagnostic evaluation\u2014may be appropriate to assess for residual ischemia or incomplete revascularization. In the meantime, I recommend you continue your current cardiac medications, limit strenuous activity, and promptly report any worsening symptoms such as chest pain at rest, syncope, or palpitations.\n\nTo help guide the next steps in your treatment plan, have you experienced any new or worsening symptoms since your most recent laboratory assessments or medication adjustments?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "residual myocardial ischemia or a stent complication"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ongoing substernal chest pressure and dyspnea on exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible residual ischemia or incomplete revascularization"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "repeat cardiac imaging or a stress diagnostic evaluation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine",
+          "value": "continue your current cardiac medications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "limit strenuous activity"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "promptly report any worsening symptoms such as chest pain at rest, syncope, or palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "any new or worsening symptoms since your most recent laboratory assessments or medication adjustments"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor. I appreciate you taking the time to explain all of this\u2014it does help a bit with my anxiety, though I\u2019m still pretty worried. Since my last labs and medication changes, I haven\u2019t noticed any brand new symptoms, but the substernal chest pressure and dyspnea on exertion really haven\u2019t improved. The fatigue is still there too, and sometimes after the catheterization I\u2019ve felt a bit more nauseated than usual, but nothing that I\u2019d call new or suddenly worse.\n\nI haven\u2019t had any chest pain at rest that\u2019s severe, no syncope, and no palpitations. But I am concerned that the symptoms just aren\u2019t getting better. Is it common for people to need more cardiac imaging or a stress diagnostic evaluation so soon after a myocardial infarction and stent placement? And if it does turn out to be residual ischemia or incomplete revascularization, what are the treatment options? I just want to make sure I\u2019m not missing anything important for my recovery.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thanking doctor and expressing appreciation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new symptoms since last labs and medication changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased nausea after catheterization"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no severe chest pain at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no syncope"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "Is it common to need more cardiac imaging or a stress diagnostic evaluation soon after myocardial infarction and stent placement?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "What are the treatment options if there is residual ischemia or incomplete revascularization?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Am I missing anything important for my recovery?"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially since your symptoms of substernal chest pressure, dyspnea on exertion, and fatigue have not improved despite your current treatment and recent catheterization. Based on your medical history and ongoing symptoms, it is appropriate to consider further cardiac assessment\u2014such as repeat cardiac imaging or a stress diagnostic evaluation\u2014to evaluate for residual myocardial ischemia or incomplete revascularization, which can sometimes occur after a myocardial infarction and stent placement. \n\nIf residual ischemia is confirmed, treatment options may include adjustment of your medical therapy, consideration of additional revascularization procedures, or tailored cardiac rehabilitation. While we proceed with this assessment, have you experienced any limitations in your daily activities or worsening of your functional status compared to before your hospitalization?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "current treatment and recent catheterization"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "repeat cardiac imaging or a stress diagnostic evaluation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "residual myocardial ischemia or incomplete revascularization"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "myocardial infarction and stent placement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "adjustment of medical therapy, additional revascularization procedures, or tailored cardiac rehabilitation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "limitations in daily activities or worsening of functional status compared to before hospitalization"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Yes, actually, I have noticed some real limitations in my daily activities since all of this happened. Before my myocardial infarction and stent placement, I was able to do most symptoms around the house\u2014like cooking, laundry, even going up and down the stairs\u2014without too much trouble. Now, even simple symptoms like walking to the bathroom or standing in the kitchen for a few minutes leave me feeling fatigued and short of breath. The substernal chest pressure comes on pretty quickly with activity, and I just don\u2019t have the same energy or stamina I used to.\n\nI\u2019m honestly pretty anxious about this, especially since you mentioned residual myocardial ischemia and incomplete revascularization. Is it common for people to still feel this limited after a stent? And if the cardiac imaging or stress diagnostic evaluation shows there\u2019s still a problem, how likely is it that I\u2019d need another procedure? I just want to make sure I\u2019m doing everything right for my recovery, but it\u2019s hard not to worry when my functional status hasn\u2019t improved.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "limitations in daily activities"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "myocardial infarction and stent placement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "substernal chest pressure with activity"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased energy and stamina"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about recovery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is it common to feel limited after a stent?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "If imaging or stress test shows a problem, how likely is another procedure?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Am I doing everything right for recovery?"
+        }
+      ]
+    }
+  ]
+}

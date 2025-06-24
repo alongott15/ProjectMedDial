@@ -1,0 +1,435 @@
+{
+  "partial_profile": {
+    "row_id": 4491,
+    "subject_id": 8709,
+    "hadm_id": 129566,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Hypoxia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "O2 sat 87% RA, 90% on 2L"
+        },
+        {
+          "description": "Tachypnea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "RR in 30s"
+        },
+        {
+          "description": "Somnolence",
+          "onset": "2 days prior to admission",
+          "duration": "2 days",
+          "severity": "more somnolent than usual"
+        },
+        {
+          "description": "Leg pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Involuntary movements of right arm",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Left arm swelling",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Fever",
+          "onset": "on admission",
+          "duration": "not provided",
+          "severity": "104.8 F"
+        },
+        {
+          "description": "Shivering and diaphoresis",
+          "onset": "on arrival to unit",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "fevers",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "coffee ground emesis",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "1803-02-25",
+        "Age": 300,
+        "Sex": "F",
+        "Religion": "JEWISH",
+        "Marital_Status": "WIDOWED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2103-02-25 12:17:00",
+        "Discharge_Date": "2103-03-03 20:25:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Right distal femur fracture, Alzheimer's Disease, asthma, hypertension, anemia (iron deficiency), history of TIAs, osteoporosis, chronic renal insufficiency, history of pubic ramus fracture, history of diverticulitis"
+      },
+      "Allergies": [
+        "Aspirin"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Tylenol",
+          "purpose": "not provided",
+          "dosage": "650 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Colace",
+          "purpose": "not provided",
+          "dosage": "2 tabs",
+          "frequency": "daily"
+        },
+        {
+          "name": "Senna",
+          "purpose": "not provided",
+          "dosage": "1 tab",
+          "frequency": "qod"
+        },
+        {
+          "name": "MOM",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "MVI",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Celexa",
+          "purpose": "not provided",
+          "dosage": "20 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Seroquel",
+          "purpose": "not provided",
+          "dosage": "12.5 mg",
+          "frequency": "2pm and 8pm"
+        },
+        {
+          "name": "Flexeril",
+          "purpose": "not provided",
+          "dosage": "10 mg",
+          "frequency": "qhs"
+        },
+        {
+          "name": "Lidoderm patch",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "to right thigh"
+        },
+        {
+          "name": "Detrol LA",
+          "purpose": "not provided",
+          "dosage": "4 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Fosamax",
+          "purpose": "not provided",
+          "dosage": "70 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "TUMS",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "tid"
+        },
+        {
+          "name": "Niferex",
+          "purpose": "not provided",
+          "dosage": "150 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Duonebs",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "HCTZ",
+          "purpose": "not provided",
+          "dosage": "25 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Atenolol",
+          "purpose": "not provided",
+          "dosage": "12.5 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Oxycodone",
+          "purpose": "not provided",
+          "dosage": "5 mg",
+          "frequency": "q4hrs"
+        },
+        {
+          "name": "Fleet",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "prn"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "morphine",
+          "purpose": "comfort care/pain management",
+          "dosage": "not provided",
+          "frequency": "IV drip"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Hypoxia"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.75,
+      "consistency_score": 1.0,
+      "confidence_score": 0.7,
+      "overall_score": 0.9166666666666666,
+      "field_scores": {
+        "symptoms": 0.8,
+        "diagnoses": 1.0,
+        "treatments": 0.8888888888888888,
+        "demographics": 0.4
+      },
+      "issues": [
+        "Symptom 'Tachypnea' not clearly found in original text",
+        "Symptom 'Somnolence' not clearly found in original text",
+        "Treatment 'Sedation' not clearly found in text"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you have been experiencing symptoms of hypoxia and rapid breathing. Can you tell me more about when you first noticed these symptoms and if they have changed over time?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um... yes, I\u2019ve been feeling kind of short of breath lately, and I think that\u2019s what you called hypoxia? It started maybe a couple days ago, but I\u2019m not exactly sure. It just feels harder to catch my breath. And, uh, my leg has been hurting quite a bit too. I\u2019m just pretty uncomfortable and hoping you can help."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing that with me\u2014I understand experiencing short of breath and having leg pain can be quite uncomfortable. In addition to your breathing symptoms, have you noticed any increased sleepiness or difficulty staying awake over the past couple of days?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, well, I think I have been more sleepy than usual, yes. It\u2019s kind of hard to stay awake sometimes. The hypoxia just makes me feel really tired, I guess. I\u2019m not sure if that\u2019s normal?"
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for letting me know about your increased sleepiness and fatigue\u2014these symptoms can understandably be concerning. In addition to experiencing more tired, have you experienced any episodes of rapid or shallow breathing, or has anyone noticed your breathing rate being faster than usual?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, yes, I think my breathing has been more rapid\u2014like tachypnea, right? Sometimes it feels kind of shallow too. And, uh, with the somnolence, it\u2019s just hard to stay alert. I\u2019m not sure if someone else has noticed my breathing rate, but I can feel it myself. Should I be worried about these symptoms?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms\u2014experiencing short of breath, more tired, and noticing changes in your breathing can be unsettling. You also mentioned experiencing leg pain; can you describe exactly where the pain is located, whether it is constant or comes and goes, and if you have noticed any swelling, redness, or warmth in that area?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think... The pain is mostly in my right leg, kind of around the thigh, close to where I broke my femur before. It\u2019s pretty much there all the time, but sometimes it gets worse. I haven\u2019t really noticed much redness or warmth, but actually, now that you mention swelling, my left arm has been a bit swollen lately. And, um, I\u2019ve had these odd involuntary movements in my right arm\u2014like it just jerks on its own sometimes. I\u2019m not sure if that\u2019s related, but it\u2019s been happening more often."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms in detail. Regarding the involuntary movements in your right arm, can you tell me if these episodes are associated with any changes in sensation, weakness, or loss of consciousness during or after the movements?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, let me think... I don\u2019t think I\u2019ve lost consciousness during those movements, and I don\u2019t really notice any numbness or weakness afterward\u2014just that my right arm jerks on its own sometimes. It\u2019s a bit unsettling. Actually, I\u2019ve also been having some fevers lately, and I get these chills and shivering spells, with a lot of sweating\u2014diaphoresis, I think you called it? I\u2019m just feeling pretty uncomfortable overall."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing these additional symptoms. To better assess your leg pain, have you noticed any changes in skin color, temperature, or sensation in your right leg since the pain began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, I haven\u2019t really noticed much change in the color or temperature of my right leg\u2014it doesn\u2019t seem colder or anything like that. The sensation feels about the same, just more painful than usual. But actually, I\u2019ve been having these fevers on and off, and sometimes I get chills and a lot of sweating\u2014diaphoresis, I think you called it earlier. \n\nAlso, I wanted to mention something else that\u2019s been worrying me. I had an episode of what looked like coffee ground emesis a little while ago. It really scared me. Is that something serious? Should I be worried about all these symptoms together?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with symptoms like coffee ground emesis and ongoing fevers. To help with my assessment, have you noticed any recent changes in your ability to move or feel your right leg, such as new weakness, numbness, or difficulty bearing weight?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, I think my right leg is definitely more painful, and it feels a bit weaker than before. I haven\u2019t really noticed numbness, but it\u2019s harder to put weight on it now, and I feel kind of unsteady when I try to walk. I\u2019m not sure if that\u2019s just from the old fracture or something new going on.\n\nAbout the coffee ground emesis\u2014does that mean there\u2019s bleeding somewhere? I read that can be serious. And with these fevers and chills, plus the hypoxia and tachypnea, I\u2019m just feeling really uncomfortable and a bit scared. Is there something serious happening to me?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with these new and uncomfortable symptoms. To help guide my assessment, have you noticed any changes in the appearance or function of your left arm since the swelling began, such as increased warmth, redness, or difficulty moving the arm?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think... Well, my left arm does look a bit more swollen than usual, and it feels kind of heavy. I haven\u2019t really noticed much redness or extra warmth, but it\u2019s definitely puffier, and it\u2019s a little harder to move\u2014just feels stiff and uncomfortable. I\u2019m not sure if that\u2019s something to be really concerned about, but with everything else going on\u2014like the hypoxia, tachypnea, fevers, chills, and now this coffee ground emesis\u2014I\u2019m honestly starting to get pretty worried.\n\nIs there something serious that could be causing all these symptoms together? Should I be worried about symptoms like infection or a blood clot? I just want to know what\u2019s happening and if there\u2019s anything you can do to help me feel better."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious with these symptoms, especially given the combination of leg pain, swelling, fevers, and coffee ground emesis. Based on your medical history and current symptoms, I am concerned about possible infection, bleeding, or a blood clot. To help with my assessment, have you recently experienced any chest pain, palpitations, or sudden shortness of breath in addition to your ongoing symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Actually, now that you mention it, I have had a couple of episodes where I felt some chest pain\u2014not really sharp, but kind of a pressure or tightness. It didn\u2019t last very long, but it did make me feel uneasy. I also noticed my heart beating faster than usual at times\u2014palpitations, I think you called it. And the shortness of breath has definitely gotten worse suddenly a few times, especially when I try to move around or even just sit up.\n\nWith all these symptoms\u2014hypoxia, tachypnea, fevers, chills, leg pain, swelling in my left arm, and now this coffee ground emesis\u2014I\u2019m honestly pretty scared. Is it possible that I have an infection or a blood clot? Could the bleeding be coming from my stomach? I just want to know what\u2019s going on and if there\u2019s something you can do to help me feel better."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious with all of these symptoms happening at once\u2014it\u2019s completely natural to be concerned. Based on what you\u2019ve described, including the involuntary movements of your right arm and the swelling in your left arm, I\u2019d like to ask: have you noticed any changes in sensation, such as numbness or tingling, or any new weakness in either arm since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think for a second... Well, I haven\u2019t really noticed much numbness or tingling in either arm, but my left arm definitely feels more stiff and heavy since the swelling started. It\u2019s a little harder to move, almost like there\u2019s some weakness, but not complete loss of strength. The right arm just has those involuntary movements\u2014no real numbness or tingling there either.\n\nI\u2019m just feeling really uncomfortable with all these symptoms\u2014hypoxia, tachypnea, fevers, chills, diaphoresis, the coffee ground emesis, and now this swelling and weakness. Is it possible that these could all be connected? I know I have a history of TIAs and fractures, but I\u2019m worried something serious is happening now. What should I expect next? Is there anything you can do to help me feel better soon?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with the combination of hypoxia, tachypnea, fevers, chills, diaphoresis, coffee ground emesis, and new swelling and weakness in your left arm. Based on your symptoms and medical history, I am concerned about the possibility of a systemic infection, gastroindiagnostic evaluationinal bleeding, and potential blood clots. To further guide my assessment, have you noticed any recent changes in your urine output or color, which could help us evaluate your kidney function and overall fluid status?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think... Actually, yes, I have noticed some changes with my urine. It seems like I\u2019m not going as much as I usually do, and when I do, the color looks a bit darker\u2014almost like tea sometimes. I wasn\u2019t sure if that was important, but now that you mention kidney function and fluid status, maybe it\u2019s related to everything else going on.\n\nWith all these symptoms\u2014hypoxia, tachypnea, fevers, chills, diaphoresis, coffee ground emesis, and now the swelling and weakness in my left arm\u2014I\u2019m honestly feeling pretty overwhelmed and uncomfortable. Is there something you can do to help me feel better soon? Should I be worried about my kidneys too, or is this just part of the infection or bleeding you mentioned?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried and overwhelmed with all of these symptoms happening together\u2014it\u2019s completely natural to feel this way. Based on your symptoms, medical history, and recent changes in urine output and color, I am concerned about a possible systemic infection (sepsis), gastroindiagnostic evaluationinal bleeding, and decreased kidney function, all of which require urgent assessment and treatment. To help guide our next steps, have you experienced any episodes of confusion or difficulty recognizing people or places in addition to your increased sleepiness?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, yes, actually\u2014I have noticed I\u2019ve been more confused lately. Sometimes I have trouble remembering where I am, or I get mixed up about who\u2019s around me. It\u2019s worse when I\u2019m really tired or after those episodes of fever and chills. I know I have Alzheimer\u2019s, but this feels a bit different\u2014like it came on more suddenly with everything else.\n\nI\u2019m honestly just feeling really uncomfortable and a little scared with all these symptoms\u2014hypoxia, tachypnea, the fevers and chills, diaphoresis, coffee ground emesis, the swelling in my arm, and now this confusion. Is this all connected to sepsis or kidney symptoms? How serious is this? What can you do to help me feel better?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious and uncomfortable with these symptoms, especially given the sudden confusion, hypoxia, tachypnea, fevers, chills, diaphoresis, coffee ground emesis, swelling, and changes in urine output. Based on your symptoms and medical history, I am concerned about a serious systemic infection (sepsis), possible gastroindiagnostic evaluationinal bleeding, and impaired kidney function, all of which require urgent medical attention and supportive care.\n\nMy immediate recommendation is to begin close monitoring of your vital signs, provide supplemental oxygen for hypoxia, administer intravenous fluids and antibiotics to address possible sepsis, and arrange for laboratory diagnostic evaluations and imaging to further assess the source of infection and bleeding. To guide your ongoing assessment, have you experienced any new or worsening abdominal pain or tenderness since the onset of your gastroindiagnostic evaluationinal symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining everything so clearly. Um, let me think... I have had some mild abdominal pain, but it\u2019s not really sharp\u2014more like a dull pain that comes and goes. It\u2019s not the worst pain, but with the coffee ground emesis and everything else, I\u2019m definitely worried it could be something serious, like the gastrointestinal bleeding you mentioned.\n\nI really appreciate that you\u2019re taking this seriously and planning all those diagnostic evaluations and supportive care. I just want to feel better soon\u2014the hypoxia, tachypnea, fevers, chills, diaphoresis, and now this confusion and weakness are really making me uncomfortable. Is there anything else I should be doing right now, or anything I should watch out for while you\u2019re running these tests? And do you think I\u2019ll need to stay in the hospital for a while?"
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you have been experiencing symptoms of hypoxia and rapid breathing. Can you tell me more about when you first noticed these symptoms and if they have changed over time?\nPatient: Well, um... yes, I\u2019ve been feeling kind of short of breath lately, and I think that\u2019s what you called hypoxia? It started maybe a couple days ago, but I\u2019m not exactly sure. It just feels harder to catch my breath. And, uh, my leg has been hurting quite a bit too. I\u2019m just pretty uncomfortable and hoping you can help.\nDoctor: Thank you for sharing that with me\u2014I understand experiencing short of breath and having leg pain can be quite uncomfortable. In addition to your breathing symptoms, have you noticed any increased sleepiness or difficulty staying awake over the past couple of days?\nPatient: Um, well, I think I have been more sleepy than usual, yes. It\u2019s kind of hard to stay awake sometimes. The hypoxia just makes me feel really tired, I guess. I\u2019m not sure if that\u2019s normal?\nDoctor: Thank you for letting me know about your increased sleepiness and fatigue\u2014these symptoms can understandably be concerning. In addition to experiencing more tired, have you experienced any episodes of rapid or shallow breathing, or has anyone noticed your breathing rate being faster than usual?\nPatient: Well, um, yes, I think my breathing has been more rapid\u2014like tachypnea, right? Sometimes it feels kind of shallow too. And, uh, with the somnolence, it\u2019s just hard to stay alert. I\u2019m not sure if someone else has noticed my breathing rate, but I can feel it myself. Should I be worried about these symptoms?\nDoctor: I can understand why you\u2019d be worried about these symptoms\u2014experiencing short of breath, more tired, and noticing changes in your breathing can be unsettling. You also mentioned experiencing leg pain; can you describe exactly where the pain is located, whether it is constant or comes and goes, and if you have noticed any swelling, redness, or warmth in that area?\nPatient: Let me think... The pain is mostly in my right leg, kind of around the thigh, close to where I broke my femur before. It\u2019s pretty much there all the time, but sometimes it gets worse. I haven\u2019t really noticed much redness or warmth, but actually, now that you mention swelling, my left arm has been a bit swollen lately. And, um, I\u2019ve had these odd involuntary movements in my right arm\u2014like it just jerks on its own sometimes. I\u2019m not sure if that\u2019s related, but it\u2019s been happening more often.\nDoctor: Thank you for describing your symptoms in detail. Regarding the involuntary movements in your right arm, can you tell me if these episodes are associated with any changes in sensation, weakness, or loss of consciousness during or after the movements?\nPatient: Um, let me think... I don\u2019t think I\u2019ve lost consciousness during those movements, and I don\u2019t really notice any numbness or weakness afterward\u2014just that my right arm jerks on its own sometimes. It\u2019s a bit unsettling. Actually, I\u2019ve also been having some fevers lately, and I get these chills and shivering spells, with a lot of sweating\u2014diaphoresis, I think you called it? I\u2019m just feeling pretty uncomfortable overall.\nDoctor: Thank you for sharing these additional symptoms. To better assess your leg pain, have you noticed any changes in skin color, temperature, or sensation in your right leg since the pain began?\nPatient: Well, um, I haven\u2019t really noticed much change in the color or temperature of my right leg\u2014it doesn\u2019t seem colder or anything like that. The sensation feels about the same, just more painful than usual. But actually, I\u2019ve been having these fevers on and off, and sometimes I get chills and a lot of sweating\u2014diaphoresis, I think you called it earlier. \n\nAlso, I wanted to mention something else that\u2019s been worrying me. I had an episode of what looked like coffee ground emesis a little while ago. It really scared me. Is that something serious? Should I be worried about all these symptoms together?\nDoctor: I can understand why you\u2019d be anxious, especially with symptoms like coffee ground emesis and ongoing fevers. To help with my assessment, have you noticed any recent changes in your ability to move or feel your right leg, such as new weakness, numbness, or difficulty bearing weight?\nPatient: Well, um, I think my right leg is definitely more painful, and it feels a bit weaker than before. I haven\u2019t really noticed numbness, but it\u2019s harder to put weight on it now, and I feel kind of unsteady when I try to walk. I\u2019m not sure if that\u2019s just from the old fracture or something new going on.\n\nAbout the coffee ground emesis\u2014does that mean there\u2019s bleeding somewhere? I read that can be serious. And with these fevers and chills, plus the hypoxia and tachypnea, I\u2019m just feeling really uncomfortable and a bit scared. Is there something serious happening to me?\nDoctor: I can understand why you\u2019d be worried, especially with these new and uncomfortable symptoms. To help guide my assessment, have you noticed any changes in the appearance or function of your left arm since the swelling began, such as increased warmth, redness, or difficulty moving the arm?\nPatient: Let me think... Well, my left arm does look a bit more swollen than usual, and it feels kind of heavy. I haven\u2019t really noticed much redness or extra warmth, but it\u2019s definitely puffier, and it\u2019s a little harder to move\u2014just feels stiff and uncomfortable. I\u2019m not sure if that\u2019s something to be really concerned about, but with everything else going on\u2014like the hypoxia, tachypnea, fevers, chills, and now this coffee ground emesis\u2014I\u2019m honestly starting to get pretty worried.\n\nIs there something serious that could be causing all these symptoms together? Should I be worried about symptoms like infection or a blood clot? I just want to know what\u2019s happening and if there\u2019s anything you can do to help me feel better.\nDoctor: I can understand why you\u2019re experiencing anxious with these symptoms, especially given the combination of leg pain, swelling, fevers, and coffee ground emesis. Based on your medical history and current symptoms, I am concerned about possible infection, bleeding, or a blood clot. To help with my assessment, have you recently experienced any chest pain, palpitations, or sudden shortness of breath in addition to your ongoing symptoms?\nPatient: Actually, now that you mention it, I have had a couple of episodes where I felt some chest pain\u2014not really sharp, but kind of a pressure or tightness. It didn\u2019t last very long, but it did make me feel uneasy. I also noticed my heart beating faster than usual at times\u2014palpitations, I think you called it. And the shortness of breath has definitely gotten worse suddenly a few times, especially when I try to move around or even just sit up.\n\nWith all these symptoms\u2014hypoxia, tachypnea, fevers, chills, leg pain, swelling in my left arm, and now this coffee ground emesis\u2014I\u2019m honestly pretty scared. Is it possible that I have an infection or a blood clot? Could the bleeding be coming from my stomach? I just want to know what\u2019s going on and if there\u2019s something you can do to help me feel better.\nDoctor: I can understand why you\u2019re experiencing anxious with all of these symptoms happening at once\u2014it\u2019s completely natural to be concerned. Based on what you\u2019ve described, including the involuntary movements of your right arm and the swelling in your left arm, I\u2019d like to ask: have you noticed any changes in sensation, such as numbness or tingling, or any new weakness in either arm since these symptoms began?\nPatient: Let me think for a second... Well, I haven\u2019t really noticed much numbness or tingling in either arm, but my left arm definitely feels more stiff and heavy since the swelling started. It\u2019s a little harder to move, almost like there\u2019s some weakness, but not complete loss of strength. The right arm just has those involuntary movements\u2014no real numbness or tingling there either.\n\nI\u2019m just feeling really uncomfortable with all these symptoms\u2014hypoxia, tachypnea, fevers, chills, diaphoresis, the coffee ground emesis, and now this swelling and weakness. Is it possible that these could all be connected? I know I have a history of TIAs and fractures, but I\u2019m worried something serious is happening now. What should I expect next? Is there anything you can do to help me feel better soon?\nDoctor: I can understand why you\u2019d be anxious, especially with the combination of hypoxia, tachypnea, fevers, chills, diaphoresis, coffee ground emesis, and new swelling and weakness in your left arm. Based on your symptoms and medical history, I am concerned about the possibility of a systemic infection, gastroindiagnostic evaluationinal bleeding, and potential blood clots. To further guide my assessment, have you noticed any recent changes in your urine output or color, which could help us evaluate your kidney function and overall fluid status?\nPatient: Let me think... Actually, yes, I have noticed some changes with my urine. It seems like I\u2019m not going as much as I usually do, and when I do, the color looks a bit darker\u2014almost like tea sometimes. I wasn\u2019t sure if that was important, but now that you mention kidney function and fluid status, maybe it\u2019s related to everything else going on.\n\nWith all these symptoms\u2014hypoxia, tachypnea, fevers, chills, diaphoresis, coffee ground emesis, and now the swelling and weakness in my left arm\u2014I\u2019m honestly feeling pretty overwhelmed and uncomfortable. Is there something you can do to help me feel better soon? Should I be worried about my kidneys too, or is this just part of the infection or bleeding you mentioned?\nDoctor: I can understand why you\u2019d be worried and overwhelmed with all of these symptoms happening together\u2014it\u2019s completely natural to feel this way. Based on your symptoms, medical history, and recent changes in urine output and color, I am concerned about a possible systemic infection (sepsis), gastroindiagnostic evaluationinal bleeding, and decreased kidney function, all of which require urgent assessment and treatment. To help guide our next steps, have you experienced any episodes of confusion or difficulty recognizing people or places in addition to your increased sleepiness?\nPatient: Well, um, yes, actually\u2014I have noticed I\u2019ve been more confused lately. Sometimes I have trouble remembering where I am, or I get mixed up about who\u2019s around me. It\u2019s worse when I\u2019m really tired or after those episodes of fever and chills. I know I have Alzheimer\u2019s, but this feels a bit different\u2014like it came on more suddenly with everything else.\n\nI\u2019m honestly just feeling really uncomfortable and a little scared with all these symptoms\u2014hypoxia, tachypnea, the fevers and chills, diaphoresis, coffee ground emesis, the swelling in my arm, and now this confusion. Is this all connected to sepsis or kidney symptoms? How serious is this? What can you do to help me feel better?\nDoctor: I can understand why you\u2019d be anxious and uncomfortable with these symptoms, especially given the sudden confusion, hypoxia, tachypnea, fevers, chills, diaphoresis, coffee ground emesis, swelling, and changes in urine output. Based on your symptoms and medical history, I am concerned about a serious systemic infection (sepsis), possible gastroindiagnostic evaluationinal bleeding, and impaired kidney function, all of which require urgent medical attention and supportive care.\n\nMy immediate recommendation is to begin close monitoring of your vital signs, provide supplemental oxygen for hypoxia, administer intravenous fluids and antibiotics to address possible sepsis, and arrange for laboratory diagnostic evaluations and imaging to further assess the source of infection and bleeding. To guide your ongoing assessment, have you experienced any new or worsening abdominal pain or tenderness since the onset of your gastroindiagnostic evaluationinal symptoms?\nPatient: Thank you for explaining everything so clearly. Um, let me think... I have had some mild abdominal pain, but it\u2019s not really sharp\u2014more like a dull pain that comes and goes. It\u2019s not the worst pain, but with the coffee ground emesis and everything else, I\u2019m definitely worried it could be something serious, like the gastrointestinal bleeding you mentioned.\n\nI really appreciate that you\u2019re taking this seriously and planning all those diagnostic evaluations and supportive care. I just want to feel better soon\u2014the hypoxia, tachypnea, fevers, chills, diaphoresis, and now this confusion and weakness are really making me uncomfortable. Is there anything else I should be doing right now, or anything I should watch out for while you\u2019re running these tests? And do you think I\u2019ll need to stay in the hospital for a while?\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: weakness, shortness of breath, having some fevers lately, these fevers on and off, sweating. Assessment: noticed any swelling, possible systemic infection (sepsis), possible gastrointestinal bleeding. Plan: antibiotics, close monitoring of vital signs, supplemental oxygen for hypoxia. Extracted: 50 symptoms, 5 diagnoses, 7 treatments.",
+  "annotations": {
+    "symptoms": [
+      "weakness",
+      "shortness of breath",
+      "having some fevers lately",
+      "these fevers on and off",
+      "sweating",
+      "chest pain",
+      "chills",
+      "more tired",
+      "symptoms of hypoxia and rapid breathing",
+      "fatigue",
+      "feeling kind of short of breath lately",
+      "a bit swollen lately",
+      "abdominal pain",
+      "some fevers lately",
+      "tired",
+      "kind of short of breath lately",
+      "leg pain can be quite uncomfortable",
+      "short of breath",
+      "fever",
+      "breath",
+      "numbness",
+      "tingling",
+      "having these fevers on and off",
+      "leg pain",
+      "hurting quite a bit too",
+      "hypoxia",
+      "rapid breathing",
+      "tachypnea",
+      "shallow breathing",
+      "increased sleepiness",
+      "somnolence",
+      "right leg pain",
+      "right leg weakness",
+      "difficulty bearing weight on right leg",
+      "unsteadiness when walking",
+      "swelling in left arm",
+      "stiffness in left arm",
+      "heaviness in left arm",
+      "weakness in left arm",
+      "involuntary movements in right arm",
+      "fevers",
+      "diaphoresis",
+      "coffee ground emesis",
+      "chest pain (pressure/tightness)",
+      "palpitations",
+      "episodes of sudden worsening shortness of breath",
+      "decreased urine output",
+      "dark (tea-colored) urine",
+      "confusion",
+      "mild, intermittent abdominal pain"
+    ],
+    "diagnoses": [
+      "noticed any swelling",
+      "possible systemic infection (sepsis)",
+      "possible gastrointestinal bleeding",
+      "possible blood clot",
+      "possible impaired kidney function"
+    ],
+    "treatments": [
+      "antibiotics",
+      "close monitoring of vital signs",
+      "supplemental oxygen for hypoxia",
+      "intravenous fluids",
+      "intravenous antibiotics for possible sepsis",
+      "laboratory diagnostic evaluations",
+      "imaging studies to assess infection and bleeding"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: EXCELLENT\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.920 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.986 \u2705\n\u2022 Dialogue Naturalness: 0.729 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently demonstrates safe, responsible, and clinically appropriate communication. There is no evidence of harmful advice or inappropriate reassurance. The physician expresses concern for serious conditions (sepsis, GI bleeding, blood clots) and recommends urgent assessment, monitoring, and supportive care, which is medically sound given the constellation of symptoms.\n- The doctor\u2019s questions are logical and progressive, covering relevant systems (respiratory, neurological, GI, renal, vascular) and adapting to new information as it emerges.\n- The doctor avoids premature conclusions and maintains a high index of suspicion for life-threatening conditions, reflecting real-world clinical reasoning.\n\n**2. Patient Behavior Naturalness and Believability**\n- The patient\u2019s responses are appropriately hesitant, uncertain, and sometimes repetitive\u2014mirroring how real patients often struggle to recall timelines or details under stress.\n- The patient\u2019s emotional state evolves naturally: initial discomfort and uncertainty escalate to anxiety and fear as symptoms accumulate. The patient seeks reassurance and clarification, asks about the seriousness of symptoms, and expresses a desire for relief\u2014all typical in acute medical encounters.\n- Progressive disclosure is evident: the patient volunteers new symptoms as prompted by the doctor\u2019s questions (e.g., involuntary movements, coffee ground emesis, changes in urine output), which is realistic in a thorough medical interview.\n\n**3. Empathy and Professionalism**\n- The doctor repeatedly acknowledges the patient\u2019s discomfort and anxiety (\u201cI can understand why you\u2019d be worried...\u201d), validating their concerns without dismissing or minimizing them.\n- Explanations are clear and tailored to the patient\u2019s emotional state, with the doctor providing both medical reasoning and reassurance about next steps.\n- The doctor maintains professionalism throughout, never expressing frustration or impatience despite the complexity and repetition in the patient\u2019s history.\n\n**4. Conversation Flow and Medical Purpose**\n- The dialogue follows a logical progression: initial symptom exploration \u2192 focused review of systems \u2192 clarification of new findings \u2192 synthesis of possible diagnoses \u2192 discussion of next steps.\n- Turn-taking is appropriate; the doctor asks open-ended questions, then narrows focus based on responses. The patient\u2019s answers prompt further inquiry, mirroring real clinical reasoning.\n- Information exchange is meaningful: each question serves to clarify risk, severity, or differential diagnosis (e.g., probing for neurological deficits after involuntary movements; asking about GI bleeding after coffee ground emesis).\n- The conversation builds rapport and trust, with the patient ultimately expressing understanding of the plan.\n\n**Minor Imperfections (Acceptable in Real Encounters):**\n- Some repetitive phrasing (e.g., listing symptoms multiple times) is present but mirrors real patient-doctor interactions under stress.\n- Occasional awkwardness in language (\u201cgastroindiagnostic evaluationinal bleeding\u201d) appears to be a typographical error but does not detract from overall authenticity.\n\n**Conclusion:**\nThis dialogue represents a plausible, safe, and clinically appropriate medical encounter. Both the doctor\u2019s and patient\u2019s behaviors are realistic; the conversation flows logically; empathy and professionalism are maintained; and the exchange serves a clear medical purpose.\n\n**Final Judgment:**  \nDIALOGUE REALISTIC: This conversation authentically reflects a complex acute medical interview with appropriate clinical reasoning, empathetic communication, and natural patient behavior.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.920)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.276/0.3 (Score: 0.920)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.986,
+      "naturalness": 0.729,
+      "safety": 0.92,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 100.74251365661621,
+  "dialogue_stats": {
+    "turn_count": 26,
+    "word_count": 2098,
+    "doctor_turns": 13,
+    "patient_turns": 13
+  }
+}

@@ -1,0 +1,1647 @@
+{
+  "source_row_id": 4486,
+  "source_subject_id": 8670,
+  "source_hadm_id": 113090,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing respiratory distress and a non-productive cough. Can you describe how your breathing has felt recently and whether your symptoms have changed or worsened over the past week?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yeah, I\u2019ve just been having a lot of shortness of breath lately. It feels like it\u2019s getting harder to catch my breath, even when I\u2019m just sitting. That\u2019s really what\u2019s worrying me the most right now.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty catching breath at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "worry about symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that\u2014it\u2019s understandable to feel concerned when your shortness of breath is worsening, especially at rest. In addition to your respiratory symptoms, have you noticed any chest pain, palpitations, or swelling in your legs that might suggest changes in your cardiac condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing that\u2014it\u2019s understandable to feel concerned"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath is worsening, especially at rest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in your legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "changes in your cardiac condition"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 I haven\u2019t really had any chest pain, but I do get a bit of wheezing sometimes. The shortness of breath is what\u2019s really bothering me. I\u2019m just worried because it feels different than usual.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "symptoms feel different than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "worried"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially since your shortness of breath feels different than usual. To help guide my assessment, can you tell me if your cough has changed at all\u2014such as becoming more frequent, producing any sputum, or being associated with fevers or chills?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be anxious, especially since your shortness of breath feels different than usual."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "change in cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Frequency",
+          "value": "more frequent cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sputum production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fevers or chills"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 The cough is still mostly dry, not really bringing anything up. I have noticed it\u2019s happening more often, especially at night. And, um, I think I\u2019ve had some fevers off and on\u2014just feeling kind of hot and sweaty sometimes. Also, my right leg has been hurting more lately, which is making it harder to get around. But the main thing is still the shortness of breath. Should I be worried about all these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased frequency of cough at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers (feeling hot and sweaty)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right leg pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty getting around"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about all these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your shortness of breath worsening and new symptoms like fevers and increased right leg pain. To help with my assessment, have you noticed any swelling, redness, or changes in color or temperature in your right leg that might suggest a vascular complication?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worsening"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased right leg pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in right leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "redness in right leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in color in right leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Temperature",
+          "value": "changes in temperature in right leg"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yeah, my right leg does look a bit more swollen than usual, and it feels colder sometimes, especially down by my foot. I haven\u2019t really noticed much redness, but the pain has definitely gotten worse. I\u2019m just not sure if that\u2019s related to the respiratory distress and this non-productive cough, or if it\u2019s something separate. It\u2019s all kind of making me feel more anxious lately.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right leg swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right leg feels colder"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain in right leg has gotten worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory distress"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "non-productive cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be experiencing anxious with these ongoing symptoms and changes in your right leg. You also mentioned increased fatigue and unintentional weight loss\u2014can you tell me more about how your energy levels have changed recently and whether the fatigue is constant or comes and goes throughout the day?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ongoing symptoms and changes in right leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unintentional weight loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "energy levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fatigue constant or intermittent"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 the fatigue has definitely gotten worse. I feel tired pretty much all the time now, not just after doing symptoms. Even simple stuff, like getting dressed or walking to the bathroom, just wears me out. And, like I mentioned before, I think I\u2019ve been having some fevers off and on\u2014just feeling kind of flushed and sweaty, especially at night. The weight loss sort of snuck up on me; I didn\u2019t really notice until my clothes started fitting looser. I\u2019m just not sure what\u2019s causing all of this, and it\u2019s making me pretty anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tiredness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "easily fatigued by simple activities"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers off and on"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "flushed and sweaty, especially at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight loss"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the increased fatigue and unintentional weight loss you described. To help with my assessment, have you experienced any night sweats, loss of appetite, or changes in your gastroindiagnostic evaluationinal symptoms\u2014such as nausea, vomiting, or diarrhea\u2014along with your recent weight loss?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unintentional weight loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "night sweats"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "loss of appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "diarrhea"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, I have had some night sweats\u2014waking up kind of drenched, especially over the past week or so. My appetite\u2019s not been great either; I just don\u2019t feel hungry most days, and I\u2019ve lost about 10 pounds without really trying. As for my gastrointestinal symptoms, I haven\u2019t had much nausea or vomiting, and no diarrhea, but my stomach just feels off sometimes.\n\nAlso, um\u2026 there was one time at home recently where I became unresponsive. My wife examinationed my blood sugar and it was really low\u2014so I guess that was hypoglycemia. It scared both of us quite a bit. Is all of this connected somehow? Should I be more worried?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "night sweats"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "past week"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unintentional weight loss"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "10 pounds"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no diarrhea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "stomach feels off"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "became unresponsive"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "blood sugar"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "hypoglycemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is all of this connected somehow?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be more worried?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the increased fatigue, unintentional weight loss, and recent episode of hypoglycemia. To help with my assessment, have you noticed any new neurological symptoms such as weakness, numbness, or changes in sensation\u2014particularly in your legs or feet\u2014since these symptoms began to worsen?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unintentional weight loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoglycemia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new neurological symptoms such as weakness, numbness, or changes in sensation in legs or feet"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 I have noticed some changes with my legs and feet. The numbness and decreased sensation below my knees has gotten a bit worse lately\u2014it\u2019s harder to feel light touch, especially in my toes. I\u2019ve had peripheral neuropathy for a while because of my diabetes, but now it seems like it\u2019s progressing. I haven\u2019t really noticed any new weakness, but the pain in my right leg is more intense, and sometimes I feel a bit unsteady when I stand up.\n\nThe fatigue and dyspnea are really making it hard to do much of anything. I just feel wiped out all the time, and the shortness of breath is there even when I\u2019m not moving around. Should I be worried that all these symptoms are getting worse together? Could this be something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness and decreased sensation below knees"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to feel light touch in toes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "peripheral neuropathy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "diabetes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain in right leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unsteady when standing up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried that all these symptoms are getting worse together?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Could this be something serious?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your increased fatigue and unintentional weight loss alongside your other symptoms. To help with my assessment, have you experienced any recent changes in your urinary habits\u2014such as decreased urine output, darker urine, or swelling\u2014which could suggest changes in your kidney function or fluid status?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unintentional weight loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in urinary habits"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "darker urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed much change in my urine output, but maybe it\u2019s a little darker than usual. I haven\u2019t had much swelling, at least not more than what I usually get in my legs. \n\nActually, there was another thing\u2014I had an episode where I lost consciousness at home. My wife said I was unresponsive for a bit, and when she examinationed my blood sugar, it was really low, so I guess that was hypoglycemia. But then, other times, especially when I was on the steroids, my blood sugars shot up really high\u2014so I\u2019ve been having both hypoglycemia and hyperglycemia lately. It\u2019s been hard to keep symptoms stable.\n\nAll of this together is making me pretty anxious. Should I be worried that these symptoms are all connected? Is there something serious going on with my kidneys or something else?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "darker urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoglycemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hyperglycemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "concern about kidney disease or other serious condition"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, given the combination of increased fatigue, unintentional weight loss, and the fluctuations in your blood sugar. Based on your symptoms and recent laboratory findings\u2014including elevated urea nitrogen and creatine kinase levels, as well as a higher potassium\u2014I\u2019m concerned about possible kidney involvement and muscle breakdown. Have you noticed any muscle pain, weakness, or dark-colored urine that might suggest ongoing muscle injury or rhabdomyolysis?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unintentional weight loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluctuations in blood sugar"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated urea nitrogen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated creatine kinase"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "higher potassium"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible kidney involvement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "muscle breakdown"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "muscle pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dark-colored urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "rhabdomyolysis"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have had some muscle pains, mostly in my legs, but I thought it was just from being less active lately. I haven\u2019t really noticed my urine being super dark\u2014maybe a little darker than normal, but not like cola-colored or anything. I don\u2019t feel especially weak in my arms or anything, but my right leg does pain quite a bit and feels colder than the other one.\n\nActually, the other thing is that when I was in the ER, they said my oxygen levels were low\u2014hypoxia, I think they called it. They also mentioned something about diffuse rales bilaterally up to halfway in my lung fields when they listened to my chest. That kind of worried me, because I know that\u2019s not normal. Is all of this\u2014like the hypoxia, the rales, and these lab findings\u2014connected? Should I be really worried about my kidneys or muscles breaking down?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle pains mostly in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "urine a little darker than normal"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right leg pain and feels colder than the other one"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no weakness in arms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen levels (hypoxia)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "diffuse rales bilaterally up to halfway in lung fields"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Are hypoxia, rales, and lab findings connected?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about kidneys or muscles breaking down?"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your increased fatigue, unintentional weight loss, and the abnormal examination findings like hypoxia and diffuse rales. Based on your recent laboratory clinical findings\u2014including elevated urea nitrogen, creatine kinase, and potassium\u2014there may be involvement of your kidneys and possible muscle breakdown. Have you experienced any recent decrease in urine output or noticed swelling in your ankles or feet that might suggest worsening kidney function?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed a big decrease in my urine output, but maybe it\u2019s a bit less than usual and a little darker. The swelling in my ankles and feet is about the same as it\u2019s been\u2014I get some from time to time, but it hasn\u2019t gotten a lot worse.\n\nActually, there\u2019s something else I wanted to mention. I noticed that my fingernails have started to look kind of clubbed\u2014like they\u2019re more rounded at the tips than they used to be. I read somewhere that can be a sign of lung or heart symptoms, so that\u2019s been worrying me too.\n\nAnd with the decreased sensation to light touch below my knees, that\u2019s definitely gotten worse lately. It\u2019s hard to feel symptoms with my toes and feet, and sometimes I don\u2019t even notice if I bump into something. With all these symptoms\u2014fatigue, hypoxia, the clubbing, and the neuropathy getting worse\u2014I\u2019m just really anxious about what\u2019s going on. Is this all connected? Should I be preparing for something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "darker urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles and feet"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clubbing of fingernails"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased sensation to light touch below knees"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hard to feel with toes and feet"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neuropathy getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Are these symptoms connected?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be preparing for something serious?"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the combination of increased fatigue, worsening neuropathy, clubbing of your fingernails, hypoxia, and your recent laboratory findings showing elevated urea nitrogen, creatine kinase, and potassium. These findings suggest there may be involvement of your lungs, kidneys, and possibly muscle tissue. As part of my assessment, have you experienced any new or worsening shortness of breath when lying flat (orthopnea) or episodes of waking up suddenly at night experiencing breathless (paroxysmal nocturnal dyspnea)?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, I have noticed that it\u2019s harder to breathe when I\u2019m lying flat\u2014I\u2019ve been propping myself up with extra pillows at night just to get comfortable. And there have been a few nights where I woke up suddenly, really short of breath, which I guess is what you called paroxysmal nocturnal dyspnea. That\u2019s been pretty scary.\n\nMy cough is still there too, mostly dry, and it seems to get worse at night. I also remember when they examinationed my oxygen in the ER, it was below 90%, so hypoxia, right? That\u2019s got me really worried\u2014should I be concerned that all of these symptoms are pointing to something serious with my lungs or heart? And is there anything I should be doing differently at home while we figure this out?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to breathe when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "needs extra pillows to sleep comfortably"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up suddenly short of breath (paroxysmal nocturnal dyspnea)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry cough worse at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "oxygen saturation below 90% (hypoxia)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "concern about serious lung or heart disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "asks if anything should be done differently at home"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your increased shortness of breath when lying flat, episodes of waking up breathless, persistent hypoxia, and the changes you\u2019ve noticed in your fingernails and neuropathy. Based on your symptoms and recent laboratory findings\u2014including elevated urea nitrogen, creatine kinase, and potassium\u2014there are concerns for possible heart failure, ongoing lung disease, and potential kidney involvement.\n\nAt this point, it\u2019s important that you continue using your home oxygen as prescribed, monitor your blood sugar closely, and limit activities that worsen your symptoms. If you notice any sudden worsening of shortness of breath, chest pain, significant swelling, or confusion, please assessk immediate medical attention.\n\nFor my assessment, have you had any recent imaging studies\u2014such as a chest X-ray or echocardiogram\u2014to further evaluate your heart and lung condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of waking up breathless"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in fingernails"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neuropathy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated urea nitrogen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated creatine kinase"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated potassium"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "ongoing lung disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "potential kidney involvement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "continue using home oxygen as prescribed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor blood sugar closely"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "limit activities that worsen symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "seek immediate medical attention if sudden worsening of shortness of breath, chest pain, significant swelling, or confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "recent imaging studies such as chest X-ray or echocardiogram"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I did have a chest X-ray when I was in the ER not too long ago, but I haven\u2019t had an echocardiogram recently. They told me the X-ray showed some changes, but I didn\u2019t really understand what that meant. I haven\u2019t had any CT scans or anything like that for my lungs either.\n\nActually, while I\u2019m thinking about it, I wanted to ask about my right leg. I\u2019ve had complications there before because of arterial thrombosis, and lately the pain and swelling have gotten worse. It feels colder than the other leg, and sometimes it\u2019s hard to walk. Could that be related to all these other symptoms?\n\nAnd about my blood sugars\u2014I\u2019ve had some episodes of hypoglycemia at home, where I even lost consciousness once. Other times, especially when I was on steroids, my sugars went really high. It\u2019s been tough to keep symptoms stable, and that\u2019s making me pretty anxious too.\n\nWith everything going on\u2014shortness of breath, hypoxia, the clubbing in my fingernails, the neuropathy getting worse, and now the leg symptoms\u2014I just feel overwhelmed. Should I be worried that all these symptoms are connected? Is there something serious happening with my heart, lungs, or kidneys that I should be prepared for?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "chest X-ray"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medical-place",
+          "value": "ER"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "echocardiogram"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "CT scan"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain and swelling in right leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "arterial thrombosis in right leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right leg feels colder than other leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty walking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Could leg symptoms be related to other symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoglycemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness due to hypoglycemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine-category",
+          "value": "steroids"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hyperglycemia when on steroids"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety due to unstable symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clubbing in fingernails"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening neuropathy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried that all these symptoms are connected?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is there something serious happening with my heart, lungs, or kidneys?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, given the combination of worsening shortness of breath, hypoxia, clubbing of the fingernails, increased fatigue, neuropathy progression, and right leg symptoms\u2014all on top of your complex medical history. Based on your symptoms and recent laboratory findings (including elevated urea nitrogen, creatine kinase, and potassium), there is concern for significant involvement of your heart, lungs, kidneys, and possibly ongoing muscle injury or vascular compromise in your right leg.\n\nAt this stage, I recommend a comprehensive clinical assessment\u2014including repeat imaging studies (such as a chest X-ray and echocardiogram), vascular examination of your right leg, and close monitoring of your kidney function and blood glucose. It\u2019s important to continue using your home oxygen as prescribed and to promptly report any sudden worsening of symptoms. \n\nHave you noticed any new color changes (such as pale or blue discoloration) or loss of pulse in your right foot that might indicate worsening arterial circulation?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath, hypoxia, clubbing of the fingernails, increased fatigue, neuropathy progression, right leg symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "complex medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated urea nitrogen, creatine kinase, potassium"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "concern for significant involvement of heart, lungs, kidneys, and possibly ongoing muscle injury or vascular compromise in right leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "comprehensive clinical assessment, repeat imaging studies (chest X-ray, echocardiogram), vascular examination of right leg, monitoring kidney function and blood glucose"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "continue using home oxygen as prescribed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "promptly report any sudden worsening of symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new color changes (pale or blue discoloration) or loss of pulse in right foot"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, my right foot has looked a bit more pale than usual, and sometimes even kind of bluish, especially when I\u2019m sitting for a while. It also feels colder compared to my left foot. I haven\u2019t examinationed for a pulse myself, but it definitely doesn\u2019t feel right. The pain in that leg has also gotten worse, and sometimes it\u2019s hard to move around because of it.\n\nWith everything going on\u2014my shortness of breath, the hypoxia, the clubbing of my fingernails, and now these vascular symptoms in my leg\u2014I\u2019m honestly feeling pretty overwhelmed. I know my medical history is complicated, but lately it just feels like everything\u2019s piling up at once.\n\nTo be honest, all of this has really affected my mood too. I\u2019ve been feeling more depressed\u2014just kind of down and hopeless about my health. Is it normal to feel this way with all these symptoms? And is there anything else I should be doing right now to keep symptoms from getting worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right foot more pale than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right foot bluish especially when sitting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right foot feels colder compared to left"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain in right leg has gotten worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hard to move around because of leg pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clubbing of fingernails"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "complicated medical history"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling more depressed, down and hopeless about health"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is it normal to feel this way with all these symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything else I should be doing right now to keep symptoms from getting worse?"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can appreciate how overwhelming and discouraging these symptoms must feel, especially with your complex medical history and the recent changes you\u2019ve described. Based on your symptoms\u2014including worsening shortness of breath, hypoxia, clubbing of the fingernails, progression of neuropathy, and new vascular symptoms in your right leg\u2014along with your recent laboratory findings of elevated urea nitrogen, creatine kinase, and potassium, my assessment is that you may be experiencing acute decompensation of your cardiac and pulmonary conditions, possible kidney involvement, and compromised arterial circulation in your right leg.\n\nMy recommendations are to continue using your home oxygen as prescribed, monitor your blood glucose closely, and avoid activities that worsen your symptoms. You should assessk immediate medical attention if you notice sudden worsening of shortness of breath, chest pain, confusion, or if your right foot becomes cold, blue, or loses sensation entirely. \n\nTo guide further management, have you had a recent vascular ultrasound or Doppler examination of your right leg to assess arterial blood flow?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Actually, I haven\u2019t had a vascular ultrasound or Doppler on my right leg recently. The last time they did any kind of imaging on my leg was probably a year or so ago, after my bypass. Since then, it\u2019s mostly just been regular examination-ups. With the way my right leg has been paining more, feeling colder, and sometimes looking pale or bluish, I was starting to wonder if the circulation was getting worse again.\n\nI really appreciate you explaining everything so clearly. I know my medical history is complicated, but hearing that there could be acute decompensation of my cardiac and pulmonary conditions, plus possible kidney involvement and compromised arterial circulation, is honestly pretty scary. Should I be worried that this could lead to something like losing my leg, or even something life-threatening?\n\nAlso, with all these symptoms piling up\u2014shortness of breath, hypoxia, clubbing, neuropathy getting worse, and now the right leg symptoms\u2014I\u2019ve been feeling pretty down and anxious. Is it normal to feel this way? And is there anything else I should be doing right now to keep symptoms from getting worse while we wait for more tests?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "vascular ultrasound or Doppler not done recently"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "last imaging on right leg about a year ago after bypass"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right leg paining more"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right leg feeling colder"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right leg sometimes looking pale or bluish"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "worry about losing leg or life-threatening complication"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clubbing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neuropathy getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling down and anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "is it normal to feel this way"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should be doing to keep symptoms from getting worse while waiting for tests"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can absolutely understand why you\u2019d be anxious, especially with your complex medical history and the recent worsening of your symptoms\u2014including shortness of breath, hypoxia, clubbing of the fingernails, neuropathy progression, and new vascular symptoms in your right leg. Based on your clinical presentation and recent laboratory findings (elevated urea nitrogen, creatine kinase, and potassium), there is concern for acute decompensation of your cardiac and pulmonary conditions, possible kidney involvement, and compromised arterial circulation in your right leg, which can indeed be serious and potentially limb- or life-threatening if not addressed promptly.\n\nMy recommendation is that you assessk urgent medical attention for a comprehensive assessment, including vascular imaging of your right leg, cardiac and pulmonary evaluation, and close monitoring of your kidney function and electrolytes. In the meantime, continue using home oxygen as prescribed, monitor your blood glucose closely, and avoid activities that worsen your symptoms. \n\nHave you experienced any sudden loss of sensation or movement in your right foot that could indicate acute arterial occlusion requiring immediate intervention?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clubbing of the fingernails"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neuropathy progression"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "new vascular symptoms in right leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated urea nitrogen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated creatine kinase"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated potassium"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute decompensation of cardiac and pulmonary conditions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible kidney involvement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "compromised arterial circulation in right leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "seek urgent medical attention for comprehensive assessment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "vascular imaging of right leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "cardiac and pulmonary evaluation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "close monitoring of kidney function and electrolytes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "continue using home oxygen as prescribed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor blood glucose closely"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "avoid activities that worsen symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden loss of sensation or movement in right foot"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t had a complete loss of sensation or movement in my right foot, but the numbness and tingling have definitely gotten worse, especially over the past few days. Sometimes it feels almost dead cold compared to my left foot, and there are moments when it\u2019s hard to wiggle my toes. I can still move them, but it takes more effort, and the pain is pretty constant now.\n\nHonestly, hearing you say this could be limb- or life-threatening is really scary. I knew symptoms were getting worse, but I didn\u2019t realize it could be that serious. Should I go to the emergency room right away, or is it okay to wait for more tests? And with all these symptoms\u2014shortness of breath, hypoxia, the clubbing, worsening neuropathy, and now this right leg issue\u2014does this mean my heart or kidneys might be failing? I just want to know what to expect and what I should be watching out for at home.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness and tingling in right foot"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening numbness and tingling over past few days"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right foot feels dead cold compared to left"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty wiggling toes on right foot"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constant pain in right foot"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I go to the emergency room right away or wait for more tests?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clubbing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening neuropathy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Does this mean my heart or kidneys might be failing?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "What should I be watching out for at home?"
+        }
+      ]
+    }
+  ]
+}

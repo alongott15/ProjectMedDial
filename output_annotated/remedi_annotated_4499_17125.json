@@ -1,0 +1,982 @@
+{
+  "source_row_id": 4498,
+  "source_subject_id": 17125,
+  "source_hadm_id": 117486,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Good morning, thank you for coming in today. I understand you have been experiencing shortness of breath and some lethargy over the past several days. Can you describe in more detail how your shortness of breath has changed or progressed recently?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Good morning, thank you for coming in today."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um... yes, the shortness of breath has definitely gotten worse. I just feel like I can\u2019t quite catch my breath, even when I\u2019m just sitting still. It\u2019s making me pretty anxious, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why experiencing short of breath would make you anxious, and I appreciate you sharing how this is affecting you. In addition to your shortness of breath, have you noticed any other symptoms such as increased fatigue or signs of an upper respiratory infection, like cough, congestion, or fever?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why experiencing short of breath would make you anxious, and I appreciate you sharing how this is affecting you."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "other symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "congestion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I have been feeling a lot more lethargic lately. I just don\u2019t have much energy at all. I haven\u2019t really noticed a fever, but I do feel kind of run down.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargic"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lack of energy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "run down"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that you\u2019ve been experiencing more lethargic and run down; that can be very challenging. To help with my assessment, have you experienced any upper respiratory symptoms such as cough, nasal congestion, or sore throat along with your shortness of breath and fatigue?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nasal congestion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sore throat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fatigue"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, yes, I have had some upper respiratory symptoms. My nose has been kind of stuffy and I\u2019ve had a bit of a cough, nothing too strong though. And, um\u2026 I\u2019m not sure if this is related, but lately I\u2019ve been feeling kind of out of it\u2014like sometimes I get really sleepy or just can\u2019t focus very well. It\u2019s a little scary. Should I be worried about that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "upper respiratory symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "stuffy nose"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sleepiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty focusing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about that?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about experiencing unusually sleepy and having difficulty focusing\u2014those symptoms can be unsettling. To help with my assessment, have you noticed any changes in your mental status such as confusion, disorientation, or episodes where you have trouble staying awake during the day?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unusually sleepy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty focusing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "disorientation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "trouble staying awake during the day"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um, yes, actually\u2026 there have been a couple of times where I felt really confused, and it\u2019s almost like I couldn\u2019t keep my eyes open\u2014I was just so sleepy, even in the middle of the day. My family said I seemed kind of agitated at times too, which I don\u2019t really remember. And I think my breathing has been a lot faster than usual\u2014someone mentioned my respiratory rate was up around 40. That seems high, right? Should I be concerned about all of this?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "excessive sleepiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "agitation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased respiratory rate"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "respiratory rate was up around 40"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be concerned about all of this?"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why these symptoms are making you feel anxious, especially with the increased sleepiness, confusion, and rapid breathing you\u2019ve described. To help with my assessment, have you noticed any changes in your cough\u2014such as it becoming more frequent, producing sputum, or any new wheezing or chest discomfort?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "rapid breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "more frequent cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "producing sputum"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new wheezing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well\u2026 actually, there was something that happened a couple days ago that really scared me. I had what my family said was a grand mal seizure\u2014I don\u2019t remember much, but they told me my whole body was shaking, my eyes rolled back, and I guess my oxygen levels dropped into the 60s. Since then, I\u2019ve noticed some wheezing, mostly on the left side up high in my chest. My cough isn\u2019t very strong, and I don\u2019t bring up much sputum. I\u2019m just really worried\u2014should I be concerned about the seizure and the wheezing?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "grand mal seizure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "whole body shaking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "eyes rolled back"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "oxygen levels dropped into the 60s"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing on the left side up high in chest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weak cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not bringing up much sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "should I be concerned about the seizure and the wheezing"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried after experiencing a seizure and noticing new wheezing, especially with your history of respiratory symptoms and lethargy. To help with my assessment, have you noticed any changes in your ability to stay awake or episodes of increased somnolence since the seizure occurred?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "seizure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "respiratory symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ability to stay awake"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of increased somnolence"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2026 since the seizure, I\u2019ve definitely had more trouble staying awake. I feel really somnolent at times\u2014like I\u2019ll just drift off even when people are talking to me. My family says I\u2019m not myself and sometimes I seem confused or agitated. \n\nAlso, I wanted to mention\u2014when the nurse was listening to my lungs, she said there were scattered crackles in the bases bilaterally. And, um, I\u2019ve noticed a kind of fullness in my abdomen lately, but I\u2019m not sure if that\u2019s important. Should I be worried about all these symptoms happening together?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble staying awake"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "agitation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "scattered crackles in lung bases"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fullness in abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about all these symptoms happening together?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about experiencing increased somnolence, confusion, and these new respiratory symptoms. To help with my assessment, have you noticed any changes in your cough reflex or ability to swallow\u2014such as coughing or choking when drinking liquids, or difficulty clearing your throat?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "new respiratory symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in cough reflex"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "coughing or choking when drinking liquids"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty clearing throat"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2026 now that you mention it, I have had some trouble with swallowing. When I try to drink liquids, especially with a straw, sometimes it feels like it goes down the wrong way, but I don\u2019t really cough much after\u2014it\u2019s almost like my cough reflex isn\u2019t working very well. My family noticed that too.\n\nAlso, I wanted to ask\u2014my feet and lower legs have been kind of swollen, and when I press on them, it leaves a little dent. I think that\u2019s called pitting edema? It goes up to about my mid-ankles. And my hands and feet feel pretty cool to the touch, even when the rest of me feels warm. Should I be worried about these symptoms along with everything else?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble with swallowing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "liquids sometimes go down the wrong way"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough reflex isn\u2019t working very well"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swollen feet and lower legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pitting edema up to mid-ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hands and feet feel cool to the touch"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about these symptoms along with everything else?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the combination of lethargy, swallowing difficulties, and swelling in your lower extremities. To help with my assessment, have you experienced any recent changes in your appetite, weight, or gastroindiagnostic evaluationinal symptoms such as nausea, vomiting, or abdominal pain along with the sense of abdominal fullness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swallowing difficulties"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in lower extremities"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in weight"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sense of abdominal fullness"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 my appetite hasn\u2019t been great lately. I haven\u2019t really felt like eating much, but I don\u2019t think I\u2019ve lost a lot of weight. I haven\u2019t had any nausea or vomiting, but that sense of abdominal fullness is still there\u2014almost like there\u2019s pressure, but not really pain.\n\nActually, I wanted to mention something else that\u2019s been worrying me. Since the seizure, the nurses have told me my blood pressure has been pretty low at times\u2014like the systolic was down in the 80s, and they said my MAPs were in the 50s. I\u2019m not sure what that means exactly, but it sounds serious. Is recurrent hypotension something I should be really concerned about, especially with everything else going on?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sense of abdominal fullness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low blood pressure (systolic in the 80s, MAPs in the 50s)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "seizure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recurrent hypotension concern"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious about experiencing recurrent low blood pressure, especially alongside your other symptoms like lethargy, somnolence, upper respiratory infection symptoms, and swelling in your lower extremities. Based on what you\u2019ve described, I\u2019m concerned about the possibility of a systemic condition affecting your overall stability. As part of my assessment, have you noticed any new or worsening shortness of breath when lying flat (orthopnea) or waking up suddenly at night experiencing breathless (paroxysmal nocturnal dyspnea)?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Actually, yes\u2014I have noticed that it\u2019s harder to breathe when I\u2019m lying flat. I\u2019ve been propping myself up with extra pillows at night, and sometimes I wake up suddenly feeling really short of breath\u2014I guess that\u2019s what you called paroxysmal nocturnal dyspnea? It\u2019s pretty unsettling.\n\nAlso, I wanted to mention\u2014my respiratory rate has been really high at times, like up in the 40s, and the nurses said my oxygen saturation has mostly been between 88 and 92 percent, even with my home oxygen on. That seems low to me, and it makes me even more anxious. Is that something I should be really worried about? And with all these symptoms together, do you think this could be something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to breathe when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up suddenly feeling short of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory rate has been really high at times, like up in the 40s"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "oxygen saturation has mostly been between 88 and 92 percent"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "home oxygen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Is that something I should be really worried about?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "do you think this could be something serious?"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with persistent shortness of breath, low oxygen saturation, and difficulty breathing when lying flat. Based on your symptoms\u2014including lethargy, upper respiratory infection symptoms, somnolence, seizure, hypotension, and lower extremity edema\u2014I am concerned about a potentially serious underlying condition affecting your lungs and possibly your heart. To help further with my assessment, have you noticed any chest pain or pressure associated with your shortness of breath?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "upper respiratory infection symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "seizure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "potentially serious underlying condition affecting lungs and possibly heart"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain or pressure associated with shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really had what I\u2019d call chest pain, but sometimes there\u2019s a kind of pressure or tightness, especially when my shortness of breath gets worse. It\u2019s not sharp or anything, just uncomfortable and it makes me more anxious.\n\nAnd actually, since you mentioned symptoms earlier, I wanted to bring up something else\u2014I\u2019ve noticed that when I drink liquids with a straw, sometimes I silently aspirate. It just goes down the wrong way, but I don\u2019t really cough much afterward. I think my cough reflex isn\u2019t very strong right now. My family\u2019s worried about that too.\n\nWith all these symptoms\u2014shortness of breath, low oxygen saturation, swelling in my legs, the seizure, and now this silent aspiration\u2014should I be really worried? Is there something serious going on with my lungs or heart?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pressure or tightness in chest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "silent aspiration when drinking with a straw"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weak cough reflex"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "seizure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "serious lung or heart problem"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, given your symptoms of shortness of breath, low oxygen saturation, lower extremity edema, somnolence, seizure, and silent aspiration\u2014all of which suggest a potentially serious underlying condition involving your lungs and possibly your heart. Based on your medical history and these findings, I am concerned about the possibility of acute respiratory failure or congestive heart failure. As part of my assessment, have you experienced any recent increase in sputum production or changes in its color, which could indicate an infection or worsening pulmonary condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "seizure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "silent aspiration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute respiratory failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "congestive heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increase in sputum production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "change in sputum color"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, let me think\u2026 Actually, I haven\u2019t noticed much of a change in my sputum production. I don\u2019t really cough up much at all, and if I do, it\u2019s just a little bit and it\u2019s still clear\u2014not yellow or green or anything like that. So I guess I\u2019m not having any new symptoms with sputum.\n\nUm, I did want to ask about something else though. I remember last time when my sodium was low, I had a seizure, but right now they told me my sodium is at a similar level and I seem to be asymptomatic with sodium at this level. Does that mean it\u2019s less likely my seizure was from the sodium this time? Or could it still be related? I\u2019m just feeling really anxious with everything going on\u2014should I be worried about acute respiratory failure or congestive heart failure?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no change in sputum production, not coughing up much, sputum is clear"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new symptoms with sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "relationship between low sodium and seizure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "risk of acute respiratory failure or congestive heart failure"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1067 @@
+{
+  "source_row_id": 4483,
+  "source_subject_id": 18398,
+  "source_hadm_id": 138400,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Good morning, thank you for coming in today. I understand you have been experiencing symptoms such as dizziness and stumbling. Can you tell me more about when these symptoms began and if there is anything that assessms to make them better or worse?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Good morning, doctor. Um, yes, I\u2019ve been having a lot of dizziness lately, and I notice I stumble sometimes when I walk. It\u2019s been going on for a little while now, but, well\u2026 what\u2019s really worrying me is that my shortness of breath seems to be getting worse. I\u2019m not sure if all these symptoms are connected or not.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Good morning, doctor."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "stumbling when walking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "if all these symptoms are connected"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these symptoms with me\u2014I appreciate your concern about whether they might be related. You mentioned stumbling and dizziness; have you also noticed any episodes of garbled speech or difficulty finding words during these episodes?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing these symptoms with me\u2014I appreciate your concern about whether they might be related."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "stumbling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "garbled speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty finding words"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I think my main concern right now is the chest pain I\u2019ve been having, especially since the shortness of breath has been getting worse. I\u2019m not sure if it\u2019s connected to the dizziness and stumbling, but it\u2019s making me pretty anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "stumbling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014chest pain and worsening shortness of breath are definitely concerning symptoms. To help with my assessment, have you experienced any episodes of garbled speech or numbness along with these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "garbled speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "numbness"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have had some episodes where my speech gets kind of garbled. It doesn\u2019t happen all the time, but it\u2019s been a few times lately. And, actually, I\u2019ve noticed some numbness too\u2014mostly in my left hand and sometimes around my mouth. I wasn\u2019t sure if I should be worried about those symptoms, but with the dizziness and stumbling, it\u2019s starting to make me pretty anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "garbled speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness in left hand"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness around mouth"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "stumbling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014experiencing garbled speech, numbness, and worsening shortness of breath can be very unsettling. To help with my assessment, have your episodes of garbled speech and numbness occurred at the same time as your chest pain or shortness of breath, or do they assessm to happen separately?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "garbled speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "garbled speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "numbness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, sometimes the garbled speech and numbness do happen around the same time as the shortness of breath. I think there have been a couple of times when I also had some chest pain at the same time, but not always. It\u2019s a bit hard to remember exactly, but it does seem like some of these symptoms overlap. Should I be worried that they\u2019re happening together?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "garbled speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried that these symptoms are happening together?"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with these symptoms happening together. To help with my assessment, have you experienced any fevers or chills along with your worsening shortness of breath?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be anxious, especially with these symptoms happening together."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 yes, actually, I have had some fevers and chills, mostly in the evenings. I wasn\u2019t sure if it was related, but it does seem to happen when my shortness of breath gets worse. And, well, sometimes when I have those episodes, that\u2019s also when the garbled speech and numbness show up. I\u2019m really starting to get worried about all these symptoms happening together.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "mostly in the evenings"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "garbled speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially since they\u2019re happening together. To help with my assessment, can you tell me if your worsening shortness of breath occurs mainly at rest or with physical activity, and whether you ever wake up at night experiencing breathless?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried about these symptoms, especially since they\u2019re happening together."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "at rest or with physical activity"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "wake up at night experiencing breathless"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Well, um, let me think\u2026 The shortness of breath definitely gets worse when I\u2019m doing symptoms\u2014like walking around the house or even just going up a few steps. But lately, I have noticed it sometimes comes on even when I\u2019m just sitting and not really doing anything. And yes, I have woken up at night feeling breathless a few times, which is pretty scary.\n\nAlso, like I mentioned before, I\u2019ve been having fevers and chills, mostly in the evenings. It all seems to be happening together more often now\u2014the shortness of breath, chest pain, and then sometimes the garbled speech and numbness. Should I be really worried about these symptoms coming on at the same time? Is there something serious going on?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath with activity and at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up at night feeling breathless"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "mostly in the evenings"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "garbled speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be really worried about these symptoms coming on at the same time?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is there something serious going on?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your symptoms of worsening shortness of breath, chest pain, and neurological changes occurring together. To help with my assessment, have you noticed any swelling in your legs or ankles, or any sudden weight gain, which can sometimes accompany shortness of breath in certain medical conditions?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neurological changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in legs or ankles"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden weight gain"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um, yes\u2014I have noticed some swelling in my ankles, especially by the end of the day. It seems like my socks leave more of a mark than they used to. I haven\u2019t really paid close attention to my weight, but my shoes do feel tighter lately, so maybe there\u2019s been some weight gain too.\n\nWith all these symptoms\u2014shortness of breath, chest pain, the neurological changes like garbled speech and numbness, and now the swelling\u2014I\u2019m getting really anxious. Is this something serious, doctor? Should I be worried about heart failure or something else going on?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "socks leave more of a mark"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shoes feel tighter"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "garbled speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is this something serious? Should I be worried about something else going on?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with your symptoms worsening and new findings like ankle swelling. To help with my assessment, have you noticed any orthopnea\u2014that is, needing to prop yourself up with extra pillows at night to breathe comfortably\u2014or episodes of waking up suddenly gasping for air (paroxysmal nocturnal dyspnea)?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Actually, yes\u2014I have been needing to sleep with more pillows lately. I used to be fine with just one, but now I\u2019m up to three just to feel like I can breathe at night. And there have been a couple of times where I woke up suddenly, kind of gasping for air\u2014I guess that\u2019s what you called paroxysmal nocturnal dyspnea? It\u2019s really frightening when it happens.\n\nWith all these symptoms\u2014orthopnea, the swelling in my ankles, the chest pain, and the shortness of breath\u2014I\u2019m really starting to worry if this could be heart failure or something serious with my lungs. Is there anything I should be doing differently right now, or is there something urgent I need to watch out for?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "serious lung disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything I should be doing differently"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "something urgent I need to watch out for"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s important that you\u2019ve noticed symptoms such as worsening shortness of breath, orthopnea, ankle swelling, chest pain, and neurological changes. Based on your medical history and current symptoms, I am concerned about possible heart failure or another serious cardiopulmonary condition, and I want to make sure we examine this thoroughly. Have you experienced any palpitations or irregular heartbeats along with your other symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankle swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neurological changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible heart failure or another serious cardiopulmonary condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations or irregular heartbeats"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um, now that you mention it, I have felt some palpitations\u2014like my heart is fluttering or beating kind of funny, especially when I\u2019m lying down or after I\u2019ve had one of those episodes with shortness of breath or chest pain. It doesn\u2019t happen all the time, but it\u2019s definitely more noticeable lately.\n\nI\u2019m really anxious about all these symptoms coming together\u2014especially with my medical history. Should I be worried about this being heart failure, or could it be something else? Is there anything I should be doing right now to keep symptoms from getting worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart fluttering"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "irregular heartbeat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "medical history"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "other possible causes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what to do to prevent symptoms from worsening"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially given your symptoms of worsening shortness of breath, chest pain, orthopnea, ankle swelling, palpitations, and neurological changes, all in the context of your medical history. Based on this combination of symptoms, I am concerned about possible heart failure or another serious cardiopulmonary condition, and a thorough clinical assessment is important. Have you noticed any changes in your urine output or color, which can sometimes indicate how well your heart and kidneys are functioning?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankle swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neurological changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible heart failure or another serious cardiopulmonary condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output or color"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um, now that you mention it, I think my urine output has gone down a bit lately. It seems like I\u2019m not going as much as I used to, and sometimes the color looks a little darker than normal. I just thought maybe I wasn\u2019t drinking enough water, but now I\u2019m wondering if it\u2019s related to everything else.\n\nWith all these symptoms\u2014shortness of breath, chest pain, orthopnea, ankle swelling, palpitations, and now changes in urine output\u2014I\u2019m honestly getting really anxious. Should I be worried about my heart or kidneys failing? Is there anything I should be watching for at home, or do I need to go to the hospital?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "darker urine color"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankle swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "kidney failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "signs to watch for at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "need to go to the hospital"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, given your symptoms of worsening shortness of breath, chest pain, orthopnea, ankle swelling, palpitations, neurological changes, and decreased urine output\u2014all in the context of your medical history. Based on this combination of symptoms, my assessment is that you may be experiencing signs of heart failure or another serious cardiopulmonary or renal condition. Have you noticed any new or worsening confusion, difficulty staying awake, or sudden weakness that would suggest changes in your mental status?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um, actually, yes\u2014I have noticed a bit more confusion lately. Sometimes I just feel kind of foggy or it takes me longer to find the right words, and there have been a couple of times where I just felt really tired all of a sudden, like I could barely keep my eyes open. I thought maybe it was just from not sleeping well because of the shortness of breath, but now I\u2019m not so sure.\n\nI\u2019m really anxious about all these symptoms\u2014especially now that you mentioned heart failure and possible kidney symptoms. Should I be going to the hospital right now? Is there anything I should be doing at home while I wait for more tests? And is this something that can get better, or is it likely to get worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling foggy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "word-finding difficulty"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sudden tiredness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty staying awake"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor sleep"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be going to the hospital right now?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything I should be doing at home while I wait for more tests?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Is this something that can get better, or is it likely to get worse?"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014these symptoms are understandably causing you a lot of anxiety, especially given your medical history and how they\u2019re progressing. Based on your symptoms\u2014worsening shortness of breath, chest pain, orthopnea, ankle swelling, palpitations, decreased urine output, and new confusion\u2014I am concerned about possible acute heart failure or another serious cardiopulmonary or renal condition that requires urgent medical assessment.\n\nGiven the severity and combination of your symptoms, I strongly recommend that you go to the emergency department right away for immediate examination and further assessment. While you are preparing to go, have you noticed any new onset of severe chest pain, sudden weakness on one side of your clinical examination, or difficulty speaking that would suggest an acute neurological event?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible acute heart failure or another serious cardiopulmonary or renal condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medical-place",
+          "value": "emergency department"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new onset of severe chest pain, sudden weakness on one side, difficulty speaking"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor. Um, I really appreciate you explaining everything so clearly. I am feeling pretty anxious right now, but I understand why you want me to go to the emergency department.\n\nTo answer your question\u2014well, I haven\u2019t had any sudden, severe chest pain that\u2019s different from what I\u2019ve already described. The chest pain I get is more of a pressure or heaviness, not sharp. As for weakness, I don\u2019t think I\u2019ve had sudden weakness just on one side, but sometimes my left hand does feel numb or a little weaker than usual. And with the difficulty speaking\u2014I have had those episodes of garbled speech, but nothing that\u2019s come on all of a sudden in the last few hours.\n\nShould I bring anything specific with me to the hospital? And is there anything I should watch out for on the way there\u2014like if the chest pain gets worse or if I suddenly can\u2019t speak or move one side? I just want to make sure I\u2019m doing the right thing.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you, doctor. Um, I really appreciate you explaining everything so clearly. I am feeling pretty anxious right now, but I understand why you want me to go to the emergency department."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "No sudden, severe chest pain that\u2019s different from what I\u2019ve already described."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "Chest pain is more of a pressure or heaviness, not sharp."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "No sudden weakness just on one side."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "Sometimes left hand feels numb or a little weaker than usual."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "Episodes of garbled speech, but nothing that\u2019s come on all of a sudden in the last few hours."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I bring anything specific with me to the hospital?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything I should watch out for on the way there\u2014like if the chest pain gets worse or if I suddenly can\u2019t speak or move one side?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "QA",
+          "slot": "Other",
+          "value": "I just want to make sure I\u2019m doing the right thing."
+        }
+      ]
+    }
+  ]
+}

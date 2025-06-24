@@ -1,0 +1,988 @@
+{
+  "source_row_id": 4499,
+  "source_subject_id": 17125,
+  "source_hadm_id": 128929,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you have been experiencing shortness of breath that has been worsening over the past few days. Can you describe in more detail how your symptoms of shortness of breath have changed recently, such as whether it occurs at rest or with activity?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath worsening over the past few days"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "whether shortness of breath occurs at rest or with activity"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I\u2019ve been having more shortness of breath lately. It just feels harder to catch my breath than usual. I\u2019m a little worried about it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to catch breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "worried"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014worsening shortness of breath can be very concerning. To help guide my assessment, have you noticed any symptoms such as confusion, drowsiness, or headaches that might suggest high carbon dioxide levels, also known as hypercarbia?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "drowsiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "headaches"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "hypercarbia"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Um, well\u2026 I have been feeling a bit more tired and maybe a little foggy, but I\u2019m not sure if that\u2019s from the shortness of breath or maybe, like you said, hypercarbia. Should I be worried about that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tired"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "foggy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about that?"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about experiencing more tired and foggy, especially with your shortness of breath getting worse. To help with my assessment, can you tell me if you\u2019ve experienced any symptoms of respiratory failure, such as difficulty speaking in full sentences, bluish lips or fingertips, or needing increased oxygen support since your breathing worsened?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tired and foggy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath getting worse"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty speaking in full sentences"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "bluish lips or fingertips"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "needing increased oxygen support"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, yes, I have had some trouble getting out full sentences when I\u2019m really short of breath. I haven\u2019t noticed my lips turning blue, but I do feel like I need my oxygen more than before. After I was extubated last time, they mentioned something about poor ventilation and possible respiratory failure\u2014I guess that\u2019s what you\u2019re asking about? It does make me anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble getting out full sentences"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased need for oxygen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "extubation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "poor ventilation and possible respiratory failure mentioned previously"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially after experiencing poor ventilation and respiratory failure following extubation. To help with my assessment, have you noticed any new or worsening symptoms of fatigue or muscle weakness, such as difficulty moving your arms or legs, or trouble performing daily activities since your breathing became worse?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor ventilation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty moving arms or legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "trouble performing daily activities"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "breathing became worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I have been feeling more fatigued lately, and my muscles feel weaker than usual. It\u2019s harder to get around and do symptoms on my own. Actually, now that you mention it, my abdomen feels kind of distended too. I\u2019m not sure if that\u2019s related, but it\u2019s been uncomfortable. Should I be concerned about these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty getting around"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be concerned about these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with increasing fatigue, muscle weakness, and abdominal distension. To help guide my assessment, have you experienced any difficulty swallowing, changes in your voice, or symptoms such as drooping eyelids that could suggest involvement of the muscles used for breathing and swallowing?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in voice"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "drooping eyelids"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um, let me think\u2026 I don\u2019t think I\u2019ve had trouble swallowing or changes in my voice, and I haven\u2019t noticed my eyelids drooping. But actually, I have been having some diarrhea lately, and they told me my stools were guiac positive. That\u2019s made me a bit more anxious, to be honest. Is that something I should be worried about with these other symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diarrhea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "stools guiac positive"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no trouble swallowing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no changes in voice"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no eyelid drooping"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is that something I should be worried about with these other symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with new symptoms like diarrhea and guiac positive stools in addition to your fatigue and muscle weakness. To help with my assessment, have you noticed any blood in your stools or experienced abdominal pain along with the abdominal distension?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diarrhea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "guiac positive stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "blood in stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really seen any obvious blood in my stools, but since they said it was guiac positive, I guess there must be some blood I can\u2019t see. My abdomen does feel distended and a bit uncomfortable, but I wouldn\u2019t call it real pain\u2014more like a fullness or bloating. I\u2019m just worried with all these symptoms happening at once. With my history of colon cancer and iron deficiency anemia, should I be more concerned about the bleeding? And is the diarrhea related to my other symptoms, like the shortness of breath and muscle weakness?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no obvious blood in stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "guiac positive"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdomen distended"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fullness or bloating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "colon cancer"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "iron deficiency anemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "concern about bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "relationship between diarrhea and other symptoms (shortness of breath, muscle weakness)"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially given your medical history and the combination of symptoms you\u2019re experiencing. To help with my assessment, have you noticed any worsening shortness of breath or muscle weakness specifically after periods of exertion, or do these symptoms persist even when you are at rest?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath after exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "muscle weakness after exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath or muscle weakness at rest"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, the shortness of breath definitely gets worse if I try to do anything, even just walking to the bathroom or getting dressed. But lately, I\u2019ve noticed it\u2019s there even when I\u2019m just sitting or lying down\u2014it doesn\u2019t really go away. The muscle weakness is kind of the same; it\u2019s worse after I try to move around, but I still feel weak even at rest. \n\nI\u2019m just feeling really anxious about all of this, especially with my history of colon cancer and anemia. Should I be worried that something serious is going on? And are these symptoms\u2014like the diarrhea, abdominal distension, and shortness of breath\u2014all connected somehow?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diarrhea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "colon cancer"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "anemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried that something serious is going on?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Are these symptoms all connected somehow?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your history and these new symptoms. To help with my assessment, can you tell me if your fatigue and muscle weakness have affected your ability to breathe deeply or cough effectively since your episode of poor ventilation after extubation?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "episode of poor ventilation after extubation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "affected ability to breathe deeply"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "affected ability to cough effectively"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I do think my fatigue and muscle weakness have made it harder for me to take deep breaths. My cough isn\u2019t as strong as it used to be either\u2014I kind of feel like I can\u2019t clear symptoms out as well. After that episode of poor ventilation and respiratory failure when I was extubated, I just haven\u2019t felt the same. \n\nIs this something that happens often after being on a ventilator? And could all these symptoms\u2014like the shortness of breath, diarrhea, and abdominal distension\u2014be related to my lungs, or is there something else going on? I\u2019m just really anxious about what\u2019s causing all of this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty taking deep breaths"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weaker cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "inability to clear symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "poor ventilation and respiratory failure after extubation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is this something that happens often after being on a ventilator?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Are these symptoms related to lungs or is there something else?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diarrhea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially given your history of colon cancer, iron deficiency anemia, and the new symptoms you\u2019ve described. Based on your symptoms of poor ventilation after extubation, persistent shortness of breath, muscle weakness, abdominal distension, diarrhea, and guiac positive stools, my assessment is that there may be multiple factors contributing to your current condition\u2014including possible respiratory muscle weakness and gastroindiagnostic evaluationinal bleeding. To help guide my assessment further, have you experienced any episodes of lightheadedness or dizziness, particularly when standing up, which could suggest significant blood loss or worsening anemia?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of colon cancer, iron deficiency anemia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor ventilation after extubation, persistent shortness of breath, muscle weakness, abdominal distension, diarrhea, guiac positive stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible respiratory muscle weakness and gastrointestinal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of lightheadedness or dizziness, particularly when standing up"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yes, actually, I have noticed some lightheadedness, especially when I stand up or move too quickly. Sometimes I feel a little dizzy, and I have to sit back down for a minute. I was wondering if that could be from my iron deficiency anemia getting worse, or maybe from the gastrointestinal bleeding you mentioned.\n\nWith all these symptoms\u2014shortness of breath, muscle weakness, abdominal distension, diarrhea, and now the dizziness\u2014I\u2019m really starting to worry that something serious is going on. Is it possible that my colon cancer has come back, or could this all be related to my COPD and respiratory muscle weakness? Should I be getting more tests or seeing a specialist for a gastroenterology evaluation?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizzy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diarrhea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "iron deficiency anemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "gastrointestinal bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "colon cancer"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "COPD"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "respiratory muscle weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "more tests"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Department",
+          "value": "gastroenterology evaluation"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014I understand your concerns, especially given your medical history and the combination of symptoms you\u2019re experiencing. Based on your report of poor ventilation after extubation, persistent muscle weakness, and guiac positive stools, my assessment is that both respiratory muscle weakness and possible gastroindiagnostic evaluationinal blood loss may be contributing to your current condition. To further guide my assessment, have you recently experienced any black, tarry stools or vomiting that looks like coffee grounds, which could indicate ongoing gastroindiagnostic evaluationinal bleeding?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "respiratory muscle weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "possible gastrointestinal blood loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "black, tarry stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vomiting that looks like coffee grounds"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t had any vomiting that looks like coffee grounds, but now that you mention it, I think my stools have looked a bit darker than usual\u2014maybe even kind of black and tarry at times. I didn\u2019t really know that could mean ongoing gastrointestinal bleeding until you said it just now. \n\nWith all these symptoms\u2014shortness of breath, muscle weakness, abdominal distension, diarrhea, guiac positive stools, and now possibly melena\u2014I\u2019m honestly pretty anxious. Should I be really worried about this? Is this something that needs to be examinationed right away? And do you think my anemia is getting worse because of the gastrointestinal blood loss?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "black and tarry stools (possible melena)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diarrhea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "guiac positive stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be really worried about this?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is this something that needs to be examinationed right away?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is my anemia getting worse because of the gastrointestinal blood loss?"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with your history of colon cancer, iron deficiency anemia, and these new symptoms of dark stools, fatigue, muscle weakness, and abdominal distension. Based on your clinical findings\u2014including possible melena, guiac positive stools, and lightheadedness\u2014my assessment is that you may be experiencing ongoing gastroindiagnostic evaluationinal bleeding, which could be contributing to worsening anemia and your other symptoms. To help guide the next steps in your care, have you noticed any increase in the frequency or volume of your stools, or any signs of active bleeding such as passing blood or clots during bowel movements?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "ongoing gastrointestinal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "colon cancer"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "iron deficiency anemia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible melena"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "guiac positive stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Frequency",
+          "value": "increase in frequency of stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "increase in volume of stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "signs of active bleeding such as passing blood or clots during bowel movements"
+        }
+      ]
+    }
+  ]
+}

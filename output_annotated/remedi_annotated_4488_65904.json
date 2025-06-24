@@ -1,0 +1,1193 @@
+{
+  "source_row_id": 4488,
+  "source_subject_id": 65904,
+  "source_hadm_id": 108623,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing increased shortness of breath and dyspnea. Can you describe in more detail how your breathing symptoms have changed recently?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "greeting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath and dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "change in breathing symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I\u2019ve just noticed that my shortness of breath has gotten worse lately. It\u2019s making me a bit anxious, to be honest. I feel like I get winded more easily than before, even just moving around the house. Should I be worried?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "gets winded easily"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried?"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014experiencing worsening shortness of breath can be very unsettling. To help me with my assessment, can you tell me if your dyspnea is constant or if it gets worse with certain activities, such as walking or climbing stairs?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dyspnea constant or activity-related (walking or climbing stairs)"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 my dyspnea definitely gets worse when I\u2019m moving around, like if I walk from one room to another or try to go up the stairs. When I\u2019m just sitting, it\u2019s there a little bit, but not as bad. It\u2019s just\u2026 it feels different than usual, and that\u2019s what\u2019s making me anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "dyspnea gets worse with activity"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "dyspnea is less severe at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these changes in your symptoms\u2014it\u2019s completely natural to feel anxious when your breathing feels different than usual. You mentioned a persistent cough with changed sputum production; can you describe what the sputum looks like now compared to before, such as its color or thickness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried about these changes in your symptoms\u2014it\u2019s completely natural to feel anxious when your breathing feels different than usual."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent cough with changed sputum production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "description of sputum appearance (color or thickness) compared to before"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Oh, um\u2026 yes, I have noticed my cough has been more persistent lately. The sputum looks a bit different\u2014it\u2019s thicker than usual and kind of a yellowish color now, instead of clear. I\u2019m not sure if that\u2019s important. And actually, I\u2019ve had some chills off and on too, which is unusual for me. Should I be concerned about these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "thicker sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "yellowish sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be concerned about these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially since your cough and sputum have changed and you\u2019re experiencing chills. To help with my assessment, have you had any fever, chest pain, or increased wheezing along with your other respiratory symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sputum change"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased wheezing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "respiratory symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed a fever, at least not that I\u2019ve examinationed. I don\u2019t have chest pain, but I do feel a bit more light-headed than usual, especially when I stand up. And, um, my appetite hasn\u2019t been great lately either. I\u2019m just feeling kind of off overall, and it\u2019s making me more anxious than normal.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "light-headedness, especially when standing up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling off overall"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with these new symptoms and changes in your breathing. Given your increased shortness of breath and the change in your sputum, have you noticed any increase in wheezing or use of your rescue inhaler compared to your usual baseline?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "change in sputum"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increase in wheezing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "use of rescue inhaler compared to usual baseline"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I think I have been wheezing a bit more than usual. It\u2019s not all the time, but I notice it especially at night or if I\u2019m moving around more. And actually, I\u2019ve had to use my rescue inhaler more often lately\u2014maybe a few times a day, which is more than what\u2019s normal for me. I\u2019m just worried that something\u2019s getting worse with my COPD or maybe it\u2019s an infection?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "when moving around"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "rescue inhaler"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Frequency",
+          "value": "a few times a day"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "COPD getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with your increased shortness of breath and changes in your cough. Have you noticed any swelling in your legs or ankles, or any difficulty lying flat due to your respiratory symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in legs or ankles"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty lying flat due to respiratory symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I haven\u2019t really noticed any swelling in my legs or ankles. I do sometimes have a little trouble lying flat\u2014like, I feel more short of breath if I\u2019m all the way down, so I\u2019ve been propping myself up with pillows at night. Is that something I should be worried about? Does that mean my heart is acting up, or is it just my COPD getting worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no swelling in legs or ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "propping up with pillows at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "COPD"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially since your shortness of breath is worse when lying flat and you\u2019re needing extra pillows at night. To help with my assessment, have you noticed any new or worsening lower extremity edema, or have you experienced any episodes of waking up suddenly at night experiencing short of breath (paroxysmal nocturnal dyspnea)?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worse when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "needing extra pillows at night"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of waking up suddenly at night experiencing shortness of breath (paroxysmal nocturnal dyspnea)"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed any swelling in my legs or ankles\u2014at least nothing new or worse than usual. As for waking up suddenly at night short of breath, I think that\u2019s happened a couple times recently. I\u2019ll wake up kind of gasping and have to sit up for a bit before I feel better. That\u2019s actually been pretty scary for me.\n\nIs paroxysmal nocturnal dyspnea something that means my heart might be acting up again? Or could it just be from my COPD? I\u2019m just not sure what to think, and it\u2019s making me more anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new or worse swelling in legs or ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up at night short of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "gasping and needing to sit up to feel better"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling scared"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "paroxysmal nocturnal dyspnea related to heart problem"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "paroxysmal nocturnal dyspnea related to COPD"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with these changes in your symptoms and episodes of waking up short of breath. To help with my assessment, have you noticed any chest tightness, palpitations, or changes in your ability to speak in full sentences when your symptoms are at their worst?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of waking up short of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest tightness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ability to speak in full sentences"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really had chest tightness or palpitations, at least not that I\u2019ve noticed. But when my shortness of breath is really bad, I do have trouble getting a full sentence out without stopping to catch my breath. It\u2019s kind of embarrassing, honestly. I just feel like I\u2019m not myself lately.\n\nIs this something that happens with COPD, or does it sound more like heart trouble? I know I have a history of CAD and that old heart attack, so I get worried whenever my symptoms change. Should I be doing anything different, or is there something specific you\u2019re looking for with these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest tightness or palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble getting a full sentence out without stopping to catch breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not feeling like myself"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of CAD and old heart attack"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is this something that happens with COPD or heart trouble?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I be doing anything different?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "Is there something specific you\u2019re looking for with these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially given your history of COPD and heart disease along with these new symptoms. Based on your description of increased shortness of breath, persistent cough with yellow sputum, and episodes of waking up short of breath, along with your recent laboratory findings showing elevated pCO2 and low pH, I am concerned about an acute exacerbation of your COPD with possible respiratory acidosis. To further guide my assessment, have you experienced any recent exposure to respiratory infections or anyone around you with similar respiratory symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute exacerbation of COPD with possible respiratory acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD and heart disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent cough with yellow sputum"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of waking up short of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated pCO2 and low pH"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "recent exposure to respiratory infections or anyone around with similar respiratory symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 let me think. I don\u2019t think I\u2019ve been around anyone who\u2019s had a cold or any obvious respiratory infection lately. I mostly stay at home, and I haven\u2019t had any visitors who were sick, as far as I know. I suppose it\u2019s possible I picked something up when I went to the pharmacy last week, but I didn\u2019t notice anyone coughing or anything like that.\n\nI\u2019m a little worried hearing you mention symptoms like \u201crespiratory acidosis\u201d and an \u201cacute exacerbation of my COPD.\u201d Is that something that can get serious quickly? Does this mean I might need to be in the hospital, or is there something we can do to turn symptoms around at home? I just want to make sure I\u2019m doing everything right.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "no known recent exposure to respiratory infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medical-place",
+          "value": "pharmacy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "respiratory acidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "acute exacerbation of COPD"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "need for hospitalization"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "home management of symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "doing everything right"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your history of COPD and heart disease. Based on your increased shortness of breath, persistent cough with yellow sputum, and the laboratory findings showing elevated pCO2 and low pH, my assessment is that you may be experiencing an acute exacerbation of COPD with respiratory acidosis, which can become serious quickly. Have you noticed any changes in your mental status, such as confusion or excessive drowsiness, since your symptoms worsened?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD and heart disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute exacerbation of COPD with respiratory acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent cough with yellow sputum"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated pCO2 and low pH"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in mental status such as confusion or excessive drowsiness"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have felt a bit more drowsy than usual, and sometimes I get a little confused\u2014like, I\u2019ll forget what I was about to do or lose my train of thought. I thought maybe it was just from not sleeping well because of the shortness of breath, but now I\u2019m not so sure.\n\nIs that something that happens with respiratory acidosis? Should I be really worried about these changes in my mental status? I just want to make sure I\u2019m not missing something serious. And, um, is there anything I should be doing differently right now, or do I need to go to the hospital for this acute exacerbation of COPD?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "forgetfulness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "respiratory acidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in mental status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what should I be doing differently"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medical-place",
+          "value": "do I need to go to the hospital"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "acute exacerbation of COPD"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these changes, especially with your increased drowsiness and confusion alongside your respiratory symptoms. Based on your symptoms and recent laboratory findings\u2014specifically the elevated pCO2 and low pH\u2014my assessment is that you are experiencing significant respiratory acidosis, likely due to an acute exacerbation of your COPD. Have you had any recent clinical examination for your oxygen levels or blood gases since these symptoms worsened?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "respiratory acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute exacerbation of COPD"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased drowsiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated pCO2"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "low pH"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "clinical examination for oxygen levels or blood gases"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I don\u2019t think I\u2019ve had my oxygen levels or blood gases examinationed since symptoms got worse. The last time anyone looked at those was maybe a few months ago, when I was feeling more like myself. I haven\u2019t had anyone come out to the house to examination, and I don\u2019t have one of those pulse oximeters at home.\n\nHearing you say \u201csignificant respiratory acidosis\u201d makes me a bit more anxious. Is that something that can get dangerous quickly? Should I be going to the hospital right now to get my oxygen and blood gases examinationed, or is there something else I should do first? I just want to make sure I\u2019m not letting this get out of hand.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "oxygen levels, blood gases"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms got worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "no pulse oximeter at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "significant respiratory acidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be going to the hospital right now to get my oxygen and blood gases checked, or is there something else I should do first?"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially given your symptoms of increased shortness of breath, confusion, and drowsiness, along with your recent laboratory findings showing significant respiratory acidosis. Based on your current symptoms and these examination clinical findings, my assessment is that you are experiencing a severe acute exacerbation of COPD with dangerous levels of carbon dioxide in your blood, which requires immediate hospital-based treatment. Are you able to arrange prompt transportation to the emergency department so your oxygen levels and respiratory status can be examined and managed right away?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "laboratory findings showing significant respiratory acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "severe acute exacerbation of COPD"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dangerous levels of carbon dioxide in blood"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "immediate hospital-based treatment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Medical-place",
+          "value": "emergency department"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Oh, um\u2026 I didn\u2019t realize it was that serious. I knew I wasn\u2019t feeling right, but hearing you say \u201cdangerous levels of carbon dioxide\u201d and \u201csevere acute exacerbation\u201d is making me pretty anxious. I can call my daughter\u2014she lives nearby and can drive me to the emergency department. Should I go right now, or is there anything I should do before I leave? And, um, when I get there, should I tell them about the respiratory acidosis and my recent symptoms? I just want to make sure I\u2019m doing everything correctly.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not feeling right"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I go right now, or is there anything I should do before I leave?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "When I get there, should I tell them about the respiratory acidosis and my recent symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can completely understand why you\u2019re experiencing anxious\u2014these symptoms and laboratory findings are understandably concerning. Given your severe respiratory acidosis and acute exacerbation of COPD, it\u2019s very important that you go to the emergency department right away so your respiratory status and blood gases can be examined and managed promptly. When you arrive, please inform the medical team about your recent symptoms, your history of COPD and heart disease, and specifically mention your recent laboratory clinical findings showing elevated pCO2 and low pH. Before you leave, are you able to bring a list of your current medications and any recent medical records with you to assist with your assessment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "severe respiratory acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "acute exacerbation of COPD"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medical-place",
+          "value": "emergency department"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "respiratory status and blood gases"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD and heart disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated pCO2 and low pH"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "current medications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "recent medical records"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Yes, I can do that. I have a list of my current medications\u2014I keep it in my purse just in case something like this happens. I think I also have some recent paperwork from my last visit with my pulmonologist and some of my lab results. I\u2019ll bring everything with me to the emergency department.\n\nUm, just to be clear, when I get there, should I tell them right away about the respiratory acidosis and the elevated pCO2 and low pH? And is there anything else I should mention about my symptoms or medical history that would help them? I\u2019m a little nervous about all of this, but I want to make sure I\u2019m giving them the right information so they can help me as quickly as possible.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "current medications"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Department",
+          "value": "pulmonologist"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "lab results"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medical-place",
+          "value": "emergency department"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "respiratory acidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "elevated pCO2"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "low pH"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": ""
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "You\u2019re doing exactly the right thing by preparing your medication list and recent medical records\u2014this will be very helpful for your assessment in the emergency department. When you arrive, please clearly inform the medical team about your symptoms, your history of COPD and coronary artery disease, and specifically mention your recent laboratory findings of elevated pCO2 (130 mm Hg), low pH (7.13), and high total CO2, as these indicate significant respiratory acidosis. Before you leave, have you experienced any new or worsening symptoms such as chest pain, severe confusion, or difficulty staying awake?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "prepare medication list and recent medical records for emergency department assessment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Department",
+          "value": "emergency department"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD and coronary artery disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "recent laboratory findings of elevated pCO2 (130 mm Hg), low pH (7.13), and high total CO2"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "significant respiratory acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening symptoms such as chest pain, severe confusion, or difficulty staying awake"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 thank you for explaining everything so clearly. I haven\u2019t had any chest pain, and I don\u2019t think my confusion has gotten any worse than before\u2014it\u2019s mostly just that I feel a bit foggy and tired. I am able to stay awake, but I do feel more drowsy than usual. I\u2019ll make sure to mention all of this to the team when I get there, including the respiratory acidosis and the lab results you mentioned.\n\nIs there anything else I should watch out for on the way to the hospital? And, um, once I\u2019m there, will they be able to help me get my breathing back to normal? I\u2019m just a little scared, but I want to do everything right.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "thank you for explaining everything so clearly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion has not gotten worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling foggy and tired"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "able to stay awake"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "more drowsy than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "will mention symptoms and lab results to the team"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should watch out for on the way to the hospital"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "will they be able to help me get my breathing back to normal once I\u2019m there"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling scared"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "want to do everything right"
+        }
+      ]
+    }
+  ]
+}

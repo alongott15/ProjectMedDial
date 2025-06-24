@@ -1,0 +1,480 @@
+{
+  "summary": {
+    "total_files": 19,
+    "successful_validations": 19,
+    "failed_validations": 0,
+    "structure_errors": 0,
+    "success_rate": 100.0,
+    "processing_time": 424.95152473449707,
+    "aggregated_scores": {
+      "structural_consistency": 0.9405263157894737,
+      "semantic_coherence": 0.7489473684210526,
+      "medical_relevance": 0.8263157894736842,
+      "annotation_completeness": 0.7226315789473684,
+      "overall_quality": 0.7838947368421053
+    }
+  },
+  "file_results": [
+    {
+      "filename": "remedi_annotated_4476_69660.json",
+      "status": "success",
+      "overall_quality": 0.66,
+      "evaluated_turns": 5,
+      "total_turns": 32,
+      "total_annotations": 32,
+      "coverage": 0.15625,
+      "confidence": 0.87,
+      "scores": {
+        "structural_consistency": 0.9400000000000001,
+        "semantic_coherence": 0.61,
+        "medical_relevance": 0.6799999999999999,
+        "annotation_completeness": 0.6,
+        "overall_quality": 0.66
+      },
+      "metadata": {
+        "source_row_id": 4476,
+        "source_subject_id": 69660,
+        "source_hadm_id": 101858,
+        "annotation_count": 32
+      },
+      "processing_time": 22.482054710388184
+    },
+    {
+      "filename": "remedi_annotated_4477_5866.json",
+      "status": "success",
+      "overall_quality": 0.846,
+      "evaluated_turns": 5,
+      "total_turns": 32,
+      "total_annotations": 32,
+      "coverage": 0.15625,
+      "confidence": 0.89,
+      "scores": {
+        "structural_consistency": 0.93,
+        "semantic_coherence": 0.7999999999999999,
+        "medical_relevance": 0.9,
+        "annotation_completeness": 0.8,
+        "overall_quality": 0.846
+      },
+      "metadata": {
+        "source_row_id": 4477,
+        "source_subject_id": 5866,
+        "source_hadm_id": 160429,
+        "annotation_count": 32
+      },
+      "processing_time": 21.303602933883667
+    },
+    {
+      "filename": "remedi_annotated_4478_5866.json",
+      "status": "success",
+      "overall_quality": 0.6839999999999999,
+      "evaluated_turns": 5,
+      "total_turns": 32,
+      "total_annotations": 32,
+      "coverage": 0.15625,
+      "confidence": 0.92,
+      "scores": {
+        "structural_consistency": 0.97,
+        "semantic_coherence": 0.64,
+        "medical_relevance": 0.7,
+        "annotation_completeness": 0.6,
+        "overall_quality": 0.6839999999999999
+      },
+      "metadata": {
+        "source_row_id": 4478,
+        "source_subject_id": 5866,
+        "source_hadm_id": 122438,
+        "annotation_count": 32
+      },
+      "processing_time": 22.025469541549683
+    },
+    {
+      "filename": "remedi_annotated_4481_156.json",
+      "status": "success",
+      "overall_quality": 0.87,
+      "evaluated_turns": 5,
+      "total_turns": 24,
+      "total_annotations": 24,
+      "coverage": 0.20833333333333334,
+      "confidence": 0.91,
+      "scores": {
+        "structural_consistency": 0.98,
+        "semantic_coherence": 0.84,
+        "medical_relevance": 0.9199999999999999,
+        "annotation_completeness": 0.8099999999999999,
+        "overall_quality": 0.87
+      },
+      "metadata": {
+        "source_row_id": 4481,
+        "source_subject_id": 156,
+        "source_hadm_id": 199280,
+        "annotation_count": 24
+      },
+      "processing_time": 20.01656222343445
+    },
+    {
+      "filename": "remedi_annotated_4482_84629.json",
+      "status": "success",
+      "overall_quality": 0.898,
+      "evaluated_turns": 5,
+      "total_turns": 32,
+      "total_annotations": 32,
+      "coverage": 0.15625,
+      "confidence": 0.9319999999999999,
+      "scores": {
+        "structural_consistency": 0.97,
+        "semantic_coherence": 0.89,
+        "medical_relevance": 0.96,
+        "annotation_completeness": 0.84,
+        "overall_quality": 0.898
+      },
+      "metadata": {
+        "source_row_id": 4482,
+        "source_subject_id": 84629,
+        "source_hadm_id": 111966,
+        "annotation_count": 32
+      },
+      "processing_time": 16.02772045135498
+    },
+    {
+      "filename": "remedi_annotated_4483_18398.json",
+      "status": "success",
+      "overall_quality": 0.668,
+      "evaluated_turns": 5,
+      "total_turns": 24,
+      "total_annotations": 24,
+      "coverage": 0.20833333333333334,
+      "confidence": 0.89,
+      "scores": {
+        "structural_consistency": 0.9400000000000001,
+        "semantic_coherence": 0.62,
+        "medical_relevance": 0.6799999999999999,
+        "annotation_completeness": 0.62,
+        "overall_quality": 0.668
+      },
+      "metadata": {
+        "source_row_id": 4483,
+        "source_subject_id": 18398,
+        "source_hadm_id": 138400,
+        "annotation_count": 24
+      },
+      "processing_time": 24.411044359207153
+    },
+    {
+      "filename": "remedi_annotated_4486_8670.json",
+      "status": "success",
+      "overall_quality": 0.73,
+      "evaluated_turns": 5,
+      "total_turns": 30,
+      "total_annotations": 30,
+      "coverage": 0.16666666666666666,
+      "confidence": 0.94,
+      "scores": {
+        "structural_consistency": 0.97,
+        "semantic_coherence": 0.6900000000000001,
+        "medical_relevance": 0.74,
+        "annotation_completeness": 0.67,
+        "overall_quality": 0.73
+      },
+      "metadata": {
+        "source_row_id": 4486,
+        "source_subject_id": 8670,
+        "source_hadm_id": 113090,
+        "annotation_count": 30
+      },
+      "processing_time": 20.753283262252808
+    },
+    {
+      "filename": "remedi_annotated_4487_46279.json",
+      "status": "success",
+      "overall_quality": 0.662,
+      "evaluated_turns": 5,
+      "total_turns": 24,
+      "total_annotations": 24,
+      "coverage": 0.20833333333333334,
+      "confidence": 0.88,
+      "scores": {
+        "structural_consistency": 0.96,
+        "semantic_coherence": 0.6,
+        "medical_relevance": 0.69,
+        "annotation_completeness": 0.58,
+        "overall_quality": 0.662
+      },
+      "metadata": {
+        "source_row_id": 4487,
+        "source_subject_id": 46279,
+        "source_hadm_id": 184516,
+        "annotation_count": 24
+      },
+      "processing_time": 25.388052940368652
+    },
+    {
+      "filename": "remedi_annotated_4488_65904.json",
+      "status": "success",
+      "overall_quality": 0.854,
+      "evaluated_turns": 5,
+      "total_turns": 28,
+      "total_annotations": 28,
+      "coverage": 0.17857142857142858,
+      "confidence": 0.9,
+      "scores": {
+        "structural_consistency": 0.95,
+        "semantic_coherence": 0.82,
+        "medical_relevance": 0.89,
+        "annotation_completeness": 0.8,
+        "overall_quality": 0.854
+      },
+      "metadata": {
+        "source_row_id": 4488,
+        "source_subject_id": 65904,
+        "source_hadm_id": 108623,
+        "annotation_count": 28
+      },
+      "processing_time": 22.23625373840332
+    },
+    {
+      "filename": "remedi_annotated_4489_26977.json",
+      "status": "success",
+      "overall_quality": 0.88,
+      "evaluated_turns": 5,
+      "total_turns": 32,
+      "total_annotations": 32,
+      "coverage": 0.15625,
+      "confidence": 0.906,
+      "scores": {
+        "structural_consistency": 0.96,
+        "semantic_coherence": 0.85,
+        "medical_relevance": 0.92,
+        "annotation_completeness": 0.84,
+        "overall_quality": 0.88
+      },
+      "metadata": {
+        "source_row_id": 4489,
+        "source_subject_id": 26977,
+        "source_hadm_id": 176410,
+        "annotation_count": 32
+      },
+      "processing_time": 19.703131675720215
+    },
+    {
+      "filename": "remedi_annotated_4490_53865.json",
+      "status": "success",
+      "overall_quality": 0.848,
+      "evaluated_turns": 5,
+      "total_turns": 32,
+      "total_annotations": 32,
+      "coverage": 0.15625,
+      "confidence": 0.906,
+      "scores": {
+        "structural_consistency": 0.9400000000000001,
+        "semantic_coherence": 0.8099999999999999,
+        "medical_relevance": 0.91,
+        "annotation_completeness": 0.8,
+        "overall_quality": 0.848
+      },
+      "metadata": {
+        "source_row_id": 4490,
+        "source_subject_id": 53865,
+        "source_hadm_id": 147600,
+        "annotation_count": 32
+      },
+      "processing_time": 25.395172119140625
+    },
+    {
+      "filename": "remedi_annotated_4491_8709.json",
+      "status": "success",
+      "overall_quality": 0.846,
+      "evaluated_turns": 5,
+      "total_turns": 26,
+      "total_annotations": 26,
+      "coverage": 0.19230769230769232,
+      "confidence": 0.9099999999999999,
+      "scores": {
+        "structural_consistency": 0.96,
+        "semantic_coherence": 0.82,
+        "medical_relevance": 0.89,
+        "annotation_completeness": 0.78,
+        "overall_quality": 0.846
+      },
+      "metadata": {
+        "source_row_id": 4491,
+        "source_subject_id": 8709,
+        "source_hadm_id": 129566,
+        "annotation_count": 26
+      },
+      "processing_time": 21.70518136024475
+    },
+    {
+      "filename": "remedi_annotated_4492_15298.json",
+      "status": "success",
+      "overall_quality": 0.868,
+      "evaluated_turns": 5,
+      "total_turns": 24,
+      "total_annotations": 24,
+      "coverage": 0.20833333333333334,
+      "confidence": 0.912,
+      "scores": {
+        "structural_consistency": 0.96,
+        "semantic_coherence": 0.84,
+        "medical_relevance": 0.91,
+        "annotation_completeness": 0.8099999999999999,
+        "overall_quality": 0.868
+      },
+      "metadata": {
+        "source_row_id": 4492,
+        "source_subject_id": 15298,
+        "source_hadm_id": 158948,
+        "annotation_count": 24
+      },
+      "processing_time": 21.94661021232605
+    },
+    {
+      "filename": "remedi_annotated_4493_80957.json",
+      "status": "success",
+      "overall_quality": 0.798,
+      "evaluated_turns": 5,
+      "total_turns": 20,
+      "total_annotations": 20,
+      "coverage": 0.25,
+      "confidence": 0.9,
+      "scores": {
+        "structural_consistency": 0.92,
+        "semantic_coherence": 0.77,
+        "medical_relevance": 0.87,
+        "annotation_completeness": 0.74,
+        "overall_quality": 0.798
+      },
+      "metadata": {
+        "source_row_id": 4493,
+        "source_subject_id": 80957,
+        "source_hadm_id": 153313,
+        "annotation_count": 20
+      },
+      "processing_time": 27.99778461456299
+    },
+    {
+      "filename": "remedi_annotated_4494_17125.json",
+      "status": "success",
+      "overall_quality": 0.744,
+      "evaluated_turns": 5,
+      "total_turns": 30,
+      "total_annotations": 30,
+      "coverage": 0.16666666666666666,
+      "confidence": 0.82,
+      "scores": {
+        "structural_consistency": 0.9,
+        "semantic_coherence": 0.73,
+        "medical_relevance": 0.83,
+        "annotation_completeness": 0.65,
+        "overall_quality": 0.744
+      },
+      "metadata": {
+        "source_row_id": 4494,
+        "source_subject_id": 17125,
+        "source_hadm_id": 191331,
+        "annotation_count": 30
+      },
+      "processing_time": 22.706647872924805
+    },
+    {
+      "filename": "remedi_annotated_4495_17125.json",
+      "status": "success",
+      "overall_quality": 0.686,
+      "evaluated_turns": 5,
+      "total_turns": 32,
+      "total_annotations": 32,
+      "coverage": 0.15625,
+      "confidence": 0.73,
+      "scores": {
+        "structural_consistency": 0.78,
+        "semantic_coherence": 0.66,
+        "medical_relevance": 0.71,
+        "annotation_completeness": 0.63,
+        "overall_quality": 0.686
+      },
+      "metadata": {
+        "source_row_id": 4495,
+        "source_subject_id": 17125,
+        "source_hadm_id": 127377,
+        "annotation_count": 32
+      },
+      "processing_time": 26.18023419380188
+    },
+    {
+      "filename": "remedi_annotated_4499_17125.json",
+      "status": "success",
+      "overall_quality": 0.842,
+      "evaluated_turns": 5,
+      "total_turns": 22,
+      "total_annotations": 22,
+      "coverage": 0.22727272727272727,
+      "confidence": 0.906,
+      "scores": {
+        "structural_consistency": 0.96,
+        "semantic_coherence": 0.8099999999999999,
+        "medical_relevance": 0.91,
+        "annotation_completeness": 0.7799999999999999,
+        "overall_quality": 0.842
+      },
+      "metadata": {
+        "source_row_id": 4498,
+        "source_subject_id": 17125,
+        "source_hadm_id": 117486,
+        "annotation_count": 22
+      },
+      "processing_time": 21.37303328514099
+    },
+    {
+      "filename": "remedi_annotated_4504_17125.json",
+      "status": "success",
+      "overall_quality": 0.81,
+      "evaluated_turns": 5,
+      "total_turns": 21,
+      "total_annotations": 21,
+      "coverage": 0.23809523809523808,
+      "confidence": 0.85,
+      "scores": {
+        "structural_consistency": 0.93,
+        "semantic_coherence": 0.77,
+        "medical_relevance": 0.86,
+        "annotation_completeness": 0.75,
+        "overall_quality": 0.81
+      },
+      "metadata": {
+        "source_row_id": 4499,
+        "source_subject_id": 17125,
+        "source_hadm_id": 128929,
+        "annotation_count": 21
+      },
+      "processing_time": 23.06152653694153
+    },
+    {
+      "filename": "remedi_annotated_4505_1796.json",
+      "status": "success",
+      "overall_quality": 0.7,
+      "evaluated_turns": 5,
+      "total_turns": 32,
+      "total_annotations": 32,
+      "coverage": 0.15625,
+      "confidence": 0.92,
+      "scores": {
+        "structural_consistency": 0.95,
+        "semantic_coherence": 0.66,
+        "medical_relevance": 0.73,
+        "annotation_completeness": 0.63,
+        "overall_quality": 0.7
+      },
+      "metadata": {
+        "source_row_id": 4504,
+        "source_subject_id": 17125,
+        "source_hadm_id": 180931,
+        "annotation_count": 32
+      },
+      "processing_time": 20.238158702850342
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-06-24 13:21:09",
+    "framework_version": "1.0",
+    "validation_type": "fixed_with_original_dialogue"
+  }
+}

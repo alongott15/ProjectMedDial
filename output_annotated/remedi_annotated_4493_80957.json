@@ -1,0 +1,1004 @@
+{
+  "source_row_id": 4493,
+  "source_subject_id": 80957,
+  "source_hadm_id": 153313,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "I can understand that experiencing symptoms like vomiting bright red blood and experiencing dizzy must be very concerning, and I appreciate you sharing this with me. To help guide my assessment, can you tell me more about how much blood you have vomited and whether you have noticed any changes in the color or amount since the symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting bright red blood"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizzy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "amount of blood vomited"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "changes in color or amount of blood since symptoms began"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I\u2019m not exactly sure how much blood, but it looked like a good amount\u2014bright red, like you said. It kind of surprised me, to be honest. I think it\u2019s happened a couple times now, and the last time maybe seemed like a bit more than before. \n\nActually, I\u2019ve also been feeling some discomfort in my abdomen. And earlier today, when I bent over, I, uh\u2026 I actually passed out for a moment. That\u2019s never happened to me before. I\u2019m feeling pretty uncomfortable and honestly a little worried about all these symptoms.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "rectal bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope (passed out)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling worried"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014vomiting blood and experiencing syncope are very concerning symptoms, and it\u2019s important that we take them seriously. To help with my assessment, can you tell me if you\u2019ve noticed any black, tarry stools (melena) or changes in your bowel movements since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting blood"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "black, tarry stools (melena)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in bowel movements"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, yes, I have noticed my stools have been pretty dark\u2014almost black and kind of sticky. I guess that\u2019s what you mean by melena? That started maybe a day or two ago, around the same time as the vomiting.\n\nAlso, I\u2019ve had some chills off and on, and a bit of a cough too, but I wasn\u2019t sure if that was related. I\u2019m still feeling pretty uncomfortable and just want to know what\u2019s going on. Should I be worried about all these symptoms happening together?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark, almost black and sticky stools (melena)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about all these symptoms happening together?"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the combination of hematemesis, melena, and dizziness. To help guide my assessment, can you tell me if your dizziness or lightheadedness is constant, or does it mainly occur when you stand up or change positions?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematemesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "melena"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness or lightheadedness is constant or positional"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 the dizziness and lightheadedness seem to get worse when I stand up or move around, especially if I do it quickly. It\u2019s not constant, but it comes on pretty strong when I change positions. That\u2019s actually what happened earlier\u2014I bent over and then passed out for a bit.\n\nAnd, yeah, with the hematemesis and the melena\u2014my stools have definitely been black and sticky, like you said, and I think they tested positive for blood before, if that helps. I\u2019m just feeling really uncomfortable and hoping we can figure out what\u2019s going on.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worse when standing up or moving quickly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope (passed out after bending over)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematemesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "melena (black, sticky stools)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "stool tested positive for blood"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling really uncomfortable"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms in detail\u2014it helps guide my assessment. Regarding your abdominal discomfort, can you tell me if the pain is localized to a specific area, and whether it is constant or comes and goes?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for describing your symptoms in detail\u2014it helps guide my assessment."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Range-body",
+          "value": "localized to a specific area"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "constant or comes and goes"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Sure, I can try to explain it better now. The abdominal discomfort is mostly in the upper part\u2014kind of right under my ribs, more in the middle, I think. It\u2019s not a sharp pain, more like a pressure or fullness that\u2019s there most of the time, but sometimes it gets a bit worse after I eat or if I move around.\n\nAlso, I\u2019ve noticed my heart\u2019s been beating pretty fast\u2014tachycardia, I think you\u2019d call it? That seems to go along with the dizziness and the syncope I had earlier. I\u2019m honestly feeling pretty uncomfortable and anxious about all these symptoms together. Is this something serious with my liver, or could it be something else?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "upper abdomen, under ribs, middle"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pressure or fullness in abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening after eating or movement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachycardia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "liver disease"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014experiencing hematemesis, syncope, and tachycardia together is understandably concerning. To further guide my assessment, have you noticed any swelling in your abdomen (ascites) or legs (edema), or any yellowing of your skin or eyes (jaundice) along with your other symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematemesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachycardia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "ascites"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "jaundice"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, now that you mention it, I have noticed some swelling in my abdomen\u2014ascites, right? My belly\u2019s felt kind of bloated for a while, and my pants fit tighter. I haven\u2019t really noticed much swelling in my legs, though, at least not that I can tell.\n\nAs for jaundice, I\u2019m not sure. Maybe my eyes look a little yellow, but it\u2019s hard for me to say for sure. I do feel pretty lightheaded most of the time, especially after the syncope event earlier when I vomited blood. That was really scary\u2014I just blacked out for a bit and then came to on the floor.\n\nI\u2019m feeling pretty uncomfortable and honestly just want to know what\u2019s causing all this. Is there something you can do to help with these symptoms? Should I be worried about another bleed happening?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in abdomen (ascites)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bloating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pants fit tighter"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible jaundice (yellow eyes)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope (blacked out)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomited blood"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "cause of symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "help with symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "risk of another bleed"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially after experiencing hematemesis and syncope. To help with my assessment, have you noticed any recent changes in your urine output or color, or any signs of confusion or difficulty concentrating, which can sometimes occur in the setting of advanced liver disease?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematemesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine color"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty concentrating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "advanced liver disease"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I have noticed my urine\u2019s been a bit darker than usual\u2014kind of like tea, I guess. I\u2019m not sure if I\u2019ve been going less often, but the color definitely changed.\n\nAs for confusion or trouble concentrating, well, I do feel a little more foggy lately. Sometimes I lose my train of thought or just feel kind of out of it, which isn\u2019t normal for me. I thought maybe it was just from not sleeping well or being anxious about all these symptoms, but now I\u2019m wondering if it could be related to my liver disease.\n\nIs this something that happens with end-stage liver disease? Should I be worried about hepatic encephalopathy or something like that? And is there anything you can do to help me feel better right now?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble concentrating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "brain fog"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "liver disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "hepatic encephalopathy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "symptoms related to end-stage liver disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "ways to feel better right now"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious\u2014experiencing hematemesis, syncope, dark urine, and cognitive changes are all concerning symptoms, especially given your history of end-stage liver disease. Based on what you\u2019ve described, I am concerned about the possibility of an acute upper gastroindiagnostic evaluationinal bleed, likely related to your known cirrhosis and portal hypertension, and there may also be early signs of hepatic encephalopathy. To further guide my assessment, have you noticed any recent changes in your sleep pattern, such as increased daytime sleepiness or difficulty sleeping at night?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematemesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cognitive changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "end-stage liver disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute upper gastrointestinal bleed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease-history",
+          "value": "cirrhosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "portal hypertension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "hepatic encephalopathy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in sleep pattern"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased daytime sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty sleeping at night"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, now that you mention it, my sleep\u2019s been pretty off lately. I\u2019ve been having a hard time falling asleep at night, and then during the day I feel really tired\u2014like I could just nod off even if I\u2019m sitting up. I guess that\u2019s increased daytime sleepiness, right? I thought maybe it was just from being uncomfortable or worried, but it sounds like it could be related to hepatic encephalopathy?\n\nI\u2019m honestly feeling pretty overwhelmed by all these symptoms\u2014hematemesis, melena, the syncope, and now the cognitive changes and sleep symptoms. Is there something you can do to help stabilize me or stop the bleeding? Should I be worried about this getting worse quickly? And is there anything I should avoid right now to keep symptoms from getting worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty falling asleep"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased daytime sleepiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling tired during the day"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematemesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "melena"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cognitive changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "hepatic encephalopathy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "help stabilize me or stop the bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be worried about this getting worse quickly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "is there anything I should avoid right now to keep symptoms from getting worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014experiencing hematemesis, melena, syncope, and changes in your mental status are all serious symptoms, especially with your history of end-stage liver disease. Based on your symptoms and medical history, I am concerned about an acute upper gastroindiagnostic evaluationinal bleed, likely related to portal hypertension and possible variceal bleeding, as well as early hepatic encephalopathy.\n\nTo further guide my assessment, have you noticed any recent episodes of vomiting material that looks like coffee grounds, or any fresh blood in your vomit since your last episode?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yeah, I understand what you\u2019re saying about the portal hypertension and possible variceal bleeding. Um, let me think\u2026 Since the last big episode, I haven\u2019t really thrown up anything that looked like coffee grounds\u2014it\u2019s mostly been just bright red blood when it happens. I haven\u2019t had another large episode since earlier, but I\u2019m still feeling really lightheaded and weak, and my stomach still feels pretty uncomfortable.\n\nHonestly, I\u2019m pretty anxious about all of this. With the hematemesis, melena, syncope, and now these changes in my mental status, I just want to make sure I don\u2019t get worse. Is there something you can do right away to help stop the bleeding or stabilize me? And is there a way to prevent another variceal bleed from happening? I\u2019m just hoping to get some relief and figure out what the next steps are.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bright red blood in vomit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematemesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "melena"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in mental status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there something you can do right away to help stop the bleeding or stabilize me?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there a way to prevent another variceal bleed from happening?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "What are the next steps?"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, given the severity and combination of your symptoms\u2014hematemesis, melena, syncope, abdominal discomfort, and changes in mental status\u2014all in the context of your medical history of cirrhosis and portal hypertension. Based on your description, my assessment is that you are experiencing an acute upper gastroindiagnostic evaluationinal bleed, likely from esophageal varices, and you may also have early hepatic encephalopathy.\n\nTo further guide my assessment and management, have you experienced any fever or signs of infection, such as increased cough or shortness of breath, which can sometimes complicate liver disease and gastroindiagnostic evaluationinal bleeding?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematemesis, melena, syncope, abdominal discomfort, changes in mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cirrhosis, portal hypertension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute upper gastrointestinal bleed, likely from esophageal varices, early hepatic encephalopathy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever, signs of infection, increased cough, shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really had a fever that I know of, but I have had some chills on and off. My cough\u2019s been a little worse lately, but I just thought it was from being run down. I haven\u2019t really noticed much shortness of breath, though\u2014maybe just a little if I move around too much, but nothing too severe.\n\nWith everything going on\u2014hematemesis, melena, the syncope, and now these changes in my mental status\u2014I\u2019m honestly feeling pretty uncomfortable and anxious. Should I be worried about infection on top of the upper gastrointestinal bleed and hepatic encephalopathy? Is there something you can do to help with all these symptoms right away? And what should I expect next in terms of treatment or tests?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mild shortness of breath with exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematemesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "melena"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in mental status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable and anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection on top of upper gastrointestinal bleed and hepatic encephalopathy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "help with all these symptoms right away"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what to expect next in terms of treatment or tests"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with the combination of hematemesis, melena, syncope, and changes in your mental status\u2014all of which are serious symptoms in the context of your medical history of cirrhosis and portal hypertension. My clinical assessment is that you are experiencing an acute upper gastroindiagnostic evaluationinal bleed, likely from varices, with possible early hepatic encephalopathy, and we also need to monitor for infection given your chills and cough.\n\nImmediate treatment typically includes intravenous fluids for stabilization, blood transfusions if needed, medications to reduce portal hypertension (such as octreotide), proton pump inhibitors, and antibiotics to prevent infection. You will likely require an urgent endoscopic examination (EGD) to identify and treat the source of bleeding. While we proceed with these interventions, have you noticed any new or worsening abdominal pain or tenderness since your last episode of hematemesis?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute upper gastrointestinal bleed, likely from varices; possible early hepatic encephalopathy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematemesis, melena, syncope, changes in mental status, chills, cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cirrhosis, portal hypertension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous fluids, blood transfusions if needed, medications to reduce portal hypertension (octreotide), proton pump inhibitors, antibiotics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "urgent endoscopic examination (EGD)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening abdominal pain or tenderness since last episode of hematemesis"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining all that\u2014I appreciate you being so clear about what\u2019s going on. Um, as for my abdominal pain, it\u2019s mostly stayed the same\u2014still that kind of pressure or fullness in the upper part, right under my ribs. I wouldn\u2019t say it\u2019s gotten a lot worse since the last hematemesis episode, but I do feel more tender if I press on my belly now. No really sharp pain, just more uncomfortable overall.\n\nI\u2019m honestly feeling pretty anxious and weak, and I just want to get some relief from these symptoms. Is the EGD something that can stop the bleeding right away? And with all these medications\u2014octreotide, proton pump inhibitors, antibiotics\u2014are there any side effects I should be worried about? Also, how long do people usually have to stay in the hospital for something like this?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pressure or fullness in the upper part of abdomen under ribs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness on pressing belly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weak"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "EGD"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "whether EGD can stop bleeding right away"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "octreotide, proton pump inhibitors, antibiotics"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Side-effect",
+          "value": "side effects of octreotide, proton pump inhibitors, antibiotics"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "length of hospital stay for this condition"
+        }
+      ]
+    }
+  ]
+}

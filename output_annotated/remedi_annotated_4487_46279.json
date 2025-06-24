@@ -1,0 +1,960 @@
+{
+  "source_row_id": 4487,
+  "source_subject_id": 46279,
+  "source_hadm_id": 184516,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing shortness of breath and a cough. Can you tell me more about how your symptoms of dyspnea have changed over the past few days?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, the dyspnea has definitely gotten worse the last few days. I just feel a lot more short of breath than usual, even when I\u2019m just sitting or talking. That\u2019s really what\u2019s worrying me.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "worse the last few days"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "even when sitting or talking"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that\u2014it's understandable to feel concerned when your symptoms of dyspnea worsen. You also mentioned having a cough and producing a large amount of mucous; can you describe the color and consistency of the mucous you\u2019ve been experiencing?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing that\u2014it's understandable to feel concerned"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "large amount of mucous"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "color and consistency of mucous"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I do have a cough, and it\u2019s been pretty frequent. My main concern is really the shortness of breath, but the cough is there too.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Frequency",
+          "value": "pretty frequent"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for explaining your symptoms further. In addition to your shortness of breath and cough, have you noticed any changes in your mucous production, such as increased amount, change in color, or thickness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in mucous production"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, yes, I have noticed I\u2019m producing a lot more mucous than usual\u2014copious amounts, I\u2019d say. It\u2019s mostly clear, maybe a little cloudy sometimes, but not really yellow or green. And I\u2019ve also had a lot of rhinorrhea, just a constant runny nose. Should I be worried about that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased mucous production"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clear to slightly cloudy mucous"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "rhinorrhea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about that?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about the increased mucous production and constant runny nose\u2014those symptoms can be very uncomfortable, especially with your shortness of breath. You mentioned experiencing more short of breath even while speaking, with pauses between sentences; have you experienced any chest tightness or wheezing during these episodes of tachypnea?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased mucous production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constant runny nose"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "more short of breath while speaking, with pauses between sentences"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest tightness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "tachypnea"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2026 when I get that tachypnea while I\u2019m talking, I do have to pause between sentences just to catch my breath. And, um, I think there\u2019s definitely some wheezing\u2014I can hear it, especially when I breathe out. It just feels like there\u2019s poor air movement, kind of all over, not just in one spot. I haven\u2019t really noticed much chest tightness, but the wheezing and the shortness of breath are definitely worse than usual.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea while talking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "need to pause between sentences to catch breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing, especially on exhalation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor air movement all over"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no significant chest tightness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening wheezing and shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms in detail\u2014it helps guide my assessment. Given your increased mucous production and noticeable wheezing, have you experienced any fever, chills, or other signs of infection along with these respiratory symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased mucous production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "other signs of infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "respiratory symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um, let me think\u2026 I haven\u2019t really had a fever or chills that I\u2019ve noticed. I do examination my temperature sometimes, and it\u2019s been normal. I haven\u2019t felt achy or anything like that either. \n\nBut, actually, now that you mention it, I have noticed some swelling\u2014edema\u2014in my ankles, especially on the right side, but that\u2019s kind of my baseline. There\u2019s also a small amount of pedal edema and a bit of swelling in my forearms. I\u2019m not sure if that\u2019s related to my other symptoms, but I thought I should mention it. Should I be concerned about that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": "normal"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no aches"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles (edema), especially right side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pedal edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in forearms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be concerned about that?"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious about the swelling and your worsening respiratory symptoms\u2014these changes can be concerning. Since you\u2019ve noticed copious mucous production and tachypnea with pauses when speaking, have you experienced any difficulty clearing the mucous from your airways, or have you felt at any point that you might choke or struggle to expectorate during these episodes?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "copious mucous production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea with pauses when speaking"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty clearing mucous from airways"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "feeling of choking or struggling to expectorate"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, sometimes I do have trouble clearing the mucous. It feels like it just kind of sits there and I have to cough a lot to get any of it up. I haven\u2019t really felt like I was going to choke, but it does make me anxious, especially when my dyspnea gets worse. \n\nActually, I\u2019ve noticed that the wheezing seems to be all over, and sometimes I hear crackles at the bases when I breathe in deeply. The shortness of breath really does seem to be getting worse, and it\u2019s making me a bit nervous. Is this something that happens often with asthma or COPD? Or could it be something else?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble clearing mucous"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough a lot"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea gets worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing all over"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "crackles at the bases when breathing in deeply"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is this something that happens often with asthma or COPD or could it be something else?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with worsening shortness of breath and difficulty clearing copious mucous. To help with my assessment, have you noticed any changes in the color, odor, or thickness of your sputum that might suggest an infection or a change in your respiratory condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty clearing copious mucous"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in the color, odor, or thickness of sputum"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection or change in respiratory condition"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um, I appreciate you asking. Honestly, the sputum has mostly stayed clear, maybe sometimes a little cloudy, but I haven\u2019t noticed it turning yellow or green, and there\u2019s no real odor to it. It does feel a bit thicker than usual, though, and sometimes it\u2019s harder to cough up. \n\nIs it possible for my respiratory condition to get worse even if the sputum isn\u2019t discolored? I\u2019m just trying to understand if this could still be something serious, even without obvious signs of infection.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sputum mostly clear, sometimes cloudy, no yellow or green color, no odor"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sputum feels thicker than usual and harder to cough up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "possibility of respiratory condition worsening without discolored sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "seriousness of condition without obvious signs of infection"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing those details\u2014it\u2019s helpful for my assessment. Given your symptoms of copious mucous production and tachypnea with pauses when speaking, have you experienced any changes in your voice, such as hoarseness or difficulty projecting your voice, which could indicate upper airway involvement?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "copious mucous production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea with pauses when speaking"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in voice such as hoarseness or difficulty projecting voice"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "could indicate upper airway involvement"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, yes, I have noticed my voice getting a bit hoarse lately, and sometimes it\u2019s harder to speak up, especially when I\u2019m having more acute dyspnea. It\u2019s like I just don\u2019t have the breath to project my voice the way I used to. I\u2019m not sure if that\u2019s because of the mucous or just from being so short of breath.\n\nIs hoarseness something I should be worried about with these symptoms? Could it mean there\u2019s something going on with my upper airway, or is it just part of the asthma or COPD picture? I\u2019m hopeful we can get this figured out, but I do want to make sure I\u2019m not missing anything serious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hoarse voice"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to speak up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "acute dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "short of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mucous"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "hoarseness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "upper airway problem"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "asthma"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "COPD"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the increasing shortness of breath, copious mucous production, and new hoarseness. Based on your description, I\u2019m considering both lower and upper airway involvement in my assessment. To help clarify the extent of your respiratory condition, have you experienced any episodes of stridor (a high-pitched, wheezing sound during inhalation) or difficulty breathing in, which could indicate upper airway obstruction?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "copious mucous production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hoarseness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "lower and upper airway involvement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "stridor"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty breathing in"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um, I don\u2019t think I\u2019ve had stridor, at least not that high-pitched sound you mentioned when I breathe in. Most of the wheezing I notice is when I\u2019m breathing out, and it\u2019s kind of diffuse, all over my chest. I haven\u2019t really had much trouble inhaling specifically, but sometimes it just feels like the air doesn\u2019t move very well either way.\n\nI do get a little anxious when my dyspnea gets worse, especially with the copious mucous and the hoarseness now. Is it common to have both lower and upper airway involvement like this? And, um, is there anything else I should be watching for that might mean symptoms are getting more serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing when breathing out"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diffuse chest wheezing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no trouble inhaling specifically"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "air doesn\u2019t move very well"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety when dyspnea worsens"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "copious mucous"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hoarseness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is it common to have both lower and upper airway involvement?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything else I should be watching for that might mean symptoms are getting more serious?"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with your symptoms of worsening dyspnea, copious mucous production, and new hoarseness. Based on your medical history and current symptoms, my assessment is that both your lower and possibly upper airways may be contributing to your respiratory condition. To help further clarify the severity, have you noticed any symptoms such as difficulty swallowing, swelling in your neck, or changes in your ability to clear secretions that might suggest upper airway compromise?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "copious mucous production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "new hoarseness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease-history",
+          "value": "medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "lower and possibly upper airways contributing to respiratory condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in neck"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ability to clear secretions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "upper airway compromise"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I haven\u2019t really noticed any difficulty swallowing\u2014eating and drinking seem about the same as usual. I also haven\u2019t felt any swelling in my neck, at least nothing that I can see or feel when I touch it. \n\nAs for clearing secretions, well, like I mentioned before, it\u2019s definitely harder lately to cough up the mucous, and sometimes it feels like it just sits there. But I haven\u2019t felt like I was choking or anything like that.\n\nI appreciate you explaining about the lower and upper airway involvement. Should I be worried about upper airway compromise if my symptoms stay the same, or is it only a concern if symptoms get worse? And is there anything I should do at home to help with the secretions or the dyspnea until we know more?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no difficulty swallowing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no neck swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to cough up mucous"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mucous feels like it just sits there"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no choking sensation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried about upper airway compromise if my symptoms stay the same, or is it only a concern if symptoms get worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything I should do at home to help with the secretions or the dyspnea until we know more?"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your ongoing symptoms of dyspnea, copious mucous production, and new hoarseness. Based on your medical history and what you\u2019ve described, my assessment is that your respiratory condition may involve both lower airway inflammation and some upper airway irritation, but there are no clear signs of acute upper airway compromise at this time. Have you experienced any recent changes in your ability to perform daily activities\u2014such as walking, dressing, or bathing\u2014due to worsening shortness of breath?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "copious mucous production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hoarseness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "respiratory condition involving lower airway inflammation and upper airway irritation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in ability to perform daily activities due to worsening shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um, yes, actually, I have noticed it\u2019s gotten harder to do some of my daily activities lately. Walking from one room to another leaves me more short of breath than before, and I have to stop and rest. Even just getting dressed or bathing takes longer because I get dyspneic and have to pause to catch my breath. It\u2019s definitely more noticeable now than it used to be.\n\nI\u2019m hopeful that with the right treatment symptoms can improve, but I am concerned about how quickly this has changed. Is it common for symptoms like dyspnea and copious mucous production to get worse this fast? And is there anything else I should be doing at home to help manage the shortness of breath until we figure out exactly what\u2019s going on?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "copious mucous production"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it common for symptoms like dyspnea and copious mucous production to get worse this fast?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything else I should be doing at home to help manage the shortness of breath?"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially given how quickly your symptoms of dyspnea and copious mucous production have worsened and how they\u2019re now affecting your daily activities. Based on my assessment, your symptoms are consistent with an acute exacerbation of a chronic respiratory condition such as asthma or COPD, possibly triggered by recent infection or airway inflammation, and your current treatment plan\u2014including inhaled bronchodilators, corticosteroids, and antibiotics\u2014is appropriate.\n\nAt home, it\u2019s important to continue your prescribed medications as directed, use your inhalers or nebulizers regularly, and monitor for any signs of worsening respiratory distress\u2014such as increased work of breathing, inability to speak in full sentences, bluish lips or fingertips, or confusion\u2014which would require immediate medical attention. Have you noticed any new symptoms such as chest pain or palpitations during these episodes of increased shortness of breath?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute exacerbation of a chronic respiratory condition such as asthma or COPD"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Pathogeny",
+          "value": "possibly triggered by recent infection or airway inflammation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "continue your prescribed medications as directed, use your inhalers or nebulizers regularly"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor for any signs of worsening respiratory distress\u2014such as increased work of breathing, inability to speak in full sentences, bluish lips or fingertips, or confusion\u2014which would require immediate medical attention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain or palpitations during episodes of increased shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining all that, doctor. Um, let me think\u2026 I haven\u2019t really noticed any chest pain, at least not the kind that\u2019s sharp or anything like that. Sometimes I feel a little pressure or heaviness when my dyspnea gets really bad, but it goes away when I rest. As for palpitations, maybe just once or twice I felt my heart racing a bit when I was more short of breath, but it didn\u2019t last long.\n\nI appreciate you going over the symptoms I should watch for\u2014like increased work of breathing or bluish lips. That\u2019s helpful to know. Is there anything else I can do at home to help with the mucous production or to make breathing easier? And, um, how will I know if this is more likely asthma or COPD, since I\u2019ve never had a definite diagnosis?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining all that, doctor. Um, let me think\u2026"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain, but sometimes pressure or heaviness when dyspnea gets bad, relieved by rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations once or twice, heart racing when short of breath, did not last long"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "QA",
+          "slot": "Precaution",
+          "value": "appreciate you going over symptoms to watch for like increased work of breathing or bluish lips"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything else I can do at home to help with mucous production or make breathing easier?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Diagnosis",
+          "value": "How will I know if this is more likely asthma or COPD, since I\u2019ve never had a definite diagnosis?"
+        }
+      ]
+    }
+  ]
+}

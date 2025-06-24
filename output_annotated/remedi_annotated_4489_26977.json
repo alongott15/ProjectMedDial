@@ -1,0 +1,1467 @@
+{
+  "source_row_id": 4489,
+  "source_subject_id": 26977,
+  "source_hadm_id": 176410,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Good morning, thank you for coming in today. I understand you\u2019ve been experiencing shortness of breath\u2014can you tell me more about when these symptoms started and how they have changed since the onset?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Good morning, thank you for coming in today."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "when these symptoms started"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "how symptoms have changed since onset"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Good morning, doctor. Um, yes, I\u2019ve been having this shortness of breath. It started kind of suddenly, and it\u2019s just not getting any better. I\u2019m a bit worried about it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Good morning, doctor."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "started suddenly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "not getting any better"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "worried about it"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014sudden and persistent shortness of breath can be very concerning. To help with my assessment, can you tell me if you\u2019ve also noticed any swelling in your legs or ankles, particularly if one side is more affected than the other?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sudden and persistent shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in legs or ankles"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Range-body",
+          "value": "one side more affected than the other"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 my main concern really is this shortness of breath. It came on pretty suddenly, and I just can\u2019t seem to catch my breath, even when I\u2019m resting. I\u2019m feeling pretty anxious about it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sudden onset of shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty catching breath at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014sudden shortness of breath, especially at rest, can feel very distressing. To help with my assessment, have you noticed any swelling in your lower legs or ankles, and if so, is it more pronounced on one side?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried\u2014sudden shortness of breath, especially at rest, can feel very distressing."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in lower legs or ankles"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "more pronounced on one side"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Um, actually, now that you mention it, I have noticed some swelling in my legs. It\u2019s mostly in both legs, but it seems a bit worse on my right side. I wasn\u2019t sure if that was important, but it\u2019s been there along with the shortness of breath. Should I be worried about that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about that?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms\u2014sudden shortness of breath and swelling in your legs can feel alarming. To help with my assessment, have you experienced any chest pain, palpitations, or a experiencing of pressure in your chest along with the dyspnea and lower extremity edema?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried about these symptoms\u2014sudden shortness of breath and swelling in your legs can feel alarming."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "pressure in chest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really had any chest pain or pressure, and I don\u2019t think I\u2019ve noticed any palpitations. It\u2019s mostly just this dyspnea at rest that\u2019s really bothering me. And, um, I did notice that when I try to move or if someone touches me, I don\u2019t really react much\u2014it\u2019s like there\u2019s no withdrawal to pain. That\u2019s a bit strange for me. I\u2019m just feeling really anxious about all these symptoms.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain or pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no withdrawal to pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious about symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the sudden onset of shortness of breath and swelling in your legs. To help with my assessment, have you noticed any cough, wheezing, or changes in your sputum, or has anyone mentioned hearing abnormal lung sounds such as coarse rhonchi during your examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in sputum"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "abnormal lung sounds such as coarse rhonchi"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really had much of a cough or any changes in my sputum. I don\u2019t think I\u2019ve been wheezing either. But, actually, during one of my recent exams, the doctor mentioned something about coarse rhonchi in all my lung fields. And like I said earlier, the swelling\u2014what you called bilateral lower extremity edema\u2014is definitely worse on my right side. I\u2019m just feeling more anxious the more these symptoms add up. Should I be really concerned?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no changes in sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no wheezing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "coarse rhonchi in all lung fields"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bilateral lower extremity edema worse on right side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be really concerned"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014these symptoms can be quite concerning. Given the presence of bilateral lower extremity edema, especially with it being worse on the right side, and the finding of coarse rhonchi in all lung fields during your examination, have you noticed any difficulty lying flat at night (orthopnea) or episodes of waking up suddenly short of breath (paroxysmal nocturnal dyspnea)?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bilateral lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worse edema on right side"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coarse rhonchi in all lung fields"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Actually, yes\u2014I have had some trouble lying flat at night. I think that\u2019s what you called orthopnea? I\u2019ve been needing extra pillows just to breathe comfortably, and a couple of times I woke up gasping for air. I guess that\u2019s paroxysmal nocturnal dyspnea, right?\n\nAlso, during my last examination-up, the doctor mentioned something about elevated jugular venous distention\u2014elevated JVD, I think? And honestly, I feel like I\u2019m in respiratory distress a lot of the time now. It\u2019s just really scary, and I\u2019m not sure what\u2019s causing all these symptoms. Should I be really worried about this?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble lying flat at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "needing extra pillows to breathe comfortably"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up gasping for air"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "elevated jugular venous distention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling in respiratory distress a lot of the time"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "not sure what\u2019s causing all these symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be really worried about this"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014experiencing symptoms like orthopnea, paroxysmal nocturnal dyspnea, and elevated jugular venous distention can be very distressing. To help with my assessment, have you noticed any recent weight gain or a rapid increase in swelling, which can sometimes accompany fluid retention in conditions affecting the heart or kidneys?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "elevated jugular venous distention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "rapid increase in swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "fluid retention in conditions affecting the heart or kidneys"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I think I have noticed some weight gain lately, and the swelling in my legs seemed to get worse pretty quickly. It\u2019s just been a lot all at once.\n\nAlso, I\u2019m not sure if this is important, but during one of my episodes, someone said I had agonal respirations that had ceased, and they mentioned my pupils were fixed and dilated. That sounded really serious to me. Is that something I should be really worried about? I just feel so anxious with all these symptoms piling up.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "agonal respirations ceased"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pupils fixed and dilated"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "concern about seriousness of symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious\u2014experiencing symptoms like rapid weight gain, worsening bilateral lower extremity edema, and hearing about findings such as agonal respirations and fixed, dilated pupils can be very alarming. To help with my assessment, have you experienced any changes in your urine output or noticed any difficulty urinating, which could indicate fluid overload or involvement of your renal function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "rapid weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening bilateral lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "agonal respirations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fixed, dilated pupils"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty urinating"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 actually, I have noticed some changes with my urine output. It seems like I\u2019m not urinating as much as usual, and since I\u2019ve been treated for a urinary tract infection recently, I wasn\u2019t sure if that was related or not. I haven\u2019t really had much difficulty urinating, but the amount is definitely less.\n\nAlso, during one of my recent exams, the doctor mentioned there was no carotid pulse and an absence of cardiac sounds. That really scared me\u2014does that mean my heart isn\u2019t working right? I\u2019m just feeling so anxious with all these symptoms\u2014should I be really worried about what\u2019s happening to me?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent urinary tract infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no difficulty urinating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "absence of carotid pulse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "absence of cardiac sounds"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "concern about heart not working"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be worried"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014these symptoms and examination findings can feel overwhelming. Based on your description of bilateral lower extremity edema (worse on the right), coarse rhonchi in all lung fields, reduced urine output, and the absence of cardiac sounds and carotid pulse during examination, I am concerned about possible acute heart failure or a severe cardiac event. To help with my assessment, have you ever been diagnosed with any heart conditions such as heart failure, arrhythmias, or coronary artery disease in your medical history?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bilateral lower extremity edema (worse on the right)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coarse rhonchi in all lung fields"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reduced urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "absence of cardiac sounds and carotid pulse"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible acute heart failure or a severe cardiac event"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "heart failure, arrhythmias, or coronary artery disease"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 no, I\u2019ve never actually been diagnosed with heart failure, arrhythmias, or coronary artery disease before. My medical history is mostly symptoms like hypothyroidism, osteoporosis, glaucoma, dyslipidemia, and I\u2019ve had gallstones and Zenker\u2019s diverticulum. And like I mentioned, I\u2019m currently being treated for a urinary tract infection.\n\nBut with all these symptoms\u2014like the bilateral lower extremity edema, coarse rhonchi, reduced urine output, and then hearing about symptoms like absence of cardiac sounds and no carotid pulse\u2014I\u2019m really scared. Does this mean I could be having an acute heart failure or some kind of severe cardiac event right now? Is there anything that can be done to help me?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "no history of heart failure, arrhythmias, or coronary artery disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of hypothyroidism, osteoporosis, glaucoma, dyslipidemia, gallstones, Zenker\u2019s diverticulum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "currently being treated for urinary tract infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bilateral lower extremity edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coarse rhonchi"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reduced urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "acute heart failure or severe cardiac event"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "anything that can be done to help"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the sudden onset of shortness of breath, bilateral lower extremity edema, coarse rhonchi on examination, and reduced urine output. Based on your clinical findings, my assessment is that you may be experiencing acute heart failure or a severe cardiac event, possibly complicated by fluid overload. Have you recently experienced any episodes of confusion, dizziness, or loss of consciousness in addition to your current symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sudden onset of shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bilateral lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coarse rhonchi on examination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reduced urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "severe cardiac event"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "fluid overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, actually, I have had some episodes where I felt really dizzy and even a bit confused. There was one time\u2014I think it was when the shortness of breath was at its worst\u2014where I might have lost consciousness for a little while. I remember someone saying my pupils were fixed and dilated, and that I didn\u2019t have a carotid pulse or any cardiac sounds. That really scared me.\n\nWith all these symptoms\u2014acute onset shortness of breath, bilateral lower extremity edema, coarse rhonchi, reduced urine output, and now these episodes of confusion and possible loss of consciousness\u2014I\u2019m just feeling overwhelmed. Is this definitely acute heart failure or a severe cardiac event? What happens next? Is there something you can do to help me get better?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizzy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confused"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bilateral lower extremity edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coarse rhonchi"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reduced urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "acute heart failure or severe cardiac event"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what happens next"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "is there something you can do to help me get better"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing overwhelmed and anxious, given the severity and sudden onset of your symptoms. Based on your description\u2014acute shortness of breath, bilateral lower extremity edema, coarse rhonchi on examination, reduced urine output, episodes of confusion and possible loss of consciousness, as well as findings like absence of cardiac sounds and no carotid pulse\u2014my assessment is highly concerning for acute heart failure or a severe cardiac event that may have led to cardiopulmonary arrest. \n\nTo further guide my assessment, have you experienced any chest discomfort, pressure, or pain at any point during these episodes, even if mild or brief?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute heart failure or severe cardiac event leading to cardiopulmonary arrest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "acute shortness of breath, bilateral lower extremity edema, coarse rhonchi, reduced urine output, episodes of confusion, possible loss of consciousness, absence of cardiac sounds, no carotid pulse"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest discomfort, pressure, or pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 thinking back, I don\u2019t really remember having any chest pain or pressure, not even mild discomfort. It\u2019s mostly just been the shortness of breath and the swelling in my legs, and then those episodes where I felt confused or maybe even lost consciousness. I guess that\u2019s why I didn\u2019t think it could be something with my heart at first.\n\nBut now, hearing you mention symptoms like acute heart failure and cardiopulmonary arrest, I\u2019m honestly really scared. Is it possible to have all these symptoms without chest pain? And, um, what happens next\u2014can this be treated? Should I be preparing for something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it possible to have all these symptoms without chest pain?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "can this be treated?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be preparing for something serious?"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014experiencing these symptoms without chest pain can still indicate a serious cardiac condition, such as acute heart failure or cardiopulmonary arrest, especially given your examination findings and recent episodes of confusion and loss of consciousness. My assessment is that immediate medical intervention is necessary, which may include supportive measures like oxygen therapy, diuretics to reduce fluid overload, and close cardiac monitoring. Have you ever had an echocardiogram or cardiac evaluation in the past to assess your heart\u2019s function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "cardiopulmonary arrest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "immediate medical intervention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "oxygen therapy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "diuretics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "close cardiac monitoring"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "echocardiogram"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "cardiac evaluation"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I don\u2019t think I\u2019ve ever had an echocardiogram or any kind of detailed cardiac evaluation before. Most of my examination-ups have just been the usual\u2014blood pressure, cholesterol, symptoms like that. No one\u2019s ever really looked closely at my heart function.\n\nI\u2019m honestly feeling really anxious hearing all of this, especially with you mentioning symptoms like acute heart failure and cardiopulmonary arrest. I didn\u2019t realize how serious these symptoms could be, especially without chest pain. Is it common for people to have heart symptoms like this without any chest discomfort? And, um, how quickly do I need to get these interventions\u2014like oxygen therapy and diuretics? Will this help me get better, or is there a chance symptoms could get worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "never had an echocardiogram or detailed cardiac evaluation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "most examinations have been blood pressure, cholesterol, and symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it common to have heart symptoms without chest discomfort?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "How quickly do I need to get interventions like oxygen therapy and diuretics?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Will these interventions help me get better or could symptoms get worse?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially given how suddenly they started and how severe they have become. Based on your clinical presentation\u2014acute onset shortness of breath, bilateral lower extremity edema, reduced urine output, abnormal lung examination, and episodes of confusion or loss of consciousness\u2014my assessment is that you may be experiencing acute decompensated heart failure or a severe cardiac event, even in the absence of chest pain.\n\nImmediate intervention is critical: treatments typically include supplemental oxygen, intravenous diuretics to reduce fluid overload, and continuous cardiac monitoring. These interventions can help stabilize your condition and improve your symptoms, but rapid assessment and treatment are essential to prevent further deterioration.\n\nHave you experienced any recent fever, chills, or signs of infection that could suggest an underlying precipitating factor for your current symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute decompensated heart failure or a severe cardiac event"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "acute onset shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bilateral lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reduced urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abnormal lung examination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of confusion or loss of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "supplemental oxygen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous diuretics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "continuous cardiac monitoring"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent fever, chills, or signs of infection"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I don\u2019t think I\u2019ve really had a fever or chills lately. I haven\u2019t noticed any shaking or anything like that. The only thing is, like I mentioned earlier, I\u2019m currently being treated for a urinary tract infection, so I guess that could be an infection, right? But I haven\u2019t felt especially sick from it\u2014just the usual symptoms.\n\nI\u2019m just feeling really anxious with all these symptoms and hearing about acute decompensated heart failure and severe cardiac events. Is it possible that my UTI could have triggered all of this? And, um, how quickly do these interventions\u2014like oxygen and intravenous diuretics\u2014start to work? Should I expect to feel better soon, or is this something that could take a while to recover from?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever or chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no shaking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "urinary tract infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "usual UTI symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Is it possible that my UTI could have triggered acute decompensated heart failure or severe cardiac events?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "How quickly do interventions like oxygen and intravenous diuretics start to work?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Should I expect to feel better soon, or could recovery take a while?"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014experiencing these symptoms alongside a recent urinary tract infection can feel overwhelming. Sometimes, infections like a UTI can precipitate acute decompensated heart failure, especially if there is underlying cardiac or renal dysfunction. Based on your symptoms and examination findings, immediate interventions such as supplemental oxygen and intravenous diuretics are typically started right away and can often lead to improvement within hours to days, though recovery time varies depending on the severity of your condition and your overall health.\n\nTo help guide further assessment and treatment, have you experienced any chest tightness or difficulty breathing that worsens when lying flat, even after starting your current medications?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "acute decompensated heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent urinary tract infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "supplemental oxygen and intravenous diuretics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "within hours to days"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest tightness or difficulty breathing that worsens when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "current medications"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I have definitely noticed that the difficulty breathing\u2014what you called dyspnea\u2014gets worse when I try to lie flat, even after starting my current medications. I\u2019ve been needing to prop myself up with extra pillows at night, otherwise it feels like I just can\u2019t catch my breath. I wouldn\u2019t say I\u2019ve had chest tightness exactly, but the shortness of breath is really uncomfortable and kind of scary.\n\nI\u2019m glad to hear that symptoms like supplemental oxygen and intravenous diuretics can help fairly quickly, but I\u2019m still really anxious about how serious all of this sounds. Is there anything else I should be doing or watching out for while I\u2019m getting treatment? And, um, is it common for a urinary tract infection to cause symptoms as severe as acute decompensated heart failure?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing worse when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "needs extra pillows at night to breathe"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest tightness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything else I should be doing or watching out for while getting treatment?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Is it common for a urinary tract infection to cause symptoms as severe as acute decompensated heart failure?"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially since your shortness of breath worsens when lying flat and you\u2019re already being treated for a urinary tract infection. My assessment is that your symptoms and examination findings are consistent with acute decompensated heart failure, which can sometimes be triggered by infections like a UTI, particularly in individuals with underlying risk factors.\n\nWhile you are receiving treatment such as supplemental oxygen and intravenous diuretics, it\u2019s important to monitor for any new or worsening symptoms, such as increasing shortness of breath, chest discomfort, confusion, or decreased urine output. Have you noticed any changes in your mental status or alertness since starting your current treatment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute decompensated heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "triggered by infections like a UTI, particularly in individuals with underlying risk factors"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "supplemental oxygen and intravenous diuretics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor for any new or worsening symptoms, such as increasing shortness of breath, chest discomfort, confusion, or decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in mental status or alertness since starting current treatment"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 since starting the supplemental oxygen and intravenous diuretics, I think I\u2019ve been a little more alert, but honestly, I still feel kind of foggy at times. There are moments when I feel confused or just not quite myself, and that makes me even more anxious. I haven\u2019t really noticed any chest discomfort, but the shortness of breath is still there\u2014maybe a little better, but not completely gone.\n\nI\u2019m just worried about how long it\u2019ll take for these symptoms to really improve. Is it normal to still feel this way even after starting treatment? And, um, is there anything else I should be watching out for or letting you know about while I\u2019m here? I just want to make sure I\u2019m doing everything I can to get better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "supplemental oxygen and intravenous diuretics"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "a little more alert"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feel kind of foggy at times"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feel confused"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath still present, maybe a little better"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "how long it\u2019ll take for these symptoms to really improve"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Is it normal to still feel this way even after starting treatment?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything else I should be watching out for or letting you know about while I\u2019m here?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "want to make sure I\u2019m doing everything I can to get better"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially since your symptoms have only partially improved and you\u2019re still experiencing some confusion and persistent shortness of breath. Based on my assessment, it\u2019s not uncommon for symptoms of acute decompensated heart failure to take some time to fully resolve, even after starting appropriate treatment like supplemental oxygen and intravenous diuretics. \n\nWhile you\u2019re being monitored, please let us know immediately if you experience any worsening confusion, chest discomfort, or further decrease in urine output. Have you noticed any new swelling in other parts of your clinical examination, such as your hands or abdomen, since beginning your current treatment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "acute decompensated heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "supplemental oxygen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "intravenous diuretics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "let us know immediately if you experience any worsening confusion, chest discomfort, or further decrease in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new swelling in other parts such as hands or abdomen"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I think I have noticed a little bit of swelling in my abdomen\u2014it feels kind of bloated, and my clothes are fitting tighter around my waist. My hands seem okay, though; I haven\u2019t really seen any swelling there.\n\nI\u2019m still feeling pretty anxious about all these symptoms, especially since the shortness of breath and confusion haven\u2019t completely gone away. Is it normal for the abdominal swelling to happen with acute decompensated heart failure? And, um, how long should I expect these symptoms to last before I start feeling more like myself again? I just want to make sure I\u2019m not missing anything important or doing something wrong.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bloating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clothes fitting tighter around waist"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no swelling in hands"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is abdominal swelling normal with acute decompensated heart failure?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "How long should these symptoms last before feeling better?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Am I missing anything important or doing something wrong?"
+        }
+      ]
+    }
+  ]
+}

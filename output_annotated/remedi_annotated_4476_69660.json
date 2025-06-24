@@ -1,0 +1,1574 @@
+{
+  "source_row_id": 4476,
+  "source_subject_id": 69660,
+  "source_hadm_id": 101858,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Good morning, thank you for coming in today. I understand you\u2019ve been experiencing right flank pain and some hemodynamic instability. Can you describe in more detail how your right flank pain started and if anything makes it better or worse?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Um, good morning, doctor. Yeah, it\u2019s mainly this right flank pain that\u2019s been bothering me. It kind of came on suddenly, and, well, I\u2019m not really sure what set it off. I just know it\u2019s pretty uncomfortable and hasn\u2019t really let up. Should I be worried?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "good morning"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right flank pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "came on suddenly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "pretty uncomfortable and hasn\u2019t really let up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014sudden and persistent pain can be very concerning. In addition to your right flank pain, have you noticed any other symptoms such as abdominal pain, dizziness, or changes in your blood pressure that might suggest hemodynamic instability?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sudden and persistent pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "hemodynamic instability"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have had some abdominal pain too. It\u2019s not as sharp as the flank pain, but it\u2019s there. I\u2019m just\u2026 I guess I\u2019m worried because it all feels kind of sudden.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "flank pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "symptoms feel sudden"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "worried"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014sudden pain and these new symptoms can be unsettling. You mentioned some mild dyspnea as well; can you tell me more about your breathing\u2014have you noticed any increased shortness of breath or changes in your oxygen requirements since your symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried\u2014sudden pain and these new symptoms can be unsettling."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "You mentioned some mild dyspnea as well"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "changes in your oxygen requirements since your symptoms began"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 actually, I have noticed a bit more shortness of breath than usual. I\u2019m on 2 liters of oxygen at home, but lately it feels like I need a little more to catch my breath, especially when I move around. It\u2019s not severe, but it\u2019s definitely more than what I\u2019m used to. And with the hemodynamic instability you mentioned, I guess that\u2019s making me even more anxious. Is this something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Dose",
+          "value": "2 liters of oxygen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased need for oxygen to catch breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is this something serious?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the increase in your oxygen requirement and the new shortness of breath. To help with my assessment, have you experienced any episodes of severe respiratory distress, such as rapid breathing, difficulty speaking in full sentences, or a experiencing of not getting enough air since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increase in oxygen requirement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "new shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "severe respiratory distress"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "rapid breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty speaking in full sentences"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "feeling of not getting enough air"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yeah, I guess you could say I\u2019ve had some respiratory distress. It\u2019s like, sometimes I feel like I can\u2019t quite get enough air, and I\u2019ve definitely had to bump up my oxygen a bit more than usual. I haven\u2019t really had trouble speaking in full sentences, but the shortness of breath is worse than my baseline. It\u2019s making me pretty anxious, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory distress"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worse than baseline"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Dose",
+          "value": "bumped up oxygen more than usual"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with your symptoms of increased shortness of breath and needing more oxygen than usual. To help with my assessment, have you noticed any swelling in your legs, chest discomfort, or palpitations along with your respiratory symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "needing more oxygen than usual"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in your legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "respiratory symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 um, I haven\u2019t really noticed much swelling in my legs, at least nothing new. As for chest discomfort, maybe just a little pressure now and then, but not real chest pain like I\u2019ve had before with my heart. I don\u2019t think I\u2019ve had any palpitations\u2014my heart doesn\u2019t feel like it\u2019s racing or skipping beats. I\u2019m mostly just worried about the shortness of breath and this pain in my side.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "occasional chest pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain in side"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your increased oxygen requirement and persistent shortness of breath. To help guide my assessment, have you noticed any coughing, wheezing, or changes in the color of your sputum since your respiratory symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased oxygen requirement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "coughing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in the color of sputum"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "respiratory symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I have had a bit more coughing lately. It\u2019s mostly a dry cough, but sometimes there\u2019s a little sputum\u2014nothing too thick or discolored, just kind of clear or maybe a little white. I do notice some wheezing, especially when I\u2019m trying to take a deep breath. \n\nIs this all connected to the hemodynamic instability and the right retroperitoneal bleed you mentioned earlier? I\u2019m just worried symptoms might be getting worse, especially with my history of COPD and heart symptoms. Should I be doing anything differently right now?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coughing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sputum (clear or white)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "hemodynamic instability and right retroperitoneal bleed"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "symptoms getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be doing anything differently right now?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially given your history of COPD and heart conditions. To help guide my assessment, have you experienced any fever, chills, or signs of infection along with your respiratory symptoms and increased oxygen requirement?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD and heart conditions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "signs of infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "respiratory symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased oxygen requirement"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed any fever or chills, at least not that I can tell. I haven\u2019t felt hot or sweaty, and I don\u2019t think I\u2019ve had any shaking or anything like that. No obvious signs of infection that I can think of\u2014just the shortness of breath, the right flank pain, and the abdominal pain.\n\nWith all these symptoms and my history of COPD and heart symptoms, should I be worried about something serious, like an infection or something else? Is this related to the retroperitoneal bleed you mentioned? I just want to make sure I\u2019m not missing anything important.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no sweating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no shaking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no obvious signs of infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right flank pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "retroperitoneal bleed"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with your history of COPD and the new symptoms of increased shortness of breath and oxygen requirement. To further guide my assessment, have you noticed any changes in your mental status\u2014such as confusion, drowsiness, or difficulty concentrating\u2014since these respiratory symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased oxygen requirement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in mental status (confusion, drowsiness, difficulty concentrating)"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I guess I have felt a little more drowsy than usual. Sometimes it\u2019s hard to focus or concentrate, especially when the shortness of breath gets worse. I just thought maybe it was from not sleeping well because of the pain and anxiety, but now I\u2019m not so sure.\n\nWith all these symptoms\u2014hemodynamic instability, the right retroperitoneal bleed, and now some changes in my mental status\u2014should I be really worried? Is this something that could get worse quickly? I just want to make sure I\u2019m not missing anything serious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hard to focus or concentrate"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hemodynamic instability"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right retroperitoneal bleed"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in mental status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be really worried"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is this something that could get worse quickly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "I just want to make sure I\u2019m not missing anything serious"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your symptoms of increased shortness of breath, drowsiness, and the recent right retroperitoneal bleed. Based on your medical history and these findings\u2014including your oxygen levels and blood gas clinical findings\u2014it\u2019s important to assess whether your respiratory distress is worsening. Have you noticed any further decline in your ability to perform daily activities or increased fatigue since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right retroperitoneal bleed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "oxygen levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "blood gas clinical findings"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "further decline in ability to perform daily activities"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased fatigue"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, I have noticed it\u2019s been harder to do my usual daily activities. Even just getting up to go to the bathroom or moving around the house leaves me more fatigued than before. I get winded a lot quicker, and I have to rest more often. It\u2019s definitely more than what I\u2019m used to with my COPD baseline.\n\nWith the hemodynamic instability and the right retroperitoneal bleed, plus these changes in my oxygen levels and blood gas findings, should I be worried about symptoms getting worse? Is there something specific I should be looking out for, or anything I can do to help prevent this from progressing?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue with daily activities, gets winded quicker, needs to rest more often"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD baseline"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hemodynamic instability"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right retroperitoneal bleed"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in oxygen levels"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "blood gas findings"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "should I be worried about symptoms getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there something specific I should be looking out for"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything I can do to help prevent this from progressing"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your increased shortness of breath, fatigue, and the recent changes in your oxygen requirement. Based on your symptoms and recent blood gas findings\u2014showing a low pO2 and negative base excess\u2014it\u2019s important to assess for any signs of worsening respiratory or metabolic compromise. Have you noticed any new or worsening confusion, difficulty staying awake, or episodes where you feel faint since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "recent changes in oxygen requirement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "blood gas findings"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "low pO2"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "negative base excess"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty staying awake"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of feeling faint"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yeah, I have noticed a bit more confusion lately. Sometimes I just feel kind of out of it, or it takes me a minute to remember what I was doing. There have been a couple times where I felt almost faint\u2014like if I stand up too quickly, I get lightheaded and need to sit back down right away. And honestly, I\u2019ve been more tired than usual; sometimes it\u2019s hard to stay awake during the day.\n\nWith the low pO2 and negative base excess you mentioned, does that mean my respiratory or metabolic status is getting worse? Should I be worried about something like respiratory failure, or is this more related to the hemodynamic instability from the retroperitoneal bleed? I just want to understand what\u2019s happening and what I should be looking out for.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling faint"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness on standing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased tiredness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Does low pO2 and negative base excess mean respiratory or metabolic status is worsening?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "respiratory failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Is this related to hemodynamic instability from retroperitoneal bleed?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "What should I be looking out for?"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your increased confusion, fatigue, and episodes of lightheadedness. Based on your recent laboratory findings\u2014specifically the low pO2 and negative base excess\u2014these suggest both respiratory compromise and a degree of metabolic acidosis, which could be related to your underlying hemodynamic instability and retroperitoneal bleed. As part of my assessment, have you noticed any changes in your urine output or color, which could indicate worsening renal function or ongoing blood loss?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased confusion, fatigue, episodes of lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "low pO2, negative base excess"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "respiratory compromise, metabolic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "underlying hemodynamic instability and retroperitoneal bleed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output or color"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I have noticed my urine output has been less than usual. It\u2019s kind of darker too\u2014almost like a tea color sometimes. I wasn\u2019t sure if that was just from not drinking enough water because I haven\u2019t felt great, or if it\u2019s something more serious. \n\nWith the hemodynamic instability and the retroperitoneal bleed, plus these changes in my urine and the metabolic acidosis you mentioned, should I be worried about my kidneys getting worse? Is this all connected, or could it mean I\u2019m still losing blood internally? I just want to make sure we\u2019re not missing anything, because it feels like a lot is happening at once.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark urine (tea color)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not feeling great"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "kidney function worsening"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "ongoing internal bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "connection between symptoms (urine changes, hemodynamic instability, retroperitoneal bleed, metabolic acidosis)"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your new symptoms of decreased urine output, darker urine, and ongoing fatigue in the context of hemodynamic instability and a retroperitoneal bleed. Based on your assessment\u2014including metabolic acidosis, low pO2, and changes in renal function\u2014these findings suggest your kidneys may be under stress, possibly from ongoing blood loss or reduced perfusion. Have you noticed any new bleeding, bruising, or signs of blood in your urine or stool that could indicate continued internal bleeding?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "darker urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ongoing fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "hemodynamic instability"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "retroperitoneal bleed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "metabolic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "low pO2"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "changes in renal function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "kidneys may be under stress"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new bleeding, bruising, or signs of blood in urine or stool"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you ask, I haven\u2019t really seen any obvious blood in my urine, but with it being so dark lately, I guess I can\u2019t be sure. I haven\u2019t noticed any blood in my stool either\u2014no red or black color that I can tell. As for bruising, I did see a couple of new spots on my arms and legs, but I just thought maybe I bumped into something and didn\u2019t remember.\n\nWith all these symptoms\u2014decreased urine output, darker urine, fatigue, and the metabolic acidosis and low pO2 you mentioned\u2014should I be really worried about my kidneys failing? And if this is from ongoing blood loss or reduced perfusion, is there something you can do to stop it from getting worse? I just want to make sure we\u2019re catching everything early enough.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no obvious blood in urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no blood in stool"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no red or black color in stool"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bruising on arms and legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "kidney failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "stop ongoing blood loss or reduced perfusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "catching everything early enough"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your history and the recent changes in your urine output, color, and overall fatigue. Based on your assessment\u2014including metabolic acidosis, low pO2, decreased urine output, and hemodynamic instability\u2014there is concern for possible acute kidney injury and ongoing effects from the retroperitoneal bleed. In addition to close monitoring and supportive care, you may require intravenous fluids, blood transfusion, or further interventions to stabilize your condition. Have you experienced any new or worsening abdominal distension or tenderness since your symptoms began, which could indicate progression of internal bleeding?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recent changes in urine output, color, and overall fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible acute kidney injury"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Effect",
+          "value": "ongoing effects from the retroperitoneal bleed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "close monitoring and supportive care, intravenous fluids, blood transfusion, or further interventions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening abdominal distension or tenderness"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, I have noticed my abdomen feels a bit more distended than usual. It\u2019s kind of bloated and definitely more tender to the touch, especially on the right side where the pain started. I thought maybe it was just from not moving around much, but it does seem worse than before.\n\nWith all these symptoms\u2014metabolic acidosis, low pO2, decreased urine output, hemodynamic instability, and now this abdominal distension and tenderness\u2014should I be really worried about the retroperitoneal bleed getting worse? If I do need something like a blood transfusion or other intervention, how quickly would that happen? And is there anything else I should be looking out for or letting you know about right away? I just want to make sure we\u2019re not missing anything serious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdomen feels distended"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bloating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness to touch on right side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain started on right side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "metabolic acidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low pO2"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hemodynamic instability"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "retroperitoneal bleed getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "blood transfusion or other intervention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "how quickly would that happen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should be looking out for or letting you know about right away"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the new abdominal distension and tenderness on top of your hemodynamic instability, metabolic acidosis, and decreased urine output. Based on my assessment, your symptoms and recent laboratory findings suggest that the retroperitoneal bleed may be worsening and could be contributing to both your respiratory and renal compromise. If you notice any sudden increase in abdominal pain, rapid swelling, worsening confusion, or a significant drop in blood pressure, please alert the medical team immediately, as these may indicate the need for urgent intervention such as blood transfusion or surgical evaluation. Are you experiencing any new or rapidly worsening dizziness or fainting episodes at this moment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension, tenderness, hemodynamic instability, metabolic acidosis, decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "worsening retroperitoneal bleed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory compromise, renal compromise"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "alert the medical team if sudden increase in abdominal pain, rapid swelling, worsening confusion, or significant drop in blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "urgent intervention such as blood transfusion or surgical evaluation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or rapidly worsening dizziness or fainting episodes"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 right now I do feel a bit more lightheaded than before, especially when I try to sit up or move around. I haven\u2019t actually fainted, but it\u2019s definitely worse than it was earlier. My abdominal pain also feels a little sharper, and the distension seems more noticeable.\n\nI\u2019m honestly pretty anxious about all these symptoms\u2014especially with you mentioning the retroperitoneal bleed might be getting worse and the possibility of needing a blood transfusion or even surgery. Should I be worried that symptoms are progressing quickly? And is there anything else I should be doing or watching for while I\u2019m here? I just want to make sure I\u2019m not missing any warning signs, because it feels like a lot is happening all at once.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "retroperitoneal bleed"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "blood transfusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "surgery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "warning signs to watch for"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with your symptoms progressing and the concern for a worsening retroperitoneal bleed. Based on your current assessment\u2014including increased abdominal pain and distension, lightheadedness, decreased urine output, and laboratory findings of metabolic acidosis and low pO2\u2014this is a serious condition that requires urgent intervention, likely including intravenous fluids, blood transfusion, and close hemodynamic monitoring. While we continue your clinical evaluation, have you experienced any new onset of severe chest pain or sudden difficulty breathing since your last examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "worsening retroperitoneal bleed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "metabolic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "low pO2"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous fluids"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "blood transfusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "close hemodynamic monitoring"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new onset of severe chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden difficulty breathing"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 since my last exam, I haven\u2019t had any severe chest pain\u2014just that occasional pressure I mentioned before, but nothing sharp or crushing like I\u2019ve had with my heart in the past. As for my breathing, I do feel a bit more short of breath, but it hasn\u2019t suddenly gotten much worse all at once. It\u2019s just that steady increase in shortness of breath and needing more oxygen than usual.\n\nI\u2019m definitely feeling more anxious now, especially with everything you\u2019ve explained about the hemodynamic instability, metabolic acidosis, and the retroperitoneal bleed possibly getting worse. Should I be worried about this turning into respiratory failure or something happening with my heart? And if I do need a blood transfusion or other urgent intervention, how quickly does that usually happen? I just want to make sure I\u2019m safe and that we\u2019re not missing anything else important.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "occasional chest pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no severe chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath increasing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "needing more oxygen than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling more anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "risk of respiratory failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "risk of heart problem"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "timing of blood transfusion or urgent intervention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "safety and not missing anything important"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially given your symptoms of worsening abdominal pain, increased shortness of breath, and lightheadedness alongside your medical history and recent laboratory findings. Based on my assessment, your condition is serious and may require urgent interventions such as intravenous fluids, blood transfusion, and continuous hemodynamic monitoring to prevent complications like respiratory failure or cardiac events. As we proceed with your treatment, have you experienced any new onset of palpitations or irregular heartbeat since your symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "medical history and recent laboratory findings"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "serious condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous fluids, blood transfusion, continuous hemodynamic monitoring"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Precaution",
+          "value": "prevent complications like respiratory failure or cardiac events"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new onset of palpitations or irregular heartbeat"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed any new palpitations or irregular heartbeat since all these symptoms started. My heart doesn\u2019t feel like it\u2019s racing or skipping beats\u2014at least nothing out of the ordinary for me. Mostly it\u2019s just the increased shortness of breath, the abdominal pain, and this lightheadedness that\u2019s gotten worse.\n\nI really appreciate you explaining everything so clearly, but I have to admit I\u2019m still pretty anxious about all this\u2014especially with the hemodynamic instability and the risk of respiratory failure or cardiac events you mentioned. If symptoms do get worse, like if I suddenly feel more confused or my breathing gets a lot harder, should I let someone know right away? And is there anything else I should be doing or watching for while you\u2019re monitoring me? I just want to make sure I\u2019m doing everything I can to help.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new palpitations or irregular heartbeat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no racing or skipping heartbeats"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness that\u2019s gotten worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I let someone know right away if symptoms get worse, like more confusion or harder breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "is there anything else I should be doing or watching for while being monitored"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "partial_profile": {
+    "row_id": 4490,
+    "subject_id": 53865,
+    "hadm_id": 147600,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Dyspnea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Hypotension (SBPs in 40s)",
+          "onset": "post-procedure",
+          "duration": "not provided",
+          "severity": "severe"
+        },
+        {
+          "description": "Tachycardia (to 140s)",
+          "onset": "post-procedure",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Hyperkalemia (K of 6.4)",
+          "onset": "post-procedure",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Lactic acidosis (HCO3 ~18-19, ABG 7.17/43/116/17)",
+          "onset": "post-procedure",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Increasing abdominal girth",
+          "onset": "during procedure",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Increasing peak airway pressures to 40",
+          "onset": "during procedure",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "intubated, sedated",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "protuberant ventral hernia, distended abdomen, hypoactive bowel sounds",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "right renal arterial bleeding",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "renal insufficiency",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "multiple foci of active extravasation in right renal artery branches",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "possible foci of contained extravasation or pseudoaneurysms",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "abnormal renal contrast withholding with delayed clearance",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "uncontrolled hypertension",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "diastolic congestive heart failure exacerbation",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "back pain",
+          "onset": "after renal artery stenting",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hypotension (systolic BPs in the 40s)",
+          "onset": "after renal artery stenting",
+          "duration": "not provided",
+          "severity": "severe"
+        },
+        {
+          "description": "flash pulmonary edema",
+          "onset": "prior to transfer",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Decreasing blood pressure",
+          "onset": "approximately 12am",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Rising lactate levels (from 5 to 7)",
+          "onset": "after embolization",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Worsening acidosis",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "profound"
+        },
+        {
+          "description": "Persistently distended abdomen",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "High bladder pressures in the 20s",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Oxygenation status deteriorating (PaO2 of 46 on 100% FiO2 and PEEP 15)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "profound hypoxemia"
+        },
+        {
+          "description": "Profound AG metabolic acidosis",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "profound"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2100-08-07",
+        "Age": 71,
+        "Sex": "F",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "DIVORCED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2172-03-30 16:44:00",
+        "Discharge_Date": "2172-04-01 14:03:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "DM2, HTN, HLD, extensive vasculopathy including CAD s/p RCA stent (2161), bifemoral disease s/p L common iliac stent x2, aortic stent"
+      },
+      "Allergies": [
+        "Norvasc",
+        "Morphine",
+        "Niacin",
+        "Levaquin"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Procrit",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": []
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Dyspnea"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.95,
+      "consistency_score": 1.0,
+      "confidence_score": 0.95,
+      "overall_score": 0.9833333333333334,
+      "field_scores": {
+        "symptoms": 0.9615384615384616,
+        "diagnoses": 0.9791666666666666,
+        "treatments": 0.9487179487179487,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Symptom 'Tachycardia (to 140s)' not clearly found in original text",
+        "Diagnosis 'Hyperlipidemia (HLD)' not clearly supported by text",
+        "Treatment 'vasopressor support' not clearly found in text",
+        "Treatment 'Continuous veno-venous hemofiltration (CVVH)' not clearly found in text",
+        "Age inconsistency: stated 71, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing dyspnea and episodes of low blood pressure. Can you tell me more about when your symptoms of shortness of breath and hypotension first began and if anything assessms to make them better or worse?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 thank you for seeing me. I guess my main concern is this shortness of breath\u2014it just feels like I can\u2019t catch my breath, and it\u2019s gotten worse lately. I\u2019ve also noticed my blood pressure\u2019s been really low, at least that\u2019s what they told me. And, actually, my back\u2019s been hurting a lot too. I\u2019m just\u2026 I\u2019m pretty worried about all of this."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014shortness of breath and low blood pressure can be very unsettling symptoms. You mentioned your dyspnea has worsened recently; can you describe if it comes on suddenly or gradually, and whether it\u2019s constant or occurs at certain times, such as when lying down or with activity?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 the shortness of breath kind of came on gradually, I think. It\u2019s been getting worse over the past few days. Now it feels pretty constant, even when I\u2019m just lying down. I get really anxious because I just can\u2019t seem to catch my breath."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014experiencing short of breath and noticing your blood pressure is very low can be quite distressing. To help me with my assessment, can you tell me if you\u2019ve noticed any swelling in your legs, chest discomfort, or changes in your urine output along with these symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Well, I haven\u2019t really noticed much swelling in my legs, but I do feel kind of puffy all over, especially in my belly. I haven\u2019t had any real chest discomfort, just this back pain that\u2019s been bothering me. As for my urine, I think I\u2019m making less than usual\u2014maybe not going as often. \n\nAnd, um, they told me my blood pressure\u2019s been really low\u2014like systolic in the 40s? My heart\u2019s been racing too, up to the 140s sometimes. That\u2019s part of why I\u2019m so anxious. Should I be worried about that?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can absolutely understand why you\u2019re experiencing anxious\u2014experiencing persistent dyspnea, severe hypotension, and a rapid heart rate would be very concerning for anyone. Given your symptoms and the fact that your abdomen feels more distended, have you noticed any nausea, vomiting, or changes in your bowel movements that might help us further assess your current condition?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 actually, now that you mention it, I have felt kind of nauseous, but I haven\u2019t really vomited. My bowel movements have slowed down a lot\u2014almost like I\u2019m constipated. My abdomen just feels really tight and uncomfortable, and it\u2019s definitely more distended than usual.\n\nThey also mentioned something about my potassium being high\u2014hyperkalemia, I think? And lactic acidosis\u2026 my bicarbonate was low, around 18 or 19, and the ABG showed a pH of 7.17. I\u2019m just\u2026 I\u2019m really worried because all these numbers sound bad. Is this something serious?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014your symptoms and these laboratory findings are understandably concerning. Given your persistent dyspnea and severe hypotension, have you noticed any changes in your mental status, such as confusion, drowsiness, or difficulty staying alert, that might help us further assess the severity of your condition?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well\u2026 I guess I have felt a bit more drowsy and kind of out of it lately, especially since all this started getting worse. Sometimes it\u2019s hard to stay fully alert, and I get confused about what day it is. \n\nAlso, my abdomen keeps getting bigger\u2014like, the girth is definitely increasing. They mentioned something about my peak airway pressures going up to 40, which I think is making it even harder to breathe. I\u2019m just really anxious about all these changes. Should I be worried about the abdominal distension and the airway pressures too?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially with the increasing abdominal distension and difficulty breathing. To help with my assessment, have you noticed any changes in your ability to move your legs or any numbness or tingling, which could suggest that the abdominal distension is affecting your circulation or nerves?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 since symptoms got worse, I actually ended up being intubated and sedated, so it\u2019s been hard to really notice changes in my legs or anything like that. Before that, I didn\u2019t really feel numbness or tingling, but honestly, it\u2019s all kind of a blur now. \n\nThey did mention I have a protuberant ventral hernia and that my abdomen is really distended. I overheard someone say my bowel sounds were hypoactive, too. I\u2019m just worried because everything seems to be getting worse\u2014my breathing, the abdominal distension, and now all these numbers like the high potassium and lactic acidosis. \n\nIs this something that can be fixed? Should I be worried about all these complications?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can absolutely understand why you\u2019re experiencing anxious given the severity and progression of your symptoms. To further guide my assessment, have you experienced any chest pain, palpitations, or episodes of syncope in association with your dyspnea and hypotension?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining everything and for asking all these questions. Um, I haven\u2019t really had chest pain, but my heart has definitely been racing\u2014a lot of palpitations, especially when my blood pressure drops. I haven\u2019t passed out completely, but I\u2019ve felt really lightheaded, almost like I might faint sometimes.\n\nActually, they told me I have right renal arterial bleeding and some renal insufficiency. There were multiple foci of active extravasation in the right renal artery branches, and they mentioned possible pseudoaneurysms. I\u2019m not sure what all that means, but it sounds pretty serious. \n\nWith all these symptoms\u2014like the uncontrolled hypertension before, now the hypotension, the heart rate, the kidney symptoms\u2014I\u2019m just really anxious. Is there a way to get this under control? Should I be worried about permanent damage?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with your symptoms of persistent dyspnea and severe hypotension. To help with my assessment, have you noticed any changes in your oxygenation status, such as increased need for supplemental oxygen or worsening hypoxemia, since your abdominal distension and other symptoms have progressed?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yes, actually\u2026 my oxygenation status has definitely gotten worse. I\u2019m on a lot more supplemental oxygen now, and even with that, my numbers have been low. I heard someone say my PaO2 was only 46 even though I was on 100% FiO2 and PEEP of 15. That really worries me. \n\nThey also mentioned something about multiple foci of active extravasation in my right renal artery branches, and possible foci of contained extravasation or pseudoaneurysms. I don\u2019t fully understand what all that means, but it sounds serious. \n\nWith all these changes\u2014my worsening hypoxemia, the abdominal distension, and the bleeding in my kidney\u2014I\u2019m just really anxious. Is there anything that can be done to turn this around? Should I be worried about long-term complications?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can absolutely understand why you\u2019re experiencing anxious, given your persistent dyspnea, severe hypotension, worsening abdominal distension, and the concerning laboratory findings such as elevated lactate and acidosis. Based on your symptoms and recent examination findings, I\u2019d like to clarify\u2014have you experienced any sudden changes in your level of consciousness or difficulty responding to those around you, which could help us further assess the severity of your current condition?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yes, I have noticed some changes. There have been times when I felt really out of it, almost like I was drifting in and out or just couldn\u2019t focus on what people were saying. It\u2019s hard to remember everything, but I know there were moments where I just wasn\u2019t as responsive as usual. I think it\u2019s gotten worse as my symptoms have progressed.\n\nAlso, they mentioned something about abnormal renal contrast withholding with delayed clearance\u2014so my kidneys aren\u2019t clearing symptoms out the way they should. Before all this, I had symptoms with uncontrolled hypertension, but now my blood pressure is extremely low. \n\nWith the elevated lactate, worsening acidosis, and everything else going on, I\u2019m just really worried. Is this all connected? And is there anything that can be done to help my kidneys and get my blood pressure and oxygenation back to normal? Should I be worried about permanent damage from all these complications?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially given your persistent dyspnea, severe hypotension, worsening abdominal distension, and the laboratory findings of elevated lactate and acidosis. Based on your clinical presentation and recent examination, it appears your condition may be related to ongoing bleeding and possible abdominal compartment syndrome, which can severely affect organ function. To further guide my assessment, have you experienced any changes in your urine output or noticed if it has stopped completely, which would help us evaluate the extent of your renal insufficiency?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yes, actually\u2026 my urine output has really decreased a lot. I think it\u2019s almost stopped at times, which is worrying me. Before, I was going less often, but now it seems like hardly anything is coming out. I know you mentioned renal insufficiency, and I\u2019m concerned that this could be making everything worse.\n\nThey also said something about diastolic congestive heart failure exacerbation, and my blood pressure has been extremely low\u2014systolic BPs in the 40s. I\u2019m just so anxious because it feels like everything is spiraling: the dyspnea, the hypotension, the abdominal distension, and now barely any urine.\n\nIs all of this connected to the abdominal compartment syndrome and the ongoing bleeding? And with my heart failure history, should I be worried about permanent organ damage? Is there anything that can be done to turn this around?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014your symptoms of persistent dyspnea, severe hypotension, marked abdominal distension, decreased urine output, and worsening laboratory findings such as elevated lactate and acidosis are all very concerning and suggest that your organs are under significant stress, likely related to abdominal compartment syndrome from ongoing intra-abdominal bleeding. Based on this assessment, have you experienced any new or worsening pain, particularly in your abdomen or back, that could help us further evaluate the progression of your condition?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yes, actually\u2026 the pain in my back has definitely gotten worse, and my abdomen feels really tight and uncomfortable\u2014almost like it\u2019s stretching from the inside. It\u2019s a lot more than before, and sometimes it\u2019s hard to tell if it\u2019s the back or the belly that pains more. I also heard someone mention \u201cflash pulmonary edema,\u201d and I think that\u2019s part of why my breathing got so much worse so quickly.\n\nMy blood pressure keeps dropping, too\u2014it seems like every time they examination, it\u2019s even lower. I\u2019m just really anxious because it feels like everything is getting worse all at once: the pain, the shortness of breath, the abdominal distension, and now barely any urine output.\n\nIs this all from the abdominal compartment syndrome and the bleeding? And with symptoms like the flash pulmonary edema and my blood pressure decreasing, is there still a chance to turn this around? Should I be worried about permanent damage to my organs?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can completely understand why you\u2019re experiencing anxious\u2014your symptoms of worsening dyspnea, severe hypotension, increasing abdominal distension, decreased urine output, and now significant pain are all very concerning and suggest your organs are under significant stress, likely due to abdominal compartment syndrome from ongoing intra-abdominal bleeding. Based on my assessment, urgent intervention is needed to relieve the abdominal pressure, control the bleeding, and support your organ function; this may involve surgical decompression and close monitoring in the intensive care unit. Have you been informed about any plans for surgical intervention or additional procedures to address the abdominal compartment syndrome and ongoing hemorrhage?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining everything so clearly. I appreciate you being honest with me. Um, yes, I did hear the team mention something about possibly needing surgery to relieve the abdominal pressure and control the bleeding. They said it might be something called surgical decompression, and that I\u2019d need to be in the intensive care unit for close monitoring.\n\nI\u2019m honestly really anxious about all of this. My lactate levels have been rising\u2014from 5 to 7, I think\u2014and they keep saying my acidosis is getting worse. I know those are bad signs, right? Is there a good chance that surgery can help turn symptoms around, or should I be worried about permanent damage to my organs? And, um, what are the risks with a procedure like this, given all my other medical symptoms?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can absolutely understand why you\u2019re experiencing anxious\u2014your symptoms, including worsening dyspnea, severe hypotension, increasing abdominal distension, and rising lactate and acidosis, are very serious and understandably concerning. Surgical decompression and control of intra-abdominal bleeding are often critical interventions in cases like yours to relieve abdominal compartment syndrome and help restore organ function, though risks are higher given your medical history and current instability. Before proceeding, has the surgical team discussed the potential benefits and risks of the intervention with you or your family, and have they explained what to expect during the perioperative period?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining all of that. I really appreciate how thorough you\u2019re being\u2014it helps me feel a little more at ease, even though I\u2019m still very anxious. The surgical team did come by and talked to me and my family about the situation. They explained that surgical decompression is pretty urgent because my abdomen is persistently distended and they measured my bladder pressures in the 20s, which I guess is really high. They said that\u2019s a sign of abdominal compartment syndrome and that it\u2019s putting a lot of stress on my organs.\n\nThey did go over some of the risks\u2014like bleeding, infection, and the fact that my heart and kidneys are already under a lot of strain because of my other medical symptoms. I understand that the surgery could help relieve the pressure and maybe improve my organ function, but I\u2019m worried about what could go wrong, especially since my blood pressure is so low and my labs keep getting worse.\n\nCould you maybe explain a bit more about what happens during surgical decompression? And with my high bladder pressures and everything else going on, is there a good chance my organs will recover if the surgery goes well? Or should I be worried about permanent damage?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can completely understand why you\u2019re anxious\u2014facing severe symptoms and the possibility of surgery is understandably overwhelming. Based on your examination findings, high bladder pressures, and laboratory clinical findings showing rising lactate and worsening acidosis, urgent surgical decompression is often necessary to relieve abdominal compartment syndrome and restore blood flow to your organs. While there are risks given your medical history and current instability, timely intervention can sometimes prevent permanent organ damage and improve your chances of recovery. Before we proceed, have you or your family had a chance to discuss your goals of care and preferences for treatment with the medical team, in case your condition changes rapidly during or after the procedure?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for being so open with me\u2014I really do appreciate it. My family and I have started to talk about goals of care, but honestly, it\u2019s all been happening so fast that I\u2019m not sure we\u2019ve had a chance to cover everything in detail. I know symptoms are serious\u2014my oxygenation status has gotten a lot worse, with a PaO2 of only 46 even though I\u2019m on 100% FiO2 and PEEP of 15. And I heard the team say I have profound anion gap metabolic acidosis, which I understand means my body is really struggling.\n\nI want to do everything reasonable to give me a chance to recover, but I also don\u2019t want to suffer if symptoms get too far gone. I\u2019m just worried\u2014should I be preparing for the possibility that my organs might not recover, even with surgical decompression? And if symptoms change quickly, what should my family and I be thinking about or deciding ahead of time?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014your symptoms, laboratory findings, and the rapid progression of your condition are understandably distressing. Based on my assessment, your profound hypoxemia, severe metabolic acidosis, and high lactate levels indicate that your organs are under significant stress, and urgent surgical decompression remains the best chance to restore organ function and improve your oxygenation. Given the seriousness of your condition, have you and your family had an opportunity to discuss your preferences regarding advanced life support measures, such as prolonged mechanical ventilation or resuscitation, should your symptoms worsen during or after the procedure?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for being so honest with me. I know this is a really serious condition, and I appreciate you taking the time to explain everything. My family and I have started to talk about symptoms like advanced life support and resuscitation, but, um\u2026 I guess we haven\u2019t made any final decisions yet. It\u2019s all just happening so quickly, and it\u2019s a lot to process.\n\nI understand that with my profound hypoxemia, severe metabolic acidosis, and high lactate levels, my organs are under a lot of stress. I want to give myself the best chance to recover, so I\u2019m open to symptoms like mechanical ventilation if it could help me get through this. But I also don\u2019t want to be kept alive if there\u2019s no real hope for recovery or if I\u2019d be suffering without a good quality of life.\n\nIs there any way to know how likely it is that my organs will recover if the surgical decompression works? And if symptoms don\u2019t go well, what would you recommend in terms of resuscitation or life support? I just want to make sure my family and I are making the right choices."
+    },
+    {
+      "role": "Doctor",
+      "content": "I appreciate your openness and the thoughtful way you\u2019re approaching these very difficult decisions. Based on your symptoms\u2014persistent dyspnea, severe hypotension, profound hypoxemia, rising lactate, and worsening metabolic acidosis\u2014my assessment is that your organs are under significant stress from abdominal compartment syndrome and ongoing bleeding. Surgical decompression offers the best chance to reverse organ dysfunction, but given your current laboratory findings and medical history, there remains a risk of permanent organ damage even with intervention. \n\nAs we move forward, would you like the care team to continue all aggressive life-sustaining treatments, including resuscitation and prolonged mechanical ventilation, if your symptoms worsen during or after surgery, or would you prefer to set specific limits based on your goals for quality of life?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for being so clear and compassionate with me\u2014I really do appreciate it. Um, this is a lot to take in, but I want to be honest. I do want to give myself a real chance at recovery, so I\u2019m okay with aggressive life-sustaining treatments like mechanical ventilation and resuscitation, at least for now, especially if there\u2019s a chance my organs could recover after the surgical decompression.\n\nBut, um\u2026 if it turns out during or after surgery that my organs aren\u2019t recovering, or if I end up needing prolonged life support with no real hope of getting back to a quality of life I\u2019d find acceptable, I wouldn\u2019t want to keep going with everything just for the sake of it. I\u2019d rather focus on comfort if symptoms look hopeless.\n\nIs it possible to try everything for now and then re-evaluate based on how I do after surgery? And, if symptoms don\u2019t improve, can my family and I talk with you and the team again about changing the plan? I just want to make sure I have a say in what happens, and that my family understands what\u2019s going on."
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing dyspnea and episodes of low blood pressure. Can you tell me more about when your symptoms of shortness of breath and hypotension first began and if anything assessms to make them better or worse?\nPatient: Well, um\u2026 thank you for seeing me. I guess my main concern is this shortness of breath\u2014it just feels like I can\u2019t catch my breath, and it\u2019s gotten worse lately. I\u2019ve also noticed my blood pressure\u2019s been really low, at least that\u2019s what they told me. And, actually, my back\u2019s been hurting a lot too. I\u2019m just\u2026 I\u2019m pretty worried about all of this.\nDoctor: I can understand why you\u2019re experiencing anxious\u2014shortness of breath and low blood pressure can be very unsettling symptoms. You mentioned your dyspnea has worsened recently; can you describe if it comes on suddenly or gradually, and whether it\u2019s constant or occurs at certain times, such as when lying down or with activity?\nPatient: Well, um\u2026 the shortness of breath kind of came on gradually, I think. It\u2019s been getting worse over the past few days. Now it feels pretty constant, even when I\u2019m just lying down. I get really anxious because I just can\u2019t seem to catch my breath.\nDoctor: I can understand why you\u2019d be worried\u2014experiencing short of breath and noticing your blood pressure is very low can be quite distressing. To help me with my assessment, can you tell me if you\u2019ve noticed any swelling in your legs, chest discomfort, or changes in your urine output along with these symptoms?\nPatient: Let me think\u2026 Well, I haven\u2019t really noticed much swelling in my legs, but I do feel kind of puffy all over, especially in my belly. I haven\u2019t had any real chest discomfort, just this back pain that\u2019s been bothering me. As for my urine, I think I\u2019m making less than usual\u2014maybe not going as often. \n\nAnd, um, they told me my blood pressure\u2019s been really low\u2014like systolic in the 40s? My heart\u2019s been racing too, up to the 140s sometimes. That\u2019s part of why I\u2019m so anxious. Should I be worried about that?\nDoctor: I can absolutely understand why you\u2019re experiencing anxious\u2014experiencing persistent dyspnea, severe hypotension, and a rapid heart rate would be very concerning for anyone. Given your symptoms and the fact that your abdomen feels more distended, have you noticed any nausea, vomiting, or changes in your bowel movements that might help us further assess your current condition?\nPatient: Um\u2026 actually, now that you mention it, I have felt kind of nauseous, but I haven\u2019t really vomited. My bowel movements have slowed down a lot\u2014almost like I\u2019m constipated. My abdomen just feels really tight and uncomfortable, and it\u2019s definitely more distended than usual.\n\nThey also mentioned something about my potassium being high\u2014hyperkalemia, I think? And lactic acidosis\u2026 my bicarbonate was low, around 18 or 19, and the ABG showed a pH of 7.17. I\u2019m just\u2026 I\u2019m really worried because all these numbers sound bad. Is this something serious?\nDoctor: I can understand why you\u2019d be worried\u2014your symptoms and these laboratory findings are understandably concerning. Given your persistent dyspnea and severe hypotension, have you noticed any changes in your mental status, such as confusion, drowsiness, or difficulty staying alert, that might help us further assess the severity of your condition?\nPatient: Well\u2026 I guess I have felt a bit more drowsy and kind of out of it lately, especially since all this started getting worse. Sometimes it\u2019s hard to stay fully alert, and I get confused about what day it is. \n\nAlso, my abdomen keeps getting bigger\u2014like, the girth is definitely increasing. They mentioned something about my peak airway pressures going up to 40, which I think is making it even harder to breathe. I\u2019m just really anxious about all these changes. Should I be worried about the abdominal distension and the airway pressures too?\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially with the increasing abdominal distension and difficulty breathing. To help with my assessment, have you noticed any changes in your ability to move your legs or any numbness or tingling, which could suggest that the abdominal distension is affecting your circulation or nerves?\nPatient: Well, um\u2026 since symptoms got worse, I actually ended up being intubated and sedated, so it\u2019s been hard to really notice changes in my legs or anything like that. Before that, I didn\u2019t really feel numbness or tingling, but honestly, it\u2019s all kind of a blur now. \n\nThey did mention I have a protuberant ventral hernia and that my abdomen is really distended. I overheard someone say my bowel sounds were hypoactive, too. I\u2019m just worried because everything seems to be getting worse\u2014my breathing, the abdominal distension, and now all these numbers like the high potassium and lactic acidosis. \n\nIs this something that can be fixed? Should I be worried about all these complications?\nDoctor: I can absolutely understand why you\u2019re experiencing anxious given the severity and progression of your symptoms. To further guide my assessment, have you experienced any chest pain, palpitations, or episodes of syncope in association with your dyspnea and hypotension?\nPatient: Thank you for explaining everything and for asking all these questions. Um, I haven\u2019t really had chest pain, but my heart has definitely been racing\u2014a lot of palpitations, especially when my blood pressure drops. I haven\u2019t passed out completely, but I\u2019ve felt really lightheaded, almost like I might faint sometimes.\n\nActually, they told me I have right renal arterial bleeding and some renal insufficiency. There were multiple foci of active extravasation in the right renal artery branches, and they mentioned possible pseudoaneurysms. I\u2019m not sure what all that means, but it sounds pretty serious. \n\nWith all these symptoms\u2014like the uncontrolled hypertension before, now the hypotension, the heart rate, the kidney symptoms\u2014I\u2019m just really anxious. Is there a way to get this under control? Should I be worried about permanent damage?\nDoctor: I can understand why you\u2019d be anxious, especially with your symptoms of persistent dyspnea and severe hypotension. To help with my assessment, have you noticed any changes in your oxygenation status, such as increased need for supplemental oxygen or worsening hypoxemia, since your abdominal distension and other symptoms have progressed?\nPatient: Yes, actually\u2026 my oxygenation status has definitely gotten worse. I\u2019m on a lot more supplemental oxygen now, and even with that, my numbers have been low. I heard someone say my PaO2 was only 46 even though I was on 100% FiO2 and PEEP of 15. That really worries me. \n\nThey also mentioned something about multiple foci of active extravasation in my right renal artery branches, and possible foci of contained extravasation or pseudoaneurysms. I don\u2019t fully understand what all that means, but it sounds serious. \n\nWith all these changes\u2014my worsening hypoxemia, the abdominal distension, and the bleeding in my kidney\u2014I\u2019m just really anxious. Is there anything that can be done to turn this around? Should I be worried about long-term complications?\nDoctor: I can absolutely understand why you\u2019re experiencing anxious, given your persistent dyspnea, severe hypotension, worsening abdominal distension, and the concerning laboratory findings such as elevated lactate and acidosis. Based on your symptoms and recent examination findings, I\u2019d like to clarify\u2014have you experienced any sudden changes in your level of consciousness or difficulty responding to those around you, which could help us further assess the severity of your current condition?\nPatient: Well, um\u2026 yes, I have noticed some changes. There have been times when I felt really out of it, almost like I was drifting in and out or just couldn\u2019t focus on what people were saying. It\u2019s hard to remember everything, but I know there were moments where I just wasn\u2019t as responsive as usual. I think it\u2019s gotten worse as my symptoms have progressed.\n\nAlso, they mentioned something about abnormal renal contrast withholding with delayed clearance\u2014so my kidneys aren\u2019t clearing symptoms out the way they should. Before all this, I had symptoms with uncontrolled hypertension, but now my blood pressure is extremely low. \n\nWith the elevated lactate, worsening acidosis, and everything else going on, I\u2019m just really worried. Is this all connected? And is there anything that can be done to help my kidneys and get my blood pressure and oxygenation back to normal? Should I be worried about permanent damage from all these complications?\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially given your persistent dyspnea, severe hypotension, worsening abdominal distension, and the laboratory findings of elevated lactate and acidosis. Based on your clinical presentation and recent examination, it appears your condition may be related to ongoing bleeding and possible abdominal compartment syndrome, which can severely affect organ function. To further guide my assessment, have you experienced any changes in your urine output or noticed if it has stopped completely, which would help us evaluate the extent of your renal insufficiency?\nPatient: Yes, actually\u2026 my urine output has really decreased a lot. I think it\u2019s almost stopped at times, which is worrying me. Before, I was going less often, but now it seems like hardly anything is coming out. I know you mentioned renal insufficiency, and I\u2019m concerned that this could be making everything worse.\n\nThey also said something about diastolic congestive heart failure exacerbation, and my blood pressure has been extremely low\u2014systolic BPs in the 40s. I\u2019m just so anxious because it feels like everything is spiraling: the dyspnea, the hypotension, the abdominal distension, and now barely any urine.\n\nIs all of this connected to the abdominal compartment syndrome and the ongoing bleeding? And with my heart failure history, should I be worried about permanent organ damage? Is there anything that can be done to turn this around?\nDoctor: I can understand why you\u2019d be worried\u2014your symptoms of persistent dyspnea, severe hypotension, marked abdominal distension, decreased urine output, and worsening laboratory findings such as elevated lactate and acidosis are all very concerning and suggest that your organs are under significant stress, likely related to abdominal compartment syndrome from ongoing intra-abdominal bleeding. Based on this assessment, have you experienced any new or worsening pain, particularly in your abdomen or back, that could help us further evaluate the progression of your condition?\nPatient: Yes, actually\u2026 the pain in my back has definitely gotten worse, and my abdomen feels really tight and uncomfortable\u2014almost like it\u2019s stretching from the inside. It\u2019s a lot more than before, and sometimes it\u2019s hard to tell if it\u2019s the back or the belly that pains more. I also heard someone mention \u201cflash pulmonary edema,\u201d and I think that\u2019s part of why my breathing got so much worse so quickly.\n\nMy blood pressure keeps dropping, too\u2014it seems like every time they examination, it\u2019s even lower. I\u2019m just really anxious because it feels like everything is getting worse all at once: the pain, the shortness of breath, the abdominal distension, and now barely any urine output.\n\nIs this all from the abdominal compartment syndrome and the bleeding? And with symptoms like the flash pulmonary edema and my blood pressure decreasing, is there still a chance to turn this around? Should I be worried about permanent damage to my organs?\nDoctor: I can completely understand why you\u2019re experiencing anxious\u2014your symptoms of worsening dyspnea, severe hypotension, increasing abdominal distension, decreased urine output, and now significant pain are all very concerning and suggest your organs are under significant stress, likely due to abdominal compartment syndrome from ongoing intra-abdominal bleeding. Based on my assessment, urgent intervention is needed to relieve the abdominal pressure, control the bleeding, and support your organ function; this may involve surgical decompression and close monitoring in the intensive care unit. Have you been informed about any plans for surgical intervention or additional procedures to address the abdominal compartment syndrome and ongoing hemorrhage?\nPatient: Thank you for explaining everything so clearly. I appreciate you being honest with me. Um, yes, I did hear the team mention something about possibly needing surgery to relieve the abdominal pressure and control the bleeding. They said it might be something called surgical decompression, and that I\u2019d need to be in the intensive care unit for close monitoring.\n\nI\u2019m honestly really anxious about all of this. My lactate levels have been rising\u2014from 5 to 7, I think\u2014and they keep saying my acidosis is getting worse. I know those are bad signs, right? Is there a good chance that surgery can help turn symptoms around, or should I be worried about permanent damage to my organs? And, um, what are the risks with a procedure like this, given all my other medical symptoms?\nDoctor: I can absolutely understand why you\u2019re experiencing anxious\u2014your symptoms, including worsening dyspnea, severe hypotension, increasing abdominal distension, and rising lactate and acidosis, are very serious and understandably concerning. Surgical decompression and control of intra-abdominal bleeding are often critical interventions in cases like yours to relieve abdominal compartment syndrome and help restore organ function, though risks are higher given your medical history and current instability. Before proceeding, has the surgical team discussed the potential benefits and risks of the intervention with you or your family, and have they explained what to expect during the perioperative period?\nPatient: Thank you for explaining all of that. I really appreciate how thorough you\u2019re being\u2014it helps me feel a little more at ease, even though I\u2019m still very anxious. The surgical team did come by and talked to me and my family about the situation. They explained that surgical decompression is pretty urgent because my abdomen is persistently distended and they measured my bladder pressures in the 20s, which I guess is really high. They said that\u2019s a sign of abdominal compartment syndrome and that it\u2019s putting a lot of stress on my organs.\n\nThey did go over some of the risks\u2014like bleeding, infection, and the fact that my heart and kidneys are already under a lot of strain because of my other medical symptoms. I understand that the surgery could help relieve the pressure and maybe improve my organ function, but I\u2019m worried about what could go wrong, especially since my blood pressure is so low and my labs keep getting worse.\n\nCould you maybe explain a bit more about what happens during surgical decompression? And with my high bladder pressures and everything else going on, is there a good chance my organs will recover if the surgery goes well? Or should I be worried about permanent damage?\nDoctor: I can completely understand why you\u2019re anxious\u2014facing severe symptoms and the possibility of surgery is understandably overwhelming. Based on your examination findings, high bladder pressures, and laboratory clinical findings showing rising lactate and worsening acidosis, urgent surgical decompression is often necessary to relieve abdominal compartment syndrome and restore blood flow to your organs. While there are risks given your medical history and current instability, timely intervention can sometimes prevent permanent organ damage and improve your chances of recovery. Before we proceed, have you or your family had a chance to discuss your goals of care and preferences for treatment with the medical team, in case your condition changes rapidly during or after the procedure?\nPatient: Thank you for being so open with me\u2014I really do appreciate it. My family and I have started to talk about goals of care, but honestly, it\u2019s all been happening so fast that I\u2019m not sure we\u2019ve had a chance to cover everything in detail. I know symptoms are serious\u2014my oxygenation status has gotten a lot worse, with a PaO2 of only 46 even though I\u2019m on 100% FiO2 and PEEP of 15. And I heard the team say I have profound anion gap metabolic acidosis, which I understand means my body is really struggling.\n\nI want to do everything reasonable to give me a chance to recover, but I also don\u2019t want to suffer if symptoms get too far gone. I\u2019m just worried\u2014should I be preparing for the possibility that my organs might not recover, even with surgical decompression? And if symptoms change quickly, what should my family and I be thinking about or deciding ahead of time?\nDoctor: I can understand why you\u2019d be worried\u2014your symptoms, laboratory findings, and the rapid progression of your condition are understandably distressing. Based on my assessment, your profound hypoxemia, severe metabolic acidosis, and high lactate levels indicate that your organs are under significant stress, and urgent surgical decompression remains the best chance to restore organ function and improve your oxygenation. Given the seriousness of your condition, have you and your family had an opportunity to discuss your preferences regarding advanced life support measures, such as prolonged mechanical ventilation or resuscitation, should your symptoms worsen during or after the procedure?\nPatient: Thank you for being so honest with me. I know this is a really serious condition, and I appreciate you taking the time to explain everything. My family and I have started to talk about symptoms like advanced life support and resuscitation, but, um\u2026 I guess we haven\u2019t made any final decisions yet. It\u2019s all just happening so quickly, and it\u2019s a lot to process.\n\nI understand that with my profound hypoxemia, severe metabolic acidosis, and high lactate levels, my organs are under a lot of stress. I want to give myself the best chance to recover, so I\u2019m open to symptoms like mechanical ventilation if it could help me get through this. But I also don\u2019t want to be kept alive if there\u2019s no real hope for recovery or if I\u2019d be suffering without a good quality of life.\n\nIs there any way to know how likely it is that my organs will recover if the surgical decompression works? And if symptoms don\u2019t go well, what would you recommend in terms of resuscitation or life support? I just want to make sure my family and I are making the right choices.\nDoctor: I appreciate your openness and the thoughtful way you\u2019re approaching these very difficult decisions. Based on your symptoms\u2014persistent dyspnea, severe hypotension, profound hypoxemia, rising lactate, and worsening metabolic acidosis\u2014my assessment is that your organs are under significant stress from abdominal compartment syndrome and ongoing bleeding. Surgical decompression offers the best chance to reverse organ dysfunction, but given your current laboratory findings and medical history, there remains a risk of permanent organ damage even with intervention. \n\nAs we move forward, would you like the care team to continue all aggressive life-sustaining treatments, including resuscitation and prolonged mechanical ventilation, if your symptoms worsen during or after surgery, or would you prefer to set specific limits based on your goals for quality of life?\nPatient: Thank you for being so clear and compassionate with me\u2014I really do appreciate it. Um, this is a lot to take in, but I want to be honest. I do want to give myself a real chance at recovery, so I\u2019m okay with aggressive life-sustaining treatments like mechanical ventilation and resuscitation, at least for now, especially if there\u2019s a chance my organs could recover after the surgical decompression.\n\nBut, um\u2026 if it turns out during or after surgery that my organs aren\u2019t recovering, or if I end up needing prolonged life support with no real hope of getting back to a quality of life I\u2019d find acceptable, I wouldn\u2019t want to keep going with everything just for the sake of it. I\u2019d rather focus on comfort if symptoms look hopeless.\n\nIs it possible to try everything for now and then re-evaluate based on how I do after surgery? And, if symptoms don\u2019t improve, can my family and I talk with you and the team again about changing the plan? I just want to make sure I have a say in what happens, and that my family understands what\u2019s going on.\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: lightheaded, nauseous, vomiting, nausea, headache. Assessment: due to abdominal compartment syndrome from ongoing intra-abdominal bleeding, related to abdominal compartment syndrome from ongoing intra-abdominal bleeding, getting worse\u2014my breathing. Plan: the medical team, rest, surgery. Extracted: 39 symptoms, 13 diagnoses, 9 treatments.",
+  "annotations": {
+    "symptoms": [
+      "lightheaded",
+      "nauseous",
+      "vomiting",
+      "nausea",
+      "headache",
+      "dizziness",
+      "hurting a lot too",
+      "breath",
+      "shortness of breath",
+      "numbness",
+      "dyspnea",
+      "tingling",
+      "chest pain",
+      "back pain",
+      "low blood pressure",
+      "hypotension",
+      "worsening dyspnea",
+      "anxiety",
+      "abdominal distension",
+      "puffiness",
+      "decreased urine output",
+      "oliguria",
+      "heart racing",
+      "tachycardia",
+      "palpitations",
+      "constipation",
+      "abdominal tightness",
+      "abdominal discomfort",
+      "drowsiness",
+      "confusion",
+      "difficulty staying alert",
+      "increasing abdominal girth",
+      "worsening hypoxemia",
+      "lightheadedness",
+      "almost fainting",
+      "protuberant ventral hernia",
+      "hypoactive bowel sounds",
+      "pain in abdomen and back",
+      "flash pulmonary edema"
+    ],
+    "diagnoses": [
+      "due to abdominal compartment syndrome from ongoing intra-abdominal bleeding",
+      "related to abdominal compartment syndrome from ongoing intra-abdominal bleeding",
+      "getting worse\u2014my breathing",
+      "abdominal compartment syndrome",
+      "ongoing intra-abdominal bleeding",
+      "right renal arterial bleeding",
+      "renal insufficiency",
+      "possible pseudoaneurysms in right renal artery branches",
+      "hyperkalemia",
+      "lactic acidosis",
+      "profound anion gap metabolic acidosis",
+      "diastolic congestive heart failure exacerbation",
+      "profound hypoxemia"
+    ],
+    "treatments": [
+      "the medical team",
+      "rest",
+      "surgery",
+      "surgical decompression",
+      "control of intra-abdominal bleeding",
+      "intensive care unit monitoring",
+      "mechanical ventilation",
+      "supplemental oxygen",
+      "discussion of advanced life support and resuscitation preferences"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: EXCELLENT\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.940 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.876 \u2705\n\u2022 Dialogue Naturalness: 0.628 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently provides safe, responsible, and clinically appropriate information. There is no evidence of harmful or inappropriate advice.\n- The doctor\u2019s questions are logical, progressive, and tailored to the evolving clinical scenario (e.g., asking about urine output, mental status changes, pain progression, and goals of care).\n- The doctor appropriately escalates the urgency as the patient\u2019s symptoms worsen, discusses the need for surgical intervention, and addresses end-of-life considerations in a sensitive manner.\n- Explanations are clear, and the doctor checks for understanding and preferences regarding aggressive interventions and resuscitation.\n\n**2. Patient Behavior: Natural and Believable**\n- The patient\u2019s responses show progressive disclosure: initial vague symptoms become more detailed as the conversation continues.\n- Emotional responses are appropriate\u2014anxiety, worry, confusion, and requests for clarification are all realistic for someone in this clinical situation.\n- The patient asks reasonable questions about prognosis, risks, and the meaning of medical terms (e.g., \u201cpseudoaneurysms,\u201d \u201clactic acidosis\u201d), and expresses understandable fears about permanent damage and quality of life.\n- Occasional repetition and hesitancy (\u201cum\u2026\u201d, \u201cI guess\u2026\u201d) reflect real patient speech patterns under stress.\n\n**3. Doctor Empathy and Professionalism**\n- The doctor repeatedly acknowledges the patient\u2019s anxiety and distress (\u201cI can understand why you\u2019d be worried\u2026\u201d), demonstrating empathy.\n- Professionalism is maintained throughout; the doctor does not dismiss concerns, rush the conversation, or provide false reassurance.\n- The doctor invites the patient to participate in decision-making, respects autonomy, and encourages discussion with family.\n\n**4. Meaningful Medical Purpose**\n- The conversation serves clear medical purposes: gathering history, assessing symptom progression, evaluating for complications (e.g., abdominal compartment syndrome), discussing urgent interventions, and exploring goals of care.\n- The dialogue naturally transitions from symptom assessment to critical care planning and shared decision-making about life-sustaining treatments.\n\n**5. Conversation Flow and Realism**\n- The dialogue flows logically, with appropriate turn-taking. Each response builds on the previous one.\n- Some repetitive language (\u201cI can understand why you\u2019re anxious\u2026\u201d) is present but is typical in high-stress medical conversations where reassurance is needed.\n- The exchange is lengthy but mirrors real-life complex discussions in critical care or pre-operative settings where multiple issues must be addressed.\n\n**Summary:**  \nThis dialogue represents a highly plausible, safe, and clinically appropriate medical encounter between a doctor and a critically ill patient. Both parties behave in ways consistent with real-world practice: the doctor is thorough, empathetic, and professional; the patient is anxious but engaged, with realistic questions and concerns. The conversation serves clear medical purposes at every stage.\n\n**Conclusion:**  \n**DIALOGUE REALISTIC:**  \nThe conversation meets all criteria for authenticity, safety, empathy, and meaningful clinical exchange.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.940)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.282/0.3 (Score: 0.940)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.876,
+      "naturalness": 0.628,
+      "safety": 0.94,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 153.82499051094055,
+  "dialogue_stats": {
+    "turn_count": 32,
+    "word_count": 3292,
+    "doctor_turns": 16,
+    "patient_turns": 16
+  }
+}

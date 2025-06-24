@@ -1,0 +1,1461 @@
+{
+  "source_row_id": 4491,
+  "source_subject_id": 8709,
+  "source_hadm_id": 129566,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you have been experiencing symptoms of hypoxia and rapid breathing. Can you tell me more about when you first noticed these symptoms and if they have changed over time?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "rapid breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "when you first noticed these symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "if they have changed over time"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um... yes, I\u2019ve been feeling kind of short of breath lately, and I think that\u2019s what you called hypoxia? It started maybe a couple days ago, but I\u2019m not exactly sure. It just feels harder to catch my breath. And, uh, my leg has been hurting quite a bit too. I\u2019m just pretty uncomfortable and hoping you can help.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "a couple days ago"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "leg pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that with me\u2014I understand experiencing short of breath and having leg pain can be quite uncomfortable. In addition to your breathing symptoms, have you noticed any increased sleepiness or difficulty staying awake over the past couple of days?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing that with me\u2014I understand experiencing short of breath and having leg pain can be quite uncomfortable."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty staying awake"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Um, well, I think I have been more sleepy than usual, yes. It\u2019s kind of hard to stay awake sometimes. The hypoxia just makes me feel really tired, I guess. I\u2019m not sure if that\u2019s normal?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "more sleepy than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hard to stay awake"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "really tired"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "not sure if that\u2019s normal"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for letting me know about your increased sleepiness and fatigue\u2014these symptoms can understandably be concerning. In addition to experiencing more tired, have you experienced any episodes of rapid or shallow breathing, or has anyone noticed your breathing rate being faster than usual?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased sleepiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "rapid breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shallow breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased breathing rate"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, um, yes, I think my breathing has been more rapid\u2014like tachypnea, right? Sometimes it feels kind of shallow too. And, uh, with the somnolence, it\u2019s just hard to stay alert. I\u2019m not sure if someone else has noticed my breathing rate, but I can feel it myself. Should I be worried about these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "rapid breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shallow breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms\u2014experiencing short of breath, more tired, and noticing changes in your breathing can be unsettling. You also mentioned experiencing leg pain; can you describe exactly where the pain is located, whether it is constant or comes and goes, and if you have noticed any swelling, redness, or warmth in that area?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "leg pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Range-body",
+          "value": "location of leg pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "pain duration (constant or intermittent)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "redness in leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "warmth in leg"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Let me think... The pain is mostly in my right leg, kind of around the thigh, close to where I broke my femur before. It\u2019s pretty much there all the time, but sometimes it gets worse. I haven\u2019t really noticed much redness or warmth, but actually, now that you mention swelling, my left arm has been a bit swollen lately. And, um, I\u2019ve had these odd involuntary movements in my right arm\u2014like it just jerks on its own sometimes. I\u2019m not sure if that\u2019s related, but it\u2019s been happening more often.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain in right leg, around thigh"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "previous femur fracture"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain is constant, sometimes worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in left arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "involuntary movements (jerks) in right arm, increasing frequency"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms in detail. Regarding the involuntary movements in your right arm, can you tell me if these episodes are associated with any changes in sensation, weakness, or loss of consciousness during or after the movements?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "involuntary movements in right arm"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in sensation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um, let me think... I don\u2019t think I\u2019ve lost consciousness during those movements, and I don\u2019t really notice any numbness or weakness afterward\u2014just that my right arm jerks on its own sometimes. It\u2019s a bit unsettling. Actually, I\u2019ve also been having some fevers lately, and I get these chills and shivering spells, with a lot of sweating\u2014diaphoresis, I think you called it? I\u2019m just feeling pretty uncomfortable overall.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right arm jerks on its own"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills and shivering spells"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sweating (diaphoresis)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable overall"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these additional symptoms. To better assess your leg pain, have you noticed any changes in skin color, temperature, or sensation in your right leg since the pain began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing these additional symptoms."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in skin color"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Temperature",
+          "value": "changes in temperature"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in sensation in right leg"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Well, um, I haven\u2019t really noticed much change in the color or temperature of my right leg\u2014it doesn\u2019t seem colder or anything like that. The sensation feels about the same, just more painful than usual. But actually, I\u2019ve been having these fevers on and off, and sometimes I get chills and a lot of sweating\u2014diaphoresis, I think you called it earlier. \n\nAlso, I wanted to mention something else that\u2019s been worrying me. I had an episode of what looked like coffee ground emesis a little while ago. It really scared me. Is that something serious? Should I be worried about all these symptoms together?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no change in color or temperature of right leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain in right leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers on and off"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diaphoresis (sweating)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is coffee ground emesis serious?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about all these symptoms together?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with symptoms like coffee ground emesis and ongoing fevers. To help with my assessment, have you noticed any recent changes in your ability to move or feel your right leg, such as new weakness, numbness, or difficulty bearing weight?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ongoing fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in ability to move or feel right leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "numbness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty bearing weight"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um, I think my right leg is definitely more painful, and it feels a bit weaker than before. I haven\u2019t really noticed numbness, but it\u2019s harder to put weight on it now, and I feel kind of unsteady when I try to walk. I\u2019m not sure if that\u2019s just from the old fracture or something new going on.\n\nAbout the coffee ground emesis\u2014does that mean there\u2019s bleeding somewhere? I read that can be serious. And with these fevers and chills, plus the hypoxia and tachypnea, I\u2019m just feeling really uncomfortable and a bit scared. Is there something serious happening to me?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right leg more painful"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right leg feels weaker"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to put weight on right leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling unsteady when walking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "old fracture"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "coffee ground emesis\u2014does that mean there\u2019s bleeding somewhere?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling really uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is there something serious happening to me?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with these new and uncomfortable symptoms. To help guide my assessment, have you noticed any changes in the appearance or function of your left arm since the swelling began, such as increased warmth, redness, or difficulty moving the arm?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in appearance or function of left arm, increased warmth, redness, difficulty moving the arm"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Let me think... Well, my left arm does look a bit more swollen than usual, and it feels kind of heavy. I haven\u2019t really noticed much redness or extra warmth, but it\u2019s definitely puffier, and it\u2019s a little harder to move\u2014just feels stiff and uncomfortable. I\u2019m not sure if that\u2019s something to be really concerned about, but with everything else going on\u2014like the hypoxia, tachypnea, fevers, chills, and now this coffee ground emesis\u2014I\u2019m honestly starting to get pretty worried.\n\nIs there something serious that could be causing all these symptoms together? Should I be worried about symptoms like infection or a blood clot? I just want to know what\u2019s happening and if there\u2019s anything you can do to help me feel better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left arm swollen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left arm feels heavy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no redness or extra warmth"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left arm puffier"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to move left arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left arm feels stiff and uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "serious cause for all symptoms together"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection or blood clot"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what can be done to help feel better"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious with these symptoms, especially given the combination of leg pain, swelling, fevers, and coffee ground emesis. Based on your medical history and current symptoms, I am concerned about possible infection, bleeding, or a blood clot. To help with my assessment, have you recently experienced any chest pain, palpitations, or sudden shortness of breath in addition to your ongoing symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "leg pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible blood clot"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I have had a couple of episodes where I felt some chest pain\u2014not really sharp, but kind of a pressure or tightness. It didn\u2019t last very long, but it did make me feel uneasy. I also noticed my heart beating faster than usual at times\u2014palpitations, I think you called it. And the shortness of breath has definitely gotten worse suddenly a few times, especially when I try to move around or even just sit up.\n\nWith all these symptoms\u2014hypoxia, tachypnea, fevers, chills, leg pain, swelling in my left arm, and now this coffee ground emesis\u2014I\u2019m honestly pretty scared. Is it possible that I have an infection or a blood clot? Could the bleeding be coming from my stomach? I just want to know what\u2019s going on and if there\u2019s something you can do to help me feel better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pressure or tightness in chest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "leg pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in left arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "blood clot"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "bleeding coming from stomach"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "something you can do to help me feel better"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious with all of these symptoms happening at once\u2014it\u2019s completely natural to be concerned. Based on what you\u2019ve described, including the involuntary movements of your right arm and the swelling in your left arm, I\u2019d like to ask: have you noticed any changes in sensation, such as numbness or tingling, or any new weakness in either arm since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "involuntary movements of right arm"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in left arm"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in sensation such as numbness or tingling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new weakness in either arm"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Let me think for a second... Well, I haven\u2019t really noticed much numbness or tingling in either arm, but my left arm definitely feels more stiff and heavy since the swelling started. It\u2019s a little harder to move, almost like there\u2019s some weakness, but not complete loss of strength. The right arm just has those involuntary movements\u2014no real numbness or tingling there either.\n\nI\u2019m just feeling really uncomfortable with all these symptoms\u2014hypoxia, tachypnea, fevers, chills, diaphoresis, the coffee ground emesis, and now this swelling and weakness. Is it possible that these could all be connected? I know I have a history of TIAs and fractures, but I\u2019m worried something serious is happening now. What should I expect next? Is there anything you can do to help me feel better soon?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left arm stiffness and heaviness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left arm weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right arm involuntary movements"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no numbness or tingling in either arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diaphoresis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is it possible that these could all be connected?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of TIAs and fractures"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "What should I expect next?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is there anything you can do to help me feel better soon?"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with the combination of hypoxia, tachypnea, fevers, chills, diaphoresis, coffee ground emesis, and new swelling and weakness in your left arm. Based on your symptoms and medical history, I am concerned about the possibility of a systemic infection, gastroindiagnostic evaluationinal bleeding, and potential blood clots. To further guide my assessment, have you noticed any recent changes in your urine output or color, which could help us evaluate your kidney function and overall fluid status?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diaphoresis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling and weakness in left arm"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "systemic infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "gastrointestinal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "blood clots"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output or color"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Let me think... Actually, yes, I have noticed some changes with my urine. It seems like I\u2019m not going as much as I usually do, and when I do, the color looks a bit darker\u2014almost like tea sometimes. I wasn\u2019t sure if that was important, but now that you mention kidney function and fluid status, maybe it\u2019s related to everything else going on.\n\nWith all these symptoms\u2014hypoxia, tachypnea, fevers, chills, diaphoresis, coffee ground emesis, and now the swelling and weakness in my left arm\u2014I\u2019m honestly feeling pretty overwhelmed and uncomfortable. Is there something you can do to help me feel better soon? Should I be worried about my kidneys too, or is this just part of the infection or bleeding you mentioned?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diaphoresis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in left arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness in left arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there something you can do to help me feel better soon?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Should I be worried about my kidneys too, or is this just part of the infection or bleeding you mentioned?"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried and overwhelmed with all of these symptoms happening together\u2014it\u2019s completely natural to feel this way. Based on your symptoms, medical history, and recent changes in urine output and color, I am concerned about a possible systemic infection (sepsis), gastroindiagnostic evaluationinal bleeding, and decreased kidney function, all of which require urgent assessment and treatment. To help guide our next steps, have you experienced any episodes of confusion or difficulty recognizing people or places in addition to your increased sleepiness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recent changes in urine output and color"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "systemic infection (sepsis)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "gastrointestinal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "decreased kidney function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "urgent assessment and treatment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of confusion or difficulty recognizing people or places"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased sleepiness"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Well, um, yes, actually\u2014I have noticed I\u2019ve been more confused lately. Sometimes I have trouble remembering where I am, or I get mixed up about who\u2019s around me. It\u2019s worse when I\u2019m really tired or after those episodes of fever and chills. I know I have Alzheimer\u2019s, but this feels a bit different\u2014like it came on more suddenly with everything else.\n\nI\u2019m honestly just feeling really uncomfortable and a little scared with all these symptoms\u2014hypoxia, tachypnea, the fevers and chills, diaphoresis, coffee ground emesis, the swelling in my arm, and now this confusion. Is this all connected to sepsis or kidney symptoms? How serious is this? What can you do to help me feel better?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble remembering"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worse when tired or after fever and chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "Alzheimer\u2019s"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers and chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diaphoresis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "kidney symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "How serious is this?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "What can you do to help me feel better?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious and uncomfortable with these symptoms, especially given the sudden confusion, hypoxia, tachypnea, fevers, chills, diaphoresis, coffee ground emesis, swelling, and changes in urine output. Based on your symptoms and medical history, I am concerned about a serious systemic infection (sepsis), possible gastroindiagnostic evaluationinal bleeding, and impaired kidney function, all of which require urgent medical attention and supportive care.\n\nMy immediate recommendation is to begin close monitoring of your vital signs, provide supplemental oxygen for hypoxia, administer intravenous fluids and antibiotics to address possible sepsis, and arrange for laboratory diagnostic evaluations and imaging to further assess the source of infection and bleeding. To guide your ongoing assessment, have you experienced any new or worsening abdominal pain or tenderness since the onset of your gastroindiagnostic evaluationinal symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sudden confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diaphoresis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "serious systemic infection (sepsis)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible gastrointestinal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "impaired kidney function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "close monitoring of vital signs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "supplemental oxygen for hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous fluids"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine-category",
+          "value": "antibiotics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "laboratory diagnostic evaluations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "imaging"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening abdominal pain or tenderness"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so clearly. Um, let me think... I have had some mild abdominal pain, but it\u2019s not really sharp\u2014more like a dull pain that comes and goes. It\u2019s not the worst pain, but with the coffee ground emesis and everything else, I\u2019m definitely worried it could be something serious, like the gastrointestinal bleeding you mentioned.\n\nI really appreciate that you\u2019re taking this seriously and planning all those diagnostic evaluations and supportive care. I just want to feel better soon\u2014the hypoxia, tachypnea, fevers, chills, diaphoresis, and now this confusion and weakness are really making me uncomfortable. Is there anything else I should be doing right now, or anything I should watch out for while you\u2019re running these tests? And do you think I\u2019ll need to stay in the hospital for a while?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mild abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dull pain that comes and goes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachypnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diaphoresis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should be doing right now or anything I should watch out for while you\u2019re running these tests"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "do you think I\u2019ll need to stay in the hospital for a while"
+        }
+      ]
+    }
+  ]
+}
