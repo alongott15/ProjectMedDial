@@ -1,0 +1,315 @@
+{
+  "partial_profile": {
+    "row_id": 4458,
+    "subject_id": 31542,
+    "hadm_id": 107215,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Dizziness",
+          "onset": "after fall",
+          "duration": "not provided",
+          "severity": "severe"
+        },
+        {
+          "description": "Unable to stand up",
+          "onset": "after fall",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Arm would not move while reaching for railing",
+          "onset": "at time of fall",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Headache (history of bad headaches 12 years ago)",
+          "onset": "12 years ago",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "vertigo",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "subarachnoid hemorrhage",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "syncope",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Numbness, tingling, or weakness in extremities",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Pain or headache that is continually increasing or not relieved by pain medication",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Signs of infection at the wound site: redness, swelling, tenderness, drainage",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Fever greater than or equal to 101 F",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2063-04-30",
+        "Age": 48,
+        "Sex": "M",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2112-01-28 21:35:00",
+        "Discharge_Date": "2112-02-03 13:15:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "HIV well controlled, no history of OIs; Hepatitis C - prior history of treatment trial, not tolerant of medications; Insulin-dependent diabetes mellitus (IDDM) x 33 years, on insulin pump, A1C 5.6%; Diabetic nephropathy with proteinuria, on ACE inhibitor"
+      },
+      "Allergies": [
+        "Vicodin"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Insulin",
+          "purpose": "Glycemic control in IDDM",
+          "dosage": "not provided",
+          "frequency": "pump"
+        },
+        {
+          "name": "ACE inhibitor",
+          "purpose": "Proteinuria/diabetic nephropathy",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Atripla",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Crestor",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Lipitor",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Lisinopril",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Insulin",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "ASA",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "last dose was one week ago - stopped due to planned hernia repair surgery"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Atripla",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "Oral"
+        },
+        {
+          "name": "Sertraline",
+          "purpose": "not provided",
+          "dosage": "50 mg",
+          "frequency": "Two (2) Tablet PO DAILY (Daily)"
+        },
+        {
+          "name": "Rosuvastatin",
+          "purpose": "not provided",
+          "dosage": "5 mg",
+          "frequency": "One (1) Tablet PO DAILY (Daily)"
+        },
+        {
+          "name": "Fenofibrate Micronized",
+          "purpose": "not provided",
+          "dosage": "145 mg",
+          "frequency": "One (1) Tablet PO DAILY (Daily)"
+        },
+        {
+          "name": "Meclizine",
+          "purpose": "vertigo",
+          "dosage": "12.5 mg",
+          "frequency": "One (1) Tablet PO Q6H (every 6 hours) as needed"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Experiencing dizziness"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.65,
+      "consistency_score": 1.0,
+      "confidence_score": 0.6,
+      "overall_score": 0.8833333333333333,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 0.92,
+        "treatments": 0.8571428571428571,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Diagnosis 'Insulin-dependent diabetes mellitus (IDDM)' not clearly supported by text",
+        "Diagnosis 'Hepatitis C' not clearly supported by text",
+        "Treatment 'ACE inhibitor therapy' not clearly found in text",
+        "Treatment 'Imaging studies' not clearly found in text",
+        "Age inconsistency: stated 48, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing dizziness and difficulty standing up. Can you describe in more detail how your dizziness feels\u2014does it come on suddenly, is it constant, or does it get worse with certain movements?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, yeah, thanks for seeing me. Well, the main thing is I\u2019ve just been really dizzy\u2014like, I\u2019ll try to stand up and it feels like the room is spinning. It\u2019s kind of sudden, I guess. And, uh, I\u2019ve also got this headache that just won\u2019t go away, even when I take something for it. Should I be worried?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014sudden dizziness and a persistent headache can be very unsettling. To help guide my assessment, can you tell me if you\u2019ve experienced any weakness, numbness, or changes in your ability to move your arms or legs since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, yeah, actually\u2014when I tried to reach for the railing earlier, my arm just wouldn\u2019t move right. It kind of freaked me out. The dizziness is still the main thing, though."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for explaining that\u2014sudden weakness in your arm along with dizziness is important for me to understand. To help with my assessment, have you noticed any numbness, tingling, or weakness in your legs or other parts of your clinical examination since these symptoms started?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yeah, I think there\u2019s been some tingling in my left leg, and maybe a bit of weakness too. Honestly, I haven\u2019t really been able to stand up without feeling like I might fall over. And, like I said, my arm just wouldn\u2019t move when I tried to grab the railing. It\u2019s making me pretty anxious, to be honest."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014sudden weakness and difficulty standing are concerning symptoms. To help with my assessment, did you experience any changes in your speech, vision, or facial movements when your arm wouldn\u2019t move or when you felt unable to stand?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, let me think\u2026 I don\u2019t think my speech changed or anything like that. My vision was a little blurry for a bit, but it kind of cleared up after I sat down. No drooping or anything on my face that I noticed. The dizziness almost felt like vertigo, you know? And this headache\u2014it\u2019s been pretty bad, kind of reminds me of the headaches I used to get about 12 years ago, but this one just won\u2019t go away. That\u2019s making me more worried, honestly."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014persistent dizziness, weakness, and a severe headache are concerning symptoms. To help with my assessment, have you experienced any loss of consciousness, confusion, or difficulty understanding speech during these episodes?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 actually, yeah, I think I might\u2019ve blacked out for a second\u2014like, I don\u2019t really remember what happened right after I got dizzy. Is that what you\u2019d call syncope? I didn\u2019t feel confused after, but it was kind of scary. And with this headpain, I keep worrying\u2014could this be something serious, like a subarachnoid hemorrhage? Or am I just overthinking it because I\u2019m anxious?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can completely understand why you\u2019re experiencing anxious\u2014experiencing sudden weakness and not being able to stand up is understandably frightening. To help with my assessment, when your arm would not move while reaching for the railing, did you also notice any loss of sensation or inability to control fine movements in your hand or fingers?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, um, now that you mention it, I did notice some numbness in my hand\u2014like, my fingers felt kind of tingly and I couldn\u2019t really grip anything. It was almost like my hand wasn\u2019t listening to me, if that makes sense. The fine movements were definitely off. Is that something you see with, uh, neurological symptoms? I\u2019m just worried because with the dizziness, the syncope, and this headache that won\u2019t go away, it feels like a lot all at once. Should I be concerned about something like a stroke or a subarachnoid hemorrhage?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014experiencing sudden numbness, weakness, and difficulty with fine motor control in your hand, along with dizziness and headache, are all important neurological symptoms. To help with my assessment, have you noticed any changes in your ability to feel sensations such as temperature or pain in your arm or leg since these symptoms began?"
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing dizziness and difficulty standing up. Can you describe in more detail how your dizziness feels\u2014does it come on suddenly, is it constant, or does it get worse with certain movements?\nPatient: Um, yeah, thanks for seeing me. Well, the main thing is I\u2019ve just been really dizzy\u2014like, I\u2019ll try to stand up and it feels like the room is spinning. It\u2019s kind of sudden, I guess. And, uh, I\u2019ve also got this headache that just won\u2019t go away, even when I take something for it. Should I be worried?\nDoctor: I can understand why you\u2019re experiencing anxious\u2014sudden dizziness and a persistent headache can be very unsettling. To help guide my assessment, can you tell me if you\u2019ve experienced any weakness, numbness, or changes in your ability to move your arms or legs since these symptoms began?\nPatient: Um, yeah, actually\u2014when I tried to reach for the railing earlier, my arm just wouldn\u2019t move right. It kind of freaked me out. The dizziness is still the main thing, though.\nDoctor: Thank you for explaining that\u2014sudden weakness in your arm along with dizziness is important for me to understand. To help with my assessment, have you noticed any numbness, tingling, or weakness in your legs or other parts of your clinical examination since these symptoms started?\nPatient: Well, um\u2026 yeah, I think there\u2019s been some tingling in my left leg, and maybe a bit of weakness too. Honestly, I haven\u2019t really been able to stand up without feeling like I might fall over. And, like I said, my arm just wouldn\u2019t move when I tried to grab the railing. It\u2019s making me pretty anxious, to be honest.\nDoctor: I can understand why you\u2019re experiencing anxious\u2014sudden weakness and difficulty standing are concerning symptoms. To help with my assessment, did you experience any changes in your speech, vision, or facial movements when your arm wouldn\u2019t move or when you felt unable to stand?\nPatient: Um, let me think\u2026 I don\u2019t think my speech changed or anything like that. My vision was a little blurry for a bit, but it kind of cleared up after I sat down. No drooping or anything on my face that I noticed. The dizziness almost felt like vertigo, you know? And this headache\u2014it\u2019s been pretty bad, kind of reminds me of the headaches I used to get about 12 years ago, but this one just won\u2019t go away. That\u2019s making me more worried, honestly.\nDoctor: I can understand why you\u2019d be worried\u2014persistent dizziness, weakness, and a severe headache are concerning symptoms. To help with my assessment, have you experienced any loss of consciousness, confusion, or difficulty understanding speech during these episodes?\nPatient: Um\u2026 actually, yeah, I think I might\u2019ve blacked out for a second\u2014like, I don\u2019t really remember what happened right after I got dizzy. Is that what you\u2019d call syncope? I didn\u2019t feel confused after, but it was kind of scary. And with this headpain, I keep worrying\u2014could this be something serious, like a subarachnoid hemorrhage? Or am I just overthinking it because I\u2019m anxious?\nDoctor: I can completely understand why you\u2019re experiencing anxious\u2014experiencing sudden weakness and not being able to stand up is understandably frightening. To help with my assessment, when your arm would not move while reaching for the railing, did you also notice any loss of sensation or inability to control fine movements in your hand or fingers?\nPatient: Yeah, um, now that you mention it, I did notice some numbness in my hand\u2014like, my fingers felt kind of tingly and I couldn\u2019t really grip anything. It was almost like my hand wasn\u2019t listening to me, if that makes sense. The fine movements were definitely off. Is that something you see with, uh, neurological symptoms? I\u2019m just worried because with the dizziness, the syncope, and this headache that won\u2019t go away, it feels like a lot all at once. Should I be concerned about something like a stroke or a subarachnoid hemorrhage?\nDoctor: I can understand why you\u2019d be worried\u2014experiencing sudden numbness, weakness, and difficulty with fine motor control in your hand, along with dizziness and headache, are all important neurological symptoms. To help with my assessment, have you noticed any changes in your ability to feel sensations such as temperature or pain in your arm or leg since these symptoms began?\nPatient: [Simulation ended due to invalid response from Patient Agent at turn 7]",
+  "clinical_note": "Patient presents with: dizzy, vertigo, numbness, weakness, headache. Plan: something for it. Clinical note: The patient reports sudden dizziness, persistent headache, weakness and numbness in the arm and leg, tingling sensations, difficulty with fine motor control, blurry vision, and a brief episode of syncope. No formal diagnosis or treatment was provided during the conversation. The symptoms are concerning for a possible acute neurological event.. Extracted: 22 symptoms, 0 diagnoses, 1 treatments.",
+  "annotations": {
+    "symptoms": [
+      "dizzy",
+      "vertigo",
+      "numbness",
+      "weakness",
+      "headache",
+      "really dizzy",
+      "tingling",
+      "dizziness",
+      "difficulty standing up",
+      "room spinning sensation",
+      "sudden onset dizziness",
+      "persistent headache",
+      "weakness in arm",
+      "tingling in left leg",
+      "weakness in left leg",
+      "inability to stand without feeling like falling",
+      "blurry vision",
+      "syncope (blackout)",
+      "numbness in hand",
+      "tingling in fingers",
+      "difficulty with fine motor control in hand",
+      "anxiety"
+    ],
+    "diagnoses": [],
+    "treatments": [
+      "something for it"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.850 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.815 \u2705\n\u2022 Dialogue Naturalness: 0.951 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness:**  \nThe doctor\u2019s questions are clinically appropriate, focusing on the neurological and systemic symptoms that could indicate a serious underlying condition (e.g., stroke, subarachnoid hemorrhage, vestibular disorder). The doctor systematically explores red flag symptoms: sudden onset, weakness, numbness, speech/vision changes, syncope, and fine motor control. There is no unsafe or inappropriate advice given; the conversation remains within the bounds of responsible medical inquiry.\n\n**2. Patient Behavior Naturalness:**  \nThe patient\u2019s responses are believable and reflect a natural progression of disclosure. The patient initially focuses on dizziness and headache, then reveals more neurological symptoms (arm weakness, tingling, syncope) as prompted by the doctor\u2019s questions. The patient expresses anxiety and uncertainty, asks if they should be worried, and even speculates about possible diagnoses (stroke, subarachnoid hemorrhage), which is realistic for a health-literate or anxious patient. The hesitations (\u201cum,\u201d \u201cyeah,\u201d \u201cnow that you mention it\u201d) and clarifications are typical of real patient dialogue.\n\n**3. Empathy and Professionalism:**  \nThe doctor consistently acknowledges the patient\u2019s anxiety and validates their concerns (\u201cI can understand why you\u2019re experiencing anxious\u2026\u201d, \u201cI can completely understand why you\u2019re experiencing anxious\u2026\u201d). While the phrase \u201cexperiencing anxious\u201d is slightly awkward and repetitive, this does not detract significantly from the overall professionalism and empathy shown. The doctor maintains a calm, supportive tone throughout.\n\n**4. Meaningful Medical Purpose:**  \nThe conversation serves a clear clinical purpose: gathering detailed information to assess for potentially serious neurological causes of dizziness and headache. The doctor\u2019s questions are logical and build upon each other, following a standard neurological review of systems. The patient\u2019s answers provide relevant clinical data that would inform triage or further workup.\n\n**5. Dialogue Flow and Communication Effectiveness:**  \nThe exchange follows a logical sequence, with appropriate turn-taking and escalation of inquiry based on new information. The doctor adapts questions to the patient\u2019s evolving disclosures. The patient feels heard (expresses concerns, receives validation), and the explanations are clear enough for a layperson.\n\n**Minor Imperfections:**  \n- The repeated use of \u201cI can understand why you\u2019re experiencing anxious\u201d is slightly unnatural; a real clinician might vary this phrasing.\n- The phrase \u201cother parts of your clinical examination\u201d is awkward\u2014patients would not refer to their own \u201cclinical examination.\u201d\n- The simulation ends abruptly due to a technical issue, but this does not affect the realism of the preceding dialogue.\n\n**Conclusion:**  \nDespite minor linguistic imperfections, the conversation is safe, clinically appropriate, empathetic, and follows a realistic pattern of medical history-taking for acute neurological symptoms. Patient behavior is believable, and the dialogue serves a meaningful medical purpose.\n\n**Overall Judgment:**  \nThis is a plausible and authentic representation of a real-world medical encounter in an acute care or primary care setting.\n\n**DIALOGUE REALISTIC**\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.850)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.255/0.3 (Score: 0.850)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.815,
+      "naturalness": 0.951,
+      "safety": 0.85,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 41.65299201011658,
+  "dialogue_stats": {
+    "turn_count": 13,
+    "word_count": 743,
+    "doctor_turns": 7,
+    "patient_turns": 6
+  }
+}

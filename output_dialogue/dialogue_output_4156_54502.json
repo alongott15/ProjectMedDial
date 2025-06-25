@@ -1,0 +1,396 @@
+{
+  "partial_profile": {
+    "row_id": 4153,
+    "subject_id": 98720,
+    "hadm_id": 131917,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "bradycardia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "syncope",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "diaphoresis",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hypotension (BP in 70s/40s)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "persistent hypotension",
+          "onset": "on admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hypotension",
+          "onset": "on admission",
+          "duration": "not provided",
+          "severity": "systolic pressure in the 80s"
+        },
+        {
+          "description": "hypertension",
+          "onset": "post-pacer placement",
+          "duration": "not provided",
+          "severity": "systolic pressure in the 160s"
+        },
+        {
+          "description": "urinary tract infection (UTI)",
+          "onset": "on admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "slow heart rate",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "low blood pressures",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "low back pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "urinary incontinence",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "1878-09-17",
+        "Age": 300,
+        "Sex": "F",
+        "Religion": "JEWISH",
+        "Marital_Status": "WIDOWED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2178-09-17 18:31:00",
+        "Discharge_Date": "2178-09-23 17:30:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Hypothyroidism, Hypertension, Osteoarthritis, DJD, Psoriasis, Depression/anxiety, Urinary Incontinence, Fall risk"
+      },
+      "Allergies": [],
+      "Current_Medications": [
+        {
+          "name": "Diltiazem HCL",
+          "purpose": "not provided",
+          "dosage": "360 mg PO daily",
+          "frequency": "daily"
+        },
+        {
+          "name": "Nadolol",
+          "purpose": "not provided",
+          "dosage": "20 mg QD",
+          "frequency": "daily"
+        },
+        {
+          "name": "Valsartan",
+          "purpose": "not provided",
+          "dosage": "80 mg QHS",
+          "frequency": "at bedtime"
+        },
+        {
+          "name": "Levothyroxine",
+          "purpose": "not provided",
+          "dosage": "75 mcg QD",
+          "frequency": "daily"
+        },
+        {
+          "name": "MVI",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "levothyroxine",
+          "purpose": "treatment of hypothyroidism",
+          "dosage": "75 mcg",
+          "frequency": "PO DAILY"
+        },
+        {
+          "name": "Senna Plus",
+          "purpose": "for constipation",
+          "dosage": "8.6-50 mg",
+          "frequency": "PO twice a day as needed"
+        },
+        {
+          "name": "bisacodyl",
+          "purpose": "for constipation",
+          "dosage": "5 mg",
+          "frequency": "Two Tablet PO once a day as needed"
+        },
+        {
+          "name": "ipratropium bromide",
+          "purpose": "for wheeze",
+          "dosage": "0.02 % Solution",
+          "frequency": "One Inhalation Q6H as needed"
+        },
+        {
+          "name": "isosorbide mononitrate",
+          "purpose": "afterload reduction",
+          "dosage": "30 mg Tablet Extended Release 24 hr",
+          "frequency": "Three Tablet Extended Release 24 hr PO DAILY"
+        },
+        {
+          "name": "hydralazine",
+          "purpose": "afterload reduction",
+          "dosage": "50 mg",
+          "frequency": "PO Q8H"
+        },
+        {
+          "name": "metoprolol succinate",
+          "purpose": "afterload reduction",
+          "dosage": "50 mg Tablet Extended Release 24 hr",
+          "frequency": "PO DAILY"
+        },
+        {
+          "name": "valsartan",
+          "purpose": "afterload reduction",
+          "dosage": "80 mg",
+          "frequency": "PO HS"
+        },
+        {
+          "name": "Valsartan",
+          "purpose": "not provided",
+          "dosage": "80 mg",
+          "frequency": "QHS"
+        },
+        {
+          "name": "Levothyroxine",
+          "purpose": "not provided",
+          "dosage": "75 mcg",
+          "frequency": "QD"
+        },
+        {
+          "name": "Multivitamin",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "once daily"
+        },
+        {
+          "name": "Hydralazine",
+          "purpose": "not provided",
+          "dosage": "50 mg",
+          "frequency": "every 8 hours"
+        },
+        {
+          "name": "Isosorbide mononitrate",
+          "purpose": "not provided",
+          "dosage": "90 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Metoprolol Succinate",
+          "purpose": "not provided",
+          "dosage": "50 mg",
+          "frequency": "daily"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "bradycardia"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.9,
+      "consistency_score": 1.0,
+      "confidence_score": 0.9,
+      "overall_score": 0.9666666666666667,
+      "field_scores": {
+        "symptoms": 0.9166666666666666,
+        "diagnoses": 1.0,
+        "treatments": 1.0,
+        "demographics": 0.5
+      },
+      "issues": [
+        "Symptom 'diaphoresis' not clearly found in original text"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing severe episodes of epistaxis and have swallowed a significant amount of blood. Can you describe in more detail how the nosebleeds have been affecting you and if you\u2019ve noticed any particular triggers or patterns to these symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, hi, thank you for seeing me. Well, my main concern is just these really bad episodes of epistaxis. The bleeding\u2019s been pretty severe, and honestly, it\u2019s got me pretty worried. I\u2019m not sure what\u2019s causing it or if there\u2019s something I should be doing differently."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why these severe episodes of epistaxis would make you feel anxious\u2014it\u2019s completely natural to be concerned when the bleeding is this significant. To help guide my assessment, can you tell me if the nosebleeds have been coming from one nostril or both, and whether they tend to start suddenly or gradually?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, it\u2019s mostly been coming from my right nostril, I think. The epistaxis just kind of starts all of a sudden\u2014one minute I\u2019m fine, and then it\u2019s bleeding a lot. I\u2019ve been swallowing quite a bit of blood when it happens, which is making me feel pretty anxious."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious\u2014severe epistaxis and swallowing blood can be very distressing. To help with my assessment, can you tell me if you\u2019ve noticed any other symptoms during these episodes, such as dizziness, lightheadedness, or shortness of breath?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 actually, I have had a couple of other symptoms. Sometimes after the epistaxis, I end up coughing up some clots\u2014like, actual blood clots. And, uh, I\u2019ve also vomited a few times, I think from swallowing so much blood. I haven\u2019t really noticed much dizziness or shortness of breath, but the emesis and coughing up clots have been happening off and on. Should I be worried about that?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014coughing up blood clots and experiencing emesis after severe epistaxis are understandably distressing symptoms. To help guide my assessment, have you noticed any changes in your hemoglobin levels or signs of anemia, such as increased fatigue or paleness, since these episodes began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, let me think\u2026 Actually, I did hear the team mention that my blood count dropped a bit since all this started. I\u2019ve been feeling more tired than usual, but I just thought it was from not sleeping well because I\u2019m anxious about the epistaxis. I haven\u2019t really noticed if I look more pale, but my blood pressure\u2019s been kind of high lately too\u2014my hypertension hasn\u2019t been very well controlled. Should I be worried about the blood count dropping?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about your blood count dropping, especially with ongoing severe epistaxis and swallowing blood. To further guide my assessment, have you noticed any symptoms suggestive of ongoing anemia, such as increased shortness of breath with activity, chest discomfort, or a rapid heartbeat?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, well\u2026 now that you mention it, I did have some episodes of tachycardia earlier in my hospitalization. The team said something about ectopy\u2014like brief SVT, some premature atrial beats, and a couple of PVCs here and there. I haven\u2019t really had chest discomfort or much shortness of breath, but the rapid heartbeat did make me feel pretty anxious. I\u2019m just not sure if all these symptoms are connected to the anemia or if it\u2019s from the stress of the epistaxis."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d feel anxious, especially with the combination of severe epistaxis, swallowing blood, and changes in your heart rhythm. To help with my assessment, have you noticed any ongoing nasal congestion, crusting, or recent trauma to your nose that might be contributing to these symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, I haven\u2019t had any recent trauma to my nose that I can remember\u2014no bumps or anything like that. I do get a bit of nasal congestion sometimes, but nothing out of the ordinary for me. I haven\u2019t noticed much crusting either, just the nosebleed itself, which has been pretty severe.\n\nActually, now that you mention it, the team did say my blood count dropped since all this started. That\u2019s making me more anxious, to be honest. Should I be worried about how much blood I\u2019ve lost? And is there anything specific I should be doing to help stop these episodes of epistaxis?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious about your blood count dropping and the severity of your epistaxis\u2014these symptoms can be very concerning. To help with my assessment, have you noticed any ongoing bleeding from other sites, such as your gums, urine, or stool, which could suggest a broader bleeding tendency in addition to the nasal hemorrhage?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, let me think\u2026 Actually, I haven\u2019t noticed any bleeding from my gums, and my urine looks normal\u2014no blood there. I haven\u2019t seen any blood in my stool either, at least not that I can tell. It really just seems to be the epistaxis that\u2019s the problem.\n\nI am a bit worried, though, since I\u2019m on coumadin for my history of DVT. Could the warfarin be making all this worse? And with my blood count dropping, is there a chance I\u2019ll need a transfusion or something? I just want to make sure I\u2019m not missing anything serious here."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially given your history of anticoagulation with warfarin and the drop in your hemoglobin. To help guide my assessment, have you noticed any symptoms such as persistent fatigue, palpitations, or lightheadedness when standing, which could suggest ongoing effects from blood loss or anemia?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually, now that you mention it, I have been feeling more fatigued than usual\u2014just kind of wiped out, even when I\u2019m not doing much. I\u2019ve also noticed some palpitations here and there, especially when I get up or move around. I don\u2019t think I\u2019ve had much lightheadedness when standing, but I do feel a bit weaker overall.\n\nIs this all from the blood loss, or could it be something else? Should I be worried about these symptoms getting worse? And with my warfarin, is there a way to balance the bleeding risk with my history of DVT? I just want to make sure I\u2019m not in any danger."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially with ongoing severe epistaxis, increased fatigue, palpitations, and your medical history of anticoagulation for DVT. Based on your recent laboratory clinical findings showing a hemoglobin of 11.9 g/dL and an INR of 1.4, I\u2019d like to clarify: have you noticed any changes in the frequency or severity of your epistaxis since adjustments were made to your warfarin therapy during this hospitalization?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, um, actually, since they adjusted my warfarin and brought my INR down, I think the epistaxis hasn\u2019t been quite as severe. I\u2019m still having some bleeding, but it\u2019s not as heavy as before\u2014more like occasional episodes instead of constant. I guess that\u2019s a bit of a relief, but I\u2019m still anxious about it coming back, especially since my blood count dropped.\n\nIs it normal for the nosebleeds to keep happening even with the INR at 1.4? And with my history of DVT, how do we make sure I don\u2019t end up with another clot if we keep my warfarin lower? I just want to find the right balance so I\u2019m not at risk for either bleeding or clots."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with ongoing episodes of epistaxis and concerns about balancing your anticoagulation for DVT prevention. Based on your recent laboratory clinical findings\u2014an INR of 1.4 and a hemoglobin of 11.9 g/dL\u2014it appears your bleeding risk has decreased somewhat, but you\u2019re still experiencing intermittent symptoms. To help guide my assessment, have you noticed any new or worsening symptoms such as increased nasal obstruction, facial pain, or signs of infection since your most recent episodes of epistaxis?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Actually, I haven\u2019t really noticed any new symptoms like increased nasal obstruction or facial pain. My nose feels about the same as it did before\u2014just a bit pain from all the epistaxis, but nothing that feels like an infection. No fever or anything like that either.\n\nI am still anxious, though, because even though my INR is lower and the bleeding isn\u2019t as heavy, I\u2019m worried about it starting up again or losing more blood. Is there something else I should be watching out for? And with my history of DVT, how do we make sure I\u2019m protected from clots if we keep my anticoagulation at this level? I just want to make sure I\u2019m not trading one risk for another."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious about ongoing episodes of epistaxis and the risks associated with both bleeding and clotting, given your medical history of DVT and anticoagulation therapy. Based on your current symptoms, laboratory findings of a hemoglobin of 11.9 g/dL and INR of 1.4, and the absence of new signs of infection or nasal obstruction, my assessment is that your bleeding risk has improved but still requires close monitoring. To further guide your care, have you recently experienced any symptoms suggestive of new venous thromboembolism, such as unexplained leg swelling, pain, or redness?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining all that. Um, as far as symptoms of venous thromboembolism\u2014I haven\u2019t noticed any new leg swelling, pain, or redness. My legs look about the same as usual, and I haven\u2019t had any calf tenderness or anything like that. I do worry about it, though, since I\u2019ve had DVT before and I know how serious that can be.\n\nI guess my main concern now is just making sure I don\u2019t end up with another clot while we\u2019re trying to get this bleeding under control. Is there a safe way to balance my anticoagulation so I\u2019m not at high risk for either bleeding or thrombosis? And should I be doing anything different at home to watch for symptoms of either one? I really appreciate you keeping such a close eye on symptoms\u2014it\u2019s just been a lot to process, and I want to make sure I\u2019m not missing anything important."
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing severe episodes of epistaxis and have swallowed a significant amount of blood. Can you describe in more detail how the nosebleeds have been affecting you and if you\u2019ve noticed any particular triggers or patterns to these symptoms?\nPatient: Um, hi, thank you for seeing me. Well, my main concern is just these really bad episodes of epistaxis. The bleeding\u2019s been pretty severe, and honestly, it\u2019s got me pretty worried. I\u2019m not sure what\u2019s causing it or if there\u2019s something I should be doing differently.\nDoctor: I can understand why these severe episodes of epistaxis would make you feel anxious\u2014it\u2019s completely natural to be concerned when the bleeding is this significant. To help guide my assessment, can you tell me if the nosebleeds have been coming from one nostril or both, and whether they tend to start suddenly or gradually?\nPatient: Um, it\u2019s mostly been coming from my right nostril, I think. The epistaxis just kind of starts all of a sudden\u2014one minute I\u2019m fine, and then it\u2019s bleeding a lot. I\u2019ve been swallowing quite a bit of blood when it happens, which is making me feel pretty anxious.\nDoctor: I can understand why you\u2019d be anxious\u2014severe epistaxis and swallowing blood can be very distressing. To help with my assessment, can you tell me if you\u2019ve noticed any other symptoms during these episodes, such as dizziness, lightheadedness, or shortness of breath?\nPatient: Well, um\u2026 actually, I have had a couple of other symptoms. Sometimes after the epistaxis, I end up coughing up some clots\u2014like, actual blood clots. And, uh, I\u2019ve also vomited a few times, I think from swallowing so much blood. I haven\u2019t really noticed much dizziness or shortness of breath, but the emesis and coughing up clots have been happening off and on. Should I be worried about that?\nDoctor: I can understand why you\u2019d be worried\u2014coughing up blood clots and experiencing emesis after severe epistaxis are understandably distressing symptoms. To help guide my assessment, have you noticed any changes in your hemoglobin levels or signs of anemia, such as increased fatigue or paleness, since these episodes began?\nPatient: Um, let me think\u2026 Actually, I did hear the team mention that my blood count dropped a bit since all this started. I\u2019ve been feeling more tired than usual, but I just thought it was from not sleeping well because I\u2019m anxious about the epistaxis. I haven\u2019t really noticed if I look more pale, but my blood pressure\u2019s been kind of high lately too\u2014my hypertension hasn\u2019t been very well controlled. Should I be worried about the blood count dropping?\nDoctor: I can understand why you\u2019d be worried about your blood count dropping, especially with ongoing severe epistaxis and swallowing blood. To further guide my assessment, have you noticed any symptoms suggestive of ongoing anemia, such as increased shortness of breath with activity, chest discomfort, or a rapid heartbeat?\nPatient: Um, well\u2026 now that you mention it, I did have some episodes of tachycardia earlier in my hospitalization. The team said something about ectopy\u2014like brief SVT, some premature atrial beats, and a couple of PVCs here and there. I haven\u2019t really had chest discomfort or much shortness of breath, but the rapid heartbeat did make me feel pretty anxious. I\u2019m just not sure if all these symptoms are connected to the anemia or if it\u2019s from the stress of the epistaxis.\nDoctor: I can understand why you\u2019d feel anxious, especially with the combination of severe epistaxis, swallowing blood, and changes in your heart rhythm. To help with my assessment, have you noticed any ongoing nasal congestion, crusting, or recent trauma to your nose that might be contributing to these symptoms?\nPatient: Well, um, I haven\u2019t had any recent trauma to my nose that I can remember\u2014no bumps or anything like that. I do get a bit of nasal congestion sometimes, but nothing out of the ordinary for me. I haven\u2019t noticed much crusting either, just the nosebleed itself, which has been pretty severe.\n\nActually, now that you mention it, the team did say my blood count dropped since all this started. That\u2019s making me more anxious, to be honest. Should I be worried about how much blood I\u2019ve lost? And is there anything specific I should be doing to help stop these episodes of epistaxis?\nDoctor: I can understand why you\u2019d be anxious about your blood count dropping and the severity of your epistaxis\u2014these symptoms can be very concerning. To help with my assessment, have you noticed any ongoing bleeding from other sites, such as your gums, urine, or stool, which could suggest a broader bleeding tendency in addition to the nasal hemorrhage?\nPatient: Um, let me think\u2026 Actually, I haven\u2019t noticed any bleeding from my gums, and my urine looks normal\u2014no blood there. I haven\u2019t seen any blood in my stool either, at least not that I can tell. It really just seems to be the epistaxis that\u2019s the problem.\n\nI am a bit worried, though, since I\u2019m on coumadin for my history of DVT. Could the warfarin be making all this worse? And with my blood count dropping, is there a chance I\u2019ll need a transfusion or something? I just want to make sure I\u2019m not missing anything serious here.\nDoctor: I can understand why you\u2019d be worried, especially given your history of anticoagulation with warfarin and the drop in your hemoglobin. To help guide my assessment, have you noticed any symptoms such as persistent fatigue, palpitations, or lightheadedness when standing, which could suggest ongoing effects from blood loss or anemia?\nPatient: Yeah, actually, now that you mention it, I have been feeling more fatigued than usual\u2014just kind of wiped out, even when I\u2019m not doing much. I\u2019ve also noticed some palpitations here and there, especially when I get up or move around. I don\u2019t think I\u2019ve had much lightheadedness when standing, but I do feel a bit weaker overall.\n\nIs this all from the blood loss, or could it be something else? Should I be worried about these symptoms getting worse? And with my warfarin, is there a way to balance the bleeding risk with my history of DVT? I just want to make sure I\u2019m not in any danger.\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially with ongoing severe epistaxis, increased fatigue, palpitations, and your medical history of anticoagulation for DVT. Based on your recent laboratory clinical findings showing a hemoglobin of 11.9 g/dL and an INR of 1.4, I\u2019d like to clarify: have you noticed any changes in the frequency or severity of your epistaxis since adjustments were made to your warfarin therapy during this hospitalization?\nPatient: Yeah, um, actually, since they adjusted my warfarin and brought my INR down, I think the epistaxis hasn\u2019t been quite as severe. I\u2019m still having some bleeding, but it\u2019s not as heavy as before\u2014more like occasional episodes instead of constant. I guess that\u2019s a bit of a relief, but I\u2019m still anxious about it coming back, especially since my blood count dropped.\n\nIs it normal for the nosebleeds to keep happening even with the INR at 1.4? And with my history of DVT, how do we make sure I don\u2019t end up with another clot if we keep my warfarin lower? I just want to find the right balance so I\u2019m not at risk for either bleeding or clots.\nDoctor: I can understand why you\u2019d be anxious, especially with ongoing episodes of epistaxis and concerns about balancing your anticoagulation for DVT prevention. Based on your recent laboratory clinical findings\u2014an INR of 1.4 and a hemoglobin of 11.9 g/dL\u2014it appears your bleeding risk has decreased somewhat, but you\u2019re still experiencing intermittent symptoms. To help guide my assessment, have you noticed any new or worsening symptoms such as increased nasal obstruction, facial pain, or signs of infection since your most recent episodes of epistaxis?\nPatient: Let me think\u2026 Actually, I haven\u2019t really noticed any new symptoms like increased nasal obstruction or facial pain. My nose feels about the same as it did before\u2014just a bit pain from all the epistaxis, but nothing that feels like an infection. No fever or anything like that either.\n\nI am still anxious, though, because even though my INR is lower and the bleeding isn\u2019t as heavy, I\u2019m worried about it starting up again or losing more blood. Is there something else I should be watching out for? And with my history of DVT, how do we make sure I\u2019m protected from clots if we keep my anticoagulation at this level? I just want to make sure I\u2019m not trading one risk for another.\nDoctor: I can understand why you\u2019d be anxious about ongoing episodes of epistaxis and the risks associated with both bleeding and clotting, given your medical history of DVT and anticoagulation therapy. Based on your current symptoms, laboratory findings of a hemoglobin of 11.9 g/dL and INR of 1.4, and the absence of new signs of infection or nasal obstruction, my assessment is that your bleeding risk has improved but still requires close monitoring. To further guide your care, have you recently experienced any symptoms suggestive of new venous thromboembolism, such as unexplained leg swelling, pain, or redness?\nPatient: Thank you for explaining all that. Um, as far as symptoms of venous thromboembolism\u2014I haven\u2019t noticed any new leg swelling, pain, or redness. My legs look about the same as usual, and I haven\u2019t had any calf tenderness or anything like that. I do worry about it, though, since I\u2019ve had DVT before and I know how serious that can be.\n\nI guess my main concern now is just making sure I don\u2019t end up with another clot while we\u2019re trying to get this bleeding under control. Is there a safe way to balance my anticoagulation so I\u2019m not at high risk for either bleeding or thrombosis? And should I be doing anything different at home to watch for symptoms of either one? I really appreciate you keeping such a close eye on symptoms\u2014it\u2019s just been a lot to process, and I want to make sure I\u2019m not missing anything important.\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: fever, fatigue, cough, feeling more tired than usual, weakness. Assessment: severe epistaxis, anemia secondary to blood loss, history of DVT. Plan: adjustment of warfarin therapy to lower INR, close monitoring of bleeding and clotting symptoms, monitor hemoglobin and INR levels. Clinical note: The patient with a history of DVT on warfarin presented with severe recurrent right-sided epistaxis, swallowing blood, and subsequent anemia (hemoglobin 11.9 g/dL). Symptoms included fatigue, tachycardia, palpitations, and anxiety. Warfarin was adjusted to lower INR (1.4), resulting in decreased bleeding severity. The patient is being closely monitored for both bleeding and thrombosis risks.. Extracted: 24 symptoms, 4 diagnoses, 3 treatments.",
+  "annotations": {
+    "symptoms": [
+      "fever",
+      "fatigue",
+      "cough",
+      "feeling more tired than usual",
+      "weakness",
+      "coughing",
+      "lightheaded",
+      "more tired than usual",
+      "tired",
+      "shortness of breath",
+      "chest pain",
+      "breath",
+      "headache",
+      "dizziness",
+      "severe epistaxis",
+      "swallowing blood",
+      "anxiety",
+      "coughing up blood clots",
+      "emesis",
+      "high blood pressure",
+      "tachycardia",
+      "palpitations",
+      "nasal congestion",
+      "pain in nose"
+    ],
+    "diagnoses": [
+      "severe epistaxis",
+      "anemia secondary to blood loss",
+      "history of DVT",
+      "anticoagulation with warfarin"
+    ],
+    "treatments": [
+      "adjustment of warfarin therapy to lower INR",
+      "close monitoring of bleeding and clotting symptoms",
+      "monitor hemoglobin and INR levels"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.890 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.560 \u25cb\n\u2022 Dialogue Naturalness: 0.770 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently demonstrates safe, responsible, and patient-centered medical communication. There is no evidence of harmful or inappropriate advice. The doctor repeatedly reassures the patient, clarifies symptoms, and appropriately explores both bleeding and clotting risks given the patient\u2019s history of DVT and current anticoagulation.\n- The doctor\u2019s questions are clinically relevant (e.g., asking about other bleeding sites, anemia symptoms, signs of infection, and VTE symptoms), reflecting a thorough and systematic approach to a complex case.\n- The doctor provides clear explanations about the implications of laboratory findings (hemoglobin, INR) and the rationale for monitoring both bleeding and clotting risks.\n\n**2. Realistic Patient Behavior**\n- The patient\u2019s responses are believable and reflect natural progression of information disclosure. The patient expresses anxiety, seeks clarification, and asks about both immediate symptoms and long-term risks\u2014typical concerns for someone with severe epistaxis on anticoagulation.\n- The patient\u2019s hesitations (\u201cUm, let me think\u2026\u201d) and repeated expressions of anxiety are realistic, especially in the context of ongoing symptoms and complex medical management.\n- The patient appropriately references information provided by \u201cthe team,\u201d which is common in hospitalized or closely monitored patients.\n\n**3. Empathy and Professionalism**\n- The doctor repeatedly acknowledges the patient\u2019s anxiety and distress (\u201cI can understand why you\u2019d be anxious\u2026\u201d), demonstrating empathy and professionalism throughout.\n- The doctor maintains a supportive tone, validates the patient\u2019s concerns, and avoids dismissiveness or jargon-heavy explanations.\n- The conversation reflects a collaborative approach, with the doctor inviting the patient to share observations and concerns at each step.\n\n**4. Meaningful Medical Purpose**\n- The dialogue serves a clear medical purpose: assessing the severity and etiology of epistaxis, evaluating for complications (anemia, VTE), and balancing anticoagulation management.\n- The exchange is focused on gathering clinically relevant information, addressing patient safety, and planning ongoing care.\n- The patient\u2019s questions about balancing bleeding and clotting risks are met with appropriate clinical reasoning from the doctor.\n\n**5. Conversation Dynamics**\n- The dialogue flows logically, with appropriate turn-taking. Each response builds on the previous one, reflecting a natural progression of a focused medical interview.\n- Some repetition in language (\u201cI can understand why you\u2019d be anxious\u2026\u201d) is realistic in emotionally charged clinical encounters and does not detract from authenticity.\n- The conversation ends with the patient expressing understanding and appreciation for the doctor\u2019s thoroughness\u2014a plausible outcome in a real clinical setting.\n\n**Summary:**  \nThis dialogue exemplifies a realistic, safe, and clinically appropriate medical encounter. Both doctor and patient behaviors are believable; the conversation is empathetic, thorough, and serves a clear medical purpose. Minor imperfections (repetitive phrasing) are consistent with real-world practice.\n\n**Conclusion:**  \nDIALOGUE REALISTIC: This conversation accurately represents a plausible, safe, and effective medical encounter between a clinician and a patient with severe epistaxis on anticoagulation.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.890)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.267/0.3 (Score: 0.890)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.56,
+      "naturalness": 0.77,
+      "safety": 0.89,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 71.5641119480133,
+  "dialogue_stats": {
+    "turn_count": 22,
+    "word_count": 1701,
+    "doctor_turns": 11,
+    "patient_turns": 11
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "partial_profile": {
+    "row_id": 4459,
+    "subject_id": 31775,
+    "hadm_id": 117510,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Fall down approximately 27 steps with multiple injuries",
+          "onset": "2161-6-8",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "No reported loss of consciousness",
+          "onset": "2161-6-8",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "agitation",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2108-10-02",
+        "Age": 52,
+        "Sex": "F",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2161-06-08 15:39:00",
+        "Discharge_Date": "2161-06-18 14:55:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Mental retardation; HTN; Hypothyroidism; Right hip dislocation s/p fall 4 years ago; Patellar dislocation and ORIF s/p fall"
+      },
+      "Allergies": [
+        "No Known Allergies to Drugs"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Zyprexa",
+          "purpose": "not provided",
+          "dosage": "15",
+          "frequency": "hs"
+        },
+        {
+          "name": "Atenolol",
+          "purpose": "not provided",
+          "dosage": "50",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Clonazepam",
+          "purpose": "not provided",
+          "dosage": "0.5",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Imipramine",
+          "purpose": "not provided",
+          "dosage": "150",
+          "frequency": "hs"
+        },
+        {
+          "name": "Benztropine",
+          "purpose": "not provided",
+          "dosage": "1",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Depakote",
+          "purpose": "not provided",
+          "dosage": "1000",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Synthroid",
+          "purpose": "not provided",
+          "dosage": "100",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Colace",
+          "purpose": "not provided",
+          "dosage": "100",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Olanzapine",
+          "purpose": "not provided",
+          "dosage": "5 mg",
+          "frequency": "Three (3) Tablet PO HS (at bedtime)"
+        },
+        {
+          "name": "Imipramine HCl",
+          "purpose": "not provided",
+          "dosage": "25 mg",
+          "frequency": "Six (6) Tablet PO HS (at bedtime)"
+        },
+        {
+          "name": "Benztropine",
+          "purpose": "not provided",
+          "dosage": "1 mg",
+          "frequency": "One (1) Tablet PO DAILY (Daily)"
+        },
+        {
+          "name": "Levothyroxine",
+          "purpose": "not provided",
+          "dosage": "100 mcg",
+          "frequency": "One (1) Tablet PO DAILY (Daily)"
+        },
+        {
+          "name": "Docusate Sodium",
+          "purpose": "not provided",
+          "dosage": "100 mg",
+          "frequency": "One (1) Capsule PO BID (2 times a day)"
+        },
+        {
+          "name": "Acetaminophen",
+          "purpose": "pain",
+          "dosage": "325 mg",
+          "frequency": "1-2 Tablets PO every 4-26 hours as needed for pain"
+        },
+        {
+          "name": "Divalproex",
+          "purpose": "not provided",
+          "dosage": "500 mg",
+          "frequency": "Two (2) Tablet Sustained Release 24 hr PO DAILY (Daily)"
+        },
+        {
+          "name": "Heparin (Porcine)",
+          "purpose": "not provided",
+          "dosage": "5,000 unit/mL",
+          "frequency": "One (1) ML Injection TID (3 times a day)"
+        },
+        {
+          "name": "Famotidine",
+          "purpose": "not provided",
+          "dosage": "20 mg",
+          "frequency": "One (1) Tablet PO Q24H (every 24 hours)"
+        },
+        {
+          "name": "Albuterol Sulfate",
+          "purpose": "shortness of breath or wheezing",
+          "dosage": "2.5 mg/3 mL",
+          "frequency": "One (1) NEB Inhalation Q6H (every 6 hours) as needed"
+        },
+        {
+          "name": "Ipratropium Bromide",
+          "purpose": "shortness of breath or wheezing",
+          "dosage": "0.02 %",
+          "frequency": "One (1) NEB Inhalation Q6H (every 6 hours) as needed"
+        },
+        {
+          "name": "Olanzapine",
+          "purpose": "not provided",
+          "dosage": "5 mg",
+          "frequency": "One (1) Tablet PO BID (2 times a day): hold for increased sedation"
+        },
+        {
+          "name": "Milk of Magnesia",
+          "purpose": "constipation",
+          "dosage": "800 mg/5 mL",
+          "frequency": "Thirty (30) ML's PO twice a day as needed"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "s/p Fall"
+    },
+    "quality_assessment": {
+      "completeness_score": 0.8666666666666667,
+      "accuracy_score": 0.9,
+      "consistency_score": 1.0,
+      "confidence_score": 0.9,
+      "overall_score": 0.9222222222222222,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 1.0,
+        "treatments": 1.0,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Age inconsistency: stated 52, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Thank you for coming in today. I understand you experienced a significant fall down several steps with multiple injuries. Can you describe any current symptoms you are experiencing, such as pain, difficulty moving, or changes in how you feel since the fall?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I fell down about 27 steps and, uh, I have a lot of pain, mostly in my hip and leg. That\u2019s the main thing right now. I\u2019m just worried because it really pains."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014falling down so many steps and now having significant pain in your hip and leg must be very distressing. To help guide my assessment, can you tell me if you\u2019ve noticed any swelling, bruising, or difficulty moving your hip or leg since the fall?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 yeah, there\u2019s definitely some swelling and bruising around my hip. It\u2019s hard to move my leg, too. I didn\u2019t lose consciousness or anything, but I\u2019m just really concerned about the pain and not being able to move like I usually can."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014experiencing severe pain, swelling, and difficulty moving your hip after such a significant fall is understandably concerning. To help guide my assessment, can you tell me if you\u2019ve noticed any numbness, tingling, or weakness in your leg since the injury?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 I don\u2019t really feel numbness, but maybe a little tingling once in a while. My leg does feel kind of weak, though, especially when I try to move it. And, um, I\u2019ve been feeling pretty agitated since it happened. I just can\u2019t seem to settle down. Should I be worried about that?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms\u2014experiencing pain, weakness, and agitation after such a significant fall is understandably distressing. To further guide my assessment, have you noticed any changes in your ability to control your bladder or bowels since the injury?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 no, I haven\u2019t noticed any changes with my bladder or bowels since the fall. Everything seems the same there. I was a little worried about that, but so far, nothing unusual. Is that something I should watch out for?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially after such a significant fall and with the symptoms you\u2019ve described. Since you mentioned pain, swelling, bruising, and some weakness in your leg, have you noticed any changes in your ability to bear weight or walk since the injury, or are you unable to stand or move the affected leg at all?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t really been able to put any weight on that leg since the fall. It pains too much, and when I try, it just feels really weak and kind of gives out. I haven\u2019t tried to walk because I\u2019m afraid I\u2019ll fall again. I can move my toes a little, but moving the whole leg is really hard. Is that normal after something like this?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about not being able to bear weight and experiencing anxious after such a serious fall. Given your symptoms of pain, swelling, weakness, and difficulty moving your leg, have you noticed any deformity or abnormal shape in your hip or leg that might suggest a possible fracture or dislocation?"
+    },
+    {
+      "role": "Patient",
+      "content": "Actually\u2026 now that you mention it, my hip does look kind of different\u2014like it\u2019s sticking out more on one side, and my leg seems a little turned in. I remember when I had that right hip dislocation a few years ago, it sort of feels similar, but maybe worse this time. Does that mean it could be dislocated again, or maybe even fractured? Should I be worried about permanent damage if it is?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially given your history of right hip dislocation and the current symptoms of deformity, pain, and weakness after such a significant fall. To help guide the assessment, have you experienced any symptoms such as fever, chills, or signs of infection since the injury?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 no, I haven\u2019t had any fever or chills, and I don\u2019t think there are any signs of infection\u2014at least not that I can tell. The skin around my hip is bruised and swollen, but it\u2019s not warm or red. I\u2019m mostly just worried about the pain and the way my hip looks. If it is dislocated or fractured, what happens next? Will I need surgery again, or is there a way to fix it without that?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about the possibility of another hip dislocation or even a fracture, especially given your symptoms and medical history. To further guide my assessment, have you noticed any changes in sensation or color in your foot or toes on the affected side, such as numbness, tingling, coolness, or discoloration?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Well, I have noticed a little tingling in my toes, but I don\u2019t think there\u2019s any numbness. My foot feels kind of cool sometimes, but it\u2019s not really discolored\u2014at least, it doesn\u2019t look blue or anything like that. Should I be worried about the tingling and coolness? Does that mean there\u2019s a problem with the blood flow or nerves? And, um, if it is a fracture or dislocation, what\u2019s usually the treatment? I just want to make sure I heal up okay."
+    }
+  ],
+  "transcript": "Doctor: Thank you for coming in today. I understand you experienced a significant fall down several steps with multiple injuries. Can you describe any current symptoms you are experiencing, such as pain, difficulty moving, or changes in how you feel since the fall?\nPatient: Well, um\u2026 I fell down about 27 steps and, uh, I have a lot of pain, mostly in my hip and leg. That\u2019s the main thing right now. I\u2019m just worried because it really pains.\nDoctor: I can understand why you\u2019re experiencing anxious\u2014falling down so many steps and now having significant pain in your hip and leg must be very distressing. To help guide my assessment, can you tell me if you\u2019ve noticed any swelling, bruising, or difficulty moving your hip or leg since the fall?\nPatient: Um\u2026 yeah, there\u2019s definitely some swelling and bruising around my hip. It\u2019s hard to move my leg, too. I didn\u2019t lose consciousness or anything, but I\u2019m just really concerned about the pain and not being able to move like I usually can.\nDoctor: I can understand why you\u2019d be worried\u2014experiencing severe pain, swelling, and difficulty moving your hip after such a significant fall is understandably concerning. To help guide my assessment, can you tell me if you\u2019ve noticed any numbness, tingling, or weakness in your leg since the injury?\nPatient: Let me think\u2026 I don\u2019t really feel numbness, but maybe a little tingling once in a while. My leg does feel kind of weak, though, especially when I try to move it. And, um, I\u2019ve been feeling pretty agitated since it happened. I just can\u2019t seem to settle down. Should I be worried about that?\nDoctor: I can understand why you\u2019d be worried about these symptoms\u2014experiencing pain, weakness, and agitation after such a significant fall is understandably distressing. To further guide my assessment, have you noticed any changes in your ability to control your bladder or bowels since the injury?\nPatient: Um\u2026 no, I haven\u2019t noticed any changes with my bladder or bowels since the fall. Everything seems the same there. I was a little worried about that, but so far, nothing unusual. Is that something I should watch out for?\nDoctor: I can understand why you\u2019d be anxious, especially after such a significant fall and with the symptoms you\u2019ve described. Since you mentioned pain, swelling, bruising, and some weakness in your leg, have you noticed any changes in your ability to bear weight or walk since the injury, or are you unable to stand or move the affected leg at all?\nPatient: Well, um\u2026 I haven\u2019t really been able to put any weight on that leg since the fall. It pains too much, and when I try, it just feels really weak and kind of gives out. I haven\u2019t tried to walk because I\u2019m afraid I\u2019ll fall again. I can move my toes a little, but moving the whole leg is really hard. Is that normal after something like this?\nDoctor: I can understand why you\u2019d be worried about not being able to bear weight and experiencing anxious after such a serious fall. Given your symptoms of pain, swelling, weakness, and difficulty moving your leg, have you noticed any deformity or abnormal shape in your hip or leg that might suggest a possible fracture or dislocation?\nPatient: Actually\u2026 now that you mention it, my hip does look kind of different\u2014like it\u2019s sticking out more on one side, and my leg seems a little turned in. I remember when I had that right hip dislocation a few years ago, it sort of feels similar, but maybe worse this time. Does that mean it could be dislocated again, or maybe even fractured? Should I be worried about permanent damage if it is?\nDoctor: I can understand why you\u2019d be anxious, especially given your history of right hip dislocation and the current symptoms of deformity, pain, and weakness after such a significant fall. To help guide the assessment, have you experienced any symptoms such as fever, chills, or signs of infection since the injury?\nPatient: Um\u2026 no, I haven\u2019t had any fever or chills, and I don\u2019t think there are any signs of infection\u2014at least not that I can tell. The skin around my hip is bruised and swollen, but it\u2019s not warm or red. I\u2019m mostly just worried about the pain and the way my hip looks. If it is dislocated or fractured, what happens next? Will I need surgery again, or is there a way to fix it without that?\nDoctor: I can understand why you\u2019d be worried about the possibility of another hip dislocation or even a fracture, especially given your symptoms and medical history. To further guide my assessment, have you noticed any changes in sensation or color in your foot or toes on the affected side, such as numbness, tingling, coolness, or discoloration?\nPatient: Let me think\u2026 Well, I have noticed a little tingling in my toes, but I don\u2019t think there\u2019s any numbness. My foot feels kind of cool sometimes, but it\u2019s not really discolored\u2014at least, it doesn\u2019t look blue or anything like that. Should I be worried about the tingling and coolness? Does that mean there\u2019s a problem with the blood flow or nerves? And, um, if it is a fracture or dislocation, what\u2019s usually the treatment? I just want to make sure I heal up okay.\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: pain, chills, severe pain, fever, numbness. Assessment: possible hip dislocation, possible hip or leg fracture. Plan: surgery, further assessment recommended, monitor for changes in sensation, color, or ability to move limb. Clinical note: Patient experienced a significant fall down stairs with severe hip and leg pain, swelling, bruising, weakness, deformity, and inability to bear weight. History of prior right hip dislocation. Exam findings suggest possible hip dislocation or fracture. No signs of infection or neurovascular compromise reported. Urgent assessment and imaging are recommended.. Extracted: 20 symptoms, 2 diagnoses, 4 treatments.",
+  "annotations": {
+    "symptoms": [
+      "pain",
+      "chills",
+      "severe pain",
+      "fever",
+      "numbness",
+      "weakness",
+      "extremities pain",
+      "tingling",
+      "pain in hip and leg",
+      "swelling around hip",
+      "bruising around hip",
+      "difficulty moving leg",
+      "weakness in leg",
+      "tingling in leg and toes",
+      "agitation",
+      "unable to bear weight on leg",
+      "deformity of hip",
+      "leg appears turned in",
+      "hip sticking out",
+      "coolness in foot"
+    ],
+    "diagnoses": [
+      "possible hip dislocation",
+      "possible hip or leg fracture"
+    ],
+    "treatments": [
+      "surgery",
+      "further assessment recommended",
+      "monitor for changes in sensation, color, or ability to move limb",
+      "seek urgent medical evaluation"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.870 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.530 \u25cb\n\u2022 Dialogue Naturalness: 0.867 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness:**  \nThe doctor\u2019s questions are clinically appropriate, focusing on key red flag symptoms after a significant fall (pain, swelling, deformity, neurovascular compromise, bladder/bowel function). The doctor avoids giving premature reassurance or unsafe advice, instead gathering information to assess for possible fracture, dislocation, or neurovascular injury. There is no harmful or inappropriate guidance; the conversation is safe and follows standard medical interview protocols for trauma.\n\n**2. Natural and Believable Patient Behavior:**  \nThe patient\u2019s responses are consistent with someone who has experienced a traumatic fall and is anxious about their symptoms. The patient discloses information progressively, sometimes hesitating or needing to think before answering, which is realistic. The patient expresses understandable concerns about pain, mobility, and the possibility of permanent damage or surgery, which are common worries in this context. Occasional uncertainty (\u201cLet me think\u2026\u201d) and emotional expressions (\u201cI\u2019m just really concerned\u2026\u201d, \u201cI\u2019ve been feeling pretty agitated\u2026\u201d) add to the authenticity.\n\n**3. Empathy and Professionalism:**  \nThe doctor consistently acknowledges the patient\u2019s distress and anxiety, using empathetic language (\u201cI can understand why you\u2019d be worried\u2026\u201d). While the phrasing is somewhat repetitive, this is not uncommon in real clinical encounters where reassurance and validation are important. The doctor maintains professionalism throughout, focusing on the patient\u2019s experience and concerns.\n\n**4. Meaningful Medical Purpose:**  \nThe conversation logically progresses through a trauma assessment: initial symptoms, neurovascular status, functional ability, prior history, and potential complications. The doctor\u2019s questions serve to rule out urgent issues (e.g., neurovascular compromise, open fracture, infection) and gather information needed for triage and management decisions. The patient\u2019s questions about prognosis and treatment are appropriate and elicit further explanation from the doctor.\n\n**5. Conversation Flow:**  \nTurn-taking is appropriate; the dialogue flows logically from symptom description to more detailed inquiry. The patient\u2019s questions prompt further clarification from the doctor, and the exchange remains focused on the clinical scenario. While the doctor\u2019s language is somewhat formulaic at times, this does not detract from the overall realism.\n\n**Summary:**  \nThis dialogue represents a plausible and clinically appropriate medical encounter following a significant fall with suspected musculoskeletal injury. Both the doctor\u2019s and patient\u2019s behaviors are believable, the conversation serves a clear medical purpose, and safety is maintained throughout.\n\n**Conclusion:**  \nDIALOGUE REALISTIC: The conversation demonstrates safe, empathetic, and clinically appropriate medical communication with natural patient behavior and logical progression.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.870)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.261/0.3 (Score: 0.870)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.53,
+      "naturalness": 0.867,
+      "safety": 0.87,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 39.027976512908936,
+  "dialogue_stats": {
+    "turn_count": 16,
+    "word_count": 899,
+    "doctor_turns": 8,
+    "patient_turns": 8
+  }
+}

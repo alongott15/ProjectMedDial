@@ -1,0 +1,1557 @@
+{
+  "source_row_id": 3926,
+  "source_subject_id": 2984,
+  "source_hadm_id": 124661,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I\u2019d like to start by understanding more about your current symptoms\u2014can you tell me about any thoughts of self-harm or suicidal ideation you have experienced recently?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "greeting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "thoughts of self-harm or suicidal ideation"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Um, hi. Well\u2026 yeah, I\u2019ve been having some suicidal thoughts lately. It\u2019s been kind of hard to talk about. I just feel really overwhelmed, and honestly, I\u2019m not sure what to do about it. Also, I\u2019ve been having some shortness of breath, which is making me even more anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "suicidal thoughts"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling overwhelmed"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with both the overwhelming emotions and physical symptoms you\u2019re experiencing. You mentioned having low back pain as well\u2014can you describe the severity and duration of this symptom to help me better assess your condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious, overwhelming emotions, physical symptoms, low back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "severity and duration of low back pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 the low back pain has been there for a while now. It\u2019s not constant, but it\u2019s been getting worse lately. I guess that\u2019s part of why I\u2019m feeling so anxious\u2014just everything piling up, you know?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with so many symptoms happening at once. You mentioned experiencing abdominal pain\u2014can you describe where the pain is located, how severe it is, and if anything makes it better or worse? This information will help guide my assessment.",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried, especially with so many symptoms happening at once."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Range-body",
+          "value": "location of pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "severity of pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "factors that make pain better or worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 the abdominal pain is kind of all over, but I notice it more in the lower part. It\u2019s not super sharp, but it\u2019s this sort of dull pain that just doesn\u2019t really go away. Sometimes it feels worse after I eat, but I\u2019m not totally sure. And, well, with the suicidal ideation and everything else going on, it\u2019s just been a lot to handle lately. Should I be worried about these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "lower abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dull pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "worse after eating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "suicidal ideation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried about these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with multiple symptoms occurring at once. You mentioned abdominal pain\u2014have you also noticed any abdominal distension or swelling throughout your clinical examination, such as diffuse anasarca, and if so, when did these symptoms begin or worsen?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "diffuse anasarca"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "when symptoms began or worsened"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, I have noticed some abdominal distension. My stomach just feels kind of swollen, and my clothes are fitting tighter around my waist. Um, I think it started maybe a couple weeks ago? It\u2019s hard to say exactly. And, well, I guess I\u2019ve also noticed some swelling in my legs and feet\u2014so maybe that\u2019s what you mean by diffuse anasarca? It\u2019s just been getting worse lately, and I\u2019m not sure if it\u2019s all connected.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swollen stomach"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clothes fitting tighter around waist"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "started a couple weeks ago"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs and feet"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "asking if symptoms are connected"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms so clearly\u2014it helps guide my assessment. Since you\u2019ve noticed abdominal distension and swelling, have you been told you have ascites (fluid accumulation in the abdomen), or have you experienced any difficulty breathing when lying flat, which could suggest bibasilar atelectasis or fluid affecting your lungs?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension and swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "ascites"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty breathing when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "bibasilar atelectasis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluid affecting your lungs"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um, well\u2026 I think one of the doctors mentioned ascites before, but I wasn\u2019t totally sure what that meant until now. My belly does feel kind of full, so maybe that\u2019s what\u2019s going on. And, yeah, I have noticed it\u2019s harder to breathe when I\u2019m lying flat\u2014like, I get more shortness of breath at night. I think you called it bibasilar atelectasis? I\u2019m not sure if that\u2019s exactly what\u2019s happening, but it sounds familiar. It\u2019s just making me more anxious, honestly.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "ascites"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal fullness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "bibasilar atelectasis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with these symptoms affecting your breathing and comfort. Have you experienced any recent fever or chills, or has anyone mentioned findings like right basilar consolidation on your chest examination or imaging?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be anxious, especially with these symptoms affecting your breathing and comfort."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "chest examination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "imaging"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "right basilar consolidation"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 I did have a fever a couple days ago\u2014it kind of comes and goes. I get chills sometimes too. And about the right basilar consolidation, I think someone mentioned that after one of my chest x-rays, but I didn\u2019t really understand what it meant. Is that something serious? Should I be worried about infection or something else with all these symptoms happening at once?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "chest x-ray"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "right basilar consolidation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is right basilar consolidation something serious?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Should I be worried about infection or something else with all these symptoms happening at once?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with the combination of fever, chills, and breathing symptoms. Have you experienced any episodes of low blood pressure\u2014such as experiencing faint, dizzy, or noticing your blood pressure readings are lower than usual\u2014since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "breathing symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "faint"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizzy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "blood pressure readings are lower than usual"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 I have noticed my blood pressure\u2019s been lower than usual lately. I felt kind of faint and dizzy a couple times, especially when I stand up. I think that\u2019s what you mean by hypotension, right? It\u2019s been making me a bit nervous.\n\nAlso, I\u2019ve been feeling pretty nauseous off and on. Sometimes it\u2019s hard to eat much because of it. With all these symptoms\u2014hypotension, nausea, the fever, and everything else\u2014I\u2019m just not sure what\u2019s going on. Is this all connected somehow? Should I be really worried?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "faintness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nervousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "connection between symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be really worried"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with so many symptoms affecting your daily life. You mentioned experiencing overwhelmed and anxious\u2014have you also experienced increased tearfulness, persistent low mood, or other symptoms of depression during this period that might be impacting your overall well-being?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried, especially with so many symptoms affecting your daily life."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "overwhelmed and anxious"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased tearfulness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "persistent low mood"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "other symptoms of depression"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 I have been a lot more tearful lately. It feels like I could cry at the drop of a hat, honestly. My mood\u2019s just been really low, and it\u2019s hard to find any motivation most days. I know I\u2019ve dealt with depression before, but this time it just feels heavier\u2014especially with all these physical symptoms on top of it.\n\nIs it normal for depression to get worse when you\u2019re dealing with so many other health symptoms? And, um, is there anything I should be doing differently to help manage these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tearful"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low mood"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lack of motivation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "depression"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "depression getting worse with other health symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "ways to manage symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing how you\u2019ve been experiencing\u2014experiencing worsening depression and tearfulness is very understandable when you\u2019re also managing multiple physical symptoms. Based on your current symptoms and medical history, I\u2019d like to ask: have you noticed any changes in your sleep patterns or appetite that might further inform our assessment of your depressive symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening depression"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tearfulness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in sleep patterns"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in appetite"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 my sleep\u2019s definitely been off. I either can\u2019t fall asleep at all, or I wake up a lot during the night and just sort of lie there worrying. I feel tired all the time, even during the day. As for appetite, it\u2019s pretty low\u2014I just don\u2019t feel hungry much, and with the nausea and abdominal pain, eating is kind of a struggle lately.\n\nIs it common for depression to mess with your sleep and appetite like this? And with all these symptoms\u2014like the hypotension, fever, ascites, and everything\u2014do you think it could be something serious going on physically too? I just feel really overwhelmed and not sure what to focus on first.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sleep disturbance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "insomnia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "frequent waking at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "daytime tiredness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "depression affecting sleep and appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "serious physical illness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ascites"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s completely understandable to feel overwhelmed given the combination of physical and emotional symptoms you\u2019re experiencing. Based on your medical history and current symptoms\u2014including tearfulness, low mood, disrupted sleep, poor appetite, hypotension, fever, abdominal distension, and elevated glucose\u2014I am concerned about both a possible underlying medical condition and a worsening of your depression. Have you noticed any recent changes in your blood sugar control or insulin requirements that might be contributing to your overall symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tearfulness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low mood"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "disrupted sleep"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "elevated glucose"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "depression"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "recent changes in blood sugar control or insulin requirements"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, my blood sugars have been a lot harder to control lately. I\u2019ve noticed they\u2019re running higher than usual, even though I\u2019m trying to stick to my insulin regimen. Sometimes I feel like I need more insulin, but I\u2019m worried about overdoing it because of the low blood pressure and not eating much. It\u2019s just been really unpredictable, and I\u2019m not sure if it\u2019s all related to the fever and abdominal distension or what.\n\nIs it normal for symptoms like infection or, um, ascites to mess with blood sugar control this much? And with everything going on\u2014like the hypotension, fever, and worsening depression\u2014should I be in the hospital for this, or is there something else I should be doing at home? I just feel kind of lost about what to focus on first.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood sugars have been harder to control"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood sugars running higher than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "trying to stick to insulin regimen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "need more insulin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worried about overdoing insulin because of low blood pressure and not eating much"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unpredictable symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it normal for infection or ascites to affect blood sugar control?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be in the hospital or do something else at home?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening depression"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "feeling lost about what to focus on"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried and feel lost, especially with your symptoms affecting so many aspects of your health. Based on what you\u2019ve described\u2014persistent fever, hypotension, ascites, poor glycemic control, and worsening depression\u2014these symptoms could indicate a serious underlying medical condition, such as infection or decompensated organ function, that may require inpatient management. Have you noticed any changes in your mental status, such as confusion or difficulty concentrating, which could further guide my assessment of your current condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ascites"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor glycemic control"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening depression"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "serious underlying medical condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "decompensated organ function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "inpatient management"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in mental status (confusion or difficulty concentrating)"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, I have noticed I\u2019m more forgetful lately and it\u2019s harder to concentrate. Sometimes I\u2019ll just lose my train of thought or forget what I was about to do, which isn\u2019t really normal for me. I don\u2019t know if it\u2019s from all the stress and lack of sleep, or if it\u2019s something more serious like you said\u2014like infection or decompensated organ function. \n\nHonestly, with everything you\u2019ve mentioned\u2014persistent fever, hypotension, ascites, poor glycemic control, and now these changes in mental status\u2014I\u2019m starting to get really worried. Should I be admitted to the hospital for this? Is there something specific you\u2019re concerned about, like sepsis or liver symptoms? I just want to make sure I\u2019m doing the right thing and not missing something serious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "more forgetful lately"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to concentrate"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lose train of thought"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "forget what I was about to do"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I be admitted to the hospital?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is there something specific you\u2019re concerned about, like sepsis or liver symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with the combination of persistent fever, hypotension, ascites, poor glycemic control, and new changes in your mental status. Based on your symptoms and medical history, I am concerned about the possibility of a serious underlying condition such as sepsis or hepatic dysfunction, which can be life-threatening and require urgent inpatient assessment and treatment. Have you experienced any yellowing of your skin or eyes (jaundice), or noticed any unusual bruising or bleeding, which could indicate worsening liver function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent fever, hypotension, ascites, poor glycemic control, new changes in mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "sepsis or hepatic dysfunction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "urgent inpatient assessment and treatment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "yellowing of skin or eyes (jaundice), unusual bruising or bleeding"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 actually, now that you mention it, I think my skin might look a little more yellow than usual, especially around my eyes. I wasn\u2019t sure if I was imagining it, but I guess that could be jaundice? I haven\u2019t really noticed any unusual bruising or bleeding, though\u2014at least nothing out of the ordinary for me.\n\nThis is all starting to sound pretty serious. If it is something like sepsis or hepatic dysfunction, what happens next? Would I need to go to the hospital right away? And is there anything I should watch out for while I\u2019m waiting? I\u2019m just feeling really anxious about all of this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin might look a little more yellow than usual, especially around my eyes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no unusual bruising or bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "sepsis or hepatic dysfunction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Would I need to go to the hospital right away?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything I should watch out for while I\u2019m waiting?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with new symptoms like jaundice, persistent fever, hypotension, and changes in your mental status. Based on your current symptoms and medical history, I strongly recommend you assessk immediate hospital assessment for a thorough clinical evaluation and monitoring, as these findings may indicate sepsis or acute hepatic dysfunction. While you prepare to go, have you noticed any recent changes in your urine color or a significant decrease in urine output, which could further suggest organ involvement?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaundice"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medical-place",
+          "value": "hospital assessment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute hepatic dysfunction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine color"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decrease in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Um, yeah\u2026 actually, I have noticed my urine\u2019s been a lot darker than usual\u2014almost like a tea color. And now that you mention it, I think I\u2019ve been going less often, too. I just thought maybe it was because I haven\u2019t been drinking as much water, but now I\u2019m not so sure.\n\nI\u2019m definitely feeling pretty anxious about all of this. If it could be sepsis or acute hepatic dysfunction, should I go to the emergency room right now? Is there anything specific I should bring or tell them when I get there? And, um, is there anything I should watch out for on the way\u2014like if my symptoms get worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urination"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "acute hepatic dysfunction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medical-place",
+          "value": "emergency room"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what to bring or tell them at the ER"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what to watch out for if symptoms worsen"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with new symptoms like dark urine, decreased urine output, and persistent jaundice on top of your other findings. Based on your medical history and current symptoms\u2014including fever, hypotension, mental status changes, jaundice, and poor glycemic control\u2014I strongly recommend you proceed to the emergency department immediately for urgent clinical assessment and management. While en route, if you experience worsening shortness of breath, chest pain, severe confusion, or become unable to stay awake, please alert emergency services right away. When you arrive, let the medical team know about your recent symptoms, medical history, and all current medications. Have you had any recent laboratory assessments for liver or kidney function that you can bring with you?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent jaundice"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor glycemic control"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medical-place",
+          "value": "emergency department"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "alert emergency services if worsening shortness of breath, chest pain, severe confusion, or inability to stay awake"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "recent laboratory assessments for liver or kidney function"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Okay\u2026 thank you for explaining everything so clearly. I am feeling pretty anxious, but I understand why you\u2019re recommending I go to the emergency department right away. I\u2019ll make sure to mention all my symptoms\u2014like the fever, hypotension, mental status changes, jaundice, poor glycemic control, and the dark urine\u2014when I get there.\n\nUm, let me think\u2026 I did have some blood work done about a week ago, but I\u2019m not sure if it included liver or kidney function tests. I can try to bring any paperwork I have with me, just in case. Should I also bring my list of medications and allergies? And is there anything else I should tell them about\u2014like the suicidal ideation and depression symptoms? I just want to make sure I don\u2019t leave anything out.\n\nThank you for taking this seriously. Is there anything else I should do before heading over, or anything specific I should watch for on the way?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaundice"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor glycemic control"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "blood work"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "liver or kidney function tests"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "list of medications"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "allergies"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "suicidal ideation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "depression symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should do before heading over"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything specific I should watch for on the way"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I completely understand why you\u2019re experiencing anxious\u2014your symptoms and medical history do warrant urgent attention, and you\u2019re doing the right thing by assessking care promptly. Please bring any recent laboratory clinical findings, your complete list of medications and allergies, and be sure to inform the emergency department about all your current symptoms, including suicidal ideation and depression, as these are important for your comprehensive assessment and treatment plan. Before you leave, have you arranged for someone to accompany you or help communicate your medical history to the clinical team if needed?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "suicidal ideation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "depression"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "bring recent laboratory clinical findings, complete list of medications and allergies"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "inform emergency department about all current symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "arranged for someone to accompany or help communicate medical history"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 I think my daughter can drive me and come in with me to help explain everything, just in case I get overwhelmed or forget something. I\u2019ll make sure to bring my medication list, my allergies, and whatever lab results I can find from last week. I\u2019ll also let them know about the suicidal ideation and depression symptoms, like you said.\n\nIs there anything else I should mention to the emergency department\u2014like the abdominal distension, ascites, hypotension, or the changes in my mental status? And, um, should I expect to be admitted for a while if it turns out to be something like sepsis or hepatic dysfunction? I\u2019m just trying to prepare myself for what might happen next. Thank you for being so thorough\u2014I really appreciate it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medical-place",
+          "value": "emergency department"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "suicidal ideation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "depression symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ascites"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in mental status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should mention to the emergency department"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "hepatic dysfunction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "should I expect to be admitted for a while"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "You\u2019re taking all the right steps by preparing your medication list, allergies, recent laboratory clinical findings, and ensuring your daughter can accompany you and help communicate your medical history. Please be sure to mention all your symptoms\u2014including abdominal distension, ascites, hypotension, changes in mental status, and mood symptoms\u2014to the emergency department team, as these are critical for a thorough clinical assessment. Given your current clinical picture, it is likely that you may require hospital admission for close monitoring, further diagnostic evaluation, and treatment of possible sepsis or hepatic dysfunction. Before you leave, have you experienced any new chest pain or worsening shortness of breath since we last spoke?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Precaution",
+          "value": "prepare medication list, allergies, recent laboratory clinical findings"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "ensure daughter can accompany and help communicate medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Symptom",
+          "value": "mention all symptoms to emergency department team"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension, ascites, hypotension, changes in mental status, mood symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible sepsis or hepatic dysfunction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "hospital admission for close monitoring and further diagnostic evaluation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new chest pain or worsening shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 since we last spoke, I haven\u2019t had any new chest pain, but I do feel like my shortness of breath has gotten a little worse\u2014especially when I\u2019m moving around or trying to lie flat. It\u2019s not severe right now, but it is more noticeable than before. I\u2019ll make sure to mention that to the emergency department team, along with everything else you listed\u2014like the abdominal distension, ascites, hypotension, changes in mental status, and my mood symptoms.\n\nThank you for explaining what to expect and for being so thorough. I\u2019m still pretty anxious about all of this, but it helps to know what I should bring and what to tell them. Is there anything specific I should ask the emergency team about\u2014like certain tests or treatments for sepsis or hepatic dysfunction? And, um, is there anything my daughter should watch for while we\u2019re on the way, just in case my symptoms get worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worse with exertion and lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ascites"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in mental status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mood symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "tests for sepsis or hepatic dysfunction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "treatments for sepsis or hepatic dysfunction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what daughter should watch for if symptoms worsen on the way"
+        }
+      ]
+    }
+  ]
+}

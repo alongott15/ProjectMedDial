@@ -1,0 +1,745 @@
+{
+  "source_row_id": 3904,
+  "source_subject_id": 76797,
+  "source_hadm_id": 164212,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Good afternoon, thank you for coming in today. To help me better understand your condition, can you describe in your own words what symptoms you noticed this morning, particularly regarding any changes in your blood pressure or mental status?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Good afternoon, thank you for coming in today."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "symptoms you noticed this morning"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in your blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in your mental status"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 this morning I just felt really off. I think my blood pressure was quite low\u2014hypotension, I guess you\u2019d call it. I was a little worried because I felt kind of lightheaded and not quite myself. Should I be worried about that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "felt really off"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheaded"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about that?"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand your concern\u2014experiencing lightheaded and not quite yourself can be unsettling. In addition to the hypotension you mentioned, have you experienced any symptoms such as confusion, difficulty staying alert, or changes in your level of consciousness today?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheaded"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not quite yourself"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty staying alert"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in level of consciousness"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I think there was some altered mental status. I felt kind of confused at times, and it was hard to stay fully awake. It\u2019s not something that happens to me often, so I\u2019m a bit concerned about it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "altered mental status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty staying awake"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious about experiencing confused and having difficulty staying awake\u2014those symptoms can be quite concerning. To help with my assessment, have you noticed any episodes of your heart rate slowing down significantly, or has anyone mentioned that you appeared unusually pale during these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty staying awake"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "slow heart rate"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "appearing unusually pale"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, let me think\u2026 Actually, yes, someone did mention that I looked quite pale during one of those episodes. And I think my heart rate was slower than usual\u2014bradycardia, I believe it\u2019s called? It\u2019s a bit unsettling, but I\u2019m hopeful you\u2019ll be able to help me figure out what\u2019s going on.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pale appearance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bradycardia"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it helps guide my assessment. You mentioned experiencing somnolent and others noticing you appeared pale; have you experienced any additional symptoms such as shortness of breath, chest discomfort, or weakness during these episodes?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing these details\u2014it helps guide my assessment."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolent"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "appeared pale"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "weakness"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed much shortness of breath or chest discomfort, at least not more than usual for me. But I have felt pretty weak\u2014just sort of drained, you know? And actually, I\u2019ve been a bit more somnolent than usual, just wanting to sleep a lot. Also, I don\u2019t know if it\u2019s related, but I have a stage 2 sacral decubitus ulcer that\u2019s been bothering me lately. I\u2019m not sure if that could be connected to these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "stage 2 sacral decubitus ulcer"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "asking if ulcer could be connected to symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for mentioning your stage 2 sacral decubitus ulcer and the increased somnolence and weakness. To further guide my assessment, have you noticed any fever, chills, or signs of infection around the ulcer or elsewhere that might be contributing to your symptoms of altered mental status and appearing pale?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "stage 2 sacral decubitus ulcer"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "signs of infection around the ulcer"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "altered mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "appearing pale"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed any fever or chills, at least not that I can remember. The area around the ulcer looks a little red, but I\u2019m not sure if that\u2019s new or not. Actually, now that you mention it, there was a syncopal episode\u2014I think I lost consciousness for a short time. My family said I seemed to have altered mental status, or AMS, during that as well. It\u2019s all a bit fuzzy, honestly, but I\u2019m definitely concerned.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness around ulcer"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncopal episode"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "altered mental status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "concerned"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the episodes of altered mental status and appearing pale. To help with my assessment, have you noticed any changes in your urine, such as blood (hematuria) or cloudiness, which could indicate an underlying infection contributing to your current condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of altered mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "appearing pale"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "blood in urine (hematuria)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "cloudiness in urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "underlying infection contributing to current condition"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Actually, yes\u2014I have noticed some changes in my urine lately. It\u2019s looked a bit cloudy, and I think there was some blood in it, which I guess would be hematuria. I wasn\u2019t sure if it was something to worry about, but now that you mention infection, I wonder if that could be related to my symptoms. \n\nAlso, just to add, the somnolence and confusion have been pretty noticeable, and that one syncopal episode really scared me. Is it possible all of this could be connected? Should I be worried about something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cloudy urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematuria"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncopal episode"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "serious condition"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with symptoms like pale appearance, altered mental status, and hematuria. To help with my assessment, have you noticed any recent changes in your appetite, fluid intake, or signs of dehydration such as dry mouth or decreased urination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pale appearance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "altered mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematuria"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in fluid intake"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "signs of dehydration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dry mouth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decreased urination"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I think my appetite hasn\u2019t been great lately. I haven\u2019t really felt like eating much, and I might not be drinking as much water as I should. My mouth has felt a bit dry at times, and I\u2019ve noticed I haven\u2019t been urinating as often. When I do go, the urine looks cloudy\u2014so, pyuria, I think? And like I mentioned before, there\u2019s been hematuria too.\n\nAlso, someone examinationed my heart rate during one of those episodes and said it was in the 30s\u2014so definite bradycardia. That seems pretty low to me. With all these symptoms\u2014altered mental status, bradycardia, hematuria, and pyuria\u2014do you think this could be something serious? Is there a chance it\u2019s all connected?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not drinking much water"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry mouth"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urination"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cloudy urine (pyuria)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hematuria"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bradycardia (heart rate in the 30s)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "altered mental status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "serious condition/connection between symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s important for my assessment. Given your symptoms of pale appearance and altered mental status, have you experienced any recent episodes of dizziness or visual disturbances, such as blurred vision or assessing spots, during these events?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pale appearance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "altered mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "visual disturbances"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "blurred vision"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "seeing spots"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2014now that you mention it, I did have some dizziness before I lost consciousness during that syncopal episode. I remember feeling kind of woozy, and symptoms got a bit blurry right before I blacked out. I\u2019m not sure how long I was out, but when I came to, my family said my blood pressure was really low\u2014definitely hypotension. \n\nIt\u2019s all a bit unsettling, but I\u2019m hopeful you\u2019ll be able to help me figure out what\u2019s causing these symptoms. Do you think the low blood pressure and loss of consciousness could be related to the bradycardia and the other symptoms I\u2019ve mentioned?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "woozy feeling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blurred symptoms before blackout"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Are low blood pressure and loss of consciousness related to bradycardia and other symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms so clearly\u2014it\u2019s understandable to feel unsettled given the episodes of hypotension, bradycardia, altered mental status, and pale appearance. Based on your medical history and these symptoms, my assessment will focus on possible causes such as infection, cardiac arrhythmia, or dehydration. To further guide my evaluation, have you recently experienced any new or worsening shortness of breath or swelling in your legs, which could indicate changes in your heart function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for describing your symptoms so clearly\u2014it\u2019s understandable to feel unsettled"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of hypotension, bradycardia, altered mental status, and pale appearance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible causes such as infection, cardiac arrhythmia, or dehydration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening shortness of breath or swelling in your legs"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, thank you for explaining your assessment\u2014I appreciate you looking into all those possible causes. As for shortness of breath, I haven\u2019t noticed it being much worse than usual, and I don\u2019t think there\u2019s been any new swelling in my legs. My ankles sometimes get a bit puffy, but nothing out of the ordinary lately.\n\nActually, I did hear from the nurse that my hematocrit dropped from 35 to 28.9, so I guess that means I\u2019m a bit anemic now? Could that be making me feel more weak and pale? And with the dehydration\u2014since I haven\u2019t been eating or drinking much\u2014I wonder if that\u2019s making everything worse too.\n\nDo you think the anemia, dehydration, and all these other symptoms could be connected? Should I be worried about something serious going on with my heart or maybe an infection?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankles sometimes puffy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "hematocrit dropped from 35 to 28.9"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "anemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling weak and pale"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dehydration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "not eating or drinking much"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "connection between anemia, dehydration, and other symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "serious heart problem or infection"
+        }
+      ]
+    }
+  ]
+}

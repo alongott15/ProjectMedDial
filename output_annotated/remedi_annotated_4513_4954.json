@@ -1,0 +1,1170 @@
+{
+  "source_row_id": 4512,
+  "source_subject_id": 4954,
+  "source_hadm_id": 180830,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing neck swelling and pain with swallowing. Can you tell me more about when these symptoms started and if you\u2019ve noticed any changes since they began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain with swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Hi, um, yes\u2014thank you for seeing me. I\u2019ve noticed this swelling in my neck, and it\u2019s been kind of painful when I try to swallow. I\u2019m not exactly sure when it started, maybe a few days ago? I\u2019m just a bit worried about it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "painful when swallowing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "started a few days ago"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "worried about symptom"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious about these symptoms\u2014neck swelling and pain with swallowing can be concerning. To help guide my assessment, can you describe if the swelling has been getting larger, staying the same, or improving since you first noticed it?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain with swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "progression of swelling"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um, I think the swelling has maybe gotten a little bigger since I first noticed it. It\u2019s hard to tell, but it doesn\u2019t seem to be going down. And actually, I\u2019ve started having a bit of difficulty breathing too, which is making me more anxious. Should I be worried?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling has gotten bigger"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried?"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with the swelling getting larger and now having some difficulty breathing. To help me assess your symptoms more thoroughly, can you tell me if you\u2019ve experienced any changes in your voice, such as hoarseness or difficulty speaking, since the swelling began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling getting larger"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in voice such as hoarseness or difficulty speaking since the swelling began"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Yes, actually... now that you mention it, my voice has been kind of hoarse lately. It\u2019s not as strong as usual, and sometimes it feels like I have to clear my throat a lot. I thought maybe it was just from the pain with swallowing, but it\u2019s definitely been more noticeable since the neck swelling started. I\u2019m sorry, I just\u2014I\u2019m really anxious about all these symptoms happening at once.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hoarse voice"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weak voice"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "frequent throat clearing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain with swallowing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious with these symptoms happening together\u2014it\u2019s completely natural to be concerned. You mentioned difficulty swallowing; can you tell me if it\u2019s harder to swallow solids, liquids, or both, and whether anything assessms to make this symptom worse?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "whether it is harder to swallow solids, liquids, or both"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "whether anything makes the symptom worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Well, um, it\u2019s actually been hard to swallow both solids and liquids. I think it started with solids being more difficult, but now even drinking water feels uncomfortable and sometimes painful. It doesn\u2019t really seem to matter what I try to eat or drink\u2014it just feels like it gets stuck or is harder to get down. I\u2019m sorry, I know that\u2019s probably not a good sign. Should I be doing anything differently?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty swallowing solids and liquids"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "painful swallowing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sensation of food or drink getting stuck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be doing anything differently?"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I'm sorry you're experiencing so much discomfort with swallowing and your voice changes\u2014I know that must be very distressing. To help with my assessment, have you noticed any symptoms such as fever, chills, or night sweats along with the hoarse voice and difficulty swallowing solids?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um, let me think... I don\u2019t think I\u2019ve had a fever or chills, at least not that I\u2019ve noticed. I did have a pain throat a little while ago, but that seems to have gone away now. One other thing\u2014I\u2019ve noticed some blood in my urine recently. I\u2019m not sure if that\u2019s related, but it\u2019s been making me more anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sore throat (resolved)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood in urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with new symptoms like blood in your urine along with the hoarse voice and difficulty swallowing. To help with my assessment, have you experienced any shortness of breath, noisy breathing (such as stridor), or a sensation of your airway experiencing blocked since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood in urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hoarse voice"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "noisy breathing (stridor)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sensation of airway blockage"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yes, actually, I have had some shortness of breath, and sometimes it feels like my airway is kind of blocked or tight. Breathing in can be a little noisy at times\u2014I think that\u2019s what you called stridor? It\u2019s not constant, but it\u2019s definitely there, especially when the swelling feels worse.\n\nI remember from a previous episode, they mentioned something about supraglottic edema and edematous aretinoids. I\u2019m not sure if that\u2019s happening again, but it feels pretty similar. Should I be worried that this could get worse? And is there anything I should be watching out for, like signs that I need to get help right away?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "airway feels blocked or tight"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "noisy breathing (stridor)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "previous episode with supraglottic edema and edematous aretinoids"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried that this could get worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything I should be watching out for, like signs that I need to get help right away?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially given your history and the recurrence of these symptoms. To further guide my assessment, have you noticed any changes in your ability to speak or make sounds\u2014such as complete loss of voice or significant difficulty producing speech\u2014since the onset of your hoarse voice and difficulty swallowing solids?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recurrence of these symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ability to speak or make sounds, complete loss of voice, significant difficulty producing speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hoarse voice and difficulty swallowing solids"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um, I haven\u2019t completely lost my voice, but it\u2019s definitely harder to speak sometimes\u2014my voice gets really weak and raspy, and if I try to talk for too long it almost feels like I can\u2019t get the words out. It\u2019s not a total loss of voice, but it\u2019s definitely significant difficulty compared to my normal.\n\nActually, since you\u2019re asking about other symptoms, I wanted to mention something else that\u2019s been worrying me. I\u2019ve noticed multiple papular lesions with some hyperpigmentation over my lower back and abdomen, and there are satellite lesions extending over similar areas and even on my inner left thigh. There are also some healing areas of excoriation on my back. I\u2019m not sure if that\u2019s related to everything else, but it\u2019s new for me.\n\nShould I be concerned about these skin changes along with the neck swelling and airway symptoms? I just feel like everything is piling up at once, and it\u2019s making me really anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "voice gets weak and raspy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "significant difficulty speaking compared to normal"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "multiple papular lesions with hyperpigmentation over lower back and abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "satellite lesions on lower back, abdomen, and inner left thigh"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "healing areas of excoriation on back"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be concerned about these skin changes along with the neck swelling and airway symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "airway symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious with these new skin changes appearing alongside your hoarse voice and difficulty swallowing. To help with my assessment, have you experienced any fever, tenderness, or signs of infection\u2014such as redness, warmth, or discharge\u2014associated with these papular lesions on your skin?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "tenderness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "redness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "warmth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "discharge"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed any fever, and the lesions themselves aren\u2019t particularly tender or warm. There\u2019s no discharge that I can see, and I don\u2019t think there\u2019s much redness either\u2014mostly just the hyperpigmentation and the papular appearance you mentioned. Some of the spots on my back are healing from where I scratched them, but otherwise they don\u2019t seem infected.\n\nI guess I\u2019m just worried because it\u2019s all happening at once\u2014the neck swelling, the airway symptoms, and now these skin changes. Is it possible that this could be related to my history of amyloidosis or multiple myeloma? Or could it be something new? I\u2019m just feeling really anxious about what\u2019s going on with my body right now.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lesions not tender or warm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no discharge from lesions"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not much redness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hyperpigmentation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "papular appearance of lesions"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "spots on back healing from scratching"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lesions do not seem infected"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "airway symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "amyloidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "multiple myeloma"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": ""
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious with these new symptoms and your medical history of amyloidosis and multiple myeloma. Based on your description of progressive neck swelling, hoarse voice, difficulty swallowing both solids and liquids, airway symptoms, and new skin lesions, these findings are concerning for possible airway compromise and may also suggest a systemic process. For my assessment, have you experienced any recent changes in your mental status\u2014such as confusion, increased sleepiness, or difficulty staying alert\u2014since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "amyloidosis and multiple myeloma"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "progressive neck swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hoarse voice"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty swallowing both solids and liquids"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "airway symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "new skin lesions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible airway compromise"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "systemic process"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in mental status (confusion, increased sleepiness, difficulty staying alert)"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Actually, yes\u2014I have noticed some changes in my mental status lately. I\u2019ve been feeling a lot more sleepy than usual, almost like I can\u2019t keep my eyes open sometimes, and there have been moments where I feel kind of confused or not as alert as I normally am. My family mentioned I seem a bit \u201coff\u201d or not myself. \n\nI\u2019ve also had a headache that kind of radiates down into my neck, which is new for me. It\u2019s been making it even harder to focus or stay awake. \n\nWith all these symptoms\u2014neck swelling, airway symptoms, the skin lesions, and now the somnolence and altered mental status\u2014I\u2019m honestly really worried. Is this something that could get worse quickly? Should I be in the hospital for monitoring?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased sleepiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "altered mental status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headache radiating into neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty focusing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "airway symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin lesions"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Could this get worse quickly?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I be in the hospital for monitoring?"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious with all of these symptoms occurring together, especially given your medical history. Based on your clinical findings\u2014progressive neck swelling, hoarse voice, difficulty swallowing both solids and liquids, airway symptoms, skin lesions, and now altered mental status\u2014this constellation is concerning for a potentially serious systemic condition that may require urgent intervention. For my assessment, have you experienced any recent changes in your vision, balance, or memory in addition to the somnolence and headache you described?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "progressive neck swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hoarse voice"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty swallowing both solids and liquids"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "airway symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin lesions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "altered mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "potentially serious systemic condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in vision"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in balance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in memory"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "headache"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um, now that you mention it, I have noticed some changes in my vision\u2014symptoms seem a little blurry at times, and sometimes I feel like I\u2019m not seeing as clearly as usual. My balance has also been off; I\u2019ve felt a bit unsteady on my feet, almost like I could tip over if I\u2019m not careful. I\u2019m not sure if it\u2019s related to the headpain or just everything else going on, but it\u2019s definitely new for me.\n\nI\u2019m really anxious with all these symptoms happening together\u2014neck swelling, airway symptoms, skin lesions, somnolence, and now these changes in vision and balance. Is this something that could be related to my amyloidosis or multiple myeloma? Or could it be something else entirely? Should I be worried about this getting worse quickly? I just want to make sure I\u2019m doing the right thing by coming in.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blurry vision"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased visual clarity"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unsteady balance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headpain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "airway symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin lesions"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "amyloidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "multiple myeloma"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "other possible causes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be worried about this getting worse quickly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "am I doing the right thing by coming in"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious with so many new symptoms occurring together, especially given your medical history of amyloidosis and multiple myeloma. Based on your clinical presentation\u2014progressive neck swelling, airway symptoms, skin lesions, altered mental status, and now changes in vision and balance\u2014this constellation of symptoms is concerning for a potentially serious systemic condition that may require urgent intervention and close monitoring. For my assessment, have you experienced any recent episodes of chest pain, palpitations, or irregular heartbeat along with these other symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "amyloidosis and multiple myeloma"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "progressive neck swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "airway symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin lesions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "altered mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in vision"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in balance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "potentially serious systemic condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "urgent intervention and close monitoring"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent episodes of chest pain, palpitations, or irregular heartbeat"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um, I haven\u2019t really had chest pain, but now that you mention it, I have felt my heart racing a few times\u2014like palpitations, I guess. It\u2019s not all the time, but it does happen, especially when I\u2019m feeling more anxious or when the shortness of breath gets worse. I haven\u2019t noticed any irregular heartbeat that I can tell, but sometimes it just feels like my heart is beating faster than usual.\n\nAlso, I wanted to mention\u2014I\u2019ve definitely noticed some changes in my memory and alertness lately. I\u2019m having trouble remembering symptoms that just happened, and there are times when I feel kind of \u201cout of it\u201d or not as sharp as I usually am. My family has pointed out that I seem more forgetful and less alert, which isn\u2019t normal for me.\n\nWith all these symptoms\u2014neck swelling, airway symptoms, skin lesions, somnolence, headpain, changes in vision and balance, and now memory and alertness symptoms\u2014I\u2019m honestly really scared. Is this something that could be related to my amyloidosis or multiple myeloma coming back? Or could it be a side effect from my medications? Should I be preparing for something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart racing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in memory"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased alertness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "forgetfulness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "airway symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin lesions"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headpain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in vision"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in balance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "amyloidosis recurrence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "multiple myeloma recurrence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Side-effect",
+          "value": ""
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can completely understand why you\u2019re experiencing anxious with the combination of symptoms you\u2019ve described\u2014neck swelling, airway symptoms, skin lesions, changes in mental status, and palpitations\u2014especially given your medical history of amyloidosis and multiple myeloma. Based on your clinical presentation, this constellation of symptoms is concerning for a potentially serious systemic condition that may involve airway compromise, infection, or a recurrence of your underlying disease, and it absolutely warrants urgent medical attention and close monitoring in a hospital setting.\n\nMy recommendation is that you remain in a monitored environment where your airway, breathing, and neurological status can be closely observed, and where prompt interventions\u2014such as airway protection or further diagnostic evaluation\u2014can be provided if needed. To help guide further assessment, have you experienced any recent fevers, chills, or signs of infection elsewhere in your clinical examination that you haven\u2019t already mentioned?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck swelling, airway symptoms, skin lesions, changes in mental status, palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "amyloidosis, multiple myeloma"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "potentially serious systemic condition that may involve airway compromise, infection, or recurrence of underlying disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medical-place",
+          "value": "hospital setting, monitored environment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "close monitoring of airway, breathing, and neurological status; prompt interventions if needed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent fevers, chills, or signs of infection"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so clearly. I appreciate you taking the time to go through all my symptoms and concerns. Um, as far as fevers or chills, I really haven\u2019t noticed anything like that recently\u2014no shaking chills or feeling hot, and I haven\u2019t measured a fever at home. I also haven\u2019t seen any obvious signs of infection anywhere else on my body, besides the skin lesions we talked about, but those don\u2019t seem red or draining.\n\nI\u2019m just really anxious about all of this, especially with my history of amyloidosis and multiple myeloma. Is it possible that this is a recurrence, or could it be something new like an infection or a complication from my medications? And if it is airway compromise, what kinds of symptoms should I be watching for while I\u2019m here? I just want to make sure I\u2019m doing everything I can to stay safe.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining everything so clearly. I appreciate you taking the time to go through all my symptoms and concerns."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fevers or chills, no shaking chills, no feeling hot, haven\u2019t measured a fever at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no obvious signs of infection elsewhere on body"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin lesions not red or draining"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of amyloidosis and multiple myeloma"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is it possible that this is a recurrence, or could it be something new like an infection or a complication from my medications?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "If it is airway compromise, what kinds of symptoms should I be watching for while I\u2019m here?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "I\u2019m just really anxious about all of this"
+        }
+      ]
+    }
+  ]
+}

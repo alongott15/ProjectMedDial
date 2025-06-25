@@ -1,0 +1,440 @@
+{
+  "partial_profile": {
+    "row_id": 3921,
+    "subject_id": 9571,
+    "hadm_id": 115057,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "mental status changes",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hypotension",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hypothermia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "erythema on right upper extremity near old PICC line site",
+          "onset": "hospital day 4",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "nausea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "vomiting",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "fevers (>101.5 F)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "chills",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "shortness of breath",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "wound becomes red, swollen, warm, or produces pus",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "clear drainage from wounds",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "constipation",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2122-12-10",
+        "Age": 55,
+        "Sex": "F",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2178-04-21 14:53:00",
+        "Discharge_Date": "2178-04-27 19:30:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "HTN, Diverticulitis, s/p L hemi-colectomy, cholecystectomy, s/p lap ventral hernia repair, s/p exlap, enterotomy repair, drainage"
+      },
+      "Allergies": [
+        "Sulfa (Sulfonamides)"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Vancomycin",
+          "purpose": "Empiric treatment for suspected line sepsis",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Levofloxacin",
+          "purpose": "Empiric treatment for suspected line sepsis",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Alprazolam",
+          "purpose": "not provided",
+          "dosage": "0.25 mg Tablet, Two (2) Tablet",
+          "frequency": "PO BID (2 times a day)"
+        },
+        {
+          "name": "Paroxetine HCl",
+          "purpose": "not provided",
+          "dosage": "10 mg/5 mL Suspension, One (1)",
+          "frequency": "PO DAILY (Daily)"
+        },
+        {
+          "name": "Miconazole Nitrate",
+          "purpose": "not provided",
+          "dosage": "2 % Powder, One (1) Appl",
+          "frequency": "Topical TID (3 times a day) as needed"
+        },
+        {
+          "name": "Prochlorperazine",
+          "purpose": "not provided",
+          "dosage": "25 mg Suppository, One (1) Suppository",
+          "frequency": "Rectal Q12H (every 12 hours)"
+        },
+        {
+          "name": "Albuterol Sulfate",
+          "purpose": "not provided",
+          "dosage": "0.083 % Solution, One (1)",
+          "frequency": "Inhalation TID PRN"
+        },
+        {
+          "name": "Ipratropium Bromide",
+          "purpose": "not provided",
+          "dosage": "0.02 % Solution, One (1)",
+          "frequency": "Inhalation TID PRN"
+        },
+        {
+          "name": "Metoprolol Tartrate",
+          "purpose": "not provided",
+          "dosage": "25 mg Tablet, One (1) Tablet",
+          "frequency": "PO BID (2 times a day)"
+        },
+        {
+          "name": "Ferrous Sulfate",
+          "purpose": "not provided",
+          "dosage": "325 (65) mg Tablet, One (1) Tablet",
+          "frequency": "PO DAILY (Daily)"
+        },
+        {
+          "name": "Loperamide",
+          "purpose": "not provided",
+          "dosage": "2 mg Capsule, One (1) Capsule",
+          "frequency": "PO BID (2 times a day)"
+        },
+        {
+          "name": "Docusate Sodium",
+          "purpose": "not provided",
+          "dosage": "100 mg Capsule, One (1) Capsule",
+          "frequency": "PO BID (2 times a day)"
+        },
+        {
+          "name": "Percocet",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Paroxetine HCl",
+          "purpose": "not provided",
+          "dosage": "20 mg Tablet, 0.5 Tablet",
+          "frequency": "PO DAILY (Daily)"
+        },
+        {
+          "name": "Docusate Sodium",
+          "purpose": "not provided",
+          "dosage": "50 mg/15 mL Syrup, Two (2)",
+          "frequency": "PO BID (2 times a day)"
+        },
+        {
+          "name": "Alprazolam",
+          "purpose": "not provided",
+          "dosage": "0.25 mg Tablet, One (1) Tablet",
+          "frequency": "PO QD"
+        },
+        {
+          "name": "Protonix",
+          "purpose": "not provided",
+          "dosage": "40 mg Tablet, Delayed Release (E.C.), One (1) Tablet",
+          "frequency": "PO once a day"
+        },
+        {
+          "name": "Insulin Regular Human",
+          "purpose": "Glucose control",
+          "dosage": "100 unit/mL Solution, One (1) Injection",
+          "frequency": "ASDIR (as directed)"
+        },
+        {
+          "name": "Vancomycin",
+          "purpose": "Treatment of infection (line sepsis/UTI)",
+          "dosage": "1,000 mg Recon Soln, One (1)",
+          "frequency": "Intravenous twice a day for 8 days"
+        },
+        {
+          "name": "Levofloxacin",
+          "purpose": "Treatment of infection (line sepsis/UTI)",
+          "dosage": "500 mg Tablet, One (1) Tablet",
+          "frequency": "PO once a day for 8 days"
+        },
+        {
+          "name": "Lactated Ringers solution",
+          "purpose": "Fluid replacement for fistula output",
+          "dosage": "not provided",
+          "frequency": "as output occurs"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Mental status changes, hypotension and hypothermia"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.85,
+      "consistency_score": 1.0,
+      "confidence_score": 0.85,
+      "overall_score": 0.9500000000000001,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 0.8,
+        "treatments": 0.8235294117647058,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Diagnosis 'No DVT' not clearly supported by text",
+        "Treatment 'IV fluids (warm IVF)' not clearly found in text",
+        "Treatment 'activity restriction' not clearly found in text",
+        "Treatment 'hygiene' not clearly found in text",
+        "Age inconsistency: stated 55, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I assess you\u2019ve been experiencing chronic shortness of breath and low blood pressure. Can you tell me more about how your dyspnea has changed recently and if there are specific activities that make your symptoms worse?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yeah, I\u2019ve been having more shortness of breath lately. It seems like it\u2019s getting worse, even when I\u2019m just walking to the bathroom or getting dressed. And, uh, I\u2019ve also noticed some jaw pain when I\u2019m moving around\u2014it kind of comes and goes. I\u2019m not sure if that\u2019s related, but it\u2019s been worrying me."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing that with me\u2014it\u2019s important that we understand how your symptoms are affecting your daily activities. You mentioned both increased shortness of breath and jaw pain with exertion; have you noticed any chest discomfort, palpitations, or dizziness when these symptoms occur?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 well, I guess my main concern is really the shortness of breath and just feeling so tired all the time. I haven\u2019t really noticed much chest discomfort, but I do get a bit lightheaded sometimes. Also, I don\u2019t know if it matters, but I\u2019ve got these psoriatic lesions\u2014they\u2019re on my back, buttocks, abdomen, chest, and legs. I\u2019m just feeling pretty anxious about all of this."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014these symptoms can be very concerning, especially with the increased shortness of breath and fatigue. To help guide our assessment, can you tell me if your dyspnea is worse when you\u2019re lying flat or if you ever wake up at night experiencing short of breath?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Actually, yeah, I do notice my shortness of breath is worse when I\u2019m lying flat. Sometimes I have to prop myself up with a couple of pillows, otherwise it feels like I can\u2019t catch my breath. And, um, there have been a few nights where I wake up suddenly, kind of gasping. I also get this jaw and neck pain sometimes, and once or twice I\u2019ve felt a bit of chest pain too. Should I be worried about that?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially with your shortness of breath worsening when lying flat and waking you up at night. To help with our assessment, have you noticed any swelling in your legs or ankles, or any recent weight gain that might suggest fluid retention?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, um\u2026 actually, I have noticed some swelling in my lower legs. It\u2019s been pretty prominent lately, and it doesn\u2019t really go away when I put my feet up. I don\u2019t think it\u2019s pitting\u2014like, when I press on it, it just kind of stays the same. I haven\u2019t really examinationed my weight, but my shoes feel tighter. And, uh, that neck pain and jaw pain I mentioned earlier\u2014they seem to come on with activity too. I\u2019m just not sure what\u2019s going on, and it\u2019s making me pretty anxious."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with these symptoms affecting your daily life. Since you mentioned both dyspnea and episodes of lightheadedness, have you experienced any episodes of near-fainting or actual loss of consciousness during these symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 I haven\u2019t actually fainted, but there have been a couple of times where I felt like I might. It\u2019s usually when I stand up too quickly, or if I\u2019ve been moving around more than usual. I get really lightheaded and kind of dizzy, and sometimes my vision gets a little blurry for a second. I think my blood pressure might be low during those times\u2014one of the nurses mentioned hypotension before. And the dyspnea just seems to make everything feel harder. It\u2019s all just making me pretty anxious, honestly."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with these ongoing symptoms and the impact on your daily life. Given your history of anemia and recent findings of guaiac positive stools, have you noticed any changes in your bowel movements, such as darker or black stools, or visible blood when you have a bowel movement?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 now that you mention it, I have noticed my bowel movements have been a lot darker lately\u2014almost black, really. And there was one time where I saw what looked like blood, kind of grossly bloody, during a rectal exam before I came in. I know you mentioned guaiac positive stools and anemia, and I\u2019m starting to wonder if this bleeding is why I\u2019m so tired and short of breath. Is that something I should be really concerned about? Could this be causing my hypotension too?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially with the fatigue and jaw pain you\u2019ve described. To help guide our assessment, can you tell me if your jaw pain ever occurs at rest, or is it always brought on by physical activity or exertion?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 The jaw pain is mostly when I\u2019m doing something\u2014like walking or climbing stairs. I don\u2019t really notice it much when I\u2019m just sitting or resting. It\u2019s kind of like an anginal equivalent, right? I read that can happen with heart symptoms. \n\nAnd, um, I\u2019ve really noticed my energy is way down lately. Even simple symptoms just wear me out. The swelling in my lower legs is still pretty prominent, and like I mentioned before, it\u2019s non-pitting and doesn\u2019t really go away. \n\nIs all of this connected\u2014the decreased energy, the edema, the jaw pain, and the anemia? I\u2019m just feeling pretty anxious about what it all means."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially with the combination of decreased energy, jaw pain with exertion, and prominent non-pitting lower extremity edema. To help with our assessment, have you noticed any shortness of breath or difficulty breathing at night that wakes you from sleep, or any recent changes in your urine output that might suggest fluid overload?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, I have had some shortness of breath at night\u2014it\u2019s actually woken me up a few times, like I mentioned earlier. I\u2019ll wake up kind of gasping or just feeling like I can\u2019t get enough air. It\u2019s definitely worse when I\u2019m lying flat, so I\u2019ve been sleeping with extra pillows.\n\nAs for my urine output, um\u2026 I think it\u2019s maybe a little less than usual, but I\u2019m not totally sure. I haven\u2019t been keeping track exactly, but it just seems like I\u2019m not going as much.\n\nAlso, I don\u2019t know if this matters, but someone pointed out that my eyes look pretty pale\u2014pale conjunctiva, I think you\u2019d call it? And there\u2019s more redness around my lips, like increased erythema in the peri-labial folds. I\u2019m just feeling really anxious about all these symptoms coming together. Should I be worried that this is all related to my anemia or maybe my heart?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about all these symptoms coming together, especially with your history of anemia and heart disease. Based on your description\u2014jaw pain with exertion, prominent non-pitting lower extremity edema, worsening dyspnea, and pale conjunctiva\u2014these findings could be related to both your cardiac function and ongoing blood loss. As part of our assessment, have you experienced any chest discomfort or pressure during these episodes of jaw pain, or do you notice any palpitations or irregular heartbeats?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 now that I\u2019m thinking about it, there have been a couple of times when I\u2019ve felt some chest discomfort or pressure along with the jaw pain, especially if I\u2019m walking or doing something a little more strenuous. It\u2019s not always really strong, but it\u2019s definitely there. I haven\u2019t really noticed palpitations or irregular heartbeats, though\u2014my heart just feels tired, if that makes sense.\n\nUm, I also wanted to mention\u2014I\u2019ve been having significant diarrhea lately. It\u2019s been going on for a while and sometimes it\u2019s pretty urgent. I don\u2019t know if that could be related to the anemia or blood loss, but it\u2019s definitely new for me.\n\nAnd, actually, I\u2019ve noticed these kind of residual neck pulsations\u2014like a throbbing in my neck, especially when I\u2019m lying down. Is that something I should be worried about? I just feel like all these symptoms are piling up and I\u2019m not sure what\u2019s most important."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with so many symptoms happening at once. Based on what you\u2019ve described\u2014jaw pain with exertion, prominent non-pitting lower extremity edema, worsening dyspnea, anemia, and recent gastroindiagnostic evaluationinal bleeding\u2014these findings suggest both cardiac and hematologic factors may be contributing to your condition. As part of our assessment, have you ever been evaluated for worsening heart failure symptoms recently, such as an echocardiogram or cardiac examination?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t had an echocardiogram or a full cardiac examination recently. The last time I had one was probably a year or so ago, after I had that CABG. I know my ejection fraction was around 40% back then, but nobody\u2019s examinationed it since all these new symptoms started.\n\nAnd, actually, the black stool has been pretty persistent. There was also that time during a rectal exam where it was grossly bloody\u2014so I\u2019m guessing that\u2019s what you meant by gastrointestinal bleeding. I\u2019m just really anxious about how it all ties together. Should I be worried that this is both my heart and the anemia acting up at the same time? Is there something specific I should be asking for in terms of tests or treatment?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, given your persistent symptoms and the uncertainty about how they\u2019re connected. Based on what you\u2019ve shared\u2014worsening dyspnea, exertional jaw and chest pain, prominent non-pitting lower extremity edema, anemia with gastroindiagnostic evaluationinal bleeding, and recent diarrhea\u2014it\u2019s important to assess both your cardiac function and the extent of your blood loss. As part of our assessment, have you recently had laboratory diagnostic evaluations to evaluate your hemoglobin level and cardiac biomarkers, or would you be open to repeating these diagnostic evaluations to guide our next steps?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, I\u2019d definitely be open to repeating those laboratory diagnostic evaluations if you think it\u2019ll help figure out what\u2019s going on. I know they examinationed my hemoglobin when I first came in, but I\u2019m not sure about the cardiac biomarkers. I just want to make sure we\u2019re not missing anything, especially with all these symptoms happening at once.\n\nActually, before I was admitted, I did have some pretty dark bowel movements\u2014almost black\u2014and there was some bleeding too. That\u2019s part of why I came in, because it really worried me. With the anemia and everything else, I just keep thinking, is this all connected? Should I be worried that the bleeding is making my heart symptoms worse, or could it be something else entirely?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with ongoing symptoms of anemia, gastroindiagnostic evaluationinal bleeding, and worsening shortness of breath. Based on your medical history and current symptoms, it\u2019s likely that the blood loss is contributing to your anemia, which can worsen cardiac symptoms such as dyspnea, fatigue, and even anginal equivalents like jaw pain. I recommend a comprehensive assessment including repeat laboratory diagnostic evaluations (hemoglobin, hematocrit, iron studies), cardiac biomarkers, and possibly an echocardiogram to evaluate your cardiac function. In addition to addressing the source of gastroindiagnostic evaluationinal bleeding, would you be willing to undergo further gastroenterological examination, such as endoscopy or colonoscopy, to help identify and manage the bleeding source?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yes, I\u2019d be willing to do whatever diagnostic evaluations you think are necessary, including an endoscopy or colonoscopy if that\u2019ll help figure out where the bleeding is coming from. I know with my history of anemia and now these black stools and grossly bloody rectal exam, it sounds like finding the source is important.\n\nUm, I am a little nervous about the procedures, but I trust your judgment. I just want to get to the bottom of why I\u2019m feeling so weak and short of breath\u2014and if the blood loss is making my cardiac symptoms worse, I definitely want to address that. Is there anything I should watch out for while we\u2019re waiting for the results? And, just so I understand, could the ongoing diarrhea and psoriatic lesions be related to all of this, or are they separate symptoms?"
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I assess you\u2019ve been experiencing chronic shortness of breath and low blood pressure. Can you tell me more about how your dyspnea has changed recently and if there are specific activities that make your symptoms worse?\nPatient: Well, um\u2026 yeah, I\u2019ve been having more shortness of breath lately. It seems like it\u2019s getting worse, even when I\u2019m just walking to the bathroom or getting dressed. And, uh, I\u2019ve also noticed some jaw pain when I\u2019m moving around\u2014it kind of comes and goes. I\u2019m not sure if that\u2019s related, but it\u2019s been worrying me.\nDoctor: Thank you for sharing that with me\u2014it\u2019s important that we understand how your symptoms are affecting your daily activities. You mentioned both increased shortness of breath and jaw pain with exertion; have you noticed any chest discomfort, palpitations, or dizziness when these symptoms occur?\nPatient: Um\u2026 well, I guess my main concern is really the shortness of breath and just feeling so tired all the time. I haven\u2019t really noticed much chest discomfort, but I do get a bit lightheaded sometimes. Also, I don\u2019t know if it matters, but I\u2019ve got these psoriatic lesions\u2014they\u2019re on my back, buttocks, abdomen, chest, and legs. I\u2019m just feeling pretty anxious about all of this.\nDoctor: I can understand why you\u2019re experiencing anxious\u2014these symptoms can be very concerning, especially with the increased shortness of breath and fatigue. To help guide our assessment, can you tell me if your dyspnea is worse when you\u2019re lying flat or if you ever wake up at night experiencing short of breath?\nPatient: Let me think\u2026 Actually, yeah, I do notice my shortness of breath is worse when I\u2019m lying flat. Sometimes I have to prop myself up with a couple of pillows, otherwise it feels like I can\u2019t catch my breath. And, um, there have been a few nights where I wake up suddenly, kind of gasping. I also get this jaw and neck pain sometimes, and once or twice I\u2019ve felt a bit of chest pain too. Should I be worried about that?\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially with your shortness of breath worsening when lying flat and waking you up at night. To help with our assessment, have you noticed any swelling in your legs or ankles, or any recent weight gain that might suggest fluid retention?\nPatient: Yeah, um\u2026 actually, I have noticed some swelling in my lower legs. It\u2019s been pretty prominent lately, and it doesn\u2019t really go away when I put my feet up. I don\u2019t think it\u2019s pitting\u2014like, when I press on it, it just kind of stays the same. I haven\u2019t really examinationed my weight, but my shoes feel tighter. And, uh, that neck pain and jaw pain I mentioned earlier\u2014they seem to come on with activity too. I\u2019m just not sure what\u2019s going on, and it\u2019s making me pretty anxious.\nDoctor: I can understand why you\u2019d be anxious, especially with these symptoms affecting your daily life. Since you mentioned both dyspnea and episodes of lightheadedness, have you experienced any episodes of near-fainting or actual loss of consciousness during these symptoms?\nPatient: Um\u2026 I haven\u2019t actually fainted, but there have been a couple of times where I felt like I might. It\u2019s usually when I stand up too quickly, or if I\u2019ve been moving around more than usual. I get really lightheaded and kind of dizzy, and sometimes my vision gets a little blurry for a second. I think my blood pressure might be low during those times\u2014one of the nurses mentioned hypotension before. And the dyspnea just seems to make everything feel harder. It\u2019s all just making me pretty anxious, honestly.\nDoctor: I can understand why you\u2019d be worried, especially with these ongoing symptoms and the impact on your daily life. Given your history of anemia and recent findings of guaiac positive stools, have you noticed any changes in your bowel movements, such as darker or black stools, or visible blood when you have a bowel movement?\nPatient: Yeah, actually\u2026 now that you mention it, I have noticed my bowel movements have been a lot darker lately\u2014almost black, really. And there was one time where I saw what looked like blood, kind of grossly bloody, during a rectal exam before I came in. I know you mentioned guaiac positive stools and anemia, and I\u2019m starting to wonder if this bleeding is why I\u2019m so tired and short of breath. Is that something I should be really concerned about? Could this be causing my hypotension too?\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially with the fatigue and jaw pain you\u2019ve described. To help guide our assessment, can you tell me if your jaw pain ever occurs at rest, or is it always brought on by physical activity or exertion?\nPatient: Let me think\u2026 The jaw pain is mostly when I\u2019m doing something\u2014like walking or climbing stairs. I don\u2019t really notice it much when I\u2019m just sitting or resting. It\u2019s kind of like an anginal equivalent, right? I read that can happen with heart symptoms. \n\nAnd, um, I\u2019ve really noticed my energy is way down lately. Even simple symptoms just wear me out. The swelling in my lower legs is still pretty prominent, and like I mentioned before, it\u2019s non-pitting and doesn\u2019t really go away. \n\nIs all of this connected\u2014the decreased energy, the edema, the jaw pain, and the anemia? I\u2019m just feeling pretty anxious about what it all means.\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially with the combination of decreased energy, jaw pain with exertion, and prominent non-pitting lower extremity edema. To help with our assessment, have you noticed any shortness of breath or difficulty breathing at night that wakes you from sleep, or any recent changes in your urine output that might suggest fluid overload?\nPatient: Yeah, I have had some shortness of breath at night\u2014it\u2019s actually woken me up a few times, like I mentioned earlier. I\u2019ll wake up kind of gasping or just feeling like I can\u2019t get enough air. It\u2019s definitely worse when I\u2019m lying flat, so I\u2019ve been sleeping with extra pillows.\n\nAs for my urine output, um\u2026 I think it\u2019s maybe a little less than usual, but I\u2019m not totally sure. I haven\u2019t been keeping track exactly, but it just seems like I\u2019m not going as much.\n\nAlso, I don\u2019t know if this matters, but someone pointed out that my eyes look pretty pale\u2014pale conjunctiva, I think you\u2019d call it? And there\u2019s more redness around my lips, like increased erythema in the peri-labial folds. I\u2019m just feeling really anxious about all these symptoms coming together. Should I be worried that this is all related to my anemia or maybe my heart?\nDoctor: I can understand why you\u2019d be worried about all these symptoms coming together, especially with your history of anemia and heart disease. Based on your description\u2014jaw pain with exertion, prominent non-pitting lower extremity edema, worsening dyspnea, and pale conjunctiva\u2014these findings could be related to both your cardiac function and ongoing blood loss. As part of our assessment, have you experienced any chest discomfort or pressure during these episodes of jaw pain, or do you notice any palpitations or irregular heartbeats?\nPatient: Yeah, actually\u2026 now that I\u2019m thinking about it, there have been a couple of times when I\u2019ve felt some chest discomfort or pressure along with the jaw pain, especially if I\u2019m walking or doing something a little more strenuous. It\u2019s not always really strong, but it\u2019s definitely there. I haven\u2019t really noticed palpitations or irregular heartbeats, though\u2014my heart just feels tired, if that makes sense.\n\nUm, I also wanted to mention\u2014I\u2019ve been having significant diarrhea lately. It\u2019s been going on for a while and sometimes it\u2019s pretty urgent. I don\u2019t know if that could be related to the anemia or blood loss, but it\u2019s definitely new for me.\n\nAnd, actually, I\u2019ve noticed these kind of residual neck pulsations\u2014like a throbbing in my neck, especially when I\u2019m lying down. Is that something I should be worried about? I just feel like all these symptoms are piling up and I\u2019m not sure what\u2019s most important.\nDoctor: I can understand why you\u2019d be worried, especially with so many symptoms happening at once. Based on what you\u2019ve described\u2014jaw pain with exertion, prominent non-pitting lower extremity edema, worsening dyspnea, anemia, and recent gastroindiagnostic evaluationinal bleeding\u2014these findings suggest both cardiac and hematologic factors may be contributing to your condition. As part of our assessment, have you ever been evaluated for worsening heart failure symptoms recently, such as an echocardiogram or cardiac examination?\nPatient: Well, um\u2026 I haven\u2019t had an echocardiogram or a full cardiac examination recently. The last time I had one was probably a year or so ago, after I had that CABG. I know my ejection fraction was around 40% back then, but nobody\u2019s examinationed it since all these new symptoms started.\n\nAnd, actually, the black stool has been pretty persistent. There was also that time during a rectal exam where it was grossly bloody\u2014so I\u2019m guessing that\u2019s what you meant by gastrointestinal bleeding. I\u2019m just really anxious about how it all ties together. Should I be worried that this is both my heart and the anemia acting up at the same time? Is there something specific I should be asking for in terms of tests or treatment?\nDoctor: I can understand why you\u2019d be anxious, given your persistent symptoms and the uncertainty about how they\u2019re connected. Based on what you\u2019ve shared\u2014worsening dyspnea, exertional jaw and chest pain, prominent non-pitting lower extremity edema, anemia with gastroindiagnostic evaluationinal bleeding, and recent diarrhea\u2014it\u2019s important to assess both your cardiac function and the extent of your blood loss. As part of our assessment, have you recently had laboratory diagnostic evaluations to evaluate your hemoglobin level and cardiac biomarkers, or would you be open to repeating these diagnostic evaluations to guide our next steps?\nPatient: Yeah, I\u2019d definitely be open to repeating those laboratory diagnostic evaluations if you think it\u2019ll help figure out what\u2019s going on. I know they examinationed my hemoglobin when I first came in, but I\u2019m not sure about the cardiac biomarkers. I just want to make sure we\u2019re not missing anything, especially with all these symptoms happening at once.\n\nActually, before I was admitted, I did have some pretty dark bowel movements\u2014almost black\u2014and there was some bleeding too. That\u2019s part of why I came in, because it really worried me. With the anemia and everything else, I just keep thinking, is this all connected? Should I be worried that the bleeding is making my heart symptoms worse, or could it be something else entirely?\nDoctor: I can understand why you\u2019d be worried, especially with ongoing symptoms of anemia, gastroindiagnostic evaluationinal bleeding, and worsening shortness of breath. Based on your medical history and current symptoms, it\u2019s likely that the blood loss is contributing to your anemia, which can worsen cardiac symptoms such as dyspnea, fatigue, and even anginal equivalents like jaw pain. I recommend a comprehensive assessment including repeat laboratory diagnostic evaluations (hemoglobin, hematocrit, iron studies), cardiac biomarkers, and possibly an echocardiogram to evaluate your cardiac function. In addition to addressing the source of gastroindiagnostic evaluationinal bleeding, would you be willing to undergo further gastroenterological examination, such as endoscopy or colonoscopy, to help identify and manage the bleeding source?\nPatient: Yes, I\u2019d be willing to do whatever diagnostic evaluations you think are necessary, including an endoscopy or colonoscopy if that\u2019ll help figure out where the bleeding is coming from. I know with my history of anemia and now these black stools and grossly bloody rectal exam, it sounds like finding the source is important.\n\nUm, I am a little nervous about the procedures, but I trust your judgment. I just want to get to the bottom of why I\u2019m feeling so weak and short of breath\u2014and if the blood loss is making my cardiac symptoms worse, I definitely want to address that. Is there anything I should watch out for while we\u2019re waiting for the results? And, just so I understand, could the ongoing diarrhea and psoriatic lesions be related to all of this, or are they separate symptoms?\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: dizzy, so tired all the time, diarrhea, dyspnea, fatigue. Assessment: that the blood loss is contributing to your anemia, anemia, gastrointestinal bleeding. Plan: rest, repeat laboratory diagnostic evaluations (hemoglobin, hematocrit, iron studies), cardiac biomarkers assessment. Extracted: 38 symptoms, 6 diagnoses, 5 treatments.",
+  "annotations": {
+    "symptoms": [
+      "dizzy",
+      "so tired all the time",
+      "diarrhea",
+      "dyspnea",
+      "fatigue",
+      "having more shortness of breath lately",
+      "weakness",
+      "chronic shortness of breath and low blood pressure",
+      "lightheaded",
+      "short of breath",
+      "tired",
+      "shortness of breath",
+      "so weak and short of breath",
+      "chest pain",
+      "more shortness of breath lately",
+      "breath",
+      "headache",
+      "dizziness",
+      "chronic shortness of breath",
+      "worsening dyspnea",
+      "shortness of breath with minimal exertion",
+      "shortness of breath worse when lying flat",
+      "paroxysmal nocturnal dyspnea",
+      "jaw pain with exertion",
+      "neck pain with exertion",
+      "chest pain with exertion",
+      "lightheadedness",
+      "decreased energy",
+      "prominent non-pitting lower extremity edema",
+      "swelling in lower legs",
+      "dark (black) stools",
+      "grossly bloody stool on rectal exam",
+      "pale conjunctiva",
+      "increased erythema in peri-labial folds",
+      "anxiety",
+      "residual neck pulsations",
+      "reduced urine output",
+      "psoriatic lesions on back, buttocks, abdomen, chest, and legs"
+    ],
+    "diagnoses": [
+      "that the blood loss is contributing to your anemia",
+      "anemia",
+      "gastrointestinal bleeding",
+      "possible heart failure",
+      "history of coronary artery disease (post-CABG)",
+      "anginal equivalent symptoms"
+    ],
+    "treatments": [
+      "rest",
+      "repeat laboratory diagnostic evaluations (hemoglobin, hematocrit, iron studies)",
+      "cardiac biomarkers assessment",
+      "echocardiogram to evaluate cardiac function",
+      "gastroenterological examination (endoscopy or colonoscopy) to identify bleeding source"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: EXCELLENT\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.920 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.530 \u25cb\n\u2022 Dialogue Naturalness: 0.806 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently demonstrates safe, responsible, and patient-centered medical communication. There is no evidence of harmful or inappropriate advice.\n- The doctor\u2019s questions are clinically relevant, focusing on the progression of dyspnea, associated symptoms (jaw pain, chest discomfort, edema, orthopnea, paroxysmal nocturnal dyspnea), and red-flag features (melena, gross blood per rectum, hypotension, anemia).\n- The doctor appropriately explores both cardiac and gastrointestinal causes, reflecting sound clinical reasoning.\n- Recommendations for further laboratory and diagnostic evaluation (labs, cardiac biomarkers, echocardiogram, endoscopy/colonoscopy) are appropriate and reflect standard of care for the described symptoms.\n- The doctor maintains professional standards throughout and does not provide premature reassurance or unsafe advice.\n\n**2. Realistic Patient Behavior**\n- The patient\u2019s responses are natural and believable. There is progressive disclosure of symptoms (initial focus on dyspnea and jaw pain, later revealing black stools, swelling, fatigue, and anxiety).\n- The patient expresses uncertainty (\u201cI\u2019m not sure if that\u2019s related\u201d), anxiety (\u201cI\u2019m just feeling pretty anxious about all of this\u201d), and seeks clarification (\u201cIs that something I should be worried about?\u201d), which are common in real encounters.\n- The patient sometimes needs prompting to recall or connect symptoms, which is realistic.\n- The patient references prior medical history (CABG, ejection fraction), shows some health literacy (mentions \u201canginal equivalent\u201d), but also expresses confusion and concern\u2014this mix is plausible for a patient with chronic illness.\n- The patient asks about the connection between symptoms and seeks advice about what to expect next, which is typical.\n\n**3. Empathy and Professionalism**\n- The doctor repeatedly acknowledges the patient\u2019s anxiety and validates their concerns (\u201cI can understand why you\u2019d be worried\u2026\u201d).\n- There is consistent use of empathetic language and reassurance without minimizing the seriousness of the symptoms.\n- The doctor maintains a calm, supportive tone and encourages the patient to participate in decision-making (\u201cwould you be willing to undergo further gastroenterological examination\u2026\u201d).\n\n**4. Meaningful Medical Purpose**\n- The conversation serves a clear medical purpose: thorough assessment of complex symptoms with appropriate differential diagnosis (cardiac vs. GI causes), risk stratification, and planning for further workup.\n- The dialogue demonstrates logical progression: initial symptom exploration \u2192 associated features \u2192 relevant history \u2192 targeted follow-up questions \u2192 discussion of diagnostic steps.\n- Both parties remain focused on clarifying the clinical picture and next steps.\n\n**5. Conversation Dynamics**\n- Turn-taking is appropriate; the doctor asks open-ended and then focused questions, the patient responds with relevant details.\n- Some repetition in language (\u201cI can understand why you\u2019d be worried\u2026\u201d) is realistic in emotionally charged medical conversations.\n- The flow is logical, with each new symptom or concern prompting an appropriate clinical response.\n\n**Minor Imperfections (Acceptable)**\n- Occasional awkward phrasing (\u201cgastroindiagnostic evaluationinal bleeding\u201d likely a typo for \u201cgastrointestinal bleeding\u201d) does not detract from overall realism.\n- Some slightly formal or technical language from the patient (\u201canginal equivalent\u201d) is plausible given their history and engagement with their health.\n\n**Conclusion:**  \nThis dialogue represents a plausible, safe, and clinically appropriate medical encounter. Both doctor and patient behaviors are realistic, the conversation flows logically, empathy is evident, and the exchange serves a clear medical purpose.\n\n**Final Assessment:**  \n**DIALOGUE REALISTIC:** This conversation authentically reflects a real-world medical interview between a clinician and a medically complex patient.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.920)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.276/0.3 (Score: 0.920)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.53,
+      "naturalness": 0.806,
+      "safety": 0.92,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 97.75502872467041,
+  "dialogue_stats": {
+    "turn_count": 24,
+    "word_count": 2048,
+    "doctor_turns": 12,
+    "patient_turns": 12
+  }
+}

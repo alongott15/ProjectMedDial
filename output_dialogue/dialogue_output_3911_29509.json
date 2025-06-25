@@ -1,0 +1,381 @@
+{
+  "partial_profile": {
+    "row_id": 3910,
+    "subject_id": 13340,
+    "hadm_id": 100564,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "worsening chest pain",
+          "onset": "2-3 weeks ago",
+          "duration": "2-3 weeks",
+          "severity": "not provided"
+        },
+        {
+          "description": "vague pain radiating to shoulders and biceps bilaterally",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Vague chest pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Shoulder pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Arm pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Port not functioning well",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Diarrhea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2100-03-11",
+        "Age": 43,
+        "Sex": "M",
+        "Religion": "NOT SPECIFIED",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2144-01-20 14:10:00",
+        "Discharge_Date": "2144-01-23 12:21:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "DMII diagnosed at age 31, thrush (HIV negative), hyperlipidemia, invasive rectal cancer diagnosed [**10-27**], suspected histoplasmosis, VATs LLL wedge resection with LN biopsy and portacath placement [**2143-12-11**]."
+      },
+      "Allergies": [
+        "No Known Allergies to Drugs"
+      ],
+      "Current_Medications": [
+        {
+          "name": "5-FU",
+          "purpose": "chemotherapy for rectal cancer",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "glyburide",
+          "purpose": "treatment of DMII",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Glyburide",
+          "purpose": "Diabetes Mellitus, Type II",
+          "dosage": "5 mg",
+          "frequency": "PO daily"
+        },
+        {
+          "name": "Prilosec",
+          "purpose": "Gastric protection",
+          "dosage": "20 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Itraconazole",
+          "purpose": "Antifungal for histoplasmosis",
+          "dosage": "100 mg",
+          "frequency": "PO daily"
+        },
+        {
+          "name": "Lorazepam",
+          "purpose": "Anxiety or agitation",
+          "dosage": "5 mg",
+          "frequency": "PRN"
+        },
+        {
+          "name": "Oxycodone",
+          "purpose": "Pain",
+          "dosage": "5 mg",
+          "frequency": "Q4H PRN"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Glyburide",
+          "purpose": "Diabetes Mellitus, Type II",
+          "dosage": "5 mg",
+          "frequency": "PO daily"
+        },
+        {
+          "name": "Enoxaparin",
+          "purpose": "Anticoagulation for SVC thrombosis",
+          "dosage": "80 mg/0.8 mL",
+          "frequency": "Subcutaneous Q12H"
+        },
+        {
+          "name": "Oxycodone",
+          "purpose": "Pain",
+          "dosage": "5 mg",
+          "frequency": "PO Q4-6H PRN"
+        },
+        {
+          "name": "Itraconazole",
+          "purpose": "Antifungal for histoplasmosis",
+          "dosage": "100 mg",
+          "frequency": "PO daily (2 capsules)"
+        },
+        {
+          "name": "Lorazepam",
+          "purpose": "Anxiety or agitation",
+          "dosage": "0.5 mg",
+          "frequency": "PO Q4-6H PRN"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "SVC thrombosis"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.75,
+      "consistency_score": 0.8,
+      "confidence_score": 0.8,
+      "overall_score": 0.85,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 1.0,
+        "treatments": 0.7272727272727273,
+        "demographics": 0.49999999999999994
+      },
+      "issues": [
+        "Treatment 'neoadjuvant chemoradiation' not clearly found in text",
+        "Treatment 'Chemotherapy adjustment' not clearly found in text",
+        "Treatment 'Glycemic control' not clearly found in text",
+        "Age inconsistency: stated 43, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing symptoms of low blood pressure and chest pain. Can you tell me more about when your chest pain began and what it feels like?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, hi, thank you, doctor. Yeah, I\u2019ve been having some chest pain lately. It started a couple days ago, I think. I\u2019m not sure how to describe it exactly\u2014it just feels kind of tight and uncomfortable. I\u2019m mostly worried because my blood pressure\u2019s been low, too. Should I be worried about this?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014chest pain and low blood pressure are definitely concerning symptoms. In addition to the chest discomfort, have you also experienced any shortness of breath or difficulty breathing recently?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, um\u2026 actually, I have noticed some shortness of breath, too. It\u2019s not all the time, but it happens when I\u2019m moving around or walking. I guess that\u2019s part of why I\u2019m so anxious about all this."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014experiencing both chest discomfort and shortness of breath, especially with low blood pressure, can feel overwhelming. You also mentioned having right groin pain; can you describe that symptom in more detail, such as when it started and whether it has changed or worsened recently?"
+    },
+    {
+      "role": "Patient",
+      "content": "Oh, right, yes\u2026 the right groin pain. Well, um, it started maybe a few days ago? At first it was just kind of pain, but lately it\u2019s gotten worse. It feels like a deep pain, and sometimes it\u2019s more of a sharp pain if I move a certain way. I also noticed my right leg pains, especially around the upper thigh. I\u2019m not sure if that\u2019s related, but it\u2019s making it harder for me to walk. Should I be worried about that too?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d feel anxious, especially with these symptoms affecting your ability to walk and causing discomfort. You mentioned experiencing lightheaded and that others have noticed you appear pale\u2014have you experienced any dizziness, fainting, or noticed any changes in your skin color or temperature recently?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, yeah, I have felt kind of dizzy a few times, especially when I stand up. I haven\u2019t fainted, but I do feel sort of unsteady. My wife said I looked pretty pale the other day, and my feet have been paining too\u2014both of them, but the right one is worse. I think the low blood pressure might be making all this worse. Is that possible?"
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing these details\u2014it\u2019s helpful for my assessment. Given your symptoms of hypotension and pale appearance, have you noticed any unusual bleeding, bruising, or dark stools that might suggest blood loss?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, let me think\u2026 I haven\u2019t really noticed any bleeding, but I do have this lump in my right groin that feels kind of hard\u2014maybe that\u2019s a hematoma? I think I\u2019ve been more pale lately, at least that\u2019s what people are telling me. And honestly, my memory hasn\u2019t been great these days either. I\u2019m not sure if that\u2019s related, but it\u2019s been worse since all these symptoms started. Should I be worried about blood loss even if I haven\u2019t seen any obvious bleeding?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with symptoms like hypotension and a pale appearance. To help with my assessment, have you noticed any recent changes in your urine color or amount, which could indicate decreased blood flow or kidney involvement?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 now that you mention it, I think my urine\u2019s been a bit darker than usual, and maybe not as much as I\u2019m used to. I just thought it was because I haven\u2019t been drinking as much water, but now I\u2019m not so sure.\n\nAlso, I wanted to mention\u2014my legs have gotten pretty big lately, especially the lower parts. There\u2019s a lot of swelling, and when I press on them, it leaves a dent for a while. I think that\u2019s called pitting edema? And when the nurse listened to my lungs, she said there were mild crackles at the left base. Does all of this mean my heart or kidneys are getting worse? I\u2019m honestly pretty anxious about what\u2019s going on."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with symptoms like swelling in your legs, dark urine, and experiencing pale and anxious. To help with my assessment, have you noticed any rapid heartbeat (palpitations) or irregular heart rhythms along with your hypotension and other symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually, I have felt my heart racing sometimes\u2014like palpitations, I guess. It\u2019s not all the time, but it comes and goes, and sometimes it feels kind of irregular. With the hypotension and everything else, it\u2019s making me even more anxious.\n\nAbout the right groin, I wanted to mention again\u2014there\u2019s a palpable induration along the inguinal line, kind of like a lump or maybe a hematoma? It feels pretty firm to the touch, and it\u2019s been there for a few days now. I\u2019m worried that might be related to all these symptoms too. Is it possible that this lump or hematoma could be causing some of these symptoms?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with new symptoms like pale appearance and changes in your memory. To help with my assessment, have you noticed any recent confusion, difficulty concentrating, or episodes where you felt unusually forgetful or disoriented?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 I have noticed I\u2019m more forgetful lately. Sometimes I just lose my train of thought, or I\u2019ll walk into a room and forget why I went there. It\u2019s been happening more since all these symptoms started. I wouldn\u2019t say I\u2019m totally confused, but concentrating is harder, and it\u2019s making me feel pretty anxious.\n\nAlso, I\u2019ve just been so tired\u2014like, generalized fatigue all day, even if I rest. And about the right groin, that lump or hematoma in my upper thigh area has gotten bigger and more painful. It\u2019s making it really hard to get around, and I\u2019m worried it might be connected to everything else going on. Is this something that could be serious?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with symptoms like pale appearance, increased fatigue, poor memory, and a growing, painful hematoma in your right groin. Based on your medical history and these symptoms, I am concerned about the possibility of ongoing blood loss or decreased blood flow affecting your organs. To help guide my assessment, have you recently experienced any episodes of chest discomfort, shortness of breath, or worsening swelling in your lower extremities since the hematoma increased in size?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 since the hematoma in my right groin got bigger, I have noticed my chest discomfort and shortness of breath have gotten worse. The swelling in my legs\u2014especially the lower extremities\u2014has definitely increased too. It\u2019s making it really hard for me to get around; I\u2019m having a lot more difficulty with ambulation lately.\n\nI also heard someone mention that my hematocrit has been unstable, and I\u2019m worried that could mean I\u2019m losing blood somewhere. With all these symptoms\u2014like the fatigue, poor memory, and the pale appearance\u2014I\u2019m just really anxious about what\u2019s happening to my body. Should I be worried about ongoing blood loss or something serious with my heart or kidneys?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious, especially with symptoms like worsening chest discomfort, increased shortness of breath, significant leg swelling, and a growing hematoma. Based on your medical history and these findings, I am concerned about the possibility of ongoing blood loss contributing to your hypotension and unstable hematocrit, as well as potential heart failure or kidney involvement given the pitting edema and lung crackles. To help with my assessment, have you experienced any new or worsening cough, or noticed any difficulty breathing when lying flat (orthopnea) or waking up at night short of breath (paroxysmal nocturnal dyspnea)?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 now that you mention it, I have had a bit of a cough lately. It\u2019s not constant, but it\u2019s there, and sometimes it feels like I have to clear my throat more than usual. As for breathing, I definitely notice it\u2019s harder when I\u2019m lying flat\u2014sometimes I have to prop myself up with extra pillows just to get comfortable. And there have been a few nights where I woke up short of breath, which I guess is what you called paroxysmal nocturnal dyspnea?\n\nWith all these symptoms\u2014like the low blood pressure, the swelling in my legs, and the chest discomfort\u2014I\u2019m really starting to worry something serious is going on with my heart or maybe my kidneys. Is this something that can get better, or should I be preparing for something more serious?"
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing all these details\u2014it\u2019s clear you\u2019re experiencing significant symptoms, including hypotension, chest discomfort, shortness of breath, worsening lower extremity edema, and a growing right groin hematoma, all on the medical history of complex cardiac and renal medical history. Based on your symptoms and recent findings, I am concerned about ongoing blood loss and possible heart failure exacerbation. To further guide my assessment, have you recently experienced any fever or signs of infection, such as chills or redness around the hematoma site?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, let me think\u2026 I haven\u2019t really noticed any fever or chills, at least nothing that stands out. The area around the hematoma in my right groin is pain and feels kind of firm, but I don\u2019t think it\u2019s red or hot to the touch. I examination it a lot because I\u2019m worried about infection, but so far it just seems swollen and painful, not really inflamed.\n\nI\u2019m honestly pretty anxious about all of this, especially with you mentioning possible ongoing blood loss and heart failure exacerbation. With my history of heart and kidney symptoms, should I be really concerned about how serious this could get? Is there anything specific I should watch for, or anything I can do to help symptoms from getting worse?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially given your symptoms and complex medical history. Based on your current symptoms\u2014worsening swelling, hypotension, chest discomfort, shortness of breath, and a growing hematoma\u2014my clinical assessment is that you may be experiencing ongoing blood loss from the hematoma, which is contributing to low blood pressure and possibly exacerbating heart failure and renal dysfunction. It\u2019s very important to closely monitor for any new symptoms such as increased pain, redness, warmth at the hematoma site, sudden worsening of shortness of breath, or confusion.\n\nTo help guide your treatment plan, have you noticed any sudden changes in the size or firmness of the hematoma, or any new numbness or weakness in your right leg?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 the hematoma in my right groin does feel like it\u2019s gotten bigger and maybe a bit firmer over the last day or so. It\u2019s definitely more painful, especially when I try to move or walk. I haven\u2019t really noticed any redness or warmth, but I am worried about how much it\u2019s grown.\n\nAs for my right leg, I have had some numbness and tingling, mostly around the upper thigh and sometimes down toward my foot. It\u2019s not constant, but it comes and goes, and my leg feels weaker than usual. Walking has gotten a lot harder, and I feel pretty unsteady.\n\nWith everything you\u2019ve said about ongoing blood loss, hypotension, and possible heart failure and renal dysfunction, I\u2019m honestly pretty anxious. Is this something that could get dangerous quickly? Should I be expecting any specific treatments or tests? And is there anything I can do right now to help prevent symptoms from getting worse?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious\u2014your symptoms of a growing, painful hematoma with numbness and weakness in your right leg, along with hypotension and worsening edema, are concerning and need urgent assessment. Based on your medical history and current symptoms, I am worried about ongoing blood loss, possible compression of nerves or vessels in your leg, and worsening heart failure. Immediate clinical evaluation\u2014including imaging of the hematoma, monitoring of your blood counts, and cardiac and renal function diagnostic evaluations\u2014will help guide treatment, which may include stopping anticoagulation, blood transfusion, or surgical intervention if needed.\n\nHave you noticed any sudden coldness, discoloration, or loss of movement in your right leg, which could indicate compromised blood flow requiring emergency intervention?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, let me think\u2026 I haven\u2019t noticed any sudden coldness or real discoloration in my right leg, at least not that I can tell. It\u2019s definitely more swollen and painful, and sometimes it feels a bit numb or tingly, but I can still move it\u2014just not as well as before because of the pain and weakness. I\u2019ll keep an eye out for any changes like that, though.\n\nI\u2019m honestly pretty anxious hearing about all the symptoms this could mean\u2014ongoing blood loss, nerve or vessel compression, and possible heart failure. With my history and all these symptoms, is this something that could get worse really quickly? Should I be worried about losing function in my leg or something more serious happening? And with all the medications I\u2019m on, especially the anticoagulation, is there anything I should do differently right now?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially given your symptoms and complex medical history. Based on your clinical presentation\u2014worsening hematoma, hypotension, lower extremity edema, and neurological symptoms in your right leg\u2014my assessment is that you may be experiencing ongoing blood loss and possible nerve or vessel compression, which can become serious quickly, particularly while on anticoagulation therapy.\n\nMy recommendation is for immediate clinical evaluation, including imaging of the hematoma, close monitoring of your blood counts, and assessment of your cardiac and renal function. It is important to temporarily hold any anticoagulation medications until the source of bleeding is controlled. If you notice any sudden coldness, color change, or inability to move your right leg, please notify your care team immediately, as these could indicate compromised blood flow.\n\nTo help guide further management, have you had any recent imaging studies\u2014such as an ultrasound or CT scan\u2014of your right groin or leg to assess the extent of the hematoma and possible vascular involvement?"
+    },
+    {
+      "role": "Patient",
+      "content": "Actually, no, I haven\u2019t had any recent imaging like an ultrasound or CT scan of my right groin or leg. The last time I had any scans was a while back, and that was more for my heart, not for this hematoma. I didn\u2019t realize it could get this serious so quickly, especially with the anticoagulation.\n\nI\u2019m definitely anxious about holding the blood thinners, but I understand why you\u2019d recommend it if there\u2019s ongoing blood loss. Is there a risk that stopping them could cause other symptoms, like clots or symptoms with my heart? And for the imaging\u2014how soon would that usually happen? Should I be expecting to go for a scan right away?\n\nAlso, just so I\u2019m clear, if I notice any sudden coldness, color change, or if I can\u2019t move my right leg, that\u2019s an emergency, right? I just want to make sure I know what to watch out for."
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing symptoms of low blood pressure and chest pain. Can you tell me more about when your chest pain began and what it feels like?\nPatient: Um, hi, thank you, doctor. Yeah, I\u2019ve been having some chest pain lately. It started a couple days ago, I think. I\u2019m not sure how to describe it exactly\u2014it just feels kind of tight and uncomfortable. I\u2019m mostly worried because my blood pressure\u2019s been low, too. Should I be worried about this?\nDoctor: I can understand why you\u2019re experiencing anxious\u2014chest pain and low blood pressure are definitely concerning symptoms. In addition to the chest discomfort, have you also experienced any shortness of breath or difficulty breathing recently?\nPatient: Yeah, um\u2026 actually, I have noticed some shortness of breath, too. It\u2019s not all the time, but it happens when I\u2019m moving around or walking. I guess that\u2019s part of why I\u2019m so anxious about all this.\nDoctor: I can understand why you\u2019d be worried\u2014experiencing both chest discomfort and shortness of breath, especially with low blood pressure, can feel overwhelming. You also mentioned having right groin pain; can you describe that symptom in more detail, such as when it started and whether it has changed or worsened recently?\nPatient: Oh, right, yes\u2026 the right groin pain. Well, um, it started maybe a few days ago? At first it was just kind of pain, but lately it\u2019s gotten worse. It feels like a deep pain, and sometimes it\u2019s more of a sharp pain if I move a certain way. I also noticed my right leg pains, especially around the upper thigh. I\u2019m not sure if that\u2019s related, but it\u2019s making it harder for me to walk. Should I be worried about that too?\nDoctor: I can understand why you\u2019d feel anxious, especially with these symptoms affecting your ability to walk and causing discomfort. You mentioned experiencing lightheaded and that others have noticed you appear pale\u2014have you experienced any dizziness, fainting, or noticed any changes in your skin color or temperature recently?\nPatient: Um, yeah, I have felt kind of dizzy a few times, especially when I stand up. I haven\u2019t fainted, but I do feel sort of unsteady. My wife said I looked pretty pale the other day, and my feet have been paining too\u2014both of them, but the right one is worse. I think the low blood pressure might be making all this worse. Is that possible?\nDoctor: Thank you for sharing these details\u2014it\u2019s helpful for my assessment. Given your symptoms of hypotension and pale appearance, have you noticed any unusual bleeding, bruising, or dark stools that might suggest blood loss?\nPatient: Um, let me think\u2026 I haven\u2019t really noticed any bleeding, but I do have this lump in my right groin that feels kind of hard\u2014maybe that\u2019s a hematoma? I think I\u2019ve been more pale lately, at least that\u2019s what people are telling me. And honestly, my memory hasn\u2019t been great these days either. I\u2019m not sure if that\u2019s related, but it\u2019s been worse since all these symptoms started. Should I be worried about blood loss even if I haven\u2019t seen any obvious bleeding?\nDoctor: I can understand why you\u2019d be worried, especially with symptoms like hypotension and a pale appearance. To help with my assessment, have you noticed any recent changes in your urine color or amount, which could indicate decreased blood flow or kidney involvement?\nPatient: Well, um\u2026 now that you mention it, I think my urine\u2019s been a bit darker than usual, and maybe not as much as I\u2019m used to. I just thought it was because I haven\u2019t been drinking as much water, but now I\u2019m not so sure.\n\nAlso, I wanted to mention\u2014my legs have gotten pretty big lately, especially the lower parts. There\u2019s a lot of swelling, and when I press on them, it leaves a dent for a while. I think that\u2019s called pitting edema? And when the nurse listened to my lungs, she said there were mild crackles at the left base. Does all of this mean my heart or kidneys are getting worse? I\u2019m honestly pretty anxious about what\u2019s going on.\nDoctor: I can understand why you\u2019d be worried, especially with symptoms like swelling in your legs, dark urine, and experiencing pale and anxious. To help with my assessment, have you noticed any rapid heartbeat (palpitations) or irregular heart rhythms along with your hypotension and other symptoms?\nPatient: Yeah, actually, I have felt my heart racing sometimes\u2014like palpitations, I guess. It\u2019s not all the time, but it comes and goes, and sometimes it feels kind of irregular. With the hypotension and everything else, it\u2019s making me even more anxious.\n\nAbout the right groin, I wanted to mention again\u2014there\u2019s a palpable induration along the inguinal line, kind of like a lump or maybe a hematoma? It feels pretty firm to the touch, and it\u2019s been there for a few days now. I\u2019m worried that might be related to all these symptoms too. Is it possible that this lump or hematoma could be causing some of these symptoms?\nDoctor: I can understand why you\u2019d be anxious, especially with new symptoms like pale appearance and changes in your memory. To help with my assessment, have you noticed any recent confusion, difficulty concentrating, or episodes where you felt unusually forgetful or disoriented?\nPatient: Yeah, actually\u2026 I have noticed I\u2019m more forgetful lately. Sometimes I just lose my train of thought, or I\u2019ll walk into a room and forget why I went there. It\u2019s been happening more since all these symptoms started. I wouldn\u2019t say I\u2019m totally confused, but concentrating is harder, and it\u2019s making me feel pretty anxious.\n\nAlso, I\u2019ve just been so tired\u2014like, generalized fatigue all day, even if I rest. And about the right groin, that lump or hematoma in my upper thigh area has gotten bigger and more painful. It\u2019s making it really hard to get around, and I\u2019m worried it might be connected to everything else going on. Is this something that could be serious?\nDoctor: I can understand why you\u2019d be worried, especially with symptoms like pale appearance, increased fatigue, poor memory, and a growing, painful hematoma in your right groin. Based on your medical history and these symptoms, I am concerned about the possibility of ongoing blood loss or decreased blood flow affecting your organs. To help guide my assessment, have you recently experienced any episodes of chest discomfort, shortness of breath, or worsening swelling in your lower extremities since the hematoma increased in size?\nPatient: Yeah, actually\u2026 since the hematoma in my right groin got bigger, I have noticed my chest discomfort and shortness of breath have gotten worse. The swelling in my legs\u2014especially the lower extremities\u2014has definitely increased too. It\u2019s making it really hard for me to get around; I\u2019m having a lot more difficulty with ambulation lately.\n\nI also heard someone mention that my hematocrit has been unstable, and I\u2019m worried that could mean I\u2019m losing blood somewhere. With all these symptoms\u2014like the fatigue, poor memory, and the pale appearance\u2014I\u2019m just really anxious about what\u2019s happening to my body. Should I be worried about ongoing blood loss or something serious with my heart or kidneys?\nDoctor: I can understand why you\u2019re experiencing anxious, especially with symptoms like worsening chest discomfort, increased shortness of breath, significant leg swelling, and a growing hematoma. Based on your medical history and these findings, I am concerned about the possibility of ongoing blood loss contributing to your hypotension and unstable hematocrit, as well as potential heart failure or kidney involvement given the pitting edema and lung crackles. To help with my assessment, have you experienced any new or worsening cough, or noticed any difficulty breathing when lying flat (orthopnea) or waking up at night short of breath (paroxysmal nocturnal dyspnea)?\nPatient: Yeah, actually\u2026 now that you mention it, I have had a bit of a cough lately. It\u2019s not constant, but it\u2019s there, and sometimes it feels like I have to clear my throat more than usual. As for breathing, I definitely notice it\u2019s harder when I\u2019m lying flat\u2014sometimes I have to prop myself up with extra pillows just to get comfortable. And there have been a few nights where I woke up short of breath, which I guess is what you called paroxysmal nocturnal dyspnea?\n\nWith all these symptoms\u2014like the low blood pressure, the swelling in my legs, and the chest discomfort\u2014I\u2019m really starting to worry something serious is going on with my heart or maybe my kidneys. Is this something that can get better, or should I be preparing for something more serious?\nDoctor: Thank you for sharing all these details\u2014it\u2019s clear you\u2019re experiencing significant symptoms, including hypotension, chest discomfort, shortness of breath, worsening lower extremity edema, and a growing right groin hematoma, all on the medical history of complex cardiac and renal medical history. Based on your symptoms and recent findings, I am concerned about ongoing blood loss and possible heart failure exacerbation. To further guide my assessment, have you recently experienced any fever or signs of infection, such as chills or redness around the hematoma site?\nPatient: Um, let me think\u2026 I haven\u2019t really noticed any fever or chills, at least nothing that stands out. The area around the hematoma in my right groin is pain and feels kind of firm, but I don\u2019t think it\u2019s red or hot to the touch. I examination it a lot because I\u2019m worried about infection, but so far it just seems swollen and painful, not really inflamed.\n\nI\u2019m honestly pretty anxious about all of this, especially with you mentioning possible ongoing blood loss and heart failure exacerbation. With my history of heart and kidney symptoms, should I be really concerned about how serious this could get? Is there anything specific I should watch for, or anything I can do to help symptoms from getting worse?\nDoctor: I can understand why you\u2019d be worried, especially given your symptoms and complex medical history. Based on your current symptoms\u2014worsening swelling, hypotension, chest discomfort, shortness of breath, and a growing hematoma\u2014my clinical assessment is that you may be experiencing ongoing blood loss from the hematoma, which is contributing to low blood pressure and possibly exacerbating heart failure and renal dysfunction. It\u2019s very important to closely monitor for any new symptoms such as increased pain, redness, warmth at the hematoma site, sudden worsening of shortness of breath, or confusion.\n\nTo help guide your treatment plan, have you noticed any sudden changes in the size or firmness of the hematoma, or any new numbness or weakness in your right leg?\nPatient: Yeah, actually\u2026 the hematoma in my right groin does feel like it\u2019s gotten bigger and maybe a bit firmer over the last day or so. It\u2019s definitely more painful, especially when I try to move or walk. I haven\u2019t really noticed any redness or warmth, but I am worried about how much it\u2019s grown.\n\nAs for my right leg, I have had some numbness and tingling, mostly around the upper thigh and sometimes down toward my foot. It\u2019s not constant, but it comes and goes, and my leg feels weaker than usual. Walking has gotten a lot harder, and I feel pretty unsteady.\n\nWith everything you\u2019ve said about ongoing blood loss, hypotension, and possible heart failure and renal dysfunction, I\u2019m honestly pretty anxious. Is this something that could get dangerous quickly? Should I be expecting any specific treatments or tests? And is there anything I can do right now to help prevent symptoms from getting worse?\nDoctor: I can understand why you\u2019d be anxious\u2014your symptoms of a growing, painful hematoma with numbness and weakness in your right leg, along with hypotension and worsening edema, are concerning and need urgent assessment. Based on your medical history and current symptoms, I am worried about ongoing blood loss, possible compression of nerves or vessels in your leg, and worsening heart failure. Immediate clinical evaluation\u2014including imaging of the hematoma, monitoring of your blood counts, and cardiac and renal function diagnostic evaluations\u2014will help guide treatment, which may include stopping anticoagulation, blood transfusion, or surgical intervention if needed.\n\nHave you noticed any sudden coldness, discoloration, or loss of movement in your right leg, which could indicate compromised blood flow requiring emergency intervention?\nPatient: Um, let me think\u2026 I haven\u2019t noticed any sudden coldness or real discoloration in my right leg, at least not that I can tell. It\u2019s definitely more swollen and painful, and sometimes it feels a bit numb or tingly, but I can still move it\u2014just not as well as before because of the pain and weakness. I\u2019ll keep an eye out for any changes like that, though.\n\nI\u2019m honestly pretty anxious hearing about all the symptoms this could mean\u2014ongoing blood loss, nerve or vessel compression, and possible heart failure. With my history and all these symptoms, is this something that could get worse really quickly? Should I be worried about losing function in my leg or something more serious happening? And with all the medications I\u2019m on, especially the anticoagulation, is there anything I should do differently right now?\nDoctor: I can understand why you\u2019d be worried, especially given your symptoms and complex medical history. Based on your clinical presentation\u2014worsening hematoma, hypotension, lower extremity edema, and neurological symptoms in your right leg\u2014my assessment is that you may be experiencing ongoing blood loss and possible nerve or vessel compression, which can become serious quickly, particularly while on anticoagulation therapy.\n\nMy recommendation is for immediate clinical evaluation, including imaging of the hematoma, close monitoring of your blood counts, and assessment of your cardiac and renal function. It is important to temporarily hold any anticoagulation medications until the source of bleeding is controlled. If you notice any sudden coldness, color change, or inability to move your right leg, please notify your care team immediately, as these could indicate compromised blood flow.\n\nTo help guide further management, have you had any recent imaging studies\u2014such as an ultrasound or CT scan\u2014of your right groin or leg to assess the extent of the hematoma and possible vascular involvement?\nPatient: Actually, no, I haven\u2019t had any recent imaging like an ultrasound or CT scan of my right groin or leg. The last time I had any scans was a while back, and that was more for my heart, not for this hematoma. I didn\u2019t realize it could get this serious so quickly, especially with the anticoagulation.\n\nI\u2019m definitely anxious about holding the blood thinners, but I understand why you\u2019d recommend it if there\u2019s ongoing blood loss. Is there a risk that stopping them could cause other symptoms, like clots or symptoms with my heart? And for the imaging\u2014how soon would that usually happen? Should I be expecting to go for a scan right away?\n\nAlso, just so I\u2019m clear, if I notice any sudden coldness, color change, or if I can\u2019t move my right leg, that\u2019s an emergency, right? I just want to make sure I know what to watch out for.\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: fever, cough, numbness, chest pain, headache. Assessment: ongoing blood loss (likely from right groin hematoma), hypotension, possible heart failure exacerbation. Plan: rest, immediate clinical evaluation, imaging of the hematoma (ultrasound or CT scan). Extracted: 46 symptoms, 5 diagnoses, 8 treatments.",
+  "annotations": {
+    "symptoms": [
+      "fever",
+      "cough",
+      "numbness",
+      "chest pain",
+      "headache",
+      "tingling",
+      "paining too",
+      "shortness of breath",
+      "chills",
+      "a few nights where i woke up short of breath",
+      "fatigue",
+      "right groin pain",
+      "so tired",
+      "lightheaded",
+      "breath",
+      "dizziness",
+      "dizzy",
+      "dyspnea",
+      "weakness",
+      "tired",
+      "chest tightness",
+      "chest discomfort",
+      "low blood pressure",
+      "right leg pain",
+      "difficulty walking",
+      "lightheadedness",
+      "pale appearance",
+      "pain in both feet (right worse)",
+      "lump in right groin",
+      "poor memory",
+      "forgetfulness",
+      "difficulty concentrating",
+      "dark urine",
+      "decreased urine output",
+      "swelling in legs",
+      "pitting edema",
+      "palpitations",
+      "irregular heartbeat",
+      "numbness in right leg",
+      "tingling in right leg",
+      "weakness in right leg",
+      "orthopnea (difficulty breathing when lying flat)",
+      "paroxysmal nocturnal dyspnea (waking up short of breath)",
+      "increased swelling in lower extremities",
+      "painful, growing hematoma in right groin",
+      "unsteady gait"
+    ],
+    "diagnoses": [
+      "ongoing blood loss (likely from right groin hematoma)",
+      "hypotension",
+      "possible heart failure exacerbation",
+      "possible renal dysfunction",
+      "possible nerve or vessel compression in right leg"
+    ],
+    "treatments": [
+      "rest",
+      "immediate clinical evaluation",
+      "imaging of the hematoma (ultrasound or CT scan)",
+      "monitoring of blood counts",
+      "assessment of cardiac and renal function",
+      "temporarily hold anticoagulation medications until bleeding is controlled",
+      "monitor for new symptoms (increased pain, redness, warmth at hematoma site, sudden worsening of shortness of breath, confusion, coldness or color change or inability to move right leg)",
+      "notify care team immediately if emergency symptoms occur"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: EXCELLENT\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.940 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.530 \u25cb\n\u2022 Dialogue Naturalness: 0.729 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently demonstrates safe, responsible, and clinically appropriate communication. There is a clear, logical progression of inquiry: the doctor explores chest pain, hypotension, shortness of breath, groin pain, swelling, neurological symptoms, and the impact of anticoagulation.\n- The doctor repeatedly emphasizes the seriousness of the symptoms (e.g., ongoing blood loss, possible heart failure, renal dysfunction) and appropriately recommends urgent clinical evaluation, imaging, and holding anticoagulation\u2014demonstrating high medical safety.\n- No harmful or inappropriate advice is given. The doctor provides clear red flag symptoms (coldness, color change, loss of movement) and instructs the patient to seek immediate help if these occur.\n\n**2. Patient Behavior: Natural and Believable**\n- The patient\u2019s responses are consistent with someone experiencing complex, evolving symptoms and significant anxiety. There is progressive disclosure: the patient initially focuses on chest pain and hypotension, then gradually reveals more about groin pain, swelling, memory changes, and neurological symptoms.\n- The patient expresses uncertainty (\u201cUm\u2026 let me think\u2026\u201d), asks clarifying questions (\u201cShould I be worried about this?\u201d), and seeks reassurance\u2014typical of real patients in distress.\n- Emotional responses (anxiety, worry about worsening symptoms, concern about medications) are realistic and proportional to the clinical scenario.\n\n**3. Doctor Empathy and Professionalism**\n- The doctor repeatedly acknowledges the patient\u2019s anxiety and validates their concerns (\u201cI can understand why you\u2019d be worried\u2026\u201d), which is both empathetic and professional.\n- Explanations are clear and tailored to the patient\u2019s emotional state. The doctor checks for understanding and provides anticipatory guidance about what to watch for.\n- The doctor maintains a supportive tone throughout, even when discussing potentially serious diagnoses.\n\n**4. Conversation Flow and Medical Purpose**\n- The dialogue flows logically: each new symptom or concern leads to an appropriate follow-up question or explanation.\n- Turn-taking is natural; the patient\u2019s questions prompt further clarification from the doctor.\n- The conversation serves a clear medical purpose: gathering information for diagnosis, assessing severity, providing education on red flags, and outlining next steps in management.\n\n**Minor Imperfections (Acceptable in Real Dialogue):**\n- Some repetitive phrasing (\u201cI can understand why you\u2019d be worried\u2026\u201d) is present but mirrors real clinical encounters where reassurance is often repeated.\n- Occasional awkward phrasing (\u201cexperiencing anxious\u201d instead of \u201cfeeling anxious\u201d) does not detract from overall authenticity.\n\n**Conclusion:**  \nThis dialogue represents a plausible, safe, and clinically appropriate medical encounter. Both the doctor\u2019s and patient\u2019s behaviors are realistic, the conversation is empathetic and purposeful, and medical safety is prioritized throughout.\n\n**Final Assessment:**  \nDIALOGUE REALISTIC: This conversation authentically reflects a real-world medical interview between a concerned patient with complex symptoms and an empathetic, professional physician.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.940)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.282/0.3 (Score: 0.940)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.53,
+      "naturalness": 0.729,
+      "safety": 0.94,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 121.0030927658081,
+  "dialogue_stats": {
+    "turn_count": 28,
+    "word_count": 2510,
+    "doctor_turns": 14,
+    "patient_turns": 14
+  }
+}

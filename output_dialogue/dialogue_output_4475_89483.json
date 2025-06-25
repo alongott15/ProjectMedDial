@@ -1,0 +1,327 @@
+{
+  "partial_profile": {
+    "row_id": 4475,
+    "subject_id": 89483,
+    "hadm_id": 137215,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "increased dyspnea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "decreased energy",
+          "onset": "on arrival",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "orthostatic changes in blood pressures",
+          "onset": "on arrival",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "decreased oxygen levels",
+          "onset": "since XRT which ended 2 weeks ago",
+          "duration": "2 weeks",
+          "severity": "not provided"
+        },
+        {
+          "description": "abdominal pain",
+          "onset": "not provided",
+          "duration": "3 months",
+          "severity": "not provided"
+        },
+        {
+          "description": "decreased appetite",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "inability to take good PO's",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Only able to speak half a sentence at a time",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Mouth is extremely dry appearing",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Fair to poor air movement in lungs",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Diffuse tenderness to palpation of abdomen periumbilical",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Bilateral upper extremities with ecchymoses",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hypoxia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "remained hypoxic to the mid to high 80s on non-rebreather"
+        },
+        {
+          "description": "hypotension",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "tachycardia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "remained tachycardic even after fluid boluses"
+        },
+        {
+          "description": "air hunger",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2105-01-17",
+        "Age": 78,
+        "Sex": "M",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2183-10-27 14:07:00",
+        "Discharge_Date": "2183-10-30 20:35:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Metastatic epitheloid rhabdomyosarcoma diagnosed 2183-08 with diffuse metastases; pre-B cell ALL (Ph-negative) diagnosed 2178; bilateral malignant pleural effusions; splenic and portal vein thrombosis."
+      },
+      "Allergies": [
+        "Penicillins",
+        "Lipitor"
+      ],
+      "Current_Medications": [
+        {
+          "name": "acyclovir",
+          "purpose": "not provided",
+          "dosage": "400 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "metoprolol succinate",
+          "purpose": "not provided",
+          "dosage": "25 mg sustained release 24 hr",
+          "frequency": "1 tablet by mouth daily"
+        },
+        {
+          "name": "OxyContin",
+          "purpose": "pain management",
+          "dosage": "10 mg / 20 mg",
+          "frequency": "every am / pm"
+        },
+        {
+          "name": "oxycodone",
+          "purpose": "pain management",
+          "dosage": "5 mg",
+          "frequency": "every four (4) hours as needed for pain"
+        },
+        {
+          "name": "docusate sodium",
+          "purpose": "not provided",
+          "dosage": "100 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Capsule",
+          "purpose": "constipation",
+          "dosage": "1 Capsule(s)",
+          "frequency": "by mouth twice a day as needed"
+        },
+        {
+          "name": "SENNA",
+          "purpose": "constipation when taking oxycodone",
+          "dosage": "8.6 mg Tablet(s)",
+          "frequency": "by mouth one tab twice daily"
+        }
+      ],
+      "Discharge_Medications": []
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Experiencing increased dyspnea"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.9,
+      "consistency_score": 1.0,
+      "confidence_score": 0.85,
+      "overall_score": 0.9666666666666667,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 1.0,
+        "treatments": 0.9411764705882353,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Treatment 'Cardiac catheterization' not clearly found in text",
+        "Age inconsistency: stated 78, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing increased dyspnea and decreased energy. Can you describe when you first noticed these symptoms and if they have been getting progressively worse?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yes, I\u2019ve been having a lot more shortness of breath lately. It\u2019s gotten harder for me to catch my breath, even just sitting sometimes. I think it started maybe a week or so ago, but it\u2019s definitely gotten worse the last few days. And, uh\u2026 I\u2019ve also been having some abdominal pain that\u2019s been bothering me. Should I be worried?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d feel anxious, especially with your shortness of breath getting worse and ongoing abdominal pain. To help guide my assessment, can you tell me if your dyspnea is worse when you\u2019re lying down or with activity, and have you noticed any swelling in your legs or ankles?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, well\u2026 the shortness of breath is definitely worse when I try to do anything, even just walking to the bathroom. I haven\u2019t really noticed much swelling in my legs or ankles, but it\u2019s mostly the increased dyspnea that\u2019s making me anxious. It just feels harder to breathe than usual."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with your symptoms making daily activities more difficult. You mentioned also experiencing decreased energy and experiencing orthostatic changes in your blood pressure\u2014have you noticed experiencing lightheaded or dizzy when standing up, or have you had any episodes of fainting?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 I have noticed that when I stand up, I get kind of lightheaded\u2014like the room spins a little bit. I haven\u2019t fainted, but I do feel pretty unsteady sometimes. And, um, my energy is just really low lately. Even small symptoms seem to tire me out a lot more than before. Is that something I should be concerned about?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially with the increased fatigue and lightheadedness when standing. To help with my assessment, have you noticed any changes in your appetite, weight loss, or difficulty maintaining adequate oral intake recently?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yeah, my appetite\u2019s definitely gone down. I just don\u2019t feel like eating much lately, and I guess I haven\u2019t been able to take in good PO\u2019s for a while now. I\u2019m not sure about weight loss, but I probably have lost some. Also, I think my oxygen levels have been lower than usual\u2014sometimes I feel kind of air hungry, if that makes sense. It\u2019s making me pretty anxious."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with your decreased appetite, low energy, and experiencing air hungry. To help with my assessment, have you experienced any chest pain, palpitations, or irregular heartbeats along with your other symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 I haven\u2019t really had chest pain, but sometimes my heart feels like it\u2019s beating faster than normal\u2014maybe that\u2019s palpitations? And, um, I\u2019ve noticed it\u2019s hard for me to talk much. I can really only get half a sentence out before I have to stop and catch my breath. And like I said, I just can\u2019t take good PO\u2019s at all lately. It\u2019s all making me pretty anxious."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially with your decreased energy and difficulty speaking due to shortness of breath. To further guide my assessment, have you noticed any changes in your urine output or any signs of confusion or difficulty concentrating along with your orthostatic blood pressure changes?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 now that you mention it, I think I haven\u2019t been going to the bathroom as much\u2014my urine output is definitely less than usual. I do feel a bit foggy sometimes, like it\u2019s harder to concentrate or remember symptoms lately. \n\nAlso, my mouth is extremely dry all the time, no matter how much water I try to sip. And when I breathe in, it just feels like there\u2019s not much air moving in or out of my lungs\u2014almost like fair to poor air movement, if that makes sense. \n\nShould I be worried about all these symptoms coming together?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially with your decreased energy and the orthostatic changes in your blood pressure. To help with my assessment, have you noticed any episodes of dizziness or near-syncope when changing positions, such as moving from lying down to sitting or standing?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 when I go from lying down to sitting or standing, I do get pretty dizzy\u2014almost like I might pass out, but I haven\u2019t actually fainted yet. It\u2019s definitely worse lately. \n\nAlso, um, I wanted to mention that my abdomen feels really tender, especially around the belly button area\u2014like diffuse tenderness to palpation periumbilical, I think you\u2019d call it. And I\u2019ve noticed these bruises\u2014ecchymoses\u2014on both of my upper arms, but I don\u2019t remember bumping into anything. \n\nAll of this together is making me pretty anxious. Should I be worried that these symptoms are all happening at once?"
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing increased dyspnea and decreased energy. Can you describe when you first noticed these symptoms and if they have been getting progressively worse?\nPatient: Well, um\u2026 yes, I\u2019ve been having a lot more shortness of breath lately. It\u2019s gotten harder for me to catch my breath, even just sitting sometimes. I think it started maybe a week or so ago, but it\u2019s definitely gotten worse the last few days. And, uh\u2026 I\u2019ve also been having some abdominal pain that\u2019s been bothering me. Should I be worried?\nDoctor: I can understand why you\u2019d feel anxious, especially with your shortness of breath getting worse and ongoing abdominal pain. To help guide my assessment, can you tell me if your dyspnea is worse when you\u2019re lying down or with activity, and have you noticed any swelling in your legs or ankles?\nPatient: Um, well\u2026 the shortness of breath is definitely worse when I try to do anything, even just walking to the bathroom. I haven\u2019t really noticed much swelling in my legs or ankles, but it\u2019s mostly the increased dyspnea that\u2019s making me anxious. It just feels harder to breathe than usual.\nDoctor: I can understand why you\u2019d be worried, especially with your symptoms making daily activities more difficult. You mentioned also experiencing decreased energy and experiencing orthostatic changes in your blood pressure\u2014have you noticed experiencing lightheaded or dizzy when standing up, or have you had any episodes of fainting?\nPatient: Yeah, actually\u2026 I have noticed that when I stand up, I get kind of lightheaded\u2014like the room spins a little bit. I haven\u2019t fainted, but I do feel pretty unsteady sometimes. And, um, my energy is just really low lately. Even small symptoms seem to tire me out a lot more than before. Is that something I should be concerned about?\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially with the increased fatigue and lightheadedness when standing. To help with my assessment, have you noticed any changes in your appetite, weight loss, or difficulty maintaining adequate oral intake recently?\nPatient: Well, um\u2026 yeah, my appetite\u2019s definitely gone down. I just don\u2019t feel like eating much lately, and I guess I haven\u2019t been able to take in good PO\u2019s for a while now. I\u2019m not sure about weight loss, but I probably have lost some. Also, I think my oxygen levels have been lower than usual\u2014sometimes I feel kind of air hungry, if that makes sense. It\u2019s making me pretty anxious.\nDoctor: I can understand why you\u2019d be anxious, especially with your decreased appetite, low energy, and experiencing air hungry. To help with my assessment, have you experienced any chest pain, palpitations, or irregular heartbeats along with your other symptoms?\nPatient: Let me think\u2026 I haven\u2019t really had chest pain, but sometimes my heart feels like it\u2019s beating faster than normal\u2014maybe that\u2019s palpitations? And, um, I\u2019ve noticed it\u2019s hard for me to talk much. I can really only get half a sentence out before I have to stop and catch my breath. And like I said, I just can\u2019t take good PO\u2019s at all lately. It\u2019s all making me pretty anxious.\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially with your decreased energy and difficulty speaking due to shortness of breath. To further guide my assessment, have you noticed any changes in your urine output or any signs of confusion or difficulty concentrating along with your orthostatic blood pressure changes?\nPatient: Well, um\u2026 now that you mention it, I think I haven\u2019t been going to the bathroom as much\u2014my urine output is definitely less than usual. I do feel a bit foggy sometimes, like it\u2019s harder to concentrate or remember symptoms lately. \n\nAlso, my mouth is extremely dry all the time, no matter how much water I try to sip. And when I breathe in, it just feels like there\u2019s not much air moving in or out of my lungs\u2014almost like fair to poor air movement, if that makes sense. \n\nShould I be worried about all these symptoms coming together?\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially with your decreased energy and the orthostatic changes in your blood pressure. To help with my assessment, have you noticed any episodes of dizziness or near-syncope when changing positions, such as moving from lying down to sitting or standing?\nPatient: Yeah, actually\u2026 when I go from lying down to sitting or standing, I do get pretty dizzy\u2014almost like I might pass out, but I haven\u2019t actually fainted yet. It\u2019s definitely worse lately. \n\nAlso, um, I wanted to mention that my abdomen feels really tender, especially around the belly button area\u2014like diffuse tenderness to palpation periumbilical, I think you\u2019d call it. And I\u2019ve noticed these bruises\u2014ecchymoses\u2014on both of my upper arms, but I don\u2019t remember bumping into anything. \n\nAll of this together is making me pretty anxious. Should I be worried that these symptoms are all happening at once?\n[Simulation ended due to detected conversation loop]",
+  "clinical_note": "Patient presents with: dizzy, some abdominal pain that, having a lot more shortness of breath lately, a lot more shortness of breath lately, dyspnea. Assessment: have lost some. Plan: recently?\npatient: well. Clinical note: The patient presents with worsening shortness of breath, decreased energy, orthostatic symptoms, abdominal pain with periumbilical tenderness, decreased appetite and oral intake, possible weight loss, palpitations, decreased urine output, confusion, dry mouth, poor air movement in lungs, and unexplained ecchymoses. No diagnosis or treatment was provided in the dialogue.. Extracted: 37 symptoms, 1 diagnoses, 1 treatments.",
+  "annotations": {
+    "symptoms": [
+      "dizzy",
+      "some abdominal pain that",
+      "having a lot more shortness of breath lately",
+      "a lot more shortness of breath lately",
+      "dyspnea",
+      "fatigue",
+      "lightheaded or dizzy when standing up",
+      "lightheaded",
+      "shortness of breath",
+      "abdominal pain",
+      "weight loss",
+      "chest pain",
+      "having some abdominal pain that",
+      "breath",
+      "headache",
+      "dizziness",
+      "increased dyspnea",
+      "shortness of breath at rest",
+      "shortness of breath with activity",
+      "decreased energy",
+      "orthostatic lightheadedness",
+      "dizziness when standing",
+      "feeling unsteady",
+      "decreased appetite",
+      "poor oral intake",
+      "possible weight loss",
+      "air hunger",
+      "palpitations",
+      "difficulty speaking due to shortness of breath",
+      "decreased urine output",
+      "confusion",
+      "difficulty concentrating",
+      "dry mouth",
+      "fair to poor air movement in lungs",
+      "diffuse abdominal tenderness periumbilical",
+      "ecchymoses on upper arms",
+      "anxiety"
+    ],
+    "diagnoses": [
+      "have lost some"
+    ],
+    "treatments": [
+      "recently?\npatient: well"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.850 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 1.000 \u2705\n\u2022 Dialogue Naturalness: 0.939 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness:**  \nThe doctor\u2019s questions are clinically appropriate, focusing on the progression and severity of dyspnea, associated symptoms (orthopnea, edema, orthostatic symptoms, appetite, urine output, confusion), and red flag features (chest pain, palpitations, syncope, decreased PO intake, confusion). The doctor does not provide any unsafe or inappropriate advice and maintains a professional tone throughout. The repeated reassurance (\u201cI can understand why you\u2019d be worried\u2026\u201d) is common in real clinical encounters, especially when patients express anxiety.\n\n**2. Patient Behavior Naturalness and Believability:**  \nThe patient\u2019s responses are consistent with someone experiencing significant new or worsening symptoms. There is progressive disclosure: initial focus on dyspnea and fatigue, then abdominal pain, then orthostatic symptoms, poor oral intake, cognitive changes, and finally new bruising. The patient expresses anxiety and uncertainty, asks \u201cShould I be worried?\u201d, and sometimes hesitates or clarifies\u2014these are realistic patient behaviors. The use of some medical terminology (\u201cPO\u2019s,\u201d \u201cecchymoses\u201d) is slightly atypical for a layperson but could plausibly occur if the patient has some medical background or has been previously coached.\n\n**3. Empathy and Professionalism:**  \nThe doctor consistently acknowledges the patient\u2019s distress and validates their concerns (\u201cI can understand why you\u2019d be anxious/worried\u2026\u201d). The tone is empathetic and patient-centered. The doctor\u2019s questions are open-ended and guide the assessment logically.\n\n**4. Meaningful Medical Purpose:**  \nThe conversation serves a clear medical purpose: gathering a thorough history to assess the acuity and possible causes of the patient\u2019s symptoms. The doctor explores relevant systems (cardiac, respiratory, GI, neuro) and screens for concerning features (decreased urine output, confusion, bruising). The dialogue builds a clinical picture suggestive of possible acute decompensation (e.g., heart failure, sepsis, adrenal insufficiency), justifying the line of questioning.\n\n**Minor Imperfections:**  \n- The doctor\u2019s phrasing is sometimes repetitive (\u201cI can understand why you\u2019d be worried\u2026\u201d), but this is common in real conversations.\n- The patient\u2019s use of some medical terms is slightly advanced but not implausible.\n- There is a slight conversational loop at the end (repetition of orthostatic symptoms), but this can occur in real encounters when patients are anxious or when doctors are clarifying details.\n\n**Conclusion:**  \nThe dialogue is clinically safe, patient-centered, and follows a logical progression. Both doctor and patient behaviors are believable. The conversation serves a meaningful medical purpose and demonstrates appropriate empathy and professionalism.\n\n**Overall Assessment:**  \nThis represents a plausible and authentic medical encounter.\n\n**DIALOGUE REALISTIC**\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.850)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.255/0.3 (Score: 0.850)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 1.0,
+      "naturalness": 0.939,
+      "safety": 0.85,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 33.25645399093628,
+  "dialogue_stats": {
+    "turn_count": 14,
+    "word_count": 844,
+    "doctor_turns": 7,
+    "patient_turns": 7
+  }
+}

@@ -1,0 +1,1307 @@
+{
+  "source_row_id": 4519,
+  "source_subject_id": 68813,
+  "source_hadm_id": 147496,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing shortness of breath and difficulty breathing at night. Can you describe in more detail how your symptoms of shortness of breath have changed over the past few days?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "greeting and thanking patient"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath and difficulty breathing at night"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "change in shortness of breath over past few days"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Um, well\u2026 yeah, I\u2019ve just been having more shortness of breath lately. It feels a bit worse than usual, especially when I\u2019m just doing normal symptoms around the house. I guess that\u2019s what\u2019s got me worried.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "worse than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "lately"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "when doing normal activities around the house"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why this increase in shortness of breath would make you feel anxious\u2014it\u2019s completely natural to be concerned when your symptoms worsen. To help me with my assessment, can you tell me if you\u2019ve noticed any episodes where you wake up suddenly at night experiencing short of breath, or if you need extra pillows to breathe comfortably when lying down?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of waking up suddenly at night experiencing shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "need for extra pillows to breathe comfortably when lying down"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Um, yeah\u2026 actually, I have been waking up at night kind of gasping for air. I\u2019ve started sleeping with a couple extra pillows, just so I can breathe a little easier. And, uh, sometimes I get this chest pain too\u2014it\u2019s not really sharp, but it\u2019s there. That\u2019s part of what\u2019s making me anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up at night gasping for air"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "sleeping with extra pillows"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the increased shortness of breath at night and the need for extra pillows. To help guide my assessment, can you tell me if your orthopnea\u2014meaning difficulty breathing when lying flat\u2014has been getting progressively worse, and how many pillows you currently need to sleep comfortably?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "progression of orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "number of pillows needed to sleep comfortably"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 I think my orthopnea has definitely gotten worse. I used to just need one pillow, but now I\u2019m up to three, sometimes even four, just to get comfortable enough to sleep. And, like I mentioned, I do wake up at night\u2014what you called paroxysmal nocturnal dyspnea, I think? That\u2019s been happening more often lately. It\u2019s kind of scary, honestly. Should I be worried about these symptoms getting worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "worsened"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Frequency",
+          "value": "more often"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about these symptoms getting worse?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with your symptoms getting worse and affecting your sleep. You also mentioned an increase in your abdominal girth and a weight gain of about four pounds\u2014have you noticed any swelling in your legs or ankles, or any discomfort or bloating in your abdomen that\u2019s different from usual?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms getting worse and affecting sleep"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increase in abdominal girth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain of about four pounds"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in legs or ankles"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "discomfort or bloating in abdomen that\u2019s different from usual"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yeah, I have noticed my abdomen feels more bloated than usual, and my pants are fitting tighter around the waist. I actually gained about four pounds in the last week or so, which is unusual for me. I\u2019m not sure if it\u2019s just the abdominal girth or if there\u2019s some swelling going on. My legs and ankles do look a bit puffier, especially by the end of the day. It\u2019s making me a bit more anxious, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal bloating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased abdominal girth"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling of legs and ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankle puffiness worse at end of day"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the noticeable increase in abdominal girth and weight gain. To help with my assessment, have you observed any changes in your urination\u2014such as decreased urine output or darker urine\u2014which could indicate fluid retention related to your condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increase in abdominal girth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "darker urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "fluid retention related to your condition"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, yeah, I have noticed my urine output seems a bit less than usual, and maybe a little darker too. I wasn\u2019t sure if that was important, but now that you mention it, it probably is. Also, I get pretty bad dyspnea on exertion\u2014even just going up one flight of stairs leaves me really winded lately. And, um, I had an abnormal ECG not too long ago, but I\u2019m not sure if that\u2019s related. All of this together is making me pretty anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "darker urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "abnormal ECG"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the increasing abdominal girth and weight gain you described. To help with my assessment, have you noticed any tenderness or discomfort when you press on your abdomen, or any experiencing of fluid shifting when you change positions?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing abdominal girth and weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "tenderness or discomfort when pressing on abdomen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fluid shifting when changing positions"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 when I press on my abdomen, it does feel a bit uncomfortable\u2014kind of a fullness, but not really sharp pain. I haven\u2019t really noticed fluid shifting, but sometimes when I turn from side to side in bed, it feels like symptoms are moving around in there, if that makes sense. \n\nI did have some imaging done recently, and they mentioned a mildly enlarged heart and minimal bibasilar atelectasis. I\u2019m not sure how much that plays into all of this, but it\u2019s been on my mind. With all these symptoms\u2014shortness of breath, orthopnea, the weight gain\u2014I\u2019m just worried symptoms might be getting worse with my heart failure. Should I be really concerned about the enlarged heart and the atelectasis?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal discomfort/fullness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sensation of symptoms moving when turning in bed"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "imaging"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "mildly enlarged heart"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "minimal bibasilar atelectasis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "concern about enlarged heart and atelectasis"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these changes, especially with your increasing abdominal girth and recent weight gain. To help with my assessment, have you noticed any new or worsening lower extremity edema\u2014meaning swelling in your legs or ankles\u2014since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing abdominal girth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recent weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "lower extremity edema (swelling in legs or ankles)"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, I have noticed more lower extremity edema lately\u2014my ankles and lower legs are definitely more swollen, especially by the end of the day. Sometimes I can even see the marks from my socks when I take them off, which didn\u2019t used to happen as much. \n\nWith all this\u2014dyspnea, the weight gain, and now the swelling\u2014I\u2019m just getting more anxious. Is this a sign that my heart failure is getting worse? Should I be doing something different with my medications or diet?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankles and lower legs swollen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sock marks on ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart failure getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "change in medications or diet"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious about the increasing abdominal girth and weight gain you\u2019ve described. To help with my assessment, have you noticed any symptoms of abdominal discomfort such as nausea, early satiety (experiencing full quickly), or decreased appetite along with the bloating?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing abdominal girth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "early satiety"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decreased appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "bloating"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, now that you mention it, I have been feeling some early satiety\u2014like I get full pretty quickly, even if I haven\u2019t eaten much. My appetite\u2019s not what it used to be, and sometimes I feel a bit nauseated, especially in the evenings. The bloating just makes it more uncomfortable.\n\nIs this all related to the fluid retention from my heart failure? I\u2019m starting to worry that symptoms are getting out of control. Should I be adjusting my Lasix or anything else with my medications?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "early satiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reduced appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea, especially in the evenings"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bloating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Is this all related to the fluid retention from my heart failure?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I be adjusting my Lasix or anything else with my medications?"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s clear that your symptoms of increasing abdominal girth, weight gain, lower extremity edema, and early satiety are concerning and suggest fluid retention, likely related to your heart failure. As part of my assessment, have you had any recent changes in your blood pressure or heart rate that you\u2019ve noticed at home or during recent examinations?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing abdominal girth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "early satiety"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "fluid retention likely related to heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "recent changes in blood pressure or heart rate"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 I\u2019ve been examinationing my blood pressure at home like I usually do, and it seems a bit higher than my normal\u2014maybe in the 140s over 80s, sometimes even a little higher. My heart rate is usually steady because of the pacemaker, but I have noticed it feels a bit more irregular or \u201cfluttery\u201d at times, even though the monitor says it\u2019s in the 70s. \n\nI\u2019m just worried that with all these symptoms\u2014fluid retention, the weight gain, orthopnea, and now the higher blood pressure\u2014symptoms are getting worse with my heart failure. Should I be adjusting my Lasix or any of my other medications? Or is there something else I should be doing right now to help manage these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "blood pressure at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "higher blood pressure (140s over 80s, sometimes higher)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "irregular or fluttery heart rate"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluid retention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "adjusting Lasix or other medications"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "other actions to manage symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the increasing abdominal girth, weight gain, and swelling you\u2019ve described. Based on your medical history of heart failure and the recent findings of fluid retention, my assessment is that your symptoms may indicate worsening volume overload. Have you recently noticed any changes in your breathing during physical activity or at rest that are different from your usual baseline?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing abdominal girth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluid retention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "worsening volume overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in breathing during physical activity or at rest"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yeah, I have noticed some changes, actually. My dyspnea on exertion is definitely worse than it used to be\u2014even just walking up one flight of stairs leaves me really winded now, and I have to stop and catch my breath. Before, I could do a bit more without feeling so short of breath. At rest, I sometimes feel like I can\u2019t quite get a deep breath, especially in the evenings or when I\u2019m lying down. \n\nAll these symptoms\u2014like the orthopnea, paroxysmal nocturnal dyspnea, the edema, and now this increased dyspnea on exertion\u2014are making me pretty anxious. Is this what you mean by worsening volume overload? Should I be worried about my heart failure getting out of control? And is there anything I can do right now to help with these symptoms, or should we be thinking about changing my medications?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening dyspnea on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "winded after walking up one flight of stairs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath with less activity"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty getting a deep breath at rest, especially in evenings or lying down"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety due to symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "worsening volume overload"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart failure getting out of control"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what can be done right now to help with symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "should medications be changed"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, given your worsening symptoms of dyspnea on exertion, orthopnea, paroxysmal nocturnal dyspnea, weight gain, lower extremity edema, and increased abdominal girth\u2014all of which suggest fluid overload related to your heart failure. Based on my assessment so far, these findings indicate your condition may be decompensating. Before we consider any changes to your medications, have you experienced any new symptoms such as chest pain at rest, palpitations, or lightheadedness that might suggest acute cardiac instability?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea on exertion, orthopnea, paroxysmal nocturnal dyspnea, weight gain, lower extremity edema, increased abdominal girth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "heart failure decompensation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain at rest, palpitations, lightheadedness"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 I have had some chest pain at rest\u2014not really sharp, but kind of a pressure or tightness, especially in the evenings when I\u2019m just sitting or lying down. It doesn\u2019t always last long, but it\u2019s definitely new for me. I\u2019ve also felt some palpitations\u2014like my heart is fluttering or skipping beats\u2014even though I know I have the pacemaker. And there have been a couple times where I felt a bit lightheaded, especially when I stand up too quickly.\n\nAll of this is making me pretty anxious, to be honest. Is this what you mean by acute cardiac instability? Should I be really worried right now? And is there something urgent I need to do, or should we try adjusting my medications first?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pressure or tightness in chest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart fluttering or skipping beats"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness when standing up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "acute cardiac instability"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be really worried right now"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "is there something urgent I need to do"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "should we try adjusting my medications first"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the new chest discomfort, palpitations, and lightheadedness in the context of your history of heart failure and recent evidence of fluid overload. Based on my assessment, these symptoms could indicate acute decompensation of your heart failure and possibly cardiac instability, which requires prompt medical attention. Have you experienced any episodes of syncope (fainting) or severe, persistent chest pain that does not improve with rest?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluid overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute decompensation of heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "cardiac instability"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "requires prompt medical attention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "syncope (fainting)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "severe, persistent chest pain that does not improve with rest"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t actually fainted\u2014no syncope\u2014but I have felt pretty close a couple times, like really lightheaded and had to sit down right away. As for chest pain, it hasn\u2019t been severe or constant, but there have been a few episodes where it lasted longer than usual, maybe ten or fifteen minutes, and didn\u2019t really go away until I rested and took some deep breaths. That\u2019s definitely new for me.\n\nI\u2019m honestly pretty anxious about all of this, especially with you mentioning acute decompensation and cardiac instability. Should I be going to the hospital right now? Or is there something I can do at home while we figure out my medications? I just want to make sure I\u2019m not missing something serious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be going to the hospital right now?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there something I can do at home while we figure out my medications?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "I just want to make sure I\u2019m not missing something serious."
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can completely understand why you\u2019re experiencing anxious given your new symptoms of chest discomfort, palpitations, lightheadedness, and worsening fluid retention\u2014all in the context of your complex cardiac medical history. Based on my assessment, these symptoms suggest acute decompensation of your heart failure and possible cardiac instability, which can be serious and may require urgent intervention. Have you noticed any shortness of breath at rest that is progressively worsening, or any difficulty speaking in full sentences due to your symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening fluid retention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "complex cardiac medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute decompensation of heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible cardiac instability"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath at rest that is progressively worsening"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty speaking in full sentences due to symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 I have noticed that my shortness of breath at rest is getting worse. Even when I\u2019m just sitting in my chair, sometimes I feel like I can\u2019t quite catch my breath. There have been a couple times where it was hard to get a full sentence out without stopping to breathe. That\u2019s definitely new for me and it\u2019s pretty scary.\n\nWith all these symptoms\u2014chest discomfort, palpitations, lightheadedness, the fluid retention, and now this worsening shortness of breath at rest\u2014I\u2019m honestly really anxious. Should I be going to the emergency room right now? Is this something that could get dangerous quickly? I just want to make sure I\u2019m doing the right thing.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluid retention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty speaking full sentences without stopping to breathe"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be going to the emergency room right now?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is this something that could get dangerous quickly?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "I just want to make sure I\u2019m doing the right thing"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can completely understand why you\u2019re experiencing anxious, especially with your worsening shortness of breath at rest, difficulty speaking in full sentences, chest discomfort, palpitations, and fluid retention\u2014all of which are concerning symptoms given your medical history of heart failure and cardiac disease. Based on my assessment, these symptoms indicate acute decompensation and possible cardiac instability, which can become dangerous quickly and require urgent medical evaluation.\n\nGiven the severity and progression of your symptoms, I strongly recommend that you go to the emergency department now for immediate clinical assessment and management. Before you go, have you experienced any new confusion, severe dizziness, or difficulty staying awake that might suggest low oxygen levels or decreased perfusion?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath at rest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty speaking in full sentences"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluid retention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cardiac disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute decompensation and possible cardiac instability"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medical-place",
+          "value": "emergency department"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "immediate clinical assessment and management"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "severe dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty staying awake"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 let me think. I haven\u2019t really had any new confusion, but there have been a couple times where I felt pretty severely dizzy\u2014like the room was spinning and I had to sit down right away. I haven\u2019t had trouble staying awake, but I do feel more tired than usual, almost kind of wiped out all the time. \n\nI\u2019m honestly pretty anxious now, hearing you say this could be dangerous and that I should go to the emergency department. Should I call an ambulance, or is it okay for someone to drive me? And, um, is there anything specific I should mention to the ER team when I get there\u2014like about my acute decompensated heart failure and possible cardiac instability?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "severe dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "room spinning"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "had to sit down right away"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "more tired than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wiped out all the time"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I call an ambulance or is it okay for someone to drive me?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything specific I should mention to the ER team when I get there?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "acute decompensated heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "possible cardiac instability"
+        }
+      ]
+    }
+  ]
+}

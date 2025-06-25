@@ -1,0 +1,1514 @@
+{
+  "source_row_id": 3903,
+  "source_subject_id": 76797,
+  "source_hadm_id": 172517,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, it's good to meet you today. I understand you have been experiencing dyspnea, especially with exertion. Can you describe when you first noticed these symptoms and if they have been getting better, worse, or staying the same?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Hello, doctor. Um, yes, I\u2019ve been having this dyspnea for a little while now, especially when I try to do anything, like just walking to the bathroom. It\u2019s not really getting better\u2014I think it might even be a bit worse lately. And, well, I also have some incisional pain that\u2019s making symptoms more uncomfortable.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "incisional pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that with me\u2014it sounds very uncomfortable to experience worsening dyspnea and incisional pain during daily activities. To help guide my assessment, can you tell me if you have noticed any other symptoms such as swelling in your legs, chest discomfort, or palpitations along with your shortness of breath?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing that with me\u2014it sounds very uncomfortable"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in your legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um, I haven\u2019t really noticed much swelling in my legs or chest discomfort. It\u2019s mostly just the dyspnea that\u2019s bothering me, especially when I try to move around. I just feel uncomfortable and, uh, I\u2019d really like some relief from this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea, especially on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "relief from dyspnea"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for explaining how your symptoms are affecting your daily activities. To better understand your exertional dyspnea and poor endurance, can you tell me if you experience any shortness of breath while at rest, or is it only during physical activity?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining how your symptoms are affecting your daily activities."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath at rest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath during physical activity"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Well, most of the time, the shortness of breath is worse when I\u2019m doing something, like walking or even just getting up from bed\u2014that\u2019s when I really notice the exertional dyspnea. My endurance is pretty poor now; I get tired so easily. At rest, it\u2019s not as bad, but sometimes I still feel a little breathless, especially if I\u2019m lying flat. I just feel uncomfortable and, um, I\u2019m hoping you can help me figure out what\u2019s going on.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "exertional dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor endurance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "easily tired"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "breathless when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "hoping you can help me figure out what\u2019s going on"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms in detail. In addition to your poor endurance, you mentioned experiencing right-sided weakness\u2014can you tell me more about when you first noticed this weakness and whether it has affected your ability to move or perform daily activities?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "when you first noticed this weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "affected your ability to move or perform daily activities"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Oh, right, the right-sided weakness\u2026 Well, um, I think I started noticing it maybe a few days ago? It\u2019s mostly my arm and leg on that side\u2014they just feel kind of heavy and not as strong as usual. It\u2019s made it harder for me to get around, and I feel more tired, kind of lethargic, even when I\u2019m just sitting. I\u2019m not sure if it\u2019s related to the dyspnea or something else, but it\u2019s definitely making symptoms more difficult. Should I be worried about this?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heaviness and decreased strength in right arm and leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty getting around"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue/lethargy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about this?"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms\u2014right-sided weakness and poor endurance can be concerning, especially when they affect your ability to move and perform daily activities. To help with my assessment, have you noticed any changes in your speech, facial drooping, or difficulty with coordination since the weakness began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor endurance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "facial drooping"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty with coordination"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um, I haven\u2019t really noticed any changes in my speech or any facial drooping, at least not that I\u2019m aware of. My coordination is maybe a little off, but it\u2019s hard to tell if that\u2019s just from feeling so tired and weak. Actually, after I was extubated, I was quite drowsy and, uh, I think I even had trouble following commands for a bit. Also, I remember someone mentioning that my LFTs were increasing\u2014I\u2019m not sure if that\u2019s important, but I thought I should mention it. I just feel so uncomfortable and, honestly, a bit worried about all these symptoms.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no changes in speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no facial drooping"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coordination a little off"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling tired and weak"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsy after extubation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble following commands"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "LFTs increasing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worried about symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand your anxiety\u2014these symptoms can be unsettling, and it\u2019s important that we address them thoroughly. Given your right-sided weakness and poor endurance, have you experienced any numbness, tingling, or loss of sensation on that side, in addition to the heaviness and weakness you described?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand your anxiety\u2014these symptoms can be unsettling, and it\u2019s important that we address them thoroughly."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness and poor endurance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "numbness, tingling, or loss of sensation on that side"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heaviness and weakness"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I don\u2019t really have numbness or tingling, it\u2019s more just that heaviness and weakness on my right side. I guess I haven\u2019t lost sensation, but sometimes I do feel a little clumsy. After I was extubated, I remember being really somnolent and, um, I think there were times when I failed to follow commands. That was a bit scary for me. Is that something that happens often after surgery, or should I be more concerned? I\u2019m just feeling so uncomfortable and would really like to know what might help with these symptoms.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heaviness and weakness on right side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no numbness or tingling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no loss of sensation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling clumsy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolent after extubation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "failed to follow commands after extubation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is that something that happens often after surgery?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be more concerned?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "What might help with these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with new symptoms like right-sided weakness and poor endurance after your surgery. To help guide my assessment, have you noticed any changes in your ability to control your bladder or bowel function since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor endurance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in bladder or bowel function"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um, I haven\u2019t really noticed any changes with my bladder or bowel control\u2014those seem about the same as before. It\u2019s mostly just this weakness and feeling so deconditioned. I get tired so easily, and sometimes I feel kind of drowsy or even a little out of it, especially after the surgery. Is it normal to feel this way after being extubated? And is there anything I can do to help with the deconditioning and these symptoms? I just want to feel more like myself again.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling out of it"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "deconditioned"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no changes in bladder or bowel control"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Is it normal to feel this way after being extubated?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything I can do to help with the deconditioning and these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s understandable to feel frustrated by persistent weakness and poor endurance after surgery. To further guide my assessment, have you noticed any changes in your ability to perform fine motor tasks with your right hand, such as buttoning clothes or holding utensils, since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing these details\u2014it\u2019s understandable to feel frustrated by persistent weakness and poor endurance after surgery."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ability to perform fine motor tasks with right hand, such as buttoning clothes or holding utensils"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "since these symptoms began"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Actually, yes, now that you mention it, I have had some trouble with fine motor tasks on my right side. Things like buttoning my shirt or holding a fork feel a lot more difficult than they used to. My hand just doesn\u2019t seem as steady or strong, and sometimes I feel clumsy when I try to do those symptoms. It\u2019s frustrating because I used to be able to manage on my own, and now I need help with simple tasks.\n\nIs this kind of weakness and poor coordination something that will get better with time, or should I be worried about something more serious? And is there anything I can do to help improve my strength and endurance? I\u2019d really like to get back to feeling more comfortable and independent again.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble with fine motor tasks on right side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty buttoning shirt or holding a fork"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hand not steady or strong"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling clumsy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "whether weakness and poor coordination will get better with time"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "whether to be worried about something more serious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "ways to improve strength and endurance"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially since the right-sided weakness and poor coordination are affecting your independence and daily activities. Based on what you\u2019ve described\u2014worsening exertional dyspnea, poor endurance, right-sided weakness, and difficulty with fine motor tasks\u2014these symptoms could be related to neurological changes or deconditioning after surgery. To help guide my assessment, have you noticed any new headaches, vision changes, or episodes of confusion since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor coordination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening exertional dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor endurance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty with fine motor tasks"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "neurological changes or deconditioning after surgery"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new headaches"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vision changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of confusion"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I haven\u2019t really had any new headpains or vision changes that I can remember. There have been a few times, though, where I felt a bit confused or just not quite myself\u2014especially right after the surgery and extubation. I was very somnolent and, um, I think there were moments when I didn\u2019t really know what was going on or couldn\u2019t follow commands. That\u2019s gotten a little better, but I still feel kind of drowsy and not as sharp as usual.\n\nIs it common to have this kind of confusion and somnolence after surgery, or could it be something more serious? And with all these symptoms\u2014like the exertional dyspnea, poor endurance, and right-sided weakness\u2014what can I do to start feeling better? Should I be worried about any long-term effects? I just want to get back to my normal activities and not feel so uncomfortable all the time.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new headpains or vision changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confused"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not quite myself"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolent"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "didn\u2019t really know what was going on"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "couldn\u2019t follow commands"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not as sharp as usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "confusion and somnolence after surgery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "could it be something more serious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "exertional dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor endurance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what can I do to start feeling better"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Should I be worried about any long-term effects"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "want to get back to normal activities and not feel uncomfortable"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with ongoing symptoms like right-sided weakness, lethargy, and difficulty with daily activities after your surgery. Based on your description of somnolence and intermittent confusion following extubation, along with your current neurological symptoms, I\u2019d like to clarify: have you experienced any recent episodes of loss of consciousness or sudden worsening of your neurological symptoms since leaving the hospital?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty with daily activities"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "intermittent confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent episodes of loss of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden worsening of neurological symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um, no, I haven\u2019t had any episodes where I completely lost consciousness since leaving the hospital. There haven\u2019t been any sudden changes or worsening of my neurological symptoms either\u2014it\u2019s just been this ongoing right-sided weakness and feeling lethargic, with poor endurance. Sometimes I do feel a bit more drowsy or out of it, but I haven\u2019t blacked out or anything like that.\n\nIs it normal to still have these neurological symptoms and somnolence after surgery and extubation? I\u2019m just uncomfortable all the time, and it\u2019s making it hard to get back to my usual activities. Is there anything I can do to help with the recovery, or should I be worried about something more serious going on?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargic"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor endurance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling out of it"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no loss of consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "neurological symptoms and somnolence after surgery and extubation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "anything I can do to help with recovery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "should I be worried about something more serious"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with persistent symptoms like right-sided weakness, exertional dyspnea, poor endurance, and ongoing somnolence after your surgery. Based on your medical history and recent laboratory clinical findings, I\u2019d like to further assess for possible neurological or metabolic causes. Have you noticed any new difficulty with swallowing (dysphagia) or changes in your speech since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "exertional dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor endurance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "surgery"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dysphagia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in speech"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um, I do have a history of swallowing symptoms\u2014I think it\u2019s called dysphagia? I\u2019ve had symptoms with my esophagus before, and I\u2019ve even had botox injections for achalasia. But since these new symptoms started, I don\u2019t think my swallowing has gotten any worse than usual. My speech seems about the same, too\u2014no slurring or trouble getting words out that I\u2019ve noticed.\n\nI\u2019m just feeling so uncomfortable with all these symptoms\u2014especially the somnolence and right-sided weakness. Is it possible that my increased LFTs or the deconditioning could be making symptoms worse? And is there anything specific I can do to help with my recovery and get some relief? I really just want to feel more like myself again.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of swallowing symptoms (dysphagia), esophageal symptoms, botox injections for achalasia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no worsening of swallowing, no slurring or trouble with speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is it possible that increased LFTs or deconditioning could be making symptoms worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything specific I can do to help with recovery and get relief?"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s understandable to feel uncomfortable with persistent somnolence, right-sided weakness, and poor endurance, especially given your medical history and recent surgery. Based on your symptoms and the mild anemia noted in your laboratory clinical findings, your deconditioning and increased liver function diagnostic evaluations (LFTs) may be contributing to your current condition, but we should also consider neurological causes given your focal weakness. I recommend a thorough neurological examination and physical therapy assessment to guide rehabilitation, and I\u2019d also suggest monitoring your LFTs closely; have you had any recent imaging studies, such as a brain MRI or CT scan, since these new neurological symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent somnolence, right-sided weakness, poor endurance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent surgery"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "mild anemia in laboratory clinical findings"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "deconditioning and increased liver function diagnostic evaluations (LFTs) may be contributing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible neurological causes for focal weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "thorough neurological examination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "physical therapy assessment to guide rehabilitation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "monitoring LFTs closely"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "recent imaging studies, such as brain MRI or CT scan"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I don\u2019t think I\u2019ve had any recent imaging studies like a brain MRI or CT scan since these neurological symptoms started. The last time I had any scans was before my surgery, but nothing since then. Do you think I should get one now, with all these symptoms\u2014like the right-sided weakness, somnolence, and poor endurance?\n\nI appreciate you explaining everything and recommending a neurological examination and physical therapy. Is there anything I can do in the meantime to help with my deconditioning or to get some relief from these symptoms? And should I be worried about the increased LFTs making symptoms worse? I just want to make sure I\u2019m doing everything I can to recover and feel more comfortable.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "no recent imaging studies like brain MRI or CT scan since neurological symptoms started"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "last scans were before surgery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "should I get a brain MRI or CT scan now"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor endurance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "QA",
+          "slot": "Treatment",
+          "value": "anything I can do in the meantime to help with deconditioning or get relief from symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "should I be worried about increased LFTs making symptoms worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "QA",
+          "slot": "Other",
+          "value": "want to make sure I\u2019m doing everything I can to recover and feel more comfortable"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with persistent right-sided weakness, somnolence, and poor endurance after your recent surgery. Based on your symptoms and medical history, I recommend a thorough neurological examination and brain imaging (such as an MRI or CT scan) to assess for any potential causes of your focal neurological symptoms. In the meantime, have you noticed any new or worsening symptoms such as fever, jaundice, or abdominal pain that might suggest your increased liver function diagnostic evaluations are contributing to your current condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent right-sided weakness, somnolence, poor endurance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent surgery"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "neurological examination, brain imaging (MRI or CT scan)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening symptoms such as fever, jaundice, or abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "increased liver function diagnostic evaluations"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Well, um, I haven\u2019t really noticed any new fever or jaundice\u2014my skin and eyes look the same as usual, I think. I don\u2019t have any abdominal pain either, just the incisional pain from surgery, but nothing that feels like it\u2019s coming from my liver area. I do remember someone mentioning my LFTs were increasing, so I was a little concerned about that, but I\u2019m not sure what symptoms to look out for.\n\nThank you for explaining about the neurological examination and brain imaging. Is it common to have these kinds of symptoms after heart surgery, or does this mean something more serious could be going on? And with my history of interstitial lung disease and pulmonary hypertension, could that be making my exertional dyspnea and poor endurance worse too? I just want to make sure I\u2019m not missing anything and do whatever I can to feel better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no jaundice"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "incisional pain from surgery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no pain in liver area"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "LFTs were increasing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "what symptoms to look out for with increasing LFTs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it common to have these kinds of symptoms after heart surgery?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "history of interstitial lung disease and pulmonary hypertension affecting exertional dyspnea and poor endurance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "exertional dyspnea and poor endurance worsening"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these ongoing symptoms, especially after a major surgery and with your medical history of interstitial lung disease and pulmonary hypertension. Based on your description\u2014persistent right-sided weakness, somnolence, exertional dyspnea, and poor endurance\u2014these symptoms could be related to a combination of deconditioning, possible neurological changes, and your underlying cardiopulmonary conditions. I recommend a comprehensive neurological examination and brain imaging to assess for any acute neurological causes, as well as continued monitoring of your liver function diagnostic evaluations and hemoglobin levels.\n\nIn addition to these assessments, starting a structured physical therapy program can help address your deconditioning and gradually improve your strength and endurance. It\u2019s also important to closely monitor for any new symptoms such as fever, jaundice, or worsening shortness of breath.\n\nTo guide further management, have you recently had a formal cardiac assessment, such as an echocardiogram, since your surgery to evaluate your heart function in relation to your current symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "interstitial lung disease and pulmonary hypertension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent right-sided weakness, somnolence, exertional dyspnea, poor endurance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "combination of deconditioning, possible neurological changes, and underlying cardiopulmonary conditions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "comprehensive neurological examination and brain imaging"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "continued monitoring of liver function diagnostic evaluations and hemoglobin levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "starting a structured physical therapy program"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "closely monitor for any new symptoms such as fever, jaundice, or worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "formal cardiac assessment, such as an echocardiogram, since surgery"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I don\u2019t think I\u2019ve had a formal cardiac assessment or an echocardiogram since my surgery. The last one I remember was before the valve repairs, but nothing recent. Would that help figure out if my heart function is making these symptoms\u2014like the exertional dyspnea and poor endurance\u2014worse?\n\nI appreciate you explaining everything so clearly. I\u2019m definitely interested in starting physical therapy if that can help with my deconditioning and weakness. I just want to feel more like myself again and not be so uncomfortable all the time.\n\nIs there anything else I should be doing while we wait for the neurological examination and brain imaging? And should I be worried about my liver function diagnostic evaluations or hemoglobin levels getting worse? I just want to make sure I\u2019m not missing anything important.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "no formal cardiac assessment or echocardiogram since surgery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "last echocardiogram before valve repairs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "cardiac assessment or echocardiogram"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "exertional dyspnea and poor endurance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "deconditioning and weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "physical therapy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "anything else to do while waiting for neurological examination and brain imaging"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "liver function diagnostic evaluations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "hemoglobin levels"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious about these persistent symptoms, especially after your recent surgery and given your medical history. Based on your ongoing right-sided weakness, exertional dyspnea, poor endurance, and somnolence, I recommend proceeding with a comprehensive neurological examination and brain imaging to assess for any acute neurological causes, as well as a formal cardiac assessment such as an echocardiogram to evaluate your heart function. Starting physical therapy will be important to address deconditioning and gradually improve your strength and endurance. \n\nWhile we await further assessment, please monitor for any new symptoms such as fever, jaundice, or worsening shortness of breath, and ensure you stay well-hydrated and maintain adequate nutrition to support your recovery. Have you noticed any increased bruising or bleeding tendencies, which could be related to your hemoglobin level or anticoagulation therapy?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness, exertional dyspnea, poor endurance, somnolence"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "comprehensive neurological examination, brain imaging, formal cardiac assessment, echocardiogram"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "starting physical therapy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor for new symptoms such as fever, jaundice, or worsening shortness of breath; stay well-hydrated; maintain adequate nutrition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased bruising or bleeding tendencies"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent surgery, hemoglobin level, anticoagulation therapy"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Well, um, now that you mention it, I have noticed a little more bruising than usual\u2014mostly on my arms and legs. I\u2019m on warfarin, so I try to be careful, but lately it seems like even a small bump leaves a mark. I haven\u2019t had any major bleeding, though\u2014no nosebleeds or blood in my urine or anything like that.\n\nThank you for explaining everything so clearly. I really appreciate you taking the time to go over all these symptoms and what to watch out for. I\u2019ll make sure to keep an eye on symptoms like fever, jaundice, or worsening shortness of breath, and I\u2019ll try to stay hydrated and eat as well as I can.\n\nIs there anything specific I should do if I notice more bruising or if my symptoms get worse before my neurological examination and echocardiogram? And with all these symptoms\u2014like the somnolence, right-sided weakness, and poor endurance\u2014do you think there\u2019s a good chance I\u2019ll get back to my normal self, or should I expect a longer recovery? I just want to feel comfortable again and not so limited.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bruising on arms and legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "warfarin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no major bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no nosebleeds"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no blood in urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor endurance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what to do if more bruising or symptoms worsen before neurological examination and echocardiogram"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "likelihood of full recovery or longer recovery"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing your concerns and for being so attentive to your symptoms\u2014your careful monitoring is very important, especially given your medical history and current anticoagulation therapy. Based on your persistent right-sided weakness, exertional dyspnea, somnolence, and increased bruising while on warfarin, my clinical assessment is that you may be experiencing a combination of deconditioning, possible neurological changes, and effects related to your cardiac and hepatic function; your mild anemia may also be contributing to your poor endurance.\n\nI recommend proceeding with a neurological examination and brain imaging, as well as a formal cardiac assessment (such as an echocardiogram) to further evaluate your symptoms. Physical therapy will be essential for rehabilitation and regaining strength. Please continue to monitor for any signs of active bleeding (such as nosebleeds, blood in urine or stool, or significant bruising), and if these occur or if your neurological symptoms worsen suddenly, assessk immediate medical attention.\n\nWhile recovery can take time after major surgery, especially with your medical history, many patients do improve with targeted rehabilitation and close monitoring. Have you had your most recent INR (international normalized ratio) examineed to ensure your warfarin therapy is within the therapeutic range?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "persistent right-sided weakness, exertional dyspnea, somnolence, increased bruising"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease-history",
+          "value": "current anticoagulation therapy, cardiac and hepatic function issues, mild anemia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "neurological examination, brain imaging, formal cardiac assessment, echocardiogram"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "physical therapy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor for signs of active bleeding (nosebleeds, blood in urine or stool, significant bruising), seek immediate medical attention if neurological symptoms worsen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "most recent INR (international normalized ratio) test"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so clearly, doctor. Um, I think my last INR was examinationed about a week ago, but I\u2019m not exactly sure what the number was. I know they try to keep it in the right range because of the warfarin, but with all the bruising I\u2019ve been having, maybe it\u2019s a bit too high? Should I get it examinationed again soon?\n\nI really appreciate you taking the time to go over all these symptoms and tests\u2014I just want to make sure I\u2019m doing everything I can to recover. I\u2019m definitely interested in starting physical therapy and getting the neurological examination and brain imaging done. Is there anything else I should be doing at home to help with the deconditioning or to manage my poor endurance while we wait for these assessments?\n\nAnd, um, do you think it\u2019s likely that my symptoms\u2014like the right-sided weakness and somnolence\u2014will improve with time and therapy, or should I prepare for a longer recovery? I just want to feel more comfortable and get back to my normal activities if possible.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "INR examinationed about a week ago"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "warfarin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bruising"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "Should I get INR examinationed again soon"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor endurance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "deconditioning"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything else I should be doing at home to help with deconditioning or poor endurance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "somnolence"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Will symptoms improve with time and therapy or should I prepare for a longer recovery"
+        }
+      ]
+    }
+  ]
+}

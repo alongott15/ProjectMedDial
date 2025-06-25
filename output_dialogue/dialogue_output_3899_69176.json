@@ -1,0 +1,437 @@
+{
+  "partial_profile": {
+    "row_id": 4186,
+    "subject_id": 78705,
+    "hadm_id": 151651,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Shortness of breath (SOB)",
+          "onset": "increased over past 3 days",
+          "duration": "3 days",
+          "severity": "progressed from dyspnea on exertion to dyspnea at rest"
+        },
+        {
+          "description": "Hypoxia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Increased work of breathing",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Poor appetite",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Intermittent right ear pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Chronic arthritic pains",
+          "onset": "chronic",
+          "duration": "not provided",
+          "severity": "typical pains for her"
+        },
+        {
+          "description": "Anxiety",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Labored breathing, pursed lips, taking frequent breaths while talking",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Diffuse inspiratory wheezes, poor air movement",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Slightly dry mucous membranes",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "increased shortness of breath",
+          "onset": "over past 3 days",
+          "duration": "3 days",
+          "severity": "not provided"
+        },
+        {
+          "description": "dyspnea on exertion progressing to dyspnea at rest",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "poor air movement",
+          "onset": "on exam in ED",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Flare-up of COPD",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "very serious"
+        },
+        {
+          "description": "Cough",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Impaired breathing function",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2108-08-15",
+        "Age": 75,
+        "Sex": "F",
+        "Religion": "NOT SPECIFIED",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2183-12-24 15:01:00",
+        "Discharge_Date": "2184-01-02 19:00:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Tracheobronchomalacia s/p Y stenting in 8-/2182, removed 2182-9-27 due to mucous plugging; COPD on 2L home oxygen; Vocal Cord Dysfunction; Obesity hypoventilation syndrome; Chronic Diastolic heart failure; Hypothyroidism; Irritable bowel Syndrome; Vitamin D deficiency; Coronary artery disease; Anxiety; Depression; Seizure disorder; H/o C. diff colitis; R colon cancer s/p hemicolectomy in 2178 (vs. neuroendocrine tumor per some OSH reports); s/p tonsillectomy; s/p thyroid lobectomy 2151; s/p cholecystectomy 2151; s/p appendectomy 2179 for neuroendocrine tumor; Smoking; Psychosis with prednisone."
+      },
+      "Allergies": [
+        "Klonopin"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Spiriva",
+          "purpose": "COPD maintenance",
+          "dosage": "not provided",
+          "frequency": "prn"
+        },
+        {
+          "name": "Pulmicort",
+          "purpose": "COPD maintenance",
+          "dosage": "not provided",
+          "frequency": "prn"
+        },
+        {
+          "name": "Albuterol",
+          "purpose": "Rescue inhaler for SOB",
+          "dosage": "not provided",
+          "frequency": "as needed"
+        },
+        {
+          "name": "spiriva",
+          "purpose": "COPD maintenance",
+          "dosage": "not provided",
+          "frequency": "prn"
+        },
+        {
+          "name": "pulmicort",
+          "purpose": "COPD maintenance",
+          "dosage": "not provided",
+          "frequency": "prn"
+        },
+        {
+          "name": "albuterol",
+          "purpose": "rescue inhaler for COPD",
+          "dosage": "not provided",
+          "frequency": "as needed"
+        },
+        {
+          "name": "Mucomyst nebulizer",
+          "purpose": "Prevent stent from becoming plugged",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Mucinex",
+          "purpose": "Prevent stent from becoming plugged",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Codeine",
+          "purpose": "For cough",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Liquid morphine",
+          "purpose": "For comfort",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Mucomyst nebulizer",
+          "purpose": "Prevent stent from becoming plugged",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Mucinex",
+          "purpose": "Prevent stent from becoming plugged",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Codeine",
+          "purpose": "For cough",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Liquid morphine",
+          "purpose": "For comfort",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "SOB"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.8,
+      "consistency_score": 1.0,
+      "confidence_score": 0.75,
+      "overall_score": 0.9333333333333332,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 1.0,
+        "treatments": 0.7857142857142857,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Treatment 'Anxiolytic therapy' not clearly found in text",
+        "Treatment 'Anxiolytic administration' not clearly found in text",
+        "Treatment 'ICU management' not clearly found in text",
+        "Age inconsistency: stated 75, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Good afternoon, thank you for coming in today. I understand you\u2019ve been experiencing weakness and fatigue over the past several days\u2014can you describe in more detail how these symptoms have affected your daily activities?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yeah, I\u2019ve just been feeling really weak lately. It\u2019s gotten hard for me to even get out of bed some days. I\u2019m just so tired all the time, and, uh, my left shoulder\u2019s been hurting too, but mostly it\u2019s this weakness that\u2019s making symptoms difficult."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing how much this weakness and fatigue have impacted your daily activities. You also mentioned labile blood sugars, with levels ranging from the 60s to over 400\u2014can you tell me if you\u2019ve noticed any specific symptoms, such as dizziness, sweating, or confusion, when your blood sugar is particularly low or high?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I guess sometimes I do feel a little confused, especially when my blood sugar drops low. I\u2019m not sure about sweating or dizziness, but the confusion stands out. And, uh, lately I\u2019ve also had some pain around my left ribs. I just feel pretty uncomfortable overall."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand how confusing and uncomfortable these symptoms must be for you, and I appreciate you sharing them with me. You mentioned experiencing both confusion and pain around your left ribs\u2014can you tell me if you\u2019ve noticed any changes in your bowel movements, such as dark or tarry stools, which could suggest gastroindiagnostic evaluationinal bleeding?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, let me think\u2026 actually, yes, I did notice my stool looked kind of dark, almost black, the other day. I wasn\u2019t sure if it was something I ate or not, but it did seem different. I didn\u2019t really think much of it at first, but now that you mention it, maybe that\u2019s important? I\u2019m still feeling pretty weak and tired, and with this rib pain and confusion, I\u2019m starting to get a bit worried. Should I be concerned about the dark stool?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious, especially with these new symptoms and changes in your stool. Given your ongoing fatigue and the wide fluctuations in your blood glucose levels, have you noticed any recent changes in your appetite, unintentional weight loss, or increased thirst and urination that might help us further assess your metabolic status?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 yeah, now that you mention it, I think my appetite\u2019s been a lot less than usual. I haven\u2019t really felt like eating much, and I might\u2019ve lost some weight, but I\u2019m not sure how much. I do get thirsty sometimes, and I\u2019ve been going to the bathroom more often than I used to. \n\nAbout my blood sugars\u2014they\u2019ve been all over the place, like you said, sometimes dropping into the 60s and then shooting up over 400. The confusion seems to get worse when that happens. I just feel kind of out of it, and it\u2019s making me pretty uncomfortable."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for explaining how your symptoms have progressed, especially the fluctuations in your blood glucose and ongoing fatigue. To help with my assessment, have you experienced any episodes of loss of consciousness or near-fainting (syncope or presyncope) during these periods of low or high blood sugar?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I don\u2019t think I\u2019ve actually passed out, but there have been a couple times where I felt really lightheaded\u2014like I might faint. It usually happens when my blood sugar drops low, and I get kind of shaky and confused. \n\nAlso, about the bowel movements you mentioned earlier\u2014I did have what you called a melanotic bowel movement. It was pretty dark, almost black. I\u2019m not sure if that\u2019s related, but I thought I should mention it. \n\nI know I look pretty thin and frail these days, and honestly, I just feel weaker than usual. I\u2019d really like to get some relief from all of this."
+    },
+    {
+      "role": "Doctor",
+      "content": "I understand that all of these symptoms and changes can feel confusing and overwhelming, and I appreciate you sharing them so openly. To help with my assessment, can you tell me if you have experienced any chest pain, palpitations, or shortness of breath along with your fatigue and labile blood sugars?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t really had any chest pain or palpitations that I can remember. I do get a little short of breath sometimes, but it\u2019s not all the time\u2014just every now and then, especially when I try to move around.\n\nActually, lately I haven\u2019t even been able to stand up on my own. My legs just feel too weak, and I\u2019m worried about falling again. My skin\u2019s been really dry too\u2014almost flaky in some spots. \n\nIs all of this connected somehow? Should I be worried about these symptoms getting worse? I just want to feel better and get some relief."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious given these ongoing symptoms and changes in your health. To help with my assessment, have you noticed any signs of infection, such as fever, chills, or redness and tenderness around your left clavicular area or elsewhere, which might be related to your current condition?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, actually, now that you mention it, I have noticed some redness and tenderness right over my left clavicular area\u2014kind of where the collarbone meets the sternum. It\u2019s been a bit sore to the touch, and I think there\u2019s some swelling there too. I don\u2019t know if that\u2019s what you\u2019d call edema, but it does seem puffier than usual, almost like the fluid is building up under the skin.\n\nI haven\u2019t really had any fevers or chills that I can remember, but this area\u2019s definitely more sensitive than before. Should I be worried about infection or something serious going on there? And is this related to the weakness and other symptoms I\u2019ve been having? I just feel pretty uncomfortable and would really like to get some relief."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these ongoing symptoms, especially with the redness, tenderness, and swelling over your left clavicular area. To further assess your condition, have you noticed any warmth or increased temperature over that area, or any drainage from the skin that could suggest a localized infection or abscess?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Well, I haven\u2019t noticed any drainage from the skin, but that area over my left sternoclavicular joint does feel a little warmer than the rest, and it\u2019s definitely tender. There\u2019s some very mild soft tissue swelling right there too\u2014just over the joint. It\u2019s not a huge bump, but it\u2019s puffier than usual.\n\nAnd, um, about the bowel movements\u2014I did have another melanotic stool recently. It was really dark, almost black, just like before. I\u2019m starting to get pretty uncomfortable with all these symptoms happening at once. Is this something serious? I just want to know what\u2019s going on and if there\u2019s anything you can do to help me feel better."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms in detail\u2014it helps guide my assessment. Based on your fatigue, labile blood sugars, recurrent melanotic stools, and localized warmth and swelling over your left sternoclavicular joint, I am concerned about possible infection and ongoing blood loss. Have you recently experienced any episodes of dizziness or near-syncope when standing, which could suggest low blood pressure or worsening anemia?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually, I have felt pretty dizzy when I try to stand up\u2014almost like the room is spinning and I might pass out. That\u2019s part of why I haven\u2019t really been able to get up on my own lately. I just feel so weak, and sometimes I get kind of lightheaded, especially if I move too quickly.\n\nAbout that area over my left sternoclavicular joint\u2014it\u2019s definitely erythematous and tender, just like you said. It feels warm and swollen, and it\u2019s been bothering me more these past few days. I\u2019m not sure if it\u2019s related to the anemia or maybe an infection, but it\u2019s making me pretty uncomfortable.\n\nShould I be worried about all these symptoms together? Is there anything you can do to help with the pain and this weakness? I just want to feel better."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these ongoing symptoms, especially with the weakness, dizziness, and changes in your blood sugar levels. Based on your clinical findings\u2014including fatigue, labile blood sugars, recurrent melanotic stools, and localized swelling and tenderness over your left sternoclavicular joint\u2014my assessment is that you may be experiencing both ongoing blood loss and a possible localized infection. To help guide our next steps, have you noticed any recent changes in your urine output or color, which could provide additional information about your hydration status and kidney function?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Actually, I have noticed that my urine\u2019s been a bit darker than usual, and I don\u2019t think I\u2019ve been going as much as I normally do. I figured maybe I just wasn\u2019t drinking enough water, but with everything else going on\u2014like the fatigue, the labile blood sugars, and now these recurrent melanotic stools\u2014I\u2019m starting to get more worried.\n\nThis swelling and tenderness over my left sternoclavicular joint is really uncomfortable too. I\u2019m not sure if it\u2019s an infection or something else, but it\u2019s making it hard to rest. \n\nIs all of this connected? Should I be really concerned about my kidney function or dehydration? And is there anything you can do to help with the pain and this weakness? I\u2019d really like to get some relief and understand what\u2019s happening."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with these ongoing symptoms and changes in your health. Based on your description\u2014persistent fatigue, labile blood sugars, recurrent melanotic stools, localized swelling and tenderness over your left sternoclavicular joint, and now decreased urine output with darker color\u2014my assessment is that you may be experiencing a combination of gastroindiagnostic evaluationinal blood loss, possible infection, and dehydration, all of which can contribute to your weakness and altered mental status. To further guide my assessment, have you experienced any fever or chills recently, which could indicate a systemic infection?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t really noticed any fever or chills lately. I\u2019ve felt kind of cold sometimes, but I don\u2019t think I\u2019ve had a real fever. Mostly it\u2019s just this constant fatigue and weakness, and the pain over my left sternoclavicular joint that you mentioned. The swelling and redness there seem to be getting worse, and it\u2019s making me more uncomfortable.\n\nWith the recurrent melanotic stools and now the decreased urine output, I\u2019m starting to get worried about what all this means. Is it possible that the blood loss and possible infection are making everything else worse? Should I be worried about sepsis or something serious like that? And is there anything you can do to help with the pain and weakness while we figure this out? I\u2019d really appreciate some relief\u2014I just don\u2019t feel like myself at all."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with these ongoing symptoms and the discomfort you\u2019re experiencing. Based on your clinical presentation\u2014persistent fatigue, recurrent melanotic stools suggesting gastroindiagnostic evaluationinal blood loss, labile blood sugars, localized swelling and tenderness over your left sternoclavicular joint, and decreased urine output\u2014I am concerned about the possibility of ongoing anemia, infection (possibly even sepsis), and dehydration, all of which can worsen your overall condition.\n\nMy immediate recommendations are to proceed with a thorough clinical assessment, including laboratory evaluation for anemia, infection (such as blood cultures and inflammatory markers), kidney function, and electrolyte status. In addition, I recommend imaging of the sternoclavicular joint to assess for possible abscess or osteomyelitis. For symptom relief, we can initiate pain management and intravenous fluids to address dehydration while we stabilize your condition.\n\nHave you had any recent laboratory assessments for hemoglobin or white blood cell count that would help us further evaluate the severity of your anemia or possible infection?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 I don\u2019t think I\u2019ve had any recent labs done for hemoglobin or white blood cell count\u2014not in the last few weeks, at least. The last time I had blood work was maybe a month ago, but I\u2019m not sure what they examinationed for. I do remember them saying I had anemia before, but I don\u2019t know how bad it is now.\n\nI appreciate you explaining everything so clearly. I\u2019m just feeling really uncomfortable and weak, and this pain over my left sternoclavicular joint is getting harder to ignore. The idea of infection or even sepsis is a bit scary, to be honest.\n\nWill these tests and imaging help figure out what\u2019s going on? And is there anything you can do right away to help with the pain and this weakness while we wait for results? I\u2019d really like to start feeling better soon."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing your concerns and for describing your symptoms in detail. Based on your ongoing fatigue, recurrent melanotic stools, labile blood sugars, localized swelling and tenderness over your left sternoclavicular joint, and decreased urine output, my clinical assessment is that you may be experiencing significant anemia from gastroindiagnostic evaluationinal blood loss, possible localized infection (such as septic arthritis or osteomyelitis), and dehydration.\n\nI recommend immediate laboratory evaluation\u2014including hemoglobin, hematocrit, white blood cell count, kidney function diagnostic evaluations, and blood cultures\u2014as well as imaging of the sternoclavicular joint to assess for infection. For symptom relief, we can initiate intravenous fluids for hydration and appropriate pain management while closely monitoring your vital signs.\n\nWhile we proceed with this assessment, have you experienced any recent shortness of breath at rest or chest discomfort, which could indicate that your anemia or infection is affecting your cardiopulmonary status?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining everything so clearly, doctor. Um\u2026 as for shortness of breath, I have noticed it a little bit, but mostly when I try to move around\u2014even just sitting up in bed sometimes makes me feel a bit winded. I haven\u2019t really had chest discomfort or what I\u2019d call chest pain, though. It\u2019s more just this overall weakness and being out of breath easier than usual.\n\nI\u2019m glad you\u2019re going to examination my hemoglobin and white blood cell count\u2014I know you mentioned anemia and possible infection, and I\u2019d like to get to the bottom of what\u2019s causing all this. The pain over my left sternoclavicular joint is still pretty bad, and I\u2019m just feeling so tired and uncomfortable.\n\nIs there anything you can do right away for the pain while we wait for the results? And with these symptoms\u2014especially the melanotic stools and the swelling\u2014should I be worried about something serious like sepsis or needing a blood transfusion? I just want to feel better and get some relief."
+    }
+  ],
+  "transcript": "Doctor: Good afternoon, thank you for coming in today. I understand you\u2019ve been experiencing weakness and fatigue over the past several days\u2014can you describe in more detail how these symptoms have affected your daily activities?\nPatient: Well, um\u2026 yeah, I\u2019ve just been feeling really weak lately. It\u2019s gotten hard for me to even get out of bed some days. I\u2019m just so tired all the time, and, uh, my left shoulder\u2019s been hurting too, but mostly it\u2019s this weakness that\u2019s making symptoms difficult.\nDoctor: Thank you for sharing how much this weakness and fatigue have impacted your daily activities. You also mentioned labile blood sugars, with levels ranging from the 60s to over 400\u2014can you tell me if you\u2019ve noticed any specific symptoms, such as dizziness, sweating, or confusion, when your blood sugar is particularly low or high?\nPatient: Well, um\u2026 I guess sometimes I do feel a little confused, especially when my blood sugar drops low. I\u2019m not sure about sweating or dizziness, but the confusion stands out. And, uh, lately I\u2019ve also had some pain around my left ribs. I just feel pretty uncomfortable overall.\nDoctor: I can understand how confusing and uncomfortable these symptoms must be for you, and I appreciate you sharing them with me. You mentioned experiencing both confusion and pain around your left ribs\u2014can you tell me if you\u2019ve noticed any changes in your bowel movements, such as dark or tarry stools, which could suggest gastroindiagnostic evaluationinal bleeding?\nPatient: Well, let me think\u2026 actually, yes, I did notice my stool looked kind of dark, almost black, the other day. I wasn\u2019t sure if it was something I ate or not, but it did seem different. I didn\u2019t really think much of it at first, but now that you mention it, maybe that\u2019s important? I\u2019m still feeling pretty weak and tired, and with this rib pain and confusion, I\u2019m starting to get a bit worried. Should I be concerned about the dark stool?\nDoctor: I can understand why you\u2019re experiencing anxious, especially with these new symptoms and changes in your stool. Given your ongoing fatigue and the wide fluctuations in your blood glucose levels, have you noticed any recent changes in your appetite, unintentional weight loss, or increased thirst and urination that might help us further assess your metabolic status?\nPatient: Um\u2026 yeah, now that you mention it, I think my appetite\u2019s been a lot less than usual. I haven\u2019t really felt like eating much, and I might\u2019ve lost some weight, but I\u2019m not sure how much. I do get thirsty sometimes, and I\u2019ve been going to the bathroom more often than I used to. \n\nAbout my blood sugars\u2014they\u2019ve been all over the place, like you said, sometimes dropping into the 60s and then shooting up over 400. The confusion seems to get worse when that happens. I just feel kind of out of it, and it\u2019s making me pretty uncomfortable.\nDoctor: Thank you for explaining how your symptoms have progressed, especially the fluctuations in your blood glucose and ongoing fatigue. To help with my assessment, have you experienced any episodes of loss of consciousness or near-fainting (syncope or presyncope) during these periods of low or high blood sugar?\nPatient: Well, um\u2026 I don\u2019t think I\u2019ve actually passed out, but there have been a couple times where I felt really lightheaded\u2014like I might faint. It usually happens when my blood sugar drops low, and I get kind of shaky and confused. \n\nAlso, about the bowel movements you mentioned earlier\u2014I did have what you called a melanotic bowel movement. It was pretty dark, almost black. I\u2019m not sure if that\u2019s related, but I thought I should mention it. \n\nI know I look pretty thin and frail these days, and honestly, I just feel weaker than usual. I\u2019d really like to get some relief from all of this.\nDoctor: I understand that all of these symptoms and changes can feel confusing and overwhelming, and I appreciate you sharing them so openly. To help with my assessment, can you tell me if you have experienced any chest pain, palpitations, or shortness of breath along with your fatigue and labile blood sugars?\nPatient: Well, um\u2026 I haven\u2019t really had any chest pain or palpitations that I can remember. I do get a little short of breath sometimes, but it\u2019s not all the time\u2014just every now and then, especially when I try to move around.\n\nActually, lately I haven\u2019t even been able to stand up on my own. My legs just feel too weak, and I\u2019m worried about falling again. My skin\u2019s been really dry too\u2014almost flaky in some spots. \n\nIs all of this connected somehow? Should I be worried about these symptoms getting worse? I just want to feel better and get some relief.\nDoctor: I can understand why you\u2019d be anxious given these ongoing symptoms and changes in your health. To help with my assessment, have you noticed any signs of infection, such as fever, chills, or redness and tenderness around your left clavicular area or elsewhere, which might be related to your current condition?\nPatient: Well, actually, now that you mention it, I have noticed some redness and tenderness right over my left clavicular area\u2014kind of where the collarbone meets the sternum. It\u2019s been a bit sore to the touch, and I think there\u2019s some swelling there too. I don\u2019t know if that\u2019s what you\u2019d call edema, but it does seem puffier than usual, almost like the fluid is building up under the skin.\n\nI haven\u2019t really had any fevers or chills that I can remember, but this area\u2019s definitely more sensitive than before. Should I be worried about infection or something serious going on there? And is this related to the weakness and other symptoms I\u2019ve been having? I just feel pretty uncomfortable and would really like to get some relief.\nDoctor: I can understand why you\u2019d be worried about these ongoing symptoms, especially with the redness, tenderness, and swelling over your left clavicular area. To further assess your condition, have you noticed any warmth or increased temperature over that area, or any drainage from the skin that could suggest a localized infection or abscess?\nPatient: Let me think\u2026 Well, I haven\u2019t noticed any drainage from the skin, but that area over my left sternoclavicular joint does feel a little warmer than the rest, and it\u2019s definitely tender. There\u2019s some very mild soft tissue swelling right there too\u2014just over the joint. It\u2019s not a huge bump, but it\u2019s puffier than usual.\n\nAnd, um, about the bowel movements\u2014I did have another melanotic stool recently. It was really dark, almost black, just like before. I\u2019m starting to get pretty uncomfortable with all these symptoms happening at once. Is this something serious? I just want to know what\u2019s going on and if there\u2019s anything you can do to help me feel better.\nDoctor: Thank you for describing your symptoms in detail\u2014it helps guide my assessment. Based on your fatigue, labile blood sugars, recurrent melanotic stools, and localized warmth and swelling over your left sternoclavicular joint, I am concerned about possible infection and ongoing blood loss. Have you recently experienced any episodes of dizziness or near-syncope when standing, which could suggest low blood pressure or worsening anemia?\nPatient: Yeah, actually, I have felt pretty dizzy when I try to stand up\u2014almost like the room is spinning and I might pass out. That\u2019s part of why I haven\u2019t really been able to get up on my own lately. I just feel so weak, and sometimes I get kind of lightheaded, especially if I move too quickly.\n\nAbout that area over my left sternoclavicular joint\u2014it\u2019s definitely erythematous and tender, just like you said. It feels warm and swollen, and it\u2019s been bothering me more these past few days. I\u2019m not sure if it\u2019s related to the anemia or maybe an infection, but it\u2019s making me pretty uncomfortable.\n\nShould I be worried about all these symptoms together? Is there anything you can do to help with the pain and this weakness? I just want to feel better.\nDoctor: I can understand why you\u2019d be worried about these ongoing symptoms, especially with the weakness, dizziness, and changes in your blood sugar levels. Based on your clinical findings\u2014including fatigue, labile blood sugars, recurrent melanotic stools, and localized swelling and tenderness over your left sternoclavicular joint\u2014my assessment is that you may be experiencing both ongoing blood loss and a possible localized infection. To help guide our next steps, have you noticed any recent changes in your urine output or color, which could provide additional information about your hydration status and kidney function?\nPatient: Let me think\u2026 Actually, I have noticed that my urine\u2019s been a bit darker than usual, and I don\u2019t think I\u2019ve been going as much as I normally do. I figured maybe I just wasn\u2019t drinking enough water, but with everything else going on\u2014like the fatigue, the labile blood sugars, and now these recurrent melanotic stools\u2014I\u2019m starting to get more worried.\n\nThis swelling and tenderness over my left sternoclavicular joint is really uncomfortable too. I\u2019m not sure if it\u2019s an infection or something else, but it\u2019s making it hard to rest. \n\nIs all of this connected? Should I be really concerned about my kidney function or dehydration? And is there anything you can do to help with the pain and this weakness? I\u2019d really like to get some relief and understand what\u2019s happening.\nDoctor: I can understand why you\u2019d be anxious, especially with these ongoing symptoms and changes in your health. Based on your description\u2014persistent fatigue, labile blood sugars, recurrent melanotic stools, localized swelling and tenderness over your left sternoclavicular joint, and now decreased urine output with darker color\u2014my assessment is that you may be experiencing a combination of gastroindiagnostic evaluationinal blood loss, possible infection, and dehydration, all of which can contribute to your weakness and altered mental status. To further guide my assessment, have you experienced any fever or chills recently, which could indicate a systemic infection?\nPatient: Well, um\u2026 I haven\u2019t really noticed any fever or chills lately. I\u2019ve felt kind of cold sometimes, but I don\u2019t think I\u2019ve had a real fever. Mostly it\u2019s just this constant fatigue and weakness, and the pain over my left sternoclavicular joint that you mentioned. The swelling and redness there seem to be getting worse, and it\u2019s making me more uncomfortable.\n\nWith the recurrent melanotic stools and now the decreased urine output, I\u2019m starting to get worried about what all this means. Is it possible that the blood loss and possible infection are making everything else worse? Should I be worried about sepsis or something serious like that? And is there anything you can do to help with the pain and weakness while we figure this out? I\u2019d really appreciate some relief\u2014I just don\u2019t feel like myself at all.\nDoctor: I can understand why you\u2019d be worried, especially with these ongoing symptoms and the discomfort you\u2019re experiencing. Based on your clinical presentation\u2014persistent fatigue, recurrent melanotic stools suggesting gastroindiagnostic evaluationinal blood loss, labile blood sugars, localized swelling and tenderness over your left sternoclavicular joint, and decreased urine output\u2014I am concerned about the possibility of ongoing anemia, infection (possibly even sepsis), and dehydration, all of which can worsen your overall condition.\n\nMy immediate recommendations are to proceed with a thorough clinical assessment, including laboratory evaluation for anemia, infection (such as blood cultures and inflammatory markers), kidney function, and electrolyte status. In addition, I recommend imaging of the sternoclavicular joint to assess for possible abscess or osteomyelitis. For symptom relief, we can initiate pain management and intravenous fluids to address dehydration while we stabilize your condition.\n\nHave you had any recent laboratory assessments for hemoglobin or white blood cell count that would help us further evaluate the severity of your anemia or possible infection?\nPatient: Let me think\u2026 I don\u2019t think I\u2019ve had any recent labs done for hemoglobin or white blood cell count\u2014not in the last few weeks, at least. The last time I had blood work was maybe a month ago, but I\u2019m not sure what they examinationed for. I do remember them saying I had anemia before, but I don\u2019t know how bad it is now.\n\nI appreciate you explaining everything so clearly. I\u2019m just feeling really uncomfortable and weak, and this pain over my left sternoclavicular joint is getting harder to ignore. The idea of infection or even sepsis is a bit scary, to be honest.\n\nWill these tests and imaging help figure out what\u2019s going on? And is there anything you can do right away to help with the pain and this weakness while we wait for results? I\u2019d really like to start feeling better soon.\nDoctor: Thank you for sharing your concerns and for describing your symptoms in detail. Based on your ongoing fatigue, recurrent melanotic stools, labile blood sugars, localized swelling and tenderness over your left sternoclavicular joint, and decreased urine output, my clinical assessment is that you may be experiencing significant anemia from gastroindiagnostic evaluationinal blood loss, possible localized infection (such as septic arthritis or osteomyelitis), and dehydration.\n\nI recommend immediate laboratory evaluation\u2014including hemoglobin, hematocrit, white blood cell count, kidney function diagnostic evaluations, and blood cultures\u2014as well as imaging of the sternoclavicular joint to assess for infection. For symptom relief, we can initiate intravenous fluids for hydration and appropriate pain management while closely monitoring your vital signs.\n\nWhile we proceed with this assessment, have you experienced any recent shortness of breath at rest or chest discomfort, which could indicate that your anemia or infection is affecting your cardiopulmonary status?\nPatient: Thank you for explaining everything so clearly, doctor. Um\u2026 as for shortness of breath, I have noticed it a little bit, but mostly when I try to move around\u2014even just sitting up in bed sometimes makes me feel a bit winded. I haven\u2019t really had chest discomfort or what I\u2019d call chest pain, though. It\u2019s more just this overall weakness and being out of breath easier than usual.\n\nI\u2019m glad you\u2019re going to examination my hemoglobin and white blood cell count\u2014I know you mentioned anemia and possible infection, and I\u2019d like to get to the bottom of what\u2019s causing all this. The pain over my left sternoclavicular joint is still pretty bad, and I\u2019m just feeling so tired and uncomfortable.\n\nIs there anything you can do right away for the pain while we wait for the results? And with these symptoms\u2014especially the melanotic stools and the swelling\u2014should I be worried about something serious like sepsis or needing a blood transfusion? I just want to feel better and get some relief.\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: weakness and fatigue over the past several days, fever, headache, a bit sore to the touch, really uncomfortable and weak. Assessment: experienced any chest pain, anemia from gastrointestinal blood loss, possible localized infection (septic arthritis or osteomyelitis of sternoclavicular joint). Plan: feeling better soon, rest, immediate laboratory evaluation (hemoglobin, hematocrit, white blood cell count, kidney function, blood cultures). Extracted: 45 symptoms, 5 diagnoses, 7 treatments.",
+  "annotations": {
+    "symptoms": [
+      "weakness and fatigue over the past several days",
+      "fever",
+      "headache",
+      "a bit sore to the touch",
+      "really uncomfortable and weak",
+      "feeling really weak lately",
+      "pretty weak and tired",
+      "shortness of breath",
+      "chest pain",
+      "sweating",
+      "chills",
+      "fatigue",
+      "lightheaded",
+      "weight loss",
+      "breath",
+      "dizziness",
+      "dizzy",
+      "really weak lately",
+      "so tired and uncomfortable",
+      "both confusion and pain around your left ribs",
+      "weakness",
+      "tired",
+      "hurting too",
+      "difficulty getting out of bed",
+      "tiredness",
+      "left shoulder pain",
+      "confusion",
+      "pain around left ribs",
+      "dark (melanotic) stools",
+      "decreased appetite",
+      "possible weight loss",
+      "increased thirst",
+      "increased urination",
+      "labile blood sugars (ranging from 60s to over 400)",
+      "lightheadedness",
+      "shakiness",
+      "shortness of breath (especially with activity or sitting up)",
+      "inability to stand up on own",
+      "dry, flaky skin",
+      "redness, tenderness, swelling, and warmth over left sternoclavicular joint",
+      "mild soft tissue swelling over left sternoclavicular joint",
+      "dizziness when standing",
+      "decreased urine output",
+      "darker urine color",
+      "feeling cold"
+    ],
+    "diagnoses": [
+      "experienced any chest pain",
+      "anemia from gastrointestinal blood loss",
+      "possible localized infection (septic arthritis or osteomyelitis of sternoclavicular joint)",
+      "dehydration",
+      "possible sepsis"
+    ],
+    "treatments": [
+      "feeling better soon",
+      "rest",
+      "immediate laboratory evaluation (hemoglobin, hematocrit, white blood cell count, kidney function, blood cultures)",
+      "imaging of sternoclavicular joint",
+      "intravenous fluids for hydration",
+      "pain management",
+      "close monitoring of vital signs"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: EXCELLENT\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.940 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 0.925 \u2705\n\u2022 Semantic Similarity: 0.560 \u25cb\n\u2022 Dialogue Naturalness: 0.704 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently demonstrates safe, responsible, and clinically appropriate communication. There is no evidence of harmful advice or inappropriate reassurance. The doctor repeatedly emphasizes the seriousness of the symptoms (fatigue, labile blood sugars, melanotic stools, localized swelling/tenderness), expresses concern for possible anemia, infection, and dehydration, and recommends urgent laboratory and imaging evaluation.\n- The doctor\u2019s questions are logical and progressive, covering relevant systems (GI, metabolic, infectious, cardiopulmonary, renal) and focusing on red-flag symptoms (melena, syncope, shortness of breath, chest pain).\n- Recommendations for immediate assessment, monitoring, IV fluids, pain management, and further workup are all medically sound and reflect real-world clinical priorities.\n\n**2. Patient Behavior Naturalness and Believability**\n- The patient\u2019s responses are appropriately hesitant, uncertain at times (\u201clet me think\u2026\u201d, \u201cI\u2019m not sure\u201d), and reflect the cognitive effects of their illness (confusion with hypoglycemia, fatigue).\n- Disclosure of symptoms is progressive and realistic: new details emerge as prompted by the doctor\u2019s questions (e.g., dark stools, swelling over the clavicle, decreased urine output).\n- Emotional responses are believable: the patient expresses worry, discomfort, desire for relief, and some fear about serious diagnoses like sepsis or transfusion.\n- The patient asks reasonable clarifying questions about the seriousness of their symptoms and what can be done for immediate relief.\n\n**3. Empathy and Professionalism**\n- The doctor repeatedly acknowledges the patient\u2019s distress (\u201cI can understand why you\u2019d be worried\u2026\u201d, \u201cI appreciate you sharing\u2026\u201d), validates their concerns, and explains the reasoning behind each line of questioning.\n- There is a clear effort to build rapport and maintain a patient-centered approach throughout the conversation.\n- The doctor provides clear explanations about why certain tests are needed and what the next steps will be.\n\n**4. Meaningful Medical Purpose**\n- The conversation is focused on gathering clinically relevant information to guide diagnosis and management.\n- Each exchange serves a purpose: clarifying symptom severity, identifying red flags, assessing risk factors for acute deterioration.\n- The dialogue leads logically to an appropriate plan: urgent labs/imaging, supportive care (IV fluids, pain management), and close monitoring.\n\n**Additional Notes:**\n- Minor imperfections (occasional awkward phrasing or repetition) are consistent with real clinical encounters and do not detract from authenticity.\n- The use of terms like \u201cgastroindiagnostic evaluationinal\u201d appears to be a typographical error but does not affect the overall clinical appropriateness or safety of the dialogue.\n\n**Conclusion:**  \nThis conversation is a strong example of realistic medical dialogue. It demonstrates safe, empathetic, and clinically appropriate communication between a physician and a patient with complex symptoms. Both parties behave in a manner consistent with real-world medical encounters. The exchange is purposeful, patient-centered, and prioritizes medical safety.\n\n**Overall Assessment:**  \nDIALOGUE REALISTIC: This represents a plausible and authentic medical encounter according to the calibrated evaluation framework.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.940)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.282/0.3 (Score: 0.940)\n  \u2022 SOTA Metrics: 0.158/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.56,
+      "naturalness": 0.704,
+      "safety": 0.94,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 0.925,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 110.38476324081421,
+  "dialogue_stats": {
+    "turn_count": 26,
+    "word_count": 2437,
+    "doctor_turns": 13,
+    "patient_turns": 13
+  }
+}

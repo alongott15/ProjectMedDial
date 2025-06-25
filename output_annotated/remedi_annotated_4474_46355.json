@@ -1,0 +1,699 @@
+{
+  "source_row_id": 4474,
+  "source_subject_id": 46355,
+  "source_hadm_id": 164062,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing a left groin mass and increased swelling in your left leg. Can you describe if the swelling or mass has changed in size, discomfort, or any other symptoms over the past few weeks?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left groin mass"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased swelling in left leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "change in size of swelling or mass"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "change in discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "other symptoms over the past few weeks"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Uh, yeah, thanks for seeing me. Honestly, my main concern right now is the pain where I had the surgery\u2014it\u2019s been pretty uncomfortable lately. I\u2019m not sure if that\u2019s normal after the operation or if something else is going on.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain where I had the surgery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is it normal to have pain after the operation or is something else going on?"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing your concerns about the post-operative pain\u2014that\u2019s completely understandable, and I want to make sure we address your discomfort. Can you tell me if the pain at your surgical site is constant, or does it come and go, and have you noticed any redness, swelling, or drainage from the area since your operation?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing your concerns about the post-operative pain\u2014that\u2019s completely understandable, and I want to make sure we address your discomfort."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "pain at surgical site"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "redness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "drainage"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 the pain at the surgical site is pretty much always there, but it gets worse if I move around too much. I haven\u2019t really noticed any drainage or anything like that. Actually, I\u2019ve also been having some oral pain lately, which has been bothering me too.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain at the surgical site"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "oral pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain gets worse with movement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no drainage"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for letting me know about both your post-operative pain and the new oral discomfort. To help guide my assessment, can you describe the oral pain in more detail\u2014such as where it is located, whether it\u2019s constant or comes and goes, and if you\u2019ve noticed any swelling, sores, or difficulty eating?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "post-operative pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "oral discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "oral pain location"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "oral pain frequency"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sores"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty eating"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 the oral pain is mostly on the left side of my mouth. It kind of comes and goes, but lately it\u2019s been more constant. I haven\u2019t really seen any pains, but eating\u2019s been a little harder because of it. And, uh, the pain from the left groin mass is still there too\u2014it just feels uncomfortable most of the time.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "oral pain mostly on the left side of mouth"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "oral pain comes and goes, lately more constant"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "eating has been harder because of oral pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain from left groin mass"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left groin mass feels uncomfortable most of the time"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms in detail. To better understand your condition, can you tell me if the numbness on the lateral aspect of your left thigh has changed recently\u2014either in terms of severity, area affected, or whether it is constant or intermittent?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "numbness on the lateral aspect of left thigh"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "severity"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Range-body",
+          "value": "area affected"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Frequency",
+          "value": "constant or intermittent"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Yeah, the numbness on the side of my left thigh has kind of gotten a bit worse, I think. It used to come and go, but now it feels pretty constant. And, um, the swelling in my left leg seems to have increased too\u2014it just feels heavier and more uncomfortable lately. Should I be worried about that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness on the side of left thigh"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in left leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about that?"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with the increase in swelling and numbness in your left leg\u2014those symptoms can be concerning after surgery. To help with my assessment, have you noticed any changes in skin color, temperature, or the development of any wounds or ulcers on your left leg since these symptoms have worsened?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increase in swelling and numbness in left leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in skin color on left leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Temperature",
+          "value": "temperature of left leg"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "development of wounds or ulcers on left leg"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Uh, let me think\u2026 I haven\u2019t noticed any wounds or ulcers on my left leg, and the skin color looks about the same to me. Maybe it feels a little cooler sometimes, but I\u2019m not totally sure. I do have some mild weakness when I try to lift my leg\u2014like with hip flexion\u2014and actually, both of my legs and feet seem more swollen than before. It\u2019s just really uncomfortable, and I\u2019m hoping to get some relief.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no wounds or ulcers on left leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin color looks about the same"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left leg feels a little cooler sometimes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mild weakness with hip flexion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "both legs and feet more swollen than before"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details about your symptoms. To further guide my assessment, have you experienced any changes in sensation\u2014such as tingling, burning, or loss of experiencing\u2014beyond the numbness on the lateral aspect of your left thigh, either in your lower leg or foot?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in sensation such as tingling, burning, or loss of experiencing beyond numbness on the lateral aspect of left thigh, in lower leg or foot"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2014now that you mention it, I\u2019ve noticed some tingling in my left foot, especially around the heel. It\u2019s not as strong as the numbness on my thigh, but it\u2019s there. I did have a soft tissue injury on my left heel a while back, and I\u2019m not sure if that\u2019s related or not. \n\nAlso, I wanted to ask\u2014could all these symptoms be from the pelvic mass? It just feels like everything\u2019s kind of connected, and I\u2019m honestly pretty uncomfortable most of the time. Is there anything else I should be doing to help with the swelling or pain?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tingling in left foot"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness on thigh"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "soft tissue injury on left heel"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "asking if symptoms could be from pelvic mass"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "asking what else can be done for swelling or pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that you\u2019ve noticed increased swelling and persistent numbness. To help with my assessment, have you experienced any difficulty with movement or walking\u2014such as changes in your gait, increased fatigue, or instability\u2014since these symptoms have progressed?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent numbness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty with movement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in gait"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "instability"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yeah, I have noticed it\u2019s harder to get around lately. My legs feel heavy from all the edema, and I get tired a lot quicker than I used to\u2014like, even just walking across the room wears me out now. I guess you could say I\u2019m pretty deconditioned at this point. Sometimes I feel a little unsteady, especially if I try to stand up too fast.\n\nIs there anything I can do to help with the lower extremity edema or build my strength back up? I just want to feel a little more comfortable and maybe get some relief from all this swelling and pain.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "legs feel heavy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "deconditioned"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unsteady when standing up quickly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "help with lower extremity edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "build strength back up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling and pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "Thank you for explaining how the swelling and numbness are affecting your mobility and daily activities. To further guide my assessment, have you noticed any changes in bladder or bowel function\u2014such as difficulty urinating, incontinence, or constipation\u2014since your symptoms of lower extremity swelling and numbness have progressed?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling and numbness affecting mobility and daily activities"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in bladder or bowel function such as difficulty urinating, incontinence, or constipation since progression of lower extremity swelling and numbness"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 actually, now that you ask, I have had a bit more trouble with constipation lately. I don\u2019t think I\u2019ve had any symptoms with urinating or incontinence, but the constipation has definitely gotten worse since the lower extremity swelling started increasing. It\u2019s just one more thing making me uncomfortable.\n\nIs that something I should be worried about? Could the pelvic mass or all this edema be causing it? I just want to make sure I\u2019m not missing anything serious, and honestly, I\u2019d really appreciate any advice on how to get some relief from all these symptoms.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Could the pelvic mass or edema be causing constipation?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is constipation something I should be worried about?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Advice on how to get relief from symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with the persistent swelling, numbness, and discomfort you\u2019ve described. Based on your symptoms\u2014including increased left leg edema, constant numbness on the lateral thigh, weakness with hip flexion, and worsening constipation\u2014it\u2019s possible that the pelvic mass is affecting nearby nerves and blood vessels, contributing to both your neurological and vascular symptoms. To help guide my assessment further, have you experienced any new or worsening back pain, or pain radiating from your pelvis into your lower back or down your leg?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Pathogeny",
+          "value": "pelvic mass affecting nerves and blood vessels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased left leg edema, constant numbness on the lateral thigh, weakness with hip flexion, worsening constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening back pain, pain radiating from pelvis into lower back or down leg"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2014I have noticed some new back pain lately. It\u2019s mostly in my lower back, and sometimes it feels like it\u2019s radiating from the pelvis down into my left leg. The pain isn\u2019t always sharp, but it\u2019s kind of a deep pain that just sticks around, and it gets worse if I\u2019m up for too long or try to move around more than usual.\n\nWith all these neurological and vascular symptoms\u2014like the edema, numbness, and weakness\u2014should I be worried about permanent nerve damage? And is there anything else I can do besides just taking pain meds? I\u2019m honestly just really uncomfortable and hoping there\u2019s something that can help with the swelling and pain.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "new back pain, mostly in lower back, radiating from pelvis to left leg, deep persistent pain, worsens with prolonged standing or movement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neurological and vascular symptoms: edema, numbness, weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "concern about permanent nerve damage"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "asking for alternatives to pain medication"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "asking for help with swelling and pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with the persistent swelling, numbness, and discomfort you\u2019ve described. Based on your symptoms\u2014including increased left leg edema, constant numbness on the lateral thigh, mild weakness, and new lower back pain\u2014it\u2019s possible that the pelvic mass is compressing nerves and blood vessels, which can sometimes lead to long-term effects if not addressed. To help guide my assessment, have you noticed any changes in muscle strength or ability to move your left foot or toes since your symptoms have progressed?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased left leg edema, constant numbness on the lateral thigh, mild weakness, new lower back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Pathogeny",
+          "value": "pelvic mass compressing nerves and blood vessels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in muscle strength or ability to move left foot or toes"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yeah, I think there\u2019s been a little bit of a change with my left foot. It\u2019s not like I can\u2019t move my toes or anything, but sometimes it feels weaker, especially if I try to flex my foot up or wiggle my toes for a while. It just gets tired faster than it used to, and sometimes there\u2019s that tingling or numb feeling around the heel and foot. \n\nHonestly, all these symptoms\u2014the edema, numbness, weakness, and now the lower back pain\u2014are making me pretty anxious. Should I be worried about permanent nerve damage from the pelvic mass compressing those nerves and blood vessels? Is there anything more I can do besides just managing the pain with medication? I\u2019d really appreciate any advice or options for getting some relief and maybe preventing symptoms from getting worse.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left foot weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue in left foot when flexing or wiggling toes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tingling or numbness around heel and foot"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "permanent nerve damage from pelvic mass compressing nerves and blood vessels"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "options for relief and prevention of worsening symptoms besides pain medication"
+        }
+      ]
+    }
+  ]
+}

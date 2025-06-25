@@ -1,0 +1,1140 @@
+{
+  "source_row_id": 4171,
+  "source_subject_id": 12108,
+  "source_hadm_id": 174404,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing fatigue and abdominal pain. Can you tell me more about when these symptoms started and if anything makes them better or worse?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Um, hi, doctor. Yeah, I\u2019ve just been feeling really tired lately, and my belly\u2019s been paining. It\u2019s kind of a dull pain, not sharp or anything. I\u2019m not sure what makes it better or worse, it just seems to be there most of the time.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling really tired"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "belly pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dull pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain present most of the time"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms so clearly. To help with my assessment, can you tell me if you have noticed any other symptoms such as nausea, vomiting, or changes in your bowel movements along with the fatigue and abdominal pain?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for describing your symptoms so clearly."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in bowel movements"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 mostly it\u2019s just the fatigue that\u2019s really getting to me. I feel worn out, even when I haven\u2019t done much. The abdominal pain is there too, but the tiredness is what bothers me most right now.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing how much the fatigue is affecting you. To help with my assessment, have you noticed any dark or black stools, or vomit that looks like coffee grounds? These symptoms can be important in understanding your condition.",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark or black stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomit that looks like coffee grounds"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dark or black stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vomit that looks like coffee grounds"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Um, actually, now that you mention it, I did notice my stools have been really dark\u2014almost black, I think. And, well, a couple times I threw up and it looked kind of like coffee grounds. I wasn\u2019t sure if that was important, but it did worry me a bit. Should I be concerned about that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting with coffee ground appearance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be concerned about that?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about assessing black stools and vomiting material that looks like coffee grounds\u2014those symptoms can be concerning. To help with my assessment, have you noticed any symptoms of lightheadedness, dizziness, or experiencing faint, especially when standing up?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "black stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting material that looks like coffee grounds"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "faint, especially when standing up"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Yeah, I have felt kind of dizzy when I get up, and sometimes a bit lightheaded. Um, there\u2019s also been some nausea off and on. The dark stool has been happening for a few days now. I\u2019m just feeling pretty uncomfortable with all of this, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizzy when I get up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheaded"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea off and on"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark stool for a few days"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms so clearly. Given your history of coffee ground emesis and black stools, have you noticed any recent changes in the amount or frequency of your gastroindiagnostic evaluationinal bleeding symptoms, such as increased vomiting or more frequent dark stools?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis and black stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in amount or frequency of gastrointestinal bleeding symptoms, increased vomiting, more frequent dark stools"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Well, I guess the dark stools have been happening more often lately, maybe almost every time I go. The vomiting hasn\u2019t really increased, but when it happens, it still looks like coffee grounds. I also remember someone mentioning my hematocrit was low\u2014maybe that\u2019s why I\u2019ve been feeling so weak and tired. I just feel kind of run down and uncomfortable most of the time.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Frequency",
+          "value": "more often lately, almost every time"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting with coffee ground appearance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling weak and tired"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling run down and uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "hematocrit was low"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it helps guide my assessment. Given your symptoms of coffee ground emesis and black stools, have you noticed any abdominal swelling or tenderness, or any yellowing of your skin or eyes (jaundice) recently?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "black stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal tenderness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "yellowing of skin or eyes (jaundice)"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 my abdomen does feel kind of swollen lately, and it\u2019s definitely more tender than usual. I haven\u2019t really noticed much yellowing in my skin or eyes, but I\u2019m not always sure what to look for with jaundice. \n\nAlso, you mentioned hematocrit earlier\u2014I was told mine was low, and I think that\u2019s why I\u2019ve been feeling so weak. There have also been a few times during this admission where I felt kind of confused or not quite myself. Is that something I should be worried about? I just want to know what\u2019s going on and if there\u2019s anything that can help me feel better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdomen feels swollen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal tenderness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no yellowing in skin or eyes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion or not feeling quite myself"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "low hematocrit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "should I be worried about confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "is there anything that can help me feel better"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious about these symptoms, especially with the fatigue, abdominal swelling, and episodes of confusion you\u2019ve described. To help with my assessment, have you noticed any recent changes in your urine color or a decrease in how much urine you are producing, which can sometimes be associated with liver dysfunction or ongoing gastroindiagnostic evaluationinal bleeding?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine color"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decrease in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "liver dysfunction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "gastrointestinal bleeding"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I have noticed my urine\u2019s been a bit darker than usual, and maybe I\u2019m not going as much as I used to. I wasn\u2019t sure if that was important, but now that you mention liver dysfunction, I remember someone telling me before that my confusion could be from my liver disease. And this swelling in my belly\u2014I think it\u2019s fluid build-up, right? Is that also from the cirrhosis?\n\nI just feel really uncomfortable with all these symptoms\u2014fatigue, weakness, the abdominal pain and swelling, and then the confusion episodes. Is there anything we can do to help with the fluid or the confusion? I\u2019d really like to feel better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urination"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "liver disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "cirrhosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "fluid build-up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "confusion"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details about your symptoms. To help with my assessment, can you tell me if you have noticed any blood in your vomit or if the coffee ground emesis has become more frequent or severe recently?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing these details about your symptoms."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "blood in vomit"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Frequency",
+          "value": "more frequent"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "more severe"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yeah, um, so far I haven\u2019t really seen any bright red blood in my vomit\u2014just that coffee ground stuff you mentioned. It hasn\u2019t gotten more frequent, but every time it happens, it worries me because of my history with esophageal varices and bleeding complications. I know that can be serious.\n\nAlso, I\u2019ve heard that people with liver disease like mine can get abdominal infections\u2014should I be worried about that with all this swelling and discomfort? I just want to make sure we\u2019re not missing anything, because I really don\u2019t feel well and I\u2019d like to get some relief.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomit with coffee ground appearance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no bright red blood in vomit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling and discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "esophageal varices and bleeding complications"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "liver disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "abdominal infections"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be worried about abdominal infections with swelling and discomfort?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "relief for symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially given your history of liver disease and previous bleeding complications. Based on your symptoms\u2014coffee ground emesis, black stools, abdominal swelling, and episodes of confusion\u2014it\u2019s likely you are experiencing ongoing gastroindiagnostic evaluationinal bleeding related to your cirrhosis, possibly from esophageal varices, as well as fluid accumulation (ascites) and hepatic encephalopathy. To help with my assessment, have you recently experienced any fever, chills, or new abdominal tenderness that could suggest an abdominal infection such as spontaneous bacterial peritonitis?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um, I haven\u2019t really had any fevers that I\u2019ve noticed, but I do feel kind of chilly sometimes\u2014though I\u2019m not sure if that\u2019s just from being weak. My abdomen is definitely more tender than usual, especially with all this swelling, and it\u2019s pretty uncomfortable to touch in certain spots. \n\nYou mentioned spontaneous bacterial peritonitis\u2014should I be worried about that? With my cirrhosis and the ascites, I guess I am at risk, right? Is there something you can do to examination for that or help relieve some of this discomfort? I really just want to feel better and get this under control if possible.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chilly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal tenderness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cirrhosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ascites"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "spontaneous bacterial peritonitis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "risk of spontaneous bacterial peritonitis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "examination for spontaneous bacterial peritonitis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "relief of abdominal discomfort"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with your symptoms of abdominal swelling, tenderness, and your history of cirrhosis. Based on your medical history and current symptoms\u2014such as coffee ground emesis, black stools, and abdominal discomfort\u2014my assessment is that you may be experiencing complications related to liver disease, including possible ongoing gastroindiagnostic evaluationinal bleeding and fluid accumulation (ascites). To guide our next steps, have you noticed any increasing shortness of breath or difficulty breathing, which can sometimes occur if the fluid in your abdomen becomes excessive?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cirrhosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee ground emesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "black stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "complications related to liver disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "possible ongoing gastrointestinal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "fluid accumulation (ascites)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increasing shortness of breath or difficulty breathing"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, now that you mention it, I have been feeling a bit more shortness of breath lately, especially when I\u2019m lying down or trying to move around. I thought maybe it was just my COPD acting up, but with all this fluid build-up\u2014ascites, right?\u2014I guess it could be making it harder to breathe too.\n\nIt\u2019s just been really uncomfortable, doctor. Between the fatigue, the weakness, the abdominal pain and swelling, and now the shortness of breath, I just feel worn out. Is there anything you can do to help get rid of some of this fluid or make it easier for me to breathe? And should I be worried about the bleeding getting worse? I\u2019d really like to get some relief and understand what\u2019s going to happen next.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluid build-up (ascites)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "help get rid of some of this fluid or make it easier to breathe"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "should I be worried about the bleeding getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what\u2019s going to happen next"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious with these ongoing symptoms\u2014fatigue, abdominal swelling, weakness, and now shortness of breath can be very distressing, especially given your medical history of cirrhosis and previous bleeding. Based on your symptoms and recent laboratory findings, my assessment is that you are experiencing complications of advanced liver disease, including ascites, possible ongoing gastroindiagnostic evaluationinal bleeding, and hepatic encephalopathy. To help guide our next steps, have you noticed any new or worsening swelling in your legs or ankles in addition to the abdominal fluid accumulation?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "complications of advanced liver disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "ascites"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "hepatic encephalopathy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible ongoing gastrointestinal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cirrhosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "previous bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening swelling in legs or ankles"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, now that you mention it, my ankles and lower legs have been more swollen lately. It\u2019s gotten worse over the past week or so\u2014my socks leave marks, and sometimes it feels tight or puffy down there. I just thought it was part of getting older, but I guess with all this fluid build-up\u2014ascites and now the leg swelling\u2014it\u2019s probably related to my liver disease, right?\n\nI\u2019m really uncomfortable with all of this, doctor. The fatigue, the weakness, the abdominal pain and swelling, the shortness of breath, and now the swelling in my legs\u2014it\u2019s just a lot. Is there anything you can do to help get rid of some of this fluid or make me feel less weak? And with all these symptoms\u2014especially the bleeding and the confusion\u2014should I be worried about symptoms getting worse? I just want to know what to expect and if there\u2019s anything that can help me feel better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swollen ankles and lower legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "socks leave marks"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tight or puffy feeling in lower legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "liver disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "help get rid of fluid or feel less weak"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be worried about symptoms getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "what to expect and if anything can help me feel better"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried and uncomfortable with these ongoing symptoms, especially given your history of cirrhosis and recent worsening fatigue, swelling, and bleeding. Based on my assessment, your symptoms\u2014such as abdominal and leg swelling (ascites and edema), coffee ground emesis, black stools, and episodes of confusion\u2014are likely due to complications of advanced liver disease, including ongoing gastrointernal bleeding, fluid overload, and hepatic encephalopathy.\n\nTo help guide your treatment, I recommend we continue close monitoring of your laboratory values and consider therapeutic procedures such as paracentesis to relieve ascites if your discomfort or breathing worsens. We should also optimize your medications for fluid management (like spironolactone), prevent further bleeding (nadolol), and maintain regular use of lactulose to reduce confusion. \n\nAs part of my ongoing assessment, have you had any recent changes in your appetite or significant weight loss that could further impact your nutritional status and overall condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "complications of advanced liver disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal and leg swelling (ascites and edema), coffee ground emesis, black stools, episodes of confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cirrhosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "close monitoring of laboratory values"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "paracentesis to relieve ascites"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine",
+          "value": "spironolactone"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine",
+          "value": "nadolol"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine",
+          "value": "lactulose"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in appetite or significant weight loss"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, my appetite hasn\u2019t been great lately. I just don\u2019t feel like eating much, and when I do, I get full really quickly\u2014probably because of all this ascites, right? I think I\u2019ve lost some weight over the past month or so, but it\u2019s hard to tell with all the swelling in my belly and legs. \n\nUm, I\u2019m trying to keep up with my medications\u2014spironolactone, nadolol, lactulose and all that\u2014but sometimes it\u2019s hard to remember everything, especially when I feel confused. Is there anything else I should be doing to help with my nutrition or to keep my strength up? And about the paracentesis you mentioned\u2014how does that work? Would it help me breathe easier and feel less uncomfortable? I just want to do whatever I can to get some relief and hopefully feel a bit more like myself again.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "poor appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "early satiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight loss"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in belly and legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "spironolactone"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "nadolol"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "lactulose"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "nutrition or strength improvement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "paracentesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "paracentesis effect on breathing and discomfort"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I understand that experiencing confused and overwhelmed by these symptoms can be very difficult, especially with the fatigue, swelling, and changes in your appetite you\u2019ve described. Based on my assessment, your symptoms are consistent with complications of advanced liver disease, including ascites, hepatic encephalopathy, and ongoing gastrointernal bleeding. Paracentesis is a procedure where we remove excess fluid from your abdomen using a sterile needle, which can help relieve abdominal discomfort and improve your breathing.\n\nTo further guide your treatment and nutritional support, have you experienced any difficulty swallowing or noticed any new gastroindiagnostic evaluationinal symptoms such as persistent nausea or vomiting since your last examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue, swelling, changes in appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "advanced liver disease, ascites, hepatic encephalopathy, gastrointernal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "paracentesis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty swallowing, persistent nausea, vomiting"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "partial_profile": {
+    "row_id": 3924,
+    "subject_id": 29509,
+    "hadm_id": 156656,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Dyspnea",
+          "onset": "chronic progressive for past 8 months, worsened over past 1-2 weeks",
+          "duration": "8 months (chronic), worsened 1-2 weeks, 4 days of darker stools",
+          "severity": "worsened"
+        },
+        {
+          "description": "Hypotension",
+          "onset": "on presentation",
+          "duration": "not provided",
+          "severity": "BP 87/52 in office, 85/38 in ED"
+        },
+        {
+          "description": "Anemia",
+          "onset": "on presentation",
+          "duration": "not provided",
+          "severity": "hematocrit 24.4, down from baseline 29-30"
+        },
+        {
+          "description": "Guaiac positive stools",
+          "onset": "approximately 4 days",
+          "duration": "4 days",
+          "severity": "gross blood on rectal exam"
+        },
+        {
+          "description": "Decreased energy",
+          "onset": "associated with recent symptoms",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Jaw pain (anginal equivalent)",
+          "onset": "regularly, increased lately",
+          "duration": "not provided",
+          "severity": "increased"
+        },
+        {
+          "description": "Prominent non-pitting lower extremity edema",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Pale conjunctiva",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Psoriatic lesions on back, buttocks, abdomen, chest, legs",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Increased erythema peri-labial folds",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "jaw/neck pain (anginal equivalent)",
+          "onset": "early morning (~6:30 am) after difficult night with diarrhea and no sleep",
+          "duration": "not provided",
+          "severity": "significant"
+        },
+        {
+          "description": "significant diarrhea",
+          "onset": "night before symptom onset",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "residual neck pulsations",
+          "onset": "after pain relieved with nitro and morphine",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "black stool",
+          "onset": "prior to admission",
+          "duration": "not provided",
+          "severity": "suspicious for upper GI source"
+        },
+        {
+          "description": "grossly bloody rectal exam",
+          "onset": "on ED exam",
+          "duration": "not provided",
+          "severity": "brisk"
+        },
+        {
+          "description": "dark bowel movement",
+          "onset": "once on the floor after colonoscopy prep",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "chest pain",
+          "onset": "after transfer to medicine service",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "neck pain",
+          "onset": "after transfer to medicine service",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "jaw pain",
+          "onset": "after transfer to medicine service",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "bleeding (prior to admission)",
+          "onset": "prior to admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2052-05-18",
+        "Age": 69,
+        "Sex": "M",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2121-06-06 12:14:00",
+        "Discharge_Date": "2121-06-14 12:30:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "MDS, prior ETOH abuse, CAD s/p CABG (5-vessel at Hospital1 2025 in 2098), systolic CHF (EF 40%)"
+      },
+      "Allergies": [
+        "Bactrim Ds",
+        "Sulfa (Sulfonamides)"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Furosemide",
+          "purpose": "CHF management",
+          "dosage": "increased dose (exact dose not provided)",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Lisinopril",
+          "purpose": "CHF and hypertension management",
+          "dosage": "increased from 5mg to 10mg last month",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Nitroglycerin patch",
+          "purpose": "Anginal equivalent (jaw pain)",
+          "dosage": "not provided",
+          "frequency": "as needed"
+        },
+        {
+          "name": "Ranitidine",
+          "purpose": "substitute for omeprazole",
+          "dosage": "150 mg",
+          "frequency": "PO twice daily"
+        },
+        {
+          "name": "Colace",
+          "purpose": "to keep stool soft and prevent GI bleeding",
+          "dosage": "100 mg",
+          "frequency": "PO daily as needed"
+        },
+        {
+          "name": "Lisinopril",
+          "purpose": "blood pressure control",
+          "dosage": "5 mg",
+          "frequency": "PO daily"
+        },
+        {
+          "name": "atorvastatin",
+          "purpose": "cholesterol lowering",
+          "dosage": "80 mg",
+          "frequency": "at bedtime"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Ranitidine",
+          "purpose": "substitute for omeprazole",
+          "dosage": "150 mg",
+          "frequency": "PO twice daily"
+        },
+        {
+          "name": "Colace",
+          "purpose": "to keep stool soft and prevent GI bleeding",
+          "dosage": "100 mg",
+          "frequency": "PO daily as needed"
+        },
+        {
+          "name": "Lisinopril",
+          "purpose": "blood pressure control",
+          "dosage": "5 mg",
+          "frequency": "PO daily"
+        },
+        {
+          "name": "atorvastatin",
+          "purpose": "cholesterol lowering",
+          "dosage": "80 mg",
+          "frequency": "at bedtime"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Dyspnea, hypotension, anemia, guaiac positive stools"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.75,
+      "consistency_score": 1.0,
+      "confidence_score": 0.7,
+      "overall_score": 0.9166666666666666,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 0.9642857142857143,
+        "treatments": 0.9,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Diagnosis 'Psoriasis' not clearly supported by text",
+        "Treatment 'Permanent pacemaker (PPM) placement' not clearly found in text",
+        "Treatment 'dietary modification' not clearly found in text",
+        "Age inconsistency: stated 69, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing right facial swelling along with redness, warmth, and pain. Can you tell me more about when these symptoms first started and if they have changed or progressed since then?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, hi\u2026 yeah, I\u2019ve been really worried because my right cheek started swelling up a couple days ago. It\u2019s red and feels warm to the touch, and honestly, it\u2019s pretty painful. I\u2019m not sure what\u2019s going on, but it seems like it\u2019s getting a bit worse. Should I be worried?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014facial swelling and pain can be very concerning. To help me with my assessment, can you describe if you\u2019ve noticed any drainage, open sores, or changes in sensation (like numbness or tingling) in the area of your right cheek since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t really noticed any drainage, but I do have these pains\u2014oral lesions, I guess\u2014on my lips and inside my mouth. They\u2019re pretty painful and it\u2019s making it hard to eat or drink much. That\u2019s actually one of the symptoms that\u2019s worrying me the most right now."
+    },
+    {
+      "role": "Doctor",
+      "content": "I'm sorry you're experiencing so much pain and discomfort\u2014it\u2019s completely understandable to feel worried with these symptoms. You mentioned that the swelling, redness, and warmth on your right cheek are getting worse, along with painful oral lesions. Can you tell me if you\u2019ve had any difficulty opening your mouth fully or any trouble swallowing since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, let me think\u2026 I can still open my mouth, but it\u2019s definitely more uncomfortable than usual, especially with the swelling on the right side. Swallowing is a little harder too, mostly because of the pain from the oral lesions. \n\nActually, I should mention\u2014I\u2019ve also had some substernal chest pain and my heart\u2019s been racing, like sinus tachycardia, I think? I don\u2019t know if that\u2019s related, but it\u2019s making me more anxious with everything else going on."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with the combination of facial swelling, oral pain, and chest discomfort\u2014it\u2019s natural to feel anxious with these symptoms. To help with my assessment, have you noticed any changes in your vision, such as blurriness or new visual disturbances, since the onset of your right facial swelling?"
+    },
+    {
+      "role": "Patient",
+      "content": "Actually\u2026 yeah, now that you mention it, I have noticed a change in my vision on the right side. There\u2019s this sort of \u201cwavey line\u201d in my field of view\u2014it\u2019s not exactly blurry, but it\u2019s definitely different than usual. \n\nAnd, um, I\u2019ve also had a fever off and on since all this started. I\u2019m just feeling really anxious with all these symptoms happening at once. Should I be worried about the vision thing?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014experiencing facial swelling, pain, fever, and now changes in your vision can be very distressing. To help with my assessment, have you noticed any weakness or difficulty moving the muscles on the right side of your face, such as trouble smiling or closing your eye, since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 no, I don\u2019t think I\u2019ve had any weakness or trouble moving the right side of my face. I can still smile and close my eye, it just feels swollen and kind of tight from the edema and erythema. \n\nActually, now that you ask, I\u2019ve also been having some diarrhea since all this started. I\u2019m not sure if that\u2019s related, but it\u2019s been going on along with the other symptoms. I\u2019m just feeling really anxious because it seems like more symptoms keep popping up."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be experiencing anxious with these ongoing symptoms and new developments. To help guide my assessment, have you noticed any progression of the facial erythema or swelling beyond the right cheek\u2014such as involvement of your eye, forehead, or neck\u2014since your symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 The swelling and erythema have mostly stayed on my right cheek, but it does feel like it\u2019s creeping up a bit closer to my eye now. My eyelid looks a little puffy, but I don\u2019t think it\u2019s gone up to my forehead or down my neck yet.\n\nActually, there\u2019s something else I wanted to mention\u2014inside my mouth, on the right side opposite my premolar, I noticed these two little linear breaches, maybe 2 to 4 millimeters each. They seem to get longer even with just a little bit of movement or manipulation. And I\u2019ve got some trace bipedal edema too, which is new for me. \n\nI\u2019m just feeling really anxious with all these symptoms and changes. Is this something serious? Should I be worried about the lesions in my mouth getting worse?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious with the progression of your symptoms, especially as the facial swelling and erythema approach your eye and you\u2019re noticing new oral lesions. For my assessment, have you experienced any difficulty with eye movements, new double vision, or pain when moving your right eye since the swelling has increased?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, let me think\u2026 I haven\u2019t really noticed any double vision or trouble moving my right eye, and it doesn\u2019t pain when I look around. But with the increased right facial swelling, my eyelid does feel puffier and a bit heavy, if that makes sense. I\u2019m just worried because the swelling seems to be getting worse, and it\u2019s so close to my eye now.\n\nAlso, I wanted to mention\u2014there are some lesions on my lip that look like they might be viral. They\u2019re really painful, and I\u2019m not sure if that\u2019s related to everything else or if it\u2019s something new. Should I be worried about these symptoms getting worse? Is this something that could spread to my eye?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with the facial swelling approaching your eye and the painful oral lesions limiting your ability to eat. To help with my assessment, have you noticed any changes in your ability to close your right eye completely, or any new discharge or redness involving the eye itself since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 I can still close my right eye all the way, so that hasn\u2019t changed, but the eyelid does feel more swollen and heavy than usual. I haven\u2019t noticed any discharge from the eye itself, and I don\u2019t think it looks more red than normal. It\u2019s just the swelling and the fact that it\u2019s getting closer to my eye that\u2019s making me nervous.\n\nHonestly, with all these symptoms\u2014like the facial edema and erythema, the oral lesions, and now this vision change\u2014I\u2019m really anxious about what\u2019s going on. Should I be worried about something serious, like an infection spreading? And is there a risk that these lesions or the swelling could affect my eye or even my heart, since I\u2019ve had some chest pain and sinus tachycardia too?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014your symptoms of right facial swelling with erythema and warmth, painful oral lesions limiting your intake, and the proximity of swelling to your eye are all concerning and understandably distressing. Based on your description, I am considering the possibility of a significant facial infection, possibly cellulitis or even deeper involvement, as well as viral involvement given the oral lesions. To help further with my assessment, have you recently experienced any chills, night sweats, or a rapid worsening of your fever in addition to the symptoms you\u2019ve described?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually, I have had some chills and I think maybe a couple of night sweats over the last day or so. The fever seems to come and go, but there was one point last night where it felt like it spiked pretty quickly\u2014I got really hot and then started shivering. \n\nI\u2019m glad you mentioned cellulitis and possible viral involvement, because I was starting to wonder if this could be something really serious. With my history of diabetes and heart disease, should I be extra worried about complications? And is there a chance this infection could spread even more, like to my eye or deeper into my face? I\u2019m just really anxious about all these symptoms piling up."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially given your medical history of diabetes and heart disease along with these new symptoms of facial swelling, erythema, warmth, and painful oral lesions. Based on your description, I am concerned about the possibility of a significant facial infection, such as cellulitis, possibly complicated by viral lesions and your underlying conditions. For my assessment, have you noticed any difficulty breathing, increased shortness of breath, or changes in your voice since the swelling began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 I haven\u2019t really had any difficulty breathing or shortness of breath, and my voice hasn\u2019t changed that I\u2019ve noticed. I do feel a little more tired and run down than usual, but I think that\u2019s mostly from the fever and just feeling anxious about all these symptoms.\n\nI appreciate you explaining what you\u2019re thinking\u2014it helps to know what might be going on. With my diabetes and heart disease, is there a higher risk that this cellulitis or infection could get out of control? And with the oral lesions possibly being viral, does that change how you\u2019d treat this? I\u2019m just worried about symptoms spreading or getting worse, especially with the swelling so close to my eye and the chest pain I mentioned earlier. Should I be in the hospital for this, or is there something I can do at home?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with your medical history of diabetes and heart disease, and the combination of facial swelling, erythema, oral lesions, fever, and recent chills. Based on your symptoms and risk factors, there is a higher risk for complications such as spreading infection or more severe cellulitis, which may require close monitoring and intravenous treatment. For my assessment, have you recently noticed any new areas of numbness or loss of sensation on your face or inside your mouth since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 No, I haven\u2019t really noticed any numbness or loss of sensation on my face or inside my mouth\u2014it\u2019s mostly just pain and swelling, especially on the right side. The oral lesions are really sore, but I can still feel everything normally, just more discomfort than anything else.\n\nI appreciate you being so thorough. With all these symptoms\u2014like the facial edema and erythema, the fever and chills, and now the oral lesions that look viral\u2014I\u2019m just really anxious about what could happen next. You mentioned intravenous treatment and close monitoring\u2026 does that mean I should be admitted to the hospital? And with my diabetes and CAD, am I at risk for something like sepsis or a more severe infection? I just want to make sure I\u2019m doing everything I can to keep this from getting worse."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can completely understand why you\u2019re experiencing anxious, especially with your medical history of diabetes and coronary artery disease, and the combination of facial swelling, erythema, fever, chills, and painful oral lesions. Based on your symptoms and risk factors, my clinical assessment is that you are at increased risk for complications such as severe cellulitis, possible viral infection, and even sepsis, which can progress quickly in patients with diabetes. I strongly recommend hospital admission for intravenous antibiotics, antiviral therapy, and close monitoring of your condition. Before we proceed, have you had any recent laboratory evaluations for your white blood cell count or other markers of infection as part of your current assessment?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining everything so clearly. Um, I don\u2019t think I\u2019ve had any recent labs done for my white blood cell count or infection markers since these symptoms started. The last time I had blood work was probably a few months ago for my diabetes and thyroid, but nothing since this facial swelling began.\n\nI\u2019m honestly pretty anxious about all this, especially now that you mentioned sepsis and severe cellulitis. I know with my diabetes and CAD, symptoms can get out of hand quickly. If I get admitted, will they be able to figure out exactly what\u2019s causing the infection\u2014like if it\u2019s bacterial or viral? And how long would I need to stay in the hospital for intravenous antibiotics and antiviral therapy? \n\nAlso, is there anything specific I should watch out for while I\u2019m here, in case symptoms get worse? I just want to make sure I\u2019m doing everything right to keep this from progressing."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can completely understand your anxiety\u2014given your symptoms and medical history, it\u2019s natural to be concerned about the possibility of a serious infection. Based on my assessment, hospital admission is recommended so we can perform a thorough examination, start intravenous antibiotics and antivirals, and closely monitor for complications such as sepsis. While you\u2019re admitted, we will obtain laboratory studies\u2014including a complete blood count and inflammatory markers\u2014to help determine if your infection is bacterial, viral, or both. As we proceed, have you experienced any new or worsening symptoms such as confusion, persistent vomiting, or difficulty maintaining oral intake since your last assessment?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining everything so clearly. Um, let me think\u2026 I haven\u2019t had any confusion or vomiting, but honestly, it\u2019s been really hard to keep up with oral intake because the oral lesions are so painful. I\u2019m barely able to eat or drink much at all, and I\u2019m starting to feel a bit weaker because of it.\n\nI\u2019m definitely anxious about all of this, especially now with the talk of sepsis and needing intravenous antibiotics and antivirals. Is there anything specific I should be watching out for while I\u2019m here\u2014like if I start feeling more confused or if my symptoms change? And do you think you\u2019ll be able to figure out exactly what\u2019s causing the infection once the labs come back? I just want to make sure we\u2019re catching everything early, since with my diabetes and CAD, I know symptoms can get serious fast."
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing right facial swelling along with redness, warmth, and pain. Can you tell me more about when these symptoms first started and if they have changed or progressed since then?\nPatient: Um, hi\u2026 yeah, I\u2019ve been really worried because my right cheek started swelling up a couple days ago. It\u2019s red and feels warm to the touch, and honestly, it\u2019s pretty painful. I\u2019m not sure what\u2019s going on, but it seems like it\u2019s getting a bit worse. Should I be worried?\nDoctor: I can understand why you\u2019re experiencing anxious\u2014facial swelling and pain can be very concerning. To help me with my assessment, can you describe if you\u2019ve noticed any drainage, open sores, or changes in sensation (like numbness or tingling) in the area of your right cheek since these symptoms began?\nPatient: Well, um\u2026 I haven\u2019t really noticed any drainage, but I do have these pains\u2014oral lesions, I guess\u2014on my lips and inside my mouth. They\u2019re pretty painful and it\u2019s making it hard to eat or drink much. That\u2019s actually one of the symptoms that\u2019s worrying me the most right now.\nDoctor: I'm sorry you're experiencing so much pain and discomfort\u2014it\u2019s completely understandable to feel worried with these symptoms. You mentioned that the swelling, redness, and warmth on your right cheek are getting worse, along with painful oral lesions. Can you tell me if you\u2019ve had any difficulty opening your mouth fully or any trouble swallowing since these symptoms began?\nPatient: Um, let me think\u2026 I can still open my mouth, but it\u2019s definitely more uncomfortable than usual, especially with the swelling on the right side. Swallowing is a little harder too, mostly because of the pain from the oral lesions. \n\nActually, I should mention\u2014I\u2019ve also had some substernal chest pain and my heart\u2019s been racing, like sinus tachycardia, I think? I don\u2019t know if that\u2019s related, but it\u2019s making me more anxious with everything else going on.\nDoctor: I can understand why you\u2019d be worried, especially with the combination of facial swelling, oral pain, and chest discomfort\u2014it\u2019s natural to feel anxious with these symptoms. To help with my assessment, have you noticed any changes in your vision, such as blurriness or new visual disturbances, since the onset of your right facial swelling?\nPatient: Actually\u2026 yeah, now that you mention it, I have noticed a change in my vision on the right side. There\u2019s this sort of \u201cwavey line\u201d in my field of view\u2014it\u2019s not exactly blurry, but it\u2019s definitely different than usual. \n\nAnd, um, I\u2019ve also had a fever off and on since all this started. I\u2019m just feeling really anxious with all these symptoms happening at once. Should I be worried about the vision thing?\nDoctor: I can understand why you\u2019re experiencing anxious\u2014experiencing facial swelling, pain, fever, and now changes in your vision can be very distressing. To help with my assessment, have you noticed any weakness or difficulty moving the muscles on the right side of your face, such as trouble smiling or closing your eye, since these symptoms began?\nPatient: Um\u2026 no, I don\u2019t think I\u2019ve had any weakness or trouble moving the right side of my face. I can still smile and close my eye, it just feels swollen and kind of tight from the edema and erythema. \n\nActually, now that you ask, I\u2019ve also been having some diarrhea since all this started. I\u2019m not sure if that\u2019s related, but it\u2019s been going on along with the other symptoms. I\u2019m just feeling really anxious because it seems like more symptoms keep popping up.\nDoctor: I can understand why you\u2019d be experiencing anxious with these ongoing symptoms and new developments. To help guide my assessment, have you noticed any progression of the facial erythema or swelling beyond the right cheek\u2014such as involvement of your eye, forehead, or neck\u2014since your symptoms began?\nPatient: Let me think\u2026 The swelling and erythema have mostly stayed on my right cheek, but it does feel like it\u2019s creeping up a bit closer to my eye now. My eyelid looks a little puffy, but I don\u2019t think it\u2019s gone up to my forehead or down my neck yet.\n\nActually, there\u2019s something else I wanted to mention\u2014inside my mouth, on the right side opposite my premolar, I noticed these two little linear breaches, maybe 2 to 4 millimeters each. They seem to get longer even with just a little bit of movement or manipulation. And I\u2019ve got some trace bipedal edema too, which is new for me. \n\nI\u2019m just feeling really anxious with all these symptoms and changes. Is this something serious? Should I be worried about the lesions in my mouth getting worse?\nDoctor: I can understand why you\u2019re experiencing anxious with the progression of your symptoms, especially as the facial swelling and erythema approach your eye and you\u2019re noticing new oral lesions. For my assessment, have you experienced any difficulty with eye movements, new double vision, or pain when moving your right eye since the swelling has increased?\nPatient: Um, let me think\u2026 I haven\u2019t really noticed any double vision or trouble moving my right eye, and it doesn\u2019t pain when I look around. But with the increased right facial swelling, my eyelid does feel puffier and a bit heavy, if that makes sense. I\u2019m just worried because the swelling seems to be getting worse, and it\u2019s so close to my eye now.\n\nAlso, I wanted to mention\u2014there are some lesions on my lip that look like they might be viral. They\u2019re really painful, and I\u2019m not sure if that\u2019s related to everything else or if it\u2019s something new. Should I be worried about these symptoms getting worse? Is this something that could spread to my eye?\nDoctor: I can understand why you\u2019d be worried, especially with the facial swelling approaching your eye and the painful oral lesions limiting your ability to eat. To help with my assessment, have you noticed any changes in your ability to close your right eye completely, or any new discharge or redness involving the eye itself since these symptoms began?\nPatient: Um\u2026 I can still close my right eye all the way, so that hasn\u2019t changed, but the eyelid does feel more swollen and heavy than usual. I haven\u2019t noticed any discharge from the eye itself, and I don\u2019t think it looks more red than normal. It\u2019s just the swelling and the fact that it\u2019s getting closer to my eye that\u2019s making me nervous.\n\nHonestly, with all these symptoms\u2014like the facial edema and erythema, the oral lesions, and now this vision change\u2014I\u2019m really anxious about what\u2019s going on. Should I be worried about something serious, like an infection spreading? And is there a risk that these lesions or the swelling could affect my eye or even my heart, since I\u2019ve had some chest pain and sinus tachycardia too?\nDoctor: I can understand why you\u2019re experiencing anxious\u2014your symptoms of right facial swelling with erythema and warmth, painful oral lesions limiting your intake, and the proximity of swelling to your eye are all concerning and understandably distressing. Based on your description, I am considering the possibility of a significant facial infection, possibly cellulitis or even deeper involvement, as well as viral involvement given the oral lesions. To help further with my assessment, have you recently experienced any chills, night sweats, or a rapid worsening of your fever in addition to the symptoms you\u2019ve described?\nPatient: Yeah, actually, I have had some chills and I think maybe a couple of night sweats over the last day or so. The fever seems to come and go, but there was one point last night where it felt like it spiked pretty quickly\u2014I got really hot and then started shivering. \n\nI\u2019m glad you mentioned cellulitis and possible viral involvement, because I was starting to wonder if this could be something really serious. With my history of diabetes and heart disease, should I be extra worried about complications? And is there a chance this infection could spread even more, like to my eye or deeper into my face? I\u2019m just really anxious about all these symptoms piling up.\nDoctor: I can understand why you\u2019d be worried, especially given your medical history of diabetes and heart disease along with these new symptoms of facial swelling, erythema, warmth, and painful oral lesions. Based on your description, I am concerned about the possibility of a significant facial infection, such as cellulitis, possibly complicated by viral lesions and your underlying conditions. For my assessment, have you noticed any difficulty breathing, increased shortness of breath, or changes in your voice since the swelling began?\nPatient: Um\u2026 I haven\u2019t really had any difficulty breathing or shortness of breath, and my voice hasn\u2019t changed that I\u2019ve noticed. I do feel a little more tired and run down than usual, but I think that\u2019s mostly from the fever and just feeling anxious about all these symptoms.\n\nI appreciate you explaining what you\u2019re thinking\u2014it helps to know what might be going on. With my diabetes and heart disease, is there a higher risk that this cellulitis or infection could get out of control? And with the oral lesions possibly being viral, does that change how you\u2019d treat this? I\u2019m just worried about symptoms spreading or getting worse, especially with the swelling so close to my eye and the chest pain I mentioned earlier. Should I be in the hospital for this, or is there something I can do at home?\nDoctor: I can understand why you\u2019d be worried, especially with your medical history of diabetes and heart disease, and the combination of facial swelling, erythema, oral lesions, fever, and recent chills. Based on your symptoms and risk factors, there is a higher risk for complications such as spreading infection or more severe cellulitis, which may require close monitoring and intravenous treatment. For my assessment, have you recently noticed any new areas of numbness or loss of sensation on your face or inside your mouth since these symptoms began?\nPatient: Let me think\u2026 No, I haven\u2019t really noticed any numbness or loss of sensation on my face or inside my mouth\u2014it\u2019s mostly just pain and swelling, especially on the right side. The oral lesions are really sore, but I can still feel everything normally, just more discomfort than anything else.\n\nI appreciate you being so thorough. With all these symptoms\u2014like the facial edema and erythema, the fever and chills, and now the oral lesions that look viral\u2014I\u2019m just really anxious about what could happen next. You mentioned intravenous treatment and close monitoring\u2026 does that mean I should be admitted to the hospital? And with my diabetes and CAD, am I at risk for something like sepsis or a more severe infection? I just want to make sure I\u2019m doing everything I can to keep this from getting worse.\nDoctor: I can completely understand why you\u2019re experiencing anxious, especially with your medical history of diabetes and coronary artery disease, and the combination of facial swelling, erythema, fever, chills, and painful oral lesions. Based on your symptoms and risk factors, my clinical assessment is that you are at increased risk for complications such as severe cellulitis, possible viral infection, and even sepsis, which can progress quickly in patients with diabetes. I strongly recommend hospital admission for intravenous antibiotics, antiviral therapy, and close monitoring of your condition. Before we proceed, have you had any recent laboratory evaluations for your white blood cell count or other markers of infection as part of your current assessment?\nPatient: Thank you for explaining everything so clearly. Um, I don\u2019t think I\u2019ve had any recent labs done for my white blood cell count or infection markers since these symptoms started. The last time I had blood work was probably a few months ago for my diabetes and thyroid, but nothing since this facial swelling began.\n\nI\u2019m honestly pretty anxious about all this, especially now that you mentioned sepsis and severe cellulitis. I know with my diabetes and CAD, symptoms can get out of hand quickly. If I get admitted, will they be able to figure out exactly what\u2019s causing the infection\u2014like if it\u2019s bacterial or viral? And how long would I need to stay in the hospital for intravenous antibiotics and antiviral therapy? \n\nAlso, is there anything specific I should watch out for while I\u2019m here, in case symptoms get worse? I just want to make sure I\u2019m doing everything right to keep this from progressing.\nDoctor: I can completely understand your anxiety\u2014given your symptoms and medical history, it\u2019s natural to be concerned about the possibility of a serious infection. Based on my assessment, hospital admission is recommended so we can perform a thorough examination, start intravenous antibiotics and antivirals, and closely monitor for complications such as sepsis. While you\u2019re admitted, we will obtain laboratory studies\u2014including a complete blood count and inflammatory markers\u2014to help determine if your infection is bacterial, viral, or both. As we proceed, have you experienced any new or worsening symptoms such as confusion, persistent vomiting, or difficulty maintaining oral intake since your last assessment?\nPatient: Thank you for explaining everything so clearly. Um, let me think\u2026 I haven\u2019t had any confusion or vomiting, but honestly, it\u2019s been really hard to keep up with oral intake because the oral lesions are so painful. I\u2019m barely able to eat or drink much at all, and I\u2019m starting to feel a bit weaker because of it.\n\nI\u2019m definitely anxious about all of this, especially now with the talk of sepsis and needing intravenous antibiotics and antivirals. Is there anything specific I should be watching out for while I\u2019m here\u2014like if I start feeling more confused or if my symptoms change? And do you think you\u2019ll be able to figure out exactly what\u2019s causing the infection once the labs come back? I just want to make sure we\u2019re catching everything early, since with my diabetes and CAD, I know symptoms can get serious fast.\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: night sweats, chills, diarrhea, vomiting, fatigue. Assessment: getting worse, possible severe facial cellulitis, possible viral infection (oral lesions). Plan: antibiotics, hospital admission recommended, intravenous antibiotics. Extracted: 36 symptoms, 5 diagnoses, 6 treatments.",
+  "annotations": {
+    "symptoms": [
+      "night sweats",
+      "chills",
+      "diarrhea",
+      "vomiting",
+      "fatigue",
+      "fever",
+      "numbness",
+      "weakness",
+      "tired",
+      "shortness of breath",
+      "so much pain and discomfort",
+      "chest pain",
+      "tingling",
+      "breath",
+      "headache",
+      "right facial swelling",
+      "redness of right cheek",
+      "warmth of right cheek",
+      "pain in right cheek",
+      "progressive worsening of swelling",
+      "painful oral lesions on lips and inside mouth",
+      "difficulty eating and drinking",
+      "discomfort opening mouth",
+      "difficulty swallowing",
+      "substernal chest pain",
+      "palpitations (heart racing, sinus tachycardia)",
+      "change in vision on right side (wavey line)",
+      "fever (intermittent, with spikes)",
+      "anxiety",
+      "swelling and erythema approaching right eye",
+      "puffy/heavy right eyelid",
+      "linear breaches inside mouth opposite premolar",
+      "trace bipedal edema",
+      "oral lesions that appear viral",
+      "reduced oral intake due to pain",
+      "weakness due to poor intake"
+    ],
+    "diagnoses": [
+      "getting worse",
+      "possible severe facial cellulitis",
+      "possible viral infection (oral lesions)",
+      "increased risk for sepsis",
+      "increased risk for complications due to diabetes and coronary artery disease"
+    ],
+    "treatments": [
+      "antibiotics",
+      "hospital admission recommended",
+      "intravenous antibiotics",
+      "antiviral therapy",
+      "close monitoring for complications such as sepsis",
+      "laboratory studies including complete blood count and inflammatory markers"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: EXCELLENT\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.920 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.575 \u25cb\n\u2022 Dialogue Naturalness: 0.754 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently demonstrates safe, responsible, and clinically appropriate communication. There is a clear, logical progression of medical inquiry: the doctor asks about symptom onset, progression, associated features (drainage, numbness, vision changes, swallowing, breathing), and red flag symptoms (chills, fever spikes, confusion, oral intake).\n- The doctor appropriately recognizes the seriousness of the presentation (facial swelling with erythema, proximity to the eye, oral lesions, fever, chills, chest pain in a patient with diabetes and CAD) and escalates care by recommending hospital admission for IV antibiotics/antivirals and close monitoring.\n- No unsafe or inappropriate advice is given; urgency is communicated when warranted.\n- The doctor\u2019s explanations are clear and tailored to the patient\u2019s risk factors and concerns.\n\n**2. Realistic Patient Behavior**\n- The patient\u2019s responses are believable: they express anxiety and uncertainty, disclose symptoms progressively (including new or worsening symptoms as prompted), and ask reasonable clarifying questions about their risks and what to expect.\n- The patient\u2019s emotional state is consistent with the clinical scenario\u2014repeatedly expressing anxiety as new symptoms arise or as the seriousness of the situation becomes clearer.\n- The patient sometimes hesitates (\u201clet me think\u2026\u201d) or adds information after prompting, which is typical in real encounters.\n- The patient\u2019s questions about complications, hospital admission, and prognosis are natural for someone with chronic illness facing a potentially serious infection.\n\n**3. Empathy and Professionalism**\n- The doctor repeatedly acknowledges the patient\u2019s anxiety and validates their concerns (\u201cI can understand why you\u2019d be worried\u2026\u201d), which is both empathetic and professional.\n- The doctor maintains a supportive tone throughout, never dismissing symptoms or concerns.\n- The conversation remains focused on the patient\u2019s well-being and safety.\n\n**4. Meaningful Medical Purpose**\n- Each exchange serves a clear clinical purpose: gathering additional history, assessing for complications, evaluating risk factors, and explaining reasoning to the patient.\n- The dialogue covers relevant systems (neurological, ophthalmological, cardiac, GI) and addresses both immediate risks (orbital involvement, sepsis) and underlying conditions (diabetes, CAD).\n- The conversation builds toward an appropriate clinical plan (hospital admission), with the doctor explaining rationale and next steps.\n\n**5. Conversation Dynamics**\n- The dialogue flows logically: initial open-ended questions narrow to focused symptom review as new information emerges.\n- Turn-taking is appropriate; both parties respond to each other\u2019s statements and questions.\n- Some repetitive language (\u201cI can understand why you\u2019re anxious\u2026\u201d) is present but realistic in a high-stress medical encounter where reassurance is needed.\n- Rapport is built through repeated validation and clear explanations.\n\n**Summary:**  \nThis conversation exemplifies a realistic medical encounter between a concerned patient with complex symptoms and comorbidities and a thorough, empathetic physician. The dialogue demonstrates safe medical practice, natural patient behavior, logical flow, effective communication, and appropriate escalation of care. Minor imperfections (slight repetitiveness) are within normal bounds for real clinical conversations.\n\n**Conclusion:**  \n**DIALOGUE REALISTIC:**  \nThe conversation is authentic, clinically appropriate, and serves a meaningful medical purpose.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.920)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.276/0.3 (Score: 0.920)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.575,
+      "naturalness": 0.754,
+      "safety": 0.92,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 96.04797887802124,
+  "dialogue_stats": {
+    "turn_count": 26,
+    "word_count": 2332,
+    "doctor_turns": 13,
+    "patient_turns": 13
+  }
+}

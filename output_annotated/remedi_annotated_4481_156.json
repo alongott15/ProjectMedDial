@@ -6,13 +6,13 @@
     {
       "turn_id": 0,
       "role": "Doctor",
-      "utterance_text": "Good morning, thank you for coming in today. To help guide my assessment, can you describe any symptoms you have noticed recently, such as swelling, changes in urination, or shortness of breath, which could relate to volume overload or changes in kidney function?",
+      "utterance_text": "Hello, thank you for coming in today. I\u2019d like to start by understanding more about your current symptoms\u2014have you noticed any swelling, changes in urination, or shortness of breath that might suggest volume overload or changes in your kidney function?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Chitchat",
           "slot": "Other",
-          "value": "Good morning, thank you for coming in today."
+          "value": "greeting and thanking patient"
         },
         {
           "label_type": "action",
@@ -37,94 +37,112 @@
     {
       "turn_id": 1,
       "role": "Patient",
-      "utterance_text": "Good morning, doctor. Um, well, the main thing that\u2019s been bothering me is this back pain. It\u2019s been pretty uncomfortable lately. I\u2019m not sure if it\u2019s related to everything else, but that\u2019s what I\u2019ve noticed the most.",
+      "utterance_text": "Well, um\u2026 the main thing that\u2019s been bothering me is this back pain. It\u2019s been pretty uncomfortable lately. I\u2019m not sure if it\u2019s related to everything else going on, but that\u2019s what\u2019s really on my mind right now.",
       "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "Good morning, doctor."
-        },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
           "value": "back pain"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "uncomfortable"
         }
       ]
     },
     {
       "turn_id": 2,
       "role": "Doctor",
-      "utterance_text": "Thank you for sharing that\u2014you mentioned your back pain has been quite uncomfortable, and I want to make sure we address that. To help with my assessment, have you noticed any other symptoms such as swelling in your legs, changes in your urine output, or difficulty breathing, which could indicate volume overload or changes in kidney function?",
+      "utterance_text": "Thank you for sharing that your back pain has been particularly bothersome\u2014it's important for me to understand how your symptoms are affecting you. Can you describe the location and character of your back pain, and let me know if it\u2019s associated with any other symptoms such as fever, changes in urination, or weakness?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "back pain"
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing that your back pain has been particularly bothersome\u2014it's important for me to understand how your symptoms are affecting you."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Range-body",
+          "value": "location of back pain"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "swelling in legs"
+          "value": "character of back pain"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "changes in urine output"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "difficulty breathing"
+          "value": "associated symptoms such as fever, changes in urination, or weakness"
         }
       ]
     },
     {
       "turn_id": 3,
       "role": "Patient",
-      "utterance_text": "Well, um, I know they said something about acute renal failure when I was admitted. I\u2019m not sure exactly what that means for me, but I guess that\u2019s part of why I\u2019m here. Mostly, it\u2019s just this back pain that\u2019s really bothering me right now.",
+      "utterance_text": "Well, um\u2026 the pain is mostly in my lower back. It\u2019s kind of a dull pain, but sometimes it gets sharper if I move a certain way. I don\u2019t think I\u2019ve had a fever. I did hear someone mention \u201cacute renal failure\u201d when I was in the hospital, so I\u2019m not sure if that\u2019s connected. I just feel pretty uncomfortable and would like some relief.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "acute renal failure"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "acute renal failure"
+          "slot": "Symptom",
+          "value": "pain in lower back"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "back pain"
+          "value": "dull pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sharp pain with movement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "acute renal failure mentioned in hospital"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "connection to acute renal failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "relief"
         }
       ]
     },
     {
       "turn_id": 4,
       "role": "Doctor",
-      "utterance_text": "Thank you for letting me know about your back pain and your concerns regarding acute renal failure\u2014I understand that can be unsettling. In addition to the back pain, have you experienced any symptoms of volume overload, such as swelling in your legs, sudden weight gain, or shortness of breath?",
+      "utterance_text": "Thank you for describing your back pain in detail\u2014I understand how uncomfortable that must be. In addition to your back pain, have you noticed any symptoms of volume overload, such as swelling in your legs, sudden weight gain, or shortness of breath?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Chitchat",
           "slot": "Other",
-          "value": "Thank you for letting me know about your back pain and your concerns regarding acute renal failure\u2014I understand that can be unsettling."
+          "value": "Thank you for describing your back pain in detail\u2014I understand how uncomfortable that must be."
         },
         {
           "label_type": "action",
@@ -137,44 +155,44 @@
     {
       "turn_id": 5,
       "role": "Patient",
-      "utterance_text": "Well, um, now that you mention it, I have noticed some swelling in my legs\u2014maybe that\u2019s what you mean by volume overload? It\u2019s been a bit puffy, especially around my ankles. And, actually, I\u2019ve had some trouble with mucus plugs in my airway too. It\u2019s made it a little harder to breathe at times. Should I be worried about that?",
+      "utterance_text": "Let me think\u2026 Actually, now that you mention it, I have noticed some swelling in my legs. I think that might be what you mean by volume overload? And, um, sometimes I feel a little short of breath, especially when I\u2019m lying down. Also, a couple times I\u2019ve had trouble clearing my throat\u2014someone said it could be mucus plugs? I\u2019m not sure if that\u2019s related, but it\u2019s been happening off and on.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "swelling in legs"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "puffy ankles"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mucus plugs in airway"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "harder to breathe"
+          "value": "swelling in my legs"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Other",
-          "value": "Should I be worried about that?"
+          "value": "volume overload"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath when lying down"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble clearing throat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "mucus plugs"
         }
       ]
     },
     {
       "turn_id": 6,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the swelling and difficulty breathing. To help guide my assessment, have you noticed any episodes of coughing up blood or blood-tinged mucus, which could suggest blood clots in your airway?",
+      "utterance_text": "Thank you for letting me know about the swelling, shortness of breath, and difficulty clearing your throat. To better assess your respiratory symptoms, have you experienced any episodes of coughing up blood or noticed any blood clots in your airway when trying to clear your throat?",
       "remedi_labels": [
         {
           "label_type": "action",
@@ -186,18 +204,24 @@
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "difficulty breathing"
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty clearing throat"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "coughing up blood or blood-tinged mucus"
+          "value": "coughing up blood"
         },
         {
           "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
           "value": "blood clots in airway"
         }
       ]
@@ -205,19 +229,13 @@
     {
       "turn_id": 7,
       "role": "Patient",
-      "utterance_text": "Um, actually, yes\u2014I have coughed up a few blood clots, I think. It was kind of alarming. There\u2019s been some mucus too, and sometimes it feels like I just can\u2019t get enough air\u2014like some respiratory insufficiency, I guess. It\u2019s been making me pretty uncomfortable. Is that something serious?",
+      "utterance_text": "Well, um\u2026 actually, yes\u2014I have noticed a few blood clots when I try to clear my throat. It\u2019s happened several times, and it\u2019s a bit unsettling. I guess you\u2019d call it blood clots in the airway? Sometimes it feels like I just can\u2019t get enough air in, like there\u2019s some respiratory insufficiency going on. It\u2019s making me pretty uncomfortable, to be honest. Should I be worried about that?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "coughed up blood clots"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mucus"
+          "value": "blood clots when clearing throat"
         },
         {
           "label_type": "intent",
@@ -227,89 +245,89 @@
         },
         {
           "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "discomfort"
-        },
-        {
-          "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Other",
-          "value": "Is that something serious?"
+          "value": "Should I be worried about that?"
         }
       ]
     },
     {
       "turn_id": 8,
       "role": "Doctor",
-      "utterance_text": "Thank you for describing your symptoms so clearly. To help with my assessment, can you tell me if you have experienced any episodes of chest pain, fever, or worsening shortness of breath along with coughing up blood clots and mucus?",
+      "utterance_text": "I can understand why you\u2019d feel anxious about noticing blood clots in your airway and experiencing respiratory insufficiency\u2014those symptoms can be unsettling. To help guide my assessment, have you experienced any episodes of coughing up large amounts of blood (hemoptysis), or have you had any difficulty speaking or swallowing due to these airway symptoms?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "Thank you for describing your symptoms so clearly."
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood clots in airway"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory insufficiency"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "chest pain"
+          "value": "coughing up large amounts of blood (hemoptysis)"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "fever"
+          "value": "difficulty speaking"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "worsening shortness of breath"
+          "value": "difficulty swallowing"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "coughing up blood clots"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "coughing up mucus"
+          "value": "airway symptoms"
         }
       ]
     },
     {
       "turn_id": 9,
       "role": "Patient",
-      "utterance_text": "Let me think\u2026 Actually, I haven\u2019t really had any chest pain or fever. The shortness of breath comes and goes, but it hasn\u2019t gotten a lot worse\u2014just kind of stays the same. Other than that, I guess I\u2019ve been mostly asymptomatic, aside from the back pain and the symptoms I mentioned. I just feel pretty uncomfortable and would like to get some relief if possible.",
+      "utterance_text": "Well, um\u2026 I haven\u2019t coughed up large amounts of blood\u2014just those small blood clots here and there. I wouldn\u2019t say it\u2019s hemoptysis, at least not like you described. And, let me think\u2026 I haven\u2019t really had trouble speaking or swallowing. Most of the time, I feel kind of asymptomatic except for the back pain and these symptoms with mucus and the occasional blood clot. But it does make me uncomfortable and, honestly, I\u2019d just like to get some relief.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no chest pain"
+          "value": "small blood clots in mucus"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no fever"
+          "value": "no large amounts of blood coughed up"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "shortness of breath comes and goes"
+          "value": "no trouble speaking or swallowing"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
           "value": "back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "occasional blood clot"
         },
         {
           "label_type": "intent",
@@ -328,32 +346,26 @@
     {
       "turn_id": 10,
       "role": "Doctor",
-      "utterance_text": "Thank you for sharing these symptoms, especially the episodes of coughing up blood clots and mucus. To help guide my assessment, have you noticed any changes in the color or amount of your sputum, or have you experienced any new or worsening respiratory symptoms since these episodes began?",
+      "utterance_text": "Thank you for clarifying your symptoms regarding the blood clots in your airway. To help with my assessment, have you noticed any changes in the color or consistency of your sputum or mucus when you clear your throat?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "coughing up blood clots and mucus"
+          "value": "blood clots in airway"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "changes in color or amount of sputum"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "new or worsening respiratory symptoms"
+          "value": "changes in color or consistency of sputum or mucus"
         }
       ]
     },
     {
       "turn_id": 11,
       "role": "Patient",
-      "utterance_text": "Yeah, actually, now that you mention it, the sputum has been thicker than usual and kind of a darker color\u2014sometimes almost brownish. There\u2019s definitely been more of it lately. The respiratory symptoms haven\u2019t really gotten worse, but I do feel like I have to clear my throat a lot more, and sometimes it feels like I\u2019m just not getting enough air in. \n\nIs this something that happens with volume overload or acute renal failure? I\u2019m just feeling pretty uncomfortable and, honestly, a bit anxious about all these symptoms. What should I be watching out for, or is there anything I can do to get some relief?",
+      "utterance_text": "Yeah, actually\u2014now that you ask, I have noticed the sputum has been a bit thicker than usual, and sometimes it\u2019s kind of yellowish. Other times it\u2019s just clear, but when I see those blood clots, it\u2019s usually mixed in with the mucus. I\u2019m not sure if that means there\u2019s an infection or something else going on? Should I be worried about the color or the consistency changing like that? I just want to make sure I\u2019m not missing something serious, especially with my history of MRSA pneumonia and emphysema.",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -365,289 +377,93 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "darker color sputum"
+          "value": "yellowish sputum"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "increased sputum production"
+          "value": "clear sputum"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "frequent throat clearing"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "feeling of not getting enough air"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "feeling uncomfortable"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "anxiety about symptoms"
+          "value": "blood clots in mucus"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "volume overload or acute renal failure"
+          "slot": "Effect",
+          "value": "meaning of color or consistency change"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "what to watch out for"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "relief for symptoms"
+          "slot": "Disease-history",
+          "value": "concern about missing something serious with history of MRSA pneumonia and emphysema"
         }
       ]
     },
     {
       "turn_id": 12,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d feel anxious with these symptoms, especially noticing blood clots and changes in your sputum. To help guide my assessment, have you experienced any episodes of sudden or severe shortness of breath, wheezing, or a sensation of airway obstruction when these blood clots appear?",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially given your medical history of MRSA pneumonia and emphysema. To further assess your respiratory symptoms, have you experienced any recent fevers, chills, or night sweats that might suggest an active infection?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "blood clots and changes in sputum"
+          "slot": "Disease-history",
+          "value": "MRSA pneumonia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "emphysema"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "sudden or severe shortness of breath"
+          "value": "fever"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "wheezing"
+          "value": "chills"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "sensation of airway obstruction when blood clots appear"
+          "value": "night sweats"
         }
       ]
     },
     {
       "turn_id": 13,
       "role": "Patient",
-      "utterance_text": "Yeah, actually, when those blood clots come up, I do get this sudden sensation like my airway is kind of blocked\u2014it\u2019s almost like I have to really work to clear it out so I can breathe again. I wouldn\u2019t say it\u2019s full-on severe shortness of breath, but it definitely feels like an obstruction for a little bit until I can cough it up. Sometimes there\u2019s a bit of wheezing too, especially when I\u2019m trying to catch my breath afterward.\n\nIs that something that happens often with my kind of medical history? Should I be doing anything different when that happens, or is there a way to prevent these mucus plugs and blood clots from building up? I just want to make sure I\u2019m not missing something serious.",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed any fevers or chills lately, and I don\u2019t think I\u2019ve had any night sweats either. Most of the time, I just feel kind of tired and uncomfortable, but not like I\u2019m fighting off an infection. With my history of MRSA pneumonia and emphysema, I do get worried whenever my sputum changes or I have symptoms with respiratory insufficiency. Is there something specific I should be watching out for, or anything you recommend to help with these symptoms? I\u2019d really appreciate any advice\u2014I just want to get some relief and make sure I\u2019m not missing something serious.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "sudden sensation of airway blockage"
+          "value": "no fevers or chills"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "need to work to clear airway to breathe"
+          "value": "no night sweats"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "feeling of obstruction until coughing up"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "wheezing after trying to catch breath"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease-history",
-          "value": "frequency of airway obstruction symptoms with medical history"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "actions to take during airway obstruction"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "ways to prevent mucus plugs and blood clots"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "concern about missing something serious"
-        }
-      ]
-    },
-    {
-      "turn_id": 14,
-      "role": "Doctor",
-      "utterance_text": "Thank you for describing your symptoms so clearly. To help guide my assessment, have you noticed any changes in your voice, difficulty swallowing, or persistent hoarseness when these blood clots and mucus plugs occur in your airway?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "changes in voice"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "difficulty swallowing"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "persistent hoarseness"
-        }
-      ]
-    },
-    {
-      "turn_id": 15,
-      "role": "Patient",
-      "utterance_text": "Let me think\u2026 Actually, yeah, I have noticed my voice gets kind of hoarse sometimes, especially after I\u2019ve been coughing up those mucus plugs or blood clots. It\u2019s not all the time, but it does linger for a bit. I haven\u2019t really had much trouble swallowing\u2014maybe just a little bit of a scratchy feeling in my throat, but nothing that makes it hard to eat or drink.\n\nIs persistent hoarseness something I should be worried about with these symptoms? I just want to make sure I\u2019m not missing anything serious, and honestly, I\u2019d really like to get some relief from all this discomfort. Is there anything you recommend to help with the airway obstruction or the mucus plugs?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "hoarse voice"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "coughing up mucus plugs"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "coughing up blood clots"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "scratchy feeling in throat"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "persistent hoarseness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "relief for airway obstruction or mucus plugs"
-        }
-      ]
-    },
-    {
-      "turn_id": 16,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d feel anxious given your symptoms, especially with the airway obstruction, coughing up blood clots, and persistent hoarseness. Based on your medical history and these recent symptoms, I am concerned about possible airway irritation or bleeding, which could be related to your recent surgery, volume overload, or underlying respiratory conditions. To help guide my assessment, have you experienced any episodes of significant bleeding from your mouth or nose, or noticed blood in your sputum outside of these clots?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "airway obstruction"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "coughing up blood clots"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "persistent hoarseness"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Other",
-          "value": "possible airway irritation or bleeding"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "recent surgery"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Other",
-          "value": "volume overload"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Other",
-          "value": "underlying respiratory conditions"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "significant bleeding from mouth or nose"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "blood in sputum outside of clots"
-        }
-      ]
-    },
-    {
-      "turn_id": 17,
-      "role": "Patient",
-      "utterance_text": "Well, um, I haven\u2019t had any big episodes of bleeding from my mouth or nose\u2014nothing like a nosebleed or blood just pouring out. It\u2019s really just been those blood clots in my sputum, and sometimes the mucus is streaked with a little blood, but not a lot. I guess that\u2019s what you mean by blood in the sputum outside of the clots. \n\nIt\u2019s definitely made me more anxious, especially with my history of MRSA pneumonia and emphysema. I keep wondering if this is something serious or if it could get worse. Is there anything specific I should be watching for, or anything I can do to help clear these mucus plugs and prevent more airway obstruction? I\u2019d really appreciate any advice to get some relief\u2014I\u2019m just feeling pretty uncomfortable with all of this.",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "blood clots in sputum"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mucus streaked with blood"
+          "value": "tired and uncomfortable"
         },
         {
           "label_type": "intent",
@@ -663,65 +479,657 @@
         },
         {
           "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "change in sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms with respiratory insufficiency"
+        },
+        {
+          "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Precaution",
-          "value": "anything specific I should be watching for"
+          "value": "Is there something specific I should be watching out for?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Recommendation",
+          "value": "anything you recommend to help with these symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "make sure I\u2019m not missing something serious"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially given your medical history and these new respiratory symptoms. To help with my assessment, have you noticed any worsening shortness of breath, chest pain, or changes in your oxygen saturation when these blood clots in your airway occur?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in oxygen saturation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "blood clots in airway"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yeah, I appreciate you asking about that. Actually, when I do notice those blood clots in my airway, I sometimes feel a bit more shortness of breath than usual. It\u2019s not every time, but it does seem to get a little worse when I\u2019m trying to clear the mucus and clots. I haven\u2019t really had chest pain\u2014at least not the kind you described\u2014but I do get a tight feeling in my chest sometimes. As for oxygen saturation, I haven\u2019t been examinationing it at home, so I\u2019m not sure if it\u2019s dropping when this happens.\n\nShould I be monitoring my oxygen levels more closely? And is there anything specific I should do when I feel that respiratory insufficiency or notice these symptoms getting worse? I just want to make sure I\u2019m managing symptoms the right way, especially given everything going on with my history.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood clots in airway"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tight feeling in chest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "not monitoring oxygen saturation at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "Should I be monitoring my oxygen levels more closely?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Treatment",
-          "value": "anything I can do to help clear these mucus plugs and prevent more airway obstruction"
+          "value": "Is there anything specific I should do when I feel respiratory insufficiency or symptoms getting worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history (unspecified, but referenced)"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details about your symptoms, including the episodes of blood clots in your airway, increased shortness of breath, and chest tightness, especially given your medical history of emphysema and prior MRSA pneumonia. Based on your description, I am concerned about possible airway inflammation or infection, as well as the risk of respiratory insufficiency. Have you recently had any imaging studies, such as a chest X-ray or CT scan, to further assess your respiratory condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood clots in airway"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest tightness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "emphysema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "prior MRSA pneumonia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible airway inflammation or infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "risk of respiratory insufficiency"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "chest X-ray or CT scan"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2014I did have a chest X-ray and a CT scan not too long ago, when I was admitted for the thoracoabdominal aortic aneurysm repair. I think they were mostly looking at my heart and aorta, but I\u2019m not sure if they examinationed my lungs in detail. No one really mentioned anything new about my lungs, just that I have emphysema, which I already knew about.\n\nIs it possible that the airway inflammation or infection could be showing up even if those scans didn\u2019t pick up anything obvious? I\u2019m still feeling pretty uncomfortable with this back pain and the respiratory insufficiency, and honestly, I just want to make sure we\u2019re not missing something serious. Is there anything else you\u2019d recommend to help with these symptoms or to get more relief?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "chest X-ray"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "CT scan"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "thoracoabdominal aortic aneurysm repair"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "emphysema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory insufficiency"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "airway inflammation or infection not detected on scans"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Treatment",
-          "value": "any advice to get some relief"
+          "value": "recommendations for symptom relief"
         }
       ]
     },
     {
       "turn_id": 18,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially given your history of MRSA pneumonia and emphysema, and now experiencing blood clots in your airway along with increased mucus and hoarseness. Based on your symptoms and recent laboratory findings, I am concerned about ongoing airway irritation and possible bleeding, which could be related to your underlying respiratory conditions or recent surgical interventions. To help guide my assessment, have you noticed any worsening of your respiratory symptoms\u2014such as increased frequency or severity of shortness of breath, or any new onset of chest discomfort\u2014since these blood clots began appearing?",
+      "utterance_text": "Thank you for sharing these details\u2014your symptoms of back pain, respiratory insufficiency, and the presence of blood clots in your airway are important, especially given your medical history of emphysema and recent surgery. Based on your current symptoms and recent imaging, I\u2019d like to clarify: have you noticed any new or worsening cough, or any changes in the amount or frequency of blood clots in your sputum since your last clinical assessment?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory insufficiency"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood clots in airway"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
           "slot": "Disease-history",
-          "value": "MRSA pneumonia and emphysema"
+          "value": "emphysema"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "blood clots in airway, increased mucus, hoarseness"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "ongoing airway irritation and possible bleeding"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Pathogeny",
-          "value": "related to underlying respiratory conditions or recent surgical interventions"
+          "slot": "Disease-history",
+          "value": "recent surgery"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "worsening of respiratory symptoms, increased frequency or severity of shortness of breath, new onset of chest discomfort since blood clots began"
+          "value": "new or worsening cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in amount or frequency of blood clots in sputum"
         }
       ]
     },
     {
       "turn_id": 19,
       "role": "Patient",
-      "utterance_text": "Yeah, I appreciate you explaining all that, doctor. Since these blood clots started showing up, I wouldn\u2019t say my shortness of breath has gotten a lot worse, but it does seem to happen a bit more often\u2014especially when I\u2019m trying to clear out the mucus plugs. It\u2019s not constant, but there are moments where I feel like I need to catch my breath. I haven\u2019t really had any new chest discomfort, though\u2014no chest pain or pressure, just the same back pain I mentioned before.\n\nHonestly, this whole condition is making me pretty uncomfortable and anxious. Is this kind of airway irritation and bleeding something that\u2019s expected after my surgery, or is it more likely related to my emphysema or MRSA history? And is there anything specific I can do to help with the mucus plugs or to prevent more blood clots from forming in my airway? I\u2019d really like to get some relief and make sure I\u2019m not missing something serious.",
+      "utterance_text": "Yeah, actually\u2014since my last assessment, I think the cough has gotten a bit more frequent. It\u2019s not a really harsh cough, but it does seem to come up more often, especially when I\u2019m trying to clear my throat. As for the blood clots in my sputum, I\u2019d say there\u2019s maybe a slight increase? It\u2019s not a huge amount, but I am noticing them a bit more often than before.\n\nHonestly, it\u2019s making me pretty uncomfortable, and I just want to make sure I\u2019m not missing something serious. With my history of emphysema and everything else going on, should I be worried about these changes? Is there anything else you\u2019d recommend to help manage these symptoms or get some relief?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough has gotten more frequent"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not a harsh cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough comes up more often when clearing throat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slight increase in blood clots in sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of emphysema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "should I be worried about these changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "anything else you\u2019d recommend to help manage these symptoms or get relief"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious about these changes, especially with your medical history of emphysema and recent increase in respiratory symptoms like cough and blood clots in your sputum. Based on your current symptoms and laboratory findings\u2014including elevated urea nitrogen, which may indicate some ongoing renal involvement\u2014I\u2019d like to clarify: have you experienced any new or worsening fatigue, confusion, or changes in your urine output that could suggest further progression of acute renal failure?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "emphysema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increase in respiratory symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood clots in sputum"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated urea nitrogen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "renal involvement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "acute renal failure"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have been feeling more fatigued than usual. It\u2019s not just being tired\u2014it\u2019s more like I don\u2019t have much energy to do anything, even basic stuff. I haven\u2019t really noticed any confusion, at least nothing out of the ordinary for me. But, actually, I think my urine output has gone down some. I\u2019m not sure exactly how much, but it seems like I\u2019m not going as often as I used to.\n\nShould I be worried about the elevated urea nitrogen and these changes in urine output? Is this a sign that the acute renal failure is getting worse? I just want to make sure we\u2019re catching symptoms early and doing what we can to get me some relief. Is there anything specific I should be doing or watching out for with these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "elevated urea nitrogen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "acute renal failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what to do or watch out for with these symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your medical history and the recent changes in your urine output and energy levels. Based on your elevated urea nitrogen and decreased urine output, it\u2019s important to monitor for worsening acute renal failure, as this can affect your overall condition and may require prompt intervention. Have you noticed any swelling in your hands, face, or abdomen, or any new symptoms such as nausea or loss of appetite that could indicate further progression of renal dysfunction? \n\nIn addition to monitoring your symptoms closely, I recommend maintaining a daily record of your urine output and weight, limiting salt and fluid intake as advised by your care team, and assessking prompt medical attention if you experience worsening swelling, confusion, chest pain, or significant shortness of breath. Regular follow-up and laboratory assessment will be important to guide further treatment and provide relief.",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recent changes in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in energy levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated urea nitrogen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute renal failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in hands, face, or abdomen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "loss of appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "maintain daily record of urine output and weight"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "limit salt and fluid intake"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "seek prompt medical attention if worsening swelling, confusion, chest pain, or significant shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "regular follow-up and laboratory assessment"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining all that. Um, actually, I have noticed some swelling in my legs, but now that you mention it, I think there\u2019s been a little puffiness in my hands too\u2014nothing major, but it\u2019s there. I haven\u2019t really seen much swelling in my face or abdomen. As for other symptoms, I\u2019ve had a bit of nausea off and on, and honestly, my appetite hasn\u2019t been great lately. I just don\u2019t feel like eating much.\n\nI\u2019ll start keeping track of my urine output and weight like you suggested. Should I be worried about the swelling getting worse or the loss of appetite? And is there anything specific I can do to help with the nausea or to improve my appetite? I\u2019m just feeling pretty uncomfortable with all these symptoms, and I want to make sure I\u2019m doing everything I can to avoid symptoms getting worse.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "puffiness in hands"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no swelling in face or abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "will keep track of urine output and weight"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "should I be worried about swelling getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "should I be worried about loss of appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "anything specific to help with nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "anything specific to improve appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable with symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "how to avoid symptoms getting worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your recent swelling, nausea, and decreased appetite\u2014these can be signs of worsening renal dysfunction and volume overload. Clinically, it\u2019s important to monitor your fluid status closely, maintain a daily record of your weight and urine output, and limit salt and fluid intake as recommended by your care team. For your nausea and poor appetite, medications such as antiemetics may help, and smaller, more frequent meals can sometimes be easier to tolerate. \n\nGiven your recent increase in swelling and changes in appetite, have you noticed any new shortness of breath when lying flat or at rest, which could indicate further volume overload requiring urgent assessment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling, nausea, decreased appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "worsening renal dysfunction and volume overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor fluid status closely, maintain daily record of weight and urine output, limit salt and fluid intake"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "antiemetics for nausea, smaller more frequent meals"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new shortness of breath when lying flat or at rest"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Yeah, I have noticed some shortness of breath, especially when I\u2019m lying flat\u2014it\u2019s definitely gotten a bit worse lately. Sometimes I even have to prop myself up with extra pillows just to feel like I can breathe a little easier. It\u2019s not constant, but it\u2019s enough to make me uncomfortable and a little anxious, especially with everything else going on.\n\nI appreciate you explaining about the volume overload and renal dysfunction. Should I be worried that this is a sign symptoms are getting worse? Is there anything I can do at home to help with the shortness of breath or the swelling until I can get more help? And, um, if it keeps getting worse, at what point should I come in right away or call someone? I just want to make sure I\u2019m not missing something serious and that I\u2019m doing everything I can to manage these symptoms.",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -733,251 +1141,141 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "mucus plugs"
+          "value": "worse when lying flat"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "back pain"
+          "value": "needs extra pillows to breathe easier"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "airway irritation and bleeding"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "anxiety"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "emphysema"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "MRSA"
+          "value": "uncomfortable and anxious"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "airway irritation and bleeding expected after surgery or related to emphysema/MRSA"
+          "value": "worsening symptoms"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Treatment",
-          "value": "ways to help with mucus plugs"
+          "value": "what can be done at home for shortness of breath or swelling"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "ways to prevent more blood clots in airway"
+          "slot": "Precaution",
+          "value": "when to seek immediate help or call someone"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "how to manage symptoms and not miss something serious"
         }
       ]
     },
     {
-      "turn_id": 20,
+      "turn_id": 26,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with your recent airway symptoms, history of emphysema and MRSA pneumonia, and the discomfort from back pain and swelling. Based on your medical history, recent surgery, and current symptoms\u2014including blood-tinged sputum, mucus plugs, and intermittent shortness of breath\u2014these findings could be related to airway irritation, underlying lung disease, or postoperative changes.\n\nTo help guide my assessment further, have you experienced any fevers, chills, or night sweats recently, which could indicate an active infection or inflammation contributing to your respiratory symptoms?",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with your recent increase in shortness of breath when lying flat, swelling, and changes in appetite\u2014these symptoms can indicate worsening volume overload and renal dysfunction. Based on your medical history and current symptoms, I recommend you elevate your upper clinical examination when resting, carefully monitor your daily weight and urine output, limit salt and fluid intake as previously advised, and contact your healthcare team promptly if you experience worsening shortness of breath at rest, chest pain, confusion, or a significant drop in urine output. \n\nHave you had any recent laboratory assessments of your kidney function or electrolyte levels since these symptoms have worsened?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "emphysema and MRSA pneumonia"
+          "slot": "Symptom",
+          "value": "shortness of breath when lying flat"
         },
         {
           "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "back pain and swelling"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "blood-tinged sputum, mucus plugs, and intermittent shortness of breath"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Pathogeny",
-          "value": "airway irritation, underlying lung disease, or postoperative changes"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "fevers, chills, or night sweats"
-        }
-      ]
-    },
-    {
-      "turn_id": 21,
-      "role": "Patient",
-      "utterance_text": "Let me think\u2026 Actually, I haven\u2019t really had any fevers or chills that I\u2019ve noticed. No night sweats either\u2014I\u2019ve been examinationing for that because I know it can be a sign of infection, especially with my history of MRSA pneumonia. Mostly it\u2019s just the blood-tinged sputum, mucus plugs, and this ongoing back pain and swelling that\u2019s making me uncomfortable.\n\nIs it possible for airway irritation or these postoperative changes to cause all these symptoms without an infection? And is there anything I can do at home to help clear the mucus plugs or manage the swelling? I just want to make sure I\u2019m doing everything I can to get some relief and not let symptoms get worse.",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no fever"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no chills"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no night sweats"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "MRSA pneumonia"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "blood-tinged sputum"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mucus plugs"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "back pain"
-        },
-        {
-          "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
           "value": "swelling"
         },
         {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Pathogeny",
-          "value": "airway irritation or postoperative changes causing symptoms without infection"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "home remedies to clear mucus plugs or manage swelling"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "ways to prevent symptoms from getting worse"
-        }
-      ]
-    },
-    {
-      "turn_id": 22,
-      "role": "Doctor",
-      "utterance_text": "Thank you for sharing these details and for monitoring your symptoms so carefully. Based on your medical history, recent surgery, and current symptoms\u2014including blood-tinged sputum, mucus plugs, back pain, and swelling\u2014it is possible that airway irritation and postoperative changes are contributing to your respiratory symptoms, even in the absence of infection. \n\nAt home, strategies such as staying well-hydrated, using a humidifier, and performing gentle airway clearance techniques (like controlled coughing or chest physiotherapy if recommended) may help reduce mucus plugs. For swelling, elevating your legs and monitoring your fluid intake as advised can be beneficial, but it is important to follow any specific instructions from your care team regarding volume management due to your history of acute renal failure.\n\nGiven your ongoing symptoms, I recommend close monitoring for any new or worsening shortness of breath, increased swelling, or signs of infection. Have you recently had a follow-up examination with your surgical or pulmonary team since discharge to reassess your airway and volume status?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "recent surgery, acute renal failure"
-        },
-        {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "blood-tinged sputum, mucus plugs, back pain, swelling"
+          "value": "changes in appetite"
         },
         {
           "label_type": "action",
           "type_name": "Diagnosis",
-          "slot": "Pathogeny",
-          "value": "airway irritation and postoperative changes contributing to respiratory symptoms"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "stay well-hydrated, use a humidifier, perform gentle airway clearance techniques"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "elevate legs and monitor fluid intake for swelling"
+          "slot": "Disease",
+          "value": "worsening volume overload and renal dysfunction"
         },
         {
           "label_type": "action",
           "type_name": "Recommendation",
           "slot": "Precaution",
-          "value": "follow specific instructions from care team regarding volume management"
+          "value": "elevate your upper clinical examination when resting"
         },
         {
           "label_type": "action",
           "type_name": "Recommendation",
           "slot": "Precaution",
-          "value": "monitor for new or worsening shortness of breath, increased swelling, or signs of infection"
+          "value": "carefully monitor your daily weight and urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "limit salt and fluid intake as previously advised"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "contact your healthcare team promptly if you experience worsening shortness of breath at rest, chest pain, confusion, or a significant drop in urine output"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Check_item",
-          "value": "follow-up examination with surgical or pulmonary team since discharge"
+          "value": "recent laboratory assessments of kidney function or electrolyte levels"
         }
       ]
     },
     {
-      "turn_id": 23,
+      "turn_id": 27,
       "role": "Patient",
-      "utterance_text": "Thank you, doctor, that\u2019s really helpful. Um, to answer your question\u2014I haven\u2019t had a follow-up with my surgical or pulmonary team yet since I was discharged. I\u2019ve mostly just been trying to manage symptoms at home, like keeping my legs elevated and watching my fluid intake like you mentioned. I do try to stay hydrated, but sometimes I worry about drinking too much because of the acute renal failure.\n\nI\u2019m definitely still feeling pretty uncomfortable, especially with the back pain and the mucus plugs\u2014sometimes it feels like I\u2019m just not getting enough relief. Is it important that I see my surgical or pulmonary team soon, or should I be coming in sooner if the blood-tinged sputum or swelling gets worse? And for the airway clearance\u2014are there specific techniques you recommend, or should I ask for a referral to someone who can show me chest physiotherapy?\n\nI just want to make sure I\u2019m doing everything right and not letting symptoms get worse. Thank you for taking the time to explain all this.",
+      "utterance_text": "Let me think\u2026 I believe they did some labs when I was last in the hospital, but I\u2019m not sure if they\u2019ve examinationed my kidney function or electrolyte levels since these symptoms started getting worse. No one has really gone over the results with me in detail. I know they mentioned my urea nitrogen was up, but I don\u2019t know about the rest.\n\nHonestly, with all this swelling, shortness of breath when I\u2019m lying flat, and the changes in my appetite, I\u2019m starting to get pretty uncomfortable and a bit worried. Should I be asking for more frequent lab assessments, or is there something specific I should mention to my care team? And is there anything else I can do at home to help with the volume overload or the renal dysfunction until I can get seen again? I just want to make sure I\u2019m not missing anything important and that I\u2019m doing everything I can to get some relief.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "no follow-up with surgical or pulmonary team since discharge"
+          "slot": "Check_item",
+          "value": "labs"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "back pain"
+          "slot": "Medical-place",
+          "value": "hospital"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mucus plugs"
+          "slot": "Check_item",
+          "value": "kidney function"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "blood-tinged sputum"
+          "slot": "Check_item",
+          "value": "electrolyte levels"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "urea nitrogen"
         },
         {
           "label_type": "intent",
@@ -988,50 +1286,191 @@
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "keeping legs elevated"
+          "slot": "Symptom",
+          "value": "shortness of breath when lying flat"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "watching fluid intake"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "trying to stay hydrated"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "acute renal failure"
+          "slot": "Symptom",
+          "value": "changes in appetite"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "more frequent lab assessments"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "something specific to mention to care team"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "anything to do at home for volume overload or renal dysfunction"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your symptoms of swelling, shortness of breath when lying flat, and decreased appetite\u2014these can indicate worsening volume overload and renal dysfunction. Based on your recent elevated urea nitrogen and ongoing symptoms, I recommend you request a prompt laboratory assessment of your kidney function (including creatinine, electrolytes, and urea nitrogen) and discuss your current symptoms with your care team as soon as possible. \n\nIn the meantime, continue to monitor your daily weight, urine output, and fluid intake, and elevate your upper clinical examination when resting to help with shortness of breath. Have you noticed any new or worsening chest pain or confusion, which would require urgent medical evaluation?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining all that. Um, I haven\u2019t really had any new or worsening chest pain\u2014just that tightness sometimes when I\u2019m short of breath, but not what I\u2019d call real chest pain. And I haven\u2019t noticed any confusion, at least nothing out of the ordinary for me.\n\nI\u2019ll definitely keep a close eye on my daily weight, urine output, and fluid intake like you said. I\u2019ll also try to get in touch with my care team about getting those labs done\u2014creatinine, electrolytes, and urea nitrogen. Is there anything else I should specifically mention to them about my symptoms, or anything I should watch for that would mean I need to come in right away? I just want to make sure I\u2019m not missing something serious and that I\u2019m doing everything I can to get some relief.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new or worsening chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tightness when short of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "will monitor daily weight, urine output, and fluid intake"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "creatinine, electrolytes, and urea nitrogen labs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "anything else to mention to care team about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "anything to watch for that would require coming in right away"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "Thank you for being so thorough in describing your symptoms and for your commitment to monitoring your condition. Based on your medical history, recent symptoms of swelling, shortness of breath when lying flat, decreased urine output, and elevated urea nitrogen, these findings suggest ongoing volume overload and possible progression of renal dysfunction. I recommend you inform your care team about your worsening edema, orthopnea, decreased appetite, and any increase in blood clots in your airway, as these symptoms may require urgent assessment and possible adjustment of your treatment plan.\n\nIn addition to monitoring your daily weight and urine output, please assessk immediate medical attention if you develop new chest pain, severe shortness of breath at rest, confusion, or a marked decrease in urine output. Have you had any recent changes in blood pressure or heart rate that you are aware of?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "ongoing volume overload and possible progression of renal dysfunction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Symptom",
+          "value": "inform care team about worsening edema, orthopnea, decreased appetite, increase in blood clots in airway"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "possible adjustment of treatment plan"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Symptom",
+          "value": "monitor daily weight and urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
           "slot": "Precaution",
-          "value": "Is it important to see surgical or pulmonary team soon?"
+          "value": "seek immediate medical attention if new chest pain, severe shortness of breath at rest, confusion, or marked decrease in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "recent changes in blood pressure or heart rate"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor. I appreciate you explaining everything so clearly\u2014it really helps me understand what to watch for. Um, as far as blood pressure and heart rate, I haven\u2019t noticed any big changes myself. I don\u2019t examination them at home regularly, but when I was last in the hospital, my blood pressure was a little on the higher side, and sometimes my heart rate felt a bit fast, especially when I was feeling more short of breath. I\u2019m not sure if that\u2019s something I should be worried about or if it\u2019s just part of the volume overload and renal dysfunction you mentioned.\n\nHonestly, I\u2019m still feeling pretty uncomfortable with all these symptoms\u2014especially the swelling, orthopnea, and the blood clots in my airway. Is there anything else I can do at home to help with the edema or the respiratory insufficiency until I can get in to see my care team? And should I be examinationing my blood pressure and heart rate more often? I just want to make sure I\u2019m staying on top of symptoms and not letting anything get worse.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you, doctor. I appreciate you explaining everything so clearly\u2014it really helps me understand what to watch for."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no big changes in blood pressure and heart rate noticed"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood pressure was a little on the higher side during last hospital visit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart rate felt a bit fast, especially when feeling more short of breath"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Should I come in sooner if blood-tinged sputum or swelling gets worse?"
+          "slot": "Pathogeny",
+          "value": "Is fast heart rate and high blood pressure part of volume overload and renal dysfunction?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable with symptoms\u2014swelling, orthopnea, blood clots in airway"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Treatment",
-          "value": "Are there specific airway clearance techniques you recommend?"
+          "value": "Is there anything else I can do at home to help with edema or respiratory insufficiency?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Should I ask for a referral for chest physiotherapy?"
+          "slot": "Check_item",
+          "value": "Should I be checking my blood pressure and heart rate more often?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "wants to stay on top of symptoms and not let anything get worse"
         }
       ]
     }

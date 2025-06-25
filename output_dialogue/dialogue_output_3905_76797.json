@@ -1,0 +1,322 @@
+{
+  "partial_profile": {
+    "row_id": 3904,
+    "subject_id": 76797,
+    "hadm_id": 164212,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Dyspnea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Exertional dyspnea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Poor endurance",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "right sided weakness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "lethargy",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "increasing LFTs",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "drowsiness after extubation",
+          "onset": "within 24 hours post-surgery",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "failed to follow commands",
+          "onset": "POD 1",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Somnolent",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Deconditioned",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Incisional pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2072-07-06",
+        "Age": 80,
+        "Sex": "F",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "ELECTIVE",
+        "Admission_Date": "2153-03-16 14:00:00",
+        "Discharge_Date": "2153-04-04 14:00:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Mitral and Tricuspid valve regurgitation s/p mitral and tricuspid valve repair; Congestive Heart Failure; Pulmonary Hypertension; History of Aspiration Pneumonia; Restrictive/Interstitial Lung Disease; Osteoporosis; Patulous esophagus/Achalasia - s/p botox injections; Atrial Fibrillation; History of Shingles; Leiomyoma, s/p TAH 2108; Cyst on back removed in 2103; S/P tonsillectomy; s/p Breast fibroadenoma left aspiration, 2137"
+      },
+      "Allergies": [
+        "metoprolol"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Warfarin",
+          "purpose": "Anticoagulation",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "epinephrine",
+          "purpose": "inotropic support",
+          "dosage": "0.05 uck/kg/min",
+          "frequency": "continuous infusion"
+        },
+        {
+          "name": "metoprolol tartrate",
+          "purpose": "not provided",
+          "dosage": "50 mg",
+          "frequency": "One tablet PO TID (3 times a day)"
+        },
+        {
+          "name": "digoxin",
+          "purpose": "not provided",
+          "dosage": "125 mcg (0.5 tablet)",
+          "frequency": "PO QOD"
+        },
+        {
+          "name": "acetaminophen",
+          "purpose": "pain or fever",
+          "dosage": "500 mg/5 mL",
+          "frequency": "every 3-2 hours as needed"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "metoprolol tartrate",
+          "purpose": "not provided",
+          "dosage": "50 mg",
+          "frequency": "One tablet PO TID (3 times a day)"
+        },
+        {
+          "name": "digoxin",
+          "purpose": "not provided",
+          "dosage": "125 mcg (0.5 tablet)",
+          "frequency": "PO QOD"
+        },
+        {
+          "name": "acetaminophen",
+          "purpose": "pain or fever",
+          "dosage": "500 mg/5 mL",
+          "frequency": "every 3-2 hours as needed"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Dyspnea"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.9,
+      "consistency_score": 1.0,
+      "confidence_score": 0.85,
+      "overall_score": 0.9666666666666667,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 0.9565217391304348,
+        "treatments": 0.8823529411764706,
+        "demographics": 0.39999999999999997
+      },
+      "issues": [
+        "Diagnosis 'anemia' not clearly supported by text",
+        "Diagnosis 'macrocytosis' not clearly supported by text",
+        "Treatment 'inotropic support' not clearly found in text",
+        "Treatment 'Echocardiogram' not clearly found in text",
+        "Age inconsistency: stated 80, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Good afternoon, thank you for coming in today. To help me better understand your condition, can you describe in your own words what symptoms you noticed this morning, particularly regarding any changes in your blood pressure or mental status?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 this morning I just felt really off. I think my blood pressure was quite low\u2014hypotension, I guess you\u2019d call it. I was a little worried because I felt kind of lightheaded and not quite myself. Should I be worried about that?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand your concern\u2014experiencing lightheaded and not quite yourself can be unsettling. In addition to the hypotension you mentioned, have you experienced any symptoms such as confusion, difficulty staying alert, or changes in your level of consciousness today?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yes, I think there was some altered mental status. I felt kind of confused at times, and it was hard to stay fully awake. It\u2019s not something that happens to me often, so I\u2019m a bit concerned about it."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious about experiencing confused and having difficulty staying awake\u2014those symptoms can be quite concerning. To help with my assessment, have you noticed any episodes of your heart rate slowing down significantly, or has anyone mentioned that you appeared unusually pale during these symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, let me think\u2026 Actually, yes, someone did mention that I looked quite pale during one of those episodes. And I think my heart rate was slower than usual\u2014bradycardia, I believe it\u2019s called? It\u2019s a bit unsettling, but I\u2019m hopeful you\u2019ll be able to help me figure out what\u2019s going on."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing these details\u2014it helps guide my assessment. You mentioned experiencing somnolent and others noticing you appeared pale; have you experienced any additional symptoms such as shortness of breath, chest discomfort, or weakness during these episodes?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t really noticed much shortness of breath or chest discomfort, at least not more than usual for me. But I have felt pretty weak\u2014just sort of drained, you know? And actually, I\u2019ve been a bit more somnolent than usual, just wanting to sleep a lot. Also, I don\u2019t know if it\u2019s related, but I have a stage 2 sacral decubitus ulcer that\u2019s been bothering me lately. I\u2019m not sure if that could be connected to these symptoms?"
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for mentioning your stage 2 sacral decubitus ulcer and the increased somnolence and weakness. To further guide my assessment, have you noticed any fever, chills, or signs of infection around the ulcer or elsewhere that might be contributing to your symptoms of altered mental status and appearing pale?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t really noticed any fever or chills, at least not that I can remember. The area around the ulcer looks a little red, but I\u2019m not sure if that\u2019s new or not. Actually, now that you mention it, there was a syncopal episode\u2014I think I lost consciousness for a short time. My family said I seemed to have altered mental status, or AMS, during that as well. It\u2019s all a bit fuzzy, honestly, but I\u2019m definitely concerned."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially with the episodes of altered mental status and appearing pale. To help with my assessment, have you noticed any changes in your urine, such as blood (hematuria) or cloudiness, which could indicate an underlying infection contributing to your current condition?"
+    },
+    {
+      "role": "Patient",
+      "content": "Actually, yes\u2014I have noticed some changes in my urine lately. It\u2019s looked a bit cloudy, and I think there was some blood in it, which I guess would be hematuria. I wasn\u2019t sure if it was something to worry about, but now that you mention infection, I wonder if that could be related to my symptoms. \n\nAlso, just to add, the somnolence and confusion have been pretty noticeable, and that one syncopal episode really scared me. Is it possible all of this could be connected? Should I be worried about something serious?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with symptoms like pale appearance, altered mental status, and hematuria. To help with my assessment, have you noticed any recent changes in your appetite, fluid intake, or signs of dehydration such as dry mouth or decreased urination?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 now that you mention it, I think my appetite hasn\u2019t been great lately. I haven\u2019t really felt like eating much, and I might not be drinking as much water as I should. My mouth has felt a bit dry at times, and I\u2019ve noticed I haven\u2019t been urinating as often. When I do go, the urine looks cloudy\u2014so, pyuria, I think? And like I mentioned before, there\u2019s been hematuria too.\n\nAlso, someone examinationed my heart rate during one of those episodes and said it was in the 30s\u2014so definite bradycardia. That seems pretty low to me. With all these symptoms\u2014altered mental status, bradycardia, hematuria, and pyuria\u2014do you think this could be something serious? Is there a chance it\u2019s all connected?"
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing these details\u2014it\u2019s important for my assessment. Given your symptoms of pale appearance and altered mental status, have you experienced any recent episodes of dizziness or visual disturbances, such as blurred vision or assessing spots, during these events?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yes, actually\u2014now that you mention it, I did have some dizziness before I lost consciousness during that syncopal episode. I remember feeling kind of woozy, and symptoms got a bit blurry right before I blacked out. I\u2019m not sure how long I was out, but when I came to, my family said my blood pressure was really low\u2014definitely hypotension. \n\nIt\u2019s all a bit unsettling, but I\u2019m hopeful you\u2019ll be able to help me figure out what\u2019s causing these symptoms. Do you think the low blood pressure and loss of consciousness could be related to the bradycardia and the other symptoms I\u2019ve mentioned?"
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms so clearly\u2014it\u2019s understandable to feel unsettled given the episodes of hypotension, bradycardia, altered mental status, and pale appearance. Based on your medical history and these symptoms, my assessment will focus on possible causes such as infection, cardiac arrhythmia, or dehydration. To further guide my evaluation, have you recently experienced any new or worsening shortness of breath or swelling in your legs, which could indicate changes in your heart function?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, thank you for explaining your assessment\u2014I appreciate you looking into all those possible causes. As for shortness of breath, I haven\u2019t noticed it being much worse than usual, and I don\u2019t think there\u2019s been any new swelling in my legs. My ankles sometimes get a bit puffy, but nothing out of the ordinary lately.\n\nActually, I did hear from the nurse that my hematocrit dropped from 35 to 28.9, so I guess that means I\u2019m a bit anemic now? Could that be making me feel more weak and pale? And with the dehydration\u2014since I haven\u2019t been eating or drinking much\u2014I wonder if that\u2019s making everything worse too.\n\nDo you think the anemia, dehydration, and all these other symptoms could be connected? Should I be worried about something serious going on with my heart or maybe an infection?"
+    }
+  ],
+  "transcript": "Doctor: Good afternoon, thank you for coming in today. To help me better understand your condition, can you describe in your own words what symptoms you noticed this morning, particularly regarding any changes in your blood pressure or mental status?\nPatient: Well, um\u2026 this morning I just felt really off. I think my blood pressure was quite low\u2014hypotension, I guess you\u2019d call it. I was a little worried because I felt kind of lightheaded and not quite myself. Should I be worried about that?\nDoctor: I can understand your concern\u2014experiencing lightheaded and not quite yourself can be unsettling. In addition to the hypotension you mentioned, have you experienced any symptoms such as confusion, difficulty staying alert, or changes in your level of consciousness today?\nPatient: Well, um\u2026 yes, I think there was some altered mental status. I felt kind of confused at times, and it was hard to stay fully awake. It\u2019s not something that happens to me often, so I\u2019m a bit concerned about it.\nDoctor: I can understand why you\u2019d be anxious about experiencing confused and having difficulty staying awake\u2014those symptoms can be quite concerning. To help with my assessment, have you noticed any episodes of your heart rate slowing down significantly, or has anyone mentioned that you appeared unusually pale during these symptoms?\nPatient: Well, let me think\u2026 Actually, yes, someone did mention that I looked quite pale during one of those episodes. And I think my heart rate was slower than usual\u2014bradycardia, I believe it\u2019s called? It\u2019s a bit unsettling, but I\u2019m hopeful you\u2019ll be able to help me figure out what\u2019s going on.\nDoctor: Thank you for sharing these details\u2014it helps guide my assessment. You mentioned experiencing somnolent and others noticing you appeared pale; have you experienced any additional symptoms such as shortness of breath, chest discomfort, or weakness during these episodes?\nPatient: Well, um\u2026 I haven\u2019t really noticed much shortness of breath or chest discomfort, at least not more than usual for me. But I have felt pretty weak\u2014just sort of drained, you know? And actually, I\u2019ve been a bit more somnolent than usual, just wanting to sleep a lot. Also, I don\u2019t know if it\u2019s related, but I have a stage 2 sacral decubitus ulcer that\u2019s been bothering me lately. I\u2019m not sure if that could be connected to these symptoms?\nDoctor: Thank you for mentioning your stage 2 sacral decubitus ulcer and the increased somnolence and weakness. To further guide my assessment, have you noticed any fever, chills, or signs of infection around the ulcer or elsewhere that might be contributing to your symptoms of altered mental status and appearing pale?\nPatient: Well, um\u2026 I haven\u2019t really noticed any fever or chills, at least not that I can remember. The area around the ulcer looks a little red, but I\u2019m not sure if that\u2019s new or not. Actually, now that you mention it, there was a syncopal episode\u2014I think I lost consciousness for a short time. My family said I seemed to have altered mental status, or AMS, during that as well. It\u2019s all a bit fuzzy, honestly, but I\u2019m definitely concerned.\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially with the episodes of altered mental status and appearing pale. To help with my assessment, have you noticed any changes in your urine, such as blood (hematuria) or cloudiness, which could indicate an underlying infection contributing to your current condition?\nPatient: Actually, yes\u2014I have noticed some changes in my urine lately. It\u2019s looked a bit cloudy, and I think there was some blood in it, which I guess would be hematuria. I wasn\u2019t sure if it was something to worry about, but now that you mention infection, I wonder if that could be related to my symptoms. \n\nAlso, just to add, the somnolence and confusion have been pretty noticeable, and that one syncopal episode really scared me. Is it possible all of this could be connected? Should I be worried about something serious?\nDoctor: I can understand why you\u2019d be anxious, especially with symptoms like pale appearance, altered mental status, and hematuria. To help with my assessment, have you noticed any recent changes in your appetite, fluid intake, or signs of dehydration such as dry mouth or decreased urination?\nPatient: Well, um\u2026 now that you mention it, I think my appetite hasn\u2019t been great lately. I haven\u2019t really felt like eating much, and I might not be drinking as much water as I should. My mouth has felt a bit dry at times, and I\u2019ve noticed I haven\u2019t been urinating as often. When I do go, the urine looks cloudy\u2014so, pyuria, I think? And like I mentioned before, there\u2019s been hematuria too.\n\nAlso, someone examinationed my heart rate during one of those episodes and said it was in the 30s\u2014so definite bradycardia. That seems pretty low to me. With all these symptoms\u2014altered mental status, bradycardia, hematuria, and pyuria\u2014do you think this could be something serious? Is there a chance it\u2019s all connected?\nDoctor: Thank you for sharing these details\u2014it\u2019s important for my assessment. Given your symptoms of pale appearance and altered mental status, have you experienced any recent episodes of dizziness or visual disturbances, such as blurred vision or assessing spots, during these events?\nPatient: Yes, actually\u2014now that you mention it, I did have some dizziness before I lost consciousness during that syncopal episode. I remember feeling kind of woozy, and symptoms got a bit blurry right before I blacked out. I\u2019m not sure how long I was out, but when I came to, my family said my blood pressure was really low\u2014definitely hypotension. \n\nIt\u2019s all a bit unsettling, but I\u2019m hopeful you\u2019ll be able to help me figure out what\u2019s causing these symptoms. Do you think the low blood pressure and loss of consciousness could be related to the bradycardia and the other symptoms I\u2019ve mentioned?\nDoctor: Thank you for describing your symptoms so clearly\u2014it\u2019s understandable to feel unsettled given the episodes of hypotension, bradycardia, altered mental status, and pale appearance. Based on your medical history and these symptoms, my assessment will focus on possible causes such as infection, cardiac arrhythmia, or dehydration. To further guide my evaluation, have you recently experienced any new or worsening shortness of breath or swelling in your legs, which could indicate changes in your heart function?\nPatient: Well, thank you for explaining your assessment\u2014I appreciate you looking into all those possible causes. As for shortness of breath, I haven\u2019t noticed it being much worse than usual, and I don\u2019t think there\u2019s been any new swelling in my legs. My ankles sometimes get a bit puffy, but nothing out of the ordinary lately.\n\nActually, I did hear from the nurse that my hematocrit dropped from 35 to 28.9, so I guess that means I\u2019m a bit anemic now? Could that be making me feel more weak and pale? And with the dehydration\u2014since I haven\u2019t been eating or drinking much\u2014I wonder if that\u2019s making everything worse too.\n\nDo you think the anemia, dehydration, and all these other symptoms could be connected? Should I be worried about something serious going on with my heart or maybe an infection?\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: chills, fever, fatigue, weakness, lightheaded. Assessment: possible infection, possible cardiac arrhythmia, possible dehydration. Clinical note: The patient presented with hypotension, bradycardia, altered mental status, weakness, somnolence, syncopal episode, hematuria, pyuria, and a stage 2 sacral decubitus ulcer. Additional findings include anemia and signs of dehydration. The doctor is considering infection, cardiac arrhythmia, and dehydration as possible causes. No specific treatments or recommendations were given in the dialogue.. Extracted: 36 symptoms, 4 diagnoses, 0 treatments.",
+  "annotations": {
+    "symptoms": [
+      "chills",
+      "fever",
+      "fatigue",
+      "weakness",
+      "lightheaded",
+      "shortness of breath",
+      "chest pain",
+      "breath",
+      "headache",
+      "dizziness",
+      "feeling off",
+      "low blood pressure",
+      "hypotension",
+      "lightheadedness",
+      "not feeling oneself",
+      "altered mental status",
+      "confusion",
+      "difficulty staying awake",
+      "pale appearance",
+      "slow heart rate",
+      "bradycardia",
+      "increased somnolence",
+      "stage 2 sacral decubitus ulcer",
+      "redness around ulcer",
+      "syncopal episode",
+      "loss of consciousness",
+      "cloudy urine",
+      "hematuria",
+      "poor appetite",
+      "decreased fluid intake",
+      "dry mouth",
+      "decreased urination",
+      "pyuria",
+      "blurred vision",
+      "anemia (hematocrit drop)",
+      "ankle puffiness"
+    ],
+    "diagnoses": [
+      "possible infection",
+      "possible cardiac arrhythmia",
+      "possible dehydration",
+      "anemia"
+    ],
+    "treatments": []
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 0.999\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.850 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.590 \u25cb\n\u2022 Dialogue Naturalness: 0.912 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness:**  \nThe doctor\u2019s communication is consistently safe and clinically appropriate. The physician uses open-ended questions to elicit a detailed symptom history, follows up on red-flag symptoms (altered mental status, bradycardia, hypotension, hematuria), and explores possible causes such as infection, cardiac arrhythmia, and dehydration. There is no evidence of unsafe or inappropriate advice; the doctor maintains a professional tone and does not make premature diagnoses or recommendations outside their scope.\n\n**2. Patient Behavior Naturalness and Believability:**  \nThe patient\u2019s responses are realistic and reflect a plausible progression of information disclosure. The patient expresses uncertainty (\u201cWell, um\u2026\u201d), provides clarifications when prompted, and gradually reveals additional symptoms as the conversation unfolds. The emotional tone\u2014concern, anxiety, hopefulness\u2014is appropriate for someone experiencing potentially serious symptoms. The patient also references medical terminology (e.g., \u201chypotension,\u201d \u201cbradycardia,\u201d \u201chematuria\u201d) in a way that is believable for a patient who may have some health literacy or has been informed by healthcare staff/family.\n\n**3. Empathy and Professionalism:**  \nThe doctor repeatedly acknowledges the patient\u2019s concerns (\u201cI can understand your concern\u2026\u201d, \u201cIt\u2019s understandable to feel unsettled\u2026\u201d), validates their emotions, and thanks them for sharing information. This demonstrates empathy and professionalism throughout the encounter.\n\n**4. Meaningful Medical Purpose:**  \nThe conversation serves a clear medical purpose: gathering a comprehensive symptom history to assess for acute causes of altered mental status, hypotension, bradycardia, and possible infection or anemia. The doctor\u2019s questions are logical and sequential, building on previous answers to narrow the differential diagnosis. The patient\u2019s questions (\u201cShould I be worried about something serious?\u201d) are addressed with appropriate reassurance and further inquiry.\n\n**5. Dialogue Flow and Realism:**  \nThe exchange flows logically, with appropriate turn-taking and natural development of the clinical interview. Minor repetitions and hesitations (\u201cWell, um\u2026\u201d) are typical in real conversations and add to the authenticity. The doctor adapts questions based on new information (e.g., exploring infection after mention of a decubitus ulcer), which is characteristic of real clinical reasoning.\n\n**6. Medical Safety and Appropriateness:**  \nNo unsafe advice is given; the doctor maintains an appropriate level of concern given the symptoms described (e.g., syncopal episode, bradycardia in the 30s, anemia). The conversation would likely prompt urgent evaluation in a real clinical setting, which is appropriate.\n\n**Summary:**  \nThis dialogue exemplifies a realistic medical encounter: the doctor demonstrates safe, empathetic, and professional communication; the patient\u2019s behavior is believable; the conversation flows logically with meaningful clinical inquiry; and all information exchange serves a clear medical purpose. Minor imperfections in language are consistent with real-world interactions.\n\n**Conclusion:**  \nDIALOGUE REALISTIC: This conversation represents a plausible, safe, and clinically appropriate medical encounter.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.850)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.255/0.3 (Score: 0.850)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 0.999,
+    "sota_metrics": {
+      "semantic": 0.59,
+      "naturalness": 0.912,
+      "safety": 0.85,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 64.64171195030212,
+  "dialogue_stats": {
+    "turn_count": 18,
+    "word_count": 1200,
+    "doctor_turns": 9,
+    "patient_turns": 9
+  }
+}

@@ -228,8 +228,8 @@ def process_with_enhanced_monitoring(input_json_dir: str, output_annotated_dir: 
 
 if __name__ == "__main__":
     # ENHANCED: Configuration
-    input_json_dir = "output_sota"  # Updated to use SOTA output
-    output_annotated_dir = "output_remedi_annotated"
+    input_json_dir = "output_dialogue"  # Updated to use SOTA output
+    output_annotated_dir = "output_annotated"
     
     # ENHANCED: Process with monitoring
     process_with_enhanced_monitoring(input_json_dir, output_annotated_dir)

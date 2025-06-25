@@ -1,0 +1,328 @@
+{
+  "partial_profile": {
+    "row_id": 4457,
+    "subject_id": 1017,
+    "hadm_id": 195160,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "chest pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "melena/BRBPR (large volume)",
+          "onset": "post-cardiac catheterization",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "nausea",
+          "onset": "soon after GI contacted",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "large volume hematemesis with frank clot",
+          "onset": "soon after GI contacted",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Upper gastrointestinal bleeding (fresh blood in esophagus, stomach, and duodenum)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "shortness of breath",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "dizziness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "rectal bleeding",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2100-06-19",
+        "Age": 70,
+        "Sex": "M",
+        "Religion": "PROTESTANT QUAKER",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "BLACK/AFRICAN AMERICAN",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2171-03-03 04:00:00",
+        "Discharge_Date": "2171-03-09 16:35:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "?CAD, EF 55% 4/05, CRI 1.5, HTN, GERD, hypercholesterolemia, BPH, diverticulitis, s/p arthroscopic cholecystectomy, s/p appy, herniated disk at L4/5, gout, chronic PMR with anemia, exposure to rat poison, asbestos exposure [2118-2130] with pleural plaques, zoster '[63], pilonidal cysts"
+      },
+      "Allergies": [
+        "No Known Allergies to Drugs"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Pantoprazole 40 mg Tablet, Delayed Release (E.C.)",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "PO twice a day"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Pantoprazole 40 mg Tablet, Delayed Release (E.C.)",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "PO twice a day"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "chest pain"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.8,
+      "consistency_score": 1.0,
+      "confidence_score": 0.75,
+      "overall_score": 0.9333333333333332,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 0.92,
+        "treatments": 0.9230769230769231,
+        "demographics": 0.39999999999999997
+      },
+      "issues": [
+        "Diagnosis 'Hypertension' not clearly supported by text",
+        "Diagnosis 'Benign prostatic hyperplasia' not clearly supported by text",
+        "Treatment 'Vasopressor support' not clearly found in text",
+        "Age inconsistency: stated 70, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Good morning, thank you for coming in today. I understand you\u2019ve been experiencing chest pain and significant gastroindiagnostic evaluationinal bleeding. Can you tell me more about how your chest pain started and what it feels like?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, good morning, doctor. Yeah, I\u2019ve been having this chest pain\u2014it\u2019s kind of why I came in. It started a couple days ago, I think. I\u2019m just\u2026 a bit worried about it."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014chest pain can be very concerning. In addition to the chest discomfort, have you noticed any symptoms such as passing dark or bloody stools, or experiencing nausea recently?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yeah, I\u2019ve had some shortness of breath along with the chest pain. That\u2019s mainly what\u2019s been bothering me. I\u2019m just not sure if it\u2019s something serious, and it\u2019s making me pretty anxious."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d feel anxious\u2014chest pain and shortness of breath are definitely symptoms we take seriously. In addition to these, have you noticed any large volume dark or bloody stools, or any episodes of nausea recently?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, actually, now that you mention it, I have noticed some pretty large volume dark stools\u2014melena, I think you call it? And, well, there was also some bright red blood per rectum. I\u2019ve also been feeling kind of nauseous on and off. Should I be worried about all these symptoms happening together?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014experiencing large volume melena and bright red blood per rectum along with nausea can be alarming. To help with my assessment, have you had any episodes of vomiting blood or noticed any blood when you vomit?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, yes, actually\u2026 I did have a pretty big episode of vomiting blood\u2014hematemesis, I think it\u2019s called? There was a lot of it, and I even saw some clots. That really scared me. I wasn\u2019t sure if I should come in right away or wait, but it just seemed like too much to ignore."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014vomiting blood and assessing clots is understandably frightening. To help guide my assessment, can you tell me if you\u2019ve noticed any dizziness or lightheadedness, especially when standing up, since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 I have felt pretty dizzy, especially when I stand up. It\u2019s almost like the room spins for a second, and I have to steady myself. I was thinking maybe it\u2019s from all the blood loss? With the large volume hematemesis and, um, what you called upper gastrointestinal bleeding\u2014there was definitely fresh blood when I vomited, and I think some of it was coming from my stomach or maybe even higher up, like the esophagus or duodenum. It\u2019s been really worrying me."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms so clearly\u2014it helps guide my assessment. Regarding the large volume melena and bright red blood per rectum, have you noticed any abdominal pain or discomfort associated with these gastroindiagnostic evaluationinal bleeding symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, let me think\u2026 I haven\u2019t really had a lot of abdominal pain, at least not the kind that\u2019s sharp or cramping. Maybe just a little discomfort, sort of a queasy feeling, but nothing severe. The main symptoms have really been the dizziness\u2014especially when I stand up\u2014and the rectal bleeding. It\u2019s just been a lot, and I\u2019m honestly pretty anxious about what all these symptoms together might mean. Is it normal to have both upper gastrointestinal bleeding and rectal bleeding at the same time? Should I be worried about something serious going on?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious given the combination of large volume melena, bright red blood per rectum, and nausea\u2014these symptoms can be concerning. To help with my assessment, have you noticed any changes in the frequency or severity of your nausea, or any association between your nausea and episodes of gastroindiagnostic evaluationinal bleeding?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 now that I think about it, the nausea seems to get worse right before I have an episode of vomiting blood or when I notice the melena or rectal bleeding. It\u2019s like I start feeling queasy, and then the bleeding happens, especially the hematemesis. Sometimes the nausea lingers for a while after, too.\n\nI\u2019m just not sure if all these symptoms happening together means something really serious is going on. Should I be worried about something like a bleeding ulcer or even cancer? I\u2019ve never had this much upper gastrointestinal bleeding before, and it\u2019s making me pretty anxious."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014experiencing large volume melena, hematemesis with clots, and ongoing nausea is understandably distressing. To help with my assessment, have you noticed any symptoms of palpitations, chest discomfort, or shortness of breath worsening during or after these episodes of gastroindiagnostic evaluationinal bleeding?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually, I have noticed that my chest discomfort and shortness of breath seem to get worse during or right after these episodes of upper gastrointestinal bleeding\u2014especially after I vomit blood or see a lot of melena. Sometimes my heart feels like it\u2019s racing, maybe palpitations? It\u2019s hard to tell if it\u2019s just from being anxious or if it\u2019s something more serious.\n\nIs it normal for these symptoms to get worse together? I\u2019m really worried that with the chest pain, shortness of breath, and all this bleeding, something major could be going on with my heart or stomach. Should I be concerned about my cardiac history with all this happening?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious\u2014experiencing chest discomfort, shortness of breath, and large volume upper gastroindiagnostic evaluationinal bleeding with hematemesis and melena are very concerning symptoms, especially given your cardiac medical history. Based on what you\u2019ve described, I\u2019d like to clarify: have you noticed any symptoms of lightheadedness or near-fainting during these episodes, which could suggest significant blood loss affecting your circulation?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yes, actually\u2014I have had some pretty bad lightheadedness, especially right after I vomit blood or notice a lot of melena. There were a couple times where I felt like I might faint, and I had to sit down quickly or hold onto something. It\u2019s almost like my vision goes a bit fuzzy for a second. I\u2019m guessing that could be from significant blood loss affecting my circulation, like you mentioned?\n\nHonestly, I\u2019m really anxious about all this. With my cardiac history\u2014possible coronary artery disease and everything\u2014I\u2019m worried this could be putting extra strain on my heart. Is this something that could cause serious complications? Should I be worried about going into shock or having a heart problem because of all this bleeding?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014experiencing large volume hematemesis, melena, and lightheadedness, especially with your cardiac medical history, is understandably distressing. Based on your symptoms and the risk of significant blood loss, I\u2019d like to ask: have you noticed any changes in your urine output or signs of decreased perfusion, such as cold or clammy skin, which could indicate hypovolemia or early shock?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 now that you mention it, I think my urine output has gone down a bit. I haven\u2019t really been peeing as much as usual, and when I do, it seems kind of darker than normal. I also noticed my skin felt a little cold and clammy after one of the bigger episodes of hematemesis. I didn\u2019t really connect it to hypovolemia or early shock until you brought it up, but I guess that makes sense with all this blood loss.\n\nShould I be really worried about going into shock? Is there anything I should be doing differently right now, or is this something that needs immediate treatment? I\u2019m just feeling pretty anxious about how all these symptoms are adding up, especially with my cardiac history and everything else going on."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious\u2014your symptoms of large volume hematemesis, melena, decreased urine output, and cold, clammy skin are concerning for significant blood loss and possible hypovolemia, especially given your cardiac medical history. Based on this, I\u2019d like to ask: have you experienced any chest pain radiating to your arm, jaw, or back during these episodes, which could suggest cardiac ischemia related to your current condition?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Actually, yes, there have been a couple times when the chest pain kind of spread to my left arm and up toward my jaw. It wasn\u2019t always really strong, but it was enough to make me stop what I was doing and sit down. I didn\u2019t really notice it going into my back, but definitely the arm and jaw sometimes, especially after a big episode of hematemesis or when I felt really lightheaded.\n\nDoes that mean I could be having some cardiac ischemia on top of everything else? I know with my history of possible coronary artery disease, that\u2019s something to watch for. Should I be worried about a heart attack with all this blood loss and these symptoms happening together?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can completely understand why you\u2019re experiencing anxious\u2014your symptoms of chest pain radiating to your arm and jaw, combined with large volume upper gastroindiagnostic evaluationinal bleeding and lightheadedness, are very concerning, especially given your cardiac medical history. Based on my assessment, these symptoms could indicate both significant blood loss (hypovolemia) and possible cardiac ischemia, which require immediate medical attention and close monitoring.\n\nAt this point, I strongly recommend urgent hospital-based management with intravenous fluids, blood transfusions as needed, cardiac monitoring, and gastroenterology evaluation to identify and control the source of bleeding. While we proceed with this treatment plan, have you had any episodes of loss of consciousness or fainting during these symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining everything so clearly, doctor. Um, I haven\u2019t actually lost consciousness completely\u2014no full fainting spells\u2014but there were definitely a couple times where I felt like I was about to pass out. My vision got kind of blurry and I felt really weak, but I managed to sit or lie down before anything worse happened. It\u2019s been pretty scary, especially with all the chest pain and bleeding.\n\nI appreciate you taking this seriously. Is there a good chance this can be managed once I\u2019m in the hospital? And with my cardiac history and all this blood loss, is there a high risk of something like a heart attack or going into shock? I just want to know what to expect and if there\u2019s anything else I should be worried about right now."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014experiencing these symptoms, especially with your cardiac medical history, is understandably distressing. Based on my assessment, your symptoms of large volume upper gastroindiagnostic evaluationinal bleeding, lightheadedness, and chest pain radiating to your arm and jaw do put you at increased risk for both hypovolemic shock and cardiac ischemia, but with prompt hospital-based treatment\u2014including intravenous fluids, blood transfusions, cardiac monitoring, and gastroenterology intervention\u2014these conditions can often be managed effectively.\n\nTo help guide your ongoing care, have you ever had a previous endoscopic examination (such as an upper endoscopy or colonoscopy) to assess for sources of gastroindiagnostic evaluationinal bleeding?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Yes, I have had a colonoscopy before, but it was quite a few years back\u2014maybe ten or twelve years ago? They found some diverticulosis, but nothing too serious at the time. I don\u2019t think I\u2019ve ever had an upper endoscopy, though. My doctor had talked about it once because of my GERD symptoms, but we never actually did it.\n\nWith all this upper gastrointestinal bleeding now, do you think I\u2019ll need both an upper endoscopy and another colonoscopy? And, um, is there anything specific you\u2019ll be looking for with those procedures? I\u2019m just a bit anxious about what they might find, especially with my history of diverticulitis and GERD. Should I be worried about something like a bleeding ulcer or even a tumor?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious about these symptoms and the possibility of serious conditions, especially given your medical history of GERD and diverticulosis. Based on your symptoms of large volume upper gastroindiagnostic evaluationinal bleeding, an upper endoscopy will be important to assess for sources such as peptic ulcer disease, erosive esophagitis, or possible malignancy, while a colonoscopy may be considered if there is ongoing lower gastroindiagnostic evaluationinal bleeding or unclear source. Before proceeding, have you ever experienced any difficulty swallowing (dysphagia) or unintentional weight loss, which could further guide our assessment during these examinations?"
+    },
+    {
+      "role": "Patient",
+      "content": "Actually, now that you mention it, I haven\u2019t really had any trouble swallowing\u2014no dysphagia that I can think of. Eating and drinking haven\u2019t been a condition for me. As for weight loss, I haven\u2019t noticed any big changes. Maybe a couple pounds here and there, but nothing unintentional or significant.\n\nI appreciate you explaining what you\u2019ll be looking for with the upper endoscopy and possibly the colonoscopy. With my history of GERD and diverticulosis, is it more likely to be something like a bleeding ulcer, or could it still be something more serious like a malignancy? I\u2019m just feeling pretty anxious about what the upper gastrointestinal bleeding could mean, especially since this is the first time I\u2019ve had symptoms like hematemesis and melena. Is there anything I should be doing to prepare for these procedures, or anything else you\u2019d recommend while I\u2019m waiting for the gastroenterology evaluation?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with these new symptoms and your medical history of GERD and diverticulosis. Based on your description of hematemesis and melena, an upper endoscopy is the most important next step to identify the source\u2014most commonly, this could be a bleeding ulcer or severe esophagitis, but we will also assess for less common causes such as malignancy. While you await gastroenterology evaluation, it\u2019s important to remain fasting (nothing by mouth) to prepare for possible procedures and to minimize further risk; are you currently experiencing any ongoing active bleeding or worsening symptoms such as increased dizziness or chest pain?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining all that, doctor. Um, right now I\u2019m still having some ongoing bleeding\u2014my last bowel movement was pretty dark, almost black, and there was some bright red blood too. I haven\u2019t vomited blood again since I got here, but I still feel a bit nauseous. The dizziness is still there, especially if I try to stand up, and my chest pain comes and goes\u2014it\u2019s not as bad as before, but it\u2019s definitely still there.\n\nI\u2019ll make sure to stay fasting like you said. Is there anything else I should watch out for while I\u2019m waiting? And, um, how soon do you think the upper endoscopy will happen? I\u2019m just feeling really anxious about what they might find\u2014especially with the possibility of a bleeding ulcer or something more serious like a malignancy. Should I be worried about this getting worse before they can do the procedure?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with ongoing symptoms of melena, bright red blood per rectum, persistent nausea, dizziness, and intermittent chest pain. Based on my assessment, your symptoms indicate active upper gastroindiagnostic evaluationinal bleeding with possible hemodynamic instability, so urgent upper endoscopy is warranted\u2014this is typically performed as soon as you are stabilized and the gastroenterology team is available. While we monitor you closely and continue supportive care, have you noticed any new or worsening symptoms such as palpitations, severe weakness, or confusion since your last assessment?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 since my last assessment, I have noticed a bit more severe weakness\u2014I feel pretty wiped out, honestly, and it takes a lot just to sit up or move around. I\u2019ve also had some palpitations here and there, especially when I get up or after an episode of bleeding. No real confusion, though\u2014my mind feels clear, just anxious.\n\nI appreciate you keeping such a close eye on everything. Is it normal for the weakness and palpitations to get worse with ongoing upper gastrointestinal bleeding and possible hemodynamic instability? And once the urgent upper endoscopy is done, will they be able to stop the bleeding right away if they find the source? I\u2019m just really worried about how quickly symptoms could get worse before the procedure happens."
+    }
+  ],
+  "transcript": "Doctor: Good morning, thank you for coming in today. I understand you\u2019ve been experiencing chest pain and significant gastroindiagnostic evaluationinal bleeding. Can you tell me more about how your chest pain started and what it feels like?\nPatient: Um, good morning, doctor. Yeah, I\u2019ve been having this chest pain\u2014it\u2019s kind of why I came in. It started a couple days ago, I think. I\u2019m just\u2026 a bit worried about it.\nDoctor: I can understand why you\u2019re experiencing anxious\u2014chest pain can be very concerning. In addition to the chest discomfort, have you noticed any symptoms such as passing dark or bloody stools, or experiencing nausea recently?\nPatient: Well, um\u2026 yeah, I\u2019ve had some shortness of breath along with the chest pain. That\u2019s mainly what\u2019s been bothering me. I\u2019m just not sure if it\u2019s something serious, and it\u2019s making me pretty anxious.\nDoctor: I can understand why you\u2019d feel anxious\u2014chest pain and shortness of breath are definitely symptoms we take seriously. In addition to these, have you noticed any large volume dark or bloody stools, or any episodes of nausea recently?\nPatient: Um, actually, now that you mention it, I have noticed some pretty large volume dark stools\u2014melena, I think you call it? And, well, there was also some bright red blood per rectum. I\u2019ve also been feeling kind of nauseous on and off. Should I be worried about all these symptoms happening together?\nDoctor: I can understand why you\u2019d be worried\u2014experiencing large volume melena and bright red blood per rectum along with nausea can be alarming. To help with my assessment, have you had any episodes of vomiting blood or noticed any blood when you vomit?\nPatient: Um, yes, actually\u2026 I did have a pretty big episode of vomiting blood\u2014hematemesis, I think it\u2019s called? There was a lot of it, and I even saw some clots. That really scared me. I wasn\u2019t sure if I should come in right away or wait, but it just seemed like too much to ignore.\nDoctor: I can understand why you\u2019d be worried\u2014vomiting blood and assessing clots is understandably frightening. To help guide my assessment, can you tell me if you\u2019ve noticed any dizziness or lightheadedness, especially when standing up, since these symptoms began?\nPatient: Yeah, actually\u2026 I have felt pretty dizzy, especially when I stand up. It\u2019s almost like the room spins for a second, and I have to steady myself. I was thinking maybe it\u2019s from all the blood loss? With the large volume hematemesis and, um, what you called upper gastrointestinal bleeding\u2014there was definitely fresh blood when I vomited, and I think some of it was coming from my stomach or maybe even higher up, like the esophagus or duodenum. It\u2019s been really worrying me.\nDoctor: Thank you for describing your symptoms so clearly\u2014it helps guide my assessment. Regarding the large volume melena and bright red blood per rectum, have you noticed any abdominal pain or discomfort associated with these gastroindiagnostic evaluationinal bleeding symptoms?\nPatient: Well, let me think\u2026 I haven\u2019t really had a lot of abdominal pain, at least not the kind that\u2019s sharp or cramping. Maybe just a little discomfort, sort of a queasy feeling, but nothing severe. The main symptoms have really been the dizziness\u2014especially when I stand up\u2014and the rectal bleeding. It\u2019s just been a lot, and I\u2019m honestly pretty anxious about what all these symptoms together might mean. Is it normal to have both upper gastrointestinal bleeding and rectal bleeding at the same time? Should I be worried about something serious going on?\nDoctor: I can understand why you\u2019d be anxious given the combination of large volume melena, bright red blood per rectum, and nausea\u2014these symptoms can be concerning. To help with my assessment, have you noticed any changes in the frequency or severity of your nausea, or any association between your nausea and episodes of gastroindiagnostic evaluationinal bleeding?\nPatient: Yeah, actually\u2026 now that I think about it, the nausea seems to get worse right before I have an episode of vomiting blood or when I notice the melena or rectal bleeding. It\u2019s like I start feeling queasy, and then the bleeding happens, especially the hematemesis. Sometimes the nausea lingers for a while after, too.\n\nI\u2019m just not sure if all these symptoms happening together means something really serious is going on. Should I be worried about something like a bleeding ulcer or even cancer? I\u2019ve never had this much upper gastrointestinal bleeding before, and it\u2019s making me pretty anxious.\nDoctor: I can understand why you\u2019d be worried\u2014experiencing large volume melena, hematemesis with clots, and ongoing nausea is understandably distressing. To help with my assessment, have you noticed any symptoms of palpitations, chest discomfort, or shortness of breath worsening during or after these episodes of gastroindiagnostic evaluationinal bleeding?\nPatient: Yeah, actually, I have noticed that my chest discomfort and shortness of breath seem to get worse during or right after these episodes of upper gastrointestinal bleeding\u2014especially after I vomit blood or see a lot of melena. Sometimes my heart feels like it\u2019s racing, maybe palpitations? It\u2019s hard to tell if it\u2019s just from being anxious or if it\u2019s something more serious.\n\nIs it normal for these symptoms to get worse together? I\u2019m really worried that with the chest pain, shortness of breath, and all this bleeding, something major could be going on with my heart or stomach. Should I be concerned about my cardiac history with all this happening?\nDoctor: I can understand why you\u2019d be anxious\u2014experiencing chest discomfort, shortness of breath, and large volume upper gastroindiagnostic evaluationinal bleeding with hematemesis and melena are very concerning symptoms, especially given your cardiac medical history. Based on what you\u2019ve described, I\u2019d like to clarify: have you noticed any symptoms of lightheadedness or near-fainting during these episodes, which could suggest significant blood loss affecting your circulation?\nPatient: Yes, actually\u2014I have had some pretty bad lightheadedness, especially right after I vomit blood or notice a lot of melena. There were a couple times where I felt like I might faint, and I had to sit down quickly or hold onto something. It\u2019s almost like my vision goes a bit fuzzy for a second. I\u2019m guessing that could be from significant blood loss affecting my circulation, like you mentioned?\n\nHonestly, I\u2019m really anxious about all this. With my cardiac history\u2014possible coronary artery disease and everything\u2014I\u2019m worried this could be putting extra strain on my heart. Is this something that could cause serious complications? Should I be worried about going into shock or having a heart problem because of all this bleeding?\nDoctor: I can understand why you\u2019d be worried\u2014experiencing large volume hematemesis, melena, and lightheadedness, especially with your cardiac medical history, is understandably distressing. Based on your symptoms and the risk of significant blood loss, I\u2019d like to ask: have you noticed any changes in your urine output or signs of decreased perfusion, such as cold or clammy skin, which could indicate hypovolemia or early shock?\nPatient: Well, um\u2026 now that you mention it, I think my urine output has gone down a bit. I haven\u2019t really been peeing as much as usual, and when I do, it seems kind of darker than normal. I also noticed my skin felt a little cold and clammy after one of the bigger episodes of hematemesis. I didn\u2019t really connect it to hypovolemia or early shock until you brought it up, but I guess that makes sense with all this blood loss.\n\nShould I be really worried about going into shock? Is there anything I should be doing differently right now, or is this something that needs immediate treatment? I\u2019m just feeling pretty anxious about how all these symptoms are adding up, especially with my cardiac history and everything else going on.\nDoctor: I can understand why you\u2019d be anxious\u2014your symptoms of large volume hematemesis, melena, decreased urine output, and cold, clammy skin are concerning for significant blood loss and possible hypovolemia, especially given your cardiac medical history. Based on this, I\u2019d like to ask: have you experienced any chest pain radiating to your arm, jaw, or back during these episodes, which could suggest cardiac ischemia related to your current condition?\nPatient: Let me think\u2026 Actually, yes, there have been a couple times when the chest pain kind of spread to my left arm and up toward my jaw. It wasn\u2019t always really strong, but it was enough to make me stop what I was doing and sit down. I didn\u2019t really notice it going into my back, but definitely the arm and jaw sometimes, especially after a big episode of hematemesis or when I felt really lightheaded.\n\nDoes that mean I could be having some cardiac ischemia on top of everything else? I know with my history of possible coronary artery disease, that\u2019s something to watch for. Should I be worried about a heart attack with all this blood loss and these symptoms happening together?\nDoctor: I can completely understand why you\u2019re experiencing anxious\u2014your symptoms of chest pain radiating to your arm and jaw, combined with large volume upper gastroindiagnostic evaluationinal bleeding and lightheadedness, are very concerning, especially given your cardiac medical history. Based on my assessment, these symptoms could indicate both significant blood loss (hypovolemia) and possible cardiac ischemia, which require immediate medical attention and close monitoring.\n\nAt this point, I strongly recommend urgent hospital-based management with intravenous fluids, blood transfusions as needed, cardiac monitoring, and gastroenterology evaluation to identify and control the source of bleeding. While we proceed with this treatment plan, have you had any episodes of loss of consciousness or fainting during these symptoms?\nPatient: Thank you for explaining everything so clearly, doctor. Um, I haven\u2019t actually lost consciousness completely\u2014no full fainting spells\u2014but there were definitely a couple times where I felt like I was about to pass out. My vision got kind of blurry and I felt really weak, but I managed to sit or lie down before anything worse happened. It\u2019s been pretty scary, especially with all the chest pain and bleeding.\n\nI appreciate you taking this seriously. Is there a good chance this can be managed once I\u2019m in the hospital? And with my cardiac history and all this blood loss, is there a high risk of something like a heart attack or going into shock? I just want to know what to expect and if there\u2019s anything else I should be worried about right now.\nDoctor: I can understand why you\u2019d be worried\u2014experiencing these symptoms, especially with your cardiac medical history, is understandably distressing. Based on my assessment, your symptoms of large volume upper gastroindiagnostic evaluationinal bleeding, lightheadedness, and chest pain radiating to your arm and jaw do put you at increased risk for both hypovolemic shock and cardiac ischemia, but with prompt hospital-based treatment\u2014including intravenous fluids, blood transfusions, cardiac monitoring, and gastroenterology intervention\u2014these conditions can often be managed effectively.\n\nTo help guide your ongoing care, have you ever had a previous endoscopic examination (such as an upper endoscopy or colonoscopy) to assess for sources of gastroindiagnostic evaluationinal bleeding?\nPatient: Let me think\u2026 Yes, I have had a colonoscopy before, but it was quite a few years back\u2014maybe ten or twelve years ago? They found some diverticulosis, but nothing too serious at the time. I don\u2019t think I\u2019ve ever had an upper endoscopy, though. My doctor had talked about it once because of my GERD symptoms, but we never actually did it.\n\nWith all this upper gastrointestinal bleeding now, do you think I\u2019ll need both an upper endoscopy and another colonoscopy? And, um, is there anything specific you\u2019ll be looking for with those procedures? I\u2019m just a bit anxious about what they might find, especially with my history of diverticulitis and GERD. Should I be worried about something like a bleeding ulcer or even a tumor?\nDoctor: I can understand why you\u2019d be anxious about these symptoms and the possibility of serious conditions, especially given your medical history of GERD and diverticulosis. Based on your symptoms of large volume upper gastroindiagnostic evaluationinal bleeding, an upper endoscopy will be important to assess for sources such as peptic ulcer disease, erosive esophagitis, or possible malignancy, while a colonoscopy may be considered if there is ongoing lower gastroindiagnostic evaluationinal bleeding or unclear source. Before proceeding, have you ever experienced any difficulty swallowing (dysphagia) or unintentional weight loss, which could further guide our assessment during these examinations?\nPatient: Actually, now that you mention it, I haven\u2019t really had any trouble swallowing\u2014no dysphagia that I can think of. Eating and drinking haven\u2019t been a condition for me. As for weight loss, I haven\u2019t noticed any big changes. Maybe a couple pounds here and there, but nothing unintentional or significant.\n\nI appreciate you explaining what you\u2019ll be looking for with the upper endoscopy and possibly the colonoscopy. With my history of GERD and diverticulosis, is it more likely to be something like a bleeding ulcer, or could it still be something more serious like a malignancy? I\u2019m just feeling pretty anxious about what the upper gastrointestinal bleeding could mean, especially since this is the first time I\u2019ve had symptoms like hematemesis and melena. Is there anything I should be doing to prepare for these procedures, or anything else you\u2019d recommend while I\u2019m waiting for the gastroenterology evaluation?\nDoctor: I can understand why you\u2019d be worried, especially with these new symptoms and your medical history of GERD and diverticulosis. Based on your description of hematemesis and melena, an upper endoscopy is the most important next step to identify the source\u2014most commonly, this could be a bleeding ulcer or severe esophagitis, but we will also assess for less common causes such as malignancy. While you await gastroenterology evaluation, it\u2019s important to remain fasting (nothing by mouth) to prepare for possible procedures and to minimize further risk; are you currently experiencing any ongoing active bleeding or worsening symptoms such as increased dizziness or chest pain?\nPatient: Thank you for explaining all that, doctor. Um, right now I\u2019m still having some ongoing bleeding\u2014my last bowel movement was pretty dark, almost black, and there was some bright red blood too. I haven\u2019t vomited blood again since I got here, but I still feel a bit nauseous. The dizziness is still there, especially if I try to stand up, and my chest pain comes and goes\u2014it\u2019s not as bad as before, but it\u2019s definitely still there.\n\nI\u2019ll make sure to stay fasting like you said. Is there anything else I should watch out for while I\u2019m waiting? And, um, how soon do you think the upper endoscopy will happen? I\u2019m just feeling really anxious about what they might find\u2014especially with the possibility of a bleeding ulcer or something more serious like a malignancy. Should I be worried about this getting worse before they can do the procedure?\nDoctor: I can understand why you\u2019d be worried, especially with ongoing symptoms of melena, bright red blood per rectum, persistent nausea, dizziness, and intermittent chest pain. Based on my assessment, your symptoms indicate active upper gastroindiagnostic evaluationinal bleeding with possible hemodynamic instability, so urgent upper endoscopy is warranted\u2014this is typically performed as soon as you are stabilized and the gastroenterology team is available. While we monitor you closely and continue supportive care, have you noticed any new or worsening symptoms such as palpitations, severe weakness, or confusion since your last assessment?\nPatient: Well, um\u2026 since my last assessment, I have noticed a bit more severe weakness\u2014I feel pretty wiped out, honestly, and it takes a lot just to sit up or move around. I\u2019ve also had some palpitations here and there, especially when I get up or after an episode of bleeding. No real confusion, though\u2014my mind feels clear, just anxious.\n\nI appreciate you keeping such a close eye on everything. Is it normal for the weakness and palpitations to get worse with ongoing upper gastrointestinal bleeding and possible hemodynamic instability? And once the urgent upper endoscopy is done, will they be able to stop the bleeding right away if they find the source? I\u2019m just really worried about how quickly symptoms could get worse before the procedure happens.\n[Maximum turns (16) reached]",
+  "clinical_note": "Patient presents with: dizzy, nauseous, chest pain, vomiting, nausea. Assessment: significant blood loss (hypovolemia), possible hypovolemic shock, possible cardiac ischemia. Plan: feeling queasy, seriously, urgent hospital-based management. Extracted: 27 symptoms, 7 diagnoses, 10 treatments.",
+  "annotations": {
+    "symptoms": [
+      "dizzy",
+      "nauseous",
+      "chest pain",
+      "vomiting",
+      "nausea",
+      "weakness",
+      "lightheaded",
+      "shortness of breath",
+      "abdominal pain",
+      "weight loss",
+      "nausea recently",
+      "breath",
+      "headache",
+      "dizziness",
+      "gastrointestinal bleeding",
+      "anxiety",
+      "large volume dark stools (melena)",
+      "bright red blood per rectum",
+      "vomiting blood (hematemesis) with clots",
+      "lightheadedness",
+      "decreased urine output",
+      "cold, clammy skin",
+      "chest pain radiating to left arm and jaw",
+      "palpitations",
+      "severe weakness",
+      "persistent nausea",
+      "intermittent chest pain"
+    ],
+    "diagnoses": [
+      "significant blood loss (hypovolemia)",
+      "possible hypovolemic shock",
+      "possible cardiac ischemia",
+      "active upper gastrointestinal bleeding",
+      "possible peptic ulcer disease",
+      "history of GERD",
+      "history of diverticulosis"
+    ],
+    "treatments": [
+      "feeling queasy",
+      "seriously",
+      "urgent hospital-based management",
+      "intravenous fluids",
+      "blood transfusions as needed",
+      "cardiac monitoring",
+      "gastroenterology evaluation",
+      "urgent upper endoscopy",
+      "remain fasting (nothing by mouth)",
+      "close monitoring and supportive care"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: EXCELLENT\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.940 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.962 \u2705\n\u2022 Dialogue Naturalness: 0.708 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently demonstrates safe, responsible, and clinically appropriate communication. There is clear recognition of the seriousness of the patient\u2019s symptoms (large volume hematemesis, melena, chest pain with radiation, dizziness, decreased urine output, cold/clammy skin), and the doctor repeatedly emphasizes the need for urgent hospital-based management, including IV fluids, blood transfusion, cardiac monitoring, and gastroenterology evaluation.\n- The doctor avoids giving false reassurance or minimizing symptoms. Instead, they provide clear explanations about the risks of hypovolemia and cardiac ischemia, and the need for urgent intervention.\n- The advice to remain fasting (NPO) is appropriate for a patient awaiting endoscopy for GI bleeding.\n- No unsafe or inappropriate medical advice is given at any point.\n\n**2. Patient Behavior: Natural and Believable**\n- The patient\u2019s responses are progressive and realistic. They initially focus on chest pain and gradually disclose additional symptoms (melena, hematemesis, dizziness, decreased urine output) as prompted by the doctor\u2019s questions.\n- Emotional responses are appropriate: the patient expresses anxiety, fear, and uncertainty about the seriousness of their symptoms and possible diagnoses (ulcer, malignancy, heart attack).\n- The patient asks logical follow-up questions about their risk, what to expect from procedures, and expresses concern about their cardiac history\u2014typical of someone experiencing severe symptoms with a known medical background.\n- Occasional hesitations (\u201clet me think\u2026\u201d, \u201cum\u2026\u201d) and clarifications are natural and add to the realism.\n\n**3. Doctor Empathy and Professionalism**\n- The doctor repeatedly acknowledges the patient\u2019s anxiety and distress (\u201cI can understand why you\u2019d be anxious/worried\u2026\u201d), which is both empathetic and professional.\n- Explanations are clear and tailored to the patient\u2019s concerns, with appropriate use of medical terminology followed by lay explanations.\n- The doctor maintains a calm, supportive tone throughout, building rapport and trust.\n\n**4. Conversation Flow and Medical Purpose**\n- The dialogue follows a logical progression: initial symptom exploration \u2192 focused questioning on GI bleeding \u2192 assessment of hemodynamic stability \u2192 discussion of relevant history/procedures \u2192 preparation for urgent intervention.\n- Turn-taking is appropriate; each response builds on the previous one.\n- The exchange serves a clear medical purpose: gathering critical information to assess severity, risk stratification, and planning urgent management.\n- Minor repetitive language (e.g., \u201cI can understand why you\u2019d be anxious\u2026\u201d) is realistic in high-stress clinical encounters where reassurance is needed.\n\n**Minor Imperfections Noted (but within realistic bounds):**\n- The repeated use of \u201cgastroindiagnostic evaluationinal bleeding\u201d appears to be a typographical or system artifact rather than a natural phrase; however, this does not detract significantly from the overall realism of the clinical interaction.\n- Some responses are slightly verbose or formal compared to typical real-world dialogue but remain within plausible bounds for a thorough hospital-based assessment.\n\n**Conclusion:**\nThis conversation exemplifies a realistic, safe, and clinically appropriate medical encounter between a doctor and a patient presenting with severe upper GI bleeding and cardiac risk factors. Both parties\u2019 behaviors are believable; the doctor demonstrates empathy and professionalism; the conversation flows logically; and all information exchanged serves a meaningful clinical purpose.\n\n**Overall Judgment:**  \nDIALOGUE REALISTIC: This represents a plausible and authentic medical interview in an acute care setting.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.940)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.282/0.3 (Score: 0.940)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.962,
+      "naturalness": 0.708,
+      "safety": 0.94,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 118.59984993934631,
+  "dialogue_stats": {
+    "turn_count": 32,
+    "word_count": 2682,
+    "doctor_turns": 16,
+    "patient_turns": 16
+  }
+}

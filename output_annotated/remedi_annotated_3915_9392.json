@@ -1,0 +1,1538 @@
+{
+  "source_row_id": 3913,
+  "source_subject_id": 90472,
+  "source_hadm_id": 120129,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you recently underwent an EP procedure where the ablation catheter became intertwined in your mitral valve, and you\u2019ve experienced significant pain afterward. Can you describe the current nature and location of your pain, and let me know if it has changed since the procedure?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "EP procedure with ablation catheter"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "catheter became intertwined in mitral valve"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "significant pain afterward"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "current nature and location of pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "change in pain since the procedure"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 thanks for seeing me. I guess my main concern is just this pain I\u2019ve been having since the procedure. It\u2019s been pretty significant, mostly in my chest. I\u2019m not really sure if that\u2019s normal after something like this. Should I be worried?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain in chest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "since the procedure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Is chest pain normal after the procedure?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried?"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious about this\u2014chest pain after a procedure can be concerning. To help me better assess your symptoms, can you tell me if your chest pain is constant or if it comes and goes, and whether anything makes it better or worse?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019re experiencing anxious about this\u2014chest pain after a procedure can be concerning."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "constant or comes and goes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "whether anything makes it better or worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Um, yeah\u2026 the chest pain is kind of always there, but sometimes it gets a bit worse, especially if I move around or take a deep breath. I haven\u2019t really found anything that makes it better yet. I\u2019m just\u2026 pretty anxious about it, honestly.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "pain gets worse with movement or deep breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "nothing makes it better"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious\u2014chest pain after a procedure like this can be unsettling. Since your pain worsens with movement and deep breaths, I\u2019d like to ask: have you noticed any other symptoms such as shortness of breath, fever, chills, or drainage from your surgical wounds?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be anxious\u2014chest pain after a procedure like this can be unsettling."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "drainage from surgical wounds"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have had some shortness of breath since the procedure. It\u2019s not all the time, but it kind of comes and goes, and sometimes feels worse when I\u2019m walking around. And, yeah, during the procedure they told me the ablation catheter got stuck in my mitral valve apparatus, so I wasn\u2019t sure if that could be causing some of these symptoms too. I haven\u2019t really noticed any drainage from my wound, but I am just feeling pretty anxious about all of this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "since the procedure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "not all the time, comes and goes, worse when walking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "ablation catheter got stuck in mitral valve apparatus during procedure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "if catheter issue could be causing symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no drainage from wound"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can completely understand why you\u2019d be worried, especially with ongoing chest pain and shortness of breath after your procedure. To help guide my assessment, have you experienced any fever or chills since the procedure, which could suggest an infection or inflammation related to your recent intervention?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "infection or inflammation related to recent intervention"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 actually, yeah, I have had some chills and maybe a low-grade fever since I got home. I wasn\u2019t sure if it was just from the pain or maybe something else, but it\u2019s been kind of off and on. Should I be worried about infection or inflammation after something like this?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low-grade fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "since I got home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "inflammation"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with new symptoms like chills and fever after your procedure. To help with my assessment, have you noticed any redness, swelling, or increased tenderness around your sternal or thoracotomy wounds that might suggest a localized infection?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "redness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased tenderness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Range-body",
+          "value": "sternal or thoracotomy wounds"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "procedure"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um, let me think\u2026 I haven\u2019t really noticed much redness or swelling around the wound, maybe just a little tenderness but nothing that seems out of the ordinary. Actually, right after the procedure, they told me I had a brief episode of rapid atrial fibrillation, but it went away pretty quickly. And I guess my hematocrit was low too\u2014they ended up giving me a blood transfusion while I was still in the hospital. I\u2019m just not sure if all these symptoms are connected, and it\u2019s making me pretty anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness around the wound"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "rapid atrial fibrillation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low hematocrit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "blood transfusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d feel anxious, especially with several symptoms occurring after your procedure. Given your history of the ablation catheter becoming intertwined in the mitral valve apparatus and your recent episode of rapid atrial fibrillation, have you noticed any new or worsening palpitations, irregular heartbeat, or dizziness since your discharge?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "ablation catheter becoming intertwined in the mitral valve apparatus"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent episode of rapid atrial fibrillation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "irregular heartbeat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, I have felt some palpitations a couple times since I got home. It\u2019s not constant, but every so often my heartbeat feels kind of irregular or like it\u2019s racing for a bit, and then it settles down. I haven\u2019t really had much dizziness, though\u2014maybe just a little lightheadedness when I stand up too fast.\n\nAbout the fever and chills\u2014I\u2019ve definitely noticed those off and on, and it\u2019s making me more worried about infection or inflammation. I haven\u2019t seen any drainage from my sternal wound, but I\u2019m still a bit sore and tender there. Should I be concerned that all these symptoms\u2014chest pain, shortness of breath, palpitations, and now the fever and chills\u2014are related to the catheter getting stuck in my mitral valve during the procedure? Is this normal, or could something more serious be going on?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "irregular heartbeat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "soreness at sternal wound"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness at sternal wound"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection or inflammation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "concern about symptoms being related to catheter getting stuck in mitral valve"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "asking if symptoms are normal or indicate something more serious"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with persistent chest pain, shortness of breath, palpitations, and intermittent fever and chills after your procedure. To help with my assessment, have you experienced any swelling in your legs, difficulty lying flat due to shortness of breath, or sudden weight gain, which could indicate fluid accumulation or worsening cardiac function related to your recent intervention?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "intermittent fever and chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in your legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty lying flat due to shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent intervention"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed any swelling in my legs, and I don\u2019t think I\u2019ve gained any weight suddenly. But actually, now that you mention it, I have found it a little harder to lie flat at night because of the shortness of breath\u2014it just feels more comfortable propped up with a couple pillows. Is that something I should be concerned about? Could that mean there\u2019s fluid building up or something wrong with my heart after the catheter issue with my mitral valve? I\u2019m just really anxious about all these symptoms coming together, and I\u2019m not sure what\u2019s normal after this kind of procedure.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no sudden weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "more comfortable propped up with pillows"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "concern about shortness of breath and fluid buildup"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "possible heart problem after catheter issue with mitral valve"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms after procedure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "what is normal after this kind of procedure"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with new or worsening shortness of breath when lying flat after your procedure. To further assess your symptoms, have you noticed any episodes of waking up suddenly at night experiencing short of breath (paroxysmal nocturnal dyspnea) or any persistent cough, which could indicate fluid accumulation or changes in your cardiac function following the catheter intervention involving your mitral valve apparatus?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of waking up suddenly at night experiencing shortness of breath (paroxysmal nocturnal dyspnea)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "persistent cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "fluid accumulation or changes in cardiac function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "catheter intervention involving mitral valve apparatus"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention paroxysmal nocturnal dyspnea, I think I have had a couple nights where I woke up pretty suddenly feeling short of breath. It\u2019s not every night, but it\u2019s definitely happened a few times since the procedure. I haven\u2019t really noticed a persistent cough, maybe just a little bit here and there, but nothing major.\n\nI\u2019m honestly getting more anxious now that all these symptoms\u2014chest pain, shortness of breath, palpitations, fever and chills, and now waking up at night\u2014are adding up. Should I be really worried about fluid accumulation or changes in my cardiac function after the catheter got stuck in my mitral valve? Is this something that needs urgent attention?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "fluid accumulation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "changes in cardiac function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "urgent attention"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with the combination of chest pain, shortness of breath, palpitations, fever, chills, and episodes of waking up at night short of breath after your procedure. Based on your symptoms and the fact that the ablation catheter became intertwined in your mitral valve apparatus, I am concerned about possible fluid accumulation or changes in your cardiac function. For a thorough assessment, have you noticed any new heart murmurs or changes in your heart sounds during your recent examinations, or has anyone mentioned this to you since the procedure?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of waking up at night short of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "ablation catheter procedure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "catheter became intertwined in mitral valve apparatus"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Other",
+          "value": "possible fluid accumulation or changes in cardiac function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new heart murmurs or changes in heart sounds"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Um, let me think\u2026 I don\u2019t remember anyone specifically mentioning a new heart murmur or changes in my heart sounds during my last exam. I know before the procedure they said I had mild mitral regurgitation, but I\u2019m not sure if that\u2019s gotten worse or if there\u2019s anything new since the catheter issue. No one really talked to me about heart sounds after the procedure\u2014I was mostly just told about the brief rapid atrial fibrillation and the low hematocrit.\n\nShould I be asking for another echocardiogram or some kind of imaging to examination for fluid accumulation or changes in my cardiac function? I\u2019m just really anxious that something serious might be going on with my mitral valve after all this, especially with these symptoms. Is this something that could get worse if it\u2019s not examinationed soon?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "mild mitral regurgitation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "brief rapid atrial fibrillation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low hematocrit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "echocardiogram or imaging for fluid accumulation or cardiac function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "worsening mitral valve condition"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can completely understand why you\u2019d be anxious, especially given your recent procedure and the combination of symptoms you\u2019ve described\u2014chest pain, shortness of breath (including when lying flat and at night), palpitations, fever, and chills\u2014all following the ablation catheter becoming intertwined in your mitral valve apparatus. These symptoms can sometimes indicate changes in cardiac function or possible fluid accumulation, which may require prompt assessment. Given your medical history and recent events, would you be willing to undergo a repeat echocardiogram and clinical examination soon to further evaluate your mitral valve function and examine for any signs of heart failure or pericardial effusion?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yeah, I think that makes sense. Honestly, with everything that\u2019s been going on\u2014chest pain, shortness of breath, palpitations, and now the fever and chills\u2014I\u2019d feel better getting a repeat echocardiogram and a full clinical examination. I just want to make sure there\u2019s no heart failure or pericardial effusion, or anything else serious happening with my mitral valve after the catheter issue.\n\nIs there anything I should be watching for at home while I wait for the echo? Like, if my symptoms get worse or if I notice new signs, should I come in right away? And is this something that could get worse quickly, or is it usually more gradual? I\u2019m just trying to understand what to expect and how worried I should be.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "repeat echocardiogram"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "full clinical examination"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what to watch for at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "whether to come in if symptoms worsen or new signs appear"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "whether condition could get worse quickly or gradually"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "how worried to be and what to expect"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can absolutely understand why you\u2019re experiencing anxious, given your recent procedure and the ongoing symptoms you\u2019ve described\u2014chest pain, shortness of breath (especially when lying flat or at night), palpitations, and intermittent fever and chills. Based on your medical history and these symptoms, it\u2019s important to closely monitor for any signs of worsening cardiac function or infection while you await further assessment. If you notice a sudden increase in shortness of breath, chest pain at rest, new swelling in your legs, confusion, or persistent high fever, please assessk immediate medical attention. In the meantime, have you noticed any new or worsening swelling in your abdomen or ankles since your discharge?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "intermittent fever and chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "closely monitor for any signs of worsening cardiac function or infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "seek immediate medical attention if sudden increase in shortness of breath, chest pain at rest, new swelling in legs, confusion, or persistent high fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening swelling in abdomen or ankles since discharge"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed any new or worsening swelling in my ankles or abdomen since I got home. I\u2019ve been examinationing, since I know that can be a sign of fluid accumulation or heart failure, but so far symptoms seem about the same as before the procedure.\n\nI really appreciate you explaining what to watch for and when to seek immediate medical attention. With all these symptoms\u2014chest pain, shortness of breath, palpitations, fever and chills\u2014I just keep worrying that something might suddenly get worse. Is there a specific reason why the catheter getting stuck in my mitral valve would make me more likely to develop heart failure or pericardial effusion? And is there anything I can do at home to help manage these symptoms while I wait for the echocardiogram and clinical examination?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new or worsening swelling in ankles or abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms seem about the same as before the procedure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worry about chest pain, shortness of breath, palpitations, fever and chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "reason why catheter getting stuck in mitral valve would increase risk of heart failure or pericardial effusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "anything to do at home to manage symptoms while waiting for echocardiogram and clinical examination"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I appreciate your careful monitoring of your symptoms and your attention to potential signs of fluid accumulation. When an ablation catheter becomes intertwined in the mitral valve apparatus, there is a risk of injury to the valve or surrounding cardiac tissue, which can lead to changes in valve function, heart failure, or pericardial effusion\u2014especially when combined with your symptoms of chest pain, shortness of breath, palpitations, and fever. While awaiting your echocardiogram and clinical assessment, it\u2019s important to continue monitoring for any new or worsening symptoms such as sudden chest pain at rest, severe shortness of breath, or swelling.\n\nIn the meantime, try to rest with your upper clinical examination elevated, avoid excessive physical exertion, and take your medications as prescribed. If you experience any sudden change in your symptoms, please assessk immediate medical attention. Have you been able to maintain your usual daily activities, or have your symptoms significantly limited your ability to perform routine tasks since discharge?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "ablation catheter intertwined in the mitral valve apparatus can injure the valve or cardiac tissue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "heart failure, pericardial effusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain, shortness of breath, palpitations, fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor for new or worsening symptoms such as sudden chest pain at rest, severe shortness of breath, or swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "rest with upper body elevated, avoid excessive physical exertion, take medications as prescribed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "seek immediate medical attention if sudden change in symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "ability to perform routine tasks since discharge"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, my symptoms have made it kind of hard to keep up with my usual daily activities. I\u2019ve been a lot more tired than normal, and the chest pain and shortness of breath make symptoms like walking around the house or even going up the stairs pretty tough. I\u2019ve mostly just been resting and trying not to overdo it, like you said.\n\nI\u2019m definitely taking my medications as prescribed\u2014Atenolol and Coumadin\u2014but I\u2019m still pretty anxious about all these symptoms and what they could mean for my heart, especially after hearing about the risks of changes in valve function, heart failure, or pericardial effusion. Is there anything else I should be doing at home to help manage these symptoms while I wait for the echocardiogram? And if it does turn out that my mitral valve or cardiac function has changed, what kind of treatments or interventions might I need?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "resting and trying not to overdo it"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Atenolol"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Coumadin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything else I should be doing at home to help manage these symptoms while I wait for the echocardiogram?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "If it does turn out that my mitral valve or cardiac function has changed, what kind of treatments or interventions might I need?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your ongoing symptoms and the uncertainty about your cardiac function after the procedure. While you are waiting for your echocardiogram and clinical assessment, it\u2019s most important to continue taking your medications as prescribed, rest with your upper clinical examination elevated, and avoid strenuous activity. If your assessment shows changes in your mitral valve function or evidence of heart failure or pericardial effusion, treatment options may include medication adjustments, diuretics for fluid management, or in some cases, further intervention to repair or support the valve. \n\nGiven your increased fatigue and difficulty with daily activities, have you had any recent laboratory assessments for anemia or electrolyte disturbances that could also be contributing to your symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Precaution",
+          "value": "continue taking your medications as prescribed, rest with your upper clinical examination elevated, and avoid strenuous activity"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "treatment options may include medication adjustments, diuretics for fluid management, or further intervention to repair or support the valve"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "recent laboratory assessments for anemia or electrolyte disturbances"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, I did have some labs done while I was still in the hospital after the procedure. They told me my hematocrit was low and I ended up getting a blood transfusion before I left. I\u2019m not sure if they examinationed my electrolytes or if anything else was abnormal\u2014I don\u2019t remember anyone mentioning that specifically.\n\nSince coming home, I haven\u2019t had any repeat labs, so I\u2019m not sure if the anemia has gotten better or if it could still be contributing to my fatigue and shortness of breath. Should I get my labs examinationed again soon? And if my hematocrit or electrolytes are still off, could that make these symptoms worse, or is it more likely related to my mitral valve function after the catheter issue?\n\nSorry for all the questions\u2014I just want to make sure I\u2019m not missing anything important while I wait for the echocardiogram and clinical assessment.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "labs done"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "hematocrit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "blood transfusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "repeat labs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "hematocrit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "electrolytes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "mitral valve function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "echocardiogram"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "clinical assessment"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details and for being so proactive about your health\u2014it\u2019s completely understandable to have questions given your symptoms and recent medical history. Based on your ongoing fatigue, shortness of breath, and history of low hematocrit, I recommend a repeat laboratory assessment to examine your current hematocrit and electrolyte levels, as both anemia and electrolyte disturbances can contribute to your symptoms alongside potential changes in mitral valve function. While we await your echocardiogram and clinical examination, have you experienced any new bleeding symptoms, such as unusual bruising or blood in your urine or stool, given your anticoagulation therapy?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing these details and for being so proactive about your health\u2014it\u2019s completely understandable to have questions given your symptoms and recent medical history."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "repeat laboratory assessment to examine your current hematocrit and electrolyte levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "anemia and electrolyte disturbances can contribute to your symptoms alongside potential changes in mitral valve function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new bleeding symptoms, such as unusual bruising or blood in urine or stool"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Medicine-category",
+          "value": "anticoagulation therapy"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I have noticed a bit more bruising than usual\u2014like, small bruises on my arms and legs that I don\u2019t really remember bumping into anything for. I haven\u2019t seen any blood in my urine or stool, though. I know being on Coumadin can increase the risk of bleeding, so I\u2019ve been trying to be careful, but the bruising has made me a little nervous.\n\nIs there a certain amount of bruising that\u2019s considered normal with anticoagulation therapy, or should I be worried that it means my hematocrit could be dropping again? And if my labs do show anemia or electrolyte disturbances, would that change how you manage my symptoms, or is the main concern still about my mitral valve function after the catheter issue?\n\nSorry for all the questions\u2014I just want to make sure I\u2019m not missing anything important while we\u2019re figuring this out.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bruising on arms and legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no blood in urine or stool"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Coumadin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "normal amount of bruising with anticoagulation therapy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "hematocrit dropping again"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "change in management if labs show anemia or electrolyte disturbances"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "main concern about mitral valve function after catheter issue"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with increased bruising while on anticoagulation therapy and your ongoing symptoms. Mild bruising can be expected with Coumadin, but new or unexplained bruising should prompt a careful assessment of your hematologic status and anticoagulation levels, especially given your recent anemia and transfusion. Based on your current symptoms and recent laboratory clinical findings, I recommend a prompt clinical evaluation\u2014including repeat hematocrit, complete blood count, and electrolyte panel\u2014to examine for ongoing anemia or coagulopathy, in addition to your planned echocardiogram to assess mitral valve function. Have you noticed any additional bleeding symptoms, such as gum bleeding or nosebleeds, since your discharge?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Side-effect",
+          "value": "mild bruising can be expected with Coumadin"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Precaution",
+          "value": "new or unexplained bruising should prompt a careful assessment of hematologic status and anticoagulation levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent anemia and transfusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "repeat hematocrit, complete blood count, and electrolyte panel"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "planned echocardiogram to assess mitral valve function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "additional bleeding symptoms such as gum bleeding or nosebleeds"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 now that you ask, I have noticed a little bit of gum bleeding when I brush my teeth\u2014nothing major, but it\u2019s more than I used to have. I haven\u2019t had any nosebleeds, though. The bruising and the gum bleeding are definitely making me more anxious, especially with everything else going on\u2014like the chest pain, shortness of breath, and fatigue.\n\nI think getting my hematocrit, complete blood count, and electrolytes examinationed again makes sense. Should I also get my INR examinationed to make sure my Coumadin level is in the right range? And if my labs show anemia or coagulopathy, would that change how you manage symptoms before we get the results of the echocardiogram? I just want to make sure nothing gets missed, especially since I\u2019m still feeling pretty unwell.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "gum bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bruising"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "hematocrit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "complete blood count"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "electrolytes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "INR"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "Coumadin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "anemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "coagulopathy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "management of symptoms before echocardiogram results"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your ongoing symptoms, recent bruising, and gum bleeding while on anticoagulation therapy. Your INR is currently at 2.0, which is within the typical therapeutic range for Coumadin, but your fatigue, anemia history, and new bleeding symptoms warrant a prompt laboratory assessment\u2014including a complete blood count and repeat hematocrit\u2014to examine for ongoing anemia or coagulopathy. While we arrange your echocardiogram and clinical assessment, have you experienced any new or worsening symptoms such as black or tarry stools, which could indicate gastroindiagnostic evaluationinal bleeding?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ongoing symptoms, recent bruising, gum bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "anticoagulation therapy (Coumadin)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Dose",
+          "value": "INR is currently at 2.0"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "anemia history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "complete blood count, repeat hematocrit"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening symptoms such as black or tarry stools"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t noticed any black or tarry stools, and I\u2019ve been kind of watching for that since I know it can be a sign of gastroint\u2014gastrointestinal bleeding. My stools have looked pretty normal, so far as I can tell. But with all these symptoms\u2014chest pain, shortness of breath, palpitations, fever, chills, and now the bruising and gum bleeding\u2014I\u2019m just really anxious something serious could be going on.\n\nI appreciate you being thorough with the labs and arranging the echocardiogram. Is there anything else I should be doing or watching for at home while we wait for all these results? And if it does turn out that my mitral valve function has changed or there\u2019s ongoing anemia, how quickly would treatment need to start? I just want to make sure I\u2019m not missing any warning signs or waiting too long to get help if symptoms get worse.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no black or tarry stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "normal stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bruising"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "gum bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should be doing or watching for at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "how quickly would treatment need to start if mitral valve function has changed or there\u2019s ongoing anemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "make sure I\u2019m not missing any warning signs or waiting too long to get help if symptoms get worse"
+        }
+      ]
+    }
+  ]
+}

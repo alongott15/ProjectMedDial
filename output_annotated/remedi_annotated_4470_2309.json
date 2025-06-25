@@ -1,0 +1,1845 @@
+{
+  "source_row_id": 4470,
+  "source_subject_id": 2309,
+  "source_hadm_id": 125182,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing fever and changes in your mental status, such as confusion and agitation. Can you tell me more about when these symptoms first began and if you\u2019ve noticed any changes in their severity over time?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "agitation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I\u2019m not exactly sure when it all started, but I\u2019ve just been feeling really off lately. I\u2019ve had a fever, and I feel confused sometimes. And, actually, I\u2019ve been having some shortness of breath too. I\u2019m a bit worried\u2014should I be concerned?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling off"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "should I be concerned"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014these symptoms can be concerning, and it\u2019s important that we address them together. You mentioned experiencing confused and having shortness of breath; have you also noticed any episodes of severe agitation or periods where you felt unusually lethargic or less responsive than usual?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confused"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "severe agitation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "lethargic"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "less responsive"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well\u2026 yes, I guess I have felt pretty severely ill. My family said I looked sort of toxic appearing, and there were a couple times where I wasn\u2019t really responsive\u2014only if someone really tried to wake me up or, um, pressed hard on my arm or something. I\u2019m just so anxious about all this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "severely ill"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "toxic appearing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not really responsive"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d feel anxious\u2014these symptoms sound very distressing, and it\u2019s important that we take them seriously. You mentioned experiencing periods of confusion, agitation, and being less responsive at times. Can you tell me if you\u2019ve noticed any changes in your blood pressure or if anyone has mentioned your blood pressure being higher than usual during this time?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion, agitation, being less responsive"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "changes in blood pressure"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, actually, I think my blood pressure has been higher than usual. The nurses mentioned it a couple times. And, let me think\u2026 they also said my oxygen saturation was low\u2014my sats went down to 84% even when I was on 3 liters of oxygen, so they had to put me on a 100% nonrebreather mask to keep my sats up. I still have this fever too. It\u2019s all making me pretty anxious, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "high blood pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": "oxygen saturation 84%"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "3 liters of oxygen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "100% nonrebreather mask"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014these symptoms, especially with the changes in your mental status and low oxygen levels, are understandably concerning. To help with my assessment, have you experienced any new headaches, vision changes, or seizures along with your confusion, agitation, or lethargy?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in mental status and low oxygen levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new headaches"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vision changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "seizures"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "agitation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "lethargy"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I don\u2019t think I\u2019ve had any headpains or vision changes. No seizures either, as far as I know. Mostly it\u2019s just been the confusion, agitation, and sometimes I get really lethargic\u2014like I just can\u2019t wake up all the way unless someone really tries. And, um, yes, the nurses did mention my blood pressure was high\u2014hypertension, I think they called it. I\u2019m just not sure what\u2019s causing all these symptoms, and it\u2019s making me pretty anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "agitation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "high blood pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no headpains"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no vision changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no seizures"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014these symptoms, especially the confusion, lethargy, and low oxygen saturation, can be very unsettling. To help with my assessment, have you noticed any changes in your breathing pattern, such as rapid or shallow respirations, or any increased effort to breathe since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in breathing pattern"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "rapid respirations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shallow respirations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased effort to breathe"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I think my breathing has definitely changed. It feels more rapid and kind of shallow, and I have to work harder to catch my breath. The nurses said my oxygen saturation\u2014or sats\u2014dropped down to 84% even when I was on 3 liters of oxygen, so they switched me to a nonrebreather mask. I get really agitated sometimes too, especially when I can\u2019t breathe well. It\u2019s all just making me more anxious, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "rapid and shallow breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased work of breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "oxygen saturation dropped to 84%"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "agitation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the changes in your breathing and mental status. Given your recent episodes of confusion, agitation, and lethargy along with significant hypoxia, have you noticed any new cough, sputum production, or chest pain that might suggest an infection or worsening respiratory condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in breathing and mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion, agitation, and lethargy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "significant hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sputum production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection or worsening respiratory condition"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I have had a bit of a cough\u2014nothing too strong, but it\u2019s there. I don\u2019t think I\u2019ve been bringing up much sputum, though. And I haven\u2019t really noticed any chest pain, at least not the kind I\u2019d call sharp or severe. Mostly it\u2019s just this shortness of breath and feeling so confused and lethargic, especially when someone tries to wake me up. \n\nShould I be worried that all these symptoms are happening together? Does this mean I might have an infection or something serious with my lungs?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lethargy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not bringing up much sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection or something serious with lungs"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with these symptoms happening together. Given your mental status changes and significant hypoxia, have you experienced any recent swelling in your legs, ankles, or abdomen that could suggest fluid overload or worsening heart or lung function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be anxious, especially with these symptoms happening together."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "significant hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent swelling in legs, ankles, or abdomen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "fluid overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "worsening heart or lung function"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you ask, I have noticed some swelling in my ankles lately. It\u2019s not dramatic, but it\u2019s definitely more than usual. I haven\u2019t really seen much swelling in my abdomen, though. I guess with all these symptoms\u2014like the mental status changes, the shortness of breath, and now the swelling\u2014I\u2019m just getting more and more anxious. \n\nIs this something that could be related to my heart or lungs getting worse? Should I be worried about fluid overload?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no swelling in abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart or lungs getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "fluid overload"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with the combination of mental status changes, hypoxia, and new swelling in your ankles. To help with my assessment, have you noticed any decrease in your urine output or any difficulty urinating, which could suggest changes in your kidney function or fluid balance?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decrease in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty urinating"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, yes, I think my urine output has gone down a bit. I haven\u2019t really had much difficulty urinating, but I just don\u2019t seem to be going as often as usual. I didn\u2019t really connect that with all these other symptoms\u2014like the mental status changes, hypoxia, and the swelling in my ankles\u2014but now I\u2019m starting to worry more. \n\nIs this decrease in urine output something serious? Does it mean my kidneys might not be working right, or is it just part of the fluid overload? I\u2019m sorry, I just have so many questions and I\u2019m feeling pretty anxious about all of this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no difficulty urinating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decrease in urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "kidney dysfunction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "fluid overload"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014these symptoms, especially the mental status changes, hypoxia, swelling, and decreased urine output, can be very concerning. Based on your symptoms and recent laboratory findings showing a low pH and base excess, I am concerned about a possible metabolic acidosis, which can occur with serious infections, worsening heart or lung function, or kidney impairment. Have you experienced any recent fevers or chills that might suggest an underlying infection contributing to your current condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "low pH"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "base excess"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "metabolic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "serious infections, worsening heart or lung function, or kidney impairment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fevers or chills"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yes, actually, I have had a fever\u2014pretty much the whole time I\u2019ve been feeling this way. Sometimes I get chills too, where I just can\u2019t seem to get warm, even with blankets. I didn\u2019t realize that could be connected to all these other symptoms. \n\nYou mentioned metabolic acidosis\u2014does that mean my body is too acidic? Is that dangerous? And if this could be from an infection, is there something you can do to treat it? I\u2019m sorry for all the questions, I\u2019m just really anxious about what\u2019s happening to me.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "metabolic acidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "body is too acidic"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "dangerous"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "treat infection"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the fever, mental status changes, low oxygen saturation, and now decreased urine output. Based on your symptoms and laboratory findings\u2014including a low pH and negative base excess, which indicate metabolic acidosis\u2014my assessment is that you may have a serious underlying condition such as infection or organ dysfunction affecting your lungs, heart, or kidneys. To help further with my assessment, have you recently experienced any new pain or tenderness in your abdomen or back that might suggest an infection or another acute process?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low oxygen saturation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "low pH"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "negative base excess"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "metabolic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "serious underlying condition such as infection or organ dysfunction affecting lungs, heart, or kidneys"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new pain or tenderness in abdomen or back"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, yes, I have noticed some discomfort in my lower back over the past couple of days. It\u2019s not a sharp pain, but more of a dull pain, and sometimes my abdomen feels a bit tender too\u2014especially when someone presses on it. I didn\u2019t really pay much attention to it before because I thought it might just be from lying in bed so much, but now I\u2019m wondering if it could be related to all these symptoms you mentioned\u2014like the fever, mental status changes, and the metabolic acidosis.\n\nIs this something that could mean I have an infection in my kidneys or somewhere else? And with everything going on\u2014my lungs, heart, and now possibly my kidneys\u2014should I be really worried? What happens next?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "discomfort in lower back"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dull pain in lower back"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdomen feels tender when pressed"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lying in bed a lot"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection in kidneys or elsewhere"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be really worried"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what happens next"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about all of this, especially given your symptoms of fever, mental status changes, hypoxia, decreased urine output, swelling, and now abdominal and back discomfort. Based on your symptoms and laboratory findings\u2014specifically the low pH and negative base excess indicating metabolic acidosis\u2014my assessment is that there may be a serious underlying infection or organ dysfunction affecting your lungs, kidneys, or possibly both. \n\nTo help guide our next steps in your clinical evaluation, have you noticed any changes in the color or odor of your urine, which could further suggest a urinary tract or kidney infection?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever, mental status changes, hypoxia, decreased urine output, swelling, abdominal discomfort, back discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "low pH, negative base excess"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "serious underlying infection or organ dysfunction affecting lungs, kidneys, or both"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in color or odor of urine"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I think my urine has looked a bit darker than usual, and maybe a little stronger smelling. I just thought it was because I haven\u2019t been drinking as much water lately, but with everything else going on\u2014the fever, the mental status changes, the hypoxia, and now this metabolic acidosis\u2014I guess it could be something more serious.\n\nShould I be really worried about an infection in my kidneys or urinary tract? Is that what\u2019s causing all these symptoms? And with my history of cancer and heart symptoms, does this make symptoms more complicated? I\u2019m sorry for all the questions, but I just want to understand what\u2019s happening and what you can do to help.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "darker urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "stronger smelling urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased water intake"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "metabolic acidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection in kidneys or urinary tract"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "cause of symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of cancer"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "complication of symptoms due to history"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "understanding what is happening and treatment options"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014your symptoms and recent laboratory findings are understandably concerning, especially given your medical history. Based on your fever, mental status changes, hypoxia, decreased urine output, swelling, and now changes in your urine, my assessment is that you may have a serious infection, possibly involving your kidneys or urinary tract, and this is likely contributing to metabolic acidosis and affecting your overall condition. \n\nGiven the severity of your symptoms and lab clinical findings, I recommend urgent intravenous antibiotics, close monitoring of your vital signs, oxygen therapy, and supportive care to address potential organ dysfunction. Have you recently experienced any nausea or vomiting, which could further indicate systemic infection or worsening metabolic imbalance?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "serious infection possibly involving kidneys or urinary tract"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "changes in urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "metabolic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "urgent intravenous antibiotics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "close monitoring of vital signs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "oxygen therapy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "supportive care to address potential organ dysfunction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea or vomiting"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Yes, actually, I have had some nausea\u2014especially in the mornings, and sometimes it gets bad enough that I feel like I might vomit. I haven\u2019t really thrown up much, but the nausea has definitely been there. I just thought it was maybe from not eating or from all the medicines I\u2019m on, but now I\u2019m worried it\u2019s part of this infection or the metabolic acidosis you mentioned.\n\nI appreciate you explaining everything to me. With all these symptoms\u2014fever, mental status changes, hypoxia, decreased urine output, swelling, and now the nausea\u2014should I be really worried about my organs failing? Is there a chance I could get better with the antibiotics and the supportive care you talked about? And with my cancer history and heart symptoms, does that make symptoms riskier for me? I\u2019m sorry for all the questions, but I just want to understand what\u2019s happening and what to expect.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting (feeling like might vomit, but not much actual vomiting)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cancer history"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "organ failure risk"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "chance of getting better with antibiotics and supportive care"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "impact of cancer history and heart symptoms on risk"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about your symptoms, especially with your medical history and the changes you\u2019ve described. Based on my assessment\u2014including your fever, mental status changes, hypoxia, decreased urine output, swelling, nausea, and laboratory findings of metabolic acidosis\u2014there is a significant concern for a severe infection (such as sepsis) and possible organ dysfunction, which can be more serious given your cancer and heart history. \n\nThe most important next steps are to begin intravenous antibiotics promptly, continue oxygen therapy, closely monitor your vital signs and organ function, and provide supportive care to address your metabolic imbalance. As we proceed with your treatment, have you had any recent imaging studies\u2014such as a chest X-ray or abdominal ultrasound\u2014to help identify the source of infection or further evaluate your organ function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "severe infection (such as sepsis) and possible organ dysfunction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever, mental status changes, hypoxia, decreased urine output, swelling, nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "laboratory findings of metabolic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cancer and heart history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "begin intravenous antibiotics promptly"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "continue oxygen therapy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "closely monitor your vital signs and organ function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "provide supportive care to address your metabolic imbalance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "recent imaging studies\u2014such as a chest X-ray or abdominal ultrasound"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I believe I did have a chest X-ray not too long ago, maybe a few weeks back, but I haven\u2019t had any recent imaging since all these new symptoms started. I don\u2019t think I\u2019ve had an abdominal ultrasound either. Would those tests help figure out where the infection might be or if there\u2019s something wrong with my organs?\n\nI\u2019m just feeling really anxious about all this, especially with you mentioning sepsis and organ dysfunction. With my cancer history and heart symptoms, does that mean I\u2019m at higher risk for symptoms getting worse? And how soon will I know if the antibiotics and supportive care are working? I just want to understand what to expect and if there\u2019s anything else I should be doing or watching out for.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "chest X-ray"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "a few weeks back"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "abdominal ultrasound"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "chest X-ray, abdominal ultrasound"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection, organ dysfunction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cancer history, heart symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "higher risk for symptoms getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "how soon will I know if antibiotics and supportive care are working"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what to expect, anything else I should be doing or watching out for"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially given your medical history and the severity of your current symptoms. Based on my assessment\u2014including your fever, mental status changes, hypoxia, decreased urine output, swelling, metabolic acidosis, and recent laboratory findings\u2014you are at higher risk for complications such as sepsis and organ dysfunction. Immediate intravenous antibiotics, oxygen therapy, and supportive care are essential, and obtaining updated imaging studies like a chest X-ray and abdominal ultrasound will help identify the source of infection and guide further treatment. \n\nHave you experienced any new or worsening pain in your chest or abdomen since your last clinical examination that I should be aware of as we proceed with your evaluation?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "metabolic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "recent laboratory findings"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "higher risk for complications such as sepsis and organ dysfunction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "immediate intravenous antibiotics, oxygen therapy, and supportive care"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "updated imaging studies like a chest X-ray and abdominal ultrasound"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening pain in chest or abdomen"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 since my last exam, I haven\u2019t noticed any new or really sharp pain in my chest. My abdomen still feels a bit tender, especially if someone presses on it, but it hasn\u2019t gotten worse\u2014just kind of the same dull discomfort as before. My breathing is still pretty hard, and I still feel really tired and confused at times.\n\nI appreciate you explaining everything to me and taking this seriously. With all these symptoms\u2014like the fever, mental status changes, hypoxia, decreased urine output, swelling, and now this metabolic acidosis\u2014I\u2019m just really anxious about what could happen next. \n\nIs there anything else I should be watching for, or any other treatments that might help? And how soon will we know if the antibiotics are working or if my organs are improving? I just want to make sure we\u2019re doing everything possible.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new or sharp chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal tenderness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dull abdominal discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "metabolic acidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should be watching for"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "any other treatments that might help"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "how soon will we know if the antibiotics are working or if my organs are improving"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially given your medical history and how unwell you\u2019re experiencing. Based on my assessment\u2014including your fever, mental status changes, hypoxia, decreased urine output, swelling, and laboratory findings of metabolic acidosis\u2014it\u2019s critical that we continue intravenous antibiotics, oxygen therapy, and close monitoring of your organ function. We will also use imaging studies to help identify the source of infection and guide further treatment. \n\nAs we proceed, have you noticed any new symptoms such as worsening confusion, chest pain, or difficulty breathing since your last examination, as these could indicate changes in your condition that require immediate attention?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "laboratory findings of metabolic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous antibiotics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "oxygen therapy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "close monitoring of organ function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "imaging studies"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 since my last exam, I think the confusion has maybe gotten a little worse\u2014I just feel kind of out of it sometimes, and it\u2019s hard to focus or remember symptoms. The shortness of breath is still there, and sometimes it feels like I really have to work to get enough air, even with the oxygen. I haven\u2019t had any new chest pain, though\u2014just that same pressure I sometimes get from my heart history, but nothing sharp or sudden.\n\nI\u2019m still really anxious about all these symptoms and the metabolic acidosis you mentioned. Is it normal for the confusion and breathing to get a bit worse before symptoms start to improve? How will we know if the antibiotics are working or if my organs are recovering? And with my cancer and heart symptoms, does that make it harder for me to bounce back? I just want to make sure we\u2019re doing everything we can, and I appreciate you keeping such a close eye on me.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion has gotten a little worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hard to focus or remember symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "have to work to get enough air even with oxygen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "same pressure from heart history"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart history"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious about symptoms and metabolic acidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it normal for confusion and breathing to get worse before improving?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "How will we know if antibiotics are working or organs are recovering?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "With cancer and heart symptoms, does that make it harder to recover?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cancer"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "",
+          "value": "I appreciate you keeping such a close eye on me"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about your symptoms, especially with the worsening confusion and shortness of breath given your medical history. Based on my assessment\u2014including your ongoing fever, mental status changes, hypoxia, decreased urine output, swelling, and laboratory findings of significant metabolic acidosis\u2014your condition is serious and requires close monitoring in a hospital setting. We will continue intravenous antibiotics, oxygen therapy, and frequent assessment of your organ function to track your response to treatment; improvement is typically assessn within 24\u201348 hours if the antibiotics are effective, but with your cancer and heart history, recovery may take longer and requires vigilant care.\n\nHave you experienced any new symptoms such as decreased responsiveness or inability to stay awake, which would indicate further changes in your neurological status and require immediate examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cancer"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "laboratory findings of significant metabolic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "close monitoring in a hospital setting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous antibiotics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "oxygen therapy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "frequent assessment of organ function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "improvement typically assessed within 24\u201348 hours"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Precaution",
+          "value": "recovery may take longer and requires vigilant care due to cancer and heart history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decreased responsiveness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "inability to stay awake"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I think there have been a couple of times where I just couldn\u2019t really wake up all the way, even when someone tried to get my attention. My family said I was only responsive if they spoke loudly or, you know, pressed on my arm pretty hard. I\u2019m still feeling really tired and kind of out of it\u2014it\u2019s hard to stay awake sometimes, and I get confused about where I am or what\u2019s happening.\n\nI know you said my condition is serious, and with everything going on\u2014like the metabolic acidosis, hypoxia, and mental status changes\u2014I\u2019m just really anxious about what could happen next. Is there a chance that my organs could recover if we catch this infection in time? And with my cancer and heart history, does that mean I might not respond as well to treatment? I just want to understand what the next steps are and if there\u2019s anything else that can be done to help me get better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty waking up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "only responsive to loud voice or physical stimulation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling very tired"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty staying awake"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion about location or situation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "chance of organ recovery if infection is treated in time"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cancer"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart history"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "impact of cancer and heart history on treatment response"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "next steps and additional options to improve condition"
+        }
+      ]
+    }
+  ]
+}

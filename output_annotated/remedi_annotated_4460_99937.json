@@ -1,0 +1,1194 @@
+{
+  "source_row_id": 4460,
+  "source_subject_id": 99937,
+  "source_hadm_id": 129380,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you've been experiencing significant shortness of breath and headaches. Can you tell me more about how your symptoms of dyspnea have changed since they began?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Um, yes, thank you, doctor. Well, the main thing is I\u2019ve just been really short of breath\u2014like, much more than usual for me. It\u2019s gotten worse over the last couple days. And, um, I\u2019ve also noticed these mildly painful little pimples on the sides of my tongue. I\u2019m feeling pretty anxious about all this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "much more than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "last couple days"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mildly painful pimples on the sides of tongue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014experiencing worsening shortness of breath and new symptoms like tongue lesions can be very concerning. To help guide my assessment, can you describe whether your dyspnea is constant or if it gets worse with certain activities, such as walking or talking?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tongue lesions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "whether dyspnea is constant or activity-related"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 it\u2019s mostly the shortness of breath that\u2019s worrying me. It feels like it gets a lot worse when I try to get up or walk, even just a little bit. I get really winded, and sometimes I feel dizzy too.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsens with activity"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for explaining that\u2014it's important for me to understand how your symptoms are affecting your daily activities. Since your shortness of breath worsens with minimal exertion and is accompanied by dizziness, have you noticed any chest pain, palpitations, or swelling in your legs during these episodes?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining that\u2014it's important for me to understand how your symptoms are affecting your daily activities."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worsens with minimal exertion and is accompanied by dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain, palpitations, or swelling in your legs during these episodes"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Um, let me think\u2026 I haven\u2019t really had chest pain, no. I don\u2019t think I\u2019ve had any palpitations either. My legs don\u2019t look swollen to me. It\u2019s mostly just the dyspnea and, like I mentioned, the dizziness. And I\u2019ve had this headpain that just won\u2019t go away. I\u2019m sorry if I\u2019m not explaining it well\u2014I just feel so anxious about all these symptoms.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no leg swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headpain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014persistent headache and clinical examination aches along with your other symptoms can be distressing. To help with my assessment, can you describe the characteristics of your headache, such as its location, severity, and whether it is associated with any visual changes or sensitivity to light?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried\u2014persistent headache and clinical examination aches along with your other symptoms can be distressing."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "characteristics of headache, such as its location, severity, and whether it is associated with any visual changes or sensitivity to light"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um, well\u2026 the headpain is kind of all over, but maybe a bit worse in the front. It\u2019s not the worst pain I\u2019ve ever had, but it\u2019s pretty constant and just makes me feel tired. I haven\u2019t really noticed any changes with my vision or sensitivity to light. The dizziness kind of comes and goes, especially when I stand up. And, actually, my whole body\u2019s been aching\u2014like a flu almost. I\u2019m sorry if I\u2019m rambling, I just feel really anxious about all these symptoms together. Should I be worried?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headpain all over, worse in the front"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constant pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tiredness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no changes with vision"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no sensitivity to light"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness comes and goes, especially when standing up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "whole body aching"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feels like flu"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried?"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014experiencing persistent headache and clinical examination aches along with your other symptoms can be unsettling. To help with my assessment, have you noticed any neck stiffness, sensitivity to sound, or nausea associated with your headache and clinical examination aches?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried\u2014experiencing persistent headache and clinical examination aches along with your other symptoms can be unsettling."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "neck stiffness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sensitivity to sound"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "headache"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "clinical examination aches"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um, let me think\u2026 I don\u2019t really have neck stiffness or sensitivity to sound. I haven\u2019t felt nauseous either. But, actually, I\u2019ve noticed I just don\u2019t have much appetite lately, and I\u2019ve barely been able to get out of bed these past couple days. I\u2019m still feeling really anxious about all of this\u2014should I be concerned with how everything\u2019s adding up?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no neck stiffness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no sensitivity to sound"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue (barely able to get out of bed)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "should I be concerned"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with persistent headache, clinical examination aches, and decreased appetite on top of your other symptoms. To help guide my assessment, have you experienced any fevers, chills, or night sweats along with these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent headache"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "aches on clinical examination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "night sweats"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2026 I have had some fevers. The last time I examinationed, my temperature was 101.7. I\u2019ve also been having these chills and sweats\u2014like, I\u2019ll feel really cold and then suddenly start sweating. And, um, I\u2019ve noticed a mild wheeze when I breathe sometimes, especially when I\u2019m lying down. \n\nI\u2019m just feeling really anxious about all these symptoms together. With my history of interstitial lung disease and being on immunosuppression, should I be more worried? Is this something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": "101.7"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sweats"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheeze when breathing, especially when lying down"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "interstitial lung disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine-category",
+          "value": "immunosuppression"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be more worried? Is this something serious?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially given your medical history and the combination of symptoms you\u2019re experiencing. To help with my assessment, have your headache or clinical examination aches been associated with any neurological symptoms, such as weakness, numbness, or difficulty speaking?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "neurological symptoms such as weakness, numbness, or difficulty speaking"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Um, no, I haven\u2019t noticed any weakness or numbness, and I haven\u2019t had any trouble speaking. It\u2019s mostly just the headpain, the body pains, and this ongoing respiratory distress. The shortness of breath is really bad, especially when I try to move around\u2014even just getting up to go to the bathroom makes me feel like I can\u2019t catch my breath. And with the fever\u2014I examinationed and it was 101.7\u00b0F\u2014I just feel wiped out. \n\nI\u2019m really worried because with my interstitial lung disease and being on immunosuppression, I know infections can get serious fast. Is there anything specific I should be looking out for, or anything you think this could be?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headpain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "body pains"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory distress"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": "101.7\u00b0F"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling wiped out"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "interstitial lung disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine-category",
+          "value": "immunosuppression"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything specific I should be looking out for?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "anything you think this could be?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially given your medical history and the severity of your symptoms. To help with my assessment, have you experienced any photophobia (sensitivity to light) or phonophobia (sensitivity to sound) along with your headache and clinical examination aches?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "photophobia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "phonophobia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "headache"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "aches"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed any photophobia or phonophobia\u2014light and sound don\u2019t seem to bother me more than usual. It\u2019s mostly just the constant headpain and these body pains, along with the fever. And, actually, I\u2019m really concerned about the hypoxia\u2014I\u2019ve been needing more oxygen than usual, and when I try to walk, my oxygen saturation drops into the 60s or 70s. That\u2019s never happened before. \n\nWith my history of interstitial lung disease and being on immunosuppression, should I be really worried about this? Is there something specific that could be causing all these symptoms together?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no photophobia or phonophobia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constant headpain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "body pains"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "needing more oxygen than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "oxygen saturation drops into the 60s or 70s with walking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "interstitial lung disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "immunosuppression"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be really worried about this"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Is there something specific that could be causing all these symptoms together"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your history of interstitial lung disease and immunosuppression, combined with worsening dyspnea, hypoxia, fever, headache, and clinical examination aches. Based on your symptoms and clinical examination findings, I am concerned about a possible infectious process or a flare of your underlying lung condition. To further guide my assessment, have you noticed any new cough, sputum production, or changes in the color of your sputum recently?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "interstitial lung disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "immunosuppression"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headache"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "aches on clinical examination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible infectious process"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "flare of underlying lung condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sputum production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in color of sputum"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um, actually, I haven\u2019t really had much of a cough, and I\u2019m not bringing up any sputum\u2014there\u2019s no change in color or anything like that. It\u2019s mostly just this really bad shortness of breath and, like I mentioned, the hypoxia. I\u2019ve noticed my oxygen requirements have gone up a lot\u2014I need more oxygen than usual just to keep my saturation up, and when I try to walk even a few steps, my oxygen saturation drops into the 60s or 70s. That\u2019s never happened before, and it\u2019s honestly making me really anxious.\n\nWith all these symptoms\u2014especially the fever, headpain, body pains, and the increasing oxygen requirements\u2014should I be worried about something infectious? Or could this be a flare of my interstitial lung disease? I just want to know what to expect or what the next steps might be.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased oxygen requirements"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "oxygen saturation drops into the 60s or 70s with exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headpain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "body pains"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infectious disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "flare of interstitial lung disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "what to expect or what the next steps might be"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with your history of interstitial lung disease and immunosuppression, combined with worsening shortness of breath, hypoxia, fever, headache, and clinical examination aches. Based on your symptoms and clinical examination findings, my assessment will focus on both a possible infectious process and a flare of your underlying lung condition. To help guide the next steps, have you experienced any recent exposures to individuals with respiratory infections or traveled anywhere new in the past few weeks?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "interstitial lung disease and immunosuppression"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headache"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "aches on clinical examination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible infectious process"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "flare of underlying lung condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "recent exposures to individuals with respiratory infections"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "recent travel in the past few weeks"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Um, let me think\u2026 I haven\u2019t really traveled anywhere lately, and I don\u2019t think I\u2019ve knowingly been around anyone who was sick with a respiratory infection. I mostly stay at home because of my interstitial lung disease and being on immunosuppression\u2014I try to be really careful. \n\nBut with all these symptoms\u2014especially the worsening dyspnea, hypoxia, and fever\u2014I am getting more and more anxious. Is there a way to tell if this is more likely an infection or a flare of my lung disease? And, um, should I be worried about symptoms like pneumonia or something more serious because of my immunosuppression? What kind of tests or treatments do you think I\u2019ll need?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "interstitial lung disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine-category",
+          "value": "immunosuppression"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection or flare of lung disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "pneumonia or something more serious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "tests"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "treatments"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially given your immunosuppression and the combination of worsening dyspnea, hypoxia, fever, headache, and clinical examination aches you\u2019ve described. Based on your symptoms and medical history, my assessment will focus on distinguishing between an infectious process\u2014such as pneumonia or another respiratory infection\u2014and a possible flare of your interstitial lung disease. To help further guide this assessment, have you noticed any recent changes in your voice, difficulty swallowing, or new onset of chest discomfort during breathing?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headache"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "aches on clinical examination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "immunosuppression"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "pneumonia (possible)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "respiratory infection (possible)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "interstitial lung disease flare (possible)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in voice"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new onset of chest discomfort during breathing"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Um, actually, now that you mention it, I haven\u2019t noticed any changes in my voice or any real difficulty swallowing. I don\u2019t have chest discomfort exactly\u2014it\u2019s more just this feeling of tightness or heaviness when I try to breathe, especially when I\u2019m moving around. No sharp pain or anything like that, but it\u2019s definitely uncomfortable and makes me more anxious about getting up.\n\nWith all these symptoms\u2014worsening dyspnea, hypoxia, fever, headpain, and body pains\u2014I\u2019m really worried about pneumonia or something serious, especially since I\u2019m on immunosuppression for my interstitial lung disease. Is there a way to tell for sure if this is an infection or a flare? And what kind of tests will you need to do? I just want to make sure we catch whatever this is early, since I know symptoms can get bad quickly for someone like me.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no changes in voice"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no real difficulty swallowing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling of tightness or heaviness when trying to breathe, especially when moving around"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no sharp pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypoxia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headpain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "body pains"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "immunosuppression for interstitial lung disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "pneumonia or something serious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Diagnosis",
+          "value": "is this an infection or a flare"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "what kind of tests will you need to do"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your history of interstitial lung disease, immunosuppression, and these worsening symptoms. Based on your description\u2014worsening dyspnea, hypoxia with minimal exertion, fever, headache, and clinical examination aches\u2014my assessment is that both a respiratory infection (such as pneumonia) and a flare of your underlying lung condition are possible, and both can be serious in your context.\n\nTo clarify the cause, we will need to perform a thorough clinical evaluation, including a physical examination, chest imaging (such as a chest X-ray or CT scan), and laboratory diagnostic evaluations to assess for infection or inflammation. We may also obtain sputum cultures and blood work to look for infectious organisms. In the meantime, it\u2019s important to continue supplemental oxygen and monitor your oxygen saturation closely.\n\nHave you noticed any new rashes or skin changes since your symptoms began? This can sometimes help us narrow down the cause of your current condition.",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease-history",
+          "value": "interstitial lung disease, immunosuppression"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "worsening dyspnea, hypoxia with minimal exertion, fever, headache, clinical examination aches"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "respiratory infection (such as pneumonia), flare of underlying lung condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "thorough clinical evaluation, physical examination, chest imaging (chest X-ray or CT scan), laboratory diagnostic evaluations, sputum cultures, blood work"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "continue supplemental oxygen and monitor oxygen saturation closely"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new rashes or skin changes"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so clearly, doctor. Um, as far as rashes or skin changes go, I haven\u2019t noticed anything new on my skin. The only thing I did mention earlier was these mildly painful little pimples or pains on the sides of my tongue\u2014they showed up around the same time as my other symptoms. But I haven\u2019t seen any rashes anywhere else on my body.\n\nI appreciate you being thorough with the clinical evaluation and all the tests you mentioned\u2014chest imaging, blood work, sputum cultures. With my immunosuppression and history of interstitial lung disease, I know symptoms can go downhill quickly, so I\u2019m just really anxious to get to the bottom of this. Is there anything specific I should be watching for while we wait for results? And, um, is there a chance this could be something like COVID or another virus, even though I haven\u2019t been around anyone sick?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new rashes or skin changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mildly painful pimples or pains on the sides of tongue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pimples on tongue appeared around same time as other symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "immunosuppression"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of interstitial lung disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything specific to watch for while waiting for results"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "possibility of COVID or another virus despite no known exposure"
+        }
+      ]
+    }
+  ]
+}

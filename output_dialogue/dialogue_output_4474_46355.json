@@ -1,0 +1,481 @@
+{
+  "partial_profile": {
+    "row_id": 4474,
+    "subject_id": 46355,
+    "hadm_id": 164062,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "left groin mass",
+          "onset": "approximately six months ago",
+          "duration": "intermittent but evolving over that time",
+          "severity": "not provided"
+        },
+        {
+          "description": "increase in left leg swelling",
+          "onset": "approximately six months ago",
+          "duration": "intermittent but evolving over that time",
+          "severity": "significant at time of ED presentation"
+        },
+        {
+          "description": "numbness on the lateral left thigh",
+          "onset": "approximately six months ago",
+          "duration": "intermittent but evolving over that time",
+          "severity": "not provided"
+        },
+        {
+          "description": "mild weakness in hip flexion",
+          "onset": "approximately six months ago",
+          "duration": "intermittent but evolving over that time",
+          "severity": "mild"
+        },
+        {
+          "description": "Bilateral lower extremity & pedal edema",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Pelvic mass",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Pain (post-operative)",
+          "onset": "immediately post-op",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "oral pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "left heel soft tissue injury",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "edema of lower extremities",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "deconditioned",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "lower extremity swelling",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2095-01-17",
+        "Age": 44,
+        "Sex": "M",
+        "Religion": "NOT SPECIFIED",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicaid",
+        "Admission_Type": "ELECTIVE",
+        "Admission_Date": "2139-09-10 07:15:00",
+        "Discharge_Date": "2139-09-21 14:15:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Synovial sarcoma: Approximately six months ago when he noted the development of increase in left leg swelling and a lump in his left groin. These symptoms have been intermittent but evolving over that time, with associated numbness on the lateral left thigh, mild weakness in hip flexion. His symptoms progressed and the patient presented at an outside emergency department on [**2139-4-17**]. He had significant left leg swelling at that time, and ultrasound revealed no clot. He then saw his primary care physician [**Last Name (NamePattern4) **] [**2139-4-24**]. He underwent MRI of the lumbar spine on [**2139-4-30**], which revealed a complex pelvic mass within the left side of the pelvis, partially visualized on the lumbar spine study measuring approximately 8 cm. The mass is inseparable from the left psoas muscle. Further visualization was recommended. He underwent a pelvic ultrasound on [**2139-4-30**], which revealed an extraperitoneal 15.6 cm x 8 cm x 12.8 cm complex cystic and solid mass, which demonstrates internal vascularity in the pelvis."
+      },
+      "Allergies": [
+        "Latex",
+        "Adhesive Tape"
+      ],
+      "Current_Medications": [
+        {
+          "name": "carvedilol",
+          "purpose": "not provided",
+          "dosage": "12.5",
+          "frequency": "not provided"
+        },
+        {
+          "name": "digoxin",
+          "purpose": "not provided",
+          "dosage": "125",
+          "frequency": "not provided"
+        },
+        {
+          "name": "lasix",
+          "purpose": "not provided",
+          "dosage": "40",
+          "frequency": "not provided"
+        },
+        {
+          "name": "neurontin",
+          "purpose": "not provided",
+          "dosage": "100",
+          "frequency": "not provided"
+        },
+        {
+          "name": "lisinopril",
+          "purpose": "not provided",
+          "dosage": "5",
+          "frequency": "not provided"
+        },
+        {
+          "name": "lorazepam",
+          "purpose": "not provided",
+          "dosage": "0.5-1",
+          "frequency": "q4prn"
+        },
+        {
+          "name": "morphine",
+          "purpose": "not provided",
+          "dosage": "15mg",
+          "frequency": "q4prn"
+        },
+        {
+          "name": "percocet",
+          "purpose": "not provided",
+          "dosage": "2-6",
+          "frequency": "q4prn"
+        },
+        {
+          "name": "prochlorperazine",
+          "purpose": "not provided",
+          "dosage": "10",
+          "frequency": "q6rn"
+        },
+        {
+          "name": "ranitidine",
+          "purpose": "not provided",
+          "dosage": "150",
+          "frequency": "not provided"
+        },
+        {
+          "name": "viagra",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "aldactone",
+          "purpose": "not provided",
+          "dosage": "30",
+          "frequency": "not provided"
+        },
+        {
+          "name": "tramadol",
+          "purpose": "not provided",
+          "dosage": "50",
+          "frequency": "not provided"
+        },
+        {
+          "name": "asa",
+          "purpose": "not provided",
+          "dosage": "325",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Tylenol Extra Strength",
+          "purpose": "pain control",
+          "dosage": "500 mg, 1-2 Tablets PO every six hours as needed for pain for 2 weeks. Do not exceed 4000mg in 24hrs.",
+          "frequency": "every six hours as needed"
+        },
+        {
+          "name": "Lisinopril",
+          "purpose": "blood pressure control",
+          "dosage": "5 mg, One (1) Tablet PO once a day",
+          "frequency": "once a day"
+        },
+        {
+          "name": "Duricef",
+          "purpose": "antibiotic, infection prevention while drains are in place",
+          "dosage": "not provided",
+          "frequency": "as prescribed"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Duricef",
+          "purpose": "antibiotic",
+          "dosage": "500 mg",
+          "frequency": "PO twice a day"
+        },
+        {
+          "name": "Carvedilol",
+          "purpose": "not provided",
+          "dosage": "12.5 mg",
+          "frequency": "PO TID"
+        },
+        {
+          "name": "Digoxin",
+          "purpose": "not provided",
+          "dosage": "125 mcg",
+          "frequency": "PO DAILY"
+        },
+        {
+          "name": "Furosemide",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "PO BID"
+        },
+        {
+          "name": "Citalopram",
+          "purpose": "not provided",
+          "dosage": "20 mg",
+          "frequency": "PO DAILY"
+        },
+        {
+          "name": "Docusate Sodium",
+          "purpose": "for constipation",
+          "dosage": "100 mg",
+          "frequency": "PO BID as needed"
+        },
+        {
+          "name": "Ranitidine HCl",
+          "purpose": "not provided",
+          "dosage": "150 mg",
+          "frequency": "PO DAILY"
+        },
+        {
+          "name": "Aspirin",
+          "purpose": "not provided",
+          "dosage": "325 mg",
+          "frequency": "PO DAILY"
+        },
+        {
+          "name": "Lorazepam",
+          "purpose": "for anxiety",
+          "dosage": "1 mg",
+          "frequency": "PO Q4H as needed"
+        },
+        {
+          "name": "Magnesium Hydroxide",
+          "purpose": "for constipation",
+          "dosage": "400 mg/5 mL",
+          "frequency": "30 mL PO Q12H as needed"
+        },
+        {
+          "name": "Gabapentin",
+          "purpose": "not provided",
+          "dosage": "300 mg",
+          "frequency": "Three capsules PO TID"
+        },
+        {
+          "name": "Morphine",
+          "purpose": "for pain",
+          "dosage": "15 mg",
+          "frequency": "1-2 Tablets PO Q4H as needed for 2 weeks"
+        },
+        {
+          "name": "Morphine",
+          "purpose": "for pain",
+          "dosage": "30 mg Tablet Sustained Release",
+          "frequency": "Two Tablets PO TID for 2 weeks"
+        },
+        {
+          "name": "Tylenol Extra Strength",
+          "purpose": "pain control",
+          "dosage": "500 mg, 1-2 Tablets PO every six hours as needed for pain for 2 weeks. Do not exceed 4000mg in 24hrs.",
+          "frequency": "every six hours as needed"
+        },
+        {
+          "name": "Lisinopril",
+          "purpose": "blood pressure control",
+          "dosage": "5 mg, One (1) Tablet PO once a day",
+          "frequency": "once a day"
+        },
+        {
+          "name": "Duricef",
+          "purpose": "antibiotic, infection prevention while drains are in place",
+          "dosage": "not provided",
+          "frequency": "as prescribed"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "left pelvic sarcoma"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.95,
+      "consistency_score": 1.0,
+      "confidence_score": 0.95,
+      "overall_score": 0.9833333333333334,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 0.95,
+        "treatments": 1.0,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Diagnosis 'deconditioning' not clearly supported by text",
+        "Age inconsistency: stated 44, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing a left groin mass and increased swelling in your left leg. Can you describe if the swelling or mass has changed in size, discomfort, or any other symptoms over the past few weeks?"
+    },
+    {
+      "role": "Patient",
+      "content": "Uh, yeah, thanks for seeing me. Honestly, my main concern right now is the pain where I had the surgery\u2014it\u2019s been pretty uncomfortable lately. I\u2019m not sure if that\u2019s normal after the operation or if something else is going on."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing your concerns about the post-operative pain\u2014that\u2019s completely understandable, and I want to make sure we address your discomfort. Can you tell me if the pain at your surgical site is constant, or does it come and go, and have you noticed any redness, swelling, or drainage from the area since your operation?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 the pain at the surgical site is pretty much always there, but it gets worse if I move around too much. I haven\u2019t really noticed any drainage or anything like that. Actually, I\u2019ve also been having some oral pain lately, which has been bothering me too."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for letting me know about both your post-operative pain and the new oral discomfort. To help guide my assessment, can you describe the oral pain in more detail\u2014such as where it is located, whether it\u2019s constant or comes and goes, and if you\u2019ve noticed any swelling, sores, or difficulty eating?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, um\u2026 the oral pain is mostly on the left side of my mouth. It kind of comes and goes, but lately it\u2019s been more constant. I haven\u2019t really seen any pains, but eating\u2019s been a little harder because of it. And, uh, the pain from the left groin mass is still there too\u2014it just feels uncomfortable most of the time."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms in detail. To better understand your condition, can you tell me if the numbness on the lateral aspect of your left thigh has changed recently\u2014either in terms of severity, area affected, or whether it is constant or intermittent?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Yeah, the numbness on the side of my left thigh has kind of gotten a bit worse, I think. It used to come and go, but now it feels pretty constant. And, um, the swelling in my left leg seems to have increased too\u2014it just feels heavier and more uncomfortable lately. Should I be worried about that?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with the increase in swelling and numbness in your left leg\u2014those symptoms can be concerning after surgery. To help with my assessment, have you noticed any changes in skin color, temperature, or the development of any wounds or ulcers on your left leg since these symptoms have worsened?"
+    },
+    {
+      "role": "Patient",
+      "content": "Uh, let me think\u2026 I haven\u2019t noticed any wounds or ulcers on my left leg, and the skin color looks about the same to me. Maybe it feels a little cooler sometimes, but I\u2019m not totally sure. I do have some mild weakness when I try to lift my leg\u2014like with hip flexion\u2014and actually, both of my legs and feet seem more swollen than before. It\u2019s just really uncomfortable, and I\u2019m hoping to get some relief."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing these details about your symptoms. To further guide my assessment, have you experienced any changes in sensation\u2014such as tingling, burning, or loss of experiencing\u2014beyond the numbness on the lateral aspect of your left thigh, either in your lower leg or foot?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2014now that you mention it, I\u2019ve noticed some tingling in my left foot, especially around the heel. It\u2019s not as strong as the numbness on my thigh, but it\u2019s there. I did have a soft tissue injury on my left heel a while back, and I\u2019m not sure if that\u2019s related or not. \n\nAlso, I wanted to ask\u2014could all these symptoms be from the pelvic mass? It just feels like everything\u2019s kind of connected, and I\u2019m honestly pretty uncomfortable most of the time. Is there anything else I should be doing to help with the swelling or pain?"
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing that you\u2019ve noticed increased swelling and persistent numbness. To help with my assessment, have you experienced any difficulty with movement or walking\u2014such as changes in your gait, increased fatigue, or instability\u2014since these symptoms have progressed?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, I have noticed it\u2019s harder to get around lately. My legs feel heavy from all the edema, and I get tired a lot quicker than I used to\u2014like, even just walking across the room wears me out now. I guess you could say I\u2019m pretty deconditioned at this point. Sometimes I feel a little unsteady, especially if I try to stand up too fast.\n\nIs there anything I can do to help with the lower extremity edema or build my strength back up? I just want to feel a little more comfortable and maybe get some relief from all this swelling and pain."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for explaining how the swelling and numbness are affecting your mobility and daily activities. To further guide my assessment, have you noticed any changes in bladder or bowel function\u2014such as difficulty urinating, incontinence, or constipation\u2014since your symptoms of lower extremity swelling and numbness have progressed?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, um\u2026 actually, now that you ask, I have had a bit more trouble with constipation lately. I don\u2019t think I\u2019ve had any symptoms with urinating or incontinence, but the constipation has definitely gotten worse since the lower extremity swelling started increasing. It\u2019s just one more thing making me uncomfortable.\n\nIs that something I should be worried about? Could the pelvic mass or all this edema be causing it? I just want to make sure I\u2019m not missing anything serious, and honestly, I\u2019d really appreciate any advice on how to get some relief from all these symptoms."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious, especially with the persistent swelling, numbness, and discomfort you\u2019ve described. Based on your symptoms\u2014including increased left leg edema, constant numbness on the lateral thigh, weakness with hip flexion, and worsening constipation\u2014it\u2019s possible that the pelvic mass is affecting nearby nerves and blood vessels, contributing to both your neurological and vascular symptoms. To help guide my assessment further, have you experienced any new or worsening back pain, or pain radiating from your pelvis into your lower back or down your leg?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2014I have noticed some new back pain lately. It\u2019s mostly in my lower back, and sometimes it feels like it\u2019s radiating from the pelvis down into my left leg. The pain isn\u2019t always sharp, but it\u2019s kind of a deep pain that just sticks around, and it gets worse if I\u2019m up for too long or try to move around more than usual.\n\nWith all these neurological and vascular symptoms\u2014like the edema, numbness, and weakness\u2014should I be worried about permanent nerve damage? And is there anything else I can do besides just taking pain meds? I\u2019m honestly just really uncomfortable and hoping there\u2019s something that can help with the swelling and pain."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious, especially with the persistent swelling, numbness, and discomfort you\u2019ve described. Based on your symptoms\u2014including increased left leg edema, constant numbness on the lateral thigh, mild weakness, and new lower back pain\u2014it\u2019s possible that the pelvic mass is compressing nerves and blood vessels, which can sometimes lead to long-term effects if not addressed. To help guide my assessment, have you noticed any changes in muscle strength or ability to move your left foot or toes since your symptoms have progressed?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, I think there\u2019s been a little bit of a change with my left foot. It\u2019s not like I can\u2019t move my toes or anything, but sometimes it feels weaker, especially if I try to flex my foot up or wiggle my toes for a while. It just gets tired faster than it used to, and sometimes there\u2019s that tingling or numb feeling around the heel and foot. \n\nHonestly, all these symptoms\u2014the edema, numbness, weakness, and now the lower back pain\u2014are making me pretty anxious. Should I be worried about permanent nerve damage from the pelvic mass compressing those nerves and blood vessels? Is there anything more I can do besides just managing the pain with medication? I\u2019d really appreciate any advice or options for getting some relief and maybe preventing symptoms from getting worse."
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing a left groin mass and increased swelling in your left leg. Can you describe if the swelling or mass has changed in size, discomfort, or any other symptoms over the past few weeks?\nPatient: Uh, yeah, thanks for seeing me. Honestly, my main concern right now is the pain where I had the surgery\u2014it\u2019s been pretty uncomfortable lately. I\u2019m not sure if that\u2019s normal after the operation or if something else is going on.\nDoctor: Thank you for sharing your concerns about the post-operative pain\u2014that\u2019s completely understandable, and I want to make sure we address your discomfort. Can you tell me if the pain at your surgical site is constant, or does it come and go, and have you noticed any redness, swelling, or drainage from the area since your operation?\nPatient: Well, um\u2026 the pain at the surgical site is pretty much always there, but it gets worse if I move around too much. I haven\u2019t really noticed any drainage or anything like that. Actually, I\u2019ve also been having some oral pain lately, which has been bothering me too.\nDoctor: Thank you for letting me know about both your post-operative pain and the new oral discomfort. To help guide my assessment, can you describe the oral pain in more detail\u2014such as where it is located, whether it\u2019s constant or comes and goes, and if you\u2019ve noticed any swelling, sores, or difficulty eating?\nPatient: Yeah, um\u2026 the oral pain is mostly on the left side of my mouth. It kind of comes and goes, but lately it\u2019s been more constant. I haven\u2019t really seen any pains, but eating\u2019s been a little harder because of it. And, uh, the pain from the left groin mass is still there too\u2014it just feels uncomfortable most of the time.\nDoctor: Thank you for describing your symptoms in detail. To better understand your condition, can you tell me if the numbness on the lateral aspect of your left thigh has changed recently\u2014either in terms of severity, area affected, or whether it is constant or intermittent?\nPatient: Let me think\u2026 Yeah, the numbness on the side of my left thigh has kind of gotten a bit worse, I think. It used to come and go, but now it feels pretty constant. And, um, the swelling in my left leg seems to have increased too\u2014it just feels heavier and more uncomfortable lately. Should I be worried about that?\nDoctor: I can understand why you\u2019d be worried, especially with the increase in swelling and numbness in your left leg\u2014those symptoms can be concerning after surgery. To help with my assessment, have you noticed any changes in skin color, temperature, or the development of any wounds or ulcers on your left leg since these symptoms have worsened?\nPatient: Uh, let me think\u2026 I haven\u2019t noticed any wounds or ulcers on my left leg, and the skin color looks about the same to me. Maybe it feels a little cooler sometimes, but I\u2019m not totally sure. I do have some mild weakness when I try to lift my leg\u2014like with hip flexion\u2014and actually, both of my legs and feet seem more swollen than before. It\u2019s just really uncomfortable, and I\u2019m hoping to get some relief.\nDoctor: Thank you for sharing these details about your symptoms. To further guide my assessment, have you experienced any changes in sensation\u2014such as tingling, burning, or loss of experiencing\u2014beyond the numbness on the lateral aspect of your left thigh, either in your lower leg or foot?\nPatient: Yeah, actually\u2014now that you mention it, I\u2019ve noticed some tingling in my left foot, especially around the heel. It\u2019s not as strong as the numbness on my thigh, but it\u2019s there. I did have a soft tissue injury on my left heel a while back, and I\u2019m not sure if that\u2019s related or not. \n\nAlso, I wanted to ask\u2014could all these symptoms be from the pelvic mass? It just feels like everything\u2019s kind of connected, and I\u2019m honestly pretty uncomfortable most of the time. Is there anything else I should be doing to help with the swelling or pain?\nDoctor: Thank you for sharing that you\u2019ve noticed increased swelling and persistent numbness. To help with my assessment, have you experienced any difficulty with movement or walking\u2014such as changes in your gait, increased fatigue, or instability\u2014since these symptoms have progressed?\nPatient: Yeah, I have noticed it\u2019s harder to get around lately. My legs feel heavy from all the edema, and I get tired a lot quicker than I used to\u2014like, even just walking across the room wears me out now. I guess you could say I\u2019m pretty deconditioned at this point. Sometimes I feel a little unsteady, especially if I try to stand up too fast.\n\nIs there anything I can do to help with the lower extremity edema or build my strength back up? I just want to feel a little more comfortable and maybe get some relief from all this swelling and pain.\nDoctor: Thank you for explaining how the swelling and numbness are affecting your mobility and daily activities. To further guide my assessment, have you noticed any changes in bladder or bowel function\u2014such as difficulty urinating, incontinence, or constipation\u2014since your symptoms of lower extremity swelling and numbness have progressed?\nPatient: Yeah, um\u2026 actually, now that you ask, I have had a bit more trouble with constipation lately. I don\u2019t think I\u2019ve had any symptoms with urinating or incontinence, but the constipation has definitely gotten worse since the lower extremity swelling started increasing. It\u2019s just one more thing making me uncomfortable.\n\nIs that something I should be worried about? Could the pelvic mass or all this edema be causing it? I just want to make sure I\u2019m not missing anything serious, and honestly, I\u2019d really appreciate any advice on how to get some relief from all these symptoms.\nDoctor: I can understand why you\u2019re experiencing anxious, especially with the persistent swelling, numbness, and discomfort you\u2019ve described. Based on your symptoms\u2014including increased left leg edema, constant numbness on the lateral thigh, weakness with hip flexion, and worsening constipation\u2014it\u2019s possible that the pelvic mass is affecting nearby nerves and blood vessels, contributing to both your neurological and vascular symptoms. To help guide my assessment further, have you experienced any new or worsening back pain, or pain radiating from your pelvis into your lower back or down your leg?\nPatient: Yeah, actually\u2014I have noticed some new back pain lately. It\u2019s mostly in my lower back, and sometimes it feels like it\u2019s radiating from the pelvis down into my left leg. The pain isn\u2019t always sharp, but it\u2019s kind of a deep pain that just sticks around, and it gets worse if I\u2019m up for too long or try to move around more than usual.\n\nWith all these neurological and vascular symptoms\u2014like the edema, numbness, and weakness\u2014should I be worried about permanent nerve damage? And is there anything else I can do besides just taking pain meds? I\u2019m honestly just really uncomfortable and hoping there\u2019s something that can help with the swelling and pain.\nDoctor: I can understand why you\u2019re experiencing anxious, especially with the persistent swelling, numbness, and discomfort you\u2019ve described. Based on your symptoms\u2014including increased left leg edema, constant numbness on the lateral thigh, mild weakness, and new lower back pain\u2014it\u2019s possible that the pelvic mass is compressing nerves and blood vessels, which can sometimes lead to long-term effects if not addressed. To help guide my assessment, have you noticed any changes in muscle strength or ability to move your left foot or toes since your symptoms have progressed?\nPatient: Yeah, I think there\u2019s been a little bit of a change with my left foot. It\u2019s not like I can\u2019t move my toes or anything, but sometimes it feels weaker, especially if I try to flex my foot up or wiggle my toes for a while. It just gets tired faster than it used to, and sometimes there\u2019s that tingling or numb feeling around the heel and foot. \n\nHonestly, all these symptoms\u2014the edema, numbness, weakness, and now the lower back pain\u2014are making me pretty anxious. Should I be worried about permanent nerve damage from the pelvic mass compressing those nerves and blood vessels? Is there anything more I can do besides just managing the pain with medication? I\u2019d really appreciate any advice or options for getting some relief and maybe preventing symptoms from getting worse.\n[Simulation ended due to detected conversation loop]",
+  "clinical_note": "Patient presents with: back pain, some oral pain lately, having some oral pain lately, fatigue, constipation. Assessment: possible compression of nerves and blood vessels by pelvic mass. Plan: surgery, pain medication (mentioned by patient as current management), recommendations for symptom relief and prevention of worsening (patient requested advice). Extracted: 27 symptoms, 1 diagnoses, 3 treatments.",
+  "annotations": {
+    "symptoms": [
+      "back pain",
+      "some oral pain lately",
+      "having some oral pain lately",
+      "fatigue",
+      "constipation",
+      "numbness",
+      "weakness",
+      "tired",
+      "tingling",
+      "left groin mass",
+      "increased swelling in left leg",
+      "post-operative pain at surgical site",
+      "oral pain (left side of mouth)",
+      "difficulty eating",
+      "pain from left groin mass",
+      "numbness on lateral aspect of left thigh",
+      "bilateral leg and foot swelling",
+      "heaviness in legs",
+      "mild weakness with hip flexion",
+      "tingling in left foot (around heel)",
+      "history of soft tissue injury on left heel",
+      "difficulty with movement and walking",
+      "increased fatigue",
+      "unsteady gait",
+      "new lower back pain radiating to left leg",
+      "anxiety about symptoms",
+      "weakness in left foot and toes"
+    ],
+    "diagnoses": [
+      "possible compression of nerves and blood vessels by pelvic mass"
+    ],
+    "treatments": [
+      "surgery",
+      "pain medication (mentioned by patient as current management)",
+      "recommendations for symptom relief and prevention of worsening (patient requested advice)"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.880 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 1.000 \u2705\n\u2022 Dialogue Naturalness: 0.859 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n1. **Medical Communication Safety and Appropriateness:**\n   - The doctor consistently demonstrates safe, responsible, and clinically appropriate communication. There is no evidence of harmful advice or inappropriate reassurance. The doctor repeatedly acknowledges the patient\u2019s concerns, clarifies symptoms, and explores relevant red-flag features (e.g., changes in sensation, weakness, bowel/bladder function, back pain).\n   - The doctor\u2019s explanations about possible nerve and vascular compression by the pelvic mass are accurate and appropriately cautious, emphasizing the need for further assessment without making unsupported promises or diagnoses.\n   - The doctor does not offer any unsafe recommendations or dismiss the patient\u2019s symptoms.\n\n2. **Natural and Believable Patient Behavior:**\n   - The patient\u2019s responses are consistent with someone experiencing ongoing discomfort and anxiety after surgery. There is progressive disclosure of symptoms (oral pain, worsening edema, new neurological symptoms), which is typical as trust builds and the interview deepens.\n   - The patient expresses uncertainty (\u201cI\u2019m not sure if that\u2019s normal after the operation\u201d), seeks reassurance (\u201cShould I be worried?\u201d), and asks for practical advice\u2014these are all realistic behaviors.\n   - Emotional responses (anxiety, frustration, desire for relief) are believable and appropriately modulated throughout.\n\n3. **Empathy and Professionalism:**\n   - The doctor repeatedly validates the patient\u2019s concerns (\u201cI can understand why you\u2019d be worried...\u201d), uses empathetic language, and maintains a patient-centered approach.\n   - The doctor\u2019s tone is supportive, avoids judgment, and focuses on understanding the full scope of the patient\u2019s symptoms before making recommendations.\n\n4. **Meaningful Medical Purpose:**\n   - The conversation follows a logical clinical progression: initial symptom clarification, exploration of associated symptoms (neurological, vascular, gastrointestinal), assessment of functional impact, and consideration of possible complications.\n   - Each exchange serves to gather clinically relevant information or address the patient\u2019s concerns directly.\n   - The dialogue does not veer into irrelevant topics or lose focus on the medical issue at hand.\n\n5. **Dialogue Flow and Realism:**\n   - The conversation flows naturally, with appropriate turn-taking. The doctor\u2019s questions build on previous answers, and the patient\u2019s responses reflect both new information and emotional context.\n   - Some repetition in phrasing (\u201cI can understand why you\u2019re anxious...\u201d) is realistic in clinical encounters, especially when addressing ongoing distress.\n   - The simulation ends due to a detected loop, but up to that point, the conversation remains plausible and purposeful.\n\n**Summary:**  \nThis dialogue exemplifies a realistic medical encounter: it is clinically safe, patient-centered, empathetic, and focused on gathering information to guide further management. Both doctor and patient behaviors are believable, and the conversation serves a clear medical purpose throughout.\n\n**Minor Imperfections:**  \n- There is some repetition in the doctor\u2019s empathetic statements and a slight tendency toward looping in the final exchanges. However, these are common in real clinical conversations, especially when patients are anxious or when symptoms are complex.\n\n**Conclusion:**  \nThe dialogue meets all criteria for realism and clinical appropriateness.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.880)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.264/0.3 (Score: 0.880)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 1.0,
+      "naturalness": 0.859,
+      "safety": 0.88,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 79.58010458946228,
+  "dialogue_stats": {
+    "turn_count": 20,
+    "word_count": 1417,
+    "doctor_turns": 10,
+    "patient_turns": 10
+  }
+}

@@ -6,13 +6,13 @@
     {
       "turn_id": 0,
       "role": "Doctor",
-      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing dyspnea and episodes of low blood pressure. Can you tell me more about when your symptoms of shortness of breath and hypotension first began and if anything assessms to make them better or worse?",
+      "utterance_text": "Hello, thank you for coming in today. I understand you have been experiencing dyspnea and episodes of low blood pressure. Can you tell me more about when your shortness of breath began and how it has been affecting your daily activities?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Chitchat",
           "slot": "Other",
-          "value": "Hello, thank you for coming in today."
+          "value": "greeting"
         },
         {
           "label_type": "action",
@@ -24,26 +24,32 @@
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "episodes of low blood pressure"
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Time",
-          "value": "when your symptoms of shortness of breath and hypotension first began"
+          "value": "when shortness of breath began"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Effect",
-          "value": "if anything seems to make them better or worse"
+          "value": "how it has been affecting daily activities"
         }
       ]
     },
     {
       "turn_id": 1,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 thank you for seeing me. I guess my main concern is this shortness of breath\u2014it just feels like I can\u2019t catch my breath, and it\u2019s gotten worse lately. I\u2019ve also noticed my blood pressure\u2019s been really low, at least that\u2019s what they told me. And, actually, my back\u2019s been hurting a lot too. I\u2019m just\u2026 I\u2019m pretty worried about all of this.",
+      "utterance_text": "Well, um\u2026 yes, I\u2019ve been having a lot of shortness of breath lately. It kind of started a few days ago, I think, and it\u2019s just gotten worse. I get winded really easily, even just sitting up or trying to move a little. And, uh\u2026 my back has been hurting too. I\u2019m just\u2026 I\u2019m worried because it feels like it\u2019s getting harder to catch my breath.",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -54,8 +60,8 @@
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "low blood pressure"
+          "slot": "Time",
+          "value": "started a few days ago"
         },
         {
           "label_type": "intent",
@@ -66,59 +72,65 @@
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Other",
-          "value": "worried about symptoms"
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
         }
       ]
     },
     {
       "turn_id": 2,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014shortness of breath and low blood pressure can be very unsettling symptoms. You mentioned your dyspnea has worsened recently; can you describe if it comes on suddenly or gradually, and whether it\u2019s constant or occurs at certain times, such as when lying down or with activity?",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your shortness of breath worsening and the discomfort in your back. To help guide my assessment, can you tell me if you\u2019ve noticed any dizziness, lightheadedness, or episodes where you felt like you might faint, which could suggest low blood pressure as part of your symptoms?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "shortness of breath"
+          "value": "shortness of breath worsening"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "low blood pressure"
+          "value": "discomfort in back"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "dyspnea"
+          "value": "dizziness"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
-          "slot": "Time",
-          "value": "sudden or gradual onset"
+          "slot": "Symptom",
+          "value": "lightheadedness"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
-          "slot": "Time",
-          "value": "constant or at certain times"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "occurs when lying down or with activity"
+          "slot": "Symptom",
+          "value": "episodes of feeling faint"
         }
       ]
     },
     {
       "turn_id": 3,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 the shortness of breath kind of came on gradually, I think. It\u2019s been getting worse over the past few days. Now it feels pretty constant, even when I\u2019m just lying down. I get really anxious because I just can\u2019t seem to catch my breath.",
+      "utterance_text": "Um\u2026 yes, I have felt kind of lightheaded a few times, especially when I try to sit up. It\u2019s like everything gets a little fuzzy for a second. But mostly, it\u2019s the shortness of breath that\u2019s really bothering me. I just feel anxious about it.",
       "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fuzzy vision when sitting up"
+        },
         {
           "label_type": "intent",
           "type_name": "Informing",
@@ -129,38 +141,26 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "worsening over the past few days"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "constant shortness of breath even at rest"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "anxiety due to difficulty breathing"
+          "value": "anxiety about shortness of breath"
         }
       ]
     },
     {
       "turn_id": 4,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried\u2014experiencing short of breath and noticing your blood pressure is very low can be quite distressing. To help me with my assessment, can you tell me if you\u2019ve noticed any swelling in your legs, chest discomfort, or changes in your urine output along with these symptoms?",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with your shortness of breath getting worse and episodes of lightheadedness. To help with my assessment, have you noticed any swelling in your legs, chest discomfort, or changes in your urine output along with these symptoms?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "short of breath"
+          "value": "shortness of breath"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "blood pressure is very low"
+          "value": "lightheadedness"
         },
         {
           "label_type": "action",
@@ -185,55 +185,37 @@
     {
       "turn_id": 5,
       "role": "Patient",
-      "utterance_text": "Let me think\u2026 Well, I haven\u2019t really noticed much swelling in my legs, but I do feel kind of puffy all over, especially in my belly. I haven\u2019t had any real chest discomfort, just this back pain that\u2019s been bothering me. As for my urine, I think I\u2019m making less than usual\u2014maybe not going as often. \n\nAnd, um, they told me my blood pressure\u2019s been really low\u2014like systolic in the 40s? My heart\u2019s been racing too, up to the 140s sometimes. That\u2019s part of why I\u2019m so anxious. Should I be worried about that?",
+      "utterance_text": "Well\u2026 let me think. I haven\u2019t really noticed much swelling in my legs, at least not that I can tell. I don\u2019t have chest discomfort exactly, but my heart\u2019s been racing a lot\u2014like, really fast sometimes. I think they said my heart rate was in the 140s? And, um, the nurses mentioned my blood pressure was pretty low\u2014something about systolic blood pressures in the 40s. That made me a bit more anxious, honestly. As for urine, I\u2019m not sure if it\u2019s changed much, but I haven\u2019t really been paying close attention. Should I be worried about all of this?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "puffy all over, especially in belly"
+          "value": "no noticeable swelling in legs"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "back pain"
+          "value": "no chest discomfort"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "making less urine than usual"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "not going as often to urinate"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "blood pressure\u2019s been really low"
+          "value": "heart racing"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Degree",
-          "value": "systolic in the 40s"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "heart\u2019s been racing"
+          "value": "heart rate in the 140s"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Degree",
-          "value": "heart rate up to the 140s"
+          "value": "systolic blood pressure in the 40s"
         },
         {
           "label_type": "intent",
@@ -243,40 +225,248 @@
         },
         {
           "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no noticeable change in urine"
+        },
+        {
+          "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Other",
-          "value": "Should I be worried about that?"
+          "value": "Should I be worried about all of this?"
         }
       ]
     },
     {
       "turn_id": 6,
       "role": "Doctor",
-      "utterance_text": "I can absolutely understand why you\u2019re experiencing anxious\u2014experiencing persistent dyspnea, severe hypotension, and a rapid heart rate would be very concerning for anyone. Given your symptoms and the fact that your abdomen feels more distended, have you noticed any nausea, vomiting, or changes in your bowel movements that might help us further assess your current condition?",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with your symptoms of severe shortness of breath, low blood pressure, and a racing heart. To help guide my assessment, have you experienced any sudden worsening of your dyspnea, such as experiencing like you cannot breathe when lying flat or waking up at night gasping for air?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "persistent dyspnea"
+          "value": "severe shortness of breath"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "severe hypotension"
+          "value": "low blood pressure"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "rapid heart rate"
+          "value": "racing heart"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden worsening of dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "cannot breathe when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "waking up at night gasping for air"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 actually, yes, I have noticed it\u2019s worse when I try to lie flat. I feel like I just can\u2019t get enough air and it makes me really anxious, so I\u2019ve been trying to stay propped up. I haven\u2019t really woken up gasping, but it\u2019s definitely harder to breathe at night.\n\nAnd, um, I overheard someone mention something about my potassium being high\u2014hyperkalemia, I think they called it? They also said something about lactic acidosis and my bicarbonate being low, around 18 or 19. I\u2019m not sure what all that means, but it sounded serious and it\u2019s making me more worried.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worse when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety due to difficulty breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to breathe at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "hyperkalemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "potassium level"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "lactic acidosis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "bicarbonate level around 18 or 19"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially after hearing about your elevated potassium and lactic acidosis\u2014these are important findings that can be serious and require close monitoring. To help with my assessment, have you noticed any changes in your mental status, such as confusion, difficulty concentrating, or experiencing unusually drowsy, since your symptoms of dyspnea and hypotension began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated potassium"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "lactic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in mental status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty concentrating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "unusual drowsiness"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "abdomen feels more distended"
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well\u2026 I guess I have felt a little more out of it than usual\u2014like, sometimes it\u2019s hard to focus or remember what someone just said. I don\u2019t know if that\u2019s just from being anxious or if it\u2019s something else. I haven\u2019t really been super drowsy, but I do feel kind of off.\n\nAlso, um, I\u2019ve noticed my abdomen\u2019s been getting bigger\u2014like, my belly feels really tight and swollen. I heard someone mention my peak airway pressures were up to 40, too. I\u2019m not sure what that means, but it sounded concerning. Is all of this connected?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty focusing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble remembering"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling off"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdomen getting bigger"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "belly feels tight and swollen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "peak airway pressures up to 40"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is all of this connected?"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your symptoms of increasing abdominal distension, difficulty focusing, and severe shortness of breath. Given your low blood pressure and the tight, swollen abdomen you described, have you experienced any nausea, vomiting, or changes in your bowel movements that could help guide my assessment of your current condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty focusing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "severe shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tight, swollen abdomen"
         },
         {
           "label_type": "action",
@@ -299,229 +489,15 @@
       ]
     },
     {
-      "turn_id": 7,
-      "role": "Patient",
-      "utterance_text": "Um\u2026 actually, now that you mention it, I have felt kind of nauseous, but I haven\u2019t really vomited. My bowel movements have slowed down a lot\u2014almost like I\u2019m constipated. My abdomen just feels really tight and uncomfortable, and it\u2019s definitely more distended than usual.\n\nThey also mentioned something about my potassium being high\u2014hyperkalemia, I think? And lactic acidosis\u2026 my bicarbonate was low, around 18 or 19, and the ABG showed a pH of 7.17. I\u2019m just\u2026 I\u2019m really worried because all these numbers sound bad. Is this something serious?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "nausea"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no vomiting"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "constipation"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abdominal tightness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abdominal discomfort"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abdominal distension"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "potassium high"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease",
-          "value": "hyperkalemia"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease",
-          "value": "lactic acidosis"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "bicarbonate low (18 or 19)"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "ABG pH 7.17"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "Is this something serious?"
-        }
-      ]
-    },
-    {
-      "turn_id": 8,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried\u2014your symptoms and these laboratory findings are understandably concerning. Given your persistent dyspnea and severe hypotension, have you noticed any changes in your mental status, such as confusion, drowsiness, or difficulty staying alert, that might help us further assess the severity of your condition?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "persistent dyspnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "severe hypotension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "changes in mental status"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "confusion"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "drowsiness"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "difficulty staying alert"
-        }
-      ]
-    },
-    {
-      "turn_id": 9,
-      "role": "Patient",
-      "utterance_text": "Well\u2026 I guess I have felt a bit more drowsy and kind of out of it lately, especially since all this started getting worse. Sometimes it\u2019s hard to stay fully alert, and I get confused about what day it is. \n\nAlso, my abdomen keeps getting bigger\u2014like, the girth is definitely increasing. They mentioned something about my peak airway pressures going up to 40, which I think is making it even harder to breathe. I\u2019m just really anxious about all these changes. Should I be worried about the abdominal distension and the airway pressures too?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "drowsy"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "confusion about what day it is"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abdominal distension"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "difficulty breathing"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Other",
-          "value": "peak airway pressures going up to 40"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "concern about abdominal distension and airway pressures"
-        }
-      ]
-    },
-    {
-      "turn_id": 10,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the increasing abdominal distension and difficulty breathing. To help with my assessment, have you noticed any changes in your ability to move your legs or any numbness or tingling, which could suggest that the abdominal distension is affecting your circulation or nerves?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abdominal distension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "difficulty breathing"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "changes in ability to move legs"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "numbness or tingling"
-        }
-      ]
-    },
-    {
       "turn_id": 11,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 since symptoms got worse, I actually ended up being intubated and sedated, so it\u2019s been hard to really notice changes in my legs or anything like that. Before that, I didn\u2019t really feel numbness or tingling, but honestly, it\u2019s all kind of a blur now. \n\nThey did mention I have a protuberant ventral hernia and that my abdomen is really distended. I overheard someone say my bowel sounds were hypoactive, too. I\u2019m just worried because everything seems to be getting worse\u2014my breathing, the abdominal distension, and now all these numbers like the high potassium and lactic acidosis. \n\nIs this something that can be fixed? Should I be worried about all these complications?",
+      "utterance_text": "Well\u2026 actually, now that you mention it, I haven\u2019t really had any bowel movements lately, and my stomach just keeps getting more distended. I haven\u2019t felt much nausea or vomiting, but honestly, it\u2019s been hard to tell because I\u2019ve been so out of it. I heard the team mention my bowel sounds were hypoactive, and they said something about a protuberant ventral hernia. \n\nAlso, I\u2019m intubated and sedated a lot of the time now, so it\u2019s hard for me to know exactly what\u2019s going on with my body. My abdomen just feels really tight and uncomfortable whenever I\u2019m awake. Should I be worried about all these symptoms happening together? Is this all related to my heart and blood pressure symptoms, or is it something else?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "worsening symptoms"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "intubated and sedated"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no numbness or tingling before intubation"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease",
-          "value": "protuberant ventral hernia"
+          "value": "no bowel movements"
         },
         {
           "label_type": "intent",
@@ -532,51 +508,167 @@
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Check_item",
+          "slot": "Symptom",
+          "value": "no significant nausea or vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
           "value": "hypoactive bowel sounds"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "worsening breathing"
+          "value": "protuberant ventral hernia"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "high potassium"
+          "slot": "Symptom",
+          "value": "intubated and sedated"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "lactic acidosis"
+          "slot": "Symptom",
+          "value": "tight and uncomfortable abdomen"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Is this something that can be fixed?"
+          "slot": "Other",
+          "value": "Should I be worried about all these symptoms happening together?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Should I be worried about all these complications?"
+          "slot": "Other",
+          "value": "Is this all related to my heart and blood pressure symptoms, or is it something else?"
         }
       ]
     },
     {
       "turn_id": 12,
       "role": "Doctor",
-      "utterance_text": "I can absolutely understand why you\u2019re experiencing anxious given the severity and progression of your symptoms. To further guide my assessment, have you experienced any chest pain, palpitations, or episodes of syncope in association with your dyspnea and hypotension?",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the increasing abdominal distension, low blood pressure, and difficulty breathing. To help guide my assessment, have you noticed any changes in the color of your urine or a significant decrease in urine output, which could suggest impaired kidney function as part of your current condition?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "anxious"
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in the color of urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decrease in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "impaired kidney function"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well\u2026 I think my urine output has definitely gone down. The nurses have mentioned it a few times, and I remember someone saying something about renal insufficiency. I haven\u2019t really noticed the color myself, but I think it\u2019s been less than usual.\n\nActually, I overheard the team talking about right renal arterial bleeding and multiple foci of active extravasation in my right renal artery branches. That sounds pretty serious to me. Is that why my kidneys aren\u2019t working well? And is all of this\u2014like the low blood pressure, the abdominal swelling, and the shortness of breath\u2014connected to the renal insufficiency and bleeding? I\u2019m just really anxious about everything that\u2019s happening.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "renal insufficiency"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "right renal arterial bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "connection between renal insufficiency, bleeding, and other symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "anxiety about current medical situation"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with all these symptoms and the information you\u2019ve overheard about your condition. Given your severe dyspnea and persistent hypotension, have you experienced any chest pain, palpitations, or new onset of irregular heartbeats that could help guide my assessment of your cardiovascular status?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be anxious, especially with all these symptoms and the information you\u2019ve overheard about your condition."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "severe dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent hypotension"
         },
         {
           "label_type": "action",
@@ -594,604 +686,38 @@
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "syncope"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "dyspnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "hypotension"
-        }
-      ]
-    },
-    {
-      "turn_id": 13,
-      "role": "Patient",
-      "utterance_text": "Thank you for explaining everything and for asking all these questions. Um, I haven\u2019t really had chest pain, but my heart has definitely been racing\u2014a lot of palpitations, especially when my blood pressure drops. I haven\u2019t passed out completely, but I\u2019ve felt really lightheaded, almost like I might faint sometimes.\n\nActually, they told me I have right renal arterial bleeding and some renal insufficiency. There were multiple foci of active extravasation in the right renal artery branches, and they mentioned possible pseudoaneurysms. I\u2019m not sure what all that means, but it sounds pretty serious. \n\nWith all these symptoms\u2014like the uncontrolled hypertension before, now the hypotension, the heart rate, the kidney symptoms\u2014I\u2019m just really anxious. Is there a way to get this under control? Should I be worried about permanent damage?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "Thank you for explaining everything and for asking all these questions."
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "heart racing, a lot of palpitations"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "lightheaded, almost like I might faint"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no chest pain"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease",
-          "value": "right renal arterial bleeding"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease",
-          "value": "renal insufficiency"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "multiple foci of active extravasation in the right renal artery branches"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "possible pseudoaneurysms"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "uncontrolled hypertension before, now hypotension"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "kidney symptoms"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "anxious"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Is there a way to get this under control?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Should I be worried about permanent damage?"
-        }
-      ]
-    },
-    {
-      "turn_id": 14,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious, especially with your symptoms of persistent dyspnea and severe hypotension. To help with my assessment, have you noticed any changes in your oxygenation status, such as increased need for supplemental oxygen or worsening hypoxemia, since your abdominal distension and other symptoms have progressed?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "persistent dyspnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "severe hypotension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "changes in oxygenation status"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "increased need for supplemental oxygen"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "worsening hypoxemia"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abdominal distension"
+          "value": "new onset of irregular heartbeats"
         }
       ]
     },
     {
       "turn_id": 15,
       "role": "Patient",
-      "utterance_text": "Yes, actually\u2026 my oxygenation status has definitely gotten worse. I\u2019m on a lot more supplemental oxygen now, and even with that, my numbers have been low. I heard someone say my PaO2 was only 46 even though I was on 100% FiO2 and PEEP of 15. That really worries me. \n\nThey also mentioned something about multiple foci of active extravasation in my right renal artery branches, and possible foci of contained extravasation or pseudoaneurysms. I don\u2019t fully understand what all that means, but it sounds serious. \n\nWith all these changes\u2014my worsening hypoxemia, the abdominal distension, and the bleeding in my kidney\u2014I\u2019m just really anxious. Is there anything that can be done to turn this around? Should I be worried about long-term complications?",
+      "utterance_text": "Well\u2026 I haven\u2019t really had chest pain, not like the kind I had when I needed my stent before. But my heart does feel like it\u2019s racing a lot\u2014palpitations, I guess\u2014and sometimes it feels a little irregular, though it\u2019s hard to tell with everything else going on. I know they said my heart rate was up in the 140s, and the blood pressure\u2019s been really low.\n\nI\u2019m just so anxious because I overheard the team talking about multiple foci of active extravasation in my right renal artery branches, and possible foci of contained extravasation or pseudoaneurysms. That sounds really serious, and I\u2019m worried it\u2019s all connected\u2014like the bleeding, the renal insufficiency, the low blood pressure, and the shortness of breath. Is this something that can be fixed? Should I be worried about long-term damage?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "worsening oxygenation status"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "supplemental oxygen"
+          "value": "palpitations"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "low oxygen saturation despite supplemental oxygen"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "PaO2 was 46"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "100% FiO2 and PEEP of 15"
+          "value": "irregular heart beat"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "abdominal distension"
+          "value": "elevated heart rate (in the 140s)"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "bleeding in kidney"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "multiple foci of active extravasation in right renal artery branches"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "possible foci of contained extravasation or pseudoaneurysms"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Is there anything that can be done to turn this around?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Should I be worried about long-term complications?"
-        }
-      ]
-    },
-    {
-      "turn_id": 16,
-      "role": "Doctor",
-      "utterance_text": "I can absolutely understand why you\u2019re experiencing anxious, given your persistent dyspnea, severe hypotension, worsening abdominal distension, and the concerning laboratory findings such as elevated lactate and acidosis. Based on your symptoms and recent examination findings, I\u2019d like to clarify\u2014have you experienced any sudden changes in your level of consciousness or difficulty responding to those around you, which could help us further assess the severity of your current condition?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "persistent dyspnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "severe hypotension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening abdominal distension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "elevated lactate"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "acidosis"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "sudden changes in level of consciousness"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "difficulty responding to those around you"
-        }
-      ]
-    },
-    {
-      "turn_id": 17,
-      "role": "Patient",
-      "utterance_text": "Well, um\u2026 yes, I have noticed some changes. There have been times when I felt really out of it, almost like I was drifting in and out or just couldn\u2019t focus on what people were saying. It\u2019s hard to remember everything, but I know there were moments where I just wasn\u2019t as responsive as usual. I think it\u2019s gotten worse as my symptoms have progressed.\n\nAlso, they mentioned something about abnormal renal contrast withholding with delayed clearance\u2014so my kidneys aren\u2019t clearing symptoms out the way they should. Before all this, I had symptoms with uncontrolled hypertension, but now my blood pressure is extremely low. \n\nWith the elevated lactate, worsening acidosis, and everything else going on, I\u2019m just really worried. Is this all connected? And is there anything that can be done to help my kidneys and get my blood pressure and oxygenation back to normal? Should I be worried about permanent damage from all these complications?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "felt really out of it, drifting in and out, couldn\u2019t focus, not as responsive"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "symptoms have progressed"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abnormal renal contrast withholding with delayed clearance"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "kidneys aren\u2019t clearing symptoms out the way they should"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "uncontrolled hypertension"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "blood pressure is extremely low"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "elevated lactate"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening acidosis"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Pathogeny",
-          "value": "Is this all connected?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Is there anything that can be done to help my kidneys and get my blood pressure and oxygenation back to normal?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Should I be worried about permanent damage from all these complications?"
-        }
-      ]
-    },
-    {
-      "turn_id": 18,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially given your persistent dyspnea, severe hypotension, worsening abdominal distension, and the laboratory findings of elevated lactate and acidosis. Based on your clinical presentation and recent examination, it appears your condition may be related to ongoing bleeding and possible abdominal compartment syndrome, which can severely affect organ function. To further guide my assessment, have you experienced any changes in your urine output or noticed if it has stopped completely, which would help us evaluate the extent of your renal insufficiency?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "persistent dyspnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "severe hypotension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening abdominal distension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "elevated lactate"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "acidosis"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "ongoing bleeding"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "abdominal compartment syndrome"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "changes in urine output"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "urine output stopped completely"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease",
-          "value": "renal insufficiency"
-        }
-      ]
-    },
-    {
-      "turn_id": 19,
-      "role": "Patient",
-      "utterance_text": "Yes, actually\u2026 my urine output has really decreased a lot. I think it\u2019s almost stopped at times, which is worrying me. Before, I was going less often, but now it seems like hardly anything is coming out. I know you mentioned renal insufficiency, and I\u2019m concerned that this could be making everything worse.\n\nThey also said something about diastolic congestive heart failure exacerbation, and my blood pressure has been extremely low\u2014systolic BPs in the 40s. I\u2019m just so anxious because it feels like everything is spiraling: the dyspnea, the hypotension, the abdominal distension, and now barely any urine.\n\nIs all of this connected to the abdominal compartment syndrome and the ongoing bleeding? And with my heart failure history, should I be worried about permanent organ damage? Is there anything that can be done to turn this around?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "decreased urine output"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "urine almost stopped"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "going less often to urinate"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "renal insufficiency"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "diastolic congestive heart failure"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "extremely low blood pressure"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "systolic BPs in the 40s"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "anxious"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "dyspnea"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "hypotension"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abdominal distension"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "abdominal compartment syndrome"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "ongoing bleeding"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease-history",
-          "value": "heart failure"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "permanent organ damage"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "anything that can be done to turn this around"
-        }
-      ]
-    },
-    {
-      "turn_id": 20,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried\u2014your symptoms of persistent dyspnea, severe hypotension, marked abdominal distension, decreased urine output, and worsening laboratory findings such as elevated lactate and acidosis are all very concerning and suggest that your organs are under significant stress, likely related to abdominal compartment syndrome from ongoing intra-abdominal bleeding. Based on this assessment, have you experienced any new or worsening pain, particularly in your abdomen or back, that could help us further evaluate the progression of your condition?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "persistent dyspnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "severe hypotension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "marked abdominal distension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "decreased urine output"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "elevated lactate"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "acidosis"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "abdominal compartment syndrome"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Pathogeny",
-          "value": "ongoing intra-abdominal bleeding"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "new or worsening pain in abdomen or back"
-        }
-      ]
-    },
-    {
-      "turn_id": 21,
-      "role": "Patient",
-      "utterance_text": "Yes, actually\u2026 the pain in my back has definitely gotten worse, and my abdomen feels really tight and uncomfortable\u2014almost like it\u2019s stretching from the inside. It\u2019s a lot more than before, and sometimes it\u2019s hard to tell if it\u2019s the back or the belly that pains more. I also heard someone mention \u201cflash pulmonary edema,\u201d and I think that\u2019s part of why my breathing got so much worse so quickly.\n\nMy blood pressure keeps dropping, too\u2014it seems like every time they examination, it\u2019s even lower. I\u2019m just really anxious because it feels like everything is getting worse all at once: the pain, the shortness of breath, the abdominal distension, and now barely any urine output.\n\nIs this all from the abdominal compartment syndrome and the bleeding? And with symptoms like the flash pulmonary edema and my blood pressure decreasing, is there still a chance to turn this around? Should I be worried about permanent damage to my organs?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "back pain"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abdominal tightness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abdominal discomfort"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening pain"
+          "value": "low blood pressure"
         },
         {
           "label_type": "intent",
@@ -1203,31 +729,135 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "abdominal distension"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "decreased urine output"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
           "value": "anxiety"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "previous stent placement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "multiple foci of active extravasation in right renal artery branches"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "possible foci of contained extravasation or pseudoaneurysms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "connection between bleeding, renal insufficiency, low blood pressure, and shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is this something that can be fixed?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried about long-term damage?"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with your symptoms of severe shortness of breath, low blood pressure, and the findings of renal arterial bleeding and renal insufficiency. Based on your clinical presentation\u2014including persistent hypotension, increasing abdominal distension, and laboratory evidence of lactic acidosis\u2014it appears that your symptoms may be related to ongoing internal bleeding and possible abdominal compartment syndrome, which can compromise organ function. To further guide my assessment, have you experienced any new or worsening pain in your abdomen during examination or when pressure is applied?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
           "slot": "Symptom",
-          "value": "decreasing blood pressure"
+          "value": "severe shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "renal arterial bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "renal insufficiency"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increasing abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "laboratory evidence of lactic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "ongoing internal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible abdominal compartment syndrome"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening abdominal pain during examination or when pressure is applied"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well\u2026 yes, actually, my abdomen does feel more uncomfortable, especially when anyone presses on it. It\u2019s not a sharp pain, but it\u2019s definitely more tender and just feels really tight and swollen\u2014almost like there\u2019s a lot of pressure inside. I remember someone mentioning high bladder pressures in the 20s, and I think that\u2019s related to what you called abdominal compartment syndrome?\n\nAlso, I overheard something about abnormal renal contrast withholding with delayed clearance. Does that mean my kidneys aren\u2019t clearing symptoms out like they should? And I know I\u2019ve had symptoms with uncontrolled hypertension before all this started, but now my blood pressure is really low. Is it normal for symptoms to change so quickly like this? Should I be worried about permanent organ damage from all these symptoms happening together?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal discomfort, tenderness, tightness, swelling, pressure"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "flash pulmonary edema"
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "uncontrolled hypertension"
         },
         {
           "label_type": "intent",
@@ -1238,14 +868,14 @@
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Pathogeny",
-          "value": "bleeding as cause of symptoms"
+          "slot": "Check_item",
+          "value": "abnormal renal contrast withholding with delayed clearance"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "chance to recover"
+          "slot": "Symptom",
+          "value": "change in symptoms"
         },
         {
           "label_type": "intent",
@@ -1256,64 +886,314 @@
       ]
     },
     {
-      "turn_id": 22,
+      "turn_id": 18,
       "role": "Doctor",
-      "utterance_text": "I can completely understand why you\u2019re experiencing anxious\u2014your symptoms of worsening dyspnea, severe hypotension, increasing abdominal distension, decreased urine output, and now significant pain are all very concerning and suggest your organs are under significant stress, likely due to abdominal compartment syndrome from ongoing intra-abdominal bleeding. Based on my assessment, urgent intervention is needed to relieve the abdominal pressure, control the bleeding, and support your organ function; this may involve surgical decompression and close monitoring in the intensive care unit. Have you been informed about any plans for surgical intervention or additional procedures to address the abdominal compartment syndrome and ongoing hemorrhage?",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your symptoms of severe abdominal discomfort, low blood pressure, and difficulty breathing. Based on your description and the laboratory findings of elevated lactate and acidosis, my assessment is that you may be experiencing organ dysfunction related to ongoing internal bleeding and increased intra-abdominal pressure. During your examination, have you noticed any changes in your ability to move your legs or any numbness or tingling, which could indicate compromised blood flow or nerve involvement due to abdominal compartment syndrome?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "abdominal compartment syndrome from ongoing intra-abdominal bleeding"
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "severe abdominal discomfort"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "worsening dyspnea, severe hypotension, increasing abdominal distension, decreased urine output, significant pain"
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "organ dysfunction related to ongoing internal bleeding and increased intra-abdominal pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated lactate"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ability to move legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "numbness or tingling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "abdominal compartment syndrome"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well\u2026 now that you mention it, I have noticed my legs feel kind of heavy and weak, especially when I try to move them. I wouldn\u2019t say they\u2019re numb exactly, but there\u2019s a bit of tingling sometimes, and it\u2019s definitely harder to move around than usual. I thought maybe it was just from being in bed so much, but with everything else going on, I\u2019m not sure.\n\nI also heard the team say something about a diastolic congestive heart failure exacerbation, and I know my blood pressure\u2019s been really low\u2014systolic BPs in the 40s, I think they said. That\u2019s making me even more anxious. Is it possible that all these symptoms\u2014like the abdominal compartment syndrome, the internal bleeding, and the heart failure\u2014are making each other worse? Should I be worried about my organs shutting down or something permanent happening?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "legs feel heavy and weak, tingling in legs, harder to move around"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "diastolic congestive heart failure exacerbation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": ""
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "systolic blood pressure in the 40s"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Are all these symptoms making each other worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried about my organs shutting down or something permanent happening?"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, given the severity and progression of your symptoms. Based on your description\u2014persistent hypotension, abdominal distension and tenderness, decreased urine output, weakness in your legs, and laboratory findings of elevated lactate and acidosis\u2014my assessment is that you are experiencing multi-organ dysfunction likely related to ongoing internal bleeding and abdominal compartment syndrome, which are also impacting your heart and kidneys. During your examination, have you noticed any changes in your breathing pattern or worsening shortness of breath when lying flat, which could indicate further compromise of your respiratory status due to abdominal pressure or heart failure?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "multi-organ dysfunction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "ongoing internal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "abdominal compartment syndrome"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "heart and kidney compromise"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension and tenderness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness in legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated lactate and acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in breathing pattern"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath when lying flat"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well\u2026 yes, actually, my breathing has definitely gotten worse, especially when I try to lie flat. It feels like I just can\u2019t get enough air, and it\u2019s really scary. I think someone mentioned I had flash pulmonary edema at one point, and my oxygen levels have been dropping even though I\u2019m on a lot of support. I heard them say my PaO2 was only 46 on 100% FiO2 and PEEP of 15, which sounds pretty bad.\n\nAnd my blood pressure keeps going down\u2014someone said it\u2019s been decreasing even more lately. I\u2019m just really anxious about all of this. With the multi-organ dysfunction you mentioned, and the abdominal compartment syndrome, is there anything that can be done to reverse this? Should I be worried about not making it through this?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening breathing, especially when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling of not getting enough air"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "flash pulmonary edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "PaO2 was 46 on 100% FiO2 and PEEP of 15"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood pressure keeps going down"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "is there anything that can be done to reverse this?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried about not making it through this?"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your symptoms of profound shortness of breath, low blood pressure, and evidence of multi-organ dysfunction. Based on my assessment, your condition is very serious\u2014ongoing internal bleeding and abdominal compartment syndrome are causing your organs to struggle, and your recent laboratory clinical findings show severe lactic acidosis, which means your clinical examination is not getting enough oxygen to vital tsymptoms. In this condition, urgent interventions\u2014such as surgical decompression, aggressive hemodynamic support, and management of bleeding\u2014are often necessary to try to reverse organ dysfunction. Are you aware of any discussions the medical team has had with you or your family about possible surgical intervention or goals of care?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "profound shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "multi-organ dysfunction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "ongoing internal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "abdominal compartment syndrome"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "recent laboratory clinical findings show severe lactic acidosis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not getting enough oxygen to vital organs"
         },
         {
           "label_type": "action",
           "type_name": "Recommendation",
           "slot": "Treatment",
-          "value": "urgent intervention to relieve abdominal pressure, control bleeding, support organ function; may involve surgical decompression and ICU monitoring"
+          "value": "urgent interventions such as surgical decompression, aggressive hemodynamic support, and management of bleeding"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "plans for surgical intervention or additional procedures to address abdominal compartment syndrome and ongoing hemorrhage"
+          "slot": "Other",
+          "value": "Are you aware of any discussions the medical team has had with you or your family about possible surgical intervention or goals of care?"
         }
       ]
     },
     {
       "turn_id": 23,
       "role": "Patient",
-      "utterance_text": "Thank you for explaining everything so clearly. I appreciate you being honest with me. Um, yes, I did hear the team mention something about possibly needing surgery to relieve the abdominal pressure and control the bleeding. They said it might be something called surgical decompression, and that I\u2019d need to be in the intensive care unit for close monitoring.\n\nI\u2019m honestly really anxious about all of this. My lactate levels have been rising\u2014from 5 to 7, I think\u2014and they keep saying my acidosis is getting worse. I know those are bad signs, right? Is there a good chance that surgery can help turn symptoms around, or should I be worried about permanent damage to my organs? And, um, what are the risks with a procedure like this, given all my other medical symptoms?",
+      "utterance_text": "Well\u2026 thank you for explaining all of that to me. I know symptoms are really serious right now. I did overhear some of the team talking about possible surgery\u2014something about surgical decompression and maybe needing to control the bleeding in my abdomen. I think they also mentioned talking to my family about goals of care, but honestly, everything\u2019s been happening so fast, it\u2019s hard to keep track.\n\nI\u2019m really anxious because I heard my lactate levels have gone up\u2014from 5 to 7\u2014and they said my acidosis is getting worse. I just\u2026 I want to understand, is there a real chance that surgery could help turn symptoms around? Or is it more likely that my organs might not recover even with intervention? I\u2019m worried about what happens if symptoms keep getting worse\u2014should I be thinking about what kind of care I want if I can\u2019t get better?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "possibly needing surgery to relieve the abdominal pressure and control the bleeding"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "surgical decompression"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Medical-place",
-          "value": "intensive care unit for close monitoring"
+          "slot": "Symptom",
+          "value": "anxious"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Check_item",
-          "value": "lactate levels have been rising\u2014from 5 to 7"
+          "value": "lactate levels increased from 5 to 7"
         },
         {
           "label_type": "intent",
@@ -1325,495 +1205,19 @@
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Treatment",
-          "value": "Is there a good chance that surgery can help turn symptoms around?"
+          "value": "Is there a real chance that surgery could help turn symptoms around?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "should I be worried about permanent damage to my organs?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "what are the risks with a procedure like this, given all my other medical symptoms?"
-        }
-      ]
-    },
-    {
-      "turn_id": 24,
-      "role": "Doctor",
-      "utterance_text": "I can absolutely understand why you\u2019re experiencing anxious\u2014your symptoms, including worsening dyspnea, severe hypotension, increasing abdominal distension, and rising lactate and acidosis, are very serious and understandably concerning. Surgical decompression and control of intra-abdominal bleeding are often critical interventions in cases like yours to relieve abdominal compartment syndrome and help restore organ function, though risks are higher given your medical history and current instability. Before proceeding, has the surgical team discussed the potential benefits and risks of the intervention with you or your family, and have they explained what to expect during the perioperative period?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening dyspnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "severe hypotension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "increasing abdominal distension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "rising lactate and acidosis"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "surgical decompression and control of intra-abdominal bleeding"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
           "slot": "Disease",
-          "value": "abdominal compartment syndrome"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "has the surgical team discussed the potential benefits and risks of the intervention with you or your family"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "have they explained what to expect during the perioperative period"
-        }
-      ]
-    },
-    {
-      "turn_id": 25,
-      "role": "Patient",
-      "utterance_text": "Thank you for explaining all of that. I really appreciate how thorough you\u2019re being\u2014it helps me feel a little more at ease, even though I\u2019m still very anxious. The surgical team did come by and talked to me and my family about the situation. They explained that surgical decompression is pretty urgent because my abdomen is persistently distended and they measured my bladder pressures in the 20s, which I guess is really high. They said that\u2019s a sign of abdominal compartment syndrome and that it\u2019s putting a lot of stress on my organs.\n\nThey did go over some of the risks\u2014like bleeding, infection, and the fact that my heart and kidneys are already under a lot of strain because of my other medical symptoms. I understand that the surgery could help relieve the pressure and maybe improve my organ function, but I\u2019m worried about what could go wrong, especially since my blood pressure is so low and my labs keep getting worse.\n\nCould you maybe explain a bit more about what happens during surgical decompression? And with my high bladder pressures and everything else going on, is there a good chance my organs will recover if the surgery goes well? Or should I be worried about permanent damage?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "persistently distended abdomen"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "bladder pressures in the 20s"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease",
-          "value": "abdominal compartment syndrome"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "organs under a lot of stress"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "heart and kidneys already under strain"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "low blood pressure"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "labs keep getting worse"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "what happens during surgical decompression"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "chance of organ recovery if surgery goes well"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "risk of permanent organ damage"
-        }
-      ]
-    },
-    {
-      "turn_id": 26,
-      "role": "Doctor",
-      "utterance_text": "I can completely understand why you\u2019re anxious\u2014facing severe symptoms and the possibility of surgery is understandably overwhelming. Based on your examination findings, high bladder pressures, and laboratory clinical findings showing rising lactate and worsening acidosis, urgent surgical decompression is often necessary to relieve abdominal compartment syndrome and restore blood flow to your organs. While there are risks given your medical history and current instability, timely intervention can sometimes prevent permanent organ damage and improve your chances of recovery. Before we proceed, have you or your family had a chance to discuss your goals of care and preferences for treatment with the medical team, in case your condition changes rapidly during or after the procedure?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "severe symptoms"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "examination findings"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "high bladder pressures"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "laboratory clinical findings showing rising lactate and worsening acidosis"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "urgent surgical decompression"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease",
-          "value": "abdominal compartment syndrome"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Effect",
-          "value": "restore blood flow to your organs"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "medical history"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "current instability"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Effect",
-          "value": "timely intervention can sometimes prevent permanent organ damage and improve your chances of recovery"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "discuss your goals of care and preferences for treatment with the medical team"
-        }
-      ]
-    },
-    {
-      "turn_id": 27,
-      "role": "Patient",
-      "utterance_text": "Thank you for being so open with me\u2014I really do appreciate it. My family and I have started to talk about goals of care, but honestly, it\u2019s all been happening so fast that I\u2019m not sure we\u2019ve had a chance to cover everything in detail. I know symptoms are serious\u2014my oxygenation status has gotten a lot worse, with a PaO2 of only 46 even though I\u2019m on 100% FiO2 and PEEP of 15. And I heard the team say I have profound anion gap metabolic acidosis, which I understand means my body is really struggling.\n\nI want to do everything reasonable to give me a chance to recover, but I also don\u2019t want to suffer if symptoms get too far gone. I\u2019m just worried\u2014should I be preparing for the possibility that my organs might not recover, even with surgical decompression? And if symptoms change quickly, what should my family and I be thinking about or deciding ahead of time?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "Thank you for being so open with me\u2014I really do appreciate it."
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Other",
-          "value": "My family and I have started to talk about goals of care, but honestly, it\u2019s all been happening so fast that I\u2019m not sure we\u2019ve had a chance to cover everything in detail."
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "oxygenation status has gotten a lot worse"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "PaO2 of only 46"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Other",
-          "value": "on 100% FiO2 and PEEP of 15"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease",
-          "value": "profound anion gap metabolic acidosis"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Pathogeny",
-          "value": "body is really struggling"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "I want to do everything reasonable to give me a chance to recover"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Precaution",
-          "value": "I also don\u2019t want to suffer if symptoms get too far gone"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease-history",
-          "value": "should I be preparing for the possibility that my organs might not recover, even with surgical decompression?"
+          "value": "Is it more likely that my organs might not recover even with intervention?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Precaution",
-          "value": "if symptoms change quickly, what should my family and I be thinking about or deciding ahead of time?"
-        }
-      ]
-    },
-    {
-      "turn_id": 28,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried\u2014your symptoms, laboratory findings, and the rapid progression of your condition are understandably distressing. Based on my assessment, your profound hypoxemia, severe metabolic acidosis, and high lactate levels indicate that your organs are under significant stress, and urgent surgical decompression remains the best chance to restore organ function and improve your oxygenation. Given the seriousness of your condition, have you and your family had an opportunity to discuss your preferences regarding advanced life support measures, such as prolonged mechanical ventilation or resuscitation, should your symptoms worsen during or after the procedure?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "profound hypoxemia"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "severe metabolic acidosis"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "high lactate levels"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Other",
-          "value": "organs under significant stress"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "urgent surgical decompression"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "preferences regarding advanced life support measures (mechanical ventilation, resuscitation)"
-        }
-      ]
-    },
-    {
-      "turn_id": 29,
-      "role": "Patient",
-      "utterance_text": "Thank you for being so honest with me. I know this is a really serious condition, and I appreciate you taking the time to explain everything. My family and I have started to talk about symptoms like advanced life support and resuscitation, but, um\u2026 I guess we haven\u2019t made any final decisions yet. It\u2019s all just happening so quickly, and it\u2019s a lot to process.\n\nI understand that with my profound hypoxemia, severe metabolic acidosis, and high lactate levels, my organs are under a lot of stress. I want to give myself the best chance to recover, so I\u2019m open to symptoms like mechanical ventilation if it could help me get through this. But I also don\u2019t want to be kept alive if there\u2019s no real hope for recovery or if I\u2019d be suffering without a good quality of life.\n\nIs there any way to know how likely it is that my organs will recover if the surgical decompression works? And if symptoms don\u2019t go well, what would you recommend in terms of resuscitation or life support? I just want to make sure my family and I are making the right choices.",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "Thank you for being so honest with me. I know this is a really serious condition, and I appreciate you taking the time to explain everything."
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "profound hypoxemia"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "severe metabolic acidosis"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "high lactate levels"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "organs are under a lot of stress"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "open to mechanical ventilation"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "likelihood of organ recovery if surgical decompression works"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Recommendation",
-          "value": "recommendation for resuscitation or life support if symptoms don\u2019t go well"
-        }
-      ]
-    },
-    {
-      "turn_id": 30,
-      "role": "Doctor",
-      "utterance_text": "I appreciate your openness and the thoughtful way you\u2019re approaching these very difficult decisions. Based on your symptoms\u2014persistent dyspnea, severe hypotension, profound hypoxemia, rising lactate, and worsening metabolic acidosis\u2014my assessment is that your organs are under significant stress from abdominal compartment syndrome and ongoing bleeding. Surgical decompression offers the best chance to reverse organ dysfunction, but given your current laboratory findings and medical history, there remains a risk of permanent organ damage even with intervention. \n\nAs we move forward, would you like the care team to continue all aggressive life-sustaining treatments, including resuscitation and prolonged mechanical ventilation, if your symptoms worsen during or after surgery, or would you prefer to set specific limits based on your goals for quality of life?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "persistent dyspnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "severe hypotension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "profound hypoxemia"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "rising lactate"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening metabolic acidosis"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "abdominal compartment syndrome"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Symptom",
-          "value": "ongoing bleeding"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "surgical decompression"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Precaution",
-          "value": "risk of permanent organ damage even with intervention"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "aggressive life-sustaining treatments including resuscitation and prolonged mechanical ventilation"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "set specific limits based on goals for quality of life"
-        }
-      ]
-    },
-    {
-      "turn_id": 31,
-      "role": "Patient",
-      "utterance_text": "Thank you for being so clear and compassionate with me\u2014I really do appreciate it. Um, this is a lot to take in, but I want to be honest. I do want to give myself a real chance at recovery, so I\u2019m okay with aggressive life-sustaining treatments like mechanical ventilation and resuscitation, at least for now, especially if there\u2019s a chance my organs could recover after the surgical decompression.\n\nBut, um\u2026 if it turns out during or after surgery that my organs aren\u2019t recovering, or if I end up needing prolonged life support with no real hope of getting back to a quality of life I\u2019d find acceptable, I wouldn\u2019t want to keep going with everything just for the sake of it. I\u2019d rather focus on comfort if symptoms look hopeless.\n\nIs it possible to try everything for now and then re-evaluate based on how I do after surgery? And, if symptoms don\u2019t improve, can my family and I talk with you and the team again about changing the plan? I just want to make sure I have a say in what happens, and that my family understands what\u2019s going on.",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "okay with aggressive life-sustaining treatments like mechanical ventilation and resuscitation, at least for now"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "wouldn\u2019t want to keep going with everything if organs aren\u2019t recovering or if prolonged life support is needed with no real hope of acceptable quality of life"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "would rather focus on comfort if symptoms look hopeless"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Is it possible to try everything for now and then re-evaluate based on how I do after surgery?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "If symptoms don\u2019t improve, can my family and I talk with you and the team again about changing the plan?"
+          "value": "Should I be thinking about what kind of care I want if I can\u2019t get better?"
         }
       ]
     }

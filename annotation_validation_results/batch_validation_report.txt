@@ -3,26 +3,26 @@
 ═══════════════════════════════════════════
 
 📊 SUMMARY STATISTICS:
-├─ Total files processed: 19
-├─ Successful validations: 19
+├─ Total files processed: 99
+├─ Successful validations: 99
 ├─ Failed validations: 0
 ├─ Missing dialogue files: 0
 ├─ Success rate: 100.0%
-└─ Total processing time: 425.0s
+└─ Total processing time: 9382.2s
 
 🎯 AGGREGATED QUALITY SCORES:
-Overall Quality: 0.784/1.000 - 👍 GOOD
+Overall Quality: 0.852/1.000 - ✅ EXCELLENT
 
 Component Scores:
-├─ Structural Consistency: 0.941
-├─ Semantic Coherence: 0.749
-├─ Medical Relevance: 0.826
-└─ Annotation Completeness: 0.723
+├─ Structural Consistency: 0.959
+├─ Semantic Coherence: 0.826
+├─ Medical Relevance: 0.909
+└─ Annotation Completeness: 0.791
 
 🏆 TOP PERFORMING FILES:
-1. remedi_annotated_4482_84629.json: 0.898
-2. remedi_annotated_4489_26977.json: 0.880
-3. remedi_annotated_4481_156.json: 0.870
-4. remedi_annotated_4492_15298.json: 0.868
-5. remedi_annotated_4488_65904.json: 0.854
+1. remedi_annotated_4495_17125.json: 0.908
+2. remedi_annotated_3920_9571.json: 0.907
+3. remedi_annotated_4474_46355.json: 0.900
+4. remedi_annotated_3921_9571.json: 0.897
+5. remedi_annotated_4151_17149.json: 0.893
 

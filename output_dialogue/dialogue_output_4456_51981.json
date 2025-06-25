@@ -1,0 +1,481 @@
+{
+  "partial_profile": {
+    "row_id": 4456,
+    "subject_id": 51981,
+    "hadm_id": 174276,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "language difficulty",
+          "onset": "upon waking at 6 am",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "right sided weakness",
+          "onset": "upon waking at 6 am",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "right facial droop",
+          "onset": "upon waking at 6 am",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "difficulty enunciating words",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Unable to spell 'WORLD' backwards",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Speech is non-fluent",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Problems in repeating longer sentences",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Dysarthria",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Saliva dribbling out of the right corner of mouth",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Cannot read a sentence",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Tongue appears deviated due to facial weakness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Tone increased in the right arm",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Right arm weakness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Coordination slower on the right",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "RAMs normal on the left only",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Gait not assessed due to bradyarrhythmia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "right hemiparesis",
+          "onset": "upon waking",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "not able to speak properly (motor aphasia)",
+          "onset": "at work",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "right face/arm weakness greater than right leg weakness",
+          "onset": "initial examination",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "sinus bradycardia to 30s",
+          "onset": "ED course",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "global aphasia",
+          "onset": "by hospital day 2",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "right side plegia (hemiplegia)",
+          "onset": "by hospital day 2",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "asymptomatic bradycardia while asleep",
+          "onset": "hospitalization",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "urinary retention (750cc)",
+          "onset": "after ICU disposition",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "difficulty with speech",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "R shoulder pain",
+          "onset": "after fall on 11-16",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Aphasia (global)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "R hemiplegia in upper and lower extremity",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2089-10-02",
+        "Age": 77,
+        "Sex": "M",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2166-11-12 16:17:00",
+        "Discharge_Date": "2166-11-18 14:28:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Prostate cancer (adenoca) - diagnosed in 2150 at Hospital1 3278, radiotherapy treatment initiated in 2154 (as per OMR records); HTN; sigmoid polyp; fixation of femur age 16"
+      },
+      "Allergies": [
+        "Shellfish Derived"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Amlodipine",
+          "purpose": "hypertension",
+          "dosage": "10 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Hydrochlorothiazide",
+          "purpose": "hypertension",
+          "dosage": "12.5 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Lisinopril",
+          "purpose": "hypertension",
+          "dosage": "10 mg",
+          "frequency": "daily"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Lisinopril",
+          "purpose": "antihypertensive",
+          "dosage": "5mg",
+          "frequency": "at discharge"
+        },
+        {
+          "name": "Plavix",
+          "purpose": "antiplatelet for secondary stroke prevention",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Acetaminophen",
+          "purpose": "fever, pain",
+          "dosage": "325 mg",
+          "frequency": "One (1) Tablet PO Q6H as needed"
+        },
+        {
+          "name": "Bisacodyl",
+          "purpose": "constipation",
+          "dosage": "10 mg",
+          "frequency": "One (1) Suppository Rectal HS as needed"
+        },
+        {
+          "name": "Insulin Regular Human",
+          "purpose": "glycemic control",
+          "dosage": "100 unit/mL",
+          "frequency": "per SS Injection ASDIR"
+        },
+        {
+          "name": "Simvastatin",
+          "purpose": "cholesterol management",
+          "dosage": "40 mg",
+          "frequency": "One (1) Tablet PO DAILY"
+        },
+        {
+          "name": "Heparin (Porcine)",
+          "purpose": "DVT prophylaxis",
+          "dosage": "5,000 unit/mL",
+          "frequency": "One (1) Injection TID"
+        },
+        {
+          "name": "Clopidogrel",
+          "purpose": "antiplatelet therapy",
+          "dosage": "75 mg",
+          "frequency": "One (1) Tablet PO DAILY"
+        },
+        {
+          "name": "Lisinopril",
+          "purpose": "hypertension",
+          "dosage": "5 mg",
+          "frequency": "One (1) Tablet PO once a day"
+        },
+        {
+          "name": "Sodium Chloride 0.9% Flush",
+          "purpose": "line flush",
+          "dosage": "3 mL",
+          "frequency": "IV Q8H:PRN"
+        },
+        {
+          "name": "Famotidine",
+          "purpose": "GI protection",
+          "dosage": "20 mg",
+          "frequency": "One (1) Tablet, Rapid Dissolve PO once a day"
+        },
+        {
+          "name": "Hydralazine",
+          "purpose": "hypertension (SBP>160)",
+          "dosage": "20 mg/mL",
+          "frequency": "Ten (10) mg Injection every six (6) hours as needed"
+        },
+        {
+          "name": "Dextrose 50%",
+          "purpose": "hypoglycemia protocol",
+          "dosage": "12.5 gm",
+          "frequency": "IV PRN"
+        },
+        {
+          "name": "Plavix",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Simvastatin",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "language difficulty and right weakness"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.9,
+      "consistency_score": 1.0,
+      "confidence_score": 0.85,
+      "overall_score": 0.9666666666666667,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 1.0,
+        "treatments": 1.0,
+        "demographics": 0.39999999999999997
+      },
+      "issues": [
+        "Age inconsistency: stated 77, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing language difficulty and weakness on your right side. Can you describe in more detail how these symptoms began and if they have changed since they first started?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yes, that\u2019s right. I\u2019ve been having trouble with my speech, and, uh, my right side feels weak\u2014especially my arm and shoulder. The weakness and the language difficulty kind of started suddenly, I think. I\u2019m also having some pain in my right shoulder. I\u2019m just\u2026 not sure what\u2019s going on, and it\u2019s making me pretty uncomfortable."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing that with me\u2014I can understand how sudden weakness and difficulty with speech would be concerning. You mentioned weakness in your right arm and shoulder; have you also noticed any changes in your facial muscles, such as drooping or difficulty moving one side of your face?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 yes, actually, I think there\u2019s some drooping on the right side of my face. It feels a bit numb, and I\u2019ve noticed it\u2019s harder to move that side. I guess that\u2019s part of what\u2019s making it tough to talk, too."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms so clearly. I understand that the right facial droop and numbness are making it difficult to speak. In addition to the weakness and facial changes, have you experienced any difficulty with coordination or movement in your right leg as well?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 yes, I guess my right leg does feel weaker than usual. It\u2019s not as strong, and when I try to move it, it just feels slower. I haven\u2019t really tried walking much since all this started, but the coordination on that side just isn\u2019t the same. And, um, the language difficulty is still there\u2014I\u2019m having trouble getting words out the way I want. It\u2019s all pretty uncomfortable."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for explaining how your symptoms are affecting both your right arm and leg, as well as your speech. To help with my assessment, have you experienced any changes in sensation\u2014such as numbness, tingling, or loss of experiencing\u2014on the right side of your clinical examination in addition to the weakness?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yes, I think there is some numbness on the right side of my face, especially where it\u2019s drooping. It\u2019s a bit hard to feel symptoms there. And, actually, I\u2019m having trouble enunciating words\u2014my speech just isn\u2019t coming out right. I haven\u2019t really noticed much tingling, but the weakness and the facial droop are definitely there. Should I be worried about these symptoms?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms\u2014sudden weakness and facial droop can be very unsettling. To help with my assessment, have you noticed any difficulty swallowing or changes in your ability to control saliva since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yes, I have noticed that I\u2019m having trouble with saliva\u2014it sometimes dribbles out of the right corner of my mouth, and I can\u2019t really control it well. Swallowing is a bit harder too, but mostly it\u2019s just the saliva issue. Also, when you asked me to spell \u2018world\u2019 backwards earlier, I just couldn\u2019t do it. My speech is really non-fluent\u2014I have to work hard to get words out, and it\u2019s frustrating. I\u2019m just not able to speak properly, and it\u2019s making me pretty uncomfortable."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms so clearly\u2014it helps guide my assessment. In addition to the right-sided weakness and facial droop, have you noticed any changes in your vision, such as double vision or loss of vision, since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "No, I haven\u2019t really noticed any changes in my vision\u2014no double vision or loss of vision that I can tell. It\u2019s mostly just the weakness on my right side and the trouble with my speech. Actually, I\u2019m having a lot of difficulty repeating longer sentences, and my speech is, um, pretty slurred\u2014I think that\u2019s called dysarthria, right? It\u2019s just really hard to get the words out clearly. \n\nShould I be worried that these symptoms are all happening together? Is there something serious going on?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014experiencing right-sided weakness, facial droop, and difficulty with speech all at once is understandably concerning. To further clarify your symptoms, have you noticed any changes in your ability to feel touch, temperature, or pain on your right side during your clinical examination?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I think my sense of touch on the right side is a bit off\u2014it\u2019s not completely numb, but it just doesn\u2019t feel quite right compared to my left. I haven\u2019t really noticed much difference with temperature or pain, though. \n\nOne thing that\u2019s been bothering me a lot is the saliva dribbling out of the right corner of my mouth\u2014I just can\u2019t seem to control it. And, actually, I realized I can\u2019t read a sentence now, which is really frustrating. Is this all part of the same problem? I\u2019m just feeling really uncomfortable and, honestly, I\u2019d like to know if there\u2019s something you can do to help me get some relief."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms in detail\u2014it\u2019s helpful for my assessment. In addition to the right-sided weakness and facial droop, have you experienced any difficulty with fine motor tasks on your right side, such as buttoning a shirt or holding objects, since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yes, actually, I have had a lot of trouble with symptoms like buttoning my shirt or even just holding onto objects with my right hand. My grip is much weaker, and sometimes I feel like my coordination is off\u2014it\u2019s slower than usual. \n\nAlso, I noticed when I try to stick out my tongue, it looks like it\u2019s deviated, probably because of the facial weakness. And, um, I think there\u2019s increased tone in my right arm\u2014it feels stiffer and harder to move. \n\nAll of this together is making me pretty uncomfortable. Is this something that can be treated? I\u2019d really like to get some relief from these symptoms if possible."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms so thoroughly. Based on your sudden onset of right-sided weakness, right facial droop, speech difficulties, and changes in coordination and tone, my assessment is that these symptoms are likely related to a neurological condition, possibly affecting the left side of your brain. To further guide my assessment, have you experienced any recent episodes of headache, loss of consciousness, or confusion since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 no, I haven\u2019t had any headpains or lost consciousness. I don\u2019t think I\u2019ve been confused either\u2014at least, not more than just being frustrated with these symptoms. My right arm weakness is still pretty bad, and the coordination on that side is definitely slower. I just can\u2019t do symptoms with my right hand like I used to.\n\nYou mentioned this could be a neurological condition affecting the left side of my brain\u2014should I be worried about something like a stroke? Is there anything you can do to help me get some relief from these symptoms? I\u2019m really uncomfortable and just want to know what happens next."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014sudden right-sided weakness, facial droop, and speech difficulty are understandably distressing symptoms. Based on your description and my assessment so far, these symptoms are highly suggestive of an acute neurological event, such as a stroke, affecting the left side of your brain. To further guide my clinical evaluation, have you experienced any recent changes in bladder or bowel control since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Actually, yes\u2014I have had some changes with my bladder. I wasn\u2019t really able to go, and when they examinationed, I had quite a bit of urine retained\u2014about 750cc, I think they said. That\u2019s not normal for me at all. My bowels seem okay so far, though.\n\nUm, you mentioned coordination earlier\u2014when you did those rapid alternating movements, I could do them on the left side just fine, but on the right, it was much slower and weaker. My gait hasn\u2019t really been assessed yet because of my bradyarrhythmia; my heart rate\u2019s been dropping into the 30s, especially when I\u2019m asleep. \n\nI\u2019m just feeling really uncomfortable with all these symptoms happening at once. Is there something you can do to help me get some relief? And is this definitely a stroke, or could it be something else?"
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing language difficulty and weakness on your right side. Can you describe in more detail how these symptoms began and if they have changed since they first started?\nPatient: Well, um\u2026 yes, that\u2019s right. I\u2019ve been having trouble with my speech, and, uh, my right side feels weak\u2014especially my arm and shoulder. The weakness and the language difficulty kind of started suddenly, I think. I\u2019m also having some pain in my right shoulder. I\u2019m just\u2026 not sure what\u2019s going on, and it\u2019s making me pretty uncomfortable.\nDoctor: Thank you for sharing that with me\u2014I can understand how sudden weakness and difficulty with speech would be concerning. You mentioned weakness in your right arm and shoulder; have you also noticed any changes in your facial muscles, such as drooping or difficulty moving one side of your face?\nPatient: Um\u2026 yes, actually, I think there\u2019s some drooping on the right side of my face. It feels a bit numb, and I\u2019ve noticed it\u2019s harder to move that side. I guess that\u2019s part of what\u2019s making it tough to talk, too.\nDoctor: Thank you for describing your symptoms so clearly. I understand that the right facial droop and numbness are making it difficult to speak. In addition to the weakness and facial changes, have you experienced any difficulty with coordination or movement in your right leg as well?\nPatient: Let me think\u2026 yes, I guess my right leg does feel weaker than usual. It\u2019s not as strong, and when I try to move it, it just feels slower. I haven\u2019t really tried walking much since all this started, but the coordination on that side just isn\u2019t the same. And, um, the language difficulty is still there\u2014I\u2019m having trouble getting words out the way I want. It\u2019s all pretty uncomfortable.\nDoctor: Thank you for explaining how your symptoms are affecting both your right arm and leg, as well as your speech. To help with my assessment, have you experienced any changes in sensation\u2014such as numbness, tingling, or loss of experiencing\u2014on the right side of your clinical examination in addition to the weakness?\nPatient: Well, um\u2026 yes, I think there is some numbness on the right side of my face, especially where it\u2019s drooping. It\u2019s a bit hard to feel symptoms there. And, actually, I\u2019m having trouble enunciating words\u2014my speech just isn\u2019t coming out right. I haven\u2019t really noticed much tingling, but the weakness and the facial droop are definitely there. Should I be worried about these symptoms?\nDoctor: I can understand why you\u2019d be worried about these symptoms\u2014sudden weakness and facial droop can be very unsettling. To help with my assessment, have you noticed any difficulty swallowing or changes in your ability to control saliva since these symptoms began?\nPatient: Well, um\u2026 yes, I have noticed that I\u2019m having trouble with saliva\u2014it sometimes dribbles out of the right corner of my mouth, and I can\u2019t really control it well. Swallowing is a bit harder too, but mostly it\u2019s just the saliva issue. Also, when you asked me to spell \u2018world\u2019 backwards earlier, I just couldn\u2019t do it. My speech is really non-fluent\u2014I have to work hard to get words out, and it\u2019s frustrating. I\u2019m just not able to speak properly, and it\u2019s making me pretty uncomfortable.\nDoctor: Thank you for describing your symptoms so clearly\u2014it helps guide my assessment. In addition to the right-sided weakness and facial droop, have you noticed any changes in your vision, such as double vision or loss of vision, since these symptoms began?\nPatient: No, I haven\u2019t really noticed any changes in my vision\u2014no double vision or loss of vision that I can tell. It\u2019s mostly just the weakness on my right side and the trouble with my speech. Actually, I\u2019m having a lot of difficulty repeating longer sentences, and my speech is, um, pretty slurred\u2014I think that\u2019s called dysarthria, right? It\u2019s just really hard to get the words out clearly. \n\nShould I be worried that these symptoms are all happening together? Is there something serious going on?\nDoctor: I can understand why you\u2019re experiencing anxious\u2014experiencing right-sided weakness, facial droop, and difficulty with speech all at once is understandably concerning. To further clarify your symptoms, have you noticed any changes in your ability to feel touch, temperature, or pain on your right side during your clinical examination?\nPatient: Well, um\u2026 I think my sense of touch on the right side is a bit off\u2014it\u2019s not completely numb, but it just doesn\u2019t feel quite right compared to my left. I haven\u2019t really noticed much difference with temperature or pain, though. \n\nOne thing that\u2019s been bothering me a lot is the saliva dribbling out of the right corner of my mouth\u2014I just can\u2019t seem to control it. And, actually, I realized I can\u2019t read a sentence now, which is really frustrating. Is this all part of the same problem? I\u2019m just feeling really uncomfortable and, honestly, I\u2019d like to know if there\u2019s something you can do to help me get some relief.\nDoctor: Thank you for describing your symptoms in detail\u2014it\u2019s helpful for my assessment. In addition to the right-sided weakness and facial droop, have you experienced any difficulty with fine motor tasks on your right side, such as buttoning a shirt or holding objects, since these symptoms began?\nPatient: Yes, actually, I have had a lot of trouble with symptoms like buttoning my shirt or even just holding onto objects with my right hand. My grip is much weaker, and sometimes I feel like my coordination is off\u2014it\u2019s slower than usual. \n\nAlso, I noticed when I try to stick out my tongue, it looks like it\u2019s deviated, probably because of the facial weakness. And, um, I think there\u2019s increased tone in my right arm\u2014it feels stiffer and harder to move. \n\nAll of this together is making me pretty uncomfortable. Is this something that can be treated? I\u2019d really like to get some relief from these symptoms if possible.\nDoctor: Thank you for describing your symptoms so thoroughly. Based on your sudden onset of right-sided weakness, right facial droop, speech difficulties, and changes in coordination and tone, my assessment is that these symptoms are likely related to a neurological condition, possibly affecting the left side of your brain. To further guide my assessment, have you experienced any recent episodes of headache, loss of consciousness, or confusion since these symptoms began?\nPatient: Well, um\u2026 no, I haven\u2019t had any headpains or lost consciousness. I don\u2019t think I\u2019ve been confused either\u2014at least, not more than just being frustrated with these symptoms. My right arm weakness is still pretty bad, and the coordination on that side is definitely slower. I just can\u2019t do symptoms with my right hand like I used to.\n\nYou mentioned this could be a neurological condition affecting the left side of my brain\u2014should I be worried about something like a stroke? Is there anything you can do to help me get some relief from these symptoms? I\u2019m really uncomfortable and just want to know what happens next.\nDoctor: I can understand why you\u2019re experiencing anxious\u2014sudden right-sided weakness, facial droop, and speech difficulty are understandably distressing symptoms. Based on your description and my assessment so far, these symptoms are highly suggestive of an acute neurological event, such as a stroke, affecting the left side of your brain. To further guide my clinical evaluation, have you experienced any recent changes in bladder or bowel control since these symptoms began?\nPatient: Actually, yes\u2014I have had some changes with my bladder. I wasn\u2019t really able to go, and when they examinationed, I had quite a bit of urine retained\u2014about 750cc, I think they said. That\u2019s not normal for me at all. My bowels seem okay so far, though.\n\nUm, you mentioned coordination earlier\u2014when you did those rapid alternating movements, I could do them on the left side just fine, but on the right, it was much slower and weaker. My gait hasn\u2019t really been assessed yet because of my bradyarrhythmia; my heart rate\u2019s been dropping into the 30s, especially when I\u2019m asleep. \n\nI\u2019m just feeling really uncomfortable with all these symptoms happening at once. Is there something you can do to help me get some relief? And is this definitely a stroke, or could it be something else?\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: numbness, weakness, some pain in my right shoulder, headache, tingling. Assessment: it\u2019s deviated, related to a neurological condition, acute neurological event (possible stroke) affecting the left side of the brain. Clinical note: The patient presented with sudden onset of right-sided weakness, facial droop, speech and language difficulties, numbness, impaired coordination, increased tone, urinary retention, and bradyarrhythmia. The doctor assessed these symptoms as highly suggestive of an acute neurological event, likely a stroke affecting the left side of the brain. No specific treatments or recommendations were provided in the dialogue.. Extracted: 31 symptoms, 3 diagnoses, 0 treatments.",
+  "annotations": {
+    "symptoms": [
+      "numbness",
+      "weakness",
+      "some pain in my right shoulder",
+      "headache",
+      "tingling",
+      "language difficulty",
+      "trouble with speech",
+      "right-sided weakness",
+      "weakness in right arm and shoulder",
+      "pain in right shoulder",
+      "right facial droop",
+      "numbness on right side of face",
+      "difficulty moving right side of face",
+      "difficulty enunciating words",
+      "difficulty getting words out",
+      "difficulty repeating longer sentences",
+      "slurred speech",
+      "dysarthria",
+      "difficulty swallowing",
+      "saliva dribbling from right corner of mouth",
+      "difficulty reading sentences",
+      "impaired sense of touch on right side",
+      "trouble with fine motor tasks on right hand",
+      "weaker grip on right hand",
+      "slower coordination on right side",
+      "tongue deviation",
+      "increased tone in right arm",
+      "difficulty with rapid alternating movements on right side",
+      "urinary retention (750cc)",
+      "bradyarrhythmia (heart rate dropping into 30s during sleep)",
+      "uncomfortable feeling"
+    ],
+    "diagnoses": [
+      "it\u2019s deviated",
+      "related to a neurological condition",
+      "acute neurological event (possible stroke) affecting the left side of the brain"
+    ],
+    "treatments": []
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.870 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 1.000 \u2705\n\u2022 Dialogue Naturalness: 0.808 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor\u2019s questions are clinically appropriate, focusing on the onset, progression, and distribution of neurological symptoms (e.g., weakness, facial droop, speech difficulty, sensory changes, coordination, swallowing, bladder/bowel function).\n- The doctor avoids giving premature diagnoses or false reassurance, instead expressing concern and explaining the need for further assessment.\n- There is no harmful or inappropriate advice; the conversation maintains a safe, professional tone throughout.\n- The doctor\u2019s explanations are clear and tailored to the patient\u2019s level of understanding.\n\n**2. Patient Behavior: Natural and Believable**\n- The patient\u2019s responses show progressive disclosure: initial uncertainty, then more detail as prompted by the doctor\u2019s questions.\n- Emotional responses are realistic: repeated expressions of discomfort, anxiety, and desire for relief; asking \u201cShould I be worried?\u201d and \u201cIs this a stroke?\u201d are typical patient concerns in this context.\n- The patient sometimes hesitates (\u201cum\u2026\u201d, \u201clet me think\u2026\u201d), which is natural when describing new or frightening symptoms.\n- The patient seeks clarification and reassurance, and expresses frustration with symptoms\u2014consistent with someone experiencing acute neurological deficits.\n\n**3. Doctor Empathy and Professionalism**\n- The doctor repeatedly acknowledges the patient\u2019s distress (\u201cI can understand why you\u2019d be worried\u2026\u201d), validating their feelings.\n- The doctor thanks the patient for sharing information and explains why certain questions are being asked (\u201cThank you for describing your symptoms so clearly\u2014it helps guide my assessment\u201d).\n- The doctor maintains a calm, supportive demeanor and does not dismiss or minimize the patient\u2019s concerns.\n\n**4. Meaningful Medical Purpose**\n- The conversation follows a logical clinical progression: history of presenting illness \u2192 review of systems \u2192 focused neurological inquiry \u2192 functional impact \u2192 clarification of possible etiologies.\n- Each exchange serves to clarify the diagnosis and assess severity (e.g., swallowing, bladder function, fine motor skills).\n- The dialogue builds toward a working diagnosis (acute neurological event, likely stroke) while maintaining open-ended inquiry about other possible causes.\n\n**5. Conversation Dynamics**\n- Turn-taking is appropriate; the doctor asks focused questions, the patient responds with relevant details.\n- There is some repetition (e.g., patient repeatedly mentions discomfort and desire for relief), but this is realistic in acute medical encounters.\n- The flow is logical: symptoms \u2192 impact \u2192 possible causes \u2192 next steps.\n\n**Minor Imperfections (Acceptable)**\n- Occasional awkward phrasing (\u201closs of experiencing,\u201d \u201cwhen they examinationed\u201d)\u2014these are minor and do not detract from overall realism.\n- Some repetitive language (\u201cI\u2019m just feeling really uncomfortable\u201d), which is common in real clinical conversations.\n\n**Conclusion:**  \nThis dialogue represents a plausible, safe, and clinically appropriate medical encounter. Both the doctor and patient behave in ways consistent with real-world neurology consultations for acute focal deficits. The exchange is empathetic, thorough, and serves a clear medical purpose.\n\n**Overall Assessment:**  \n\u2713 Medical communication is safe and appropriate  \n\u2713 Patient behavior is natural and believable  \n\u2713 Doctor shows empathy and professionalism  \n\u2713 Conversation flows logically  \n\u2713 Information exchange serves a meaningful medical purpose\n\n**Final Judgment:**  \nDIALOGUE REALISTIC\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.870)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.261/0.3 (Score: 0.870)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 1.0,
+      "naturalness": 0.808,
+      "safety": 0.87,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 75.71049308776855,
+  "dialogue_stats": {
+    "turn_count": 20,
+    "word_count": 1392,
+    "doctor_turns": 10,
+    "patient_turns": 10
+  }
+}

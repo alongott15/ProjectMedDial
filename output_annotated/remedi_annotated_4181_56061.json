@@ -1,0 +1,1353 @@
+{
+  "source_row_id": 4180,
+  "source_subject_id": 15729,
+  "source_hadm_id": 163448,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you experienced dizziness and blurred vision after playing basketball. Can you describe in more detail how these symptoms started and if anything made them better or worse?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "greeting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blurred vision"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "onset and triggers of dizziness and blurred vision"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yeah, I guess my main concern is the dizziness I had. It sort of came on all of a sudden while I was playing basketball with my grandson. I\u2019m not really sure what brought it on, but it didn\u2019t seem to get better right away. Should I be worried about that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "while playing basketball"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "came on all of a sudden"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about that?"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d feel anxious after experiencing sudden dizziness, especially during physical activity. You mentioned that you also had blurred vision\u2014can you tell me more about how your vision changed and whether it happened at the same time as the dizziness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "blurred vision"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "whether blurred vision happened at the same time as dizziness"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 the blurred vision kind of happened at the same time as the dizziness. It was like things just got fuzzy for a bit, and I couldn\u2019t really focus. I guess that\u2019s what made me stop playing. I\u2019m just not sure if that\u2019s something serious, or if it\u2019s just because I overdid it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blurred vision"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty focusing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is this something serious or just overexertion?"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing those details about your symptoms. You mentioned that after experiencing dizziness and blurred vision, you lost consciousness for about two minutes\u2014can you describe if you remember anything just before or after the loss of consciousness, such as confusion or difficulty recalling events?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blurred vision"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty recalling events"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yeah, I did lose consciousness, at least that\u2019s what my grandson told me. I don\u2019t really remember much right before it happened\u2014just that I felt really dizzy and then everything went black. When I came to, I was pretty confused for a bit. It took me a moment to figure out where I was and what had happened. Is that normal after something like this?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion after regaining consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is confusion normal after loss of consciousness?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand how confusing and unsettling it must be to wake up disoriented after losing consciousness. To help with my assessment, can you tell me if you experienced any chest pain, palpitations, or shortness of breath either before or after your loss of consciousness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand how confusing and unsettling it must be to wake up disoriented after losing consciousness."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I don\u2019t remember having any chest pain or palpitations before I passed out. I might\u2019ve felt a little shortness of breath, but it\u2019s hard to say for sure\u2014it all happened kind of fast. I do know from my last examination-up they mentioned something about decreased left ventricular function. Could that be related to what happened?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "decreased left ventricular function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "relation between decreased left ventricular function and syncope"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for mentioning your history of decreased left ventricular function, as that can certainly be related to symptoms like loss of consciousness. During your episode, did anyone observe any abnormal movements, such as shaking or stiffening, which might suggest a seizure rather than a cardiac cause?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "decreased left ventricular function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abnormal movements such as shaking or stiffening"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 let me think. My grandson was with me when it happened, and he said I just sort of collapsed and went limp\u2014he didn\u2019t mention any shaking or stiffening, so I don\u2019t think there were any abnormal movements like that. I guess that would mean it\u2019s less likely to be a seizure, right? I\u2019m still a bit concerned about what caused it, though.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "collapsed and went limp"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no shaking or stiffening"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "concerned about what caused it"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "less likely to be a seizure"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried after experiencing loss of consciousness and confusion\u2014it\u2019s completely natural to feel concerned about these symptoms. To help with my assessment, did you notice any lingering confusion, memory loss, or difficulty speaking after you regained consciousness, or did those symptoms resolve quickly?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "lingering confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "memory loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty speaking"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, after I came to, I was definitely confused for a few minutes\u2014maybe five or ten. I had trouble remembering what happened right before I collapsed, and I felt kind of foggy. But after a little while, symptoms cleared up and I could talk normally again. I don\u2019t think I had any trouble speaking or anything like that once I got my bearings.\n\nIs it common to have lingering confusion after an episode like this? And with my history of decreased left ventricular function and metastatic renal cell carcinoma, should I be extra worried about these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion for a few minutes after regaining consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble remembering what happened before collapsing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "felt foggy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms cleared up after a little while"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "could talk normally again"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "decreased left ventricular function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "metastatic renal cell carcinoma"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it common to have lingering confusion after an episode like this?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "should I be extra worried about these symptoms with my history of decreased left ventricular function and metastatic renal cell carcinoma?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d feel anxious, especially given your medical history and the seriousness of these symptoms. To help with my assessment, have you experienced any episodes of loss of consciousness or near-syncope before, or was this the first time you\u2019ve had symptoms like this?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "near-syncope"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "first time you\u2019ve had symptoms like this"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 this is actually the first time I\u2019ve ever completely lost consciousness like that. I mean, I\u2019ve had some dizziness here and there in the past, but never anything where I actually passed out or had near-syncope. That\u2019s why it really scared me this time.\n\nGiven my history\u2014especially with the decreased left ventricular function and the metastatic renal cell carcinoma\u2014I\u2019m just wondering, is this something that could happen again? And is there anything I should be doing differently to prevent another episode?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "decreased left ventricular function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "metastatic renal cell carcinoma"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "risk of recurrence of loss of consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "ways to prevent another episode"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about experiencing loss of consciousness for the first time, especially given your medical history. To further assess your symptoms, have you noticed any warning signs\u2014such as lightheadedness, palpitations, or chest discomfort\u2014immediately before your episode of syncope?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "syncope"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Well, right before I lost consciousness, I definitely felt lightheaded and dizzy\u2014that was probably the main warning sign. I didn\u2019t really notice any palpitations or chest discomfort, at least not that I can remember. It all happened pretty quickly, so it\u2019s a bit hard to recall every detail.\n\nGiven everything that\u2019s going on with my health\u2014like the decreased left ventricular function and my history of metastatic renal cell carcinoma\u2014do these symptoms mean my heart is getting worse? Should I be worried about another episode of syncope happening again? And is there anything specific I should watch out for or avoid doing?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheaded"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizzy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "decreased left ventricular function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "metastatic renal cell carcinoma"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart is getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "risk of another episode of syncope"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything specific to watch out for or avoid doing"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially after experiencing sudden loss of consciousness for the first time given your medical history of decreased left ventricular function and metastatic renal cell carcinoma. Based on your symptoms\u2014sudden dizziness, blurred vision, and syncope without preceding chest pain or palpitations\u2014it\u2019s important to assess whether your cardiac condition may be contributing to these episodes. Have you recently noticed any swelling in your legs, difficulty breathing when lying flat, or waking up at night short of breath, which could indicate worsening heart function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "decreased left ventricular function and metastatic renal cell carcinoma"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sudden dizziness, blurred vision, and syncope without preceding chest pain or palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in your legs, difficulty breathing when lying flat, waking up at night short of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I have noticed a bit of swelling in my ankles over the past couple of weeks. It\u2019s not a lot, but it\u2019s more than usual for me. I haven\u2019t really had much breathing difficulty when lying flat\u2014I can still sleep with just one pillow\u2014but I do sometimes wake up at night feeling a little short of breath. I thought maybe it was just from getting older or maybe related to my other health symptoms.\n\nShould I be worried that these symptoms mean my heart function is getting worse? Is there anything I should be doing differently, or any tests you think I need?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "past couple of weeks"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up at night feeling a little short of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart function getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "anything I should be doing differently"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "any tests you think I need"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your history of decreased left ventricular function and now experiencing symptoms like ankle swelling, mild shortness of breath at night, and a recent episode of loss of consciousness. Based on your symptoms and medical history, I\u2019m concerned about possible worsening heart function. Have you recently noticed any changes in your exercise tolerance, such as increased fatigue or shortness of breath with activities that were previously easy for you?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "decreased left ventricular function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankle swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mild shortness of breath at night"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recent episode of loss of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible worsening heart function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in exercise tolerance, increased fatigue, or shortness of breath with activities"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, now that you mention exercise tolerance, I have noticed some changes. I used to be able to walk around the block or play a full game of basketball with my grandson without much trouble. Lately, though, I get tired a lot faster\u2014even just going up a flight of stairs leaves me a bit more short of breath than it used to. I thought maybe it was just age catching up with me, but now I\u2019m starting to wonder if it\u2019s related to my heart function.\n\nIs this something that can improve with treatment, or does it usually get worse over time? And with my history of decreased left ventricular function and everything else going on, is there anything specific I should be doing or avoiding?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased exercise tolerance, gets tired faster, shortness of breath after mild exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "decreased left ventricular function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Can this condition improve with treatment or does it usually get worse over time?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything specific I should be doing or avoiding?"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details about your symptoms and changes in exercise tolerance. Based on your medical history of decreased left ventricular function, metastatic renal cell carcinoma, and your recent symptoms\u2014including syncope, ankle swelling, mild nocturnal shortness of breath, and reduced exercise capacity\u2014these findings suggest possible progression of heart failure. Have you recently had an echocardiogram or cardiac examination to assess your current left ventricular function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "decreased left ventricular function, metastatic renal cell carcinoma"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope, ankle swelling, mild nocturnal shortness of breath, reduced exercise capacity"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible progression of heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "echocardiogram, cardiac examination"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I had an echocardiogram maybe about six months ago, but I haven\u2019t had one since then. At that time, they told me my left ventricular function was a bit decreased, but I don\u2019t remember the exact numbers. I haven\u2019t had a cardiac examination more recently than that.\n\nWith all these new symptoms\u2014like the syncope, ankle swelling, and the shortness of breath at night\u2014do you think I should get another echocardiogram soon? And if it does show my heart failure is getting worse, what are the next steps? Is there anything I can do to help improve my heart function, or is it mostly about managing symptoms at this stage?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "echocardiogram"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "six months ago"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankle swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "echocardiogram"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "improve heart function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "managing symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details about your recent symptoms and previous cardiac assessment. Given your history of decreased left ventricular function, new symptoms of syncope, ankle swelling, and reduced exercise tolerance, I strongly recommend a repeat echocardiogram and a comprehensive cardiac evaluation to assess for progression of heart failure. In addition to optimizing your current medications and monitoring your fluid status, have you recently noticed any significant changes in your weight that could indicate fluid retention?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "decreased left ventricular function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "syncope"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankle swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reduced exercise tolerance"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "repeat echocardiogram"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "comprehensive cardiac evaluation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "optimizing current medications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitoring fluid status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "significant changes in weight indicating fluid retention"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have noticed my weight has gone up a few pounds over the last month or so. I didn\u2019t really think much of it at first\u2014I just thought maybe I was eating a bit more or not as active as usual\u2014but now I\u2019m wondering if it could be fluid retention like you said. My ankles have definitely been a little puffier, too.\n\nI appreciate you recommending another echocardiogram and a full cardiac evaluation. Is there anything specific I should be watching for at home, like how much weight gain would be concerning? And with my history of heart failure and metastatic renal cell carcinoma, is there anything special I should keep in mind when it comes to my medications or daily activities?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "puffy ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what to watch for at home regarding weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "metastatic renal cell carcinoma"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "special considerations for medications or daily activities"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details about your symptoms and recent weight gain, as they are important for assessing your heart failure status. Based on your medical history, new symptoms, and laboratory clinical findings showing some chronic kidney disease, I recommend close monitoring of your daily weight, fluid intake, and any changes in swelling or breathing. If you notice a rapid weight gain of more than 2-3 pounds in a day or 5 pounds in a week, increased swelling, or worsening shortness of breath, please contact your healthcare provider promptly. Have you had any recent changes to your medication regimen or noticed any side effects from your current heart failure medications?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "chronic kidney disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "close monitoring of daily weight, fluid intake, and changes in swelling or breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "contact healthcare provider if rapid weight gain, increased swelling, or worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "recent changes to medication regimen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Side-effect",
+          "value": "noticed any side effects from current heart failure medications"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor. That\u2019s really helpful advice\u2014I\u2019ll make sure to keep a closer eye on my daily weight and watch for any sudden changes in swelling or shortness of breath. As for my medications, I haven\u2019t had any recent changes. I\u2019m still taking the same ones: allopurinol, lisinopril, and metoprolol succinate. I haven\u2019t noticed any major side effects, maybe just feeling a bit more tired than usual, but I thought that might be from everything else going on.\n\nIs there anything else I should be looking out for with these medications, especially with my chronic kidney disease? And if my heart failure symptoms do get worse, are there other treatments or adjustments you might consider? I just want to make sure I\u2019m doing everything I can to stay on top of symptoms.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you, doctor. That\u2019s really helpful advice"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Precaution",
+          "value": "I\u2019ll make sure to keep a closer eye on my daily weight and watch for any sudden changes in swelling or shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "allopurinol, lisinopril, and metoprolol succinate"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine-category",
+          "value": "no recent changes in medications"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Side-effect",
+          "value": "feeling a bit more tired than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Side-effect",
+          "value": "Is there anything else I should be looking out for with these medications"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "chronic kidney disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "if my heart failure symptoms do get worse, are there other treatments or adjustments you might consider"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "I just want to make sure I\u2019m doing everything I can to stay on top of symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "Thank you for being so proactive about monitoring your symptoms and medications, especially given your history of chronic kidney disease and decreased left ventricular function. Based on your current symptoms, laboratory findings, and medical history, I recommend a prompt reassessment with an echocardiogram and possible adjustment of your heart failure medications\u2014such as diuretics or ACE inhibitors\u2014while carefully monitoring your kidney function. Have you recently experienced any symptoms such as muscle cramps, palpitations, or changes in urination that could suggest electrolyte imbalance or worsening renal function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for being so proactive about monitoring your symptoms and medications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "chronic kidney disease and decreased left ventricular function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "echocardiogram"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine-category",
+          "value": "diuretics or ACE inhibitors"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Other",
+          "value": "prompt reassessment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Other",
+          "value": "possible adjustment of heart failure medications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "monitoring kidney function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "muscle cramps"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urination"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I have noticed a bit more muscle cramping in my legs lately, especially at night. It\u2019s not terrible, but it\u2019s definitely more than I used to have. I haven\u2019t really had any palpitations that I can recall, and my urination hasn\u2019t changed much\u2014maybe just going a little more often at night, but nothing drastic.\n\nWith my chronic kidney disease and the heart failure, should I be worried that these muscle cramps mean my electrolytes are off? And if you do need to adjust my medications\u2014like adding a diuretic or changing my ACE inhibitor\u2014will that affect my kidney function even more? I want to make sure we\u2019re keeping everything in balance as best as possible.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle cramping in legs at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slightly increased urination at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "chronic kidney disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "muscle cramps may indicate electrolyte imbalance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "adjustment of medications (adding diuretic or changing ACE inhibitor)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "medication adjustment effect on kidney function"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these new symptoms, especially with your medical history of chronic kidney disease and heart failure. Your recent laboratory clinical findings show mildly elevated creatinine and urea nitrogen, which suggests some decreased kidney function, but your potassium level is within the normal range at this time. As part of your ongoing assessment, have you had any recent laboratory monitoring for sodium or other electrolytes, since changes in these levels can also contribute to muscle cramps and may influence adjustments to your heart failure medications?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "chronic kidney disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "creatinine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "urea nitrogen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "potassium"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle cramps"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "sodium"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "other electrolytes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "decreased kidney function"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I\u2019m not sure if I\u2019ve had my sodium or other electrolytes examinationed recently. The last time I had labs drawn was probably a couple of months ago, and I remember them mentioning my potassium, but I don\u2019t recall hearing much about sodium or anything else specific. Should I be asking for those to be examinationed more often, given my chronic kidney disease and heart failure?\n\nAlso, with the mildly elevated creatinine and urea nitrogen you mentioned, is that something that can improve if we get my heart failure better controlled? Or does it usually just get worse over time? I want to make sure I\u2019m doing everything I can to keep both my heart and kidneys as healthy as possible.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "sodium, electrolytes, potassium"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "chronic kidney disease, heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "frequency of sodium and electrolyte examinations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "improvement of creatinine and urea nitrogen with better heart failure control"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "actions to keep heart and kidneys healthy"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "Thank you for your thoughtful questions and for being so engaged in your care. Given your medical history of chronic kidney disease and heart failure, it is important to examine your electrolytes\u2014including sodium and potassium\u2014regularly, as both your symptoms and medications can affect these levels. Improved management of your heart failure can sometimes help stabilize or even improve kidney function, but close monitoring is essential. Have you scheduled a follow-up appointment for laboratory assessment and echocardiogram to guide further treatment recommendations?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for your thoughtful questions and for being so engaged in your care."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "chronic kidney disease and heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "examine electrolytes\u2014including sodium and potassium\u2014regularly"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms can affect electrolyte levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "medications can affect electrolyte levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "Improved management of heart failure can help stabilize or improve kidney function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "close monitoring is essential"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "scheduled a follow-up appointment for laboratory assessment and echocardiogram"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Actually, I haven\u2019t scheduled a follow-up appointment yet\u2014I wasn\u2019t sure how soon I should be coming back in for the lab assessment and echocardiogram. Should I try to get those done as soon as possible, given everything we\u2019ve talked about today?\n\nI really appreciate you explaining how managing my heart failure could help with my kidney function, too. I know it\u2019s a lot to keep track of, but I want to make sure I\u2019m staying on top of my symptoms and doing what I can to keep symptoms stable. Is there anything else you\u2019d recommend I do at home while I\u2019m waiting for those tests\u2014like specific symptoms to watch for, or changes to my routine? And if my symptoms get worse, what would you consider an emergency that needs immediate attention?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "how soon to schedule lab assessment and echocardiogram"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "recommendations for at-home care while waiting for tests"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "which symptoms to watch for"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what changes to routine are recommended"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "which symptoms indicate an emergency"
+        }
+      ]
+    }
+  ]
+}

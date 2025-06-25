@@ -1,0 +1,528 @@
+{
+  "partial_profile": {
+    "row_id": 3908,
+    "subject_id": 49638,
+    "hadm_id": 185716,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "LLE redness and swelling",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "lethargy",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "jaundice",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "abdominal pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "vaginal bleeding",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "chronic diarrhea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "pain on palpation of left lower extremity",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "quite painful"
+        },
+        {
+          "description": "somnolent, moaning in bed, garbled speech",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "sclerae icteric (jaundice)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "decreased breath sounds right base, anterior wheezing left base, poor air movement",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "diffuse abdominal tenderness, worse in lower quadrants",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "splenomegaly (spleen enlarged to 7cm below costal margin)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "1+ edema right lower extremity, 2+ edema left lower extremity",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "multiple spider angiomas",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "left lower extremity 1cm x 1cm ulcer with purulent exudate, erythema throughout lower extremities",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "asterixis",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "altered mental status",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "somnolence",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "lower extremity pain and swelling",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "tender and red left lower leg",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "ascites",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hemodynamic instability during hepatic vein and vena cava clamping",
+          "onset": "during surgery",
+          "duration": "not provided",
+          "severity": "profound"
+        },
+        {
+          "description": "massive bleeding (>1.5 liters) through NGT",
+          "onset": "during hepatic vein and vena cava clamping",
+          "duration": "not provided",
+          "severity": "massive"
+        },
+        {
+          "description": "persistent diffuse bleeding",
+          "onset": "during anhepatic phase",
+          "duration": "persistent",
+          "severity": "severe"
+        },
+        {
+          "description": "cardiac arrest (PEA)",
+          "onset": "during anhepatic phase",
+          "duration": "not provided",
+          "severity": "progressed to death"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2086-04-04",
+        "Age": 48,
+        "Sex": "F",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicaid",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2134-06-08 16:33:00",
+        "Discharge_Date": "2134-06-14 19:38:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "HCV cirrhosis: genotype 1, diagnosed in 2127, c/b jaundice, ascites, ?encephalopathy, no esophageal varices in 2132, has undergone transplant work up; Vaginal bleeding secondary to vaginal varices; H/o c. diff infection; GERD; HTN; DM II on insulin; Parotid gland fistula treated with radiation; Chronic Diarrhea; Depression; Anxiety; Chronic Pancreatitis; 2 back surgeries for a herniated disk at L5-S1; C section x 1; Appendectomy"
+      },
+      "Allergies": [
+        "Penicillins",
+        "Latex",
+        "Neurontin",
+        "gauze",
+        "Interferons",
+        "Terbutaline",
+        "lisinopril",
+        "Bactrim"
+      ],
+      "Current_Medications": [
+        {
+          "name": "escitalopram",
+          "purpose": "not provided",
+          "dosage": "10 mg",
+          "frequency": "Two (2) Tablet PO DAILY"
+        },
+        {
+          "name": "multivitamin",
+          "purpose": "not provided",
+          "dosage": "1 Tablet",
+          "frequency": "PO DAILY"
+        },
+        {
+          "name": "clonazepam",
+          "purpose": "not provided",
+          "dosage": "0.5 mg",
+          "frequency": "1 Tablet PO BID"
+        },
+        {
+          "name": "omeprazole",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "PO DAILY"
+        },
+        {
+          "name": "albuterol sulfate",
+          "purpose": "not provided",
+          "dosage": "90 mcg/Actuation",
+          "frequency": "1-2 puffs Inhalation every 4-6 hours as needed"
+        },
+        {
+          "name": "ipratropium-albuterol",
+          "purpose": "for shortness of breath or wheezing",
+          "dosage": "18-103 mcg/Actuation",
+          "frequency": "1-10 puffs Inhalation four times a day as needed"
+        },
+        {
+          "name": "Vitamin D-3",
+          "purpose": "not provided",
+          "dosage": "1,000 unit",
+          "frequency": "One (1) Tablet, Chewable PO once a day"
+        },
+        {
+          "name": "insulin glargine",
+          "purpose": "not provided",
+          "dosage": "100 unit/mL, 15 units",
+          "frequency": "Subcutaneous at bedtime"
+        },
+        {
+          "name": "Humalog",
+          "purpose": "not provided",
+          "dosage": "100 unit/mL, One (1) injection",
+          "frequency": "Subcutaneous qachs: PER INCLUDED SLIDING SCALE"
+        },
+        {
+          "name": "nicotine",
+          "purpose": "not provided",
+          "dosage": "14 mg/24 hr Patch",
+          "frequency": "One (1) Patch 24 hr Transdermal DAILY"
+        },
+        {
+          "name": "methadone",
+          "purpose": "not provided",
+          "dosage": "10 mg/mL, 105 mg",
+          "frequency": "PO DAILY"
+        },
+        {
+          "name": "magnesium oxide",
+          "purpose": "not provided",
+          "dosage": "400 mg",
+          "frequency": "One (1) Tablet PO BID"
+        },
+        {
+          "name": "rifaximin",
+          "purpose": "not provided",
+          "dosage": "550 mg",
+          "frequency": "One (1) Tablet PO BID"
+        },
+        {
+          "name": "simethicone",
+          "purpose": "for gas",
+          "dosage": "80 mg",
+          "frequency": "One (1) Tablet, Chewable PO QID as needed"
+        },
+        {
+          "name": "polyvinyl alcohol-povidone",
+          "purpose": "for dry eye",
+          "dosage": "1.4-0.6 % Dropperette",
+          "frequency": "1-10 Drops Ophthalmic PRN as needed"
+        },
+        {
+          "name": "morphine",
+          "purpose": "for pain",
+          "dosage": "15 mg",
+          "frequency": "1-2 Tablets PO Q6H as needed"
+        },
+        {
+          "name": "furosemide",
+          "purpose": "not provided",
+          "dosage": "80 mg",
+          "frequency": "One (1) Tablet PO DAILY"
+        },
+        {
+          "name": "spironolactone",
+          "purpose": "not provided",
+          "dosage": "100 mg",
+          "frequency": "Two (2) Tablet PO DAILY"
+        },
+        {
+          "name": "ondansetron",
+          "purpose": "for nausea",
+          "dosage": "4 mg",
+          "frequency": "One (1) Tablet, Rapid Dissolve PO every eight (8) hours as needed"
+        }
+      ],
+      "Discharge_Medications": []
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "LLE redness and swelling"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.95,
+      "consistency_score": 1.0,
+      "confidence_score": 0.9,
+      "overall_score": 0.9833333333333334,
+      "field_scores": {
+        "symptoms": 0.92,
+        "diagnoses": 0.8,
+        "treatments": 1.0,
+        "demographics": 0.39999999999999997
+      },
+      "issues": [
+        "Symptom 'lethargy' not clearly found in original text",
+        "Symptom 'cardiac arrest (PEA)' not clearly found in original text",
+        "Diagnosis 'Hypertension' not clearly supported by text",
+        "Diagnosis 'Hyponatremia' not clearly supported by text",
+        "Diagnosis 'diabetes mellitus' not clearly supported by text",
+        "Diagnosis 'thrombocytopenia' not clearly supported by text",
+        "Diagnosis 'leukocytosis' not clearly supported by text",
+        "Diagnosis 'coagulopathy' not clearly supported by text",
+        "Diagnosis 'hypoalbuminemia' not clearly supported by text",
+        "Diagnosis 'hyperbilirubinemia' not clearly supported by text",
+        "Diagnosis 'Cardiac arrest (PEA)' not clearly supported by text",
+        "Age inconsistency: stated 48, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Thank you for coming in today. I understand you\u2019ve been experiencing progressive lower extremity claudication and ulcerations on both legs. Can you describe how these symptoms have changed over time and if there are specific activities or times of day when they tend to worsen?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yes, the main thing that\u2019s been bothering me is this pain in my left toe. It started getting worse after I, uh, accidentally hit it with a pair of high heel shoes a while back. Since then, the pain\u2019s been getting more intense and I\u2019ve noticed some ulcerations there too. I\u2019m just really uncomfortable and hoping to get some relief."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing that with me\u2014I can understand how persistent toe pain and ulcerations would be very uncomfortable. To help guide my assessment, can you tell me if you\u2019ve noticed any changes in the color, temperature, or sensation of your left foot or toes since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I have noticed that my left toe sometimes looks a bit darker than usual, and it feels colder compared to the other toes. The sensation is kind of tingly or numb at times. Actually, now that you mention it, my right toe has also started to get some ulcerations and the pain there is getting worse too. I just feel really uncomfortable and I\u2019m not sure what\u2019s going on."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms in detail\u2014it helps me understand what you\u2019re experiencing. You mentioned progressive claudication and ulcerations in both lower extremities; can you tell me if you\u2019ve noticed any swelling, drainage, or signs of infection\u2014such as redness or warmth\u2014around the ulcerations?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 yes, I have noticed some swelling around the ulcers, especially on my left toe. Sometimes there\u2019s a little bit of drainage, and the area can look red and feel warmer than the rest of my foot. The pain just hasn\u2019t let up\u2014it\u2019s not really improving, even after several hours, and it\u2019s actually getting worse. I\u2019m having a really hard time walking now, much more than before. I used to be able to get around okay, but lately I feel almost incapacitated by the pain. Should I be worried that it\u2019s not getting better?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with worsening pain, swelling, and difficulty walking\u2014these symptoms can be very concerning. To help guide my assessment, have you noticed any spreading redness up your foot or leg, fever, or chills, which could indicate a more serious infection or systemic involvement?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t really noticed the redness spreading up my leg, but the area around the ulcers does get pretty red and warm sometimes. I don\u2019t think I\u2019ve had a fever, but I do get chills every now and then\u2014maybe that\u2019s related? \n\nAlso, I\u2019ve been having this progressive claudication in both my legs for a while now. The pain and these ulcerations on both sides just seem to be getting worse. It\u2019s making it really hard for me to get around, and I\u2019m just not able to walk like I used to."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing these details about your symptoms. To better understand the severity of your claudication, can you tell me how far you are able to walk before the pain in your legs becomes severe enough that you have to stop and rest?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 lately I can barely make it across my living room before the pain gets so bad that I have to stop and sit down. It used to be just when I walked a long distance, but now it\u2019s almost right away. The left toe ulcerations have been especially troublesome\u2014I\u2019ve had to have them debrided a few times, but they just don\u2019t seem to heal.\n\nAlso, I\u2019m not sure if it\u2019s related, but I\u2019ve been having some trouble with urinary incontinence as well. It\u2019s just been a lot to deal with all at once, and I\u2019m really hoping you can help me figure out what\u2019s going on."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for explaining how limited your walking has become and for sharing about the persistent ulcerations and urinary incontinence. To help guide my assessment, have you noticed any changes in the appearance of your lower extremity pulses or any areas where you cannot feel a pulse during examination, such as behind your knees or on the tops of your feet?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t really examinationed my pulses myself, but when I was at another appointment, I think the nurse had a hard time finding a pulse on the top of my left foot. I remember her pressing around and saying it was faint or maybe not there at all. I\u2019m not sure about behind my knees\u2014I don\u2019t really know how to examination that.\n\nIs it normal for the pulse to be hard to find like that? Does that mean there\u2019s something wrong with the blood flow? I just feel like things are getting worse, and I\u2019m worried about these symptoms not improving, especially with the pain and the ulcers not healing."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with your symptoms worsening and the difficulty healing your ulcers. Based on your description of progressive claudication and poor pulse examination, have you noticed any changes in the color of your legs or feet\u2014such as becoming pale, bluish, or mottled\u2014either at rest or when you elevate your legs?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, actually, now that you mention it, I have noticed my left foot sometimes looks kind of pale or even a little bluish, especially when I put my feet up or after I\u2019ve been sitting for a while. It\u2019s not all the time, but it does happen. The toes also get kind of mottled-looking at times.\n\nAnd, um\u2026 I wanted to mention something else that\u2019s been worrying me. At my last appointment, they did a stress test and said there were some concerning EKG changes. I\u2019m not sure exactly what that means, but it made me nervous. Also, I had a fall recently\u2014I got really dizzy and lost my balance. I just feel so uncomfortable and I\u2019m not sure if all these symptoms are connected. Should I be worried about my circulation or my heart?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with these concerning symptoms and recent changes in your stress diagnostic evaluation. Given your history of progressive lower extremity claudication and non-healing ulcerations, have you experienced any new symptoms such as chest pain, shortness of breath, or palpitations, either during activity or at rest?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t really had chest pain, but sometimes I do feel a bit short of breath, especially if I try to move around more than usual. I get these little fluttery feelings in my chest too\u2014maybe that\u2019s what you mean by palpitations? It\u2019s not constant, but it does happen from time to time.\n\nActually, over the past couple days, I\u2019ve also had some vomiting and diarrhea. I\u2019m not sure if that\u2019s related, but it\u2019s left me feeling really weak and kind of dizzy when I stand up. My mouth feels dry and my heart seems to beat faster than normal. I just feel so uncomfortable overall. Should I be worried about all these symptoms happening together?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with these multiple symptoms affecting your daily life and causing so much discomfort. Based on your description of progressive lower extremity claudication, non-healing ulcerations, and recent gastroindiagnostic evaluationinal symptoms with signs of dehydration, my assessment is that you may have significant peripheral arterial disease, possibly complicated by infection and electrolyte imbalances. To further guide your care, have you noticed any signs of spreading infection such as increased redness, warmth, or streaking up your legs, or have you developed a fever greater than 101.5\u00b0F (38\u00b0C)?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t really examinationed my temperature, so I\u2019m not sure if I\u2019ve had a fever over 101.5, but I do feel chilled sometimes and just generally unwell. The redness and warmth around the ulcers are definitely there, but I haven\u2019t noticed any streaking going up my legs yet.\n\nAbout the dehydration\u2014I think I might really be dealing with that. My mouth is so dry, and every time I stand up, I get dizzy, almost like I might faint. My heart feels like it\u2019s racing sometimes too. \n\nAnd, actually, something else has me worried. When I vomited the other day, there was some dark material in it, almost like coffee grounds. I also noticed my bowel movement looked really dark, almost black. Is that something serious? Should I be worried about bleeding or something else going on? I just feel so uncomfortable and I really want to get some relief and figure out what\u2019s happening."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with ongoing pain, non-healing ulcerations, and now noticing dark material in your vomit and bowel movements\u2014these symptoms can be very concerning. Based on your medical history and current symptoms, I\u2019m concerned about possible gastroindiagnostic evaluationinal bleeding in addition to significant peripheral arterial disease and infection. Have you experienced any lightheadedness or fainting episodes recently, especially when standing, which could suggest low blood volume or anemia from blood loss?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, yes, actually\u2014I have been feeling really lightheaded, especially when I stand up. There was one time recently where I actually fainted. It\u2019s been happening more often lately, and I\u2019m worried it might be from losing blood or something like that. \n\nUm, I also wanted to mention that my skin and even the whites of my eyes have started looking kind of yellow\u2014I think that\u2019s called jaundice, right? And I\u2019ve had these shaking chills off and on, even when I don\u2019t think I have a fever. \n\nI\u2019m just so uncomfortable and all these symptoms together are really scaring me. Should I be worried about something serious going on with my circulation or maybe even my liver? What do you think is happening, and is there anything you can do to help me feel better soon?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious\u2014your symptoms of progressive lower extremity claudication, non-healing ulcerations, gastroindiagnostic evaluationinal bleeding (as suggested by dark vomit and stools), jaundice, lightheadedness, fainting, and shaking chills are all very concerning and suggest multiple serious underlying conditions. Based on your medical history and recent symptoms, I am concerned about possible severe peripheral arterial disease, active gastroindiagnostic evaluationinal bleeding, infection, and potential liver dysfunction.\n\nTo help guide my assessment further, have you noticed any abdominal pain or tenderness during examination, or any swelling in your abdomen that could indicate liver or gastroindiagnostic evaluationinal involvement?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Actually, yes, my abdomen has felt a bit tender lately, especially on the right side under my ribs. It\u2019s not a sharp pain, but it\u2019s definitely uncomfortable and sometimes feels kind of swollen or bloated. I wasn\u2019t sure if it was related to all the vomiting and diarrhea, but now I\u2019m worried it could be something with my liver since you mentioned that.\n\nAlso, I did examination my temperature at home and it was over 101.5\u00b0F a couple times in the past few days. I\u2019ve just felt so weak and achy, with those shaking chills you talked about. \n\nIs it possible that all these symptoms\u2014like the jaundice, the dark vomit and stools, and the abdominal tenderness\u2014are connected? Should I be worried about something like an infection spreading or liver failure? I\u2019m really uncomfortable and just want to know what can be done to help me feel better."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014your symptoms of jaundice, abdominal tenderness, fever, shaking chills, and evidence of gastrointenstinal bleeding are very concerning and suggest a potentially serious underlying condition involving your liver and possibly a systemic infection. Based on your medical history and recent examination findings, I strongly recommend immediate hospital admission for comprehensive assessment, including laboratory evaluation, imaging, and supportive care. While we arrange this, have you noticed any changes in your mental status\u2014such as confusion, difficulty concentrating, or unusual sleepiness\u2014that could indicate hepatic encephalopathy or worsening systemic illness?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 actually, yes, I have noticed I\u2019ve been more forgetful lately and it\u2019s harder to concentrate than usual. Sometimes I feel really sleepy during the day, even if I slept the night before. My family has mentioned that I seem a little confused at times, like I\u2019ll lose track of what I was saying or get mixed up about what day it is. I just thought maybe it was because I haven\u2019t been feeling well, but now I\u2019m worried it could be something more serious, like hepatic encephalopathy.\n\nI\u2019m really uncomfortable and honestly a little scared with all these symptoms happening at once\u2014jaundice, fever, chills, the abdominal tenderness, and now the confusion. Is there anything you can do right away to help me feel better? And, um, how serious is this? Should my family be worried?"
+    }
+  ],
+  "transcript": "Doctor: Thank you for coming in today. I understand you\u2019ve been experiencing progressive lower extremity claudication and ulcerations on both legs. Can you describe how these symptoms have changed over time and if there are specific activities or times of day when they tend to worsen?\nPatient: Well, um\u2026 yes, the main thing that\u2019s been bothering me is this pain in my left toe. It started getting worse after I, uh, accidentally hit it with a pair of high heel shoes a while back. Since then, the pain\u2019s been getting more intense and I\u2019ve noticed some ulcerations there too. I\u2019m just really uncomfortable and hoping to get some relief.\nDoctor: Thank you for sharing that with me\u2014I can understand how persistent toe pain and ulcerations would be very uncomfortable. To help guide my assessment, can you tell me if you\u2019ve noticed any changes in the color, temperature, or sensation of your left foot or toes since these symptoms began?\nPatient: Well, um\u2026 I have noticed that my left toe sometimes looks a bit darker than usual, and it feels colder compared to the other toes. The sensation is kind of tingly or numb at times. Actually, now that you mention it, my right toe has also started to get some ulcerations and the pain there is getting worse too. I just feel really uncomfortable and I\u2019m not sure what\u2019s going on.\nDoctor: Thank you for describing your symptoms in detail\u2014it helps me understand what you\u2019re experiencing. You mentioned progressive claudication and ulcerations in both lower extremities; can you tell me if you\u2019ve noticed any swelling, drainage, or signs of infection\u2014such as redness or warmth\u2014around the ulcerations?\nPatient: Let me think\u2026 yes, I have noticed some swelling around the ulcers, especially on my left toe. Sometimes there\u2019s a little bit of drainage, and the area can look red and feel warmer than the rest of my foot. The pain just hasn\u2019t let up\u2014it\u2019s not really improving, even after several hours, and it\u2019s actually getting worse. I\u2019m having a really hard time walking now, much more than before. I used to be able to get around okay, but lately I feel almost incapacitated by the pain. Should I be worried that it\u2019s not getting better?\nDoctor: I can understand why you\u2019d be anxious, especially with worsening pain, swelling, and difficulty walking\u2014these symptoms can be very concerning. To help guide my assessment, have you noticed any spreading redness up your foot or leg, fever, or chills, which could indicate a more serious infection or systemic involvement?\nPatient: Well, um\u2026 I haven\u2019t really noticed the redness spreading up my leg, but the area around the ulcers does get pretty red and warm sometimes. I don\u2019t think I\u2019ve had a fever, but I do get chills every now and then\u2014maybe that\u2019s related? \n\nAlso, I\u2019ve been having this progressive claudication in both my legs for a while now. The pain and these ulcerations on both sides just seem to be getting worse. It\u2019s making it really hard for me to get around, and I\u2019m just not able to walk like I used to.\nDoctor: Thank you for sharing these details about your symptoms. To better understand the severity of your claudication, can you tell me how far you are able to walk before the pain in your legs becomes severe enough that you have to stop and rest?\nPatient: Well, um\u2026 lately I can barely make it across my living room before the pain gets so bad that I have to stop and sit down. It used to be just when I walked a long distance, but now it\u2019s almost right away. The left toe ulcerations have been especially troublesome\u2014I\u2019ve had to have them debrided a few times, but they just don\u2019t seem to heal.\n\nAlso, I\u2019m not sure if it\u2019s related, but I\u2019ve been having some trouble with urinary incontinence as well. It\u2019s just been a lot to deal with all at once, and I\u2019m really hoping you can help me figure out what\u2019s going on.\nDoctor: Thank you for explaining how limited your walking has become and for sharing about the persistent ulcerations and urinary incontinence. To help guide my assessment, have you noticed any changes in the appearance of your lower extremity pulses or any areas where you cannot feel a pulse during examination, such as behind your knees or on the tops of your feet?\nPatient: Well, um\u2026 I haven\u2019t really examinationed my pulses myself, but when I was at another appointment, I think the nurse had a hard time finding a pulse on the top of my left foot. I remember her pressing around and saying it was faint or maybe not there at all. I\u2019m not sure about behind my knees\u2014I don\u2019t really know how to examination that.\n\nIs it normal for the pulse to be hard to find like that? Does that mean there\u2019s something wrong with the blood flow? I just feel like things are getting worse, and I\u2019m worried about these symptoms not improving, especially with the pain and the ulcers not healing.\nDoctor: I can understand why you\u2019d be worried, especially with your symptoms worsening and the difficulty healing your ulcers. Based on your description of progressive claudication and poor pulse examination, have you noticed any changes in the color of your legs or feet\u2014such as becoming pale, bluish, or mottled\u2014either at rest or when you elevate your legs?\nPatient: Well, actually, now that you mention it, I have noticed my left foot sometimes looks kind of pale or even a little bluish, especially when I put my feet up or after I\u2019ve been sitting for a while. It\u2019s not all the time, but it does happen. The toes also get kind of mottled-looking at times.\n\nAnd, um\u2026 I wanted to mention something else that\u2019s been worrying me. At my last appointment, they did a stress test and said there were some concerning EKG changes. I\u2019m not sure exactly what that means, but it made me nervous. Also, I had a fall recently\u2014I got really dizzy and lost my balance. I just feel so uncomfortable and I\u2019m not sure if all these symptoms are connected. Should I be worried about my circulation or my heart?\nDoctor: I can understand why you\u2019d be anxious, especially with these concerning symptoms and recent changes in your stress diagnostic evaluation. Given your history of progressive lower extremity claudication and non-healing ulcerations, have you experienced any new symptoms such as chest pain, shortness of breath, or palpitations, either during activity or at rest?\nPatient: Well, um\u2026 I haven\u2019t really had chest pain, but sometimes I do feel a bit short of breath, especially if I try to move around more than usual. I get these little fluttery feelings in my chest too\u2014maybe that\u2019s what you mean by palpitations? It\u2019s not constant, but it does happen from time to time.\n\nActually, over the past couple days, I\u2019ve also had some vomiting and diarrhea. I\u2019m not sure if that\u2019s related, but it\u2019s left me feeling really weak and kind of dizzy when I stand up. My mouth feels dry and my heart seems to beat faster than normal. I just feel so uncomfortable overall. Should I be worried about all these symptoms happening together?\nDoctor: I can understand why you\u2019d be worried, especially with these multiple symptoms affecting your daily life and causing so much discomfort. Based on your description of progressive lower extremity claudication, non-healing ulcerations, and recent gastroindiagnostic evaluationinal symptoms with signs of dehydration, my assessment is that you may have significant peripheral arterial disease, possibly complicated by infection and electrolyte imbalances. To further guide your care, have you noticed any signs of spreading infection such as increased redness, warmth, or streaking up your legs, or have you developed a fever greater than 101.5\u00b0F (38\u00b0C)?\nPatient: Well, um\u2026 I haven\u2019t really examinationed my temperature, so I\u2019m not sure if I\u2019ve had a fever over 101.5, but I do feel chilled sometimes and just generally unwell. The redness and warmth around the ulcers are definitely there, but I haven\u2019t noticed any streaking going up my legs yet.\n\nAbout the dehydration\u2014I think I might really be dealing with that. My mouth is so dry, and every time I stand up, I get dizzy, almost like I might faint. My heart feels like it\u2019s racing sometimes too. \n\nAnd, actually, something else has me worried. When I vomited the other day, there was some dark material in it, almost like coffee grounds. I also noticed my bowel movement looked really dark, almost black. Is that something serious? Should I be worried about bleeding or something else going on? I just feel so uncomfortable and I really want to get some relief and figure out what\u2019s happening.\nDoctor: I can understand why you\u2019d be anxious, especially with ongoing pain, non-healing ulcerations, and now noticing dark material in your vomit and bowel movements\u2014these symptoms can be very concerning. Based on your medical history and current symptoms, I\u2019m concerned about possible gastroindiagnostic evaluationinal bleeding in addition to significant peripheral arterial disease and infection. Have you experienced any lightheadedness or fainting episodes recently, especially when standing, which could suggest low blood volume or anemia from blood loss?\nPatient: Well, yes, actually\u2014I have been feeling really lightheaded, especially when I stand up. There was one time recently where I actually fainted. It\u2019s been happening more often lately, and I\u2019m worried it might be from losing blood or something like that. \n\nUm, I also wanted to mention that my skin and even the whites of my eyes have started looking kind of yellow\u2014I think that\u2019s called jaundice, right? And I\u2019ve had these shaking chills off and on, even when I don\u2019t think I have a fever. \n\nI\u2019m just so uncomfortable and all these symptoms together are really scaring me. Should I be worried about something serious going on with my circulation or maybe even my liver? What do you think is happening, and is there anything you can do to help me feel better soon?\nDoctor: I can understand why you\u2019re experiencing anxious\u2014your symptoms of progressive lower extremity claudication, non-healing ulcerations, gastroindiagnostic evaluationinal bleeding (as suggested by dark vomit and stools), jaundice, lightheadedness, fainting, and shaking chills are all very concerning and suggest multiple serious underlying conditions. Based on your medical history and recent symptoms, I am concerned about possible severe peripheral arterial disease, active gastroindiagnostic evaluationinal bleeding, infection, and potential liver dysfunction.\n\nTo help guide my assessment further, have you noticed any abdominal pain or tenderness during examination, or any swelling in your abdomen that could indicate liver or gastroindiagnostic evaluationinal involvement?\nPatient: Let me think\u2026 Actually, yes, my abdomen has felt a bit tender lately, especially on the right side under my ribs. It\u2019s not a sharp pain, but it\u2019s definitely uncomfortable and sometimes feels kind of swollen or bloated. I wasn\u2019t sure if it was related to all the vomiting and diarrhea, but now I\u2019m worried it could be something with my liver since you mentioned that.\n\nAlso, I did examination my temperature at home and it was over 101.5\u00b0F a couple times in the past few days. I\u2019ve just felt so weak and achy, with those shaking chills you talked about. \n\nIs it possible that all these symptoms\u2014like the jaundice, the dark vomit and stools, and the abdominal tenderness\u2014are connected? Should I be worried about something like an infection spreading or liver failure? I\u2019m really uncomfortable and just want to know what can be done to help me feel better.\nDoctor: I can understand why you\u2019d be worried\u2014your symptoms of jaundice, abdominal tenderness, fever, shaking chills, and evidence of gastrointenstinal bleeding are very concerning and suggest a potentially serious underlying condition involving your liver and possibly a systemic infection. Based on your medical history and recent examination findings, I strongly recommend immediate hospital admission for comprehensive assessment, including laboratory evaluation, imaging, and supportive care. While we arrange this, have you noticed any changes in your mental status\u2014such as confusion, difficulty concentrating, or unusual sleepiness\u2014that could indicate hepatic encephalopathy or worsening systemic illness?\nPatient: Well, um\u2026 actually, yes, I have noticed I\u2019ve been more forgetful lately and it\u2019s harder to concentrate than usual. Sometimes I feel really sleepy during the day, even if I slept the night before. My family has mentioned that I seem a little confused at times, like I\u2019ll lose track of what I was saying or get mixed up about what day it is. I just thought maybe it was because I haven\u2019t been feeling well, but now I\u2019m worried it could be something more serious, like hepatic encephalopathy.\n\nI\u2019m really uncomfortable and honestly a little scared with all these symptoms happening at once\u2014jaundice, fever, chills, the abdominal tenderness, and now the confusion. Is there anything you can do right away to help me feel better? And, um, how serious is this? Should my family be worried?\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: dizzy, really weak and kind of dizzy when i stand up, chills, diarrhea, vomiting. Assessment: severe peripheral arterial disease, non-healing lower extremity ulcerations, possible infection (local and/or systemic). Plan: rest, immediate hospital admission for comprehensive assessment, laboratory evaluation. Clinical note: The patient presents with progressive claudication, non-healing ulcerations, signs of infection, gastrointestinal bleeding (dark vomit and stools), jaundice, abdominal tenderness, fever, confusion, and evidence of liver dysfunction. The doctor suspects severe peripheral arterial disease, active GI bleeding, infection, and possible hepatic encephalopathy, recommending urgent hospital admission for further evaluation and management.. Extracted: 46 symptoms, 7 diagnoses, 5 treatments.",
+  "annotations": {
+    "symptoms": [
+      "dizzy",
+      "really weak and kind of dizzy when i stand up",
+      "chills",
+      "diarrhea",
+      "vomiting",
+      "fever",
+      "bothering me is this pain in my left toe",
+      "numbness",
+      "weakness",
+      "lightheaded",
+      "shortness of breath",
+      "abdominal pain",
+      "chest pain",
+      "breath",
+      "headache",
+      "dizziness",
+      "progressive lower extremity claudication",
+      "ulcerations on both legs and toes",
+      "pain in left and right toes",
+      "darker discoloration of left toe",
+      "cold sensation in left toe",
+      "tingling or numbness in left toe",
+      "swelling around ulcers",
+      "drainage from ulcers",
+      "redness and warmth around ulcers",
+      "worsening pain",
+      "difficulty walking",
+      "urinary incontinence",
+      "faint or absent pulse on top of left foot",
+      "pale, bluish, or mottled appearance of left foot and toes",
+      "palpitations",
+      "vomiting (with dark material/coffee grounds)",
+      "dry mouth",
+      "dizziness on standing",
+      "black/dark stools",
+      "lightheadedness",
+      "fainting",
+      "jaundice (yellow skin and eyes)",
+      "shaking chills",
+      "abdominal tenderness (especially right upper quadrant)",
+      "abdominal swelling/bloating",
+      "fever over 101.5\u00b0F",
+      "forgetfulness",
+      "difficulty concentrating",
+      "daytime sleepiness",
+      "confusion"
+    ],
+    "diagnoses": [
+      "severe peripheral arterial disease",
+      "non-healing lower extremity ulcerations",
+      "possible infection (local and/or systemic)",
+      "active gastrointestinal bleeding",
+      "possible liver dysfunction/failure",
+      "possible hepatic encephalopathy",
+      "possible dehydration and electrolyte imbalance"
+    ],
+    "treatments": [
+      "rest",
+      "immediate hospital admission for comprehensive assessment",
+      "laboratory evaluation",
+      "imaging studies",
+      "supportive care"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.890 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.634 \u2705\n\u2022 Dialogue Naturalness: 0.724 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently demonstrates safe, responsible, and clinically appropriate communication. There is a clear, logical progression from initial symptom exploration (claudication, ulcerations) to more urgent red-flag symptoms (gastrointestinal bleeding, jaundice, confusion).\n- The doctor repeatedly reassures the patient, acknowledges their discomfort and anxiety, and provides clear explanations for why certain symptoms are concerning.\n- The recommendation for immediate hospital admission is entirely appropriate given the constellation of symptoms (GI bleeding, jaundice, fever, confusion), and the doctor avoids giving any unsafe advice or false reassurance.\n- The doctor\u2019s questions are medically relevant and escalate appropriately as new symptoms are disclosed.\n\n**2. Patient Behavior Naturalness and Believability**\n- The patient\u2019s responses show progressive disclosure: initial focus on toe pain and ulcerations, then gradually revealing more systemic symptoms as prompted by the doctor\u2019s questions.\n- The patient expresses uncertainty, worry, and seeks reassurance\u2014common emotional responses in serious illness.\n- The patient sometimes hesitates (\u201clet me think\u2026\u201d, \u201cwell, um\u2026\u201d) and asks clarifying questions about their symptoms and what they might mean, which is realistic.\n- The patient\u2019s concern about whether symptoms are connected, and their repeated requests for help and relief, are believable for someone experiencing escalating illness.\n\n**3. Empathy and Professionalism**\n- The doctor consistently validates the patient\u2019s concerns (\u201cI can understand why you\u2019d be anxious\u2026\u201d), uses empathetic language, and maintains a professional tone throughout.\n- The doctor adapts to the patient\u2019s emotional state, providing reassurance while also communicating the seriousness of the situation.\n- Rapport is built through attentive listening and acknowledgment of the patient\u2019s distress.\n\n**4. Meaningful Medical Purpose**\n- Each exchange serves a clear clinical purpose: gathering more information, assessing severity, ruling in/out complications (infection, bleeding, hepatic dysfunction), and determining urgency.\n- The conversation flows logically from symptom history to risk assessment to urgent management.\n- The dialogue covers a broad range of relevant medical issues (vascular disease, infection, GI bleeding, liver dysfunction, encephalopathy) in a way that mirrors real complex patient encounters.\n\n**5. Conversation Dynamics**\n- Turn-taking is appropriate; the doctor asks focused questions and allows the patient to elaborate.\n- The dialogue develops naturally as new symptoms are revealed and explored.\n- Some repetition in language (\u201cI can understand why you\u2019d be worried\u2026\u201d) is realistic for high-stress medical conversations.\n\n**6. Minor Imperfections**\n- There are some minor awkward phrasings (\u201cgastroindiagnostic evaluationinal\u201d instead of \u201cgastrointestinal\u201d), but these do not detract from overall realism or safety.\n- Occasional slightly formal or stilted language from the doctor is within normal bounds for clinical encounters.\n\n**Conclusion:**  \nThis dialogue represents a plausible, safe, and clinically appropriate medical encounter between a physician and a patient with complex, escalating symptoms. Both parties behave in ways consistent with real-world medical interviews. The conversation serves a meaningful clinical purpose and demonstrates empathy, professionalism, and effective communication.\n\n**Overall Rating:**  \n**DIALOGUE REALISTIC**\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.890)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.267/0.3 (Score: 0.890)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.634,
+      "naturalness": 0.724,
+      "safety": 0.89,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 92.51400256156921,
+  "dialogue_stats": {
+    "turn_count": 24,
+    "word_count": 2159,
+    "doctor_turns": 12,
+    "patient_turns": 12
+  }
+}

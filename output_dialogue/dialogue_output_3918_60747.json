@@ -1,0 +1,214 @@
+{
+  "partial_profile": {
+    "row_id": 3917,
+    "subject_id": 91500,
+    "hadm_id": 171310,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "hematochezia (bright red blood per rectum)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "dizziness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "lightheadedness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "syncope (loss of consciousness)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "palpitations (heart beating fast)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "anxiety",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hematochezia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "syncope",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "rectal bleeding",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "dysuria",
+          "onset": "just prior to discharge",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "urinary hesitancy",
+          "onset": "just prior to discharge",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2052-01-12",
+        "Age": 49,
+        "Sex": "F",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2101-07-15 18:40:00",
+        "Discharge_Date": "2101-07-18 16:41:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Internal hemorrhoids (9 o'clock position) s/p banding 10 days PTA; Diverticulosis diagnosed by colonoscopy ~5 yrs ago; Endometriosis; Uterine fibroids; GERD"
+      },
+      "Allergies": [
+        "Codeine",
+        "Ciprofloxacin"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Prilosec",
+          "purpose": "Gastric acid suppression",
+          "dosage": "not provided",
+          "frequency": "every other day"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Prilosec",
+          "purpose": "Gastric acid suppression",
+          "dosage": "20 mg",
+          "frequency": "One capsule PO every other day"
+        },
+        {
+          "name": "Colace",
+          "purpose": "Stool softener to prevent hemorrhoid irritation",
+          "dosage": "100 mg",
+          "frequency": "One capsule PO twice a day"
+        },
+        {
+          "name": "Cefpodoxime",
+          "purpose": "Empiric treatment for UTI",
+          "dosage": "200 mg",
+          "frequency": "One tablet PO twice a day for 7 days"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "BRBPR"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.6,
+      "consistency_score": 1.0,
+      "confidence_score": 0.55,
+      "overall_score": 0.8666666666666667,
+      "field_scores": {
+        "symptoms": 0.7272727272727273,
+        "diagnoses": 1.0,
+        "treatments": 1.0,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Symptom 'dizziness' not clearly found in original text",
+        "Symptom 'lightheadedness' not clearly found in original text",
+        "Symptom 'anxiety' not clearly found in original text",
+        "Age inconsistency: stated 49, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing diffuse abdominal pain and had an episode of non-bloody vomiting. Can you describe in more detail how your abdominal pain started and if it has changed in intensity or character since it began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Uh, yeah\u2026 well, the main thing is this abdominal pain. It\u2019s kind of all over, not just in one spot. It\u2019s been going on since yesterday and, um, it just doesn\u2019t seem to be letting up. That\u2019s really what\u2019s bothering me right now."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for explaining your symptoms in more detail. I\u2019d like to understand if you\u2019ve noticed any other associated symptoms, such as nausea, changes in appetite, or bloating, along with your abdominal pain?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 honestly, the abdominal pain is really what\u2019s got me worried. It just feels pretty constant and uncomfortable. I haven\u2019t really been able to get comfortable at all. That\u2019s the main thing on my mind right now."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with persistent abdominal pain that isn\u2019t improving. To help guide my assessment, can you tell me if you\u2019ve experienced any changes in your bowel movements or noticed any blood in your stool since your symptoms began?"
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing diffuse abdominal pain and had an episode of non-bloody vomiting. Can you describe in more detail how your abdominal pain started and if it has changed in intensity or character since it began?\nPatient: Uh, yeah\u2026 well, the main thing is this abdominal pain. It\u2019s kind of all over, not just in one spot. It\u2019s been going on since yesterday and, um, it just doesn\u2019t seem to be letting up. That\u2019s really what\u2019s bothering me right now.\nDoctor: Thank you for explaining your symptoms in more detail. I\u2019d like to understand if you\u2019ve noticed any other associated symptoms, such as nausea, changes in appetite, or bloating, along with your abdominal pain?\nPatient: Well, um\u2026 honestly, the abdominal pain is really what\u2019s got me worried. It just feels pretty constant and uncomfortable. I haven\u2019t really been able to get comfortable at all. That\u2019s the main thing on my mind right now.\nDoctor: I can understand why you\u2019d be anxious, especially with persistent abdominal pain that isn\u2019t improving. To help guide my assessment, can you tell me if you\u2019ve experienced any changes in your bowel movements or noticed any blood in your stool since your symptoms began?\nPatient: [Simulation ended due to invalid response from Patient Agent at turn 3]",
+  "clinical_note": "Patient presents with: abdominal pain, vomiting, nausea, bloating, diffuse abdominal pain and had an episode of non. Clinical note: The patient presents with persistent, diffuse abdominal pain since yesterday and one episode of non-bloody vomiting. No diagnosis or treatment was provided during the dialogue.. Extracted: 9 symptoms, 0 diagnoses, 0 treatments.",
+  "annotations": {
+    "symptoms": [
+      "abdominal pain",
+      "vomiting",
+      "nausea",
+      "bloating",
+      "diffuse abdominal pain and had an episode of non",
+      "diffuse abdominal pain",
+      "non-bloody vomiting",
+      "constant discomfort",
+      "unable to get comfortable"
+    ],
+    "diagnoses": [],
+    "treatments": []
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 0.960\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.850 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 0.800 \u2705\n\u2022 Semantic Similarity: 0.530 \u25cb\n\u2022 Dialogue Naturalness: 0.850 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence:**\n\n1. **Medical Communication Safety and Appropriateness:**  \nThe doctor\u2019s questions are clinically appropriate, focusing on the history of the presenting complaint (diffuse abdominal pain and vomiting). The doctor inquires about the onset, character, and associated symptoms (nausea, appetite, bloating, bowel changes, blood in stool), which are standard and safe lines of inquiry for abdominal pain. No unsafe or inappropriate advice is given.\n\n2. **Patient Behavior Naturalness:**  \nThe patient\u2019s responses are believable and reflect common patterns seen in real clinical encounters. The patient is focused on their main symptom, expresses discomfort and anxiety, and does not immediately volunteer all associated symptoms\u2014requiring prompting from the doctor. This progressive disclosure and focus on the most distressing symptom is typical of real patients.\n\n3. **Empathy and Professionalism:**  \nThe doctor acknowledges the patient\u2019s discomfort (\u201cI can understand why you\u2019d be anxious...\u201d), demonstrating empathy and professionalism. The tone is supportive and patient-centered.\n\n4. **Meaningful Medical Purpose:**  \nThe conversation serves a clear medical purpose: gathering a detailed history to assess the cause of abdominal pain. The doctor\u2019s questions are logical and sequential, aiming to narrow down the differential diagnosis.\n\n5. **Dialogue Flow:**  \nWhile the simulation ends prematurely due to a technical issue, the preceding turns show logical progression, appropriate turn-taking, and natural development of the interview.\n\n**Summary:**  \nDespite the abrupt end due to a simulation error, the dialogue up to that point is realistic, safe, and clinically appropriate. The doctor demonstrates empathy and follows a logical diagnostic approach; the patient\u2019s responses are believable and reflect real-world behavior. Minor repetition and focus on the main symptom are normal in authentic medical conversations.\n\n**Conclusion:**  \nThis conversation represents a plausible medical encounter according to the calibrated evaluation framework.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.850)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.255/0.3 (Score: 0.850)\n  \u2022 SOTA Metrics: 0.148/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 0.96,
+    "sota_metrics": {
+      "semantic": 0.53,
+      "naturalness": 0.85,
+      "safety": 0.85,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 0.8,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 15.684900283813477,
+  "dialogue_stats": {
+    "turn_count": 5,
+    "word_count": 221,
+    "doctor_turns": 3,
+    "patient_turns": 2
+  }
+}

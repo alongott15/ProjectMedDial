@@ -164,7 +164,7 @@ class ReMeDiLLMJudge:
 class ReMeDiFixedValidator:
     def __init__(self, model_config: Dict):
         self.llm_judge = ReMeDiLLMJudge(model_config)
-        self.original_dialogue_dir = "output_sota"  # Where original dialogues are stored
+        self.original_dialogue_dir = "output_dialogue"  # Where original dialogues are stored
     
     def load_original_dialogue(self, annotation_filename: str) -> Optional[List[Dict]]:
         """Load the original dialogue file that corresponds to this annotation file"""
@@ -649,9 +649,9 @@ def main():
         return
     
     # Configuration
-    input_dir = "output_remedi_annotated"  # Directory created by annotation_main.py
-    output_dir = "validation_results_fixed"
-    sample_size = 5  # Number of turns to evaluate per file (None for all)
+    input_dir = "output_annotated"  # Directory created by annotation_main.py
+    output_dir = "annotation_validation_results"  # Directory to save results
+    sample_size = None  # Number of turns to evaluate per file (None for all)
     max_files = None  # Set to limit number of files (e.g., 10 for testing)
     
     validator = ReMeDiFixedValidator(AZURE_CONFIG)

@@ -1,0 +1,1521 @@
+{
+  "source_row_id": 3920,
+  "source_subject_id": 9571,
+  "source_hadm_id": 177891,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I\u2019d like to start by understanding more about your current symptoms\u2014can you describe any changes you\u2019ve noticed in your mental status, such as confusion, difficulty concentrating, or memory changes?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in mental status (confusion, difficulty concentrating, memory changes)"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Um, hi. Well, I guess my main concern is that lately I\u2019ve just been feeling kind of\u2026 off. My mind feels a little foggy, and I\u2019m having trouble focusing. And, uh, I\u2019ve also noticed I get shortness of breath sometimes. Should I be worried?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mind feels foggy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble focusing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried?"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about experiencing mentally foggy and experiencing shortness of breath\u2014those symptoms can be unsettling. To help guide my assessment, have you noticed any episodes of low blood pressure, dizziness when standing, or experiencing faint along with these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mentally foggy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness when standing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "faint"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Um, yeah, I think my blood pressure\u2019s been kind of low lately. I\u2019ve felt a little dizzy when I stand up, and sometimes it feels like I might faint. The mental status changes are what really worry me, though.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizzy when standing up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling like might faint"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these symptoms with me\u2014I appreciate your openness, and I understand that mental fogginess and dizziness can be concerning. Given your recent episodes of hypotension and experiencing faint, have you noticed any symptoms of hypothermia, such as experiencing unusually cold, shivering, or having a lower than normal clinical examination temperature?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing these symptoms with me\u2014I appreciate your openness, and I understand that mental fogginess and dizziness can be concerning."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental fogginess and dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recent episodes of hypotension and experiencing faint"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "symptoms of hypothermia, such as experiencing unusually cold, shivering"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Temperature",
+          "value": "having a lower than normal clinical examination temperature"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, I have felt really cold sometimes, even when it\u2019s not that chilly in the room. I\u2019ve had some shivering, too. I think one of the nurses said my temperature was lower than normal during a clinical examination. And, um, the low blood pressure\u2014or hypotension, I guess\u2014is still happening. Is that something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling cold"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shivering"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": "lower than normal"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is that something serious?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms so clearly. Given your recent hypothermia and hypotension, I\u2019d like to ask specifically\u2014have you noticed any redness, swelling, warmth, or tenderness on your right upper extremity near the site of your previous PICC line, or any changes such as drainage from that area during your clinical assessment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent hypothermia and hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "redness, swelling, warmth, tenderness on right upper extremity near previous PICC line site"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "drainage from right upper extremity near previous PICC line site"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um, actually, yeah\u2014I have noticed some redness, or erythema, on my right upper arm where the old PICC line was. It\u2019s looked a bit swollen and maybe a little warm to the touch, but I\u2019m not totally sure. I haven\u2019t seen any pus, but there was a bit of clear drainage once. Also, I\u2019ve been feeling kind of nauseous lately. Is that related?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness (erythema) on right upper arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling on right upper arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "warmth on right upper arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clear drainage from right upper arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is nausea related to the arm symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing the erythema, swelling, and clear drainage near your old PICC line site\u2014these symptoms can sometimes indicate a localized infection. During your clinical assessment, have you experienced any fevers or chills in addition to the hypothermia and nausea you mentioned?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clear drainage near old PICC line site"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "symptoms can sometimes indicate a localized infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypothermia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 actually, I have had some fevers\u2014over 101, I think, maybe 101.5 or a bit higher. And I\u2019ve definitely had chills, too. I\u2019ve also been vomiting off and on. It\u2019s just a lot all at once, and I\u2019m starting to get really anxious about what\u2019s going on.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": "over 101, maybe 101.5 or a bit higher"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand how all of these symptoms\u2014especially the fever, chills, and changes at your PICC line site\u2014would make you feel anxious, and I appreciate you sharing them with me. To help with my assessment, have you noticed if the erythema or swelling on your right upper extremity has been spreading or increasing in size since you first observed it?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "expressing empathy and appreciation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "erythema or swelling on right upper extremity spreading or increasing in size"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 I think the erythema and swelling have gotten a bit worse since I first noticed them. The area feels warmer now, and I\u2019m examinationing it a lot because I\u2019m worried it might start producing pus or something. So far, it\u2019s just been clear drainage, but I\u2019m nervous it could get infected more seriously. The chills are still happening, too.\n\nShould I be really worried about this? Is it normal for a wound like that to become red, swollen, and warm?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "area feels warmer"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clear drainage"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be really worried about this?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it normal for a wound like that to become red, swollen, and warm?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with the erythema, swelling, warmth, and clear drainage you\u2019ve described at your old PICC line site\u2014these symptoms can be concerning and may suggest a localized infection or even a more serious condition like cellulitis. To help with my assessment, have you noticed any tenderness or pain at the site during examination, or any difficulty moving your right upper extremity?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "localized infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "cellulitis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "warmth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clear drainage"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "tenderness or pain at the site"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty moving right upper extremity"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yeah, there\u2019s definitely some tenderness when I touch the area, and it\u2019s a bit painful if I try to move my arm too much. I wouldn\u2019t say I can\u2019t move it at all, but I\u2019m kind of avoiding using it because it just feels uncomfortable. \n\nAnd, um, since we\u2019re talking about symptoms\u2014I\u2019ve also noticed I\u2019ve been having some constipation lately, which isn\u2019t normal for me. I don\u2019t know if that\u2019s related, but it\u2019s been going on for a few days. The clear drainage from the wound is still there, too. \n\nIs this something that could get worse quickly? Should I be doing anything different right now?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness when touching the area"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "painful when moving arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "avoiding using arm due to discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation for a few days"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clear drainage from wound"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is this something that could get worse quickly?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be doing anything different right now?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I\u2019m sorry you\u2019re experiencing so much discomfort right now\u2014tenderness, pain, and ongoing drainage can be very distressing. To better assess the severity of your symptoms, have you noticed any streaking redness (lymphangitis) extending away from the erythematous area on your right upper extremity, or any swelling in your hand or fingers during your own examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "expressing empathy for discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "streaking redness (lymphangitis)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in hand or fingers"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed any streaking redness, like what you called lymphangitis, going up or down my arm. The erythema seems to mostly stay around where the old PICC line was, but I am keeping an eye on it. My hand and fingers don\u2019t look swollen right now, but I do feel a little more stiff than usual.\n\nI\u2019m just really anxious about all these symptoms\u2014especially with the hypotension, hypothermia, and now this wound issue. Is this something that could turn into sepsis? Should I be worried about that? And is there anything else I should watch for or do while I\u2019m here?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no streaking redness (lymphangitis)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythema around old PICC line site"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no swelling in hand and fingers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased stiffness in hand/fingers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypothermia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what else to watch for or do"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially given your symptoms of hypotension, hypothermia, fever, chills, and the erythema with tenderness and drainage near your old PICC line site\u2014these findings do raise concern for a possible localized infection that could progress to sepsis if not closely monitored. As part of my assessment, have you noticed any changes in your urine output or color, or any new symptoms such as confusion or increased fatigue since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypothermia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythema with tenderness and drainage near old PICC line site"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible localized infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output or color"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new symptoms such as confusion or increased fatigue"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, I think my urine output has been a little less than usual. The color seems a bit darker, too\u2014not super dark, but definitely not as light as it normally is. And, um, I\u2019ve definitely been feeling more fatigued lately. Sometimes I just feel wiped out, even if I haven\u2019t done much.\n\nAs for confusion, well, I guess I have been a little more forgetful or just not as sharp as usual. It\u2019s hard to tell if that\u2019s just from being so tired or if it\u2019s something else. \n\nI\u2019m honestly pretty anxious about all of this\u2014especially since you mentioned sepsis. Should I be worried that it\u2019s already progressed that far? What happens next?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "darker urine color"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "forgetfulness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "disease progression"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "next steps"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with the combination of fatigue, reduced urine output, mental status changes, and the erythema with drainage at your old PICC line site\u2014these symptoms can be concerning for a systemic infection such as sepsis. For my assessment, have you experienced any abdominal pain, worsening nausea, or vomiting since these symptoms began, which could suggest involvement of your gastroindiagnostic evaluationinal system?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reduced urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythema with drainage at old PICC line site"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "systemic infection such as sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vomiting"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yeah, I\u2019ve actually had some abdominal pain on and off\u2014it\u2019s not super sharp, but it\u2019s definitely uncomfortable. The nausea\u2019s been pretty constant, and I\u2019ve had a few episodes of vomiting, especially when the fevers are higher. I wasn\u2019t sure if that was just from being anxious or if it was part of the infection.\n\nWith all these symptoms\u2014like the mental status changes, hypotension, hypothermia, and now the GI stuff\u2014should I be really worried about sepsis? What happens if it is sepsis? And is there anything else I should be doing right now to help?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypothermia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "prognosis if it is sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what else should be done right now"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with the combination of mental status changes, hypotension, hypothermia, fever, chills, gastroindiagnostic evaluationinal symptoms, and the erythema with drainage at your old PICC line site\u2014all of which can be concerning for a systemic infection such as sepsis. Based on your symptoms and my assessment so far, have you experienced any new or worsening shortness of breath or chest discomfort since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypothermia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "gastrointestinal symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythema with drainage at old PICC line site"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "systemic infection such as sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, I have noticed some new shortness of breath. It\u2019s not constant, but sometimes I feel like I can\u2019t quite catch my breath, especially when I\u2019m moving around or if I get anxious. I haven\u2019t really had chest discomfort\u2014no chest pain or tightness\u2014but the shortness of breath is definitely new for me since all these symptoms started.\n\nWith everything going on\u2014mental status changes, hypotension, hypothermia, the fevers and chills, and now this wound with erythema and drainage\u2014I\u2019m honestly pretty scared. If this is sepsis, how serious is it? What kind of treatment do people usually need? And is there anything I should be doing right now to help myself get better?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypothermia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers and chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wound with erythema and drainage"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": ""
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I completely understand why you\u2019re experiencing anxious\u2014your symptoms of mental status changes, hypotension, hypothermia, fever, chills, gastroindiagnostic evaluationinal symptoms, and the erythema with drainage at your old PICC line site are all concerning for a serious systemic infection such as sepsis. Sepsis can be life-threatening if not treated promptly, but with early recognition and aggressive treatment\u2014including intravenous antibiotics, fluid resuscitation, and close monitoring\u2014many patients recover well.\n\nRight now, it\u2019s important to continue close clinical monitoring for any worsening symptoms, and to ensure you receive all prescribed treatments. Have you noticed any new or worsening swelling in your legs or difficulty urinating since your last assessment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypothermia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "gastrointestinal symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythema with drainage at old PICC line site"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous antibiotics, fluid resuscitation, and close monitoring"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "continue close clinical monitoring for any worsening symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening swelling in legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty urinating"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed any new or worsening swelling in my legs\u2014no edema that I can see. My ankles look about the same as usual. As for urinating, I mentioned earlier that my urine output seems a bit less and the color is darker, but I wouldn\u2019t say I\u2019m having real difficulty urinating. It just seems like I\u2019m going less often.\n\nI\u2019m glad to hear that with early recognition and aggressive treatment, people can recover from sepsis. I\u2019m still pretty anxious, though\u2014should I expect to feel worse before I get better? And is there anything specific I should watch out for, like if the erythema spreads more or if my mental status changes again? I just want to make sure I\u2019m doing everything I can to help myself recover.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new or worsening swelling in legs, no edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "urine output seems less and color is darker"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not having real difficulty urinating, just going less often"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "should I expect to feel worse before I get better"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "is there anything specific I should watch out for, like erythema spreading or mental status changes"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially given the seriousness of your symptoms and the uncertainty about your recovery. Based on your clinical assessment\u2014mental status changes, hypotension, hypothermia, fever, chills, gastroindiagnostic evaluationinal symptoms, and localized erythema with drainage\u2014continued close monitoring is essential, and you are already receiving the appropriate treatment with intravenous antibiotics and supportive care.\n\nIt\u2019s important to promptly report any new or worsening symptoms, such as spreading erythema, increased drainage (especially if it becomes purulent), further changes in mental status, or difficulty breathing, as these may indicate progression of infection or sepsis. Are you experiencing any new pain or discomfort in other areas of your clinical examination since your last examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental status changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypothermia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "gastrointestinal symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "localized erythema with drainage"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "continued close monitoring"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous antibiotics and supportive care"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "promptly report any new or worsening symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new pain or discomfort in other areas"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Let me think for a second\u2026 Actually, other than the abdominal pain I mentioned before, I haven\u2019t really noticed any new pain in other areas since my last examination. The main discomfort is still around the old PICC line site with the erythema and swelling, and then just feeling generally fatigued and kind of weak.\n\nI am keeping an eye on everything, like you said\u2014if the erythema spreads or if the drainage changes, I\u2019ll definitely let someone know right away. I\u2019m still feeling pretty anxious about all of this, though. Is there a certain point where I should be extra concerned? Like, if my mental status changes again or if I get more shortness of breath, is that an emergency? And how long does it usually take for symptoms like these to start improving once you\u2019re on IV antibiotics?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "discomfort around old PICC line site"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Precaution",
+          "value": "monitoring erythema and drainage as instructed"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "when to be extra concerned/emergency signs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "mental status changes or increased shortness of breath as emergency"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "how long for symptoms to improve on IV antibiotics"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I completely understand your anxiety\u2014these symptoms can be overwhelming, and it\u2019s natural to feel concerned about your recovery. Based on your clinical assessment, you are already receiving appropriate intravenous antibiotics and supportive care, and most patients begin to assess improvement in symptoms such as fever, erythema, and mental status within 48\u201372 hours of treatment if the infection is responding. However, if you experience any sudden worsening of mental status, increased shortness of breath, rapidly spreading erythema, or new purulent drainage, these are signs that require immediate medical attention.\n\nTo help guide ongoing assessment, have you noticed any new onset of rapid heart rate (palpitations) or irregular heartbeat since starting treatment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "intravenous antibiotics and supportive care"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "most patients begin to assess improvement in symptoms such as fever, erythema, and mental status within 48\u201372 hours of treatment if the infection is responding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sudden worsening of mental status, increased shortness of breath, rapidly spreading erythema, new purulent drainage"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "signs that require immediate medical attention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new onset of rapid heart rate (palpitations) or irregular heartbeat since starting treatment"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I have felt my heart racing a few times\u2014like some palpitations, I guess. It\u2019s not all the time, but every so often I\u2019ll just be lying there and suddenly notice my heart feels like it\u2019s beating faster or kind of fluttering. I haven\u2019t noticed any irregular heartbeat that I can tell, but the palpitations do make me a bit more anxious when they happen.\n\nIs that something to be worried about while I\u2019m getting treatment for this infection? Could it be from the antibiotics or just part of the sepsis? And if my heart rate keeps going up, is there anything I should do or watch out for?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart racing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious when palpitations happen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "concern about heart symptoms during infection treatment"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Side-effect",
+          "value": "asking if antibiotics could cause palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "asking if palpitations are part of sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "asking what to do or watch out for if heart rate increases"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about experiencing palpitations, especially while you\u2019re already anxious and dealing with serious symptoms. Palpitations can sometimes occur as part of the clinical examination\u2019s response to infection and sepsis, or as a side effect of certain medications, but they should be monitored closely\u2014especially if your heart rate becomes persistently elevated or irregular. During your most recent clinical assessment, have you experienced any episodes of chest pain, lightheadedness, or fainting associated with these palpitations?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "response to infection and sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Side-effect",
+          "value": "side effect of certain medications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fainting"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 let me think. I haven\u2019t really had any chest pain with the palpitations, which I guess is good. I do still get lightheaded sometimes, especially if I stand up too fast or if my blood pressure is low\u2014like hypotension, right? I haven\u2019t actually fainted, but I\u2019ve felt pretty close a couple of times.\n\nIs it normal to feel this way when you have sepsis or are on these antibiotics? And if my heart rate keeps going up or if I do faint, should I let someone know right away? I just want to make sure I\u2019m not missing anything important.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain with palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness, especially on standing up quickly or with low blood pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fainting but near-fainting episodes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Is it normal to feel lightheaded or have palpitations with sepsis or antibiotics?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I notify someone if my heart rate increases or if I faint?"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014your symptoms of lightheadedness, palpitations, and hypotension can be assessn in the context of sepsis and during treatment, but they do require close monitoring. My clinical assessment is that your infection is being managed appropriately with intravenous antibiotics and supportive care, and your recent electrolyte levels are within normal limits, which is reassuring. If you experience any new or worsening symptoms such as chest pain, fainting, or a persistently rapid or irregular heart rate, it is important to notify your medical team immediately so we can reassess your condition. Have you had any recent changes in your temperature or noticed any new fevers since starting antibiotic therapy?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "intravenous antibiotics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "electrolyte levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "notify medical team if new or worsening symptoms such as chest pain, fainting, or rapid/irregular heart rate"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Temperature",
+          "value": "recent changes in temperature or new fevers since starting antibiotic therapy"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 since starting the intravenous antibiotics, my temperature has been kind of up and down. I haven\u2019t had any really high fevers like before, but I\u2019ve still had a few low-grade fevers\u2014like around 100 or 100.5. Sometimes I feel a little flushed or sweaty, and other times I\u2019m just cold and shivering, even if my temperature isn\u2019t that low. \n\nIs it normal for the fever to linger a bit while the infection is being treated? Or does that mean the antibiotics aren\u2019t working as well as they should? I\u2019m just anxious because I thought the fevers would go away right away once I started treatment. Should I be worried about these temperature changes?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "temperature has been up and down"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no really high fevers like before"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "few low-grade fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": "around 100 or 100.5"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "flushed or sweaty"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cold and shivering"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Is it normal for the fever to linger while the infection is being treated?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Does that mean the antibiotics aren\u2019t working as well as they should?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried about these temperature changes?"
+        }
+      ]
+    }
+  ]
+}

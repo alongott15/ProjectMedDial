@@ -1,0 +1,410 @@
+{
+  "partial_profile": {
+    "row_id": 4162,
+    "subject_id": 79875,
+    "hadm_id": 154666,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "frequent right frontal sinusitis",
+          "onset": "not provided",
+          "duration": "ongoing",
+          "severity": "not provided"
+        },
+        {
+          "description": "nausea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "constipation",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "well-controlled"
+        },
+        {
+          "description": "headache",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "New onset of tremors or seizures",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Confusion or change in mental status",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Numbness, tingling, weakness in extremities",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Pain or headache that is continually increasing, or not relieved by pain medication",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Signs of infection at the wound site: redness, swelling, tenderness, or drainage",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Fever greater than or equal to 101 F",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2139-06-22",
+        "Age": 39,
+        "Sex": "F",
+        "Religion": "NOT SPECIFIED",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "HISPANIC OR LATINO",
+        "Insurance": "Private",
+        "Admission_Type": "ELECTIVE",
+        "Admission_Date": "2178-08-21 07:15:00",
+        "Discharge_Date": "2178-08-26 21:50:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "asthma, control neuralgia, pseudotumor cerebri since 2173, gastritis, anemia, arthritis, tubal ligation, pilonidal cyst"
+      },
+      "Allergies": [
+        "Aspirin",
+        "Codeine"
+      ],
+      "Current_Medications": [
+        {
+          "name": "ACETAZOLAMIDE [DIAMOX SEQUELS]",
+          "purpose": "not provided",
+          "dosage": "500 mg capsule, extended release",
+          "frequency": "1 Capsule(s) by mouth twice a day"
+        },
+        {
+          "name": "ALBUTEROL SULFATE [PROAIR HFA]",
+          "purpose": "not provided",
+          "dosage": "90 mcg HFA Aerosol Inhaler",
+          "frequency": "2 puff inhaled at bedtime"
+        },
+        {
+          "name": "AZELASTINE [ASTELIN]",
+          "purpose": "not provided",
+          "dosage": "137 mcg (0.1 %) Aerosol, Spray",
+          "frequency": "2 puffs(s) nostril twice a day"
+        },
+        {
+          "name": "FLUTICASONE [FLOVENT HFA]",
+          "purpose": "not provided",
+          "dosage": "44 mcg Aerosol",
+          "frequency": "1 puff inhaled at bedtime"
+        },
+        {
+          "name": "GABAPENTIN",
+          "purpose": "not provided",
+          "dosage": "300 mg capsule",
+          "frequency": "300mg Capsule(s) by mouth once daily at hs"
+        },
+        {
+          "name": "OMEPRAZOLE",
+          "purpose": "not provided",
+          "dosage": "20 mg capsule,delayed release(DR/EC)",
+          "frequency": "1 Capsule(s) by mouth twice a day"
+        },
+        {
+          "name": "RANITIDINE HCL",
+          "purpose": "not provided",
+          "dosage": "300 mg capsule",
+          "frequency": "1 Capsule(s) by mouth once a day"
+        },
+        {
+          "name": "CETIRIZINE",
+          "purpose": "not provided",
+          "dosage": "10 mg tablet",
+          "frequency": "1 Tablet(s) by mouth once a day"
+        },
+        {
+          "name": "CHOLECALCIFEROL (VITAMIN D3)",
+          "purpose": "not provided",
+          "dosage": "1,000 unit capsule",
+          "frequency": "1 Capsule(s) by mouth once a day"
+        },
+        {
+          "name": "CYANOCOBALAMIN (VITAMIN B-12) [VITAMIN B-12]",
+          "purpose": "not provided",
+          "dosage": "1,000 mcg tablet",
+          "frequency": "1 Tablet(s) by mouth once a day"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Acetaminophen",
+          "purpose": "pain, fever >38.5",
+          "dosage": "325-650 mg",
+          "frequency": "PO Q6H:PRN"
+        },
+        {
+          "name": "Albuterol Inhaler",
+          "purpose": "wheeze, shortness of breath",
+          "dosage": "2 PUFF",
+          "frequency": "IH Q4H:PRN"
+        },
+        {
+          "name": "Gabapentin",
+          "purpose": "neuropathic pain",
+          "dosage": "300 mg",
+          "frequency": "PO HS"
+        },
+        {
+          "name": "Fluticasone Propionate",
+          "purpose": "airway inflammation",
+          "dosage": "110mcg 2 PUFF",
+          "frequency": "IH HS"
+        },
+        {
+          "name": "Omeprazole",
+          "purpose": "gastric acid suppression",
+          "dosage": "20 mg",
+          "frequency": "PO BID"
+        },
+        {
+          "name": "Acetaminophen-Caff-Butalbital",
+          "purpose": "headache",
+          "dosage": "50 mg-325 mg-40 mg",
+          "frequency": "1 tablet(s) by mouth q4-6h"
+        },
+        {
+          "name": "Docusate Sodium",
+          "purpose": "constipation",
+          "dosage": "100 mg",
+          "frequency": "PO TID"
+        },
+        {
+          "name": "OxycoDONE (Immediate Release)",
+          "purpose": "pain",
+          "dosage": "5-10 mg",
+          "frequency": "PO Q4H:PRN"
+        },
+        {
+          "name": "Narcotic pain medication",
+          "purpose": "Pain management",
+          "dosage": "not provided",
+          "frequency": "as prescribed"
+        },
+        {
+          "name": "Docusate (Colace)",
+          "purpose": "Stool softener to prevent constipation",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "frequent right frontal sinusitis"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.6,
+      "consistency_score": 1.0,
+      "confidence_score": 0.65,
+      "overall_score": 0.8666666666666667,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 1.0,
+        "treatments": 0.9090909090909091,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Treatment 'Respiratory care' not clearly found in text",
+        "Age inconsistency: stated 39, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve experienced back pain and chest pain recently. Can you describe the onset and characteristics of these symptoms in more detail, such as when they started and whether anything makes them better or worse?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, hi, thank you for seeing me. Well, I guess my main concern is this back pain I\u2019ve been having. It sort of started a little while ago, and I\u2019m not really sure what brought it on. I just\u2026 I guess I\u2019m worried because it hasn\u2019t really gone away. Should I be worried?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious about your back pain, especially since it hasn\u2019t resolved yet. To help with my assessment, can you tell me if you\u2019ve also experienced any chest pain or noticed any skin changes, such as a rash, along with your other symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yeah, I have had some chest pain too, sort of around the same time as the back pain. I\u2019m not sure if it\u2019s related or not. It\u2019s just\u2026 it\u2019s making me pretty anxious, to be honest."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d feel anxious about having both back pain and chest pain at the same time. To help with my assessment, have you noticed any changes on your skin, such as a rash or unusual spots, particularly over your chest or back since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Oh, um\u2026 actually, now that you mention it, I did notice a rash over my chest and back. It\u2019s kind of\u2026 I think you\u2019d call it maculopapular? I saw some spots and bumps there. And the back pain is mostly right between my shoulder blades\u2014intrascapular, I think is the term? I\u2019m just not sure if it\u2019s all connected or if I should be more worried."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with both the intrascapular back pain and the new maculopapular rash over your chest and back. To help guide my assessment, have you experienced any other systemic symptoms such as fever, chills, or night sweats along with these findings?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Um, I haven\u2019t really had any fevers or chills, at least not that I\u2019ve noticed. No night sweats either. Actually, since I got admitted, I haven\u2019t had any symptoms of back pain or chest pain. It\u2019s more just the rash now, and I\u2019m still feeling pretty anxious about everything. Should I be worried that it\u2019s something serious?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious, especially with the new rash and your recent symptoms. To help with my assessment, have you noticed any joint pain, muscle aches (myalgias), or weakness along with the maculopapular rash?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, yeah, I think I have noticed some muscle pains\u2014myalgias, like you said\u2014and a bit of weakness too. Actually, now that I think about it, I\u2019ve also been having some jaw pain when I chew, and my abdominal pain has been getting a bit worse lately. I\u2019m just not sure if all these symptoms are related, but it\u2019s making me pretty anxious."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with these new symptoms and your ongoing anxiety. To help guide my assessment, have you noticed any changes in your vision\u2014such as blurred vision, double vision, or vision loss\u2014since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 No, I haven\u2019t had any changes in my vision\u2014no blurred vision, double vision, or anything like that. My eyes seem okay so far. I am still feeling pretty anxious, though, especially since my back pain has actually been getting worse lately. I haven\u2019t had any fevers\u2014I\u2019ve been afebrile the whole time, I think. Is it normal for all these symptoms to happen together? Should I be worried about something serious going on?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with the combination of a worsening intrascapular back pain and the persistent maculopapular rash. To help with my assessment, have you noticed any swelling, tenderness, or redness in your joints, or any difficulty with movement since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, I haven\u2019t really noticed any swelling or redness in my joints, and I don\u2019t think there\u2019s been any tenderness either. I do have some weakness and myalgias, but I\u2019m still able to move around okay. \n\nActually, I wanted to mention\u2014I don\u2019t have any symptoms that would go with GCA or temporal arteritis. No temple sensitivity, and I haven\u2019t had jaw claudication. My white blood cell count hasn\u2019t been elevated either, as far as I know. \n\nI\u2019m just feeling really anxious because the back pain and abdominal pain are getting worse, and I\u2019m not sure what\u2019s causing all these symptoms together. Should I be worried about something serious?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with your worsening back and abdominal pain along with the persistent rash. To help with my assessment, have you noticed any changes in your bowel habits\u2014such as diarrhea, constipation, or blood in your stool\u2014since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 No, I haven\u2019t noticed any big changes in my bowel habits\u2014no diarrhea or constipation, and I haven\u2019t seen any blood in my stool. Everything seems pretty normal in that regard.\n\nI did want to mention, since you\u2019re asking about all these symptoms, that I\u2019ve been hemodynamically stable the whole time. My blood pressure\u2019s been kind of borderline to Stage I hypertension, with my systolic running between 130 and 150. I\u2019m not sure if that\u2019s related to what\u2019s going on, but I thought it was worth mentioning.\n\nI\u2019m still feeling pretty anxious, especially with the worsening back pain and abdominal pain. Is there something specific you\u2019re worried about with all these symptoms together? Should I be preparing for any particular tests or treatments?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with your ongoing anxiety about the worsening back pain, abdominal pain, and the persistent maculopapular rash. Based on your symptoms and stable vital signs, I\u2019d like to clarify\u2014have you experienced any recent weight loss, night sweats, or fatigue that might suggest a systemic condition?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Actually, I haven\u2019t really noticed any weight loss or night sweats. I do feel more fatigued than usual, but I kind of chalked that up to just not sleeping well because I\u2019m so anxious about all these symptoms.\n\nI also wanted to mention, since you\u2019re asking about systemic conditions, that I\u2019ve remained euvolemic and in normal sinus rhythm. They did see some atrial ectopy on telemetry, but there hasn\u2019t been any evidence of arrhythmia. I\u2019m just not sure if that\u2019s important for what\u2019s going on.\n\nI know my symptoms are kind of all over the place\u2014worsening back pain, abdominal pain, the maculopapular rash, and now this fatigue. Is there something specific you\u2019re thinking this could be? Should I be worried about an underlying systemic issue, or is this maybe related to my prednisone or polymyalgia rheumatica?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with your ongoing fatigue, worsening intrascapular back pain, abdominal pain, and the persistent maculopapular rash. Based on your symptoms and medical history\u2014including polymyalgia rheumatica and chronic prednisone use\u2014my assessment will focus on possible systemic inflammatory or vasculitic conditions. To help guide further evaluation, have you recently experienced any new headaches or scalp tenderness that could suggest underlying vascular inflammation?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually, now that you mention it, I have been having more headpains lately. They\u2019ve been getting a bit worse over the past few days. I haven\u2019t noticed any scalp tenderness, though\u2014just the headpains and this general feeling of weakness.\n\nI\u2019m still feeling pretty anxious about all these symptoms, especially with my history of polymyalgia rheumatica and being on prednisone for so long. Is it common to have all these symptoms together\u2014like the worsening intrascapular back pain, abdominal pain, the maculopapular rash, and now these headpains and weakness? Should I be worried about some kind of vascular inflammation or something else serious?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with your history of polymyalgia rheumatica and the combination of worsening intrascapular back pain, abdominal pain, maculopapular rash, increasing headaches, and weakness. Based on your symptoms and medical history, my assessment will focus on the possibility of a systemic vasculitis or vascular inflammation. Have you noticed any visual disturbances, such as transient vision loss or double vision, which can sometimes accompany vascular inflammatory conditions?"
+    },
+    {
+      "role": "Patient",
+      "content": "No, I haven\u2019t had any visual disturbances\u2014no vision loss or double vision or anything like that. My eyes have been okay so far. \n\nBut, um, I am still having these increasing headpains, and the myalgias and weakness seem to be sticking around too. It just feels like everything\u2019s sort of piling up at once, and I\u2019m honestly pretty anxious about it. \n\nWith all these symptoms\u2014like the worsening intrascapular back pain, abdominal pain, maculopapular rash, myalgias, and now these increasing headpains\u2014does this sound like a systemic vasculitis or vascular inflammation to you? Is there something specific I should be asking about or watching out for? And is there anything I should be doing differently with my prednisone or other medications right now?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially given your ongoing symptoms and history of polymyalgia rheumatica treated with prednisone. Based on your constellation of symptoms\u2014including worsening intrascapular back pain, abdominal pain, maculopapular rash, myalgias, increasing headaches, and weakness\u2014my assessment is that a systemic vasculitis or vascular inflammation remains a significant consideration.\n\nAt this point, I recommend a thorough clinical evaluation, including laboratory studies to assess markers of inflammation (such as ESR and CRP), autoimmune serologies, and possibly imaging to evaluate for vascular involvement. It is important not to adjust your prednisone dose without medical supervision, as abrupt changes could worsen your condition; have you experienced any new symptoms such as jaw claudication or scalp tenderness since your last examination?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining all that. Um, actually, since my last exam, I have noticed some jaw pain when I chew\u2014I think that\u2019s what you called jaw claudication? But I haven\u2019t had any scalp tenderness. \n\nAlso, now that I\u2019m thinking about it, I\u2019ve started having some fevers recently. It\u2019s not all the time, but I\u2019ve definitely felt warmer and kind of flushed off and on. That\u2019s been making me even more anxious.\n\nI appreciate you mentioning the labs and imaging. Is there anything specific you\u2019re looking for with those tests? And with all these symptoms\u2014like the fevers, jaw claudication, headpains, and the rash\u2014do you think this could be something like giant cell arteritis or another type of vasculitis? Should I be worried about any complications?"
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve experienced back pain and chest pain recently. Can you describe the onset and characteristics of these symptoms in more detail, such as when they started and whether anything makes them better or worse?\nPatient: Um, hi, thank you for seeing me. Well, I guess my main concern is this back pain I\u2019ve been having. It sort of started a little while ago, and I\u2019m not really sure what brought it on. I just\u2026 I guess I\u2019m worried because it hasn\u2019t really gone away. Should I be worried?\nDoctor: I can understand why you\u2019re experiencing anxious about your back pain, especially since it hasn\u2019t resolved yet. To help with my assessment, can you tell me if you\u2019ve also experienced any chest pain or noticed any skin changes, such as a rash, along with your other symptoms?\nPatient: Well, um\u2026 yeah, I have had some chest pain too, sort of around the same time as the back pain. I\u2019m not sure if it\u2019s related or not. It\u2019s just\u2026 it\u2019s making me pretty anxious, to be honest.\nDoctor: I can understand why you\u2019d feel anxious about having both back pain and chest pain at the same time. To help with my assessment, have you noticed any changes on your skin, such as a rash or unusual spots, particularly over your chest or back since these symptoms began?\nPatient: Oh, um\u2026 actually, now that you mention it, I did notice a rash over my chest and back. It\u2019s kind of\u2026 I think you\u2019d call it maculopapular? I saw some spots and bumps there. And the back pain is mostly right between my shoulder blades\u2014intrascapular, I think is the term? I\u2019m just not sure if it\u2019s all connected or if I should be more worried.\nDoctor: I can understand why you\u2019d be worried, especially with both the intrascapular back pain and the new maculopapular rash over your chest and back. To help guide my assessment, have you experienced any other systemic symptoms such as fever, chills, or night sweats along with these findings?\nPatient: Let me think\u2026 Um, I haven\u2019t really had any fevers or chills, at least not that I\u2019ve noticed. No night sweats either. Actually, since I got admitted, I haven\u2019t had any symptoms of back pain or chest pain. It\u2019s more just the rash now, and I\u2019m still feeling pretty anxious about everything. Should I be worried that it\u2019s something serious?\nDoctor: I can understand why you\u2019re experiencing anxious, especially with the new rash and your recent symptoms. To help with my assessment, have you noticed any joint pain, muscle aches (myalgias), or weakness along with the maculopapular rash?\nPatient: Um, yeah, I think I have noticed some muscle pains\u2014myalgias, like you said\u2014and a bit of weakness too. Actually, now that I think about it, I\u2019ve also been having some jaw pain when I chew, and my abdominal pain has been getting a bit worse lately. I\u2019m just not sure if all these symptoms are related, but it\u2019s making me pretty anxious.\nDoctor: I can understand why you\u2019d be worried, especially with these new symptoms and your ongoing anxiety. To help guide my assessment, have you noticed any changes in your vision\u2014such as blurred vision, double vision, or vision loss\u2014since these symptoms began?\nPatient: Let me think\u2026 No, I haven\u2019t had any changes in my vision\u2014no blurred vision, double vision, or anything like that. My eyes seem okay so far. I am still feeling pretty anxious, though, especially since my back pain has actually been getting worse lately. I haven\u2019t had any fevers\u2014I\u2019ve been afebrile the whole time, I think. Is it normal for all these symptoms to happen together? Should I be worried about something serious going on?\nDoctor: I can understand why you\u2019d be worried, especially with the combination of a worsening intrascapular back pain and the persistent maculopapular rash. To help with my assessment, have you noticed any swelling, tenderness, or redness in your joints, or any difficulty with movement since these symptoms began?\nPatient: Well, um, I haven\u2019t really noticed any swelling or redness in my joints, and I don\u2019t think there\u2019s been any tenderness either. I do have some weakness and myalgias, but I\u2019m still able to move around okay. \n\nActually, I wanted to mention\u2014I don\u2019t have any symptoms that would go with GCA or temporal arteritis. No temple sensitivity, and I haven\u2019t had jaw claudication. My white blood cell count hasn\u2019t been elevated either, as far as I know. \n\nI\u2019m just feeling really anxious because the back pain and abdominal pain are getting worse, and I\u2019m not sure what\u2019s causing all these symptoms together. Should I be worried about something serious?\nDoctor: I can understand why you\u2019d be worried, especially with your worsening back and abdominal pain along with the persistent rash. To help with my assessment, have you noticed any changes in your bowel habits\u2014such as diarrhea, constipation, or blood in your stool\u2014since these symptoms began?\nPatient: Let me think\u2026 No, I haven\u2019t noticed any big changes in my bowel habits\u2014no diarrhea or constipation, and I haven\u2019t seen any blood in my stool. Everything seems pretty normal in that regard.\n\nI did want to mention, since you\u2019re asking about all these symptoms, that I\u2019ve been hemodynamically stable the whole time. My blood pressure\u2019s been kind of borderline to Stage I hypertension, with my systolic running between 130 and 150. I\u2019m not sure if that\u2019s related to what\u2019s going on, but I thought it was worth mentioning.\n\nI\u2019m still feeling pretty anxious, especially with the worsening back pain and abdominal pain. Is there something specific you\u2019re worried about with all these symptoms together? Should I be preparing for any particular tests or treatments?\nDoctor: I can understand why you\u2019d be worried, especially with your ongoing anxiety about the worsening back pain, abdominal pain, and the persistent maculopapular rash. Based on your symptoms and stable vital signs, I\u2019d like to clarify\u2014have you experienced any recent weight loss, night sweats, or fatigue that might suggest a systemic condition?\nPatient: Let me think\u2026 Actually, I haven\u2019t really noticed any weight loss or night sweats. I do feel more fatigued than usual, but I kind of chalked that up to just not sleeping well because I\u2019m so anxious about all these symptoms.\n\nI also wanted to mention, since you\u2019re asking about systemic conditions, that I\u2019ve remained euvolemic and in normal sinus rhythm. They did see some atrial ectopy on telemetry, but there hasn\u2019t been any evidence of arrhythmia. I\u2019m just not sure if that\u2019s important for what\u2019s going on.\n\nI know my symptoms are kind of all over the place\u2014worsening back pain, abdominal pain, the maculopapular rash, and now this fatigue. Is there something specific you\u2019re thinking this could be? Should I be worried about an underlying systemic issue, or is this maybe related to my prednisone or polymyalgia rheumatica?\nDoctor: I can understand why you\u2019d be worried, especially with your ongoing fatigue, worsening intrascapular back pain, abdominal pain, and the persistent maculopapular rash. Based on your symptoms and medical history\u2014including polymyalgia rheumatica and chronic prednisone use\u2014my assessment will focus on possible systemic inflammatory or vasculitic conditions. To help guide further evaluation, have you recently experienced any new headaches or scalp tenderness that could suggest underlying vascular inflammation?\nPatient: Yeah, actually, now that you mention it, I have been having more headpains lately. They\u2019ve been getting a bit worse over the past few days. I haven\u2019t noticed any scalp tenderness, though\u2014just the headpains and this general feeling of weakness.\n\nI\u2019m still feeling pretty anxious about all these symptoms, especially with my history of polymyalgia rheumatica and being on prednisone for so long. Is it common to have all these symptoms together\u2014like the worsening intrascapular back pain, abdominal pain, the maculopapular rash, and now these headpains and weakness? Should I be worried about some kind of vascular inflammation or something else serious?\nDoctor: I can understand why you\u2019d be anxious, especially with your history of polymyalgia rheumatica and the combination of worsening intrascapular back pain, abdominal pain, maculopapular rash, increasing headaches, and weakness. Based on your symptoms and medical history, my assessment will focus on the possibility of a systemic vasculitis or vascular inflammation. Have you noticed any visual disturbances, such as transient vision loss or double vision, which can sometimes accompany vascular inflammatory conditions?\nPatient: No, I haven\u2019t had any visual disturbances\u2014no vision loss or double vision or anything like that. My eyes have been okay so far. \n\nBut, um, I am still having these increasing headpains, and the myalgias and weakness seem to be sticking around too. It just feels like everything\u2019s sort of piling up at once, and I\u2019m honestly pretty anxious about it. \n\nWith all these symptoms\u2014like the worsening intrascapular back pain, abdominal pain, maculopapular rash, myalgias, and now these increasing headpains\u2014does this sound like a systemic vasculitis or vascular inflammation to you? Is there something specific I should be asking about or watching out for? And is there anything I should be doing differently with my prednisone or other medications right now?\nDoctor: I can understand why you\u2019d be worried, especially given your ongoing symptoms and history of polymyalgia rheumatica treated with prednisone. Based on your constellation of symptoms\u2014including worsening intrascapular back pain, abdominal pain, maculopapular rash, myalgias, increasing headaches, and weakness\u2014my assessment is that a systemic vasculitis or vascular inflammation remains a significant consideration.\n\nAt this point, I recommend a thorough clinical evaluation, including laboratory studies to assess markers of inflammation (such as ESR and CRP), autoimmune serologies, and possibly imaging to evaluate for vascular involvement. It is important not to adjust your prednisone dose without medical supervision, as abrupt changes could worsen your condition; have you experienced any new symptoms such as jaw claudication or scalp tenderness since your last examination?\nPatient: Thank you for explaining all that. Um, actually, since my last exam, I have noticed some jaw pain when I chew\u2014I think that\u2019s what you called jaw claudication? But I haven\u2019t had any scalp tenderness. \n\nAlso, now that I\u2019m thinking about it, I\u2019ve started having some fevers recently. It\u2019s not all the time, but I\u2019ve definitely felt warmer and kind of flushed off and on. That\u2019s been making me even more anxious.\n\nI appreciate you mentioning the labs and imaging. Is there anything specific you\u2019re looking for with those tests? And with all these symptoms\u2014like the fevers, jaw claudication, headpains, and the rash\u2014do you think this could be something like giant cell arteritis or another type of vasculitis? Should I be worried about any complications?\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: headache, night sweats, some jaw pain when i chew, having some jaw pain when i chew, fever. Assessment: possible systemic vasculitis, possible vascular inflammation, history of polymyalgia rheumatica. Plan: recommend thorough clinical evaluation, laboratory studies (ESR, CRP, autoimmune serologies), possible imaging for vascular involvement. Clinical note: Patient with history of polymyalgia rheumatica on chronic prednisone presents with worsening intrascapular back pain, abdominal pain, maculopapular rash, myalgias, weakness, jaw claudication, headaches, fatigue, and intermittent fevers. Doctor suspects possible systemic vasculitis or vascular inflammation and recommends further evaluation with labs and imaging. Patient advised not to change prednisone dose without supervision.. Extracted: 26 symptoms, 3 diagnoses, 4 treatments.",
+  "annotations": {
+    "symptoms": [
+      "headache",
+      "night sweats",
+      "some jaw pain when i chew",
+      "having some jaw pain when i chew",
+      "fever",
+      "constipation",
+      "some fevers recently",
+      "chest pain",
+      "diarrhea",
+      "of weakness",
+      "abdominal pain",
+      "chills",
+      "fatigue",
+      "anxious about your back pain",
+      "weight loss",
+      "back pain",
+      "weakness",
+      "maculopapular rash over chest and back",
+      "anxiety",
+      "muscle pains (myalgias)",
+      "jaw pain when chewing (jaw claudication)",
+      "worsening intrascapular back pain",
+      "headaches",
+      "borderline to Stage I hypertension",
+      "fevers",
+      "atrial ectopy"
+    ],
+    "diagnoses": [
+      "possible systemic vasculitis",
+      "possible vascular inflammation",
+      "history of polymyalgia rheumatica"
+    ],
+    "treatments": [
+      "recommend thorough clinical evaluation",
+      "laboratory studies (ESR, CRP, autoimmune serologies)",
+      "possible imaging for vascular involvement",
+      "do not adjust prednisone dose without medical supervision"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: EXCELLENT\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.950 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.679 \u2705\n\u2022 Dialogue Naturalness: 0.847 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently demonstrates safe, responsible, and professional medical communication. There is no evidence of harmful advice or inappropriate reassurance. The doctor repeatedly emphasizes the need for further evaluation, laboratory studies, and imaging, and specifically cautions the patient not to adjust prednisone without supervision\u2014this is a critical safety point for someone on chronic steroids.\n- The doctor\u2019s questions are clinically appropriate, systematically exploring red flag symptoms (visual changes, jaw claudication, scalp tenderness, systemic symptoms) relevant to the differential diagnosis (e.g., vasculitis, GCA, systemic inflammatory disease).\n- The conversation maintains a patient-centered approach, with the doctor frequently validating the patient\u2019s anxiety and concerns.\n\n**2. Realistic Patient Behavior**\n- The patient\u2019s responses are believable and reflect a natural progression of information disclosure. The patient initially focuses on back pain, then gradually reveals additional symptoms (chest pain, rash, myalgias, jaw pain, etc.) as prompted by the doctor\u2019s questions.\n- The patient\u2019s emotional state\u2014persistent anxiety and worry about the seriousness of their symptoms\u2014is realistic for someone experiencing multiple unexplained symptoms with a chronic illness background.\n- The patient occasionally uses medical terminology (\u201cmaculopapular,\u201d \u201cintrascapular,\u201d \u201ceuvolemic\u201d), which is plausible for an informed or medically literate patient, especially one with a chronic condition like polymyalgia rheumatica.\n- The patient seeks clarification and reassurance multiple times (\u201cShould I be worried?\u201d), which is typical in real encounters.\n\n**3. Empathy and Professionalism**\n- The doctor repeatedly acknowledges and validates the patient\u2019s anxiety (\u201cI can understand why you\u2019d be worried\u2026\u201d), demonstrating empathy and professionalism.\n- The doctor maintains a calm, non-alarmist tone while still expressing appropriate clinical concern and outlining next steps.\n\n**4. Conversation Flow and Medical Purpose**\n- The dialogue follows a logical progression: initial symptom exploration \u2192 review of systems \u2192 focused questions based on evolving information \u2192 discussion of possible diagnoses and next steps.\n- Turn-taking is appropriate; the doctor asks open-ended and focused questions, and the patient responds thoughtfully, sometimes volunteering additional relevant information.\n- The conversation serves a clear medical purpose: gathering a detailed history to assess for serious conditions (e.g., vasculitis), determining urgency, and planning further workup.\n\n**Minor Imperfections (Acceptable)**\n- Some repetitive language (\u201cI can understand why you\u2019d be worried\u2026\u201d) is present but is common in real clinical conversations, especially when addressing ongoing patient anxiety.\n- The patient\u2019s use of medical terminology is slightly above average for a general population but plausible for someone with chronic illness experience or higher health literacy.\n\n**Conclusion:**\nThis dialogue represents a plausible, safe, and clinically appropriate medical encounter. Both the doctor\u2019s and patient\u2019s behaviors are realistic, the conversation flows logically, empathy is demonstrated throughout, and the exchange serves a meaningful diagnostic purpose.\n\n**Summary:**  \nDIALOGUE REALISTIC:  \nThe conversation authentically reflects a real-world medical interview between a concerned patient with complex symptoms and a thorough, empathetic physician. All key criteria for clinical authenticity, communication effectiveness, and medical safety are met.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.950)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.285/0.3 (Score: 0.950)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.679,
+      "naturalness": 0.847,
+      "safety": 0.95,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 82.12275552749634,
+  "dialogue_stats": {
+    "turn_count": 24,
+    "word_count": 1770,
+    "doctor_turns": 12,
+    "patient_turns": 12
+  }
+}

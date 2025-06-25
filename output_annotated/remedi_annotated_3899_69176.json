@@ -1,0 +1,1273 @@
+{
+  "source_row_id": 4186,
+  "source_subject_id": 78705,
+  "source_hadm_id": 151651,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Good afternoon, thank you for coming in today. I understand you\u2019ve been experiencing weakness and fatigue over the past several days\u2014can you describe in more detail how these symptoms have affected your daily activities?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Good afternoon, thank you for coming in today."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness and fatigue over the past several days"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "how these symptoms have affected your daily activities"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yeah, I\u2019ve just been feeling really weak lately. It\u2019s gotten hard for me to even get out of bed some days. I\u2019m just so tired all the time, and, uh, my left shoulder\u2019s been hurting too, but mostly it\u2019s this weakness that\u2019s making symptoms difficult.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left shoulder pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing how much this weakness and fatigue have impacted your daily activities. You also mentioned labile blood sugars, with levels ranging from the 60s to over 400\u2014can you tell me if you\u2019ve noticed any specific symptoms, such as dizziness, sweating, or confusion, when your blood sugar is particularly low or high?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness and fatigue impacting daily activities"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "labile blood sugars"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "blood sugar levels ranging from the 60s to over 400"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness, sweating, or confusion when blood sugar is low or high"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I guess sometimes I do feel a little confused, especially when my blood sugar drops low. I\u2019m not sure about sweating or dizziness, but the confusion stands out. And, uh, lately I\u2019ve also had some pain around my left ribs. I just feel pretty uncomfortable overall.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain around left ribs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable overall"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand how confusing and uncomfortable these symptoms must be for you, and I appreciate you sharing them with me. You mentioned experiencing both confusion and pain around your left ribs\u2014can you tell me if you\u2019ve noticed any changes in your bowel movements, such as dark or tarry stools, which could suggest gastroindiagnostic evaluationinal bleeding?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand how confusing and uncomfortable these symptoms must be for you, and I appreciate you sharing them with me."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain around left ribs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in bowel movements"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dark or tarry stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "gastrointestinal bleeding"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, let me think\u2026 actually, yes, I did notice my stool looked kind of dark, almost black, the other day. I wasn\u2019t sure if it was something I ate or not, but it did seem different. I didn\u2019t really think much of it at first, but now that you mention it, maybe that\u2019s important? I\u2019m still feeling pretty weak and tired, and with this rib pain and confusion, I\u2019m starting to get a bit worried. Should I be concerned about the dark stool?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark stool"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tiredness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "rib pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "concern about dark stool"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with these new symptoms and changes in your stool. Given your ongoing fatigue and the wide fluctuations in your blood glucose levels, have you noticed any recent changes in your appetite, unintentional weight loss, or increased thirst and urination that might help us further assess your metabolic status?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in stool"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluctuations in blood glucose levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "unintentional weight loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased thirst"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased urination"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 yeah, now that you mention it, I think my appetite\u2019s been a lot less than usual. I haven\u2019t really felt like eating much, and I might\u2019ve lost some weight, but I\u2019m not sure how much. I do get thirsty sometimes, and I\u2019ve been going to the bathroom more often than I used to. \n\nAbout my blood sugars\u2014they\u2019ve been all over the place, like you said, sometimes dropping into the 60s and then shooting up over 400. The confusion seems to get worse when that happens. I just feel kind of out of it, and it\u2019s making me pretty uncomfortable.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible weight loss"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased thirst"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased urination"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling out of it"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "blood sugars sometimes dropping into the 60s and shooting up over 400"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for explaining how your symptoms have progressed, especially the fluctuations in your blood glucose and ongoing fatigue. To help with my assessment, have you experienced any episodes of loss of consciousness or near-fainting (syncope or presyncope) during these periods of low or high blood sugar?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluctuations in blood glucose"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ongoing fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "near-fainting (syncope or presyncope)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "relation of symptoms to periods of low or high blood sugar"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I don\u2019t think I\u2019ve actually passed out, but there have been a couple times where I felt really lightheaded\u2014like I might faint. It usually happens when my blood sugar drops low, and I get kind of shaky and confused. \n\nAlso, about the bowel movements you mentioned earlier\u2014I did have what you called a melanotic bowel movement. It was pretty dark, almost black. I\u2019m not sure if that\u2019s related, but I thought I should mention it. \n\nI know I look pretty thin and frail these days, and honestly, I just feel weaker than usual. I\u2019d really like to get some relief from all of this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shakiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "melanotic (dark, almost black) bowel movement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "thin and frail appearance"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling weaker than usual"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I understand that all of these symptoms and changes can feel confusing and overwhelming, and I appreciate you sharing them so openly. To help with my assessment, can you tell me if you have experienced any chest pain, palpitations, or shortness of breath along with your fatigue and labile blood sugars?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I understand that all of these symptoms and changes can feel confusing and overwhelming, and I appreciate you sharing them so openly."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "labile blood sugars"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really had any chest pain or palpitations that I can remember. I do get a little short of breath sometimes, but it\u2019s not all the time\u2014just every now and then, especially when I try to move around.\n\nActually, lately I haven\u2019t even been able to stand up on my own. My legs just feel too weak, and I\u2019m worried about falling again. My skin\u2019s been really dry too\u2014almost flaky in some spots. \n\nIs all of this connected somehow? Should I be worried about these symptoms getting worse? I just want to feel better and get some relief.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath sometimes, especially with movement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unable to stand up on own"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "leg weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worried about falling again"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry, flaky skin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Are these symptoms connected?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about these symptoms getting worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "wants relief and to feel better"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious given these ongoing symptoms and changes in your health. To help with my assessment, have you noticed any signs of infection, such as fever, chills, or redness and tenderness around your left clavicular area or elsewhere, which might be related to your current condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be anxious given these ongoing symptoms and changes in your health."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "signs of infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "redness and tenderness around left clavicular area"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, actually, now that you mention it, I have noticed some redness and tenderness right over my left clavicular area\u2014kind of where the collarbone meets the sternum. It\u2019s been a bit sore to the touch, and I think there\u2019s some swelling there too. I don\u2019t know if that\u2019s what you\u2019d call edema, but it does seem puffier than usual, almost like the fluid is building up under the skin.\n\nI haven\u2019t really had any fevers or chills that I can remember, but this area\u2019s definitely more sensitive than before. Should I be worried about infection or something serious going on there? And is this related to the weakness and other symptoms I\u2019ve been having? I just feel pretty uncomfortable and would really like to get some relief.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness over left clavicular area"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness over left clavicular area"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "soreness to touch over left clavicular area"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling over left clavicular area"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fevers or chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "relation to weakness and other symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "relief"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these ongoing symptoms, especially with the redness, tenderness, and swelling over your left clavicular area. To further assess your condition, have you noticed any warmth or increased temperature over that area, or any drainage from the skin that could suggest a localized infection or abscess?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness, tenderness, and swelling over left clavicular area"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Temperature",
+          "value": "warmth or increased temperature over that area"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "drainage from the skin"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "localized infection or abscess"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Well, I haven\u2019t noticed any drainage from the skin, but that area over my left sternoclavicular joint does feel a little warmer than the rest, and it\u2019s definitely tender. There\u2019s some very mild soft tissue swelling right there too\u2014just over the joint. It\u2019s not a huge bump, but it\u2019s puffier than usual.\n\nAnd, um, about the bowel movements\u2014I did have another melanotic stool recently. It was really dark, almost black, just like before. I\u2019m starting to get pretty uncomfortable with all these symptoms happening at once. Is this something serious? I just want to know what\u2019s going on and if there\u2019s anything you can do to help me feel better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "area over left sternoclavicular joint feels warmer"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness over left sternoclavicular joint"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mild soft tissue swelling over left sternoclavicular joint"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "melanotic stool (very dark, almost black)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is this something serious?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything you can do to help me feel better?"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms in detail\u2014it helps guide my assessment. Based on your fatigue, labile blood sugars, recurrent melanotic stools, and localized warmth and swelling over your left sternoclavicular joint, I am concerned about possible infection and ongoing blood loss. Have you recently experienced any episodes of dizziness or near-syncope when standing, which could suggest low blood pressure or worsening anemia?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "ongoing blood loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "labile blood sugars"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recurrent melanotic stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "localized warmth and swelling over left sternoclavicular joint"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness or near-syncope when standing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "worsening anemia"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, I have felt pretty dizzy when I try to stand up\u2014almost like the room is spinning and I might pass out. That\u2019s part of why I haven\u2019t really been able to get up on my own lately. I just feel so weak, and sometimes I get kind of lightheaded, especially if I move too quickly.\n\nAbout that area over my left sternoclavicular joint\u2014it\u2019s definitely erythematous and tender, just like you said. It feels warm and swollen, and it\u2019s been bothering me more these past few days. I\u2019m not sure if it\u2019s related to the anemia or maybe an infection, but it\u2019s making me pretty uncomfortable.\n\nShould I be worried about all these symptoms together? Is there anything you can do to help with the pain and this weakness? I just want to feel better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizzy when standing up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "room is spinning"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "might pass out"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unable to get up on own"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheaded, especially when moving quickly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythematous and tender area over left sternoclavicular joint"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "warm and swollen area over left sternoclavicular joint"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about all these symptoms together?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything you can do to help with the pain and this weakness?"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these ongoing symptoms, especially with the weakness, dizziness, and changes in your blood sugar levels. Based on your clinical findings\u2014including fatigue, labile blood sugars, recurrent melanotic stools, and localized swelling and tenderness over your left sternoclavicular joint\u2014my assessment is that you may be experiencing both ongoing blood loss and a possible localized infection. To help guide our next steps, have you noticed any recent changes in your urine output or color, which could provide additional information about your hydration status and kidney function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "labile blood sugars"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "recurrent melanotic stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "localized swelling and tenderness over left sternoclavicular joint"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "ongoing blood loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible localized infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output or color"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I have noticed that my urine\u2019s been a bit darker than usual, and I don\u2019t think I\u2019ve been going as much as I normally do. I figured maybe I just wasn\u2019t drinking enough water, but with everything else going on\u2014like the fatigue, the labile blood sugars, and now these recurrent melanotic stools\u2014I\u2019m starting to get more worried.\n\nThis swelling and tenderness over my left sternoclavicular joint is really uncomfortable too. I\u2019m not sure if it\u2019s an infection or something else, but it\u2019s making it hard to rest. \n\nIs all of this connected? Should I be really concerned about my kidney function or dehydration? And is there anything you can do to help with the pain and this weakness? I\u2019d really like to get some relief and understand what\u2019s happening.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "darker urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "labile blood sugars"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recurrent melanotic stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling and tenderness over left sternoclavicular joint"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "connection between symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "kidney function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dehydration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "pain relief"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "relief for weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "understanding what is happening"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with these ongoing symptoms and changes in your health. Based on your description\u2014persistent fatigue, labile blood sugars, recurrent melanotic stools, localized swelling and tenderness over your left sternoclavicular joint, and now decreased urine output with darker color\u2014my assessment is that you may be experiencing a combination of gastroindiagnostic evaluationinal blood loss, possible infection, and dehydration, all of which can contribute to your weakness and altered mental status. To further guide my assessment, have you experienced any fever or chills recently, which could indicate a systemic infection?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed any fever or chills lately. I\u2019ve felt kind of cold sometimes, but I don\u2019t think I\u2019ve had a real fever. Mostly it\u2019s just this constant fatigue and weakness, and the pain over my left sternoclavicular joint that you mentioned. The swelling and redness there seem to be getting worse, and it\u2019s making me more uncomfortable.\n\nWith the recurrent melanotic stools and now the decreased urine output, I\u2019m starting to get worried about what all this means. Is it possible that the blood loss and possible infection are making everything else worse? Should I be worried about sepsis or something serious like that? And is there anything you can do to help with the pain and weakness while we figure this out? I\u2019d really appreciate some relief\u2014I just don\u2019t feel like myself at all.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever or chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling cold sometimes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constant fatigue and weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain over left sternoclavicular joint"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling and redness over left sternoclavicular joint"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recurrent melanotic stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "blood loss and infection making symptoms worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "pain and weakness relief"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with these ongoing symptoms and the discomfort you\u2019re experiencing. Based on your clinical presentation\u2014persistent fatigue, recurrent melanotic stools suggesting gastroindiagnostic evaluationinal blood loss, labile blood sugars, localized swelling and tenderness over your left sternoclavicular joint, and decreased urine output\u2014I am concerned about the possibility of ongoing anemia, infection (possibly even sepsis), and dehydration, all of which can worsen your overall condition.\n\nMy immediate recommendations are to proceed with a thorough clinical assessment, including laboratory evaluation for anemia, infection (such as blood cultures and inflammatory markers), kidney function, and electrolyte status. In addition, I recommend imaging of the sternoclavicular joint to assess for possible abscess or osteomyelitis. For symptom relief, we can initiate pain management and intravenous fluids to address dehydration while we stabilize your condition.\n\nHave you had any recent laboratory assessments for hemoglobin or white blood cell count that would help us further evaluate the severity of your anemia or possible infection?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "anemia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "infection (possibly sepsis)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "dehydration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recurrent melanotic stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "labile blood sugars"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "localized swelling and tenderness over left sternoclavicular joint"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "laboratory evaluation for anemia, infection, kidney function, and electrolyte status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "imaging of the sternoclavicular joint"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "pain management"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous fluids"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "recent laboratory assessments for hemoglobin or white blood cell count"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I don\u2019t think I\u2019ve had any recent labs done for hemoglobin or white blood cell count\u2014not in the last few weeks, at least. The last time I had blood work was maybe a month ago, but I\u2019m not sure what they examinationed for. I do remember them saying I had anemia before, but I don\u2019t know how bad it is now.\n\nI appreciate you explaining everything so clearly. I\u2019m just feeling really uncomfortable and weak, and this pain over my left sternoclavicular joint is getting harder to ignore. The idea of infection or even sepsis is a bit scary, to be honest.\n\nWill these tests and imaging help figure out what\u2019s going on? And is there anything you can do right away to help with the pain and this weakness while we wait for results? I\u2019d really like to start feeling better soon.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "hemoglobin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "white blood cell count"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "last few weeks"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "maybe a month ago"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "anemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weak"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain over left sternoclavicular joint"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "scared about infection or sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "Will these tests and imaging help figure out what\u2019s going on?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything you can do right away to help with the pain and this weakness while we wait for results?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing your concerns and for describing your symptoms in detail. Based on your ongoing fatigue, recurrent melanotic stools, labile blood sugars, localized swelling and tenderness over your left sternoclavicular joint, and decreased urine output, my clinical assessment is that you may be experiencing significant anemia from gastroindiagnostic evaluationinal blood loss, possible localized infection (such as septic arthritis or osteomyelitis), and dehydration.\n\nI recommend immediate laboratory evaluation\u2014including hemoglobin, hematocrit, white blood cell count, kidney function diagnostic evaluations, and blood cultures\u2014as well as imaging of the sternoclavicular joint to assess for infection. For symptom relief, we can initiate intravenous fluids for hydration and appropriate pain management while closely monitoring your vital signs.\n\nWhile we proceed with this assessment, have you experienced any recent shortness of breath at rest or chest discomfort, which could indicate that your anemia or infection is affecting your cardiopulmonary status?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so clearly, doctor. Um\u2026 as for shortness of breath, I have noticed it a little bit, but mostly when I try to move around\u2014even just sitting up in bed sometimes makes me feel a bit winded. I haven\u2019t really had chest discomfort or what I\u2019d call chest pain, though. It\u2019s more just this overall weakness and being out of breath easier than usual.\n\nI\u2019m glad you\u2019re going to examination my hemoglobin and white blood cell count\u2014I know you mentioned anemia and possible infection, and I\u2019d like to get to the bottom of what\u2019s causing all this. The pain over my left sternoclavicular joint is still pretty bad, and I\u2019m just feeling so tired and uncomfortable.\n\nIs there anything you can do right away for the pain while we wait for the results? And with these symptoms\u2014especially the melanotic stools and the swelling\u2014should I be worried about something serious like sepsis or needing a blood transfusion? I just want to feel better and get some relief.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining everything so clearly, doctor."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath when moving or sitting up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest discomfort or chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "overall weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "easily out of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "hemoglobin and white blood cell count"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "anemia and possible infection discussed"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain over left sternoclavicular joint"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tired and uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything you can do right away for the pain while we wait for the results?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "should I be worried about something serious like sepsis or needing a blood transfusion?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "melanotic stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "I just want to feel better and get some relief"
+        }
+      ]
+    }
+  ]
+}

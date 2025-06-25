@@ -6,8 +6,14 @@
     {
       "turn_id": 0,
       "role": "Doctor",
-      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing confusion and shortness of breath recently. To help guide my assessment, can you describe in more detail how your confusion has affected your daily activities over the past few days?",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing confusion and shortness of breath over the past few days. Can you tell me more about when these symptoms began and if anything makes them better or worse?",
       "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "greeting and thanking patient"
+        },
         {
           "label_type": "action",
           "type_name": "Informing",
@@ -23,33 +29,27 @@
         {
           "label_type": "action",
           "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "confusion"
+          "slot": "Time",
+          "value": "when symptoms began"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "factors that make symptoms better or worse"
         }
       ]
     },
     {
       "turn_id": 1,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 yes, I\u2019ve just been feeling kind of mixed up lately. It\u2019s hard to explain, but sometimes I forget what I\u2019m doing, or I get a little lost in my own house. And the shortness of breath has been worse than usual, too. I\u2019m a bit worried about it.",
+      "utterance_text": "Well, um\u2026 yeah, I\u2019ve just been feeling really confused lately, and the shortness of breath seems to be getting worse. I\u2019m not sure exactly when it started, maybe a few days ago? It\u2019s making me pretty anxious.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
           "value": "confusion"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "forgetfulness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "getting lost in own house"
         },
         {
           "label_type": "intent",
@@ -60,35 +60,109 @@
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Other",
-          "value": "worried"
+          "slot": "Time",
+          "value": "a few days ago"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
         }
       ]
     },
     {
       "turn_id": 2,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014these symptoms can be unsettling, especially when they affect your daily life. To help with my assessment, can you tell me if your confusion comes and goes, or if it has been constant since it started?",
+      "utterance_text": "I can understand why these symptoms are making you feel anxious\u2014confusion and worsening shortness of breath can be very unsettling. To help guide my assessment, can you describe if your confusion comes and goes, or if it has been constant since it started?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "anxious"
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why these symptoms are making you feel anxious\u2014confusion and worsening shortness of breath can be very unsettling."
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
           "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
         }
       ]
     },
     {
       "turn_id": 3,
       "role": "Patient",
-      "utterance_text": "Um\u2026 it\u2019s not constant, I don\u2019t think. The confusion kind of comes and goes. Sometimes I feel almost normal, but then other times I just get really mixed up, even with simple symptoms. It\u2019s making me pretty anxious, to be honest.",
+      "utterance_text": "Um\u2026 the confusion, it\u2019s kind of off and on, I think. Sometimes I feel more clear, but then it comes back. It\u2019s just\u2026 I don\u2019t know, it\u2019s hard to focus or remember symptoms. That\u2019s what\u2019s worrying me the most, honestly.",
       "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty focusing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty remembering"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that\u2014it\u2019s understandable to feel worried when your symptoms affect your ability to think clearly. You also mentioned experiencing shortness of breath and sweats; can you tell me if your shortness of breath occurs at rest, with activity, or both?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing that\u2014it\u2019s understandable to feel worried when your symptoms affect your ability to think clearly."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath and sweats"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath occurs at rest, with activity, or both"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 The shortness of breath is definitely worse when I\u2019m moving around, but lately I\u2019ve noticed it even when I\u2019m just sitting. It feels like I can\u2019t quite catch my breath sometimes. And, um, about the sweats\u2014I get kind of clammy, especially when I feel more confused or anxious. Should I be worried about these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worse with movement and at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "clammy sweats"
+        },
         {
           "label_type": "intent",
           "type_name": "Informing",
@@ -100,100 +174,62 @@
           "type_name": "Informing",
           "slot": "Symptom",
           "value": "anxiety"
-        }
-      ]
-    },
-    {
-      "turn_id": 4,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially since they\u2019re affecting your daily life and causing anxiety. You mentioned that your shortness of breath has been worse than usual\u2014can you tell me if it occurs mainly when you\u2019re active, or do you also experience it while resting?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "shortness of breath"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "shortness of breath during activity or rest"
-        }
-      ]
-    },
-    {
-      "turn_id": 5,
-      "role": "Patient",
-      "utterance_text": "Well, um\u2026 I notice the shortness of breath mostly when I\u2019m moving around, like walking to the bathroom or getting up from a chair. But lately, I think I\u2019ve even felt it a bit when I\u2019m just sitting. It\u2019s not as bad as when I\u2019m active, but it\u2019s still there. And, actually, I\u2019ve also been having these sweats\u2014like I\u2019ll just start sweating for no reason, even if I\u2019m not doing anything. Is that something I should be worried about?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "shortness of breath"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "sweating for no reason"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Other",
-          "value": "Is that something I should be worried about?"
+          "value": "Should I be worried about these symptoms?"
         }
       ]
     },
     {
       "turn_id": 6,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious, especially with your symptoms worsening and new sweats developing. To help guide my assessment, have you noticed any swelling in your legs or ankles, or any chest pain along with your shortness of breath?",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014experiencing both shortness of breath and confusion can be distressing. To help with my assessment, have you noticed any swelling in your legs, ankles, or feet, or any chest discomfort along with your dyspnea?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "worsening symptoms"
+          "value": "shortness of breath"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "new sweats"
+          "value": "confusion"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "swelling in legs or ankles"
+          "value": "swelling in legs, ankles, or feet"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "chest pain"
+          "value": "chest discomfort"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "shortness of breath"
+          "value": "dyspnea"
         }
       ]
     },
     {
       "turn_id": 7,
       "role": "Patient",
-      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed any swelling in my legs or ankles, at least not more than usual. As for chest pain, um, I don\u2019t think I\u2019ve had any real chest pain\u2014maybe just a little tightness sometimes when the shortness of breath gets worse, but not what I\u2019d call pain. Should I be watching out for that?",
+      "utterance_text": "Um\u2026 I haven\u2019t really noticed any swelling in my legs or ankles, at least not that I can tell. As for chest discomfort, I don\u2019t think I\u2019ve had any real chest pain\u2014maybe just a little tightness sometimes when the shortness of breath gets worse, but nothing sharp or anything like that. Is that important?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no noticeable swelling in legs or ankles"
+          "value": "no swelling in legs or ankles"
         },
         {
           "label_type": "intent",
@@ -205,32 +241,26 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "occasional chest tightness when shortness of breath worsens"
+          "value": "chest tightness when shortness of breath gets worse"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "should I be watching out for chest pain"
+          "slot": "Other",
+          "value": "Is that important?"
         }
       ]
     },
     {
       "turn_id": 8,
       "role": "Doctor",
-      "utterance_text": "Thank you for clarifying\u2014your description of chest tightness with worsening dyspnea is helpful for my assessment. To better understand your symptoms, have you noticed any cough, changes in sputum production, or fever along with your shortness of breath?",
+      "utterance_text": "Thank you for clarifying\u2014tightness in the chest with worsening dyspnea is important to note. To better understand your symptoms, have you experienced any cough, sputum production, or fever along with your shortness of breath?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "chest tightness"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening dyspnea"
+          "value": "tightness in the chest with worsening dyspnea"
         },
         {
           "label_type": "action",
@@ -242,7 +272,7 @@
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "changes in sputum production"
+          "value": "sputum production"
         },
         {
           "label_type": "action",
@@ -261,7 +291,7 @@
     {
       "turn_id": 9,
       "role": "Patient",
-      "utterance_text": "Um, let me think\u2026 I do have a cough, but that\u2019s kind of normal for me with my COPD. I haven\u2019t really noticed much change in my sputum\u2014it\u2019s about the same as usual, maybe a little thicker? I haven\u2019t had a fever that I know of. I\u2019ve just been feeling more tired and, like I said, anxious with all these symptoms.",
+      "utterance_text": "Well, um\u2026 I do have a cough, but that\u2019s kind of normal for me with my COPD. I haven\u2019t really noticed any big change in sputum\u2014maybe it\u2019s a little thicker, but not a lot more than usual. I don\u2019t think I\u2019ve had a fever, at least I haven\u2019t checked, but I don\u2019t feel hot or anything. Should I be checking my temperature more often?",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -284,27 +314,89 @@
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no fever"
+          "slot": "Temperature",
+          "value": "no fever noticed"
         },
         {
           "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "fatigue"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "anxiety"
+          "type_name": "Inquiring",
+          "slot": "Temperature",
+          "value": "Should I be checking my temperature more often?"
         }
       ]
     },
     {
       "turn_id": 10,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your COPD and recent changes. To help with my assessment, have you noticed any changes in the color or amount of your sputum, or any new wheezing or crackles when you breathe?",
+      "utterance_text": "Thank you for sharing those details about your symptoms. Since your shortness of breath has been worsening, have you noticed any changes in your oxygen use at home, such as needing higher flow rates or using your supplemental oxygen more frequently than usual?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worsening"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "changes in oxygen use at home"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "needing higher flow rates"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Frequency",
+          "value": "using supplemental oxygen more frequently than usual"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I have been using my supplemental oxygen a bit more than usual. I\u2019m usually on about 2 liters, but lately I\u2019ve had to turn it up closer to 3 just to feel like I can breathe a little easier. Is that something I should be concerned about? I\u2019m just worried because I don\u2019t want symptoms to get worse with my COPD.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "supplemental oxygen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Dose",
+          "value": "usually 2 liters, lately 3 liters"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be concerned about increased oxygen use?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "COPD"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about needing more oxygen and experiencing worsening dyspnea, especially with your history of COPD. To help with my assessment, have you noticed any changes in your ability to speak\u2014such as needing to pause for breath during conversation or experiencing more fatigued when talking?",
       "remedi_labels": [
         {
           "label_type": "action",
@@ -316,44 +408,112 @@
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "changes in color or amount of sputum"
+          "value": "changes in ability to speak"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "new wheezing"
+          "value": "needing to pause for breath during conversation"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "crackles when breathing"
+          "value": "experiencing more fatigue when talking"
         }
       ]
     },
     {
-      "turn_id": 11,
+      "turn_id": 13,
       "role": "Patient",
-      "utterance_text": "Actually, now that you mention it, I think my sputum has been a little bit thicker and maybe a bit more yellow than usual, but not a huge change. I haven\u2019t really noticed any new wheezing or crackles myself, but sometimes it does feel like there\u2019s a rattling when I breathe out. Is that something that happens with COPD getting worse, or could it be something else? I just want to make sure I\u2019m not missing anything serious.",
+      "utterance_text": "Yeah, actually\u2026 I have noticed that I get more winded when I\u2019m talking. Sometimes I have to stop and catch my breath in the middle of a sentence, which didn\u2019t really happen before. It makes me feel kind of embarrassed, honestly. And I do feel more tired after talking for a while.\n\nIs this something that happens when COPD gets worse, or could it be from something else? I\u2019m just worried because it feels different than my usual symptoms.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "thicker sputum"
+          "value": "gets more winded when talking"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "yellow sputum"
+          "value": "has to stop and catch breath in the middle of a sentence"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "rattling when breathing out"
+          "value": "feels more tired after talking for a while"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "COPD getting worse or another cause"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially since these symptoms feel different from your usual experience with COPD. To help with my assessment, have you noticed any changes in your sleep, such as waking up short of breath at night (paroxysmal nocturnal dyspnea) or needing to sleep propped up on extra pillows (orthopnea)?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in sleep"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "waking up short of breath at night (paroxysmal nocturnal dyspnea)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "needing to sleep propped up on extra pillows (orthopnea)"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 actually, I have been waking up at night feeling short of breath\u2014what you called paroxysmal nocturnal dyspnea, I think? It\u2019s happened a few times this week, and it\u2019s pretty scary. I\u2019ve also started sleeping with more pillows propping me up, because if I try to lie flat, the orthopnea gets worse and I feel like I can\u2019t breathe.\n\nIs that something I should be really worried about? Does it mean my COPD is getting worse, or could it be something else? I just feel so anxious not knowing what\u2019s going on.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up at night feeling short of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sleeping with more pillows to breathe"
         },
         {
           "label_type": "intent",
@@ -369,206 +529,34 @@
         },
         {
           "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "missing anything serious"
-        }
-      ]
-    },
-    {
-      "turn_id": 12,
-      "role": "Doctor",
-      "utterance_text": "Thank you for sharing these details\u2014it\u2019s helpful for my assessment. Since your dyspnea has worsened and you\u2019ve noticed thicker, more yellow sputum, have you experienced any recent changes in your oxygen requirements at home, such as needing higher flow rates or using your supplemental oxygen more frequently?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "Thank you for sharing these details\u2014it\u2019s helpful for my assessment."
-        },
-        {
-          "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "worsened dyspnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "thicker, more yellow sputum"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "recent changes in oxygen requirements at home"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Frequency",
-          "value": "using supplemental oxygen more frequently"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Dose",
-          "value": "needing higher flow rates"
-        }
-      ]
-    },
-    {
-      "turn_id": 13,
-      "role": "Patient",
-      "utterance_text": "Actually, yes\u2014I have noticed that I\u2019ve been using my supplemental oxygen a bit more lately. Usually, I\u2019m okay on 2 liters, but the past few days I\u2019ve had to bump it up to 3 liters just to feel like I can catch my breath, even when I\u2019m just sitting. That\u2019s not normal for me. Should I be concerned that my oxygen requirements are going up? Does that mean my COPD is getting worse, or could it be something else causing these symptoms?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Medicine",
-          "value": "supplemental oxygen"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Dose",
-          "value": "2 liters"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Dose",
-          "value": "3 liters"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "increased oxygen requirement"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "shortness of breath at rest"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "COPD"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Pathogeny",
-          "value": "cause of increased oxygen requirement"
-        }
-      ]
-    },
-    {
-      "turn_id": 14,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried, especially since your oxygen requirements have increased and your symptoms are changing. To help guide my assessment, have you experienced any episodes of waking up suddenly at night experiencing short of breath, or needing to sleep propped up on extra pillows due to difficulty breathing?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "oxygen requirements have increased"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "symptoms are changing"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "episodes of waking up suddenly at night experiencing shortness of breath"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "needing to sleep propped up on extra pillows due to difficulty breathing"
-        }
-      ]
-    },
-    {
-      "turn_id": 15,
-      "role": "Patient",
-      "utterance_text": "Well, um, actually, yes\u2014I have woken up a couple of times lately feeling really short of breath. It\u2019s kind of scary, honestly. I\u2019ve also started sleeping with a couple extra pillows propped up behind me because it feels harder to breathe if I lie flat. I\u2019m not sure if that\u2019s related to my COPD or if it could be something else. Should I be worried about these new symptoms? Is this something that happens when the oxygen levels are low, or could it mean my heart is having trouble too?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "woken up feeling short of breath"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "harder to breathe when lying flat"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "sleeping with extra pillows to breathe"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "COPD"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "new symptoms"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "should I be worried"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "is this due to low oxygen levels"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "heart trouble"
+          "value": "anxiety about not knowing what's going on"
         }
       ]
     },
     {
       "turn_id": 16,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious\u2014waking up short of breath and needing extra pillows are important symptoms, especially with your history of COPD and increasing oxygen requirements. Based on your clinical findings\u2014including worsening dyspnea, increased sputum thickness, and new orthopnea\u2014I\u2019m concerned there may be more than just a COPD exacerbation, such as possible fluid overload or cardiac involvement. To help guide my assessment further, have you noticed any recent weight gain or swelling elsewhere in your clinical examination that might suggest fluid retention?",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially since your symptoms\u2014like worsening shortness of breath, needing more pillows to sleep, and waking up at night gasping for air\u2014are different from your usual experience with COPD. Based on your medical history and these new symptoms, I\u2019m concerned there may be additional factors affecting your breathing, such as fluid overload or a possible infection. As part of my assessment, have you noticed any recent weight gain or swelling elsewhere in your clinical examination that might suggest fluid retention?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "waking up short of breath"
+          "value": "worsening shortness of breath"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "needing extra pillows"
+          "value": "needing more pillows to sleep"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up at night gasping for air"
         },
         {
           "label_type": "action",
@@ -578,39 +566,15 @@
         },
         {
           "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "increasing oxygen requirements"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening dyspnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "increased sputum thickness"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "new orthopnea"
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "fluid overload"
         },
         {
           "label_type": "action",
           "type_name": "Diagnosis",
           "slot": "Disease",
-          "value": "possible fluid overload"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "possible cardiac involvement"
+          "value": "possible infection"
         },
         {
           "label_type": "action",
@@ -622,7 +586,7 @@
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "swelling elsewhere"
+          "value": "swelling"
         },
         {
           "label_type": "action",
@@ -635,75 +599,69 @@
     {
       "turn_id": 17,
       "role": "Patient",
-      "utterance_text": "Well, um, I haven\u2019t really noticed any big changes in my weight, but I guess I haven\u2019t been examinationing it every day. My clothes don\u2019t feel much tighter, and I don\u2019t see obvious swelling anywhere else, like in my hands or face. My ankles sometimes look a little puffy, but that\u2019s kind of normal for me, so I\u2019m not sure if it\u2019s worse than usual.\n\nI didn\u2019t realize that symptoms like orthopnea and increased oxygen requirements could mean something with my heart or fluid overload\u2014I thought it was just my COPD acting up. Should I be worried about heart failure or something like that? Is there anything I should be watching out for at home?",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed any big weight gain, but honestly, I haven\u2019t been paying super close attention to my weight lately. I don\u2019t see much swelling in my feet or ankles, at least nothing obvious. But now that you mention fluid overload, is that something that can happen with COPD? Or does it mean there\u2019s something else going on, like heart symptoms or an infection?\n\nI\u2019m just feeling really anxious because these symptoms\u2014especially the orthopnea and waking up gasping for air\u2014are so different from what I\u2019m used to. Should I be doing anything different at home, or do I need more tests to figure out what\u2019s causing this?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no big changes in weight"
+          "value": "no big weight gain"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "clothes don\u2019t feel much tighter"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no obvious swelling in hands or face"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "ankles sometimes look a little puffy"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "COPD"
+          "value": "no obvious swelling in feet or ankles"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Disease",
-          "value": "heart failure"
+          "value": "fluid overload with COPD"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "anything I should be watching out for at home"
+          "slot": "Disease",
+          "value": "heart symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up gasping for air"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "should I be doing anything different at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "need more tests to figure out cause"
         }
       ]
     },
     {
       "turn_id": 18,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your history of COPD and the new changes you\u2019ve described. Based on your clinical findings\u2014worsening shortness of breath, increased oxygen requirements, orthopnea, and mild ankle edema\u2014it\u2019s important to consider both a possible COPD exacerbation and potential cardiac involvement, such as heart failure or fluid overload. To help guide my assessment, have you experienced any palpitations, irregular heartbeat, or chest discomfort during these episodes of shortness of breath?",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially since your symptoms are different from your usual COPD experience and are affecting your sleep and comfort. Based on your medical history and recent symptoms\u2014including orthopnea, paroxysmal nocturnal dyspnea, and increased oxygen requirements\u2014I\u2019m concerned there may be more than one factor contributing to your shortness of breath, such as possible fluid overload or an underlying infection. As part of my assessment, have you experienced any recent decrease in urine output or changes in urination patterns that might suggest fluid retention or kidney involvement?",
       "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "COPD"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening shortness of breath"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "increased oxygen requirements"
-        },
         {
           "label_type": "action",
           "type_name": "Informing",
@@ -714,544 +672,118 @@
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "mild ankle edema"
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased oxygen requirements"
         },
         {
           "label_type": "action",
           "type_name": "Diagnosis",
           "slot": "Disease",
-          "value": "COPD exacerbation"
+          "value": "possible fluid overload"
         },
         {
           "label_type": "action",
           "type_name": "Diagnosis",
           "slot": "Disease",
-          "value": "heart failure or fluid overload"
+          "value": "underlying infection"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "palpitations"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "irregular heartbeat"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "chest discomfort"
+          "value": "decrease in urine output or changes in urination patterns"
         }
       ]
     },
     {
       "turn_id": 19,
       "role": "Patient",
-      "utterance_text": "Well, um, now that you mention it, I have felt my heart racing a couple of times when I was really short of breath, but I just thought it was from being anxious. I don\u2019t know if it was an irregular heartbeat\u2014it just felt faster, not really skipping or anything like that. As for chest discomfort, I wouldn\u2019t say I\u2019ve had pain, but sometimes there\u2019s a bit of tightness when my dyspnea gets worse.\n\nI didn\u2019t realize that symptoms like orthopnea and ankle edema could mean fluid overload or heart failure. Should I be worried about that? Is there something I should be doing differently at home, or is this something that needs more urgent attention?",
+      "utterance_text": "Well, um\u2026 now that you mention it, I think maybe I have noticed some changes with my urination. It seems like I\u2019m not going as much as I usually do, and sometimes it feels a bit harder to get started. I didn\u2019t really connect that with my other symptoms until you brought it up. Is that something that could be related to fluid overload or kidney involvement?\n\nI\u2019m just feeling really anxious about all of this, especially since it\u2019s so different from my usual COPD symptoms. Should I be worried that something more serious is going on? And is there anything I should be doing differently right now while we figure this out?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "heart racing"
+          "value": "changes with urination"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "shortness of breath"
+          "value": "not urinating as much as usual"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "chest tightness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "dyspnea"
+          "value": "difficulty starting urination"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Disease",
-          "value": "fluid overload or heart failure"
+          "value": "fluid overload or kidney involvement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried that something more serious is going on?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Precaution",
-          "value": "Should I be worried about that?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Is there something I should be doing differently at home?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Is this something that needs more urgent attention?"
+          "value": "Is there anything I should be doing differently right now?"
         }
       ]
     },
     {
       "turn_id": 20,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious, especially with these new symptoms and changes in your condition. Based on your clinical findings\u2014including worsening dyspnea, orthopnea, mild ankle edema, increased oxygen requirements, and laboratory clinical findings showing low sodium and chloride\u2014it\u2019s important to assess for both a COPD exacerbation and possible cardiac involvement such as heart failure or fluid overload. To further guide my assessment, have you noticed any decrease in your urine output or any difficulty with urination recently?",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially since your symptoms\u2014like worsening shortness of breath, confusion, orthopnea, and changes in urination\u2014are different from your usual COPD experience. Based on your medical history and recent findings, including low sodium levels and changes in your fluid balance, my assessment is that there may be more than one factor affecting your condition, such as possible infection, fluid overload, or electrolyte imbalance. As part of my clinical evaluation, have you experienced any recent headaches, nausea, or vomiting that could be related to these electrolyte changes?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening dyspnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "orthopnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mild ankle edema"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "increased oxygen requirements"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Other",
-          "value": "laboratory clinical findings showing low sodium and chloride"
-        },
-        {
-          "label_type": "action",
           "type_name": "Diagnosis",
           "slot": "Disease",
-          "value": "COPD exacerbation"
+          "value": "possible infection, fluid overload, or electrolyte imbalance"
         },
         {
           "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "heart failure"
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath, confusion, orthopnea, changes in urination"
         },
         {
           "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "fluid overload"
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "low sodium levels, changes in fluid balance"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "decrease in urine output or difficulty with urination"
+          "value": "headaches, nausea, vomiting"
         }
       ]
     },
     {
       "turn_id": 21,
       "role": "Patient",
-      "utterance_text": "Let me think\u2026 Actually, now that you mention it, I guess I have been going to the bathroom a little less than usual these past few days. I didn\u2019t really put it together until now, but my urine output does seem lower. I haven\u2019t had any real trouble urinating\u2014no pain or anything like that\u2014just not as much as I\u2019m used to.\n\nYou mentioned low sodium and chloride in my labs\u2014is that something serious? Does it have to do with my SIADH, or could it be related to this possible fluid overload or heart failure you mentioned? I\u2019m just feeling pretty anxious about all these symptoms and changes. Should I be worried about my kidneys too?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "decreased urine output"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no pain with urination"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "seriousness of low sodium and chloride"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "relation to SIADH"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "relation to fluid overload or heart failure"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "concern about kidney function"
-        }
-      ]
-    },
-    {
-      "turn_id": 22,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious, especially with these changes in your symptoms and the lab findings. Your low sodium and chloride could indeed be related to your history of SIADH, but they may also reflect fluid overload or changes in your kidney function, particularly given your decreased urine output and increasing shortness of breath. Based on my assessment, I recommend a prompt clinical evaluation\u2014including a physical examination, repeat laboratory studies, and possibly imaging\u2014to determine if you are experiencing a COPD exacerbation, heart failure, or another condition affecting your fluid balance. Have you noticed any new confusion or drowsiness since your symptoms have worsened?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "history of SIADH"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "decreased urine output"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "increasing shortness of breath"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "low sodium and chloride"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "COPD exacerbation"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "heart failure"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "prompt clinical evaluation including physical examination, repeat laboratory studies, and possibly imaging"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "new confusion or drowsiness"
-        }
-      ]
-    },
-    {
-      "turn_id": 23,
-      "role": "Patient",
-      "utterance_text": "Yes, actually, I have noticed more confusion and some drowsiness lately. It\u2019s gotten a bit worse as my shortness of breath has increased. Sometimes I just feel kind of out of it, like I can\u2019t focus or I\u2019m more tired than usual, even during the day. I thought maybe it was just from not sleeping well because of the orthopnea, but now I\u2019m not so sure.\n\nWith all these symptoms\u2014worsening dyspnea, increased oxygen requirements, orthopnea, ankle edema, and now the low sodium and chloride\u2014I\u2019m starting to get really anxious. Is this something that could get dangerous quickly? Should I go to the hospital right away, or is it okay to wait for more tests? And with my history of SIADH and COPD, is there anything specific I should be watching out for at home?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "confusion"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "drowsiness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "shortness of breath"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "orthopnea"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "ankle edema"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "low sodium and chloride"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Is this something that could get dangerous quickly?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Should I go to the hospital right away, or is it okay to wait for more tests?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "SIADH"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "COPD"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Is there anything specific I should be watching out for at home?"
-        }
-      ]
-    },
-    {
-      "turn_id": 24,
-      "role": "Doctor",
-      "utterance_text": "I can completely understand why you\u2019re experiencing anxious\u2014your symptoms of worsening shortness of breath, increased oxygen requirements, orthopnea, ankle edema, confusion, and drowsiness, along with low sodium and chloride levels, are concerning and could indicate a serious underlying condition such as acute exacerbation of COPD, heart failure, or complications related to SIADH. Given the progression and severity of your symptoms, I strongly recommend that you assessk immediate medical attention at the hospital for a thorough clinical assessment and prompt treatment. Before you go, have you experienced any recent falls or injuries related to your confusion or drowsiness?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening shortness of breath"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "increased oxygen requirements"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "orthopnea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "ankle edema"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "confusion"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "drowsiness"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Other",
-          "value": "low sodium and chloride levels"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "acute exacerbation of COPD"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "heart failure"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "complications related to SIADH"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Medical-place",
-          "value": "hospital"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "thorough clinical assessment and prompt treatment"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "recent falls or injuries related to confusion or drowsiness"
-        }
-      ]
-    },
-    {
-      "turn_id": 25,
-      "role": "Patient",
-      "utterance_text": "Well, um, actually, I did have one incident a couple days ago where I kind of lost my balance and almost fell, but I managed to catch myself on the counter. I haven\u2019t had any real injuries or anything like that, but it did scare me. I think the confusion and drowsiness have definitely made me feel a bit unsteady.\n\nI really appreciate you explaining everything so clearly. I didn\u2019t realize how all these symptoms\u2014like the orthopnea, ankle edema, and low sodium\u2014could be connected to something serious like heart failure or SIADH complications. I\u2019m definitely feeling anxious about it all.\n\nShould I bring anything specific with me to the hospital, like my medication list or recent lab results? And is there anything I should tell the doctors there about my history, especially with the COPD and SIADH? I just want to make sure I don\u2019t leave anything out that could help them figure out what\u2019s going on.",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "lost balance and almost fell"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "confusion and drowsiness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "orthopnea"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "ankle edema"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "low sodium"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "COPD"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "SIADH"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Should I bring anything specific with me to the hospital, like my medication list or recent lab results?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Is there anything I should tell the doctors there about my history, especially with the COPD and SIADH?"
-        }
-      ]
-    },
-    {
-      "turn_id": 26,
-      "role": "Doctor",
-      "utterance_text": "I completely understand why you\u2019re experiencing anxious\u2014your symptoms and recent changes are understandably concerning, and it\u2019s important to address them promptly. Bringing a current list of your medications, any recent laboratory clinical findings, and a summary of your medical history\u2014including your COPD, SIADH, and previous cancer treatment\u2014will be very helpful for the hospital team during their assessment. Before you go, have you experienced any new headaches, visual disturbances, or seizures along with your confusion and drowsiness?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "anxious"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Other",
-          "value": "bring a current list of medications, recent laboratory findings, and summary of medical history"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "COPD"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "SIADH"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "previous cancer treatment"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "headaches"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "visual disturbances"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "seizures"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "confusion"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "drowsiness"
-        }
-      ]
-    },
-    {
-      "turn_id": 27,
-      "role": "Patient",
-      "utterance_text": "Well, um, I have had some headpains lately, but I\u2019ve had them on and off for a while now, so I\u2019m not sure if they\u2019re new or just the same as before. I haven\u2019t noticed any visual disturbances\u2014my eyesight seems about the same\u2014and I definitely haven\u2019t had any seizures.\n\nThank you for letting me know what to bring and what to mention when I get to the hospital. I\u2019ll make sure to have my medication list and a summary of my medical history, including the COPD, SIADH, and the rectal adenocarcinoma surgery. Is there anything else I should watch out for or tell the doctors about my symptoms? And, um, how urgent is it that I go in\u2014should I call an ambulance if I start feeling worse, or is it okay to have someone drive me?",
+      "utterance_text": "Actually, yes\u2014I have had some headpains lately. They come and go, but sometimes they\u2019re pretty bothersome. I haven\u2019t really had any nausea or vomiting, though. Just the headpains and the confusion, mostly. \n\nWith you mentioning low sodium and electrolyte imbalance, should I be worried about something serious happening? Is that what\u2019s causing my confusion and these other symptoms? I just want to make sure I\u2019m not missing anything important, and I\u2019d like to understand what might be going on.",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -1263,75 +795,197 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no visual disturbances"
+          "value": "confusion"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no seizures"
+          "value": "no nausea or vomiting"
         },
         {
           "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Is low sodium and electrolyte imbalance causing my confusion and other symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried about something serious happening?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Am I missing anything important?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "I\u2019d like to understand what might be going on."
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially since your symptoms\u2014like confusion, headaches, and changes in breathing\u2014are different from your usual COPD experience. Based on your medical history, current symptoms, and laboratory findings showing low sodium (hyponatremia), it\u2019s likely that an electrolyte imbalance is contributing to your confusion and headaches. My assessment is that you may need further clinical evaluation and possibly adjustments to your medications or fluid management.\n\nTo guide your treatment plan, have you recently made any changes to your fluid intake or medications that might affect your sodium levels?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "electrolyte imbalance (hyponatremia)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion, headaches, changes in breathing"
+        },
+        {
+          "label_type": "action",
           "type_name": "Informing",
           "slot": "Disease-history",
           "value": "COPD"
         },
         {
-          "label_type": "intent",
+          "label_type": "action",
           "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "SIADH"
+          "slot": "Check_item",
+          "value": "laboratory findings showing low sodium"
         },
         {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "rectal adenocarcinoma surgery"
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "further clinical evaluation and possibly adjustments to medications or fluid management"
         },
         {
-          "label_type": "intent",
+          "label_type": "action",
           "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "anything else to watch out for or tell the doctors about symptoms"
+          "slot": "Medicine-category",
+          "value": "recent changes to medications"
         },
         {
-          "label_type": "intent",
+          "label_type": "action",
           "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "how urgent is it to go in"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "should I call an ambulance if symptoms worsen or have someone drive me"
+          "slot": "Other",
+          "value": "recent changes to fluid intake"
         }
       ]
     },
     {
-      "turn_id": 28,
-      "role": "Doctor",
-      "utterance_text": "Thank you for sharing these details and for preparing your medication list and medical history summary\u2014those will be very helpful for your clinical assessment. Given your symptoms of worsening dyspnea, orthopnea, ankle edema, confusion, drowsiness, and low sodium and chloride levels, I recommend you assessk urgent medical attention today, as these findings could indicate a serious underlying condition requiring prompt treatment. If you experience any sudden worsening of shortness of breath, severe confusion, chest pain, or if you are unable to safely ambulate, please call an ambulance rather than waiting for someone to drive you. Before you leave, have you had any recent changes in your appetite or fluid intake that might be relevant to your current symptoms?",
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I don\u2019t think I\u2019ve made any big changes to my medications lately. I\u2019m still taking my Atrovent, Albuterol, Propoxyphene, Hydromorphone, Klonopin, Ranitidine, Megace, and Lactulose syrup like usual. I haven\u2019t started anything new or stopped anything on my own.\n\nAs for fluids, I might have been drinking a little more water than usual because I\u2019ve felt kind of dry-mouthed and wanted to stay hydrated, but nothing drastic. Could that really affect my sodium levels that much? And with this hyponatremia\u2014is that something that can get dangerous quickly? I\u2019m just worried because the confusion and headpains are so out of the ordinary for me. What should I be watching out for, or is there anything I should do differently while we figure this out?",
       "remedi_labels": [
         {
-          "label_type": "action",
+          "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worsening dyspnea"
+          "slot": "Medicine",
+          "value": "Atrovent"
         },
         {
-          "label_type": "action",
+          "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "orthopnea"
+          "slot": "Medicine",
+          "value": "Albuterol"
         },
         {
-          "label_type": "action",
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Propoxyphene"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Hydromorphone"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Klonopin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Ranitidine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Megace"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Lactulose syrup"
+        },
+        {
+          "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "ankle edema"
+          "value": "dry-mouthed"
         },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Could drinking more water affect sodium levels?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "hyponatremia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Can hyponatremia get dangerous quickly?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headpains"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "What should I be watching out for?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything I should do differently while we figure this out?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially since your symptoms of confusion and headaches are new and concerning for you. Based on your medical history and recent laboratory findings showing low sodium (hyponatremia), these symptoms could be related to your electrolyte imbalance, which can become serious if not addressed. My assessment is that you may need close monitoring, possible adjustment of your fluid intake, and evaluation of your medications to help correct your sodium levels. \n\nHave you noticed any new muscle weakness, twitching, or seizures along with your current symptoms?",
+      "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
@@ -1342,38 +996,196 @@
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "drowsiness"
+          "value": "headaches"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "laboratory findings"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Other",
-          "value": "low sodium and chloride levels"
+          "value": "low sodium (hyponatremia)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Other",
+          "value": "electrolyte imbalance"
         },
         {
           "label_type": "action",
           "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "assess urgent medical attention today"
+          "slot": "Treatment",
+          "value": "close monitoring"
         },
         {
           "label_type": "action",
           "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "call an ambulance if sudden worsening of shortness of breath, severe confusion, chest pain, or unable to ambulate"
+          "slot": "Treatment",
+          "value": "possible adjustment of fluid intake"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "evaluation of medications"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "recent changes in appetite or fluid intake"
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "twitching"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "seizures"
         }
       ]
     },
     {
-      "turn_id": 29,
+      "turn_id": 25,
       "role": "Patient",
-      "utterance_text": "Well, um, now that you mention it, I think my appetite has gone down a bit over the past week. I just haven\u2019t felt as hungry, and sometimes I have to remind myself to eat. As for fluids, I might be drinking a little less than usual too, but it\u2019s hard to say for sure\u2014I just haven\u2019t felt very thirsty. Could that be making my symptoms worse?\n\nThank you for explaining everything so clearly. I\u2019m definitely feeling anxious, but I appreciate you telling me what to watch out for and when to call an ambulance. Is there anything else I should mention to the hospital team when I get there, especially about my SIADH or the low sodium and chloride? And, um, is there anything they might do right away to help with the confusion and shortness of breath?",
+      "utterance_text": "Well, um\u2026 I haven\u2019t had any seizures, thankfully. I don\u2019t think I\u2019ve had any real muscle twitching either, but now that you mention it, I do feel a bit weaker than usual. My legs feel kind of heavy, and I get tired more easily, but I just thought that was from being short of breath. \n\nIs muscle weakness something that happens with low sodium\u2014hyponatremia? Should I be watching out for anything else, like if the weakness gets worse or if I start having twitching? I\u2019m just really anxious about all these symptoms piling up. How quickly can hyponatremia become dangerous, and what should I do if symptoms get worse before my next appointment?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no seizures"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no muscle twitching"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "legs feel heavy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tired more easily"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "muscle weakness with hyponatremia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "what to watch for if weakness gets worse or twitching starts"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "anxious about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "how quickly hyponatremia becomes dangerous"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what to do if symptoms get worse before next appointment"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with new symptoms like muscle weakness, confusion, and headaches on top of your usual COPD. Based on your medical history, current symptoms, and laboratory findings showing hyponatremia (low sodium), my assessment is that your electrolyte imbalance could be contributing to your neurological symptoms and weakness, and this can become serious if it worsens.\n\nIt\u2019s important to monitor for any progression of symptoms such as worsening confusion, severe headache, new muscle twitching, or any signs of seizure\u2014if these occur, you should assessk immediate medical attention. In the meantime, I recommend limiting excessive fluid intake and closely following your medication regimen until further clinical evaluation can be performed. \n\nHave you recently had any changes in your appetite or significant weight loss that could also be contributing to your overall condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "electrolyte imbalance (hyponatremia) contributing to neurological symptoms and weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness, confusion, headaches"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "COPD"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "laboratory findings showing hyponatremia (low sodium)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor for progression of symptoms such as worsening confusion, severe headache, new muscle twitching, or signs of seizure; seek immediate medical attention if these occur"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "limit excessive fluid intake and closely follow medication regimen until further clinical evaluation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in appetite or significant weight loss"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I think my appetite has gone down quite a bit lately. I just haven\u2019t felt like eating much\u2014food doesn\u2019t really appeal to me, and I get full pretty quickly. I\u2019m not sure about my weight, but my clothes feel a little looser, so maybe I have lost some weight without realizing it.\n\nIs that something that could be related to the hyponatremia or my other symptoms? I\u2019m just feeling really anxious because it seems like everything is happening at once\u2014confusion, headpains, muscle weakness, and now this loss of appetite. Should I be trying to eat more even if I don\u2019t feel hungry? And is there anything specific I should be eating or avoiding while you\u2019re working on correcting my sodium levels?",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -1385,31 +1197,281 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "decreased thirst"
+          "value": "early satiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible weight loss"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "Could decreased fluid intake be making symptoms worse"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Is there anything else I should mention to the hospital team"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease-history",
-          "value": "Should I mention SIADH, low sodium, and chloride to the hospital team"
+          "slot": "Disease",
+          "value": "relationship between hyponatremia and appetite/symptoms"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Treatment",
-          "value": "Is there anything they might do right away to help with confusion and shortness of breath"
+          "value": "whether to eat more despite lack of hunger"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "dietary recommendations while correcting sodium levels"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with so many new symptoms like decreased appetite, confusion, headaches, and muscle weakness occurring together. Based on your medical history, current symptoms, and laboratory findings showing hyponatremia (low sodium), my assessment is that your electrolyte imbalance is likely contributing to both your neurological symptoms and reduced appetite. It\u2019s important to maintain adequate nutrition, but I recommend avoiding excessive fluid intake and limiting foods or drinks that are very high in free water until your sodium levels are stabilized.\n\nTo guide your treatment plan, have you experienced any difficulty swallowing or gastroindiagnostic evaluationinal symptoms such as nausea, vomiting, or diarrhea that might further impact your nutritional status or fluid balance?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "electrolyte imbalance (hyponatremia)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased appetite, confusion, headaches, muscle weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "avoid excessive fluid intake and limit foods or drinks high in free water"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty swallowing, nausea, vomiting, diarrhea"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really had any trouble swallowing, so that\u2019s good, I guess. As for gastrointestinal symptoms, I haven\u2019t had any vomiting or diarrhea\u2014just that loss of appetite we talked about. Sometimes my stomach feels a little unsettled, but nothing severe. \n\nI\u2019m just worried because I know you mentioned my sodium levels are low\u2014hyponatremia\u2014and it sounds like that can cause a lot of these symptoms. Is there a specific reason why this would be happening now, with all my other medical history? And how long does it usually take to get sodium levels back to normal? Should I be avoiding certain foods or drinks besides just not drinking too much water? \n\nSorry for all the questions\u2014I just want to make sure I\u2019m doing everything I can while you\u2019re figuring out the best treatment plan.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no trouble swallowing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no diarrhea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "stomach feels unsettled"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "reason for hyponatremia now with medical history"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "how long to normalize sodium levels"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "foods or drinks to avoid besides water"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with new symptoms like confusion, headaches, muscle weakness, and loss of appetite all happening together. Based on your medical history, current symptoms, and laboratory findings showing hyponatremia (sodium 131 mEq/L), my assessment is that your low sodium is likely contributing to your neurological symptoms and decreased appetite. This can be related to your underlying conditions, medications (such as SIADH or certain pain and anxiety medications), or changes in your fluid balance.\n\nFor treatment, it\u2019s important to avoid excessive fluid intake and monitor for any worsening symptoms such as increased confusion, severe headache, or new neurological changes\u2014if these occur, assessk immediate medical attention. We may need to adjust your medications or manage your fluids more closely to help correct your sodium levels safely.\n\nTo help guide further assessment, have you recently experienced any changes in your medication dosages or started any new prescriptions that could affect your electrolyte balance?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headaches"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "hyponatremia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "sodium 131 mEq/L"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "low sodium contributing to neurological symptoms and decreased appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Medicine-category",
+          "value": "pain and anxiety medications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "SIADH"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "avoid excessive fluid intake"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor for worsening symptoms such as increased confusion, severe headache, or new neurological changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "seek immediate medical attention if worsening symptoms occur"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "adjust medications or manage fluids to correct sodium levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Dose",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining all of that. Um, as far as I can remember, I haven\u2019t had any changes in my medication dosages, and I haven\u2019t started any new prescriptions lately. I\u2019m still taking the same medicines\u2014Atrovent, Albuterol, Propoxyphene, Hydromorphone, Klonopin, Ranitidine, Megace, and Lactulose syrup. I try to be careful with them, especially since you mentioned some of these could affect my sodium levels or contribute to SIADH.\n\nI do feel a bit overwhelmed with all these symptoms\u2014confusion, headpains, muscle weakness, and now the loss of appetite. It\u2019s just a lot at once, and I\u2019m worried about something serious happening with this hyponatremia. Should I be examinationing my sodium levels more often? And is there anything specific I should watch out for at home besides worsening confusion or severe headpain?\n\nAlso, if you do need to adjust my medications or fluids, how quickly can I expect to start feeling better? I just want to make sure I\u2019m doing everything right while we work on getting my sodium back to normal.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Dose",
+          "value": "no changes in medication dosages"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Atrovent, Albuterol, Propoxyphene, Hydromorphone, Klonopin, Ranitidine, Megace, Lactulose syrup"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "headpains"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "muscle weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "hyponatremia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "Should I be examinationing my sodium levels more often?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything specific I should watch out for at home besides worsening confusion or severe headpain?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "If you adjust my medications or fluids, how quickly can I expect to start feeling better?"
         }
       ]
     }

@@ -1,0 +1,232 @@
+{
+  "partial_profile": {
+    "row_id": 3925,
+    "subject_id": 2984,
+    "hadm_id": 127776,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Right facial swelling",
+          "onset": "morning of admission",
+          "duration": "1 day",
+          "severity": "not provided"
+        },
+        {
+          "description": "Erythema, warmth, and pain of right face",
+          "onset": "1 day prior to admission",
+          "duration": "1 day",
+          "severity": "not provided"
+        },
+        {
+          "description": "Oral lesions over lips and oral mucosa, painful, limiting PO intake",
+          "onset": "1 week prior to admission",
+          "duration": "about 1 week",
+          "severity": "not provided"
+        },
+        {
+          "description": "Fever",
+          "onset": "morning of admission",
+          "duration": "not provided",
+          "severity": "temperature at home 100.9, in ED 101.7"
+        },
+        {
+          "description": "Change in vision in right eye ('wavey line' in field of view)",
+          "onset": "3 days before admission",
+          "duration": "3 days",
+          "severity": "does not interfere with acuity; denies diplopia, pain with movement, halos, headaches"
+        },
+        {
+          "description": "Diarrhea",
+          "onset": "Monday before admission",
+          "duration": "resolved by Wednesday",
+          "severity": "not provided"
+        },
+        {
+          "description": "Substernal chest pain with sinus tachycardia",
+          "onset": "in ED",
+          "duration": "subsided as tachycardia resolved",
+          "severity": "not provided"
+        },
+        {
+          "description": "R facial edema/erythema",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Two 2-4mm linear breaches in the right buccal mucosa opposite the R pre-molar; lesions increase in length with minimal manipulation",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "trace bipedal edema",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "increased right facial swelling",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "lesions on lip that look like they might be viral",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2127-09-02",
+        "Age": 59,
+        "Sex": "F",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2186-12-24 16:01:00",
+        "Discharge_Date": "2186-12-29 20:30:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "1) Type I Diabetes mellitus\n2) CAD\n- 1-29 cardiac cath: 50% mid LAD, 80% distal LCx; stents placed to LAD and LCx\n- 5-30 PMIBI: SOB w/o ischemic changes. Nl myocardial perfusion\n- 12-30 TTE: mild LA enlargement, mildly dilated RA, LVEF >55%, trivial MR, trace AR\n3) Hypothyroidism 2184-3-2 TSH 0.78\n4) Depression/anxiety\n5) Breast cancer: Stage II infiltrating ductal carcinoma dx 2182 - s/p right lumpectomy followed by 4 cycles of Adriamycin/Cytoxan and 7 weekly Taxotere treatments."
+      },
+      "Allergies": [
+        "Percocet",
+        "Codeine",
+        "Robaxin",
+        "Lomotil",
+        "Metoprolol Tartrate",
+        "Linezolid",
+        "Synercid",
+        "Rifampin",
+        "Optiray 300",
+        "Percodan"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Arimidex",
+          "purpose": "Breast cancer",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "vancomycin",
+          "purpose": "MRSA osteomyelitis",
+          "dosage": "not provided",
+          "frequency": "Planned 6 week course, then additional 4-6 weeks after shoulder replacement"
+        },
+        {
+          "name": "acyclovir",
+          "purpose": "antiviral treatment for possible viral lip lesions",
+          "dosage": "not provided",
+          "frequency": "as prescribed for 7 days"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Right facial swelling"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.9,
+      "consistency_score": 1.0,
+      "confidence_score": 0.9,
+      "overall_score": 0.9666666666666667,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 0.95,
+        "treatments": 1.0,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Diagnosis 'Neutropenia' not clearly supported by text",
+        "Age inconsistency: stated 59, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Good morning, thank you for coming in today. I understand you\u2019ve been experiencing fever and low blood pressure\u2014can you tell me more about when these symptoms began and how they have changed over time?"
+    },
+    {
+      "role": "Patient",
+      "content": "Good morning. Um, yeah, I\u2019ve had this fever that just won\u2019t go away, and I guess my blood pressure\u2019s been kind of low too. I started noticing it maybe a couple days ago? It\u2019s hard to say exactly. I\u2019m just feeling pretty lousy overall, and there\u2019s this crampy pain all over my belly that\u2019s making me really uncomfortable."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing that\u2014you\u2019ve been dealing with a lot of uncomfortable symptoms. You mentioned crampy abdominal pain and experiencing generally unwell; can you tell me more about your diarrhea, such as how often it\u2019s occurring and if you\u2019ve noticed any blood or changes in appearance?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, well, the diarrhea\u2019s been happening a few times a day, I think. I haven\u2019t really noticed any blood, but it\u2019s just\u2026loose, you know? Honestly, the thing that\u2019s really bothering me right now is this sharp pain in my right foot from my neuropathy\u2014it\u2019s been acting up more than usual."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms so clearly. In addition to the abdominal discomfort and diarrhea, you mentioned experiencing nauseated\u2014can you tell me if the nausea has been persistent or if it comes and goes, and whether it is associated with eating or any other activities?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, um, the nausea\u2019s been pretty much there all the time, honestly. It doesn\u2019t really seem to matter if I eat or not\u2014it just kind of sticks around. Sometimes it gets a little worse after I try to eat something, but it never really goes away. And, uh, the fever and low blood pressure are still making me feel pretty weak. Should I be worried about these symptoms?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious\u2014persistent fever, low blood pressure, and ongoing nausea can certainly be concerning. To help with my assessment, can you tell me more about your vomiting\u2014how many episodes you\u2019ve had, what the vomit looked like, and whether it relieved any of your symptoms?"
+    }
+  ],
+  "transcript": "Doctor: Good morning, thank you for coming in today. I understand you\u2019ve been experiencing fever and low blood pressure\u2014can you tell me more about when these symptoms began and how they have changed over time?\nPatient: Good morning. Um, yeah, I\u2019ve had this fever that just won\u2019t go away, and I guess my blood pressure\u2019s been kind of low too. I started noticing it maybe a couple days ago? It\u2019s hard to say exactly. I\u2019m just feeling pretty lousy overall, and there\u2019s this crampy pain all over my belly that\u2019s making me really uncomfortable.\nDoctor: Thank you for sharing that\u2014you\u2019ve been dealing with a lot of uncomfortable symptoms. You mentioned crampy abdominal pain and experiencing generally unwell; can you tell me more about your diarrhea, such as how often it\u2019s occurring and if you\u2019ve noticed any blood or changes in appearance?\nPatient: Um, well, the diarrhea\u2019s been happening a few times a day, I think. I haven\u2019t really noticed any blood, but it\u2019s just\u2026loose, you know? Honestly, the thing that\u2019s really bothering me right now is this sharp pain in my right foot from my neuropathy\u2014it\u2019s been acting up more than usual.\nDoctor: Thank you for describing your symptoms so clearly. In addition to the abdominal discomfort and diarrhea, you mentioned experiencing nauseated\u2014can you tell me if the nausea has been persistent or if it comes and goes, and whether it is associated with eating or any other activities?\nPatient: Yeah, um, the nausea\u2019s been pretty much there all the time, honestly. It doesn\u2019t really seem to matter if I eat or not\u2014it just kind of sticks around. Sometimes it gets a little worse after I try to eat something, but it never really goes away. And, uh, the fever and low blood pressure are still making me feel pretty weak. Should I be worried about these symptoms?\nDoctor: I can understand why you\u2019d be anxious\u2014persistent fever, low blood pressure, and ongoing nausea can certainly be concerning. To help with my assessment, can you tell me more about your vomiting\u2014how many episodes you\u2019ve had, what the vomit looked like, and whether it relieved any of your symptoms?\nPatient: [Simulation ended due to invalid response from Patient Agent at turn 4]",
+  "clinical_note": "Patient presents with: abdominal pain, diarrhea, nauseated, vomiting, fever. Clinical note: Patient presents with persistent fever, low blood pressure, crampy abdominal pain, diarrhea, ongoing nausea, general weakness, and worsening neuropathic pain in the right foot. No diagnosis or treatment provided yet.. Extracted: 14 symptoms, 0 diagnoses, 0 treatments.",
+  "annotations": {
+    "symptoms": [
+      "abdominal pain",
+      "diarrhea",
+      "nauseated",
+      "vomiting",
+      "fever",
+      "nausea",
+      "fever and low blood pressure",
+      "weakness",
+      "experiencing fever and low blood pressure",
+      "low blood pressure",
+      "crampy abdominal pain",
+      "general malaise",
+      "sharp right foot pain",
+      "neuropathy"
+    ],
+    "diagnoses": [],
+    "treatments": []
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.850 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.583 \u25cb\n\u2022 Dialogue Naturalness: 0.850 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence:**\n\n1. **Medical Communication Safety and Appropriateness:**  \n   The doctor\u2019s questions are clinically appropriate, focusing on the timeline and progression of symptoms (fever, low blood pressure, abdominal pain, diarrhea, nausea). The inquiries are open-ended and specific, allowing for detailed symptom characterization. There is no evidence of unsafe or inappropriate advice; the doctor maintains a professional and cautious approach, especially given the potentially serious symptoms.\n\n2. **Natural and Believable Patient Behavior:**  \n   The patient\u2019s responses are consistent with someone experiencing significant discomfort and uncertainty. The disclosure of symptoms is progressive and realistic\u2014starting with general complaints, then providing more detail as prompted. The mention of neuropathy pain as a competing concern is believable and reflects how patients often bring up multiple issues during a visit. The patient\u2019s uncertainty about timing and symptom details is also typical in real encounters.\n\n3. **Empathy and Professionalism:**  \n   The doctor acknowledges the patient\u2019s discomfort (\u201cThank you for sharing that\u2014you\u2019ve been dealing with a lot of uncomfortable symptoms,\u201d \u201cI can understand why you\u2019d be anxious\u2026\u201d), demonstrating empathy and validating the patient\u2019s concerns. The tone remains supportive and nonjudgmental throughout.\n\n4. **Meaningful Medical Purpose:**  \n   The conversation logically progresses through history-taking for acute symptoms that could indicate a serious underlying condition (e.g., infection, sepsis, GI pathology). The doctor\u2019s questions are purposeful, aiming to clarify the severity and nature of the illness. The patient\u2019s question about whether they should be worried is met with reassurance and further assessment rather than dismissal.\n\n5. **Dialogue Flow:**  \n   The exchange follows a logical sequence: initial symptom exploration, clarification of GI symptoms, acknowledgment of comorbidities (neuropathy), and further probing into associated symptoms (nausea, vomiting). Turn-taking is appropriate, and the conversation develops naturally.\n\n**Minor Imperfections:**  \n- There is a slight repetition in symptom review (nausea mentioned by doctor before patient brings it up), but this is common in real clinical encounters.\n- The simulation ends abruptly due to a technical issue, but up to that point, the dialogue remains authentic.\n\n**Conclusion:**  \nDespite the abrupt end, the conversation up to that point is safe, empathetic, clinically appropriate, and realistically mirrors a real-world medical interview. Both doctor and patient behaviors are believable, and the dialogue serves a clear medical purpose.\n\n**Overall Assessment:**  \nThis dialogue represents a plausible and authentic medical encounter.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.850)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.255/0.3 (Score: 0.850)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.583,
+      "naturalness": 0.85,
+      "safety": 0.85,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 22.482449769973755,
+  "dialogue_stats": {
+    "turn_count": 7,
+    "word_count": 370,
+    "doctor_turns": 4,
+    "patient_turns": 3
+  }
+}

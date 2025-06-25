@@ -150,7 +150,7 @@ def main():
         return
     
     # Select subset for processing
-    full_profiles = gt_data[20:40]  # Process 20 profiles
+    full_profiles = gt_data  # Process 20 profiles
     logger.info(f"Processing {len(full_profiles)} profiles with SOTA evaluation system")
 
     # Generate partial profiles
@@ -335,8 +335,8 @@ def main():
                 }
                 
                 # Save result
-                os.makedirs("output_sota", exist_ok=True)
-                output_path = f"output_sota/dialogue_output_{profile_id}.json"
+                os.makedirs("output_dialogue", exist_ok=True)
+                output_path = f"output_dialogue/dialogue_output_{profile_id}.json"
                 with open(output_path, "w", encoding="utf-8") as outfile:
                     json.dump(result, outfile, indent=2)
                 

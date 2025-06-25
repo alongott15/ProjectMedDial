@@ -6,13 +6,62 @@
     {
       "turn_id": 0,
       "role": "Doctor",
-      "utterance_text": "Thank you for coming in today. I understand you\u2019ve experienced nausea and post-operative constipation following your recent surgeries. Can you tell me more about when your nausea started and if there\u2019s anything that assessms to make it better or worse?",
-      "remedi_labels": []
+      "utterance_text": "Thank you for coming in today. I understand you have been experiencing nausea since your ileostomy closure and some post-operative constipation following your bilateral knee replacement. Can you describe more about your current nausea\u2014such as when it occurs, how severe it is, and if anything assessms to make it better or worse?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "ileostomy closure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "post-operative constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "bilateral knee replacement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": ""
+        }
+      ]
     },
     {
       "turn_id": 1,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 yes, the nausea started a few days after my surgery. It kind of comes and goes, but it\u2019s been sticking around. I\u2019m not really sure what makes it better or worse yet. I guess I\u2019m just concerned because it hasn\u2019t really gone away.",
+      "utterance_text": "Well, um... yes, the nausea has been bothering me quite a bit since the surgery. It\u2019s not constant, but it comes and goes throughout the day. I\u2019m not really sure what triggers it, and I haven\u2019t found much that helps yet. I guess I\u2019m just concerned because it doesn\u2019t seem to be going away. Should I be worried?",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -24,38 +73,32 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Time",
-          "value": "a few days after my surgery"
+          "value": "since the surgery"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "comes and goes"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "hasn't really gone away"
+          "slot": "Frequency",
+          "value": "comes and goes throughout the day"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Other",
-          "value": "concerned because it hasn\u2019t really gone away"
+          "value": "Should I be worried?"
         }
       ]
     },
     {
       "turn_id": 2,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019re experiencing anxious about these ongoing symptoms\u2014nausea after surgery can be very unsettling. You also mentioned experiencing post-operative constipation; can you describe your bowel movements since the surgery, including how often they occur and whether you\u2019ve noticed any changes in consistency or difficulty passing stool?",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with persistent nausea after surgery. In addition to the nausea, you mentioned experiencing post-operative constipation\u2014can you tell me more about your bowel movements since the ileostomy closure, such as frequency, consistency, and any associated discomfort?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "nausea after surgery"
+          "value": "persistent nausea"
         },
         {
           "label_type": "action",
@@ -67,63 +110,81 @@
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "bowel movements since the surgery"
+          "value": "bowel movements"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Frequency",
-          "value": "how often bowel movements occur"
+          "value": ""
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Other",
-          "value": "changes in consistency or difficulty passing stool"
+          "value": "consistency"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "associated discomfort"
         }
       ]
     },
     {
       "turn_id": 3,
       "role": "Patient",
-      "utterance_text": "Um, sure\u2026 Well, since the surgery, I\u2019ve definitely had post-operative constipation. I haven\u2019t really had a normal bowel movement\u2014maybe just a little bit here and there, but not much. It\u2019s been a few days, and I\u2019m starting to get a bit worried about it.",
+      "utterance_text": "Well, um\u2026 yes, I have been having some constipation since the ileostomy closure. It\u2019s a bit uncomfortable, and I\u2019m not really sure what\u2019s normal at this point. I guess my main concern is that I\u2019m not having bowel movements as often as I expected after surgery. Should I be doing something differently?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "post-operative constipation"
+          "value": "constipation"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "abnormal bowel movement"
+          "value": "uncomfortable"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Time",
-          "value": "a few days"
+          "slot": "Treatment",
+          "value": "ileostomy closure"
         },
         {
           "label_type": "intent",
-          "type_name": "Informing",
+          "type_name": "Inquiring",
           "slot": "Other",
-          "value": "worried about constipation"
+          "value": "not sure what\u2019s normal after surgery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be doing something differently?"
         }
       ]
     },
     {
       "turn_id": 4,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially since constipation after surgery can be uncomfortable and concerning. To help with my assessment, can you tell me if you\u2019ve experienced any abdominal pain, bloating, or vomiting along with the constipation?",
+      "utterance_text": "Thank you for sharing your symptoms with me. After an ileostomy closure, it\u2019s common for bowel habits to change, and constipation can occur as your digestive system adjusts. Can you tell me if you have experienced any abdominal pain, bloating, or changes in appetite along with the constipation?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "I can understand why you\u2019d be worried about these symptoms, especially since constipation after surgery can be uncomfortable and concerning."
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "ileostomy closure"
         },
         {
           "label_type": "action",
@@ -141,20 +202,14 @@
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "vomiting"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "constipation after surgery"
+          "value": "changes in appetite"
         }
       ]
     },
     {
       "turn_id": 5,
       "role": "Patient",
-      "utterance_text": "Let me think\u2026 I haven\u2019t had any vomiting, but I do feel a bit bloated, especially in the evenings. There\u2019s some mild abdominal pain, but it\u2019s not sharp\u2014more like a dull pain. I\u2019m not sure if that\u2019s normal after this kind of surgery?",
+      "utterance_text": "Let me think\u2026 Actually, yes, I have noticed some bloating, especially in the evenings. My appetite isn\u2019t quite what it used to be either\u2014I just don\u2019t feel as hungry most days. As for abdominal pain, it\u2019s more of a mild discomfort than anything sharp or severe. Is that something I should be keeping an eye on?",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -165,14 +220,76 @@
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mild abdominal pain"
+          "slot": "Time",
+          "value": "evenings"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "dull pain"
+          "value": "decreased appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mild abdominal discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be keeping an eye on this"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms in detail. To help with my assessment, can you tell me if you have experienced any nausea or vomiting after eating, or if you have noticed any changes in the color or consistency of your stools since the ileostomy closure?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for describing your symptoms in detail."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vomiting after eating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in color or consistency of stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "ileostomy closure"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I do notice the nausea seems a little worse after I eat, but I haven\u2019t actually vomited. As for my stools, they\u2019re a bit harder and smaller than what I remember before all the surgeries. The color seems normal, I think\u2014maybe a little lighter sometimes, but nothing too unusual. Should I be watching for anything specific with that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea worse after eating"
         },
         {
           "label_type": "intent",
@@ -182,152 +299,212 @@
         },
         {
           "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "Is this normal after surgery?"
-        }
-      ]
-    },
-    {
-      "turn_id": 6,
-      "role": "Doctor",
-      "utterance_text": "Thank you for describing your symptoms in detail. Since you\u2019re experiencing bloating and mild, dull abdominal pain along with constipation, can you tell me if you\u2019ve noticed any changes in the color of your stool or if you\u2019ve assessn any blood or mucus during your bowel movements?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "bloating"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mild, dull abdominal pain"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "constipation"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "changes in color of stool"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "blood or mucus during bowel movements"
-        }
-      ]
-    },
-    {
-      "turn_id": 7,
-      "role": "Patient",
-      "utterance_text": "Actually\u2026 now that you mention it, I haven\u2019t really noticed any blood in my stool, but it\u2019s kind of hard to tell with the ileostomy and mucus fistula. The output looks a bit lighter than before, maybe more pale, and sometimes there\u2019s some mucus. I\u2019m not sure if that\u2019s something I should be worried about?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no blood in stool"
+          "value": "harder and smaller stools"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "output looks lighter than before"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "output more pale"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "sometimes mucus in output"
+          "value": "stool color normal, sometimes lighter"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "should I be worried about these symptoms"
+          "slot": "Symptom",
+          "value": "should I be watching for anything specific with my stools"
         }
       ]
     },
     {
       "turn_id": 8,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially after such a significant surgical procedure. To help with my assessment, have you experienced any difficulty passing gas or noticed any changes in the amount or frequency of your ileostomy output since your surgery?",
+      "utterance_text": "Thank you for describing your symptoms so clearly. Since you mentioned your stools are harder and smaller, I\u2019d like to ask\u2014have you needed to strain significantly during bowel movements, or have you experienced any rectal bleeding or a sensation of incomplete evacuation during defecation?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "I can understand why you\u2019d be worried about these symptoms, especially after such a significant surgical procedure."
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "straining during bowel movements"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "difficulty passing gas"
+          "value": "rectal bleeding"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "changes in the amount or frequency of ileostomy output"
+          "value": "sensation of incomplete evacuation during defecation"
         }
       ]
     },
     {
       "turn_id": 9,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 I think I\u2019m still able to pass some gas, but maybe not as much as before. The ileostomy output seems a bit less than it was right after surgery, and sometimes it\u2019s kind of slow to come out. I\u2019m not sure if that\u2019s normal or if it means something\u2019s wrong. Should I be worried about that?",
+      "utterance_text": "Um, yes, I have noticed I need to strain a bit more than usual during bowel movements. It\u2019s not every time, but it does happen. I haven\u2019t seen any rectal bleeding, though. Sometimes I do feel like I haven\u2019t completely finished, like there\u2019s still something left, if that makes sense. Is that sensation of incomplete evacuation something that happens often after these kinds of surgeries?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "decreased ability to pass gas"
+          "value": "straining during bowel movements"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "ileostomy output less than after surgery"
+          "value": "sensation of incomplete evacuation"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "ileostomy output slow to come out"
+          "value": "no rectal bleeding"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "asking if symptoms are normal or concerning"
+          "slot": "Symptom",
+          "value": "sensation of incomplete evacuation after surgery"
         }
       ]
     },
     {
       "turn_id": 10,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious about these changes in your ileostomy output and bowel symptoms after surgery. To help with my assessment, have you experienced any signs of fever, chills, or an elevated heart rate that might suggest an infection or other complication related to your post-operative condition?",
+      "utterance_text": "Thank you for explaining your symptoms so clearly. To further assess your post-operative constipation, have you experienced any abdominal distension or signs of bowel obstruction, such as severe cramping, inability to pass gas, or sudden worsening of your symptoms?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "changes in ileostomy output and bowel symptoms after surgery"
+          "value": "post-operative constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "signs of bowel obstruction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "severe cramping"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "inability to pass gas"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden worsening of symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I have noticed some abdominal distension, especially later in the day\u2014it just feels kind of full and a bit tight. I haven\u2019t had any severe cramping, though, and I am still able to pass gas, so that\u2019s a relief. My symptoms haven\u2019t suddenly gotten worse, but the bloating and constipation are definitely uncomfortable.\n\nShould I be worried about bowel obstruction at this point, or is this kind of abdominal distension and incomplete evacuation something that usually improves as time goes on after a sigmoid resection and ileostomy closure? And is there anything I should be doing to help symptoms move along?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fullness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tightness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bloating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no severe cramping"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "able to pass gas"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "bowel obstruction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal distension and incomplete evacuation after sigmoid resection and ileostomy closure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what to do to help symptoms move along"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d feel anxious about these symptoms, especially with the abdominal distension and changes in your bowel habits after surgery. To help with my assessment, have you noticed any unintentional weight loss or fever since your ileostomy closure, which could indicate an underlying complication?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in bowel habits"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "unintentional weight loss"
         },
         {
           "label_type": "action",
@@ -337,188 +514,84 @@
         },
         {
           "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "chills"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "elevated heart rate"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "post-operative condition"
-        }
-      ]
-    },
-    {
-      "turn_id": 11,
-      "role": "Patient",
-      "utterance_text": "Actually, I haven\u2019t noticed any fever or chills, and I don\u2019t think my heart rate has been up\u2014at least, I haven\u2019t felt my heart racing or anything like that. I do examination my temperature at home sometimes, and it\u2019s been normal so far. \n\nIs it common to have these symptoms\u2014like the bloating and changes in ileostomy output\u2014after a sigmoid resection and hemicolectomy? Or should I be more concerned about a possible complication?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no fever or chills"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no increased heart rate"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Temperature",
-          "value": "normal"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "bloating"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "changes in ileostomy output"
-        },
-        {
-          "label_type": "intent",
           "type_name": "Informing",
           "slot": "Treatment",
-          "value": "sigmoid resection and hemicolectomy"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "common to have these symptoms after surgery"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "possible complication"
-        }
-      ]
-    },
-    {
-      "turn_id": 12,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially given your recent surgeries and changes in bowel function. To help with my assessment, have you experienced any symptoms of abdominal distension, such as your abdomen experiencing noticeably swollen or tight on examination, or any significant discomfort that worsens after eating?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abdominal distension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "abdominal distension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "significant discomfort that worsens after eating"
+          "value": "ileostomy closure"
         }
       ]
     },
     {
       "turn_id": 13,
       "role": "Patient",
-      "utterance_text": "Well, yes, I think I have had some abdominal distension. My abdomen does feel more swollen and kind of tight, especially later in the day or after I eat a meal. It\u2019s not extremely painful, but it is uncomfortable and makes me feel kind of full quickly. Sometimes I wonder if it\u2019s just part of the healing process after a sigmoid resection and hemicolectomy, or if it could be something like a blockage. \n\nShould I be doing anything differently with my diet or activity while I\u2019m having these symptoms? And is there a point where abdominal distension becomes more serious?",
+      "utterance_text": "Well, um\u2026 I haven\u2019t had any fever, at least not that I\u2019ve noticed. As for weight loss, I think I might have lost a couple of pounds, but it\u2019s hard to say if that\u2019s just from eating less because of the nausea and decreased appetite. It hasn\u2019t been a dramatic change or anything.\n\nIs unintentional weight loss something I should be really concerned about after a sigmoid resection and ileostomy closure? And, if these symptoms\u2014like the abdominal distension and constipation\u2014don\u2019t improve soon, is there a point when I should call you or come back in?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "abdominal distension"
+          "value": "no fever"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "abdomen feels swollen and tight"
+          "value": "possible mild weight loss"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "feeling full quickly"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "sigmoid resection and hemicolectomy"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Should I be doing anything differently with my diet or activity while I\u2019m having these symptoms?"
+          "value": "eating less due to nausea and decreased appetite"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "Is there a point where abdominal distension becomes more serious?"
+          "value": "concern about unintentional weight loss after sigmoid resection and ileostomy closure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "when to seek medical attention if abdominal distension and constipation do not improve"
         }
       ]
     },
     {
       "turn_id": 14,
       "role": "Doctor",
-      "utterance_text": "I\u2019m sorry you\u2019re experiencing this discomfort and abdominal distension\u2014it\u2019s understandable to feel concerned after such major surgery. To help with my assessment, have you experienced any symptoms such as nausea worsening, inability to tolerate oral intake, or a complete absence of ileostomy output, which could suggest a possible bowel obstruction?",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious about these ongoing symptoms after your surgery. Since you\u2019re experiencing persistent post-operative constipation, I\u2019d like to ask\u2014have you been able to maintain adequate hydration and fiber intake in your diet, as both are important factors that can influence bowel motility and help alleviate constipation symptoms?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "I\u2019m sorry you\u2019re experiencing this discomfort and abdominal distension\u2014it\u2019s understandable to feel concerned after such major surgery."
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent post-operative constipation"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "nausea worsening"
+          "slot": "Precaution",
+          "value": "adequate hydration"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "inability to tolerate oral intake"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "complete absence of ileostomy output"
+          "slot": "Precaution",
+          "value": "fiber intake in diet"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
-          "slot": "Disease",
-          "value": "possible bowel obstruction"
+          "slot": "Effect",
+          "value": "hydration and fiber intake influence bowel motility and help alleviate constipation"
         }
       ]
     },
     {
       "turn_id": 15,
       "role": "Patient",
-      "utterance_text": "Thank you for explaining that. Well, um, my nausea hasn\u2019t really gotten worse, but it does kind of come and go\u2014especially if I try to eat a bigger meal. I can still eat and drink, but sometimes I feel full pretty quickly, so I\u2019ve been sticking to smaller portions. As for the ileostomy output, it hasn\u2019t completely stopped, but like I mentioned, it\u2019s definitely less than it was right after surgery, and sometimes it seems slower.\n\nI guess I\u2019m just not sure what\u2019s normal after a hemicolectomy and sigmoid resection with an ileostomy and mucus fistula. Is it common for the output to slow down a bit as symptoms heal, or should I be more worried about a possible bowel obstruction? And if it did become a bowel obstruction, what symptoms should I watch out for that would mean I need to come in right away?",
+      "utterance_text": "Well, um, I\u2019ve been trying to drink more water, but I\u2019m not sure if it\u2019s really enough\u2014maybe six or seven glasses a day? As for fiber, I know it\u2019s important for bowel motility, but I haven\u2019t been eating as much as usual because of the nausea and decreased appetite. I\u2019ve tried to add some fruits and whole grains, but honestly, some days it\u2019s hard to get much down.\n\nIs there a certain amount of fiber or fluids I should be aiming for after a sigmoid resection and ileostomy closure? And is it okay to use symptoms like stool softeners or should I just focus on diet for now? I just want to make sure I\u2019m doing everything right to help these constipation symptoms improve.",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -530,233 +603,99 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "nausea comes and goes, especially after eating bigger meals"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "early satiety (feeling full quickly)"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "eating smaller portions"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "ileostomy output decreased and sometimes slower"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "hemicolectomy and sigmoid resection with ileostomy and mucus fistula"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "Is it normal for ileostomy output to slow down as symptoms heal?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "Should I be worried about a possible bowel obstruction?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "What symptoms indicate a bowel obstruction that require immediate medical attention?"
-        }
-      ]
-    },
-    {
-      "turn_id": 16,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these ongoing symptoms, especially after such a complex surgical procedure. Based on your description, you are experiencing persistent post-operative constipation, mild nausea, abdominal bloating, and decreased ileostomy output, but no severe pain, vomiting, or signs of infection. To further guide my assessment, have you experienced any significant changes in your appetite or unintentional weight loss since your surgery?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "persistent post-operative constipation"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mild nausea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "abdominal bloating"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "decreased ileostomy output"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no severe pain"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no vomiting"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no signs of infection"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "significant changes in appetite"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "unintentional weight loss"
-        }
-      ]
-    },
-    {
-      "turn_id": 17,
-      "role": "Patient",
-      "utterance_text": "Let me think\u2026 Yes, I have noticed some changes in my appetite since the surgery. I get full a lot faster than I used to, and I\u2019m not really as interested in eating big meals. I wouldn\u2019t say I\u2019ve lost a lot of weight, but my clothes do feel a little looser, so maybe a few pounds? I\u2019m not sure if that\u2019s just from eating less or if it\u2019s something I should be concerned about.\n\nIs it common to have a decreased appetite and some weight loss after a hemicolectomy and sigmoid resection with an ileostomy and mucus fistula? And is there anything specific I should be doing to help with nutrition while I\u2019m still having these symptoms?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
           "value": "decreased appetite"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "early satiety (gets full faster)"
+          "value": "constipation"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mild weight loss (clothes feel looser)"
+          "slot": "Treatment",
+          "value": "drinking six or seven glasses of water a day"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "trying to add fruits and whole grains"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "decreased appetite and weight loss after hemicolectomy and sigmoid resection with ileostomy and mucus fistula"
+          "slot": "Dose",
+          "value": "amount of fiber or fluids to aim for after sigmoid resection and ileostomy closure"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Treatment",
-          "value": "nutrition advice for decreased appetite and weight loss after surgery"
+          "value": "whether it is okay to use stool softeners or just focus on diet"
         }
       ]
     },
     {
-      "turn_id": 18,
+      "turn_id": 16,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially after such significant surgery and changes in your digestive function. Based on your description, you\u2019re experiencing post-operative constipation, decreased ileostomy output, mild nausea, bloating, early satiety, and some mild weight loss, but no severe pain or signs of infection. To help with my assessment, have you had any recent imaging studies or abdominal examinations since discharge to evaluate for possible post-surgical complications such as partial bowel obstruction or delayed gastroindiagnostic evaluationinal motility?",
+      "utterance_text": "Thank you for sharing these details about your symptoms and dietary intake. Based on your description, you are experiencing post-operative constipation, mild abdominal distension, decreased appetite, and intermittent nausea following your sigmoid resection and ileostomy closure. To further guide my assessment, have you noticed any symptoms of dehydration, such as dizziness, dry mouth, or decreased urine output, which can sometimes accompany changes in bowel habits after gastroindiagnostic evaluationinal surgery?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Diagnosis",
           "slot": "Symptom",
-          "value": "post-operative constipation"
+          "value": "post-operative constipation, mild abdominal distension, decreased appetite, intermittent nausea"
         },
         {
           "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Symptom",
-          "value": "decreased ileostomy output"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Symptom",
-          "value": "mild nausea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Symptom",
-          "value": "bloating"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Symptom",
-          "value": "early satiety"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Symptom",
-          "value": "mild weight loss"
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "sigmoid resection and ileostomy closure"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
-          "slot": "Check_item",
-          "value": "recent imaging studies"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Check_item",
-          "value": "abdominal examinations"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "partial bowel obstruction"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "delayed gastrointestinal motility"
+          "slot": "Symptom",
+          "value": "symptoms of dehydration such as dizziness, dry mouth, or decreased urine output"
         }
       ]
     },
     {
-      "turn_id": 19,
+      "turn_id": 17,
       "role": "Patient",
-      "utterance_text": "Actually, no, I haven\u2019t had any recent imaging studies or an abdominal examination since I was discharged. The last time anyone really examinationed my abdomen was when I was still in the hospital, right after the surgery. Since then, I\u2019ve just been trying to keep track of my symptoms at home\u2014like the constipation, the decreased ileostomy output, and the bloating.\n\nIs it common to need more imaging or an abdominal exam after a hemicolectomy and sigmoid resection, especially with these symptoms? And if it turns out to be something like a partial bowel obstruction or delayed gastrointestinal motility, what would the treatment usually involve? I just want to make sure I\u2019m doing everything I can to heal properly.",
+      "utterance_text": "Let me think\u2026 Actually, yes, I have noticed my mouth feels a bit dry sometimes, especially in the morning. I don\u2019t think I\u2019ve been dizzy, at least not enough to really notice, but maybe a little lightheaded when I stand up too quickly. As for urine output, it might be a little less than usual, but I\u2019m still going several times a day.\n\nShould I be increasing my fluids more to help with these symptoms? And with all these post-operative changes\u2014like the constipation, abdominal distension, and decreased appetite\u2014how long does it usually take for symptoms to get back to normal after a sigmoid resection and ileostomy closure? I just want to make sure I\u2019m on the right track and not missing anything important.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "no recent imaging studies or abdominal examination since discharge"
+          "slot": "Symptom",
+          "value": "dry mouth"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "last abdominal examination was in hospital after surgery"
+          "slot": "Symptom",
+          "value": "lightheaded when standing up quickly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I be increasing my fluids more to help with these symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "how long does it usually take for symptoms to get back to normal after a sigmoid resection and ileostomy closure?"
         },
         {
           "label_type": "intent",
@@ -768,618 +707,386 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "decreased ileostomy output"
+          "value": "abdominal distension"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "bloating"
+          "value": "decreased appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "sigmoid resection and ileostomy closure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "I just want to make sure I\u2019m on the right track and not missing anything important"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details about your symptoms, including the post-operative constipation, mild abdominal distension, decreased appetite, and signs of mild dehydration. Based on your medical history and recent laboratory clinical findings, I\u2019d like to further assess your condition\u2014have you had any recent laboratory or imaging examinations specifically focused on your gastroindiagnostic evaluationinal tract since your ileostomy closure?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "post-operative constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mild abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "signs of mild dehydration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "recent laboratory or imaging examinations focused on gastrointestinal tract since ileostomy closure"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um, let me think\u2026 I don\u2019t believe I\u2019ve had any recent laboratory or imaging examinations specifically for my gastrointestinal tract since the ileostomy closure. I did have some routine bloodwork right after surgery, but nothing focused on my GI symptoms lately. Should I be getting something like an abdominal X-ray or maybe some more labs to examination for any symptoms?\n\nI just want to make sure we\u2019re not missing anything, since the constipation and abdominal distension are still hanging around. Is it common to need more testing after a sigmoid resection and ileostomy closure if these symptoms persist?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "routine bloodwork after surgery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "no recent laboratory or imaging examinations for gastrointestinal tract"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Check_item",
-          "value": "Is it common to need more imaging or an abdominal exam after hemicolectomy and sigmoid resection with these symptoms?"
+          "value": "abdominal X-ray or more labs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "If it is a partial bowel obstruction or delayed gastrointestinal motility, what would the treatment involve?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "What would the treatment usually involve for partial bowel obstruction or delayed gastrointestinal motility?"
+          "slot": "Other",
+          "value": "Is it common to need more testing after sigmoid resection and ileostomy closure if symptoms persist?"
         }
       ]
     },
     {
       "turn_id": 20,
       "role": "Doctor",
-      "utterance_text": "Thank you for sharing these details\u2014it\u2019s understandable to want to ensure you\u2019re healing properly after such a major surgery. Based on your symptoms of persistent constipation, decreased ileostomy output, mild nausea, bloating, early satiety, and mild weight loss, along with your recent electrolyte levels, I\u2019m concerned about the possibility of delayed gastroindiagnostic evaluationinal motility or a partial bowel obstruction. To further guide my assessment, have you noticed any worsening abdominal pain or a complete cessation of ileostomy output since your last hospital examination?",
+      "utterance_text": "Thank you for sharing your ongoing symptoms and concerns. Based on your description, you are experiencing persistent post-operative constipation, mild abdominal distension, decreased appetite, intermittent nausea, and some signs of mild dehydration, with recent laboratory clinical findings showing low-normal potassium and phosphate levels. To further guide my assessment, have you noticed any new or worsening symptoms such as severe abdominal pain, persistent vomiting, or inability to tolerate oral intake since your last examination?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Informing",
+          "type_name": "Diagnosis",
           "slot": "Symptom",
-          "value": "persistent constipation"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "decreased ileostomy output"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mild nausea"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "bloating"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "early satiety"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mild weight loss"
+          "value": "persistent post-operative constipation"
         },
         {
           "label_type": "action",
           "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "delayed gastrointestinal motility"
+          "slot": "Symptom",
+          "value": "mild abdominal distension"
         },
         {
           "label_type": "action",
           "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "partial bowel obstruction"
+          "slot": "Symptom",
+          "value": "decreased appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "intermittent nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "mild dehydration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Check_item",
+          "value": "low-normal potassium and phosphate levels"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "worsening abdominal pain"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "complete cessation of ileostomy output"
+          "value": "new or worsening symptoms such as severe abdominal pain, persistent vomiting, or inability to tolerate oral intake"
         }
       ]
     },
     {
       "turn_id": 21,
       "role": "Patient",
-      "utterance_text": "Thank you for explaining that. Well, I haven\u2019t had any worsening abdominal pain\u2014it\u2019s still just that dull, bloated feeling, not sharp or severe. And as for the ileostomy output, it hasn\u2019t completely stopped, but it is definitely less than it was right after surgery. There are times when it seems to slow down quite a bit, but I haven\u2019t had a complete cessation.\n\nI appreciate you mentioning delayed gastrointestinal motility and partial bowel obstruction\u2014I wasn\u2019t sure what to call what I\u2019ve been feeling, but that makes sense. Should I be monitoring my output more closely, or are there specific warning signs I should watch for that would mean I need to come in right away? And is there anything I can do at home to help improve my motility or prevent symptoms from getting worse?",
+      "utterance_text": "Well, thank you for asking. Actually, I haven\u2019t had any severe abdominal pain or persistent vomiting, and I\u2019m still able to tolerate oral intake, even though my appetite is definitely less than it used to be. The nausea comes and goes, but I can usually keep food and fluids down\u2014just smaller amounts than before.\n\nI did notice the abdominal distension is a little more noticeable some days, but it\u2019s not really painful, just uncomfortable. With the low-normal potassium and phosphate levels you mentioned, is that something I should be worried about? Could those lab findings be related to my symptoms, or do they usually improve as my gastrointestinal tract recovers? And is there anything specific I should be doing to help bring those levels up while I\u2019m dealing with this post-operative constipation and decreased appetite?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "dull, bloated feeling in abdomen"
+          "value": "no severe abdominal pain"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no worsening abdominal pain"
+          "value": "no persistent vomiting"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "ileostomy output decreased but not stopped"
+          "value": "able to tolerate oral intake"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "ileostomy output sometimes slows down"
+          "value": "decreased appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea comes and goes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "can keep food and fluids down in smaller amounts"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension more noticeable some days"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension is uncomfortable but not painful"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Should I monitor my output more closely?"
+          "slot": "Other",
+          "value": "Should I be worried about low-normal potassium and phosphate levels?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Are there specific warning signs I should watch for that would mean I need to come in right away?"
+          "slot": "Other",
+          "value": "Could lab findings be related to my symptoms?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Is there anything I can do at home to help improve my motility or prevent symptoms from getting worse?"
+          "slot": "Other",
+          "value": "Do potassium and phosphate levels usually improve as GI tract recovers?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is there anything specific I should do to help bring those levels up while dealing with post-operative constipation and decreased appetite?"
         }
       ]
     },
     {
       "turn_id": 22,
       "role": "Doctor",
-      "utterance_text": "Thank you for sharing these details and for monitoring your symptoms so carefully\u2014it\u2019s important to be proactive after major abdominal surgery. Based on your current symptoms of decreased ileostomy output, persistent mild nausea, bloating, early satiety, and mild weight loss, my clinical assessment is that you may be experiencing delayed gastroindiagnostic evaluationinal motility or a partial bowel obstruction, both of which can occur after hemicolectomy and sigmoid resection.\n\nAt home, I recommend you continue to monitor your ileostomy output closely\u2014if you experience a complete cessation of output, worsening abdominal pain, persistent vomiting, or signs of dehydration (such as dizziness or reduced urine output), you should assessk immediate medical attention. To help improve motility, try eating small, frequent meals that are low in fiber and easy to digest, maintain adequate hydration, and engage in gentle physical activity as tolerated.\n\nHave you been able to maintain adequate fluid intake, and are you experiencing any symptoms of dehydration such as increased thirst, dry mouth, or reduced urine output?",
-      "remedi_labels": []
+      "utterance_text": "I can understand why you\u2019d be worried about these ongoing symptoms and laboratory findings after your surgery\u2014it\u2019s completely natural to feel anxious during your recovery. Mildly low potassium and phosphate levels can sometimes occur after gastroindiagnostic evaluationinal surgery, especially with decreased oral intake and ongoing nausea, and they may contribute to symptoms like fatigue, weakness, or even worsen constipation. To help guide my treatment recommendations, are you currently taking any electrolyte supplements or medications that might affect your potassium or phosphate levels?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "laboratory findings"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "mildly low potassium and phosphate levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "electrolyte supplements or medications that might affect potassium or phosphate levels"
+        }
+      ]
     },
     {
       "turn_id": 23,
       "role": "Patient",
-      "utterance_text": "Thank you, doctor, that\u2019s really helpful to hear. I think I\u2019ve been able to keep up with my fluid intake for the most part\u2014I try to sip water throughout the day, and I haven\u2019t really noticed increased thirst or a dry mouth. My urine output seems pretty normal, maybe a little less than usual, but not drastically so.\n\nI do have a couple of questions, if that\u2019s alright. With this delayed gastrointestinal motility or possible partial bowel obstruction, is there a chance symptoms could improve on their own with just these dietary and activity changes, or is it likely I\u2019ll need more intervention? And how long should I wait before getting worried if the ileostomy output stays low? I just want to make sure I\u2019m not missing anything important as I recover.",
+      "utterance_text": "Well, um, I\u2019m not currently taking any electrolyte supplements, at least not that I know of. I do take my regular medications for hypothyroid, cholesterol, GERD, and my rheumatoid arthritis, but nothing specifically for potassium or phosphate. Should I be on something like that while I\u2019m still having these symptoms and my labs are on the low side?\n\nI have felt a bit more tired than usual, but I just thought it was from the surgery and not eating as much. Is there a certain kind of supplement or dietary change you\u2019d recommend to help with the potassium and phosphate levels? And could those low levels be making the constipation and fatigue worse? I just want to make sure I\u2019m supporting my recovery as best as I can.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no increased thirst or dry mouth"
+          "slot": "Medicine",
+          "value": "medications for hypothyroid, cholesterol, GERD, rheumatoid arthritis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine-category",
+          "value": "not taking electrolyte supplements"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I be on electrolyte supplements for potassium or phosphate?"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "urine output seems normal, maybe a little less than usual"
+          "value": "tired"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent surgery"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Treatment",
-          "value": "chance symptoms could improve on their own with dietary and activity changes"
+          "value": "Is there a supplement or dietary change you\u2019d recommend for potassium and phosphate levels?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "likelihood of needing more intervention"
+          "slot": "Effect",
+          "value": "Could low potassium and phosphate be making constipation and fatigue worse?"
         },
         {
           "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Time",
-          "value": "how long to wait before getting worried if ileostomy output stays low"
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
         }
       ]
     },
     {
       "turn_id": 24,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious about these symptoms and your recovery, especially after such a complex surgery. Based on your current assessment\u2014mildly decreased ileostomy output, persistent bloating, early satiety, and stable hydration\u2014many patients do experience gradual improvement in delayed gastroindiagnostic evaluationinal motility with dietary adjustments, hydration, and gentle activity, but it\u2019s important to remain vigilant for any worsening symptoms.\n\nIf your ileostomy output decreases further or stops completely, or if you develop severe abdominal pain, persistent vomiting, or signs of dehydration, you should assessk immediate medical assessment. In the meantime, would you be able to keep a daily log of your ileostomy output volume and any changes in your symptoms to help guide ongoing clinical evaluation?",
+      "utterance_text": "Thank you for sharing your concerns and being so thorough about your symptoms and medical history. Based on your clinical assessment, your mild hypokalemia and low-normal phosphate may be contributing to your fatigue and constipation, especially given your decreased oral intake after surgery. I recommend increasing your dietary intake of potassium- and phosphate-rich foods if tolerated, such as bananas, oranges, dairy products, and lean meats, and we can consider supplements if your symptoms persist or worsen. Would you be willing to keep a daily record of your fluid and food intake, as well as any changes in your symptoms, so we can better tailor your treatment and monitor your recovery?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mildly decreased ileostomy output"
+          "slot": "Disease",
+          "value": "mild hypokalemia"
         },
         {
           "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "persistent bloating"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "early satiety"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "stable hydration"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "dietary adjustments, hydration, and gentle activity"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "remain vigilant for any worsening symptoms"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "seek immediate medical assessment if ileostomy output decreases further or stops, or if severe abdominal pain, persistent vomiting, or signs of dehydration develop"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Other",
-          "value": "keep a daily log of ileostomy output volume and changes in symptoms"
-        }
-      ]
-    },
-    {
-      "turn_id": 25,
-      "role": "Patient",
-      "utterance_text": "Yes, absolutely\u2014I can keep a daily log of my ileostomy output and any changes in my symptoms. That actually sounds like a good idea, and I think it\u2019ll help me feel a little more in control, too.\n\nJust to make sure I\u2019m doing it right, should I be measuring the actual volume of the output, or is it enough to just note if it\u2019s more or less than usual? And for symptoms, do you want me to write down symptoms like nausea, bloating, and abdominal pain each day, even if they don\u2019t change much?\n\nAlso, I know you mentioned dietary adjustments\u2014are there specific foods I should avoid right now to help with the delayed gastrointestinal motility? I just want to do everything I can to help my recovery along.",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "ileostomy output"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "changes in symptoms"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "Should I measure actual volume of ileostomy output or just note if it\u2019s more or less than usual?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "Should I write down symptoms like nausea, bloating, and abdominal pain each day, even if they don\u2019t change?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Are there specific foods I should avoid to help with delayed gastrointestinal motility?"
-        }
-      ]
-    },
-    {
-      "turn_id": 26,
-      "role": "Doctor",
-      "utterance_text": "You\u2019re taking a very thoughtful approach to your recovery, and I appreciate your willingness to keep a detailed log\u2014it will be very helpful for ongoing assessment. For your daily record, please measure and record the actual volume of your ileostomy output if possible, and note the presence and severity of symptoms such as nausea, bloating, and abdominal pain each day, even if they remain unchanged. \n\nRegarding dietary recommendations, I suggest focusing on low-fiber, easily digestible foods (such as white rice, bananas, applesauce, and lean proteins), and avoiding high-residue foods like raw vegetables, nuts, popcorn, and tough meats until your gastroindiagnostic evaluationinal motility improves. \n\nGiven your recent laboratory clinical findings showing mildly low potassium, have you experienced any muscle weakness, cramping, or palpitations that could indicate an electrolyte imbalance?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "measure and record the actual volume of ileostomy output daily"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Symptom",
-          "value": "note the presence and severity of symptoms such as nausea, bloating, and abdominal pain each day"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "focus on low-fiber, easily digestible foods and avoid high-residue foods until gastrointestinal motility improves"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "recent laboratory clinical findings showing mildly low potassium"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "muscle weakness, cramping, or palpitations that could indicate an electrolyte imbalance"
-        }
-      ]
-    },
-    {
-      "turn_id": 27,
-      "role": "Patient",
-      "utterance_text": "Thank you, doctor\u2014that all makes sense, and I\u2019ll start keeping a detailed log of my ileostomy output and symptoms every day. I appreciate the specific dietary recommendations, too. I\u2019ll stick to low-fiber foods and avoid symptoms like raw veggies and nuts for now.\n\nAs for the potassium issue, let me think\u2026 I haven\u2019t really noticed any muscle weakness or cramping, but maybe a little bit of fatigue here and there. I haven\u2019t felt any palpitations or anything unusual with my heart. Should I be watching out for certain signs if my potassium stays low? And is there anything I can do with my diet to help bring it up, or will that mostly depend on how my gastrointestinal motility improves?\n\nI really appreciate you taking the time to explain all of this\u2014it helps me feel a bit more hopeful about my recovery.",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
           "value": "fatigue"
         },
         {
-          "label_type": "intent",
+          "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no muscle weakness"
+          "value": "constipation"
         },
         {
-          "label_type": "intent",
+          "label_type": "action",
           "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no cramping"
+          "slot": "Disease-history",
+          "value": "decreased oral intake after surgery"
         },
         {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no palpitations"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "signs of low potassium to watch for"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
+          "label_type": "action",
+          "type_name": "Recommendation",
           "slot": "Treatment",
-          "value": "dietary changes to increase potassium"
-        }
-      ]
-    },
-    {
-      "turn_id": 28,
-      "role": "Doctor",
-      "utterance_text": "I appreciate your careful attention to your symptoms and your willingness to follow these recommendations\u2014it\u2019s an important part of your recovery. Based on your current assessment, your mild fatigue may be related to the slightly low potassium level, which can occur after gastroindiagnostic evaluationinal surgery and with decreased oral intake. I recommend continuing to monitor for symptoms such as muscle weakness, cramping, or palpitations, and incorporating potassium-rich, easily digestible foods like bananas or potatoes if tolerated, while we observe your gastroindiagnostic evaluationinal motility.\n\nIf your symptoms of fatigue worsen or you develop any new symptoms suggestive of electrolyte imbalance, please notify your healthcare team promptly. Would you be able to arrange a follow-up laboratory assessment in the next week to monitor your electrolyte levels as part of your ongoing clinical evaluation?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mild fatigue"
+          "value": "increase dietary intake of potassium- and phosphate-rich foods"
         },
         {
           "label_type": "action",
-          "type_name": "Diagnosis",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "consider supplements if symptoms persist or worsen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
           "slot": "Other",
-          "value": "fatigue may be related to slightly low potassium level"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "potassium level"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "monitor for symptoms such as muscle weakness, cramping, or palpitations"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "incorporate potassium-rich, easily digestible foods like bananas or potatoes"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "notify healthcare team if symptoms worsen or new symptoms develop"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Check_item",
-          "value": "arrange a follow-up laboratory assessment in the next week"
-        }
-      ]
-    },
-    {
-      "turn_id": 29,
-      "role": "Patient",
-      "utterance_text": "Yes, I can definitely arrange a follow-up laboratory assessment next week to examination my electrolyte levels. That seems like a good idea, especially since you mentioned the mild fatigue could be related to the low potassium. I\u2019ll keep a close eye out for any symptoms like muscle weakness, cramping, or palpitations, and I\u2019ll let you know right away if anything changes.\n\nI\u2019ll also try adding some potassium-rich foods like bananas and potatoes, as long as they\u2019re easy on my gastrointestinal system. Is there a certain amount I should aim for each day, or just include them as I\u2019m able to tolerate?\n\nAnd just to double-examination\u2014if my ileostomy output decreases even more, or if I start having more severe abdominal pain or vomiting, that would mean I should seek immediate medical attention, right? I want to make sure I\u2019m not waiting too long if something gets worse.\n\nThank you again for explaining everything so clearly. It really helps me feel a bit more hopeful about my recovery and what to watch for.",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "laboratory assessment"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Time",
-          "value": "next week"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mild fatigue"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "muscle weakness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "cramping"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "palpitations"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Medicine-category",
-          "value": "potassium-rich foods"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Medicine",
-          "value": "bananas"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Medicine",
-          "value": "potatoes"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Dose",
-          "value": ""
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": ""
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "severe abdominal pain"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "vomiting"
-        }
-      ]
-    },
-    {
-      "turn_id": 30,
-      "role": "Doctor",
-      "utterance_text": "You\u2019re taking a very thoughtful and proactive approach to your recovery, and I appreciate your commitment to monitoring your symptoms and arranging follow-up laboratory assessment. Based on your current symptoms, recent laboratory findings, and surgical history, my clinical assessment is that you are experiencing delayed gastroindiagnostic evaluationinal motility with mild electrolyte disturbances, which are not uncommon after hemicolectomy and sigmoid resection with ileostomy.\n\nI recommend continuing to monitor your ileostomy output and symptoms daily, maintain adequate hydration, and incorporate potassium-rich, easily digestible foods as tolerated\u2014there is no strict daily amount required, but including these foods regularly can help support your electrolyte balance. Most importantly, if you experience a significant decrease or cessation in ileostomy output, severe abdominal pain, persistent vomiting, or signs of dehydration, please assessk immediate medical attention.\n\nWould you be able to schedule a follow-up clinical examination with your surgical or gastroenterology team within the next one to two weeks to ensure ongoing assessment of your recovery?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "delayed gastrointestinal motility with mild electrolyte disturbances"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease-history",
-          "value": "hemicolectomy and sigmoid resection with ileostomy"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Symptom",
-          "value": "monitor ileostomy output and symptoms daily"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "maintain adequate hydration"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "incorporate potassium-rich, easily digestible foods as tolerated"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "seek immediate medical attention if significant decrease or cessation in ileostomy output, severe abdominal pain, persistent vomiting, or signs of dehydration"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Time",
-          "value": "within the next one to two weeks"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Department",
-          "value": "surgical or gastroenterology team"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Medical-place",
-          "value": "clinical examination"
-        }
-      ]
-    },
-    {
-      "turn_id": 31,
-      "role": "Patient",
-      "utterance_text": "Yes, I can definitely schedule a follow-up clinical examination with my surgical team in the next week or two. I think that would help give me some peace of mind, too, just to make sure everything is healing the way it should.\n\nThank you for explaining about the delayed gastrointestinal motility and the mild electrolyte disturbances\u2014I feel a little better knowing these symptoms aren\u2019t uncommon after a hemicolectomy and sigmoid resection with an ileostomy. I\u2019ll keep monitoring my ileostomy output and symptoms every day, and I\u2019ll try to include more potassium-rich foods as long as I can tolerate them.\n\nJust to double-examination\u2014if I do notice a significant decrease or cessation in my ileostomy output, or if I develop severe abdominal pain or persistent vomiting, I should seek immediate medical attention, right? And is there anything else I should be watching for that might suggest a complication?\n\nThank you again for being so thorough and patient with all my questions. It really helps me feel more hopeful about my recovery.",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Medical-place",
-          "value": "clinical examination with surgical team"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Time",
-          "value": "next week or two"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "delayed gastrointestinal motility"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "mild electrolyte disturbances"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "hemicolectomy and sigmoid resection with an ileostomy"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Treatment",
-          "value": "monitoring ileostomy output and symptoms every day"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Precaution",
-          "value": "include more potassium-rich foods as tolerated"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "If I notice a significant decrease or cessation in my ileostomy output, or develop severe abdominal pain or persistent vomiting, should I seek immediate medical attention?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Is there anything else I should be watching for that might suggest a complication?"
+          "value": "willingness to keep a daily record of fluid and food intake and symptom changes"
         }
       ]
     }

@@ -1,0 +1,1416 @@
+{
+  "source_row_id": 4452,
+  "source_subject_id": 13949,
+  "source_hadm_id": 175892,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing chest pain that radiates to your arms and neck. Can you describe in more detail when these symptoms started and what you were doing at the time of onset?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Um, yes, thank you, doctor. Well, my main concern is this chest pain I\u2019ve been having. It\u2019s right in the center of my chest\u2014retrosternal, I think you\u2019d call it\u2014and it sort of spreads out to both of my arms. I\u2019m a bit anxious about it, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "center of chest (retrosternal)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "spreads to both arms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014chest pain that radiates to your arms is understandably concerning. To help me with my assessment, can you tell me if your chest pain comes on with physical activity or if it also occurs while you\u2019re at rest?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain that radiates to arms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain with physical activity"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain at rest"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 it\u2019s actually happened a few times, not just when I\u2019m active. Sometimes it comes on when I\u2019m just sitting, and other times if I\u2019m walking or doing something a bit more strenuous. The chest pain is kind of recurrent, and it radiates up to my neck and both arms. I\u2019m honestly pretty worried about it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain radiates to neck and both arms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recurrent chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "chest pain occurs during rest and activity"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "worried about symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with chest pain radiating to your arms and neck. To help guide my assessment, can you tell me if you\u2019ve noticed any associated symptoms such as shortness of breath, sweating, nausea, or palpitations when the chest pain occurs?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain radiating to arms and neck"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sweating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, let me think\u2026 I don\u2019t really get much shortness of breath with the chest pain, at least not that I\u2019ve noticed. I do feel a bit sweaty and sometimes kind of confused or anxious when it happens. And, um, I have this chronic back pain too, but I\u2019m not sure if it\u2019s related or just my usual. The chest pain is definitely what\u2019s got me the most worried, though. Should I be concerned?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath (denied)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sweaty"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confused"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chronic back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be concerned about my chest pain?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the chest pain radiating to your neck and arms and the episodes of sweating and confusion. To help with my assessment, have you noticed if the chest pain is ever accompanied by a rapid or irregular heartbeat, or any sensation of palpitations?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain radiating to neck and arms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of sweating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain accompanied by rapid or irregular heartbeat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um, let me think\u2026 I don\u2019t really notice a rapid or irregular heartbeat when the chest pain happens. Maybe I just get more aware of my heart because I\u2019m anxious, but I can\u2019t say I\u2019ve felt palpitations. The confusion and anxiety do seem to come on with the symptoms, though, and that makes everything feel a bit worse. I\u2019m just not sure if it\u2019s all connected, you know?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no rapid or irregular heartbeat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with recurrent retrosternal chest pain radiating to your neck and both arms. To help with my assessment, have you noticed if your chest pain is ever associated with any difficulty breathing or a sense of pressure or tightness in your chest during these episodes?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recurrent retrosternal chest pain radiating to neck and both arms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty breathing associated with chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sense of pressure or tightness in chest during episodes"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I do sometimes feel a sort of pressure or tightness in my chest when the pain comes on. It\u2019s not always really bad, but it\u2019s definitely there. As for difficulty breathing\u2014maybe a little, but it\u2019s hard to tell if that\u2019s from the anxiety or the chest pain itself. The pressure feeling is what stands out the most during these episodes.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pressure or tightness in chest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms so clearly. To further guide my assessment, can you tell me if the retrosternal chest pain radiating to your arms and neck is triggered or relieved by anything specific, such as rest, exertion, or taking nitroglycerin?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to arms and neck"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "triggered or relieved by rest, exertion, or taking nitroglycerin"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Sure, doctor. Well, um, the retrosternal chest pain does seem to come on more if I\u2019m doing something physical, like walking up stairs or carrying groceries, but sometimes it just happens when I\u2019m at rest too. When it starts, I usually stop what I\u2019m doing and sit down, and that sometimes helps a little.\n\nI\u2019ve tried taking my nitroglycerin when the chest pain gets bad. It usually eases up after a few minutes once I take it, but not always completely. I guess I\u2019m worried because it\u2019s been happening more often lately and the nitroglycerin doesn\u2019t always make it go away right away. Is that something I should be concerned about?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "chest pain comes on with physical activity and sometimes at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "taking nitroglycerin for chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "nitroglycerin usually eases pain after a few minutes but not always completely"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Frequency",
+          "value": "chest pain happening more often lately"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is it concerning that nitroglycerin doesn\u2019t always relieve the pain right away and that it\u2019s happening more often?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially since your symptoms of retrosternal chest pain radiating to both arms and neck have become more frequent and are not always fully relieved by nitroglycerin. To help with my assessment, have you noticed any recent changes in the duration or intensity of your chest pain episodes compared to before?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Frequency",
+          "value": "more frequent"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "not always fully relieved by nitroglycerin"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "changes in duration or intensity of chest pain episodes"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2026 now that you mention it, the chest pain episodes have been lasting a bit longer than they used to, and sometimes they feel more intense. Before, the pain would usually go away pretty quickly after I took the nitroglycerin, but lately it\u2019s been sticking around longer\u2014even after I take it. I\u2019d say the pressure and tightness are a bit worse too.\n\nI\u2019m honestly getting more anxious about it, especially since the retrosternal chest pain is radiating to both arms and my neck more often. Should I be worried that it\u2019s not responding as well to the nitroglycerin? Is this a sign that something\u2019s getting worse with my coronary artery disease?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain episodes lasting longer and more intense"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "nitroglycerin less effective at relieving chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pressure and tightness in chest worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "coronary artery disease worsening"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially since your retrosternal chest pain radiating to both arms and neck is becoming more intense and less responsive to nitroglycerin. To help with my assessment, have you experienced any new symptoms such as fainting (syncope), dizziness, or sudden weakness during these episodes of chest pain?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "becoming more intense and less responsive to nitroglycerin"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fainting (syncope)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden weakness"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t actually fainted\u2014no syncope\u2014but I have felt a bit dizzy a couple of times when the chest pain gets really bad. There was one episode where I felt kind of weak and lightheaded, but I managed to sit down before anything worse happened. It\u2019s a bit unsettling, to be honest.\n\nWith all these symptoms\u2014retrosternal chest pain radiating to my arms and neck, the pressure, and now some dizziness\u2014I\u2019m starting to get really worried. Is this something that could mean my coronary artery disease is getting worse? Should I be doing something different or changing my medications?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizzy, chest pain, weakness, lightheadedness, retrosternal chest pain radiating to arms and neck, pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "coronary artery disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is this something that could mean my coronary artery disease is getting worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I be doing something different or changing my medications?"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially given the recurrent retrosternal chest pain radiating to both arms and neck, increased intensity, and associated dizziness. Based on your medical history of coronary artery disease and the change in your symptoms, I am concerned that your condition may be progressing. To guide my assessment further, have you recently experienced any swelling in your legs or difficulty lying flat at night, which could suggest changes in your cardiac function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recurrent retrosternal chest pain radiating to both arms and neck, increased intensity, associated dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "coronary artery disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "progression of coronary artery disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty lying flat at night"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have noticed a bit of swelling in my ankles lately. It\u2019s not a lot, but it\u2019s more than I used to have. As for lying flat at night, I do sometimes feel a bit uncomfortable and need to prop myself up with extra pillows\u2014maybe that\u2019s what you mean by difficulty lying flat?\n\nI didn\u2019t really connect those symptoms to my heart before, but now I\u2019m starting to get more anxious about it. With all these changes\u2014the retrosternal chest pain radiating to both arms and neck, the dizziness, and now the swelling\u2014should I be really worried about my cardiac function? Is this something that needs urgent attention?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "discomfort lying flat at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "cardiac function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "need for urgent attention"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the recurrent retrosternal chest pain radiating to your arms and neck, increased intensity, dizziness, and new swelling in your ankles. Based on your medical history of coronary artery disease and these recent changes, I am concerned about possible worsening cardiac function. To help guide my assessment, have you noticed any recent weight gain or increased shortness of breath during daily activities or at night?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recurrent retrosternal chest pain radiating to arms and neck"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased intensity of chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "new swelling in ankles"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "coronary artery disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible worsening cardiac function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased shortness of breath during daily activities or at night"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, actually, now that you mention it, I have noticed a bit of weight gain over the past couple of weeks\u2014maybe a few pounds, but I thought it was just from not being as active. And yes, I do seem to get shortness of breath more easily, especially if I\u2019m walking around the house or going up the stairs. At night, I sometimes wake up feeling a bit breathless and need to sit up for a while before I can get comfortable again.\n\nWith all these symptoms\u2014retrosternal chest pain radiating to both arms and neck, the swelling in my ankles, increased shortness of breath, and now some weight gain\u2014I\u2019m getting pretty anxious. Is this all pointing to my cardiac function getting worse? Should I be worried about heart failure or something like that? What should I do next?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "past couple of weeks"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up at night feeling breathless"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "cardiac function getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what should I do next"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, given your recent symptoms of retrosternal chest pain radiating to both arms and neck, increased shortness of breath, ankle swelling, and weight gain. These symptoms, combined with your medical history of coronary artery disease, do raise concern for possible worsening cardiac function, such as heart failure or unstable angina. To help guide my assessment, have you noticed any changes in your urine output or any episodes of waking up suddenly at night gasping for air (paroxysmal nocturnal dyspnea)?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I think I have noticed that I\u2019m not urinating as much as usual, especially over the last few days. It\u2019s not a huge change, but it\u2019s definitely less frequent. And, actually, there have been a couple of nights where I woke up suddenly feeling really short of breath\u2014like I just couldn\u2019t catch my breath and had to sit up right away. I guess that\u2019s what you called paroxysmal nocturnal dyspnea?\n\nAll of these symptoms together\u2014retrosternal chest pain radiating to both arms and neck, the swelling in my ankles, shortness of breath, weight gain, and now these changes with my urine and waking up gasping\u2014are making me pretty anxious. Is this something that could get worse quickly? Should I be going to the hospital or changing my medications right away?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urination"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankle swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Could this get worse quickly?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I be going to the hospital or changing my medications right away?"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially given your history of coronary artery disease and the new onset of retrosternal chest pain radiating to both arms and neck, ankle swelling, shortness of breath, weight gain, reduced urine output, and episodes of paroxysmal nocturnal dyspnea. Based on your symptoms and medical history, I am concerned that you may be developing acute decompensated heart failure or unstable angina, both of which require urgent medical assessment and treatment.\n\nGiven the progression and severity of your symptoms, I strongly recommend that you assessk immediate medical attention\u2014either by going to the emergency department or calling emergency services\u2014so that a thorough cardiac examination, laboratory assessment, and appropriate treatment can be initiated without delay. Have you experienced any chest pain at rest in the last few hours, or are your symptoms worsening rapidly right now?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "coronary artery disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankle swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reduced urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute decompensated heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "unstable angina"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "immediate medical attention\u2014either by going to the emergency department or calling emergency services"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "thorough cardiac examination, laboratory assessment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "appropriate treatment can be initiated without delay"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain at rest in the last few hours"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "symptoms worsening rapidly right now"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so clearly, doctor. Um, actually, yes\u2014I did have an episode of chest pain at rest earlier today. I was just sitting in my chair, not doing anything strenuous, and the retrosternal chest pain started up again. It radiated to both arms and my neck, and I felt pretty anxious and a bit sweaty. I took my nitroglycerin, and it eventually eased off, but it took longer than usual.\n\nI\u2019m honestly pretty worried now, especially hearing you mention acute decompensated heart failure and unstable angina. Should I go to the emergency department right away, even if the pain isn\u2019t happening this minute? Is there anything I should do before I leave\u2014like take another dose of nitroglycerin or bring all my medications with me? And is this something that could get worse very quickly?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sweating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "took nitroglycerin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "pain eased off but took longer than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I go to the emergency department right away, even if the pain isn\u2019t happening this minute?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything I should do before I leave\u2014like take another dose of nitroglycerin or bring all my medications with me?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is this something that could get worse very quickly?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with your recent symptoms of retrosternal chest pain radiating to both arms and neck, increased frequency and duration of pain at rest, swelling, shortness of breath, and changes in urine output. Based on your medical history and the progression of your symptoms, I strongly recommend that you go to the emergency department immediately for a thorough cardiac assessment and prompt treatment, as these symptoms could indicate unstable angina or acute decompensated heart failure, both of which can worsen quickly.\n\nBefore you leave, please take your current medications with you and, if you experience another episode of severe chest pain before arrival, you may take another dose of nitroglycerin as previously instructed. Are you able to arrange safe transportation to the hospital right now, or do you need assistance contacting emergency medical services?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased frequency and duration of pain at rest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "unstable angina"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "acute decompensated heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Department",
+          "value": "emergency department"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "thorough cardiac assessment and prompt treatment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine",
+          "value": "nitroglycerin"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Dose",
+          "value": "another dose"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Are you able to arrange safe transportation to the hospital right now, or do you need assistance contacting emergency medical services?"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor. I really appreciate you explaining everything so clearly. I\u2019m definitely feeling anxious, but I understand why it\u2019s important to get examinationed out right away, especially with the retrosternal chest pain radiating to both arms and neck, and all these other symptoms like the swelling and shortness of breath.\n\nUm, I think I can arrange for my wife to drive me to the emergency department\u2014I\u2019ll call her now. I\u2019ll make sure to bring all my current medications with me, just in case they need to see exactly what I\u2019m taking. If the chest pain gets severe again before we get there, I\u2019ll take another dose of nitroglycerin as you said.\n\nIs there anything else I should watch out for on the way, or anything specific I should tell the emergency team when I arrive? And, um, should I be worried that this could turn into a heart attack or something even more serious before I get there?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you, doctor. I really appreciate you explaining everything so clearly."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medical-place",
+          "value": "emergency department"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "current medications"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Dose",
+          "value": "another dose of nitroglycerin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything else I should watch out for on the way"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "anything specific I should tell the emergency team when I arrive"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "should I be worried that this could turn into a heart attack or something even more serious before I get there"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about this, especially with your symptoms of retrosternal chest pain radiating to both arms and neck, swelling, shortness of breath, and recent changes in your overall condition. When you arrive at the emergency department, it\u2019s important to clearly communicate your full medical history, current symptoms, and all medications to the clinical team so they can perform a thorough cardiac assessment and initiate appropriate treatment promptly. Before you leave, have you noticed any new symptoms such as chest pain that does not respond to nitroglycerin, severe shortness of breath at rest, or loss of consciousness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "recent changes in overall condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medical-place",
+          "value": "emergency department"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Disease-history",
+          "value": "full medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Symptom",
+          "value": "current symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine",
+          "value": "all medications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "cardiac assessment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "initiate appropriate treatment promptly"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain that does not respond to nitroglycerin"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "severe shortness of breath at rest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor. Um, let me think\u2026 I haven\u2019t had any chest pain that completely refused to respond to nitroglycerin yet, but like I mentioned, it\u2019s been taking longer to go away and sometimes doesn\u2019t fully resolve. I haven\u2019t lost consciousness, but I have felt pretty dizzy and weak during some of the episodes. The shortness of breath has definitely gotten worse, and there have been a couple times at rest where I felt like I just couldn\u2019t catch my breath until I sat up.\n\nI\u2019ll make sure to tell the emergency department team about all these symptoms\u2014retrosternal chest pain radiating to both arms and neck, the swelling in my ankles, shortness of breath, weight gain, and the changes in my urine output. I\u2019ll also bring all my medications and let them know about my history of coronary artery disease, MI, and the previous PCA.\n\nIs there anything else I should mention when I get there? And, um, is there a chance this could turn into a heart attack even if I\u2019m not having severe pain right now? I just want to make sure I\u2019m doing everything right.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain taking longer to resolve and sometimes not fully resolving"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness and weakness during episodes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath, including at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "coronary artery disease, MI, previous PCA"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is there anything else I should mention when I get there?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is there a chance this could turn into a heart attack even if I\u2019m not having severe pain right now?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "I just want to make sure I\u2019m doing everything right."
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "You\u2019re doing exactly the right thing by assessking urgent medical assessment, and I appreciate how thoroughly you\u2019re communicating your symptoms and medical history. Even if you\u2019re not experiencing severe chest pain at this moment, your recurrent retrosternal chest pain radiating to both arms and neck, worsening shortness of breath, ankle swelling, and reduced urine output are all concerning for possible unstable angina or evolving heart failure, which can progress to a myocardial infarction even without constant pain.\n\nWhen you arrive, please inform the emergency team about all your current symptoms, your medical history of coronary artery disease and previous myocardial infarction, and the fact that your chest pain has become more frequent and less responsive to nitroglycerin. Have you had any recent fever, cough, or signs of infection that could be contributing to your symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "inform the emergency team about all your current symptoms, your medical history, and changes in chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible unstable angina or evolving heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recurrent retrosternal chest pain radiating to both arms and neck, worsening shortness of breath, ankle swelling, reduced urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "coronary artery disease and previous myocardial infarction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent fever, cough, or signs of infection"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor. I really appreciate you taking the time to explain everything so clearly\u2014it helps me feel a little less overwhelmed, even though I\u2019m still pretty anxious about all these symptoms.\n\nUm, as for fever or cough, no, I haven\u2019t had any recent fever, chills, or cough\u2014no signs of infection that I can think of. It\u2019s really just been the retrosternal chest pain radiating to both arms and neck, the worsening shortness of breath, ankle swelling, and the reduced urine output. The weight gain and waking up breathless at night have been new for me too.\n\nI\u2019ll make sure to tell the emergency team about my history of coronary artery disease, previous myocardial infarction, and that my chest pain has become more frequent and less responsive to nitroglycerin. Is there anything else I should mention to them that might help? And, um, once I get there, what kind of tests or treatments should I expect? Should I be prepared for a hospital stay?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you, doctor. I really appreciate you taking the time to explain everything so clearly\u2014it helps me feel a little less overwhelmed, even though I\u2019m still pretty anxious about all these symptoms."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no recent fever, chills, or cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "retrosternal chest pain radiating to both arms and neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ankle swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reduced urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up breathless at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of coronary artery disease, previous myocardial infarction"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain has become more frequent and less responsive to nitroglycerin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is there anything else I should mention to them that might help?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "what kind of tests or treatments should I expect?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Should I be prepared for a hospital stay?"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your ongoing symptoms and recent changes. Based on your medical history of coronary artery disease and myocardial infarction, along with your current symptoms\u2014retrosternal chest pain radiating to both arms and neck, worsening shortness of breath, ankle swelling, reduced urine output, and weight gain\u2014it is likely that the emergency team will perform a comprehensive cardiac assessment. This typically includes an electrocardiogram (ECG), cardiac enzyme blood diagnostic evaluations, chest X-ray, and possibly an echocardiogram to evaluate your heart function.\n\nGiven the severity and progression of your symptoms, you should be prepared for the possibility of a hospital admission for close monitoring and treatment. Is there anything else about your recent symptoms or medical history that you haven\u2019t mentioned yet, such as new medications or changes in your usual routine?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor. I really appreciate how thorough you\u2019re being\u2014it helps me feel a bit more at ease, even though I\u2019m still pretty anxious about everything.\n\nLet me think\u2026 I don\u2019t think I\u2019ve started any new medications recently. I\u2019m still on my usual ones: nitroglycerin, aspirin, Plavix, beta-blocker, statin, Lisinopril, HCTZ, Ezetimibe, Methimazole, Omeprazole, and Tapazole. I haven\u2019t changed my routine much either, except maybe being a bit less active lately because of the shortness of breath and the chest pain episodes.\n\nActually, one thing I just remembered\u2014I\u2019ve been feeling a bit more confused than usual, especially during or after the chest pain episodes. I wasn\u2019t sure if that was important or not, but it\u2019s definitely new for me.\n\nIs confusion something that can happen with unstable angina or heart failure? And once I\u2019m in the hospital, what kind of treatments might they start right away? Should I expect to need any procedures like another angiogram or something similar?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you, doctor. I really appreciate how thorough you\u2019re being\u2014it helps me feel a bit more at ease, even though I\u2019m still pretty anxious about everything."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "nitroglycerin, aspirin, Plavix, beta-blocker, statin, Lisinopril, HCTZ, Ezetimibe, Methimazole, Omeprazole, Tapazole"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain episodes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion during or after chest pain episodes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is confusion something that can happen with unstable angina or heart failure?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what kind of treatments might they start right away in the hospital?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "Should I expect to need any procedures like another angiogram or something similar?"
+        }
+      ]
+    }
+  ]
+}

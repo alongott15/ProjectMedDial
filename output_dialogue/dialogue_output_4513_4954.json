@@ -1,0 +1,366 @@
+{
+  "partial_profile": {
+    "row_id": 4512,
+    "subject_id": 4954,
+    "hadm_id": 180830,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Fever",
+          "onset": "few days",
+          "duration": "few days",
+          "severity": "spiking temps to 102-103, up to 103.9"
+        },
+        {
+          "description": "Dysuria",
+          "onset": "few days",
+          "duration": "few days",
+          "severity": "not provided"
+        },
+        {
+          "description": "Increased urinary frequency",
+          "onset": "few days",
+          "duration": "few days",
+          "severity": "not provided"
+        },
+        {
+          "description": "Hesitancy",
+          "onset": "few days",
+          "duration": "few days",
+          "severity": "not provided"
+        },
+        {
+          "description": "Flank pain",
+          "onset": "few days",
+          "duration": "few days",
+          "severity": "not provided"
+        },
+        {
+          "description": "Vague abdominal pain in suprapubic region",
+          "onset": "few days",
+          "duration": "few days",
+          "severity": "not provided"
+        },
+        {
+          "description": "Decreased appetite",
+          "onset": "few days",
+          "duration": "few days",
+          "severity": "not provided"
+        },
+        {
+          "description": "acute shortness of breath (SOB)",
+          "onset": "day after admission",
+          "duration": "not provided",
+          "severity": "acute, hypoxic, tachycardic to 126"
+        },
+        {
+          "description": "Left arm swelling",
+          "onset": "day prior to discharge",
+          "duration": "not provided",
+          "severity": "nontender"
+        },
+        {
+          "description": "Diarrhea (green)",
+          "onset": "day prior to discharge",
+          "duration": "several episodes",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2088-09-16",
+        "Age": 61,
+        "Sex": "F",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2149-09-25 17:57:00",
+        "Discharge_Date": "2149-09-29 13:45:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Osteopenia s/p zometa infusions; Hypertension; Bladder/tongue amyloid; DVT (2142) L IJ, L sup femoral, L popliteal; s/p tonsillectomy; Epiglottitis x2; Hx of disseminated herpes in 2146; Urge incontinence; Multiple myeloma stage III with amyloidosis dx'd in 2142, s/p melphalan, vincristine, adria and prednisone and then vincristine, doxorubicin and dexa, with recurrence followed by auto BMT and then mini-allo-BMT in 99 and again with recurrence had donor lymphocyte infusion from brother in 2145"
+      },
+      "Allergies": [],
+      "Current_Medications": [
+        {
+          "name": "Hctz",
+          "purpose": "not provided",
+          "dosage": "25 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Verapamil",
+          "purpose": "not provided",
+          "dosage": "180 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Ditropan XL",
+          "purpose": "not provided",
+          "dosage": "5 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Protonix",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Calcium",
+          "purpose": "not provided",
+          "dosage": "1500 mg",
+          "frequency": "daily"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Levofloxacin",
+          "purpose": "Antibiotic for E. coli urosepsis",
+          "dosage": "not provided",
+          "frequency": "PO to complete 14 day course"
+        },
+        {
+          "name": "Hydrochlorothiazide",
+          "purpose": "not provided",
+          "dosage": "25 mg",
+          "frequency": "once a day"
+        },
+        {
+          "name": "Verapamil",
+          "purpose": "not provided",
+          "dosage": "240 mg, 24HR Sust Release Pellets",
+          "frequency": "once a day"
+        },
+        {
+          "name": "Oxybutynin Chloride",
+          "purpose": "not provided",
+          "dosage": "5 mg",
+          "frequency": "BID (2 times a day)"
+        },
+        {
+          "name": "Pantoprazole Sodium",
+          "purpose": "not provided",
+          "dosage": "40 mg, Delayed Release (E.C.)",
+          "frequency": "Q24H (every 24 hours)"
+        },
+        {
+          "name": "Calcium Carbonate",
+          "purpose": "not provided",
+          "dosage": "500 mg, Chewable",
+          "frequency": "TID (3 times a day)"
+        },
+        {
+          "name": "Levofloxacin",
+          "purpose": "not provided",
+          "dosage": "250 mg",
+          "frequency": "Q24H (every 24 hours) for 11 days"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Fever, Dysuria"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.8,
+      "consistency_score": 1.0,
+      "confidence_score": 0.75,
+      "overall_score": 0.9333333333333332,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 0.9545454545454546,
+        "treatments": 1.0,
+        "demographics": 0.39999999999999997
+      },
+      "issues": [
+        "Diagnosis 'Deep vein thrombosis (DVT)' not clearly supported by text",
+        "Age inconsistency: stated 61, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing neck swelling and pain with swallowing. Can you tell me more about when these symptoms started and if you\u2019ve noticed any changes since they began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Hi, um, yes\u2014thank you for seeing me. I\u2019ve noticed this swelling in my neck, and it\u2019s been kind of painful when I try to swallow. I\u2019m not exactly sure when it started, maybe a few days ago? I\u2019m just a bit worried about it."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious about these symptoms\u2014neck swelling and pain with swallowing can be concerning. To help guide my assessment, can you describe if the swelling has been getting larger, staying the same, or improving since you first noticed it?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, I think the swelling has maybe gotten a little bigger since I first noticed it. It\u2019s hard to tell, but it doesn\u2019t seem to be going down. And actually, I\u2019ve started having a bit of difficulty breathing too, which is making me more anxious. Should I be worried?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with the swelling getting larger and now having some difficulty breathing. To help me assess your symptoms more thoroughly, can you tell me if you\u2019ve experienced any changes in your voice, such as hoarseness or difficulty speaking, since the swelling began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yes, actually... now that you mention it, my voice has been kind of hoarse lately. It\u2019s not as strong as usual, and sometimes it feels like I have to clear my throat a lot. I thought maybe it was just from the pain with swallowing, but it\u2019s definitely been more noticeable since the neck swelling started. I\u2019m sorry, I just\u2014I\u2019m really anxious about all these symptoms happening at once."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious with these symptoms happening together\u2014it\u2019s completely natural to be concerned. You mentioned difficulty swallowing; can you tell me if it\u2019s harder to swallow solids, liquids, or both, and whether anything assessms to make this symptom worse?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, it\u2019s actually been hard to swallow both solids and liquids. I think it started with solids being more difficult, but now even drinking water feels uncomfortable and sometimes painful. It doesn\u2019t really seem to matter what I try to eat or drink\u2014it just feels like it gets stuck or is harder to get down. I\u2019m sorry, I know that\u2019s probably not a good sign. Should I be doing anything differently?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I'm sorry you're experiencing so much discomfort with swallowing and your voice changes\u2014I know that must be very distressing. To help with my assessment, have you noticed any symptoms such as fever, chills, or night sweats along with the hoarse voice and difficulty swallowing solids?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, let me think... I don\u2019t think I\u2019ve had a fever or chills, at least not that I\u2019ve noticed. I did have a pain throat a little while ago, but that seems to have gone away now. One other thing\u2014I\u2019ve noticed some blood in my urine recently. I\u2019m not sure if that\u2019s related, but it\u2019s been making me more anxious."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with new symptoms like blood in your urine along with the hoarse voice and difficulty swallowing. To help with my assessment, have you experienced any shortness of breath, noisy breathing (such as stridor), or a sensation of your airway experiencing blocked since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yes, actually, I have had some shortness of breath, and sometimes it feels like my airway is kind of blocked or tight. Breathing in can be a little noisy at times\u2014I think that\u2019s what you called stridor? It\u2019s not constant, but it\u2019s definitely there, especially when the swelling feels worse.\n\nI remember from a previous episode, they mentioned something about supraglottic edema and edematous aretinoids. I\u2019m not sure if that\u2019s happening again, but it feels pretty similar. Should I be worried that this could get worse? And is there anything I should be watching out for, like signs that I need to get help right away?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially given your history and the recurrence of these symptoms. To further guide my assessment, have you noticed any changes in your ability to speak or make sounds\u2014such as complete loss of voice or significant difficulty producing speech\u2014since the onset of your hoarse voice and difficulty swallowing solids?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, I haven\u2019t completely lost my voice, but it\u2019s definitely harder to speak sometimes\u2014my voice gets really weak and raspy, and if I try to talk for too long it almost feels like I can\u2019t get the words out. It\u2019s not a total loss of voice, but it\u2019s definitely significant difficulty compared to my normal.\n\nActually, since you\u2019re asking about other symptoms, I wanted to mention something else that\u2019s been worrying me. I\u2019ve noticed multiple papular lesions with some hyperpigmentation over my lower back and abdomen, and there are satellite lesions extending over similar areas and even on my inner left thigh. There are also some healing areas of excoriation on my back. I\u2019m not sure if that\u2019s related to everything else, but it\u2019s new for me.\n\nShould I be concerned about these skin changes along with the neck swelling and airway symptoms? I just feel like everything is piling up at once, and it\u2019s making me really anxious."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious with these new skin changes appearing alongside your hoarse voice and difficulty swallowing. To help with my assessment, have you experienced any fever, tenderness, or signs of infection\u2014such as redness, warmth, or discharge\u2014associated with these papular lesions on your skin?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 I haven\u2019t really noticed any fever, and the lesions themselves aren\u2019t particularly tender or warm. There\u2019s no discharge that I can see, and I don\u2019t think there\u2019s much redness either\u2014mostly just the hyperpigmentation and the papular appearance you mentioned. Some of the spots on my back are healing from where I scratched them, but otherwise they don\u2019t seem infected.\n\nI guess I\u2019m just worried because it\u2019s all happening at once\u2014the neck swelling, the airway symptoms, and now these skin changes. Is it possible that this could be related to my history of amyloidosis or multiple myeloma? Or could it be something new? I\u2019m just feeling really anxious about what\u2019s going on with my body right now."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious with these new symptoms and your medical history of amyloidosis and multiple myeloma. Based on your description of progressive neck swelling, hoarse voice, difficulty swallowing both solids and liquids, airway symptoms, and new skin lesions, these findings are concerning for possible airway compromise and may also suggest a systemic process. For my assessment, have you experienced any recent changes in your mental status\u2014such as confusion, increased sleepiness, or difficulty staying alert\u2014since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Actually, yes\u2014I have noticed some changes in my mental status lately. I\u2019ve been feeling a lot more sleepy than usual, almost like I can\u2019t keep my eyes open sometimes, and there have been moments where I feel kind of confused or not as alert as I normally am. My family mentioned I seem a bit \u201coff\u201d or not myself. \n\nI\u2019ve also had a headache that kind of radiates down into my neck, which is new for me. It\u2019s been making it even harder to focus or stay awake. \n\nWith all these symptoms\u2014neck swelling, airway symptoms, the skin lesions, and now the somnolence and altered mental status\u2014I\u2019m honestly really worried. Is this something that could get worse quickly? Should I be in the hospital for monitoring?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious with all of these symptoms occurring together, especially given your medical history. Based on your clinical findings\u2014progressive neck swelling, hoarse voice, difficulty swallowing both solids and liquids, airway symptoms, skin lesions, and now altered mental status\u2014this constellation is concerning for a potentially serious systemic condition that may require urgent intervention. For my assessment, have you experienced any recent changes in your vision, balance, or memory in addition to the somnolence and headache you described?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, now that you mention it, I have noticed some changes in my vision\u2014symptoms seem a little blurry at times, and sometimes I feel like I\u2019m not seeing as clearly as usual. My balance has also been off; I\u2019ve felt a bit unsteady on my feet, almost like I could tip over if I\u2019m not careful. I\u2019m not sure if it\u2019s related to the headpain or just everything else going on, but it\u2019s definitely new for me.\n\nI\u2019m really anxious with all these symptoms happening together\u2014neck swelling, airway symptoms, skin lesions, somnolence, and now these changes in vision and balance. Is this something that could be related to my amyloidosis or multiple myeloma? Or could it be something else entirely? Should I be worried about this getting worse quickly? I just want to make sure I\u2019m doing the right thing by coming in."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious with so many new symptoms occurring together, especially given your medical history of amyloidosis and multiple myeloma. Based on your clinical presentation\u2014progressive neck swelling, airway symptoms, skin lesions, altered mental status, and now changes in vision and balance\u2014this constellation of symptoms is concerning for a potentially serious systemic condition that may require urgent intervention and close monitoring. For my assessment, have you experienced any recent episodes of chest pain, palpitations, or irregular heartbeat along with these other symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, I haven\u2019t really had chest pain, but now that you mention it, I have felt my heart racing a few times\u2014like palpitations, I guess. It\u2019s not all the time, but it does happen, especially when I\u2019m feeling more anxious or when the shortness of breath gets worse. I haven\u2019t noticed any irregular heartbeat that I can tell, but sometimes it just feels like my heart is beating faster than usual.\n\nAlso, I wanted to mention\u2014I\u2019ve definitely noticed some changes in my memory and alertness lately. I\u2019m having trouble remembering symptoms that just happened, and there are times when I feel kind of \u201cout of it\u201d or not as sharp as I usually am. My family has pointed out that I seem more forgetful and less alert, which isn\u2019t normal for me.\n\nWith all these symptoms\u2014neck swelling, airway symptoms, skin lesions, somnolence, headpain, changes in vision and balance, and now memory and alertness symptoms\u2014I\u2019m honestly really scared. Is this something that could be related to my amyloidosis or multiple myeloma coming back? Or could it be a side effect from my medications? Should I be preparing for something serious?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can completely understand why you\u2019re experiencing anxious with the combination of symptoms you\u2019ve described\u2014neck swelling, airway symptoms, skin lesions, changes in mental status, and palpitations\u2014especially given your medical history of amyloidosis and multiple myeloma. Based on your clinical presentation, this constellation of symptoms is concerning for a potentially serious systemic condition that may involve airway compromise, infection, or a recurrence of your underlying disease, and it absolutely warrants urgent medical attention and close monitoring in a hospital setting.\n\nMy recommendation is that you remain in a monitored environment where your airway, breathing, and neurological status can be closely observed, and where prompt interventions\u2014such as airway protection or further diagnostic evaluation\u2014can be provided if needed. To help guide further assessment, have you experienced any recent fevers, chills, or signs of infection elsewhere in your clinical examination that you haven\u2019t already mentioned?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining everything so clearly. I appreciate you taking the time to go through all my symptoms and concerns. Um, as far as fevers or chills, I really haven\u2019t noticed anything like that recently\u2014no shaking chills or feeling hot, and I haven\u2019t measured a fever at home. I also haven\u2019t seen any obvious signs of infection anywhere else on my body, besides the skin lesions we talked about, but those don\u2019t seem red or draining.\n\nI\u2019m just really anxious about all of this, especially with my history of amyloidosis and multiple myeloma. Is it possible that this is a recurrence, or could it be something new like an infection or a complication from my medications? And if it is airway compromise, what kinds of symptoms should I be watching for while I\u2019m here? I just want to make sure I\u2019m doing everything I can to stay safe."
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing neck swelling and pain with swallowing. Can you tell me more about when these symptoms started and if you\u2019ve noticed any changes since they began?\nPatient: Hi, um, yes\u2014thank you for seeing me. I\u2019ve noticed this swelling in my neck, and it\u2019s been kind of painful when I try to swallow. I\u2019m not exactly sure when it started, maybe a few days ago? I\u2019m just a bit worried about it.\nDoctor: I can understand why you\u2019re experiencing anxious about these symptoms\u2014neck swelling and pain with swallowing can be concerning. To help guide my assessment, can you describe if the swelling has been getting larger, staying the same, or improving since you first noticed it?\nPatient: Well, um, I think the swelling has maybe gotten a little bigger since I first noticed it. It\u2019s hard to tell, but it doesn\u2019t seem to be going down. And actually, I\u2019ve started having a bit of difficulty breathing too, which is making me more anxious. Should I be worried?\nDoctor: I can understand why you\u2019d be worried, especially with the swelling getting larger and now having some difficulty breathing. To help me assess your symptoms more thoroughly, can you tell me if you\u2019ve experienced any changes in your voice, such as hoarseness or difficulty speaking, since the swelling began?\nPatient: Yes, actually... now that you mention it, my voice has been kind of hoarse lately. It\u2019s not as strong as usual, and sometimes it feels like I have to clear my throat a lot. I thought maybe it was just from the pain with swallowing, but it\u2019s definitely been more noticeable since the neck swelling started. I\u2019m sorry, I just\u2014I\u2019m really anxious about all these symptoms happening at once.\nDoctor: I can understand why you\u2019re experiencing anxious with these symptoms happening together\u2014it\u2019s completely natural to be concerned. You mentioned difficulty swallowing; can you tell me if it\u2019s harder to swallow solids, liquids, or both, and whether anything assessms to make this symptom worse?\nPatient: Well, um, it\u2019s actually been hard to swallow both solids and liquids. I think it started with solids being more difficult, but now even drinking water feels uncomfortable and sometimes painful. It doesn\u2019t really seem to matter what I try to eat or drink\u2014it just feels like it gets stuck or is harder to get down. I\u2019m sorry, I know that\u2019s probably not a good sign. Should I be doing anything differently?\nDoctor: I'm sorry you're experiencing so much discomfort with swallowing and your voice changes\u2014I know that must be very distressing. To help with my assessment, have you noticed any symptoms such as fever, chills, or night sweats along with the hoarse voice and difficulty swallowing solids?\nPatient: Um, let me think... I don\u2019t think I\u2019ve had a fever or chills, at least not that I\u2019ve noticed. I did have a pain throat a little while ago, but that seems to have gone away now. One other thing\u2014I\u2019ve noticed some blood in my urine recently. I\u2019m not sure if that\u2019s related, but it\u2019s been making me more anxious.\nDoctor: I can understand why you\u2019d be anxious, especially with new symptoms like blood in your urine along with the hoarse voice and difficulty swallowing. To help with my assessment, have you experienced any shortness of breath, noisy breathing (such as stridor), or a sensation of your airway experiencing blocked since these symptoms began?\nPatient: Yes, actually, I have had some shortness of breath, and sometimes it feels like my airway is kind of blocked or tight. Breathing in can be a little noisy at times\u2014I think that\u2019s what you called stridor? It\u2019s not constant, but it\u2019s definitely there, especially when the swelling feels worse.\n\nI remember from a previous episode, they mentioned something about supraglottic edema and edematous aretinoids. I\u2019m not sure if that\u2019s happening again, but it feels pretty similar. Should I be worried that this could get worse? And is there anything I should be watching out for, like signs that I need to get help right away?\nDoctor: I can understand why you\u2019d be worried, especially given your history and the recurrence of these symptoms. To further guide my assessment, have you noticed any changes in your ability to speak or make sounds\u2014such as complete loss of voice or significant difficulty producing speech\u2014since the onset of your hoarse voice and difficulty swallowing solids?\nPatient: Well, um, I haven\u2019t completely lost my voice, but it\u2019s definitely harder to speak sometimes\u2014my voice gets really weak and raspy, and if I try to talk for too long it almost feels like I can\u2019t get the words out. It\u2019s not a total loss of voice, but it\u2019s definitely significant difficulty compared to my normal.\n\nActually, since you\u2019re asking about other symptoms, I wanted to mention something else that\u2019s been worrying me. I\u2019ve noticed multiple papular lesions with some hyperpigmentation over my lower back and abdomen, and there are satellite lesions extending over similar areas and even on my inner left thigh. There are also some healing areas of excoriation on my back. I\u2019m not sure if that\u2019s related to everything else, but it\u2019s new for me.\n\nShould I be concerned about these skin changes along with the neck swelling and airway symptoms? I just feel like everything is piling up at once, and it\u2019s making me really anxious.\nDoctor: I can understand why you\u2019d be anxious with these new skin changes appearing alongside your hoarse voice and difficulty swallowing. To help with my assessment, have you experienced any fever, tenderness, or signs of infection\u2014such as redness, warmth, or discharge\u2014associated with these papular lesions on your skin?\nPatient: Let me think\u2026 I haven\u2019t really noticed any fever, and the lesions themselves aren\u2019t particularly tender or warm. There\u2019s no discharge that I can see, and I don\u2019t think there\u2019s much redness either\u2014mostly just the hyperpigmentation and the papular appearance you mentioned. Some of the spots on my back are healing from where I scratched them, but otherwise they don\u2019t seem infected.\n\nI guess I\u2019m just worried because it\u2019s all happening at once\u2014the neck swelling, the airway symptoms, and now these skin changes. Is it possible that this could be related to my history of amyloidosis or multiple myeloma? Or could it be something new? I\u2019m just feeling really anxious about what\u2019s going on with my body right now.\nDoctor: I can understand why you\u2019re experiencing anxious with these new symptoms and your medical history of amyloidosis and multiple myeloma. Based on your description of progressive neck swelling, hoarse voice, difficulty swallowing both solids and liquids, airway symptoms, and new skin lesions, these findings are concerning for possible airway compromise and may also suggest a systemic process. For my assessment, have you experienced any recent changes in your mental status\u2014such as confusion, increased sleepiness, or difficulty staying alert\u2014since these symptoms began?\nPatient: Actually, yes\u2014I have noticed some changes in my mental status lately. I\u2019ve been feeling a lot more sleepy than usual, almost like I can\u2019t keep my eyes open sometimes, and there have been moments where I feel kind of confused or not as alert as I normally am. My family mentioned I seem a bit \u201coff\u201d or not myself. \n\nI\u2019ve also had a headache that kind of radiates down into my neck, which is new for me. It\u2019s been making it even harder to focus or stay awake. \n\nWith all these symptoms\u2014neck swelling, airway symptoms, the skin lesions, and now the somnolence and altered mental status\u2014I\u2019m honestly really worried. Is this something that could get worse quickly? Should I be in the hospital for monitoring?\nDoctor: I can understand why you\u2019re experiencing anxious with all of these symptoms occurring together, especially given your medical history. Based on your clinical findings\u2014progressive neck swelling, hoarse voice, difficulty swallowing both solids and liquids, airway symptoms, skin lesions, and now altered mental status\u2014this constellation is concerning for a potentially serious systemic condition that may require urgent intervention. For my assessment, have you experienced any recent changes in your vision, balance, or memory in addition to the somnolence and headache you described?\nPatient: Well, um, now that you mention it, I have noticed some changes in my vision\u2014symptoms seem a little blurry at times, and sometimes I feel like I\u2019m not seeing as clearly as usual. My balance has also been off; I\u2019ve felt a bit unsteady on my feet, almost like I could tip over if I\u2019m not careful. I\u2019m not sure if it\u2019s related to the headpain or just everything else going on, but it\u2019s definitely new for me.\n\nI\u2019m really anxious with all these symptoms happening together\u2014neck swelling, airway symptoms, skin lesions, somnolence, and now these changes in vision and balance. Is this something that could be related to my amyloidosis or multiple myeloma? Or could it be something else entirely? Should I be worried about this getting worse quickly? I just want to make sure I\u2019m doing the right thing by coming in.\nDoctor: I can understand why you\u2019d be anxious with so many new symptoms occurring together, especially given your medical history of amyloidosis and multiple myeloma. Based on your clinical presentation\u2014progressive neck swelling, airway symptoms, skin lesions, altered mental status, and now changes in vision and balance\u2014this constellation of symptoms is concerning for a potentially serious systemic condition that may require urgent intervention and close monitoring. For my assessment, have you experienced any recent episodes of chest pain, palpitations, or irregular heartbeat along with these other symptoms?\nPatient: Well, um, I haven\u2019t really had chest pain, but now that you mention it, I have felt my heart racing a few times\u2014like palpitations, I guess. It\u2019s not all the time, but it does happen, especially when I\u2019m feeling more anxious or when the shortness of breath gets worse. I haven\u2019t noticed any irregular heartbeat that I can tell, but sometimes it just feels like my heart is beating faster than usual.\n\nAlso, I wanted to mention\u2014I\u2019ve definitely noticed some changes in my memory and alertness lately. I\u2019m having trouble remembering symptoms that just happened, and there are times when I feel kind of \u201cout of it\u201d or not as sharp as I usually am. My family has pointed out that I seem more forgetful and less alert, which isn\u2019t normal for me.\n\nWith all these symptoms\u2014neck swelling, airway symptoms, skin lesions, somnolence, headpain, changes in vision and balance, and now memory and alertness symptoms\u2014I\u2019m honestly really scared. Is this something that could be related to my amyloidosis or multiple myeloma coming back? Or could it be a side effect from my medications? Should I be preparing for something serious?\nDoctor: I can completely understand why you\u2019re experiencing anxious with the combination of symptoms you\u2019ve described\u2014neck swelling, airway symptoms, skin lesions, changes in mental status, and palpitations\u2014especially given your medical history of amyloidosis and multiple myeloma. Based on your clinical presentation, this constellation of symptoms is concerning for a potentially serious systemic condition that may involve airway compromise, infection, or a recurrence of your underlying disease, and it absolutely warrants urgent medical attention and close monitoring in a hospital setting.\n\nMy recommendation is that you remain in a monitored environment where your airway, breathing, and neurological status can be closely observed, and where prompt interventions\u2014such as airway protection or further diagnostic evaluation\u2014can be provided if needed. To help guide further assessment, have you experienced any recent fevers, chills, or signs of infection elsewhere in your clinical examination that you haven\u2019t already mentioned?\nPatient: Thank you for explaining everything so clearly. I appreciate you taking the time to go through all my symptoms and concerns. Um, as far as fevers or chills, I really haven\u2019t noticed anything like that recently\u2014no shaking chills or feeling hot, and I haven\u2019t measured a fever at home. I also haven\u2019t seen any obvious signs of infection anywhere else on my body, besides the skin lesions we talked about, but those don\u2019t seem red or draining.\n\nI\u2019m just really anxious about all of this, especially with my history of amyloidosis and multiple myeloma. Is it possible that this is a recurrence, or could it be something new like an infection or a complication from my medications? And if it is airway compromise, what kinds of symptoms should I be watching for while I\u2019m here? I just want to make sure I\u2019m doing everything I can to stay safe.\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: night sweats, neck swelling and pain with swallowing, chills, some difficulty breathing, fever. Assessment: not a good sign, possible airway compromise, possible systemic process (infection, recurrence of amyloidosis or multiple myeloma). Plan: a systemic process, urgent medical attention recommended, close monitoring in a hospital setting. Extracted: 37 symptoms, 5 diagnoses, 5 treatments.",
+  "annotations": {
+    "symptoms": [
+      "night sweats",
+      "neck swelling and pain with swallowing",
+      "chills",
+      "some difficulty breathing",
+      "fever",
+      "kind of painful when i try to swallow",
+      "weakness",
+      "a bit of difficulty breathing too",
+      "shortness of breath",
+      "headache",
+      "chest pain",
+      "breath",
+      "neck swelling",
+      "pain with swallowing",
+      "swelling getting larger",
+      "difficulty breathing",
+      "hoarse voice",
+      "voice weakness",
+      "need to clear throat",
+      "difficulty swallowing solids and liquids",
+      "food and liquids feeling stuck",
+      "noisy breathing (stridor)",
+      "sensation of airway blockage or tightness",
+      "blood in urine",
+      "multiple papular lesions with hyperpigmentation on lower back, abdomen, and inner left thigh",
+      "satellite skin lesions",
+      "healing excoriations on back",
+      "increased sleepiness (somnolence)",
+      "confusion",
+      "altered mental status",
+      "headache radiating into neck",
+      "blurry vision",
+      "unsteady balance",
+      "palpitations (heart racing)",
+      "memory problems",
+      "decreased alertness",
+      "anxiety"
+    ],
+    "diagnoses": [
+      "not a good sign",
+      "possible airway compromise",
+      "possible systemic process (infection, recurrence of amyloidosis or multiple myeloma)",
+      "history of amyloidosis",
+      "history of multiple myeloma"
+    ],
+    "treatments": [
+      "a systemic process",
+      "urgent medical attention recommended",
+      "close monitoring in a hospital setting",
+      "monitor airway, breathing, and neurological status",
+      "prompt interventions such as airway protection or further diagnostic evaluation if needed"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: EXCELLENT\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.910 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.715 \u2705\n\u2022 Dialogue Naturalness: 0.797 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently demonstrates safe, responsible, and professional medical communication. There is no evidence of harmful or inappropriate advice.\n- The doctor recognizes the seriousness of progressive neck swelling, airway symptoms, and altered mental status, appropriately escalating concern and recommending urgent monitoring in a hospital setting.\n- The doctor\u2019s questions are clinically relevant, covering airway compromise, systemic symptoms, infection, and the patient\u2019s complex history (amyloidosis, multiple myeloma).\n- The doctor provides clear explanations about the need for close monitoring and possible interventions, maintaining a high standard of clinical safety.\n\n**2. Patient Behavior: Natural and Believable**\n- The patient\u2019s responses show progressive disclosure: initial uncertainty about symptom onset, increasing anxiety as symptoms worsen, and gradual revelation of additional symptoms (skin lesions, mental status changes).\n- Emotional responses are appropriate: the patient expresses worry, anxiety, and fear as new symptoms emerge and as the doctor\u2019s concern becomes more apparent.\n- The patient asks reasonable questions about the seriousness of their condition, possible causes (recurrence vs. new process), and what to watch for\u2014typical of someone with a complex medical history facing acute symptoms.\n- Occasional apologies (\u201cI\u2019m sorry\u2026\u201d) and requests for reassurance are realistic for a patient in distress.\n\n**3. Doctor Empathy and Professionalism**\n- The doctor repeatedly acknowledges the patient\u2019s anxiety and validates their concerns (\u201cI can understand why you\u2019d be anxious\u2026\u201d).\n- Empathy is shown throughout, with the doctor responding to both emotional and physical aspects of the patient\u2019s experience.\n- The doctor maintains professionalism, avoids dismissiveness, and provides clear, supportive guidance.\n\n**4. Conversation Flow and Medical Purpose**\n- The dialogue follows a logical progression: initial symptom exploration \u2192 assessment of severity/progression \u2192 review of systems \u2192 consideration of relevant history \u2192 escalation to urgent care.\n- Turn-taking is appropriate; the doctor asks focused questions, the patient responds with relevant details, and both parties build on previous information.\n- The conversation serves a clear medical purpose: gathering information to assess risk, determining urgency, and providing guidance on next steps.\n- The exchange is thorough but not artificially perfect; some repetition and clarification occur naturally as in real clinical encounters.\n\n**Minor Imperfections (Acceptable)**\n- Some repetitive phrasing (\u201cI can understand why you\u2019re anxious\u2026\u201d) is present but mirrors real-world attempts at reassurance.\n- Slightly formal language in places, but this is common in high-stakes or complex medical discussions.\n- The patient\u2019s knowledge of terms like \u201csupraglottic edema\u201d is uncommon but plausible given their history and prior episodes.\n\n**Conclusion:**\nThis dialogue exemplifies a realistic, clinically appropriate medical encounter. The doctor\u2019s communication is safe, empathetic, and professional. The patient\u2019s behavior is believable, with natural emotional responses and progressive disclosure of symptoms. The conversation flows logically and serves a meaningful medical purpose. Minor imperfections do not detract from overall authenticity.\n\n**Overall Assessment:**  \n**DIALOGUE REALISTIC**\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.910)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.273/0.3 (Score: 0.910)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.715,
+      "naturalness": 0.797,
+      "safety": 0.91,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 89.38965630531311,
+  "dialogue_stats": {
+    "turn_count": 24,
+    "word_count": 2078,
+    "doctor_turns": 12,
+    "patient_turns": 12
+  }
+}

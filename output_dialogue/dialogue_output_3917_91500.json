@@ -1,0 +1,459 @@
+{
+  "partial_profile": {
+    "row_id": 3916,
+    "subject_id": 52409,
+    "hadm_id": 173983,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "hematemesis",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "coffee ground emesis",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "large volume"
+        },
+        {
+          "description": "heme positive brown stool",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "altered mental status",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "fevers",
+          "onset": "recent",
+          "duration": "several days",
+          "severity": "not provided"
+        },
+        {
+          "description": "eyes closed, nonverbal, contracted posture though not rigid",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "general resistance to passive movement",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "minimal air movement, shallow breathing",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "doesn't open eyes to voice or follow commands",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "coffee grounds emesis",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "melena",
+          "onset": "[**9-23**]",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "decreased hematocrit",
+          "onset": "[**9-23**], [**9-24**]",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "low grade temperatures to 100",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "low grade"
+        },
+        {
+          "description": "bloody vomit",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "confused mental status",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "always"
+        },
+        {
+          "description": "lethargic and not arousable",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2100-06-06",
+        "Age": 70,
+        "Sex": "F",
+        "Religion": "PROTESTANT QUAKER",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "BLACK/AFRICAN AMERICAN",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2170-09-15 15:59:00",
+        "Discharge_Date": "2170-09-28 17:07:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "diabetes mellitus type 2; ER negative DCIS s/p mastectomy [2162]; hypertension; ESRD on HD T, Th, Sat"
+      },
+      "Allergies": [
+        "Percodan"
+      ],
+      "Current_Medications": [
+        {
+          "name": "PPI (IV ggt)",
+          "purpose": "Acid suppression for GI bleed",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Lansoprazole",
+          "purpose": "Acid suppression for GI bleed",
+          "dosage": "max dose",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Sucralfate (carafate)",
+          "purpose": "Gastric mucosal protection",
+          "dosage": "2 g",
+          "frequency": "QID"
+        },
+        {
+          "name": "losartan",
+          "purpose": "antihypertensive",
+          "dosage": "100mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "omeprazole",
+          "purpose": "gastric acid suppression",
+          "dosage": "40mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "renagel",
+          "purpose": "phosphate binder",
+          "dosage": "800mg",
+          "frequency": "PO TID"
+        },
+        {
+          "name": "colace",
+          "purpose": "stool softener",
+          "dosage": "200mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "labetalol",
+          "purpose": "antihypertensive",
+          "dosage": "200mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "tylenol",
+          "purpose": "pain/fever",
+          "dosage": "650mg",
+          "frequency": "Q4hr"
+        },
+        {
+          "name": "dulcolax suppository",
+          "purpose": "laxative",
+          "dosage": "10mg",
+          "frequency": "QOD"
+        },
+        {
+          "name": "amlodipine",
+          "purpose": "antihypertensive",
+          "dosage": "5mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "clonidine",
+          "purpose": "antihypertensive",
+          "dosage": "0.2mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "prostat",
+          "purpose": "not provided",
+          "dosage": "30mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "metoclopramide",
+          "purpose": "prokinetic/antiemetic",
+          "dosage": "5mg",
+          "frequency": "TID"
+        },
+        {
+          "name": "insulin lispro",
+          "purpose": "antidiabetic",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Fluconazole",
+          "purpose": "Yeast infection",
+          "dosage": "100 mg",
+          "frequency": "Daily for 14 days (3 doses received in-hospital)"
+        },
+        {
+          "name": "Carafate",
+          "purpose": "Gastrointestinal protection",
+          "dosage": "2 grams",
+          "frequency": "Twice per day, administer 2 hours before or after any other medications"
+        },
+        {
+          "name": "Lansoprazole",
+          "purpose": "Gastrointestinal protection",
+          "dosage": "30 mg",
+          "frequency": "Twice per day"
+        },
+        {
+          "name": "Tylenol",
+          "purpose": "Pain/fever management",
+          "dosage": "1000 mg",
+          "frequency": "Every six hours as needed, max 4 grams per day"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Carafate",
+          "purpose": "Gastric mucosal protection",
+          "dosage": "2 g",
+          "frequency": "QID"
+        },
+        {
+          "name": "Lansoprazole",
+          "purpose": "Acid suppression for GI bleed",
+          "dosage": "max dose",
+          "frequency": "not provided"
+        },
+        {
+          "name": "vancomycin",
+          "purpose": "antibiotic",
+          "dosage": "1000mg",
+          "frequency": "IV HD protocol"
+        },
+        {
+          "name": "cefepime",
+          "purpose": "antibiotic",
+          "dosage": "1g",
+          "frequency": "IV Q24H"
+        },
+        {
+          "name": "labetalol",
+          "purpose": "antihypertensive",
+          "dosage": "200mg",
+          "frequency": "PO/NG"
+        },
+        {
+          "name": "amlodipine",
+          "purpose": "antihypertensive",
+          "dosage": "5mg",
+          "frequency": "PO/NG daily"
+        },
+        {
+          "name": "losartan potassium",
+          "purpose": "antihypertensive",
+          "dosage": "100mg",
+          "frequency": "PO/NG daily"
+        },
+        {
+          "name": "pantoprazole",
+          "purpose": "gastric acid suppression",
+          "dosage": "40mg",
+          "frequency": "IV Q12H"
+        },
+        {
+          "name": "sevelamer carbonate",
+          "purpose": "phosphate binder",
+          "dosage": "800mg",
+          "frequency": "PO TID w/meals"
+        },
+        {
+          "name": "insulin sliding scale",
+          "purpose": "antidiabetic",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "acetaminophen",
+          "purpose": "pain/fever",
+          "dosage": "1000mg",
+          "frequency": "IV Q6H PRN pain, fever"
+        },
+        {
+          "name": "Fluconazole",
+          "purpose": "Yeast infection",
+          "dosage": "100 mg",
+          "frequency": "Daily for 14 days (3 doses received in-hospital)"
+        },
+        {
+          "name": "Carafate",
+          "purpose": "Gastrointestinal protection",
+          "dosage": "2 grams",
+          "frequency": "Twice per day, administer 2 hours before or after any other medications"
+        },
+        {
+          "name": "Lansoprazole",
+          "purpose": "Gastrointestinal protection",
+          "dosage": "30 mg",
+          "frequency": "Twice per day"
+        },
+        {
+          "name": "Tylenol",
+          "purpose": "Pain/fever management",
+          "dosage": "1000 mg",
+          "frequency": "Every six hours as needed, max 4 grams per day"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Gi bleed"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.85,
+      "consistency_score": 1.0,
+      "confidence_score": 0.8,
+      "overall_score": 0.9500000000000001,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 1.0,
+        "treatments": 0.9642857142857143,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Treatment 'Gastrointestinal protection' not clearly found in text",
+        "Age inconsistency: stated 70, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing bright red blood per rectum and some dizziness\u2014can you tell me more about when these symptoms started and if you\u2019ve noticed any changes in their severity?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, yeah\u2026 so, I started noticing the bright red blood when I went to the bathroom, maybe a couple days ago? It\u2019s, um, kind of a lot sometimes. That\u2019s really what\u2019s got me worried."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d feel anxious assessing a significant amount of bright red blood\u2014this can be very unsettling. To help guide my assessment, have you noticed any associated symptoms such as dizziness, lightheadedness, or experiencing faint when you have the rectal bleeding?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, um\u2026 I have felt a bit dizzy, actually, especially after I see the blood. That\u2019s kind of making me more concerned, to be honest."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with both the rectal bleeding and the dizziness you\u2019ve described. To help me better assess your symptoms, have you noticed any episodes of fainting or loss of consciousness along with the bleeding or dizziness?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 actually, yeah. I did have one episode where I kind of blacked out for a moment\u2014I guess that would be syncope? It happened after I went to the bathroom and saw the blood. I\u2019ve also been feeling pretty lightheaded off and on since then. Should I be worried about that?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can absolutely understand why you\u2019re experiencing anxious, especially with symptoms like hematochezia and episodes of syncope. To further guide my assessment, have you noticed any abdominal pain, changes in your bowel habits, or black, tarry stools in addition to the bright red blood?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 I haven\u2019t noticed any black, tarry stools or big changes in my bowel habits, no. I do get some abdominal discomfort sometimes, but nothing really new. Um, one thing I forgot to mention\u2014I\u2019ve been having these palpitations, like my heart feels like it\u2019s beating fast, and honestly, I\u2019ve been feeling pretty anxious about all of this."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019re experiencing anxious, especially with symptoms like hematochezia, dizziness, and palpitations. To help guide my assessment, have you noticed any signs of significant blood loss, such as experiencing unusually fatigued, experiencing shortness of breath, or noticing that your heart is racing even when you\u2019re at rest?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, yeah, I guess I have been feeling more tired than usual\u2014like, kind of unusually fatigued. And now that you mention it, I do notice my heart racing sometimes even when I\u2019m just sitting. I haven\u2019t really had shortness of breath, though. The hematochezia and that one episode of syncope are what really got my attention. I\u2019m just hoping it\u2019s nothing too serious."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing these details\u2014it helps guide my assessment. To better understand the severity of your hematochezia, have you noticed whether the blood is mixed with your stool, appears only on the toilet paper, or is dripping into the toilet bowl independently of a bowel movement?"
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing bright red blood per rectum and some dizziness\u2014can you tell me more about when these symptoms started and if you\u2019ve noticed any changes in their severity?\nPatient: Um, yeah\u2026 so, I started noticing the bright red blood when I went to the bathroom, maybe a couple days ago? It\u2019s, um, kind of a lot sometimes. That\u2019s really what\u2019s got me worried.\nDoctor: I can understand why you\u2019d feel anxious assessing a significant amount of bright red blood\u2014this can be very unsettling. To help guide my assessment, have you noticed any associated symptoms such as dizziness, lightheadedness, or experiencing faint when you have the rectal bleeding?\nPatient: Yeah, um\u2026 I have felt a bit dizzy, actually, especially after I see the blood. That\u2019s kind of making me more concerned, to be honest.\nDoctor: I can understand why you\u2019d be worried, especially with both the rectal bleeding and the dizziness you\u2019ve described. To help me better assess your symptoms, have you noticed any episodes of fainting or loss of consciousness along with the bleeding or dizziness?\nPatient: Well, um\u2026 actually, yeah. I did have one episode where I kind of blacked out for a moment\u2014I guess that would be syncope? It happened after I went to the bathroom and saw the blood. I\u2019ve also been feeling pretty lightheaded off and on since then. Should I be worried about that?\nDoctor: I can absolutely understand why you\u2019re experiencing anxious, especially with symptoms like hematochezia and episodes of syncope. To further guide my assessment, have you noticed any abdominal pain, changes in your bowel habits, or black, tarry stools in addition to the bright red blood?\nPatient: Let me think\u2026 I haven\u2019t noticed any black, tarry stools or big changes in my bowel habits, no. I do get some abdominal discomfort sometimes, but nothing really new. Um, one thing I forgot to mention\u2014I\u2019ve been having these palpitations, like my heart feels like it\u2019s beating fast, and honestly, I\u2019ve been feeling pretty anxious about all of this.\nDoctor: I can understand why you\u2019re experiencing anxious, especially with symptoms like hematochezia, dizziness, and palpitations. To help guide my assessment, have you noticed any signs of significant blood loss, such as experiencing unusually fatigued, experiencing shortness of breath, or noticing that your heart is racing even when you\u2019re at rest?\nPatient: Um, yeah, I guess I have been feeling more tired than usual\u2014like, kind of unusually fatigued. And now that you mention it, I do notice my heart racing sometimes even when I\u2019m just sitting. I haven\u2019t really had shortness of breath, though. The hematochezia and that one episode of syncope are what really got my attention. I\u2019m just hoping it\u2019s nothing too serious.\nDoctor: Thank you for sharing these details\u2014it helps guide my assessment. To better understand the severity of your hematochezia, have you noticed whether the blood is mixed with your stool, appears only on the toilet paper, or is dripping into the toilet bowl independently of a bowel movement?\nPatient: [Simulation ended due to invalid response from Patient Agent at turn 6]",
+  "clinical_note": "Patient presents with: dizzy, feeling more tired than usual, fatigue, lightheaded, more tired than usual. Assessment: hematochezia, syncope. Plan: rest. Clinical note: Patient presents with acute onset of bright red rectal bleeding (hematochezia), associated with dizziness, one episode of syncope, lightheadedness, palpitations, fatigue, and anxiety. No black stools or significant changes in bowel habits reported. Assessment focused on severity and possible causes of lower GI bleeding.. Extracted: 18 symptoms, 2 diagnoses, 1 treatments.",
+  "annotations": {
+    "symptoms": [
+      "dizzy",
+      "feeling more tired than usual",
+      "fatigue",
+      "lightheaded",
+      "more tired than usual",
+      "tired",
+      "shortness of breath",
+      "abdominal pain",
+      "headache",
+      "breath",
+      "dizziness",
+      "bright red blood per rectum",
+      "syncope",
+      "lightheadedness",
+      "abdominal discomfort",
+      "palpitations",
+      "anxiety",
+      "heart racing"
+    ],
+    "diagnoses": [
+      "hematochezia",
+      "syncope"
+    ],
+    "treatments": [
+      "rest"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 0.972\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.850 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 0.850 \u2705\n\u2022 Semantic Similarity: 0.560 \u25cb\n\u2022 Dialogue Naturalness: 0.994 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n1. **Medical Communication Safety and Appropriateness:**  \n   The doctor\u2019s questions are clinically appropriate, focusing on the severity, associated symptoms, and risk factors for rectal bleeding (hematochezia). The inquiry about dizziness, syncope, abdominal pain, bowel habit changes, and signs of significant blood loss (fatigue, palpitations, shortness of breath) is thorough and follows a logical clinical reasoning process. There is no unsafe or inappropriate advice given; the doctor maintains a professional tone throughout.\n\n2. **Natural and Believable Patient Behavior:**  \n   The patient\u2019s responses are consistent with someone experiencing anxiety and concern about rectal bleeding. The use of hesitations (\u201cum,\u201d \u201clet me think\u2026\u201d), progressive disclosure (mentioning palpitations later in the conversation), and emotional expressions (\u201cthat\u2019s really what\u2019s got me worried,\u201d \u201cI\u2019m just hoping it\u2019s nothing too serious\u201d) are realistic. The patient\u2019s uncertainty about medical terminology (\u201cI guess that would be syncope?\u201d) and their focus on the most alarming symptoms reflect typical patient behavior.\n\n3. **Empathy and Professionalism:**  \n   The doctor repeatedly acknowledges the patient\u2019s anxiety and validates their concerns (\u201cI can understand why you\u2019d feel anxious,\u201d \u201cI can absolutely understand why you\u2019re experiencing anxious\u2026\u201d). While the phrase \u201cexperiencing anxious\u201d is slightly awkward (should be \u201cfeeling anxious\u201d), this is a minor imperfection and does not detract from the overall empathetic approach. The doctor maintains professionalism and focuses on gathering relevant information.\n\n4. **Meaningful Medical Purpose:**  \n   The conversation serves a clear medical purpose: risk stratification of rectal bleeding, assessment for hemodynamic compromise, and identification of red flag symptoms. The doctor\u2019s questions are purposeful and build upon the patient\u2019s responses to guide further assessment.\n\n5. **Dialogue Flow and Communication Effectiveness:**  \n   The dialogue flows logically, with appropriate turn-taking and follow-up questions based on the patient\u2019s answers. The doctor adapts questions to new information (e.g., palpitations), and the patient feels heard, as evidenced by their willingness to share additional symptoms and concerns.\n\n**Minor Imperfections:**  \n- Slightly repetitive phrasing (\u201cI can understand why you\u2019re experiencing anxious\u201d) is noted but is common in real clinical encounters.\n- The simulation ends abruptly due to a technical issue, but up to that point, the conversation is coherent and realistic.\n\n**Conclusion:**  \nThis dialogue represents a plausible, safe, and clinically appropriate medical encounter between a doctor and a patient presenting with rectal bleeding and associated symptoms. Both parties\u2019 behaviors are believable, the exchange is purposeful, and the doctor demonstrates empathy and professionalism.\n\n**Overall Assessment:**  \nThe conversation meets all key criteria for realism in a medical context.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.850)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.255/0.3 (Score: 0.850)\n  \u2022 SOTA Metrics: 0.152/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 0.972,
+    "sota_metrics": {
+      "semantic": 0.56,
+      "naturalness": 0.994,
+      "safety": 0.85,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 0.85,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 30.32489275932312,
+  "dialogue_stats": {
+    "turn_count": 11,
+    "word_count": 521,
+    "doctor_turns": 6,
+    "patient_turns": 5
+  }
+}

@@ -1,0 +1,1569 @@
+{
+  "source_row_id": 4469,
+  "source_subject_id": 20238,
+  "source_hadm_id": 162171,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing shortness of breath and persistent nausea. Can you describe when these symptoms began and if there\u2019s anything that assessms to make them better or worse?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": ""
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Hi, um\u2026 yeah, I\u2019ve been having a lot of shortness of breath lately. It\u2019s kind of hard to say exactly when it started, but it\u2019s been getting worse over the past few days. I\u2019m just\u2026 I\u2019m pretty anxious about it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "past few days"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "getting worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014shortness of breath can be very unsettling. In addition to your breathing symptoms, have you also been experiencing persistent nausea or vomiting recently?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "persistent nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vomiting"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 I have been feeling pretty nauseous, and I\u2019ve thrown up a couple times. I also have some pain, but I\u2019m not sure if it\u2019s related. I just\u2026 I don\u2019t feel right at all.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "general malaise"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing how you\u2019re experiencing\u2014it\u2019s important we understand all your symptoms. You mentioned pain along with your nausea and vomiting; can you tell me where the pain is located and how severe it has been?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing how you\u2019re experiencing\u2014it\u2019s important we understand all your symptoms."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain, nausea, vomiting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Range-body",
+          "value": "location of pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "severity of pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 the pain is mostly in my chest. It\u2019s not super sharp, but it\u2019s kind of a pressure, and sometimes it gets worse when I\u2019m breathing in. The nausea is pretty constant, and I just feel really uncomfortable. I\u2019m honestly a bit worried about the chest pain\u2014should I be concerned?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pressure in chest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain worse on inspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "general discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain concern"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with both chest discomfort and persistent nausea. To help with my assessment, can you tell me if your vomiting has included any blood or if you\u2019ve noticed any changes in the color or amount of what you bring up?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vomiting with blood"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in color or amount of vomit"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 no, I haven\u2019t seen any blood in my vomit. It\u2019s mostly just been kind of clear or yellowish, I think. I haven\u2019t really noticed a big change in the amount, but it\u2019s just that the nausea doesn\u2019t really go away. I\u2019m still feeling pretty anxious about all these symptoms.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomit is clear or yellowish"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no blood in vomit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these ongoing symptoms, especially with persistent nausea and chest discomfort. Given your recent clinical assessment showed bilateral pleural effusions, have you noticed any swelling in your legs or difficulty lying flat due to shortness of breath?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "bilateral pleural effusions"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in your legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty lying flat due to shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, I have noticed some swelling in my legs. It\u2019s been getting worse, especially around my ankles. And, um, it\u2019s definitely harder for me to lie flat\u2014I get more shortness of breath when I try. I remember the doctor mentioning something about bilateral pleural effusions and bilateral opacities, right greater than left, on my last scan. I guess that\u2019s related to the air space disease? It\u2019s just making me more anxious because I\u2019m not sure what all that means for my breathing.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling around ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "bilateral pleural effusions"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "bilateral opacities, right greater than left"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "air space disease"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with new findings on your imaging and ongoing symptoms. Given the bilateral opacities and air space disease noted on your recent assessment, have you experienced any cough, sputum production, or fevers that might suggest an underlying infection or worsening pulmonary condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "imaging"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ongoing symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "bilateral opacities and air space disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sputum production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "worsening pulmonary condition"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 I have had a bit of a cough, but it\u2019s not really productive\u2014there\u2019s not much sputum. I did have some fevers off and on, but I wasn\u2019t sure if that was related. And, um, I remember someone mentioning worsening pulmonary edema on my last assessment. I\u2019m not sure if that\u2019s what\u2019s making my breathing worse, but it feels like it\u2019s getting harder to catch my breath.\n\nAlso, I\u2019ve noticed it\u2019s been taking me longer to swallow\u2014like, slow oral transit? Sometimes I feel like symptoms just kind of sit in my throat for a while before going down. Is that something I should be worried about with all these other symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "non-productive cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers off and on"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "worsening pulmonary edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about these symptoms together?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the combination of persistent vomiting, difficulty swallowing, and findings of bilateral opacities on your recent assessment. To help clarify the underlying condition, have you noticed any changes in your voice, episodes of choking, or coughing while eating or drinking that might suggest aspiration or worsening swallowing difficulties?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent vomiting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "bilateral opacities"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in voice"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of choking"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "coughing while eating or drinking"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "aspiration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening swallowing difficulties"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 actually, I have noticed some changes with my swallowing. Sometimes when I drink thin liquids, especially if it\u2019s mixed with something else, I feel like it kind of goes down the wrong way. I think the speech therapist mentioned something about mild penetration of thin consistencies into the laryngeal vestibule, and maybe even probable trace aspiration of thin liquid\u2014but only when it was a mixed consistency. I do cough sometimes when that happens, but not every time. My voice hasn\u2019t really changed much, but I am worried about this whole aspiration thing. Is that something that could make my breathing or my other symptoms worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coughing when drinking thin liquids"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no significant change in voice"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worried about aspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible mild penetration of thin consistencies into laryngeal vestibule"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "probable trace aspiration of thin liquid with mixed consistency"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Could aspiration make breathing or other symptoms worse?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about the possibility of aspiration, especially with your recent symptoms and the findings from your swallowing assessment. Given your history of vomiting and the bilateral opacities assessn on your imaging, have you noticed any recent worsening of your cough, increased shortness of breath, or new fevers that could suggest aspiration pneumonia or a respiratory infection?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of vomiting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "swallowing assessment"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "imaging showing bilateral opacities"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "aspiration pneumonia or respiratory infection"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 my shortness of breath has definitely gotten worse lately, and I feel like I get winded a lot faster than before. The cough is still there, but it hasn\u2019t really changed much\u2014it\u2019s just kind of dry, not really bringing anything up. I did have some fevers a couple days ago, but they seem to come and go.\n\nActually, I wanted to ask about something else too. I noticed on my labs that my glucose levels have been kind of all over the place\u2014sometimes high, sometimes even low, which is unusual for me. And my urea nitrogen has been bouncing around too\u2014sometimes it\u2019s elevated, sometimes it drops. Is that something I should be worried about with everything else going on? I just feel like there\u2019s a lot happening at once, and I\u2019m not sure what\u2019s most important to focus on right now.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath has gotten worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "gets winded faster"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers that come and go"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "glucose levels fluctuating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "glucose levels sometimes high, sometimes low"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "urea nitrogen fluctuating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about these lab results?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "What should I focus on right now?"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with so many symptoms and lab fluctuations happening at once. Based on your recent clinical assessment\u2014including persistent vomiting, bilateral pulmonary opacities consistent with air space disease, and variable glucose and urea nitrogen levels\u2014it\u2019s important to evaluate for ongoing metabolic disturbances or possible infection. Have you noticed any changes in your mental status, such as increased confusion, drowsiness, or difficulty concentrating, that might suggest worsening metabolic encephalopathy or infection?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent vomiting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "bilateral pulmonary opacities"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "air space disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "variable glucose and urea nitrogen levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in mental status (increased confusion, drowsiness, difficulty concentrating)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "metabolic encephalopathy or infection"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, I have been feeling a lot more drowsy and kind of slow lately. Sometimes it\u2019s hard to concentrate, and I just feel out of it\u2014almost like my brain is foggy. My family said I seemed less responsive a couple times, and I\u2019ve noticed I\u2019m moving slower, especially on my left side. It\u2019s honestly a little scary.\n\nI also saw on my labs that my creatinine has been mildly elevated at times, and there have been some electrolyte abnormalities\u2014like my sodium, potassium, chloride, and bicarbonate have all been fluctuating. The anion gap has been off too. I\u2019m just worried that all these metabolic disturbances are adding up and making symptoms worse. Should I be really concerned about these changes? Is this something that could get better, or is it a sign that symptoms are getting more serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slow"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hard to concentrate"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "brain foggy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "less responsive"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "moving slower on left side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "creatinine mildly elevated"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "electrolyte abnormalities (sodium, potassium, chloride, bicarbonate fluctuating)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "anion gap off"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be really concerned about these changes?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is this something that could get better, or is it a sign that symptoms are getting more serious?"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these changes, especially with your symptoms of drowsiness, slow mentation, and fluctuating laboratory values. Based on your recent clinical assessment\u2014including persistent vomiting, bilateral pulmonary opacities, and metabolic disturbances\u2014have you experienced any new or worsening weakness or decreased sensation, particularly on your left side, that might suggest progression of neurological involvement?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsiness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slow mentation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "fluctuating laboratory values"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent vomiting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bilateral pulmonary opacities"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "metabolic disturbances"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening weakness or decreased sensation, particularly on the left side"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 I have noticed some new weakness and decreased sensation on my left side. My left arm and leg both feel heavier, and it\u2019s harder to move them than before. Sometimes I can\u2019t really feel symptoms as well on that side either. It\u2019s gotten worse over the past couple days, and I\u2019m honestly pretty anxious about it.\n\nI also saw in my labs that my ferritin and TIBC are off\u2014someone mentioned it could be an iron metabolism disorder? And with the acute renal failure, my creatinine and potassium have both been elevated. I know those are serious, but I\u2019m not sure how they all fit together with these neurological symptoms. Is this something that happens with acute renal failure, or could it be something else? Should I be worried about permanent damage?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "new weakness and decreased sensation on left side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left arm and leg feel heavier, harder to move"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sometimes can\u2019t feel symptoms as well on left side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms have gotten worse over past couple days"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "ferritin and TIBC are off"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "possible iron metabolism disorder"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "acute renal failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "creatinine and potassium elevated"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Is this something that happens with acute renal failure, or could it be something else?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried about permanent damage?"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with new weakness and decreased sensation on your left side, along with ongoing metabolic disturbances and acute renal failure. Based on your symptoms\u2014including neurological changes, fluctuating electrolytes, and elevated creatinine and potassium\u2014I\u2019d like to ask: have you experienced any recent headaches, vision changes, or difficulty speaking that could further indicate progression of neurological involvement?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "new weakness and decreased sensation on left side"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "metabolic disturbances"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "acute renal failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neurological changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluctuating electrolytes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "elevated creatinine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "elevated potassium"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent headaches"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vision changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty speaking"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 let me think. I haven\u2019t really had any headpains or vision changes that I can remember, but I have noticed it\u2019s harder to find words sometimes, and my thinking just feels slower\u2014like slow mentation, I guess. My family mentioned I\u2019ve had some acute changes in mental status, like being less responsive or kind of out of it at times. There\u2019s also been decreased movement in my extremities, especially on the left side, and I just feel really drowsy a lot of the time.\n\nI\u2019m honestly pretty anxious about all these neurological symptoms happening on top of the acute renal failure and everything else. Should I be worried about permanent damage, or is this something that can get better if my labs and symptoms improve?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty finding words"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slowed thinking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "acute changes in mental status"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "less responsive"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased movement in extremities, especially on the left side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neurological symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "acute renal failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "concern about permanent damage or reversibility if labs and symptoms improve"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with the combination of neurological symptoms, acute renal failure, and fluctuating laboratory values. Based on your current assessment\u2014including slow mentation, decreased responsiveness, and new left-sided weakness\u2014these symptoms may be related to metabolic encephalopathy from renal dysfunction, possible electrolyte imbalances, or even a recent cerebrovascular event. \n\nIt\u2019s important that we closely monitor your neurological status and continue to manage your metabolic disturbances. Have you noticed any recent changes in your ability to swallow or increased risk of aspiration during meals, given your prior assessment of slow oral transit and mild aspiration?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "metabolic encephalopathy from renal dysfunction, possible electrolyte imbalances, or recent cerebrovascular event"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slow mentation, decreased responsiveness, new left-sided weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in ability to swallow or increased risk of aspiration"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Yeah, I have noticed some changes with swallowing lately. It feels like it takes even longer for food or liquids to go down\u2014like the slow oral transit is getting worse. Sometimes I get that sensation where symptoms just kind of sit in my throat, and I worry about aspiration, especially since I know there was mild penetration and probable trace aspiration before. I do cough sometimes when I try to drink, especially thin liquids or if it\u2019s mixed consistency.\n\nAnd, um, about the neurological symptoms\u2014I\u2019ve definitely had more trouble moving my left arm and leg. The decreased ability to move my left lower and upper extremities has gotten worse, and the decreased sensation on my left side is more noticeable now. It\u2019s making me really anxious because I\u2019m not sure if this is all from the metabolic encephalopathy or if something else is going on, like a stroke or something. Should I be worried about permanent damage if these symptoms don\u2019t get better soon? And is there anything else I should be d",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes with swallowing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slow oral transit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sensation of food or symptoms sitting in throat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough when drinking, especially thin liquids or mixed consistency"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "more trouble moving left arm and leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased ability to move left lower and upper extremities"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased sensation on left side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "mild penetration and probable trace aspiration before"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "metabolic encephalopathy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "concern about stroke"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "worried about permanent damage if symptoms don\u2019t get better soon"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "is there anything else I should be doing"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with worsening left-sided weakness, persistent swallowing difficulties, and your history of acute renal failure. Based on your current assessment\u2014including neurological changes, slow oral transit, and recent laboratory abnormalities\u2014it\u2019s important to address both the metabolic disturbances and the risk of aspiration to prevent further complications.\n\nI recommend a thorough neurological examination to assess for possible stroke or progression of encephalopathy, as well as a swallowing evaluation by speech therapy to minimize aspiration risk. In addition, close monitoring and management of your electrolyte imbalances and renal function are essential. Have you had any recent imaging studies, such as a brain MRI or CT scan, to further evaluate the cause of your neurological symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening left-sided weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent swallowing difficulties"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "acute renal failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neurological changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slow oral transit"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "recent laboratory abnormalities"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "thorough neurological examination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "swallowing evaluation by speech therapy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "close monitoring and management of electrolyte imbalances and renal function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "recent imaging studies (brain MRI or CT scan)"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 let me think. I don\u2019t think I\u2019ve had a recent brain MRI or CT scan\u2014at least not since these neurological symptoms started getting worse. I had some imaging before, but that was mostly for my chest, like the bilateral opacities and pleural effusions they found. No one\u2019s really mentioned doing a head scan yet.\n\nHonestly, with everything going on\u2014like the worsening respiratory symptoms, the decreased responsiveness, and now this left-sided weakness\u2014I\u2019m starting to get really anxious about what\u2019s causing all of it. Should I be pushing for a brain MRI or CT scan to rule out a stroke or something more serious? And, um, if it is metabolic encephalopathy from the acute renal failure and electrolyte abnormalities, is there a good chance these symptoms could get better if my labs improve? Or is there a risk that some of this could be permanent?\n\nSorry, I know that\u2019s a lot of questions. I just want to make sure we\u2019re not missing anything important, especially since my responsiveness has been down and my breathing is getting worse too.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "no recent brain MRI or CT scan"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening neurological symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "previous imaging for chest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bilateral opacities"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pleural effusions"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening respiratory symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased responsiveness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left-sided weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "should I get a brain MRI or CT scan to rule out stroke or something serious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "could it be metabolic encephalopathy from acute renal failure and electrolyte abnormalities"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "will symptoms improve if labs improve"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "is there a risk symptoms could be permanent"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your worsening neurological changes, respiratory symptoms, and fluctuating laboratory values. Based on your current assessment\u2014including new left-sided weakness, decreased responsiveness, and persistent metabolic disturbances\u2014it is important to urgently evaluate for both metabolic encephalopathy and possible acute cerebrovascular events such as a stroke. \n\nGiven that you have not had recent neuroimaging since your neurological symptoms worsened, I recommend obtaining a brain MRI or CT scan as soon as possible to clarify the underlying cause and guide further treatment. In addition to ongoing management of your electrolyte abnormalities and renal function, have you experienced any new onset of severe headache or visual disturbances that would further support the need for immediate neuroimaging?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening neurological changes, respiratory symptoms, fluctuating laboratory values, new left-sided weakness, decreased responsiveness, persistent metabolic disturbances"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "metabolic encephalopathy, acute cerebrovascular events (stroke)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "brain MRI or CT scan"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "ongoing management of electrolyte abnormalities and renal function"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new onset of severe headache or visual disturbances"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining all that. Um, I haven\u2019t really had any new severe headpains or vision changes that I can remember\u2014no sudden blurry vision or anything like that. But I am still really anxious about all these neurological symptoms, especially with the left-sided weakness and decreased responsiveness.\n\nAlso, I wanted to mention that I\u2019ve had some swelling and tenderness, mostly in my legs and ankles. The swelling\u2019s gotten worse lately, and it feels pretty uncomfortable\u2014sometimes even painful to touch. I don\u2019t know if that\u2019s related to the acute renal failure or the electrolyte abnormalities, but it\u2019s definitely something new for me.\n\nI agree it sounds important to get a brain MRI or CT scan soon, just to be sure we\u2019re not missing a stroke or something serious. If it does turn out to be metabolic encephalopathy from the renal failure and all these lab abnormalities, is there a good chance my symptoms could improve with treatment? Or should I be worried about permanent damage? And is there anything else I should be doing right now to help with the swelling and tenderness?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new severe headpains or vision changes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious about neurological symptoms, especially left-sided weakness and decreased responsiveness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling and tenderness in legs and ankles, worse lately, sometimes painful to touch"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "relationship of swelling and tenderness to acute renal failure or electrolyte abnormalities"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "chance of symptom improvement with treatment for metabolic encephalopathy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "risk of permanent damage from current symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what else can be done to help with swelling and tenderness"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the combination of swelling, tenderness, neurological changes, and your recent laboratory abnormalities. Based on your current assessment, it\u2019s possible that metabolic encephalopathy from acute renal failure and electrolyte disturbances is contributing to your neurological symptoms, and improvement is often possible with correction of these underlying factors\u2014though recovery can vary depending on severity and duration.\n\nTo help guide further management, have you noticed any redness, warmth, or skin changes over the areas of swelling that might suggest infection or deep vein thrombosis, in addition to the tenderness you described?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "metabolic encephalopathy from acute renal failure and electrolyte disturbances"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "neurological symptoms may improve with correction of underlying factors"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "redness, warmth, or skin changes over areas of swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection or deep vein thrombosis"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed any redness or warmth over the swollen areas\u2014just the swelling and tenderness, mostly around my ankles and lower legs. The skin doesn\u2019t look different, but it does feel kind of tight. I\u2019m not sure if that means it\u2019s not an infection or DVT, but I\u2019m still worried because it\u2019s getting worse.\n\nAlso, I wanted to mention that with all this swelling, I\u2019ve had some pretty significant weight gain lately. It feels like I\u2019m just retaining a lot of fluid. The nausea and vomiting are still ongoing too\u2014sometimes it\u2019s hard to keep anything down, and that just makes me feel even more anxious about everything.\n\nIs all this swelling and weight gain just from the acute renal failure and fluid overload? Or could it be something else? And is there anything I can do to help manage the nausea and vomiting while we\u2019re figuring out the rest?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling and tenderness around ankles and lower legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin feels tight"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "significant weight gain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluid retention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea and vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Is all this swelling and weight gain just from the acute renal failure and fluid overload or could it be something else?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything I can do to help manage the nausea and vomiting while we\u2019re figuring out the rest?"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about the ongoing swelling, weight gain, and persistent nausea\u2014these symptoms can be very distressing, especially with your history of acute renal failure and recent laboratory abnormalities. Based on your assessment, the fluid retention and swelling are likely related to your renal dysfunction and possible fluid overload, which can also contribute to your respiratory symptoms and weight gain.\n\nTo help guide further treatment, have you noticed any decrease in your urine output or changes in urination patterns that might indicate worsening renal function?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "acute renal failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluid retention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "renal dysfunction"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Other",
+          "value": "possible fluid overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "decrease in urine output or changes in urination patterns"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, I have noticed a decrease in my urine output. It\u2019s been a lot less than usual, and sometimes I barely go at all. I figured it might be from the acute renal failure, but it\u2019s definitely gotten worse lately.\n\nAlso, I wanted to mention\u2014I know I said I\u2019ve had weight gain from the swelling and fluid retention, but I\u2019ve also had some pretty significant weight loss over the past few months. It\u2019s kind of confusing because my weight keeps going up and down so much.\n\nAnd, um, I\u2019ve had some fevers on and off too. They\u2019re not super high, but they come and go, and I\u2019m not sure if that\u2019s related to an infection or just part of everything else going on.\n\nIs it normal to have both weight gain and weight loss with all these symptoms? And should I be worried about the fevers with my history of acute renal failure and all these lab abnormalities?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decrease in urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight gain from swelling and fluid retention"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "significant weight loss over the past few months"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weight keeps going up and down"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers on and off"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Is it normal to have both weight gain and weight loss with all these symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Should I be worried about the fevers with my history of acute renal failure and all these lab abnormalities?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "acute renal failure"
+        }
+      ]
+    }
+  ]
+}

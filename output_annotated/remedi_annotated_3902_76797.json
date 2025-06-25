@@ -1,0 +1,1574 @@
+{
+  "source_row_id": 3901,
+  "source_subject_id": 76797,
+  "source_hadm_id": 109577,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing worsening shortness of breath and some respiratory distress. Can you describe when these symptoms started and if there is anything that makes them better or worse?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "greeting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory distress"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "when symptoms started"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "factors that make symptoms better or worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I\u2019ve just been having more and more shortness of breath lately. It\u2019s gotten worse over the past week or so, and I\u2019m starting to feel a bit anxious about it. I\u2019m not really sure what\u2019s making it better or worse, it just feels harder to catch my breath than usual. Should I be worried?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "gotten worse over the past week"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "feeling anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried?"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014worsening shortness of breath can be very unsettling. To help me with my assessment, can you tell me if your symptoms are worse when you\u2019re lying flat or if you\u2019ve noticed any swelling in your legs or ankles?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worse when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in legs or ankles"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I guess my main concern is just this progressive shortness of breath. It feels like it\u2019s getting harder to breathe, even when I\u2019m just sitting still. I haven\u2019t really paid attention to if it\u2019s worse lying flat, but I do feel more anxious at night sometimes.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "progressive shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to breathe even when sitting still"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "more anxious at night"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about your worsening shortness of breath\u2014these symptoms can be very distressing. To help with my assessment, have you noticed any new symptoms such as chest pain, palpitations, or coughing, especially when you are at rest or during the night?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "coughing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "at rest or during the night"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Well, I haven\u2019t really had chest pain, but sometimes I do feel my heart racing\u2014like palpitations, I guess. And at night, I notice the dyspnea seems a bit worse. I don\u2019t really have a cough, but the respiratory distress just feels more noticeable when I\u2019m trying to rest. It\u2019s making me pretty anxious, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea worse at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory distress more noticeable at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand how this ongoing shortness of breath and the sensation of your heart racing would make you feel anxious. To help with my assessment, have you noticed any swelling in your legs or ankles, or any sudden weight gain, which can sometimes accompany these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sensation of heart racing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in legs or ankles"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden weight gain"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Actually\u2026 now that you mention it, I have noticed some swelling in my ankles lately. It\u2019s not a lot, but it\u2019s definitely more than usual. And, um, sometimes I feel like my heart is beating really fast\u2014tachycardia, I think you called it? I also noticed this sort of fullness or bulging in my neck, which I think might be jugular venous distension? I\u2019m not sure if that\u2019s related, but it\u2019s all making me pretty worried.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachycardia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fullness or bulging in neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jugular venous distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling worried"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014worsening shortness of breath along with peripheral edema and palpitations can be very concerning. To help with my assessment, have you noticed any changes in your urine output or any difficulty breathing that wakes you up suddenly at night, which we call paroxysmal nocturnal dyspnea?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty breathing that wakes you up at night (paroxysmal nocturnal dyspnea)"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 let me think. I haven\u2019t really noticed much change in my urine output, I think it\u2019s about the same. But actually, yes, there have been a couple of nights where I woke up suddenly, really short of breath. I guess that would be paroxysmal nocturnal dyspnea? It\u2019s pretty scary when it happens\u2014I have to sit up and catch my breath for a while before I can go back to sleep. Is that something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no change in urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea (waking up suddenly short of breath at night)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is paroxysmal nocturnal dyspnea something serious?"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s important for my assessment. In addition to the worsening shortness of breath and peripheral edema, have you experienced any orthopnea, meaning difficulty breathing when lying flat, which improves when you sit up?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2014I think I have been experiencing orthopnea. When I try to lie flat in bed, it feels like my shortness of breath gets worse, and I have to prop myself up with extra pillows to feel comfortable. Sitting up definitely helps me breathe easier. Is that a sign of something serious with my heart or lungs? Should I be worried about these symptoms getting worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worsens when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "needs extra pillows to feel comfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "breathing easier when sitting up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart or lung disease"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worry about symptoms getting worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious\u2014worsening shortness of breath, orthopnea, and peripheral edema are important symptoms that we take seriously. To help with my assessment, have you noticed any recent changes in your weight, such as a sudden increase, which can sometimes indicate fluid retention related to your cardiac condition?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "recent changes in weight"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "fluid retention related to cardiac condition"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really been keeping a close eye on my weight, but now that you mention it, my clothes do feel a bit tighter around my ankles and lower legs\u2014so I guess that\u2019s the peripheral edema you mentioned. I\u2019m not sure if it\u2019s a lot of weight, but it\u2019s enough to notice.\n\nAlso, I wanted to ask\u2026 sometimes when I lie down, I get this burning feeling in my chest and throat\u2014maybe reflux? And once or twice, I think I might have coughed or choked a little, almost like I was aspirating. Could that be related to my other symptoms? I\u2019m just worried everything is getting worse all at once.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema (tightness around ankles and lower legs)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "burning feeling in chest and throat when lying down (possible reflux)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coughing or choking, possible aspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "asking if symptoms are related and if condition is worsening"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with the combination of worsening shortness of breath, peripheral edema, and now symptoms suggestive of reflux and possible aspiration. To help with my assessment, have you experienced any episodes of coughing or choking specifically after eating or while lying down, which could indicate gastroesophageal reflux leading to aspiration?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms suggestive of reflux"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible aspiration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of coughing or choking after eating or while lying down"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2026 now that you mention it, I have had a few episodes where I started coughing or even felt like I was choking a bit after eating, especially if I lie down too soon afterward. It\u2019s not every time, but it\u2019s happened enough that I\u2019m starting to get concerned about it. The burning sensation\u2014reflux, I guess\u2014seems worse at night, and sometimes I worry that I might be aspirating a little when that happens.\n\nShould I be really worried about this? Is it possible that the reflux and possible aspiration are making my shortness of breath and other symptoms worse? I just feel like everything is piling up at once, and I\u2019m not sure what I should be doing differently.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coughing after eating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "choking sensation after eating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "burning sensation (reflux) worse at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "concern about possible aspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be really worried about this?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Is it possible that the reflux and possible aspiration are making my shortness of breath and other symptoms worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "I\u2019m not sure what I should be doing differently."
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your symptoms of worsening shortness of breath, peripheral edema, and episodes of reflux with possible aspiration. Based on your medical history and current symptoms, these could be contributing to both your respiratory distress and potentially worsening your cardiac condition. For my assessment, have you had any recent fever, chills, or signs of infection, which could suggest aspiration pneumonia or another complication?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of reflux with possible aspiration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cardiac condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "signs of infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "aspiration pneumonia"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed any fever or chills lately. I don\u2019t think I\u2019ve had any signs of infection\u2014no coughing up anything unusual, and I don\u2019t feel hot or sweaty. But with all these symptoms\u2014like the worsening shortness of breath, peripheral edema, and now this reflux and possible aspiration\u2014I just keep worrying that something serious is going on, maybe even aspiration pneumonia or a condition with my heart.\n\nIs there something specific I should be watching out for, like certain symptoms that would mean it\u2019s getting worse? And, um, do you think all these symptoms\u2014my cardiac condition, the reflux, and the respiratory distress\u2014are connected? I just want to make sure I\u2019m not missing anything important or making symptoms worse by accident.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fever or chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no signs of infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no coughing up anything unusual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no feeling hot or sweaty"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reflux"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible aspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "symptoms to watch for indicating worsening condition"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "connection between cardiac condition, reflux, and respiratory distress"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014your symptoms of worsening shortness of breath, peripheral edema, orthopnea, paroxysmal nocturnal dyspnea, and reflux with possible aspiration are all important for my assessment and may be interconnected, especially given your cardiac history. Based on what you\u2019ve described, I\u2019d like to clarify: have you experienced any hoarseness, persistent sore throat, or changes in your voice, which can sometimes be associated with chronic reflux or aspiration?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reflux with possible aspiration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cardiac history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "hoarseness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "persistent sore throat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in your voice"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have noticed my voice sounding a bit hoarse at times, especially in the mornings. It\u2019s not all the time, but it does seem to come and go. I also get a scratchy or sore throat every so often, but I just thought it was from maybe talking too much or the air being dry. I didn\u2019t really connect it to the reflux or possible aspiration until you brought it up.\n\nIs that something I should be more concerned about? Could these symptoms\u2014like the hoarseness and sore throat\u2014be signs that the reflux or aspiration is getting worse? And with everything else going on\u2014my cardiac symptoms and respiratory distress\u2014should I be doing anything differently to help manage all of this? I just want to make sure I\u2019m not missing something important or making symptoms worse without realizing it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hoarse voice"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "scratchy or sore throat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cardiac symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory distress"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "hoarseness and sore throat as signs of worsening reflux or aspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "should I be doing anything differently to help manage all of this"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "am I missing something important or making symptoms worse without realizing it"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014your symptoms of worsening shortness of breath, peripheral edema, orthopnea, paroxysmal nocturnal dyspnea, reflux with possible aspiration, and now intermittent hoarseness and sore throat are understandably concerning, especially given your cardiac medical history. Based on my assessment so far, these symptoms may be interconnected and could indicate both cardiac and respiratory involvement. To help further with my evaluation, have you noticed any difficulty swallowing (dysphagia) or episodes where food or liquid feels stuck in your throat during meals?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reflux with possible aspiration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "intermittent hoarseness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sore throat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cardiac medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "cardiac and respiratory involvement (possible)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty swallowing (dysphagia)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "food or liquid feels stuck in throat during meals"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I think I have noticed some mild dysphagia lately. Sometimes when I\u2019m eating, especially with certain foods like bread or meat, it feels like symptoms get a little stuck or go down slowly. I have to take smaller bites and drink water to help it along. It\u2019s not every meal, but it\u2019s definitely more noticeable than it used to be.\n\nI\u2019m starting to get really anxious about all these symptoms\u2014worsening shortness of breath, the peripheral edema, orthopnea, paroxysmal nocturnal dyspnea, and now the reflux with possible aspiration and dysphagia. It just feels like everything is piling up at once. Should I be worried that this is something serious, like heart failure getting worse or even aspiration pneumonia? Is there anything I should be doing differently at home, or any warning signs I should watch out for?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mild dysphagia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "food getting stuck or going down slowly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reflux with possible aspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart failure getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "aspiration pneumonia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything I should be doing differently at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "warning signs I should watch out for"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious\u2014experiencing worsening shortness of breath, peripheral edema, orthopnea, paroxysmal nocturnal dyspnea, reflux with possible aspiration, and now dysphagia can feel overwhelming, especially given your cardiac medical history. Based on my assessment, your symptoms suggest that your heart failure may be worsening, and the reflux with possible aspiration could increase your risk for respiratory complications such as aspiration pneumonia.\n\nAt home, it\u2019s important to monitor for warning signs like increasing shortness of breath at rest, chest pain, fever, coughing up discolored sputum, or any sudden swelling or weight gain. I recommend you elevate your head when sleeping, take small bites with meals, and avoid lying down immediately after eating to help reduce reflux and aspiration risk.\n\nGiven your recent symptoms and elevated PTT values (which indicate increased bleeding risk while on anticoagulation), I\u2019d like to ask: have you noticed any signs of bleeding, such as easy bruising, nosebleeds, blood in your urine or stool, or unusual gum bleeding?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath, peripheral edema, orthopnea, paroxysmal nocturnal dyspnea, reflux with possible aspiration, dysphagia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cardiac medical history"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "worsening heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "aspiration pneumonia (risk)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor for warning signs: increasing shortness of breath at rest, chest pain, fever, coughing up discolored sputum, sudden swelling or weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "elevate head when sleeping, take small bites with meals, avoid lying down immediately after eating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated PTT values"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Medicine-category",
+          "value": "anticoagulation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "signs of bleeding: easy bruising, nosebleeds, blood in urine or stool, unusual gum bleeding"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 thank you for explaining all of that. I appreciate you taking the time to go over my symptoms and what to watch for. About the bleeding\u2014you know, I have noticed a bit more bruising on my arms and legs lately, but I just thought maybe I bumped into something and didn\u2019t remember. I haven\u2019t seen any blood in my urine or stool, and I haven\u2019t had any nosebleeds or gum bleeding that I can recall. But now that you mention it, with my elevated PTT and being on Coumadin and Heparin, I guess I should be more careful and pay attention to those signs.\n\nI\u2019m still feeling pretty anxious about everything\u2014especially with the possibility of my heart failure getting worse and the risk of aspiration pneumonia. Is there anything else I should be doing at home to help manage these symptoms? And, um, how will I know if symptoms are getting serious enough that I need to come back right away or go to the hospital? I just want to make sure I\u2019m not missing anything important.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "thank you for explaining all of that. I appreciate you taking the time"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "more bruising on arms and legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no blood in urine or stool"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no nosebleeds or gum bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated PTT"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Coumadin and Heparin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "aspiration pneumonia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything else I should be doing at home to help manage these symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "how will I know if symptoms are getting serious enough that I need to come back right away or go to the hospital?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "I just want to make sure I\u2019m not missing anything important"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014managing these symptoms and the risks associated with your cardiac condition and anticoagulation can feel overwhelming. Based on my assessment, your symptoms of worsening shortness of breath, peripheral edema, orthopnea, paroxysmal nocturnal dyspnea, reflux with possible aspiration, and increased bruising suggest that both your heart failure and bleeding risk need close monitoring. At home, continue to elevate your head when sleeping, monitor for any signs of bleeding, avoid lying flat after meals, and take note of any sudden changes in your symptoms.\n\nIf you experience severe shortness of breath at rest, chest pain, coughing up blood or discolored sputum, fever, confusion, significant swelling, or any signs of active bleeding (such as blood in urine or stool), you should assessk immediate medical attention. For my ongoing assessment, have you had any recent falls or injuries that could increase your risk of internal bleeding while your PTT is elevated?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath, peripheral edema, orthopnea, paroxysmal nocturnal dyspnea, reflux with possible aspiration, increased bruising"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "heart failure and bleeding risk"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "elevate your head when sleeping, monitor for signs of bleeding, avoid lying flat after meals, take note of sudden changes in symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "seek immediate medical attention if severe shortness of breath at rest, chest pain, coughing up blood or discolored sputum, fever, confusion, significant swelling, or signs of active bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "recent falls or injuries that could increase risk of internal bleeding"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 no, I haven\u2019t had any recent falls or injuries, thankfully. I\u2019ve been trying to be extra careful, especially since you mentioned my PTT is elevated and I\u2019m on both Coumadin and Heparin. I do get a bit unsteady sometimes, but I use my walker around the house and try not to rush.\n\nI really appreciate you explaining all of this and telling me what symptoms to watch out for. It\u2019s just a lot to keep track of, with the heart failure, the bleeding risk, and now the reflux and possible aspiration. Sometimes I worry that I might miss something important or not realize when it\u2019s serious enough to call for help.\n\nIs there anything else I should be doing at home to help manage all these symptoms? And, um, how often should I be examinationing in with you or getting labs done, given my current condition? I just want to make sure I\u2019m staying on top of everything and not letting symptoms get worse without realizing it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "no recent falls or injuries"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unsteady sometimes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "uses walker around the house"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "on Coumadin and Heparin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "PTT is elevated"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bleeding risk"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "reflux"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible aspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should be doing at home to help manage all these symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Frequency",
+          "value": "how often should I be checking in or getting labs done"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I appreciate your careful attention to your symptoms and your commitment to managing your condition at home. Based on my assessment, your worsening shortness of breath, peripheral edema, orthopnea, paroxysmal nocturnal dyspnea, reflux with possible aspiration, and elevated PTT levels indicate that close monitoring is essential. I recommend regular clinical follow-up, frequent laboratory assessment of your anticoagulation status (including INR and PTT), daily weight monitoring, and prompt reporting of any new or worsening symptoms such as bleeding, severe dyspnea, or signs of infection.\n\nTo help guide your care, have you been able to monitor your weight and blood pressure at home, and do you have access to equipment for these measurements?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reflux with possible aspiration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated PTT levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "regular clinical follow-up"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "frequent laboratory assessment of anticoagulation status (including INR and PTT)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Other",
+          "value": "daily weight monitoring"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "prompt reporting of any new or worsening symptoms such as bleeding, severe dyspnea, or signs of infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "monitor your weight and blood pressure at home"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "access to equipment for these measurements"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I do have a scale at home, so I can examination my weight every day like you suggested. I haven\u2019t really been doing that regularly, but I can start keeping track. As for blood pressure, I don\u2019t have a machine at home right now. Would you recommend that I get one? Is there a certain range I should be watching for, or numbers that would mean I need to call you?\n\nI just want to make sure I\u2019m doing everything right, especially with all these symptoms\u2014like the worsening shortness of breath, peripheral edema, orthopnea, and now the reflux and possible aspiration. And with my elevated PTT and being on Coumadin and Heparin, it\u2019s a little overwhelming to keep track of everything. Should I be writing all this down somewhere, or is there a chart you\u2019d recommend?\n\nSorry for all the questions\u2014I just want to make sure I don\u2019t miss anything important or let symptoms get worse without realizing it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reflux"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible aspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated PTT"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Coumadin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Heparin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I get a blood pressure machine?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Range-body",
+          "value": "Is there a certain blood pressure range I should watch for?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Are there numbers that mean I need to call you?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be writing all this down or is there a chart you recommend?"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I appreciate your thoroughness and commitment to monitoring your symptoms\u2014it\u2019s completely understandable to have questions given the complexity of your condition. Based on my assessment, your worsening shortness of breath, peripheral edema, orthopnea, paroxysmal nocturnal dyspnea, reflux with possible aspiration, and elevated PTT levels indicate that your heart failure and anticoagulation require close observation. I recommend daily weight examination, keeping a written log of your symptoms and measurements, and obtaining a home blood pressure monitor if possible; please notify me if your blood pressure is consistently below 100/60 mmHg or above 160/90 mmHg, or if you gain more than 2 pounds in a day or 5 pounds in a week.\n\nFor my ongoing assessment, have you had any recent laboratory evaluations of your INR to ensure your anticoagulation is within the therapeutic range?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I believe I had my INR examinationed about a week ago, but I\u2019m not exactly sure what the number was. The nurse said it was a little higher than usual, but still in the range they wanted for someone on Coumadin. I haven\u2019t had it examinationed since then, though. Should I be getting it done more often with all these symptoms and the elevated PTT?\n\nAnd, um, thank you for explaining about the blood pressure and weight. I\u2019ll start keeping a written log of my symptoms, daily weights, and\u2014once I get a blood pressure monitor\u2014those numbers too. It\u2019s just a lot to keep track of, especially with the heart failure, anticoagulation, and now the reflux and possible aspiration. Is there a certain symptom or change that should make me call you right away versus just writing it down in my log? I just want to make sure I\u2019m not missing something urgent.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "INR examination"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "about a week ago"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "PTT"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Coumadin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reflux"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible aspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "frequency of INR examination"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "symptom or change that should prompt immediate contact"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "Thank you for being so proactive in monitoring your symptoms and laboratory examinations\u2014it\u2019s understandable to feel overwhelmed with the complexity of your condition. Based on my assessment, your worsening shortness of breath, peripheral edema, orthopnea, paroxysmal nocturnal dyspnea, reflux with possible aspiration, and elevated PTT values indicate that your heart failure and anticoagulation require close follow-up. I recommend daily weight and symptom logs, regular INR and PTT examinations (at least weekly or as directed), and prompt reporting of any acute symptoms such as severe shortness of breath at rest, chest pain, fever, coughing up blood, new or worsening swelling, or signs of active bleeding.\n\nAs part of your ongoing management, have you scheduled a follow-up clinical examination with your cardiologist or primary care physician to reassess your heart failure status and anticoagulation therapy?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "orthopnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reflux with possible aspiration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated PTT values"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Treatment",
+          "value": "anticoagulation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "daily weight and symptom logs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "regular INR and PTT examinations (at least weekly or as directed)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "prompt reporting of any acute symptoms such as severe shortness of breath at rest, chest pain, fever, coughing up blood, new or worsening swelling, or signs of active bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Medical-place",
+          "value": "follow-up clinical examination with your cardiologist or primary care physician"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t actually scheduled my next follow-up yet. I was waiting to see how these symptoms would go, but with everything getting worse\u2014like the shortness of breath, peripheral edema, and now the reflux and possible aspiration\u2014I think I probably should. Do you think I need to see my cardiologist sooner rather than later? Or should I start with my primary care physician?\n\nAlso, with all these symptoms and the elevated PTT, is it possible that my medications need to be adjusted? I\u2019m just worried about the risk of bleeding with the Coumadin and Heparin, especially since I\u2019ve noticed more bruising lately. And I\u2019m still feeling pretty anxious about the possibility of heart failure getting worse or developing something like aspiration pneumonia.\n\nIs there anything else I should be asking about or looking out for? I just want to make sure I\u2019m doing everything right and not missing something important.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "peripheral edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "reflux"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible aspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medical-place",
+          "value": "cardiologist"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medical-place",
+          "value": "primary care physician"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "Coumadin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "Heparin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated PTT"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bruising"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "aspiration pneumonia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "anything else I should be asking about or looking out for"
+        }
+      ]
+    }
+  ]
+}

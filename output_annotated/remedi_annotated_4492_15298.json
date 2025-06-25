@@ -6,13 +6,13 @@
     {
       "turn_id": 0,
       "role": "Doctor",
-      "utterance_text": "Hello, thank you for coming in today. I understand you experienced a fall and some changes in your level of consciousness. Can you describe what you remember about the events leading up to your fall and any symptoms you noticed right before or after it?",
+      "utterance_text": "Hello, thank you for coming in today. I understand you experienced a fall and some changes in your level of consciousness. Can you describe what you remember about the events leading up to your fall and any symptoms you noticed right before it happened?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Chitchat",
           "slot": "Other",
-          "value": "greeting and thanking patient"
+          "value": "greeting"
         },
         {
           "label_type": "action",
@@ -30,76 +30,76 @@
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "symptoms before or after fall"
+          "value": "symptoms before the fall"
         }
       ]
     },
     {
       "turn_id": 1,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 I\u2019m not sure I remember everything clearly, but I know I had a fall. I think I just sort of went down all of a sudden. My main concern right now is that it\u2019s been really hard to breathe\u2014like I can\u2019t get a full breath in, especially down low in my chest. Should I be worried about that?",
+      "utterance_text": "Well, um... I don\u2019t remember much right before the fall, to be honest. I just know I ended up on the floor and felt really out of it. My main concern is that I\u2019ve been having trouble breathing\u2014it feels like I can\u2019t get a full breath, especially down low in my lungs. Should I be worried?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "had a fall"
+          "slot": "Symptom",
+          "value": "trouble breathing"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "hard to breathe"
+          "value": "can\u2019t get a full breath"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "can't get a full breath in"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Range-body",
-          "value": "down low in my chest"
+          "value": "felt really out of it"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Should I be worried about that?"
+          "slot": "Other",
+          "value": "Should I be worried?"
         }
       ]
     },
     {
       "turn_id": 2,
       "role": "Doctor",
-      "utterance_text": "I can understand why experiencing short of breath would make you anxious, especially after such a serious fall. To help guide my assessment, can you tell me if your difficulty breathing started immediately after the fall, or did it develop later on during your hospital stay?",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014having difficulty breathing and not remembering the events before your fall can be very unsettling. To help me with my assessment, can you tell me if your shortness of breath is constant or if it gets worse with activity or when lying down?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "short of breath"
+          "value": "difficulty breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not remembering the events before the fall"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "difficulty breathing"
+          "value": "shortness of breath"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
-          "slot": "Time",
-          "value": "immediately after the fall or later during hospital stay"
+          "slot": "Other",
+          "value": "whether shortness of breath is constant or worsens with activity or lying down"
         }
       ]
     },
     {
       "turn_id": 3,
       "role": "Patient",
-      "utterance_text": "Um\u2026 I think the shortness of breath started after the fall, not right away, but maybe a little while later. They did a chest x-ray and mentioned something about bibasilar opacities\u2014I\u2019m not sure what that means exactly, but it\u2019s making me a bit anxious. Should I be worried about that?",
+      "utterance_text": "Well, um\u2026 I think the shortness of breath is there most of the time, but maybe a little worse when I try to move around or if I\u2019m lying flat. I heard someone mention \u201cbibasilar opacities\u201d on my chest x-ray\u2014does that have something to do with why it\u2019s shortness of breath? I\u2019m just really anxious about all of this.",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -110,45 +110,45 @@
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Time",
-          "value": "after the fall, not right away, but maybe a little while later"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "chest x-ray"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Other",
-          "value": "bibasilar opacities"
+          "slot": "Effect",
+          "value": "worse with movement or lying flat"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "Should I be worried about that?"
+          "slot": "Check_item",
+          "value": "bibasilar opacities on chest x-ray"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
         }
       ]
     },
     {
       "turn_id": 4,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious about your breathing and the findings on your chest x-ray\u2014these symptoms can feel very unsettling. When you say it\u2019s hard to get a full breath, do you notice any associated symptoms like chest pain, cough, or fever that have developed since your fall?",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014experiencing short of breath and not remembering what happened can be very distressing. The term \u201cbibasilar opacities\u201d on your chest x-ray refers to changes assessn at the bases of your lungs, which can sometimes be related to fluid, infection, or areas of collapse and may contribute to your respiratory symptoms. Can you tell me if you\u2019ve noticed any additional symptoms such as cough, chest pain, or fevers since your fall?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "I can understand why you\u2019d be anxious about your breathing and the findings on your chest x-ray\u2014these symptoms can feel very unsettling."
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "bibasilar opacities on chest x-ray"
         },
         {
           "label_type": "action",
-          "type_name": "Inquiring",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "bases of lungs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
           "slot": "Symptom",
-          "value": "chest pain"
+          "value": "short of breath"
         },
         {
           "label_type": "action",
@@ -160,20 +160,26 @@
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "fever"
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fevers"
         }
       ]
     },
     {
       "turn_id": 5,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 let me think. I haven\u2019t really had much chest pain, but I have felt kind of feverish\u2014like I\u2019ve had chills and I think my temperature\u2019s been up since the fall. And, actually, my stomach\u2019s been paining a bit too, sort of like an abdominal pain. I\u2019m not sure if that\u2019s related or not. Is it normal to have all these symptoms after a fall?",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really had much of a cough or chest pain, but I did notice I\u2019ve had a bit of a fever\u2014I felt pretty warm and had some chills. Also, since the fall, I\u2019ve had some abdominal pain that comes and goes. I\u2019m not sure if that\u2019s related, but it\u2019s been bothering me. Should I be worried about all these symptoms together?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "feverish"
+          "value": "fever"
         },
         {
           "label_type": "intent",
@@ -185,38 +191,50 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "increased temperature"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
           "value": "abdominal pain"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Time",
-          "value": "since the fall"
+          "slot": "Symptom",
+          "value": "no cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "Is it normal to have all these symptoms after a fall?"
+          "slot": "Other",
+          "value": "Should I be worried about all these symptoms together?"
         }
       ]
     },
     {
       "turn_id": 6,
       "role": "Doctor",
-      "utterance_text": "Thank you for sharing those symptoms\u2014it\u2019s helpful for my assessment. Since you mentioned experiencing feverish with chills and abdominal pain after your fall, have you noticed any changes in your mental status, such as confusion, difficulty staying awake, or trouble speaking, since the incident?",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the combination of fever, chills, and abdominal pain following your fall. To help with my assessment of your altered level of consciousness, have you noticed any new confusion, difficulty staying awake, or trouble remembering symptoms since your fall?",
       "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried about these symptoms"
+        },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "feverish with chills"
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
         },
         {
           "label_type": "action",
@@ -226,360 +244,52 @@
         },
         {
           "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "following your fall"
+        },
+        {
+          "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "changes in mental status such as confusion, difficulty staying awake, or trouble speaking"
+          "value": "new confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty staying awake"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "trouble remembering symptoms"
         }
       ]
     },
     {
       "turn_id": 7,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 yes, I think there have been some changes. I\u2019ve felt kind of out of it\u2014like my level of consciousness isn\u2019t quite right. Sometimes it\u2019s hard to stay awake or focus, and I haven\u2019t really been able to speak much since the fall. I\u2019m also worried because they mentioned something about respiratory failure, and that sounds pretty serious. Should I be really concerned about these symptoms?",
+      "utterance_text": "Well, um\u2026 yes, I think there\u2019s definitely been some confusion. I feel kind of foggy, and it\u2019s hard to remember symptoms\u2014even just simple stuff from earlier today. I\u2019ve also been really tired, like I could just fall asleep at any moment. Actually, someone mentioned \u201caltered level of consciousness\u201d and \u201crespiratory failure\u201d when they were talking about me, and that makes me even more anxious. Is that something serious?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "altered level of consciousness"
+          "value": "feeling foggy"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "difficulty staying awake"
+          "value": "difficulty remembering symptoms"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "difficulty focusing"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "reduced ability to speak"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "fall"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "concern about respiratory failure"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "Should I be really concerned about these symptoms?"
-        }
-      ]
-    },
-    {
-      "turn_id": 8,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried, especially with symptoms like experiencing \u201cout of it\u201d and concerns about respiratory failure. To help with my assessment, can you tell me if you experienced any nosebleeds (epistaxis) or bleeding from other areas after your fall?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "feeling 'out of it'"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "concerns about respiratory failure"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "nosebleeds (epistaxis)"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "bleeding from other areas after fall"
-        }
-      ]
-    },
-    {
-      "turn_id": 9,
-      "role": "Patient",
-      "utterance_text": "Um, yes, actually\u2014I did have a nosebleed, or I guess you called it epistaxis, after the fall. It was pretty heavy for a bit. And, well, I\u2019ve noticed that my face feels kind of strange on the left side. Someone mentioned I have a left facial droop. That\u2019s making me even more anxious, to be honest. Should I be worried about these symptoms too?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "nosebleed"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "left facial droop"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "strange feeling on left side of face"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "Should I be worried about these symptoms?"
-        }
-      ]
-    },
-    {
-      "turn_id": 10,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious, especially with new symptoms like a facial droop and changes in sensation. To help guide my assessment, have you noticed any weakness or numbness in your left upper extremity since the fall, or difficulty moving that arm during examination?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "facial droop"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "changes in sensation"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "weakness in left upper extremity"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "numbness in left upper extremity"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "difficulty moving left arm"
-        }
-      ]
-    },
-    {
-      "turn_id": 11,
-      "role": "Patient",
-      "utterance_text": "Yes, actually\u2026 now that you mention it, I have noticed weakness in my left arm since the fall. It\u2019s been really hard to move it, and sometimes it just feels numb or heavy. I\u2019m not sure if it\u2019s getting any better. Also, I\u2019ve had some episodes of emesis\u2014throwing up\u2014and there were some bloody secretions in it, which really scared me. Is that something serious? I\u2019m just feeling more and more anxious with all these symptoms coming up.",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "weakness in left arm"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "hard to move left arm"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "numbness or heaviness in left arm"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "emesis (throwing up)"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "bloody secretions in vomit"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Other",
-          "value": "Is that something serious?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "feeling more anxious"
-        }
-      ]
-    },
-    {
-      "turn_id": 12,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be experiencing anxious with these symptoms, especially after experiencing weakness and numbness in your left arm along with changes in your level of consciousness. To help with my assessment, have you noticed any difficulty moving or experiencing sensation in your left leg as well, or is it mainly limited to your left upper extremity?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "weakness and numbness in left arm"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "changes in level of consciousness"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "difficulty moving or experiencing sensation in left leg"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Range-body",
-          "value": "left upper extremity"
-        }
-      ]
-    },
-    {
-      "turn_id": 13,
-      "role": "Patient",
-      "utterance_text": "Well, um\u2026 actually, it\u2019s not just my left arm. My whole left side feels weak\u2014I can\u2019t really move my left leg either. It\u2019s almost like I have left hemiplegia, I think that\u2019s what you called it? And, I\u2019ve had a fever over 100.5, with chills, which has me worried about infection or something more serious.\n\nAlso, I noticed that I can\u2019t really flex or extend my neck when asked\u2014it just won\u2019t move the way it should. Is that something you\u2019re concerned about? I\u2019m feeling pretty anxious with all of these symptoms happening at once.",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "weakness of whole left side"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "cannot move left leg"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "left hemiplegia"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Temperature",
-          "value": "fever over 100.5"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "chills"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "infection or something more serious"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "cannot flex or extend neck"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "concern about inability to move neck"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "anxiety about symptoms"
-        }
-      ]
-    },
-    {
-      "turn_id": 14,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried with so many symptoms happening at once, especially the weakness and changes in your ability to move your left side. To help with my assessment, have you noticed any changes in your ability to feel sensation\u2014such as numbness or tingling\u2014on your left side during examination, or is it primarily weakness without sensory changes?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "weakness and changes in ability to move left side"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "changes in sensation such as numbness or tingling on left side"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "primarily weakness without sensory changes"
-        }
-      ]
-    },
-    {
-      "turn_id": 15,
-      "role": "Patient",
-      "utterance_text": "Well, let me think\u2026 It\u2019s mostly weakness on my left side, but I do feel some numbness and tingling too\u2014especially in my left arm and leg. It\u2019s kind of hard to tell exactly, since I haven\u2019t really been able to follow commands or speak much since all this started. Sometimes I just can\u2019t get the words out, or I don\u2019t quite understand what\u2019s being asked. That\u2019s been really frustrating and honestly, it makes me pretty anxious.\n\nShould I be worried about not being able to follow commands or speak? Does that mean something serious is going on with my brain?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "weakness on left side"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "numbness and tingling in left arm and leg"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "difficulty following commands"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "difficulty speaking"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "difficulty understanding speech"
+          "value": "fatigue"
         },
         {
           "label_type": "intent",
@@ -591,100 +301,230 @@
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Disease",
-          "value": "concern about serious brain problem"
+          "value": "altered level of consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "respiratory failure"
         }
       ]
     },
     {
-      "turn_id": 16,
+      "turn_id": 8,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with symptoms like difficulty speaking, not being able to follow commands, and weakness with numbness on your left side\u2014these can be very concerning. Based on your symptoms and examination findings, I\u2019m assessing for possible neurological injury, such as a stroke or brain hemorrhage, which can affect both movement and speech. Have you experienced any changes in your vision or noticed any double vision since these symptoms began?",
+      "utterance_text": "I can understand why you\u2019d be anxious\u2014hearing terms like \u201caltered level of consciousness\u201d and \u201crespiratory failure\u201d can sound very serious. To help with my assessment, have you experienced any episodes of nosebleeds (epistaxis) or noticed any blood from your nose since your fall?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be anxious\u2014hearing terms like \u201caltered level of consciousness\u201d and \u201crespiratory failure\u201d can sound very serious."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of nosebleeds (epistaxis) or noticed any blood from your nose since your fall"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 yes, actually, I did have some nosebleeds\u2014epistaxis, I think you called it. There was blood coming from my nose after the fall, and I remember someone mentioning there was blood in my mouth too. I also had some vomiting, and I think there might have been blood in that as well. Is that something to be concerned about?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nosebleeds"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood coming from nose"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood in mouth"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood in vomit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is that something to be concerned about?"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the confusion and the bleeding you described. To help with my assessment, have you or anyone around you noticed any changes in your ability to move your face or arm\u2014such as a facial droop or weakness on one side\u2014since your fall?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ability to move face or arm"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "facial droop"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "weakness on one side"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2026 now that you mention it, they told me I have a left facial droop. I can kind of feel it\u2014my face feels a bit numb or heavy on that side, and it\u2019s harder to move. My left arm also feels weak, and I can\u2019t really use it like I normally do. I didn\u2019t really notice it at first, but the nurses pointed it out. \n\nWith all these symptoms\u2014like the epistaxis, the weakness, and the confusion\u2014I\u2019m just really anxious. Is this all connected? Should I be worried about something like a stroke or bleeding in my brain?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left facial droop"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness or heaviness on left side of face"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty moving left side of face"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left arm weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "inability to use left arm normally"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "epistaxis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "stroke"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "bleeding in brain"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the new left facial droop, arm weakness, and changes in your level of consciousness. To help with my assessment, have you noticed any difficulty speaking, understanding language, or trouble following commands since your fall?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left facial droop"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "arm weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in level of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
           "slot": "Symptom",
           "value": "difficulty speaking"
         },
         {
           "label_type": "action",
-          "type_name": "Informing",
+          "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "not being able to follow commands"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "weakness with numbness on left side"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "neurological injury"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "stroke"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "brain hemorrhage"
+          "value": "difficulty understanding language"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "changes in vision"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "double vision"
+          "value": "trouble following commands"
         }
       ]
     },
     {
-      "turn_id": 17,
+      "turn_id": 13,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed any double vision, but my eyesight does feel a little off\u2014maybe a bit blurry at times, but not seeing two of symptoms. I\u2019m not sure if that\u2019s related or just because I\u2019ve been so out of it.\n\nAlso, I wanted to mention, I\u2019ve noticed some swelling in both my lower legs\u2014like 1+ bilateral lower extremity edema, I think you called it. And there\u2019s a big bruise with a lot of soft tissue swelling over my left knee from the fall. It\u2019s pretty tender and looks kind of alarming.\n\nWith all these symptoms\u2014like the weakness, the trouble speaking, and now the swelling and bruising\u2014I\u2019m just really anxious. Does this all fit with a stroke or brain hemorrhage? Should I be worried about long-term symptoms?",
+      "utterance_text": "Well, um\u2026 yes, I think I have had some trouble speaking since the fall. It\u2019s hard to get the words out sometimes, and I don\u2019t always understand what people are saying right away. I also remember someone asking me to do symptoms\u2014like move my arm or follow commands\u2014and I just couldn\u2019t. My left upper extremity feels really weak, almost like I can\u2019t control it at all.\n\nAnd about the emesis\u2014there was some vomiting, and I noticed there were bloody secretions in it. That really scared me. With all these symptoms happening together, should I be worried about something serious going on in my brain?",
       "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "blurry vision"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "swelling in both lower legs (1+ bilateral lower extremity edema)"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "bruise with soft tissue swelling over left knee"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "tenderness over left knee"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "weakness"
-        },
         {
           "label_type": "intent",
           "type_name": "Informing",
@@ -693,40 +533,168 @@
         },
         {
           "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "stroke or brain hemorrhage"
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty understanding speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "inability to move arm or follow commands"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left upper extremity weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bloody secretions in vomit"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "long-term symptoms"
+          "slot": "Disease",
+          "value": "serious brain condition"
         }
       ]
     },
     {
-      "turn_id": 18,
+      "turn_id": 14,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious with all these symptoms, especially the weakness, difficulty speaking, and swelling you\u2019ve described. Based on your symptoms\u2014including altered level of consciousness, left-sided weakness, and findings on examination like facial droop and edema\u2014my assessment is focused on possible neurological injury such as a stroke or intracranial hemorrhage, as well as complications from your fall. To further guide my assessment, have you experienced any new or worsening headaches since the onset of your symptoms?",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with symptoms like confusion and significant weakness in your left arm. To help with my assessment, have you experienced any changes in sensation\u2014such as numbness or tingling\u2014in your left upper extremity, or is it primarily weakness that you\u2019ve noticed?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "weakness"
+          "value": "confusion"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "difficulty speaking"
+          "value": "significant weakness in left arm"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in sensation in left upper extremity"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "numbness in left upper extremity"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "tingling in left upper extremity"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "weakness in left upper extremity"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 It\u2019s mostly weakness in my left arm, but there is a bit of numbness too. It just feels kind of heavy and not really connected, if that makes sense. I can\u2019t really move it the way I want to. Actually, someone tried to get me to flex or extend my neck on command, but I just couldn\u2019t do it\u2014it was like my body wasn\u2019t listening.\n\nAnd about the fever\u2014I\u2019ve definitely had one, and some chills too. That\u2019s making me even more anxious, especially with all these symptoms happening at once. Should I be worried about an infection or something else serious going on?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness in left arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness in left arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heaviness in left arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty moving left arm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "inability to flex or extend neck on command"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection or something else serious"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with symptoms like fever, chills, confusion, and weakness in your left arm. Based on your description\u2014altered level of consciousness, left-sided weakness, facial droop, and difficulty following commands\u2014these symptoms can be assessn with serious neurological conditions such as intracranial hemorrhage or stroke, and infection is also a concern given your fever and chills. To further guide my assessment, have you experienced any recent headaches or visual changes since your fall?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "swelling"
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness in left arm"
         },
         {
           "label_type": "action",
@@ -750,19 +718,7 @@
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "edema"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "neurological injury"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "stroke"
+          "value": "difficulty following commands"
         },
         {
           "label_type": "action",
@@ -774,20 +730,32 @@
           "label_type": "action",
           "type_name": "Diagnosis",
           "slot": "Disease",
-          "value": "complications from fall"
+          "value": "stroke"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "infection"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "new or worsening headaches"
+          "value": "headache"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "visual changes"
         }
       ]
     },
     {
-      "turn_id": 19,
+      "turn_id": 17,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 yes, I have had some headpains since all of this started. They\u2019re not the worst pain I\u2019ve ever felt, but they do come and go, and sometimes it\u2019s more of a pressure than a sharp pain. I think I heard someone mention a subarachnoid hemorrhage on both sides of my brain\u2014does that explain the headpains and why I\u2019m feeling so \u201cnot interactive\u201d or out of it? I just feel like I\u2019m not myself at all, like I can\u2019t really connect or respond the way I usually would.\n\nI\u2019m really anxious about what all this means. With the subarachnoid hemorrhage and everything else going on, should I be worried about my recovery or long-term symptoms? And is there anything else I should be watching out for right now?",
+      "utterance_text": "Well, um\u2026 yes, I have had some headpains since the fall. They come and go, but sometimes they feel pretty strong, especially around my forehead and the sides of my head. I haven\u2019t really noticed any big changes in my vision, but honestly, with all the confusion and not really being able to follow commands or speak properly, it\u2019s hard to tell. Sometimes symptoms seem a little blurry, but I don\u2019t know if that\u2019s just from feeling out of it.\n\nI\u2019m really anxious about all these symptoms\u2014especially with the altered level of consciousness, the left-sided weakness, and not being able to speak or follow commands like I usually can. Is this all from the intracranial hemorrhage or could it be something else? Should I be worried about long-term symptoms?",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -799,74 +767,458 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "pressure in head"
+          "value": "headache around forehead and sides of head"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "feeling not interactive or out of it"
+          "value": "confusion"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "feeling not myself, can't connect or respond as usual"
+          "value": "not being able to follow commands"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not being able to speak properly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms seem blurry"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "altered level of consciousness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left-sided weakness"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Disease",
-          "value": "subarachnoid hemorrhage"
+          "value": "Is this all from the intracranial hemorrhage or could it be something else?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried about long-term symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially given the altered level of consciousness, left-sided weakness, and difficulty with speech and following commands. Based on your description and the findings from your examination, these symptoms are concerning for a significant neurological event such as an intracranial hemorrhage, which can affect brain function and cause long-term symptoms. To help with my assessment, have you noticed any changes in your ability to move or feel your left leg, similar to what you\u2019re experiencing in your left arm?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "altered level of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left-sided weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty with speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty following commands"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "intracranial hemorrhage"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ability to move or feel left leg"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yes, actually\u2026 my left leg feels pretty weak too, kind of like my left arm. It\u2019s hard to move it, and I don\u2019t really have much control. There\u2019s also some numbness, and my leg just feels heavy. I noticed there\u2019s some swelling\u2014what you called edema\u2014in both of my lower legs, but especially on the left. And there\u2019s a big bruise and what feels like soft tissue swelling over my left knee since the fall. It\u2019s pretty sore when I touch it.\n\nWith all these symptoms\u2014like the intracranial hemorrhage, the edema, and the weakness\u2014I\u2019m just really anxious about what this means for me long-term. Is there a chance I\u2019ll get back to normal, or should I be worried about permanent symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left leg weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty moving left leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of control in left leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness in left leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heaviness in left leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling (edema) in both lower legs, especially left"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bruise and soft tissue swelling over left knee"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "soreness over left knee"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "intracranial hemorrhage"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Effect",
-          "value": "Does subarachnoid hemorrhage explain headpains and feeling out of it?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Should I be worried about recovery or long-term symptoms?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Is there anything else I should be watching out for right now?"
+          "value": "prognosis for recovery and risk of permanent symptoms"
         }
       ]
     },
     {
       "turn_id": 20,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried and anxious, especially with symptoms like persistent headache, experiencing \u201cnot interactive,\u201d and the diagnosis of subarachnoid hemorrhage. Based on your clinical findings\u2014including left-sided weakness, difficulty speaking, decreased level of consciousness, and imaging showing both subarachnoid and intraparenchymal hemorrhage\u2014my assessment is that your symptoms are most likely related to significant neurological injury from bleeding in the brain after your fall. \n\nTo further guide my assessment, have you experienced any new onset of seizures or abnormal movements since your symptoms began?",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the weakness, numbness, edema, and bruising you\u2019ve described. Based on your examination and the findings of intracranial hemorrhage, left-sided weakness, and swelling in your lower extremities, my assessment is that you are experiencing significant neurological impairment likely related to your brain hemorrhage, as well as possible soft tissue injury from your fall. To further guide my assessment, have you noticed any changes in your ability to control your bladder or bowels since these symptoms began?",
       "remedi_labels": []
     },
     {
       "turn_id": 21,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 I don\u2019t think I\u2019ve had any seizures that I know of\u2014no shaking or anything like that. But honestly, with everything going on and feeling so out of it, I\u2019m not sure I\u2019d even notice if something like that happened unless someone told me. I did hear the team mention an intraparenchymal hemorrhage in my right parietal region, and some edema in the brain parenchyma just in front of where the hemorrhage is. That sounds pretty serious to me.\n\nI\u2019m really anxious about all of this. With both the subarachnoid and intraparenchymal hemorrhages, and the swelling in my brain, does that mean my symptoms\u2014like the weakness, trouble speaking, and not being interactive\u2014are likely to get worse? Or is there a chance for recovery? And is there anything my family should be looking out for in case symptoms change suddenly?",
+      "utterance_text": "Well, um\u2026 now that you mention it, I think I have had a little trouble with bladder control since all of this started. It\u2019s been hard to get up and go, and sometimes I\u2019m not sure if I even notice when I need to go. I haven\u2019t really noticed any big changes with my bowels yet, but I\u2019m worried that could happen too.\n\nI heard someone say I\u2019ve been \u201cnot interactive\u201d at times, and that there\u2019s a subarachnoid hemorrhage bilaterally. That sounds really serious. With all these neurological symptoms\u2014the weakness, the numbness, the confusion, and now the bladder symptoms\u2014should I be worried about permanent damage? Is there anything that can help me recover, or is this something that\u2019s likely to stay with me?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no seizures, no shaking"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease",
-          "value": "intraparenchymal hemorrhage in right parietal region"
+          "value": "trouble with bladder control"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "edema in brain parenchyma"
+          "value": "hard to get up and go"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not sure if I notice when I need to go"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no big changes with bowels"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "not interactive at times"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "subarachnoid hemorrhage bilaterally"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "worried about permanent damage"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "is there anything that can help me recover"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "is this something that\u2019s likely to stay with me"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about the possibility of permanent symptoms, especially with the neurological symptoms and changes in bladder control you\u2019ve described. Based on your assessment\u2014including the findings of subarachnoid hemorrhage, left-sided weakness, confusion, and decreased interactivity\u2014these are signs of significant brain injury, which can sometimes lead to lasting deficits, but recovery is possible and often depends on the extent of the hemorrhage and your response to treatment and rehabilitation. \n\nTo help guide your treatment plan, have you had any recent imaging studies\u2014such as a repeat CT or MRI of the brain\u2014to assess for changes in the hemorrhage or swelling since your initial examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neurological symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in bladder control"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "subarachnoid hemorrhage"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left-sided weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased interactivity"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "significant brain injury"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "recent imaging studies (CT or MRI of the brain)"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I think they did another CT scan not too long ago, but I\u2019m not sure what the results were. I remember someone mentioning there\u2019s an intraparenchymal hemorrhage within the right parietal region, and also some edema in the brain parenchyma just in front of where the hemorrhage is. That sounds pretty serious to me.\n\nI\u2019m just really anxious about all of this. With the subarachnoid hemorrhage, the intraparenchymal hemorrhage, and now the swelling\u2014does that mean symptoms are getting worse? Is there anything that can be done to help with the edema or prevent more damage? And, um\u2026 how likely is it that I\u2019ll get back to my normal self?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "CT scan"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "intraparenchymal hemorrhage"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "right parietal region"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "edema in the brain parenchyma"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Emotion",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "subarachnoid hemorrhage"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "symptoms getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "help with edema or prevent more damage"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "likelihood of returning to normal self"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the findings of subarachnoid and intraparenchymal hemorrhage, associated brain edema, and your ongoing neurological symptoms. Based on your assessment, the medical team will focus on closely monitoring your neurological status, managing brain swelling (edema), and preventing further injury\u2014this may include medications to reduce intracranial pressure, careful blood pressure control, and supportive care in the intensive care unit. \n\nTo help guide your treatment plan, have you experienced any new or worsening symptoms\u2014such as increased drowsiness, difficulty breathing, or changes in your ability to move\u2014since your most recent imaging examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "subarachnoid and intraparenchymal hemorrhage"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "brain edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "ongoing neurological symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "closely monitoring neurological status, managing brain swelling, preventing further injury, medications to reduce intracranial pressure, blood pressure control, supportive care in ICU"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening symptoms such as increased drowsiness, difficulty breathing, changes in ability to move"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I have noticed that I\u2019ve been feeling more drowsy lately, and it\u2019s harder to stay awake for long periods. The shortness of breath seems a bit worse too, especially when I\u2019m lying flat. I\u2019m still having a lot of trouble moving my left side\u2014my arm and leg just aren\u2019t cooperating at all. \n\nActually, someone mentioned there\u2019s minimal frontal soft tissue swelling and dense fluid\u2014probably hemorrhage\u2014within my paranasal sinuses on the imaging. Does that mean there\u2019s more bleeding going on? Could that be making symptoms worse or causing some of these symptoms?\n\nI\u2019m just really anxious about all of this. With the brain edema, the subarachnoid and intraparenchymal hemorrhages, and now the findings in my sinuses, is there anything else I should be watching out for? And, um\u2026 how will you know if symptoms are getting better or worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "drowsiness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worse when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble moving left arm and leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left arm and leg not cooperating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "minimal frontal soft tissue swelling and dense fluid in paranasal sinuses on imaging"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Does that mean there\u2019s more bleeding going on?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Could that be making symptoms worse or causing some of these symptoms?"
         },
         {
           "label_type": "intent",
@@ -876,101 +1228,429 @@
         },
         {
           "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease",
-          "value": "subarachnoid hemorrhage"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "Will symptoms like weakness, trouble speaking, and not being interactive get worse or is there a chance for recovery?"
-        },
-        {
-          "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Precaution",
-          "value": "Is there anything my family should be looking out for in case symptoms change suddenly?"
+          "value": "is there anything else I should be watching out for?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "how will you know if symptoms are getting better or worse?"
         }
       ]
     },
     {
-      "turn_id": 22,
+      "turn_id": 26,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried and anxious, given the seriousness of your symptoms and the findings of both subarachnoid and intraparenchymal hemorrhages with associated brain edema. These conditions can certainly explain your left-sided weakness, speech difficulties, and changes in your level of consciousness, and they do carry a risk for both worsening and long-term symptoms, though some recovery is possible depending on how your brain responds to treatment and time.\n\nAt this stage, our clinical assessment will focus on closely monitoring your neurological status for any changes\u2014such as new weakness, worsening confusion, or decreased responsiveness\u2014as well as preventing complications like seizures, infection, or further bleeding. Your care team will also continue supportive treatments, including careful blood pressure management, seizure prophylaxis, and monitoring for signs of increased intracranial pressure.\n\nGiven everything you\u2019ve shared, have you or your family noticed any sudden changes in your alertness or ability to respond during examination since your last assessment?",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the ongoing drowsiness, shortness of breath, and findings of additional hemorrhage and swelling on your imaging. Based on your assessment, we will continue to monitor your neurological status very closely\u2014this includes frequent neurological examinations to assess for any changes in your level of consciousness, strength, or new symptoms. \n\nHave you noticed any new onset of severe headache, vision changes, or sudden worsening of your neurological symptoms since your last examination?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Informing",
-          "slot": "Disease",
-          "value": "subarachnoid and intraparenchymal hemorrhages with associated brain edema"
+          "slot": "Symptom",
+          "value": "drowsiness"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "left-sided weakness, speech difficulties, changes in level of consciousness"
+          "value": "shortness of breath"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
-          "slot": "Effect",
-          "value": "risk for worsening and long-term symptoms, some recovery possible"
+          "slot": "Symptom",
+          "value": "hemorrhage"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
           "slot": "Treatment",
-          "value": "monitoring neurological status, preventing complications (seizures, infection, further bleeding), supportive treatments (blood pressure management, seizure prophylaxis, monitoring intracranial pressure)"
+          "value": "continue to monitor neurological status closely with frequent neurological examinations"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "sudden changes in alertness or ability to respond"
+          "value": "new onset of severe headache"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vision changes"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden worsening of neurological symptoms"
         }
       ]
     },
     {
-      "turn_id": 23,
+      "turn_id": 27,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 I think my family has noticed that sometimes I seem more confused or less responsive than before, especially when they try to talk to me or ask me to do something. There are times when I just can\u2019t seem to focus or answer, and other times I\u2019m a bit more alert. It kind of comes and goes, but overall I feel like I\u2019m not as interactive as I used to be.\n\nAlso, I wanted to mention\u2014I heard the team say there\u2019s minimal frontal soft tissue swelling and some dense fluid, probably hemorrhage, within my paranasal sinuses. Does that have anything to do with my symptoms, or is it something separate from the brain hemorrhages? I\u2019m just really anxious about all these findings and what they might mean for my recovery. Should I be worried about the swelling or the hemorrhage in my sinuses causing more symptoms?",
+      "utterance_text": "Well, um\u2026 I haven\u2019t had any sudden, really severe headpains since the last time they examinationed on me. The head pain is still there, but it hasn\u2019t gotten much worse all of a sudden. My vision is mostly the same\u2014maybe a little blurry at times, but nothing dramatically different. The weakness and numbness on my left side are still about the same, too\u2014I don\u2019t think that\u2019s changed much.\n\nActually, I did overhear someone talking about \u201cdegenerative changes in my cervical spine,\u201d especially around C4 and C5, with something about anterior and posterior marginal osteophyte formation and calcification of the left vertebral artery. Does that have anything to do with my symptoms? Could those changes in my neck or the vertebral artery be making symptoms worse, or is it all just from the hemorrhages and edema in my brain?\n\nI\u2019m just feeling really anxious about all these findings and what they mean for my recovery. Is there anything else I should be asking about or watching for?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "confusion, less responsive, difficulty focusing, decreased interactivity"
+          "value": "head pain"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "fluctuating alertness"
+          "value": "blurry vision"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "anxiety"
+          "value": "weakness on left side"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Check_item",
-          "value": "minimal frontal soft tissue swelling, dense fluid (probably hemorrhage) within paranasal sinuses"
+          "slot": "Symptom",
+          "value": "numbness on left side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "degenerative changes in cervical spine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "anterior and posterior marginal osteophyte formation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "calcification of the left vertebral artery"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Pathogeny",
-          "value": "relationship between sinus hemorrhage/swelling and current symptoms"
+          "value": "Could changes in neck or vertebral artery be making symptoms worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Is it all just from the hemorrhages and edema in my brain?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Precaution",
-          "value": "concern about whether to be worried about swelling or hemorrhage in sinuses causing more symptoms"
+          "value": "Is there anything else I should be asking about or watching for?"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about all these findings and how they might affect your recovery. The degenerative changes in your cervical spine and calcification of the left vertebral artery are common in older adults and usually progress slowly; while they can sometimes contribute to neurological symptoms, your current symptoms\u2014such as left-sided weakness, numbness, and altered level of consciousness\u2014are much more likely related to the intracranial hemorrhages and associated brain edema assessn on your imaging. \n\nBased on your assessment, our main focus is on monitoring your neurological status, managing brain swelling, and preventing further complications. Have you experienced any new symptoms such as difficulty swallowing or changes in your speech since your last examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "degenerative changes in cervical spine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "calcification of the left vertebral artery"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "left-sided weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "numbness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "altered level of consciousness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "intracranial hemorrhages"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "brain edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "monitoring neurological status, managing brain swelling, preventing further complications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in speech"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I have noticed it\u2019s been harder to swallow lately. Sometimes I feel like symptoms get stuck or go down the wrong way, and I have to really concentrate when I\u2019m eating or drinking. My speech is still kind of slurred, and it\u2019s hard to get the words out right\u2014people have a tough time understanding me sometimes.\n\nI also heard someone mention \u201cleftward subfalcine herniation\u201d on my imaging. That sounds really serious. Is that something that could make my symptoms worse? And, um, they said I have \u201ccardiomegaly\u201d and some pulmonary edema on my chest x-ray. Could that be making my shortness of breath worse, or is it all from the brain hemorrhages?\n\nI\u2019m just really anxious about all of this. With the brain swelling, the hemorrhages, and now these new findings, is there anything else I should be worried about? And how will you know if symptoms are getting better or if I need more treatment?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "harder to swallow"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms get stuck or go down the wrong way when eating or drinking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slurred speech"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hard to get words out"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "people have a tough time understanding me"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "leftward subfalcine herniation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "could leftward subfalcine herniation make symptoms worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "cardiomegaly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pulmonary edema on chest x-ray"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "could cardiomegaly and pulmonary edema be making shortness of breath worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "is shortness of breath from brain hemorrhages"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "is there anything else I should be worried about"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "how will you know if symptoms are getting better"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "how will you know if I need more treatment"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about all these findings, especially with the new difficulty swallowing, slurred speech, and the mention of leftward subfalcine herniation, cardiomegaly, and pulmonary edema. Based on your assessment, your symptoms are likely being affected by both the brain hemorrhages and swelling, as well as your underlying heart and lung conditions, which can contribute to shortness of breath.\n\nTo guide your ongoing treatment, have you experienced any episodes of choking, aspiration, or coughing while eating or drinking since your symptoms with swallowing began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "slurred speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "leftward subfalcine herniation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "cardiomegaly"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "pulmonary edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "brain hemorrhages and swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "choking, aspiration, or coughing while eating or drinking"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, actually, I have had a few episodes where I started coughing while trying to eat or drink\u2014especially with thin liquids. It feels like sometimes symptoms go down the wrong way, and I get a little panicked because I\u2019m worried about choking or, um, aspiration. I haven\u2019t had a full choking episode, but the coughing is definitely new for me since all these symptoms started.\n\nI also heard someone mention left lower lobe atelectasis and pulmonary edema on my chest x-ray. Could those be making my shortness of breath worse too? With the cardiomegaly and all these lung findings, plus the brain hemorrhages and swelling, it just feels like a lot is going on at once. Should I be worried about my heart or lungs getting worse on top of everything else? And is there anything I can do\u2014or that the team can do\u2014to help with the swallowing and breathing symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coughing while eating or drinking, especially with thin liquids"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worried about choking or aspiration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "brain hemorrhages and swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "new coughing since symptoms started"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "cardiomegaly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "left lower lobe atelectasis and pulmonary edema on chest x-ray"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Could left lower lobe atelectasis and pulmonary edema be making shortness of breath worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried about my heart or lungs getting worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything I can do\u2014or that the team can do\u2014to help with the swallowing and breathing symptoms?"
         }
       ]
     }

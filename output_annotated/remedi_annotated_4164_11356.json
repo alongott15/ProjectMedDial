@@ -1,0 +1,710 @@
+{
+  "source_row_id": 4163,
+  "source_subject_id": 11356,
+  "source_hadm_id": 152625,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve recently experienced chest pain and have a pulsatile mass in your abdomen. Can you tell me more about when your chest pain started and what it feels like?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pulsatile mass in abdomen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "when chest pain started"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "what chest pain feels like"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Um, well\u2026 yeah, I\u2019ve been having some chest pain lately. That\u2019s actually why I wanted to come in\u2014I\u2019m a bit worried about it.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014chest pain and noticing a pulsatile mass in your abdomen can be concerning. To help guide my assessment, can you describe if you\u2019ve noticed any changes in the size or sensation of the abdominal mass, or if you\u2019ve experienced any additional symptoms such as back pain or lightheadedness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pulsatile mass in abdomen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in size or sensation of abdominal mass"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 the main thing that\u2019s got me worried is this pulsatile mass in my abdomen. I just kind of noticed it recently, and it feels strange\u2014like it\u2019s throbbing or something. I\u2019m not really sure if it\u2019s gotten bigger, but it definitely caught my attention.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pulsatile mass in abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "throbbing sensation in abdomen"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about noticing a new, pulsatile mass in your abdomen\u2014that must feel unsettling. To help with my assessment, have you experienced any symptoms such as abdominal pain, back pain, or changes in your bowel habits along with this mass?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried about noticing a new, pulsatile mass in your abdomen\u2014that must feel unsettling."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in bowel habits"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "pulsatile abdominal mass"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 um, I haven\u2019t really noticed much abdominal pain, but I do get a little discomfort in my back sometimes. It\u2019s not super sharp, just kind of a dull pain every now and then. As for my bowel habits, I think they\u2019ve been about the same\u2014no big changes that I can remember. Should I be worried about this?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no significant abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "occasional dull back discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no significant changes in bowel habits"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about this?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms\u2014discovering a pulsatile mass and experiencing back discomfort can be unsettling. To help with my assessment, have you noticed any symptoms such as sudden onset of severe abdominal pain, fainting, or weakness in your legs, which can sometimes be associated with conditions like an abdominal aortic aneurysm?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried about these symptoms\u2014discovering a pulsatile mass and experiencing back discomfort can be unsettling."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden onset of severe abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fainting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "weakness in your legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "abdominal aortic aneurysm"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 actually, I haven\u2019t had any severe abdominal pain, nothing sudden like that. I haven\u2019t fainted either. I guess sometimes my legs feel a little weak, but I thought that might just be from getting older or maybe from my prednisone. I\u2019m not sure if that\u2019s related. This whole thing has me pretty anxious, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no severe abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fainting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "legs feel a little weak"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "prednisone"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014discovering a new pulsatile mass and experiencing some back discomfort can be unsettling. To help with my assessment, have you noticed any symptoms such as unexplained weight loss, early satiety (experiencing full quickly), or swelling in your legs, which can sometimes be associated with vascular conditions like an abdominal aortic aneurysm?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pulsatile mass"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "unexplained weight loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "early satiety"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in your legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "abdominal aortic aneurysm"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed any weight loss that I can think of. I guess sometimes I feel full a bit quicker than usual when I eat, but I just thought that was part of getting older or maybe from the prednisone. As for swelling in my legs, not really\u2014maybe a little puffiness around my ankles every now and then, but nothing major. Is early satiety something I should be concerned about with these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no noticeable weight loss"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "early satiety (feeling full quickly)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "prednisone"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "occasional puffiness around ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "concern about early satiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious about these symptoms, especially with the recent discovery of a pulsatile mass in your abdomen. To help guide my assessment, have you noticed any changes in your urinary symptoms, such as difficulty urinating, blood in the urine, or increased frequency, which can sometimes be associated with vascular conditions like an abdominal aortic aneurysm?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be anxious about these symptoms, especially with the recent discovery of a pulsatile mass in your abdomen."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urinary symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty urinating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "blood in the urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased frequency"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "abdominal aortic aneurysm"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention urinary symptoms, I don\u2019t think I\u2019ve had much trouble urinating\u2014no real difficulty or pain. I haven\u2019t noticed any blood in my urine either. Maybe I go a little more often than I used to, but I just figured that was normal for my age.\n\nI\u2019m just trying to piece all this together. With these symptoms\u2014chest pain, the pulsatile mass, some back discomfort, and now you mentioning symptoms like early satiety and leg weakness\u2014should I be really worried about an abdominal aortic aneurysm? Is this something that can get worse quickly?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no difficulty or pain urinating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no blood in urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased urinary frequency"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pulsatile mass"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "abdominal aortic aneurysm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "disease progression (can it get worse quickly)"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious about these symptoms, especially after noticing a pulsatile mass in your abdomen. To help with my assessment, have you experienced any symptoms such as sudden onset of severe abdominal or back pain, which could indicate a change in the condition of an abdominal aortic aneurysm?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be anxious about these symptoms, especially after noticing a pulsatile mass in your abdomen."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden onset of severe abdominal or back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "abdominal aortic aneurysm"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t had any sudden, severe abdominal or back pain\u2014nothing that really hit me all at once. The back discomfort I mentioned earlier is more of a dull pain, not sharp or intense. I\u2019m glad you\u2019re asking about these symptoms, though, because I honestly don\u2019t know what to watch out for with an abdominal aortic aneurysm. \n\nShould I be monitoring for certain symptoms at home? And, um, with my history of polymyalgia rheumatica and being on prednisone, does that make symptoms riskier for me? I just want to make sure I\u2019m not missing anything important.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no sudden, severe abdominal or back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dull back discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "symptoms to monitor at home for abdominal aortic aneurysm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of polymyalgia rheumatica"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "prednisone"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "risk of symptoms due to disease history and prednisone"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing your concerns and being so thorough in describing your symptoms. To further guide my assessment, have you noticed any changes in the pulsatile mass itself, such as an increase in size, change in shape, or new tenderness on examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing your concerns and being so thorough in describing your symptoms."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in the pulsatile mass such as increase in size, change in shape, or new tenderness"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Sure, um\u2026 I\u2019ve tried to pay attention to the pulsatile mass since I first noticed it. I think it might feel a little bigger than when I first found it, but I can\u2019t say for sure\u2014it\u2019s hard to tell. It does seem more noticeable when I\u2019m lying down. I haven\u2019t really felt any new tenderness when I press on it, just that odd throbbing sensation.\n\nIs it normal for something like this to change over time? And, um, with my symptoms and being on prednisone for my PMR, does that affect how an abdominal aortic aneurysm might behave or what I should watch out for?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pulsatile mass"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mass feels a little bigger"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mass more noticeable when lying down"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new tenderness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "odd throbbing sensation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is it normal for the mass to change over time?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "Does being on prednisone for PMR affect abdominal aortic aneurysm behavior or what to watch out for?"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms so clearly\u2014it\u2019s helpful for my assessment. Based on your report of a recently noticed, possibly enlarging pulsatile mass in the abdomen, mild back discomfort, and your medical history of polymyalgia rheumatica on prednisone, my clinical concern is for a possible abdominal aortic aneurysm. To further guide my assessment, have you ever undergone any imaging studies, such as an abdominal ultrasound or CT scan, to evaluate this mass?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recently noticed, possibly enlarging pulsatile mass in the abdomen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mild back discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "polymyalgia rheumatica on prednisone"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible abdominal aortic aneurysm"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "abdominal ultrasound or CT scan"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Actually, no, I haven\u2019t had any imaging studies like an abdominal ultrasound or a CT scan yet. This is the first time I\u2019ve really brought up the pulsatile mass with a doctor. I guess I was hoping it would just go away, but with the chest pain and back discomfort, I got more anxious.\n\nSince you mentioned abdominal aortic aneurysm, is that something that can get worse quickly? And with my history of polymyalgia rheumatica and being on prednisone, does that make me more at risk for complications? I\u2019m just trying to understand what all this could mean for me.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "no imaging studies like abdominal ultrasound or CT scan"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pulsatile mass"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "polymyalgia rheumatica"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "prednisone"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "abdominal aortic aneurysm progression"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "risk for complications due to disease history and medication"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with new symptoms like a pulsatile abdominal mass and your medical history of polymyalgia rheumatica treated with prednisone. Based on your description, my assessment is that you may have an abdominal aortic aneurysm, which can sometimes enlarge or change over time and may carry increased risks if you are on long-term steroids. To guide further evaluation, would you be willing to undergo an abdominal ultrasound or CT scan so we can accurately assess the size and characteristics of this mass?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Yes, I\u2019d definitely be willing to get an abdominal ultrasound or a CT scan if that\u2019s what you think is best. Honestly, with everything you\u2019ve explained about the abdominal aortic aneurysm and the risks from being on long-term prednisone, I\u2019m pretty anxious to know exactly what\u2019s going on.\n\nUm, can I ask\u2014if the imaging shows that it is an aneurysm, what happens next? Is this something that usually needs surgery, or can it be managed with medication? And with my history of polymyalgia rheumatica and glucose intolerance from the steroids, does that make any treatment riskier for me? I just want to make sure I understand what to expect.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "polymyalgia rheumatica"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "glucose intolerance from steroids"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "long-term prednisone"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what happens if imaging shows aneurysm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "does aneurysm usually need surgery or can it be managed with medication"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "does my history make treatment riskier"
+        }
+      ]
+    }
+  ]
+}

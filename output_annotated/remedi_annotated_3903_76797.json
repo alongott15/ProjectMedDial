@@ -1,0 +1,1378 @@
+{
+  "source_row_id": 3902,
+  "source_subject_id": 76797,
+  "source_hadm_id": 117966,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Good morning, thank you for coming in today. I understand you\u2019ve been experiencing shortness of breath and swelling in both legs\u2014can you tell me more about when these symptoms first began and how they have changed over time?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in both legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "when these symptoms first began"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "how they have changed over time"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I\u2019ve been having a lot more shortness of breath lately. It feels like it\u2019s getting harder to breathe, especially when I\u2019m moving around. I guess that\u2019s what you\u2019d call increased work of breathing? That\u2019s really what\u2019s worrying me the most right now.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased work of breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing when moving around"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "worry about symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that\u2014it\u2019s important that we understand how your symptoms are affecting your daily activities. In addition to the increased shortness of breath with exertion, have you noticed any difficulty breathing when lying flat or waking up at night short of breath, which we call orthopnea or paroxysmal nocturnal dyspnea?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing that\u2014it\u2019s important that we understand how your symptoms are affecting your daily activities."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty breathing when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "waking up at night short of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "which we call orthopnea or paroxysmal nocturnal dyspnea"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I have noticed the shortness of breath is worse when I\u2019m lying down. Sometimes at night I wake up kind of gasping, I think that\u2019s what you called paroxysmal nocturnal dyspnea? It\u2019s been happening more lately, and it makes me pretty anxious, to be honest.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worse when lying down"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety due to symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Frequency",
+          "value": "happening more lately"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about waking up short of breath\u2014that must be very unsettling. You also mentioned swelling in both legs; can you describe how severe the swelling has become and whether it has changed recently?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in both legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Degree",
+          "value": "severity of swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "change in swelling recently"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Um, yes, the swelling in my legs has definitely gotten worse. It used to just be a little puffiness around my ankles, but now it goes up to my calves. I think you\u2019d call that lower extremity edema? It\u2019s not super painful, but it feels tight and uncomfortable, especially by the end of the day. I\u2019m a bit anxious about it, since it seems to be getting worse along with the dyspnea. Should I be worried about these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "puffiness around ankles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling up to calves"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tight and uncomfortable feeling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014worsening swelling and difficulty breathing at night can be very concerning. To help with my assessment, have you noticed any sudden weight gain or a rapid increase in the amount of swelling in your legs over the past few days?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing at night"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "rapid increase in swelling in legs"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really been examinationing my weight every day, but my pants and socks feel tighter than usual, so maybe I have gained some fluid? The swelling in my legs definitely seemed to get worse pretty quickly over the last few days. I\u2019m not sure exactly how much, but it feels like the edema is more noticeable now.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pants and socks feel tighter"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "last few days"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "worse pretty quickly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "legs"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing how the swelling and shortness of breath have progressed. To further assess your symptoms, have you noticed any changes in your urine output or any abdominal discomfort that might suggest fluid accumulation elsewhere in your clinical examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fluid accumulation"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed much change in my urine output, I think it\u2019s about the same. But now that you mention it, I did have an episode of nausea and some dry heaving the other night. It happened after I woke up with that paroxysmal nocturnal dyspnea\u2014waking up gasping for air. I didn\u2019t actually vomit much, but it was pretty uncomfortable and made me more anxious. I don\u2019t think I\u2019ve had any real abdominal pain, though.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no change in urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry heaving"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no real abdominal pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the worsening swelling and episodes of paroxysmal nocturnal dyspnea. To help with my assessment, have you noticed any chest discomfort, palpitations, or irregular heartbeats associated with your shortness of breath or during these nighttime episodes?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "irregular heartbeats"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath during nighttime episodes"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Actually, yes\u2014I have noticed that my heart sometimes feels like it\u2019s beating funny, kind of jumpy and out of rhythm. I think that\u2019s what you\u2019d call an irregularly irregular rhythm? It happens off and on, and sometimes I get a little fluttering feeling in my chest. I haven\u2019t really had much chest discomfort, but the palpitations make me more anxious, especially when I\u2019m already short of breath.\n\nUm, I remember one of my previous doctors mentioned something about a holosystolic murmur over the left lower sternal border\u2014does that have anything to do with these symptoms? I just worry because everything seems to be happening at once. Should I be concerned about my heart with all of this going on?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "irregularly irregular heart rhythm"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluttering feeling in chest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "holosystolic murmur over the left lower sternal border"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Does holosystolic murmur relate to current symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be concerned about my heart with these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with the combination of swelling in your legs, paroxysmal nocturnal dyspnea, and palpitations. To further clarify your symptoms, have you noticed any changes in your breathing or swelling after taking your diuretic (Lasix), or do these symptoms persist despite your current medication regimen?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in your legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling after taking diuretic"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "Lasix"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "current medication regimen"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I\u2019ve been taking my Lasix just like I\u2019m supposed to, but honestly, the shortness of breath and swelling haven\u2019t really improved much. Maybe the swelling in my calves goes down a tiny bit in the morning, but by the evening it\u2019s back to being pretty noticeable\u2014like 1+ pitting edema, I think you\u2019d call it? And the dyspnea is still there, even when I try to rest.\n\nWhen I was in the hospital before, someone mentioned I had minimal bibasilar crackles on my exam\u2014does that mean there\u2019s fluid in my lungs again? I\u2019m just worried that even with all these medications, my symptoms aren\u2019t getting better. Should I be doing something differently, or is this a sign that my heart or lungs are getting worse?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Lasix"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in calves"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "1+ pitting edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "minimal bibasilar crackles"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "does minimal bibasilar crackles mean there\u2019s fluid in my lungs again"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "should I be doing something differently"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "is this a sign that my heart or lungs are getting worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially since your symptoms of lower extremity edema and paroxysmal nocturnal dyspnea have not improved despite taking your medications as prescribed. To help with my assessment, have you noticed any new or worsening symptoms such as cough, wheezing, or increased sputum production that might suggest pulmonary congestion or infection in addition to the fluid overload?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increased sputum production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluid overload"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really had much of a cough lately\u2014maybe just a little bit here and there, but nothing like when I had that multifocal pneumonia a while back. I don\u2019t have any wheezing or extra sputum, either. It\u2019s mostly just this persistent shortness of breath, especially when I try to do anything around the house\u2014like even walking to the kitchen makes me feel winded. I guess you\u2019d call that dyspnea on exertion?\n\nAnd the lower extremity edema is still there, like I mentioned, and it just seems to be sticking around no matter what I do. I\u2019m honestly pretty anxious about all of this. Is it normal for these symptoms to keep coming back, even with all my medications? Should I be worried that something more serious is going on with my heart or lungs?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough (mild, infrequent)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "multifocal pneumonia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no wheezing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no extra sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent shortness of breath (dyspnea on exertion)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is it normal for these symptoms to keep coming back, even with medications?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Should I be worried that something more serious is going on with my heart or lungs?"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially since your symptoms of persistent lower extremity edema and paroxysmal nocturnal dyspnea have not improved despite your current medications. Based on your medical history and recent examination findings\u2014including swelling in both legs, difficulty breathing at night, and minimal bibasilar crackles\u2014these symptoms suggest ongoing fluid overload, likely related to your underlying cardiac condition. To further guide my assessment, have you noticed any recent changes in your appetite or episodes of confusion, which can sometimes be associated with worsening heart failure or electrolyte imbalances?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in both legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing at night"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "minimal bibasilar crackles"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "ongoing fluid overload likely related to underlying cardiac condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in appetite"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of confusion"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, my appetite hasn\u2019t been great lately. I just don\u2019t feel as hungry as I used to, and sometimes I feel a bit queasy. Actually, when I was in the emergency department recently, I had an isolated episode of nausea and vomiting. It didn\u2019t last long, but it was pretty unpleasant.\n\nI haven\u2019t really noticed any confusion, but I do get a little more forgetful when I\u2019m feeling anxious about all these symptoms. Oh, and one of the nurses mentioned that my heart rate was pretty low at times\u2014she called it asymptomatic bradycardia, with rates in the 30s to 60s. Is that something I should be worried about with everything else going on? I just want to make sure I\u2019m not missing something serious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "queasy feeling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea and vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medical-place",
+          "value": "emergency department"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "forgetfulness when anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "asymptomatic bradycardia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "heart rate in the 30s to 60s"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Should I be worried about bradycardia with everything else going on?"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these persistent symptoms, especially with the ongoing swelling in both legs and episodes of paroxysmal nocturnal dyspnea. Based on your medical history, examination findings, and recent symptoms\u2014including lower extremity edema, difficulty breathing at night, and episodes of bradycardia\u2014these may indicate ongoing fluid overload and possible progression of your cardiac condition. To further guide my assessment, have you experienced any new dizziness or lightheadedness, particularly when standing up or during episodes when your heart rate is low?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in both legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing at night"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bradycardia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible progression of cardiac condition"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness or lightheadedness when standing up or during bradycardia"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, actually, I have noticed some lightheadedness, especially when I get up too quickly from bed or a chair. It\u2019s not every time, but there have been a few times where I felt a bit dizzy and had to sit back down for a minute. I\u2019m not sure if that\u2019s related to the bradycardia you mentioned, but it does make me nervous.\n\nWith all these symptoms\u2014like the lower extremity edema, paroxysmal nocturnal dyspnea, and now the episodes of bradycardia and lightheadedness\u2014I\u2019m starting to get really anxious about my heart. Is this something that happens as heart failure gets worse? And is there anything else I should be doing, or watching out for, to keep symptoms from getting more serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizzy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bradycardia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should be doing or watching out for to keep symptoms from getting more serious"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with persistent symptoms like lower extremity edema, paroxysmal nocturnal dyspnea, bradycardia, and episodes of lightheadedness. Based on your medical history and recent examination findings, these symptoms may indicate ongoing fluid overload and possible progression of your cardiac condition, such as heart failure or arrhythmia-related complications. As part of my assessment, have you noticed any new or worsening shortness of breath at rest, chest pain, or fainting episodes that would suggest an acute change in your cardiovascular status?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bradycardia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "fluid overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "arrhythmia-related complications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening shortness of breath at rest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fainting episodes"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t had any chest pain, and I haven\u2019t fainted, thank goodness. But the shortness of breath does seem to be getting worse, even when I\u2019m just sitting quietly. It used to only bother me when I was up and moving around, but now sometimes I feel a little breathless just resting in my chair. That\u2019s been making me more anxious, honestly.\n\nWith all these symptoms\u2014like the lower extremity edema, paroxysmal nocturnal dyspnea, bradycardia, and now this shortness of breath at rest\u2014I\u2019m really worried that my heart failure or arrhythmia might be getting worse. Should I be concerned about something serious happening? Is there anything else I should be doing differently, or any signs I should watch out for that mean I need to get help right away?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fainting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath getting worse at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bradycardia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "arrhythmia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "concern about heart failure or arrhythmia worsening"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "signs to watch for that require immediate help"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "anything else to do differently"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially as your symptoms of shortness of breath at rest, lower extremity edema, paroxysmal nocturnal dyspnea, and bradycardia have been worsening despite your current treatment. Based on your medical history and recent examination findings, these symptoms may indicate progression of heart failure and possible arrhythmia-related complications, which require close monitoring and potential adjustment of your medications. \n\nIt\u2019s important to watch for any signs such as chest pain, severe shortness of breath at rest, fainting, or sudden worsening of swelling, as these would require immediate medical attention. Have you recently noticed any new or worsening confusion or difficulty staying awake, which can sometimes occur with advanced heart failure or changes in electrolyte balance?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath at rest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bradycardia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "progression of heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "arrhythmia-related complications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "watch for chest pain, severe shortness of breath at rest, fainting, or sudden worsening of swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening confusion or difficulty staying awake"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed any confusion or trouble staying awake, at least not more than usual. Sometimes I feel a little foggy when I\u2019m anxious or after a bad night\u2019s sleep, but nothing that seems out of the ordinary for me. \n\nI\u2019m just really concerned because these symptoms\u2014like the shortness of breath at rest, lower extremity edema, paroxysmal nocturnal dyspnea, and the bradycardia\u2014seem to be getting worse even though I\u2019m taking all my medications the way I\u2019m supposed to. Is it common for heart failure and arrhythmia to progress like this? And if my symptoms keep getting worse, what would be the next steps? Would you need to change my medications, or is there something else I should be doing at home to help manage the fluid overload and these arrhythmia-related complications?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no confusion or trouble staying awake"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sometimes feels foggy when anxious or after bad sleep"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bradycardia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "symptoms getting worse despite taking medications as prescribed"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is it common for heart failure and arrhythmia to progress like this?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "What are the next steps if symptoms keep getting worse?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medicine",
+          "value": "Would you need to change my medications?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there something else I should be doing at home to help manage fluid overload and arrhythmia-related complications?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially as your symptoms\u2014such as shortness of breath at rest, lower extremity edema, paroxysmal nocturnal dyspnea, and bradycardia\u2014have been worsening despite adherence to your medications. Based on your medical history and recent examination findings, this may indicate progression of heart failure and arrhythmia, and it is common for medication adjustments or additional therapies to be necessary over time.\n\nMy recommendation is that we closely monitor your fluid status, electrolyte levels, and heart rhythm, and consider adjusting your diuretic or rate-control medications as part of your ongoing management. Before making any changes, have you had any recent laboratory assessments of your kidney function or electrolytes beyond the magnesium and calcium clinical findings you mentioned?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I don\u2019t believe I\u2019ve had any recent lab work done besides the magnesium and calcium levels you mentioned. No one\u2019s talked to me about my kidney function or other electrolytes lately. Should I be getting those examinationed more often, especially with all these symptoms and the medications I\u2019m on?\n\nI know I\u2019m taking Lasix, digoxin, and atenolol, and I\u2019m always worried about how those might affect my kidneys or my potassium and sodium levels. Is it possible that changes in my electrolytes or kidney function could be making my heart failure or arrhythmia worse? And if you do need to adjust my medications, is there anything I should watch out for at home\u2014like certain symptoms or side effects\u2014that would mean I need to call you right away?\n\nI just want to make sure I\u2019m doing everything I can to manage this, since it feels like symptoms are getting a bit out of control.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "magnesium and calcium levels"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "kidney function"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "frequency of kidney function and electrolyte tests"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Lasix"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "digoxin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "atenolol"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Side-effect",
+          "value": "effect of medications on kidneys, potassium, and sodium levels"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "changes in electrolytes or kidney function worsening heart failure or arrhythmia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "symptoms or side effects to watch for at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms getting out of control"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these worsening symptoms, especially given your history of heart failure and arrhythmia and the complexity of your medication regimen. Based on your medical history and current symptoms\u2014including persistent lower extremity edema, paroxysmal nocturnal dyspnea, shortness of breath at rest, and bradycardia\u2014it is important to closely monitor your kidney function and electrolytes, as changes in these can significantly impact both your heart failure and arrhythmia management.\n\nMy clinical assessment is that your symptoms may be related to fluid overload and possible medication effects, so I recommend obtaining updated laboratory assessments, including kidney function (BUN, creatinine), sodium, and potassium levels, to guide any necessary adjustments in your medications. In the meantime, if you notice new symptoms such as severe weakness, confusion, chest pain, or a sudden decrease in urine output, please assessk medical attention promptly. Have you had any recent changes in your blood pressure readings at home or episodes of hypotension that could be contributing to your current symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of heart failure and arrhythmia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath at rest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bradycardia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "kidney function (BUN, creatinine), sodium, and potassium levels"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "monitor for severe weakness, confusion, chest pain, or sudden decrease in urine output and seek medical attention if these occur"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in blood pressure readings at home or episodes of hypotension"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining all of that\u2014I appreciate you taking the time. Well, um\u2026 I do try to examination my blood pressure at home, but lately it seems a little lower than usual. Sometimes it\u2019s in the 90s over 60s, and once or twice I felt a bit lightheaded and examinationed, and it was even a bit lower. I\u2019m not sure if that counts as hypotension, but it does make me nervous, especially with the bradycardia and everything else going on.\n\nI guess I\u2019m just worried that with all these symptoms\u2014like the lower extremity edema, paroxysmal nocturnal dyspnea, shortness of breath at rest, and now these lower blood pressure readings\u2014something serious could be happening. Is it possible that my medications are causing my blood pressure and heart rate to drop too much? And if you do need to adjust my medications after the lab results, how will I know if symptoms are getting better or worse? Should I be examinationing my blood pressure and heart rate more often at home, or are there other signs I should watch for?\n\nSorry for all the questions\u2014I just want to make sure I\u2019m doing everything right and not missing something important.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining all of that\u2014I appreciate you taking the time."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "examination my blood pressure at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood pressure lower than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": "90s over 60s"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheaded"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bradycardia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower extremity edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "paroxysmal nocturnal dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Side-effect",
+          "value": "medications causing blood pressure and heart rate to drop too much"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "how to know if symptoms are getting better or worse after medication adjustment"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "should I be examinationing my blood pressure and heart rate more often at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "other signs I should watch for"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Sorry for all the questions\u2014I just want to make sure I\u2019m doing everything right and not missing something important."
+        }
+      ]
+    }
+  ]
+}

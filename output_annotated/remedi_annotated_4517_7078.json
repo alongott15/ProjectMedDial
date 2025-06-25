@@ -1,0 +1,1339 @@
+{
+  "source_row_id": 4516,
+  "source_subject_id": 4954,
+  "source_hadm_id": 158018,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you are experiencing right flank pain and redness in that area. Can you describe when these symptoms first began and if anything assessms to make them better or worse?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Hi, um, yeah\u2026 it\u2019s mainly this pain on my right side, kind of around my flank. It started a couple days ago and it\u2019s just not letting up. I\u2019m not really sure what\u2019s making it worse or better\u2014it just sort of pains all the time.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain on right side around flank"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "started a couple days ago"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "not letting up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "not sure what makes it worse or better"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing those details\u2014it sounds uncomfortable to have persistent pain in your right flank. To help guide my assessment, can you tell me if you have noticed any swelling, warmth, or changes in the color of the skin where you are experiencing the redness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing those details\u2014it sounds uncomfortable to have persistent pain in your right flank."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "warmth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in the color of the skin"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "redness"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Um, yeah, there\u2019s definitely some redness there, and it feels kind of warm to the touch. I can\u2019t really tell if it\u2019s swollen, maybe a little? It\u2019s hard for me to say because I\u2019ve got chronic pain in my right leg too, so sometimes it\u2019s tough to sort out what\u2019s new and what\u2019s just my usual pain.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "warmth to the touch"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "possible swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "chronic pain in right leg"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for explaining your symptoms\u2014it can be challenging to distinguish new pain from chronic discomfort, and I appreciate your clarity. Since you mentioned warmth and redness in the right flank, have you experienced any fever, chills, or other signs of infection along with these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining your symptoms\u2014it can be challenging to distinguish new pain from chronic discomfort, and I appreciate your clarity."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "warmth and redness in the right flank"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "other signs of infection"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I think I\u2019ve had a bit of a fever on and off. I\u2019ve just felt kind of lousy, you know? Achy all over. The pain in my flank is definitely sharper than my usual pain, and it\u2019s been pretty tough since my last operation. I\u2019m not sure if that\u2019s related, but the pain feels more acute than what I\u2019m used to.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "general malaise"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "body aches"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sharp flank pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent operation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain more acute than usual"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing how the pain feels different from your usual symptoms, especially after your recent operation. To help with my assessment, have you noticed any difficulty with urination, blood in your urine, or changes in urinary frequency since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain feels different from usual symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty with urination"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "blood in urine"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in urinary frequency"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "recent operation"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed any trouble with urination\u2014no burning or blood that I\u2019ve seen. I do go to the bathroom about the same as usual. The main thing is just this redness on my right flank, and when they examinationed my labs, they said my white blood cell count was up. I\u2019m not sure if that means there\u2019s an infection or something, but it\u2019s got me a little worried.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no trouble with urination"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no burning or blood in urine"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness on right flank"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "white blood cell count was up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can absolutely understand your concern, especially with the redness, pain, and increased white blood cell count suggesting possible infection. To further clarify your symptoms, have you noticed any drainage, pus, or open areas on the skin where the redness is present?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "increased white blood cell count"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "drainage"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "pus"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "open areas on the skin where the redness is present"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um, I haven\u2019t seen any pus or drainage, and the skin isn\u2019t open or anything like that\u2014it\u2019s just red and pain to touch. I did notice my heart\u2019s been beating kind of fast, and I\u2019ve definitely had some fever, like I mentioned earlier. Honestly, I\u2019m feeling pretty uncomfortable and just hoping we can figure out what\u2019s going on.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "red and pain to touch skin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no pus or drainage"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin isn\u2019t open"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart beating fast"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s important that we understand all your symptoms. During our examination, did you notice any tenderness when the area of redness on your right flank was palpated, or does the pain radiate to other areas such as your abdomen or back?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "tenderness when the area of redness on right flank was palpated"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "pain radiating to abdomen or back"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yeah, when you pressed on that area during the exam, it was definitely tender\u2014more than I expected, honestly. The pain kind of stays in my right flank, but sometimes I feel it a bit in my lower back too. It doesn\u2019t really go into my abdomen.\n\nActually, now that I\u2019m thinking about all my symptoms, I\u2019ve also had this occasional cough that\u2019s been bothering me. Sometimes it\u2019s productive, with yellow sputum. I wasn\u2019t sure if that was related or not, but I figured I should mention it. Should I be worried about all these symptoms happening at once?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness in right flank"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain in right flank"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain in lower back"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "occasional cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "productive cough with yellow sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about all these symptoms happening at once?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can completely understand why you\u2019d feel anxious with these symptoms happening together, especially given the pain, redness, fever, and now the cough with yellow sputum. To help with my assessment, have you experienced any shortness of breath, chest pain, or wheezing along with your cough?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough with yellow sputum"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "wheezing"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, I have noticed some wheezing when I breathe, especially when the cough gets bad. I wouldn\u2019t say I\u2019ve had real shortness of breath or chest pain, but the wheezing is definitely there. \n\nAlso, now that we\u2019re talking about symptoms, I\u2019ve been dealing with constipation lately too. I\u2019m not sure if that\u2019s related to everything else or maybe just from my medications, but it\u2019s been uncomfortable. \n\nIs it normal for all these symptoms to show up together? Should I be worried that this is something serious?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "normal for all these symptoms to show up together"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "should I be worried that this is something serious"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with several symptoms appearing at once\u2014it\u2019s completely natural to feel concerned in this condition. To help guide my assessment, have you noticed any progression in the redness on your right flank, such as the area expanding or the color deepening since your symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can understand why you\u2019d be worried, especially with several symptoms appearing at once\u2014it\u2019s completely natural to feel concerned in this condition."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "progression in the redness on your right flank, such as the area expanding or the color deepening"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yeah, um, actually I think the redness has gotten a bit bigger since it first started. At first it was just a small patch, but now it seems to be spreading out more along my right flank. The color\u2019s gotten a little darker too\u2014kind of a deeper red than before. It\u2019s definitely more tender now as well.\n\nI\u2019m honestly starting to get pretty worried with all these symptoms\u2014pain, fever, increased white blood cell count, cough with yellow sputum, wheezing, constipation, and now this redness getting worse. Is this something serious? What could be causing all of this?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness has gotten bigger"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness spreading along right flank"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "color of redness is deeper red"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "increased white blood cell count"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough with yellow sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "wheezing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "constipation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is this something serious?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "What could be causing all of this?"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can absolutely understand your anxiety\u2014having worsening pain, redness, fever, and other symptoms all at once is understandably concerning. Based on your description of expanding redness, increased tenderness, fever, and elevated white blood cell count, my assessment is that you may have a significant infection in the soft tissue of your right flank, possibly cellulitis or a deeper abscess. To further guide our assessment, have you experienced any chills, sweats, or episodes of confusion since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "expanding redness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased tenderness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "elevated white blood cell count"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "significant infection in the soft tissue of right flank"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "cellulitis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "deeper abscess"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sweats"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "episodes of confusion"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yeah, I have had some chills and sweats, especially at night\u2014it kind of comes and goes. I haven\u2019t really felt confused, but I do feel more tired and out of it than usual. \n\nHearing you say \u201ccellulitis\u201d and \u201cabscess\u201d makes me a bit nervous. Is this something that could get worse quickly? What do we do next? Will I need antibiotics, or is there a chance I\u2019ll need something more, like a procedure? I just really want to get some relief from all of this discomfort.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sweats"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "especially at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling out of it"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "cellulitis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "abscess"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "could this get worse quickly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what do we do next"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Medicine-category",
+          "value": "antibiotics"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "procedure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "discomfort"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I completely understand why you\u2019re experiencing confused and worried\u2014having these symptoms all at once can be overwhelming, and it\u2019s important that you feel informed about your condition. Based on your description of right flank pain, expanding redness, fever, chills, increased white blood cell count, and your examination findings, my assessment is that you likely have a significant soft tissue infection, such as cellulitis, and possibly a deeper abscess.\n\nTo help guide the next steps in your care, have you ever had a similar infection or required surgical drainage for an abscess in the past, according to your medical history?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "soft tissue infection, such as cellulitis, and possibly a deeper abscess"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right flank pain, expanding redness, fever, chills, increased white blood cell count"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "similar infection or required surgical drainage for an abscess in the past"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 No, I don\u2019t think I\u2019ve ever had cellulitis or an abscess before, at least not that I remember. I\u2019ve had surgeries for my back and the stimulator, but nothing like this with redness and swelling in my skin. This is definitely new for me.\n\nI\u2019m honestly just really uncomfortable and worried about how quickly it\u2019s gotten worse. If it is cellulitis or an abscess, how serious is that? Will I need to stay in the hospital for IV antibiotics, or could this be treated with pills at home? And if there is an abscess, does that always mean surgery? I just want to make sure we get on top of this before it gets any worse.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "never had cellulitis or an abscess before"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "had surgeries for back and stimulator"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness and swelling in skin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening condition"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "how serious is cellulitis or abscess"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Will I need to stay in the hospital for IV antibiotics or could this be treated with pills at home"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "If there is an abscess, does that always mean surgery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Precaution",
+          "value": "wants to get on top of this before it gets worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I completely understand your anxiety\u2014having new and worsening symptoms like expanding redness, pain, fever, chills, and increased white blood cell count can be very concerning. Based on your symptoms and examination findings, my assessment is that you may have a significant soft tissue infection, such as cellulitis, and possibly an underlying abscess, which sometimes requires intravenous antibiotics and, in certain cases, a drainage procedure. To further guide our management, have you recently experienced any trauma, insect bites, or surgical procedures involving your right flank that could have contributed to this infection?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "No, I haven\u2019t had any trauma or insect bites that I can remember on my right flank. The only surgeries I\u2019ve had were for my back and the stimulator, but those weren\u2019t anywhere near this area. This just kind of showed up out of nowhere, which is why it\u2019s got me so worried.\n\nI appreciate you explaining symptoms to me. If it does turn out to be cellulitis or an abscess, how quickly do we need to act? And if I need IV antibiotics or a drainage procedure, what does that actually involve? I\u2019m just feeling really uncomfortable and honestly, I\u2019d like to get some relief as soon as possible.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "no trauma or insect bites on right flank; previous surgeries for back and stimulator, not near current area"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sudden onset of symptoms on right flank"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "how quickly to act if cellulitis or abscess"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what IV antibiotics or drainage procedure involves"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling really uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "how to get relief as soon as possible"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your symptoms progressing and the discomfort you\u2019re experiencing. Based on your examination and assessment\u2014including the expanding redness, tenderness, fever, chills, and elevated white blood cell count\u2014my clinical impression is that you have a significant soft tissue infection (cellulitis), and we need to act promptly to prevent further complications. \n\nTypically, this condition is treated with intravenous antibiotics in the hospital, and if an abscess is detected on imaging or during examination, a drainage procedure may be necessary to fully resolve the infection. Have you had any recent imaging studies, such as an ultrasound or CT scan of your right flank, to assess for a possible abscess beneath the area of redness?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "soft tissue infection (cellulitis)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "intravenous antibiotics in the hospital"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "drainage procedure if abscess detected"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "imaging studies (ultrasound or CT scan) of right flank"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "No, I haven\u2019t had any imaging like an ultrasound or CT scan of my right flank yet. Honestly, this is the first time anyone\u2019s mentioned maybe needing that. \n\nIf it helps figure out if there\u2019s an abscess under the redness, I\u2019m definitely open to getting it done. I just want to get some relief\u2014the pain and discomfort are really wearing me down. \n\nSo, if the imaging shows an abscess, does that mean I\u2019d need a drainage procedure right away? And how long would I usually need to stay in the hospital for IV antibiotics? I\u2019m just trying to understand what to expect, because this whole condition has me pretty anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "no imaging like ultrasound or CT scan of right flank"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain and discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "need for drainage procedure if imaging shows abscess"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "length of hospital stay for IV antibiotics"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "feeling anxious about the condition"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can absolutely understand why you\u2019d be anxious\u2014having persistent pain, expanding redness, and other symptoms without clear answers is understandably distressing. Based on your symptoms and examination findings, my assessment is that prompt imaging\u2014such as an ultrasound or CT scan\u2014is important to determine if there is an underlying abscess that would require drainage, in addition to starting intravenous antibiotics for the soft tissue infection. If imaging confirms an abscess, a drainage procedure would typically be performed as soon as possible to control the infection, and the length of your hospital stay for IV antibiotics would depend on how your symptoms respond to treatment, usually ranging from a few days to a week. \n\nBefore proceeding, have you experienced any medication side effects or complications during previous hospitalizations that we should consider in your treatment plan?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "soft tissue infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "ultrasound or CT scan"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous antibiotics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "drainage procedure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "a few days to a week"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Side-effect",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 No, I haven\u2019t really had any major side effects or complications from medications during past hospital stays. I don\u2019t have any known drug allergies either. Sometimes pain meds can make me a bit constipated, but that\u2019s about it. \n\nHonestly, I\u2019m just feeling really uncomfortable right now and would like to get started with whatever treatment you think is best. If you think imaging and IV antibiotics are needed, I\u2019m on board\u2014I just want to get this infection under control as soon as possible. \n\nIs there anything I should do or watch out for while we\u2019re waiting for the imaging? And if I do end up needing a drainage procedure, will I be awake for that, or do they usually sedate you? Sorry for all the questions\u2014I just want to be prepared.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Side-effect",
+          "value": "constipation from pain meds"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "no major side effects or complications from medications during past hospital stays"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "no known drug allergies"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling really uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything I should do or watch out for while waiting for imaging?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "If I need a drainage procedure, will I be awake or sedated?"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing your concerns and for being so open about your symptoms and medical history\u2014it\u2019s completely understandable to want clear answers and relief. Based on my clinical assessment, your symptoms and examination findings are highly suggestive of a significant soft tissue infection, possibly with an underlying abscess, which warrants prompt imaging and initiation of intravenous antibiotics. If a drainage procedure is required, it is typically performed with local anesthesia and sedation to keep you comfortable, but the exact approach will depend on the size and location of the abscess.\n\nWhile we arrange imaging and begin treatment, please let us know immediately if you notice any worsening symptoms such as increased pain, spreading redness, confusion, or difficulty breathing. Have you recently experienced any new or unusual bleeding or bruising, given your hematocrit level is slightly low?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "significant soft tissue infection, possibly with an underlying abscess"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "prompt imaging and initiation of intravenous antibiotics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Treatment",
+          "value": "If a drainage procedure is required, it is typically performed with local anesthesia and sedation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Precaution",
+          "slot": "Symptom",
+          "value": "worsening symptoms such as increased pain, spreading redness, confusion, or difficulty breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or unusual bleeding or bruising"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "hematocrit level is slightly low"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Actually, now that you mention it, I haven\u2019t noticed any new bleeding or unusual bruising lately. My skin looks about the same as usual, except for the redness on my right flank. I did see my hematocrit was a bit low on my labs, but I\u2019m not sure what that means for me\u2014should I be worried about that?\n\nI really appreciate you explaining everything so clearly. I\u2019m just hoping we can get this infection under control soon, because the pain and discomfort are getting hard to handle. Is there anything else I should be doing right now while we wait for imaging and antibiotics? And if my symptoms do get worse, like if I start having confusion or breathing difficulty, should I let someone know right away?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no unusual bruising"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "redness on right flank"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "hematocrit a bit low"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "meaning of low hematocrit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain and discomfort getting hard to handle"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "anything else I should be doing while waiting for imaging and antibiotics"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I let someone know if symptoms worsen (confusion or breathing difficulty)"
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with persistent pain, expanding redness, and your hematocrit being a bit low\u2014it\u2019s natural to feel anxious in this condition. Based on my assessment of your symptoms and examination findings, starting intravenous antibiotics promptly and obtaining imaging to evaluate for a possible abscess are the most important next steps to control the infection and prevent complications. While we proceed with this treatment plan, please notify the medical team immediately if you develop any new symptoms such as confusion, shortness of breath, or worsening pain. Have you noticed any recent changes in your energy level or increased fatigue beyond what you\u2019ve already described?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "expanding redness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "hematocrit being a bit low"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "starting intravenous antibiotics promptly"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "obtaining imaging to evaluate for a possible abscess"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "notify the medical team immediately if you develop any new symptoms such as confusion, shortness of breath, or worsening pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in energy level or increased fatigue"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, I have been feeling a lot more fatigued than usual. It\u2019s not just from the pain\u2014I just feel kind of wiped out, like I don\u2019t have much energy to do anything. I\u2019m not sure if that\u2019s from the infection or maybe from my hematocrit being low, but it\u2019s definitely worse than my normal baseline.\n\nI really appreciate you explaining everything and keeping me in the loop. I just want to get this under control as soon as possible. Is there anything I can do to help with the fatigue while I\u2019m here? And, um, with the hematocrit being low, is that something that could make the infection harder to fight off? Should I be worried about needing a transfusion or anything like that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low energy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "hematocrit being low"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "help with the fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease-history",
+          "value": "hematocrit being low making infection harder to fight"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "need for transfusion"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "I can completely understand your anxiety\u2014experiencing fatigued on top of pain and infection symptoms can be overwhelming, and it\u2019s natural to have concerns about your hematocrit and recovery. Based on my assessment, your fatigue is likely related both to the infection and your mildly low hematocrit, but at this level, a transfusion is usually not necessary unless you develop additional symptoms such as dizziness, shortness of breath, or rapid heart rate that do not improve with treatment. \n\nFor now, the most important steps are to begin intravenous antibiotics promptly, obtain imaging to assess for an abscess, and ensure you are well-hydrated and resting as much as possible. Have you experienced any episodes of dizziness or lightheadedness when standing or walking since your symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "infection symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "mildly low hematocrit"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "begin intravenous antibiotics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "obtain imaging to assess for abscess"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "ensure well-hydrated and resting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness or lightheadedness when standing or walking"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually, I have felt a little lightheaded a couple times when I stood up, especially in the last day or so. It\u2019s not every time, but it\u2019s enough that I noticed it. I haven\u2019t fainted or anything, but I do feel kind of off\u2014maybe it\u2019s from the infection or just being so tired.\n\nI appreciate you explaining about the hematocrit and that a transfusion isn\u2019t usually needed unless symptoms get worse. I\u2019ll definitely let you know if I start having more dizziness, shortness of breath, or if my heart rate stays up.\n\nIs there anything else I should be doing to help my recovery while we wait for the imaging and antibiotics to kick in? And, um, how quickly do people usually start to feel better once treatment starts for something like cellulitis or an abscess? I\u2019m just really hoping for some relief soon.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling off"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no fainting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no increased dizziness, no shortness of breath, no persistent elevated heart rate"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else I should be doing to help recovery"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "how quickly do people usually start to feel better after starting treatment for cellulitis or abscess"
+        }
+      ]
+    }
+  ]
+}

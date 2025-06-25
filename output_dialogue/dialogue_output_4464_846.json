@@ -1,0 +1,408 @@
+{
+  "partial_profile": {
+    "row_id": 4464,
+    "subject_id": 846,
+    "hadm_id": 195564,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "chest pain (substernal burning)",
+          "onset": "at noon on 2101-1-27 while sitting at office",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "aphasia (slurred speech, words wouldn't come out, saying nonsense)",
+          "onset": "at noon on 2101-1-27",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "myoclonic jerk (not seizure)",
+          "onset": "a few days after LAD stent, in cath lab",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Self-limited, brief myotoclonus event",
+          "onset": "not provided",
+          "duration": "brief",
+          "severity": "self-limited"
+        },
+        {
+          "description": "Transient, self-limited myoclonic event during postdilation",
+          "onset": "during postdilation",
+          "duration": "transient",
+          "severity": "self-limited"
+        },
+        {
+          "description": "chest pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "aphasia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "shortness of breath",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "dizziness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "blur vision",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2036-10-01",
+        "Age": 64,
+        "Sex": "M",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2101-01-28 16:47:00",
+        "Discharge_Date": "2101-02-03 12:30:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Coronary artery disease status post CABG in 2093 with EF 50% by LVG, chest pain with exertion, LIMA to LAD, SVG to Diag, non-insulin dependent diabetes mellitus x 10 years, hypertension, hypercholesterolemia, stroke/TIA with no residual defects, carotid ultrasound with right ICA occlusion and left 80-99% stenosis, bilateral claudication."
+      },
+      "Allergies": [
+        "No Known Allergies to Drugs"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Glipizide XL 5",
+          "purpose": "not provided",
+          "dosage": "5 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Fish Oil",
+          "purpose": "not provided",
+          "dosage": "1000 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Calcium",
+          "purpose": "not provided",
+          "dosage": "600 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "MVI",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Garlic Pill",
+          "purpose": "not provided",
+          "dosage": "1250 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Loratadine",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "ASA",
+          "purpose": "not provided",
+          "dosage": "325 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Atenolol",
+          "purpose": "not provided",
+          "dosage": "50 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Metformin",
+          "purpose": "not provided",
+          "dosage": "1000 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Nexium",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Lisinopril",
+          "purpose": "not provided",
+          "dosage": "5",
+          "frequency": "tid"
+        },
+        {
+          "name": "Lipitor",
+          "purpose": "not provided",
+          "dosage": "20",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Zetia",
+          "purpose": "not provided",
+          "dosage": "10",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Doxazosin",
+          "purpose": "not provided",
+          "dosage": "4",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Ezetimibe",
+          "purpose": "not provided",
+          "dosage": "10 mg",
+          "frequency": "One (1) Tablet PO DAILY"
+        },
+        {
+          "name": "Aspirin",
+          "purpose": "not provided",
+          "dosage": "325 mg",
+          "frequency": "One (1) Tablet PO DAILY"
+        },
+        {
+          "name": "Calcium Carbonate",
+          "purpose": "not provided",
+          "dosage": "500 mg",
+          "frequency": "One (1) Tablet, Chewable PO BID"
+        },
+        {
+          "name": "Multivitamin",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "One (1) Cap PO DAILY"
+        },
+        {
+          "name": "Omega-3 Fatty Acids",
+          "purpose": "not provided",
+          "dosage": "120-180-1.8 mg-mg-unit",
+          "frequency": "One (1) Capsule PO BID"
+        },
+        {
+          "name": "Fexofenadine HCl",
+          "purpose": "not provided",
+          "dosage": "60 mg",
+          "frequency": "One (1) Capsule PO BID"
+        },
+        {
+          "name": "Glipizide",
+          "purpose": "not provided",
+          "dosage": "5 mg",
+          "frequency": "One (1) Tab, Sust Release Osmotic Push PO DAILY"
+        },
+        {
+          "name": "Clopidogrel Bisulfate",
+          "purpose": "not provided",
+          "dosage": "75 mg",
+          "frequency": "One (1) Tablet PO DAILY"
+        },
+        {
+          "name": "Atorvastatin Calcium",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "Two (2) Tablet PO DAILY"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Transferred from outside hospital for coronary and carotid cath"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.95,
+      "consistency_score": 0.8,
+      "confidence_score": 0.95,
+      "overall_score": 0.9166666666666666,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 1.0,
+        "treatments": 0.9285714285714286,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Treatment 'anticoagulation' not clearly found in text",
+        "Age inconsistency: stated 64, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve recently experienced symptoms such as chest pain and episodes of slurred speech. Could you tell me more about when these symptoms began and what you were doing at the time?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, hi, thank you, doctor. Well, the main thing that brought me in was this chest pain I\u2019ve been having\u2014it\u2019s kind of a burning feeling right in the middle, under my breastbone. I got pretty anxious about it, to be honest."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d feel anxious about experiencing chest pain, especially with that burning sensation under your breastbone. To help me with my assessment, can you describe if the chest pain is associated with any other symptoms, such as shortness of breath, dizziness, or sweating?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, well, the chest pain is really the main thing that\u2019s been bothering me. It just kind of comes on, and it makes me pretty nervous. I\u2019m not sure if I noticed anything else with it, but the chest pain is what really got my attention."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing more about your symptoms. In addition to the chest pain, I\u2019d like to ask if you have experienced any episodes of difficulty speaking, such as slurred speech or trouble finding words, even if only briefly?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 actually, now that you mention it, there was a time when I had some trouble with my speech. My wife noticed it too\u2014I was trying to talk, but the words just wouldn\u2019t come out right. I think I was saying symptoms that didn\u2019t make sense, and my speech was kind of slurred. It only lasted a few minutes, but it really scared me.\n\nAnd, uh, sometimes when the chest pain comes on, I feel a bit short of breath too. Should I be worried about these symptoms?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can completely understand why these symptoms would make you feel anxious, especially with both chest pain and episodes of slurred speech. To help with my assessment, can you tell me if you experienced any weakness, numbness, or changes in vision during the episode of aphasia you described?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 um, I don\u2019t remember any weakness or numbness, really. But, actually, during that episode when my speech was off, I did have this sort of sudden jerk\u2014my arm kind of twitched on its own. It wasn\u2019t like a seizure or anything, just a brief, self-limited myoclonic event, I think you\u2019d call it. My vision might\u2019ve been a little blurry for a moment, but it went away pretty quickly. All of it seemed to pass on its own after a few minutes. \n\nIs that something I should be really concerned about?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially with the combination of chest pain, brief aphasia, and a myoclonic jerk. To help with my assessment, could you tell me if you have noticed any pattern or triggers for your chest pain\u2014for example, does it occur with physical activity, emotional stress, or while at rest?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, let me think\u2026 The chest pain seems to come on mostly when I\u2019m doing something\u2014like walking or going up stairs. Sometimes it\u2019s with a bit of stress, too, but mostly with exertion. It usually goes away if I sit down and rest for a bit.\n\nAbout the other symptoms, well, that myoclonic event\u2014that brief, sudden jerk\u2014actually happened during a procedure, I think it was postdilation. And the aphasia, like I said, was just for a few minutes and then it resolved on its own. I\u2019m still pretty anxious about all of this. Is it common to have these kinds of symptoms together?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious about experiencing both chest pain and episodes of aphasia. To help with my assessment, could you describe whether the chest pain is ever accompanied by symptoms such as palpitations, nausea, or sweating during these episodes?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 now that I think about it, sometimes when I get the chest pain, I do feel a bit dizzy. My vision can get kind of blurry too, just for a little while. I don\u2019t really notice palpitations or much sweating, and I don\u2019t usually feel nauseous. It\u2019s mostly the dizziness and the blurred vision that come along with the chest pain.\n\nIs it normal for those symptoms to happen together? Should I be more worried about this?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about experiencing chest pain along with dizziness and blurred vision\u2014those symptoms can certainly be concerning. To help with my assessment, have you ever noticed any chest discomfort or neurological symptoms such as aphasia or myoclonic jerks occurring while you are at rest, or do they only happen during exertion?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, let me think\u2026 The chest discomfort almost always seems to come on when I\u2019m exerting myself\u2014like walking or climbing stairs. I can\u2019t really remember it happening when I\u2019m just sitting or resting. As for the neurological symptoms, like the aphasia and that myoclonic jerk, those were kind of isolated events. The aphasia happened when I was just talking with my wife at home, not really doing anything strenuous. The myoclonic event happened during a procedure, so I was lying down at the time.\n\nIt\u2019s all been pretty unsettling, to be honest. I\u2019m just worried because these symptoms\u2014chest pain, aphasia, the myoclonic jerk\u2014they all sound serious. Is there something specific you\u2019re concerned about with these symptoms happening together?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with symptoms like chest pain and episodes of aphasia occurring close together. To help with my assessment, during the episode of aphasia, did you experience any facial drooping, weakness in your arms or legs, or difficulty understanding others\u2019 speech?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Actually, during that episode of aphasia, I didn\u2019t notice any facial drooping or weakness in my arms or legs. My wife was with me and she didn\u2019t mention my face looking any different either. I could understand what people were saying to me\u2014it was just that I couldn\u2019t get the right words out, or I\u2019d say something that didn\u2019t make sense. It was really frustrating and a bit scary.\n\nIs it possible to have aphasia like that without other stroke symptoms? And with everything happening\u2014the chest pain, the brief aphasia, and that myoclonic jerk\u2014should I be worried about something serious going on with my heart or brain?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially given your symptoms of exertional chest pain and a brief episode of aphasia without other neurological deficits. Based on your medical history and these symptoms, I want to make sure we fully assess both your cardiac and neurological status. Have you ever experienced similar episodes of speech difficulty or transient neurological symptoms in the past, such as during your previous stroke or TIA?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um, during my previous stroke\u2014or I guess it might\u2019ve been a TIA\u2014they told me I had some transient neurological symptoms, but honestly, I don\u2019t remember having trouble with my speech like this time. Back then, I think it was more just some numbness and maybe a little weakness, but nothing with aphasia. This recent episode with the words not coming out right and saying nonsense, that was new for me.\n\nI\u2019m definitely anxious about all of this, especially with my history of coronary artery disease and carotid stenosis. Is it common to have these kinds of symptoms together? And, um, what are you most concerned about with my cardiac and neurological status? Should I be preparing for more tests or procedures?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially given your history of coronary artery disease and carotid stenosis along with these new symptoms of exertional chest pain and transient aphasia. Based on what you\u2019ve described and your medical history, my assessment will focus on both your cardiac and neurological status to determine if there is ongoing ischemia or risk of stroke. To help guide our next steps, have you recently noticed any changes in your exercise tolerance or any increase in the frequency or severity of your chest pain symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 now that you mention it, I think my exercise tolerance has gotten a bit worse over the past few weeks. I used to be able to walk around the block without too much trouble, but lately I get chest pain sooner\u2014sometimes just going up a short flight of stairs. The chest pain seems to come on more easily and maybe a little more intense than before. I try to rest and it goes away, but it\u2019s definitely more frequent.\n\nWith everything going on\u2014my history of coronary artery disease, the carotid stenosis, and now these new symptoms like transient aphasia and that myoclonic jerk\u2014I\u2019m honestly pretty worried. Is this a sign that something is getting worse, like ongoing ischemia or maybe even a higher risk for stroke? What kinds of tests or procedures do you think I\u2019ll need next?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with your history of coronary artery disease and carotid stenosis, and now experiencing more frequent exertional chest pain along with transient neurological symptoms like aphasia and a myoclonic jerk. Based on your symptoms and medical history, my assessment will focus on evaluating for possible cardiac ischemia and cerebrovascular insufficiency. To help guide the next steps in your clinical evaluation, have you recently experienced any episodes of chest pain or neurological symptoms at rest, or have they only occurred with exertion?"
+    },
+    {
+      "role": "Patient",
+      "content": "Thank you for explaining symptoms, doctor. Um, to answer your question\u2014I\u2019d say the chest pain almost always happens with exertion, like walking or climbing stairs. I can\u2019t really recall having chest pain while I was just sitting or resting. The neurological symptoms\u2014the aphasia and that myoclonic jerk\u2014those were kind of isolated events. The aphasia happened at home when I was just talking, not doing anything physical, and the myoclonic event was during a procedure, so I was lying down.\n\nI\u2019m still pretty anxious about all of this, especially since you mentioned cardiac ischemia and cerebrovascular insufficiency. With my history of coronary artery disease and carotid stenosis, does this mean I\u2019m at higher risk for something serious, like a heart attack or stroke? And, um, what kinds of tests will help figure out what\u2019s going on? Should I be preparing for more procedures or interventions?"
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve recently experienced symptoms such as chest pain and episodes of slurred speech. Could you tell me more about when these symptoms began and what you were doing at the time?\nPatient: Um, hi, thank you, doctor. Well, the main thing that brought me in was this chest pain I\u2019ve been having\u2014it\u2019s kind of a burning feeling right in the middle, under my breastbone. I got pretty anxious about it, to be honest.\nDoctor: I can understand why you\u2019d feel anxious about experiencing chest pain, especially with that burning sensation under your breastbone. To help me with my assessment, can you describe if the chest pain is associated with any other symptoms, such as shortness of breath, dizziness, or sweating?\nPatient: Um, well, the chest pain is really the main thing that\u2019s been bothering me. It just kind of comes on, and it makes me pretty nervous. I\u2019m not sure if I noticed anything else with it, but the chest pain is what really got my attention.\nDoctor: Thank you for sharing more about your symptoms. In addition to the chest pain, I\u2019d like to ask if you have experienced any episodes of difficulty speaking, such as slurred speech or trouble finding words, even if only briefly?\nPatient: Well, um\u2026 actually, now that you mention it, there was a time when I had some trouble with my speech. My wife noticed it too\u2014I was trying to talk, but the words just wouldn\u2019t come out right. I think I was saying symptoms that didn\u2019t make sense, and my speech was kind of slurred. It only lasted a few minutes, but it really scared me.\n\nAnd, uh, sometimes when the chest pain comes on, I feel a bit short of breath too. Should I be worried about these symptoms?\nDoctor: I can completely understand why these symptoms would make you feel anxious, especially with both chest pain and episodes of slurred speech. To help with my assessment, can you tell me if you experienced any weakness, numbness, or changes in vision during the episode of aphasia you described?\nPatient: Let me think\u2026 um, I don\u2019t remember any weakness or numbness, really. But, actually, during that episode when my speech was off, I did have this sort of sudden jerk\u2014my arm kind of twitched on its own. It wasn\u2019t like a seizure or anything, just a brief, self-limited myoclonic event, I think you\u2019d call it. My vision might\u2019ve been a little blurry for a moment, but it went away pretty quickly. All of it seemed to pass on its own after a few minutes. \n\nIs that something I should be really concerned about?\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially with the combination of chest pain, brief aphasia, and a myoclonic jerk. To help with my assessment, could you tell me if you have noticed any pattern or triggers for your chest pain\u2014for example, does it occur with physical activity, emotional stress, or while at rest?\nPatient: Um, let me think\u2026 The chest pain seems to come on mostly when I\u2019m doing something\u2014like walking or going up stairs. Sometimes it\u2019s with a bit of stress, too, but mostly with exertion. It usually goes away if I sit down and rest for a bit.\n\nAbout the other symptoms, well, that myoclonic event\u2014that brief, sudden jerk\u2014actually happened during a procedure, I think it was postdilation. And the aphasia, like I said, was just for a few minutes and then it resolved on its own. I\u2019m still pretty anxious about all of this. Is it common to have these kinds of symptoms together?\nDoctor: I can understand why you\u2019d be anxious about experiencing both chest pain and episodes of aphasia. To help with my assessment, could you describe whether the chest pain is ever accompanied by symptoms such as palpitations, nausea, or sweating during these episodes?\nPatient: Yeah, actually\u2026 now that I think about it, sometimes when I get the chest pain, I do feel a bit dizzy. My vision can get kind of blurry too, just for a little while. I don\u2019t really notice palpitations or much sweating, and I don\u2019t usually feel nauseous. It\u2019s mostly the dizziness and the blurred vision that come along with the chest pain.\n\nIs it normal for those symptoms to happen together? Should I be more worried about this?\nDoctor: I can understand why you\u2019d be worried about experiencing chest pain along with dizziness and blurred vision\u2014those symptoms can certainly be concerning. To help with my assessment, have you ever noticed any chest discomfort or neurological symptoms such as aphasia or myoclonic jerks occurring while you are at rest, or do they only happen during exertion?\nPatient: Well, um, let me think\u2026 The chest discomfort almost always seems to come on when I\u2019m exerting myself\u2014like walking or climbing stairs. I can\u2019t really remember it happening when I\u2019m just sitting or resting. As for the neurological symptoms, like the aphasia and that myoclonic jerk, those were kind of isolated events. The aphasia happened when I was just talking with my wife at home, not really doing anything strenuous. The myoclonic event happened during a procedure, so I was lying down at the time.\n\nIt\u2019s all been pretty unsettling, to be honest. I\u2019m just worried because these symptoms\u2014chest pain, aphasia, the myoclonic jerk\u2014they all sound serious. Is there something specific you\u2019re concerned about with these symptoms happening together?\nDoctor: I can understand why you\u2019d be worried, especially with symptoms like chest pain and episodes of aphasia occurring close together. To help with my assessment, during the episode of aphasia, did you experience any facial drooping, weakness in your arms or legs, or difficulty understanding others\u2019 speech?\nPatient: Let me think\u2026 Actually, during that episode of aphasia, I didn\u2019t notice any facial drooping or weakness in my arms or legs. My wife was with me and she didn\u2019t mention my face looking any different either. I could understand what people were saying to me\u2014it was just that I couldn\u2019t get the right words out, or I\u2019d say something that didn\u2019t make sense. It was really frustrating and a bit scary.\n\nIs it possible to have aphasia like that without other stroke symptoms? And with everything happening\u2014the chest pain, the brief aphasia, and that myoclonic jerk\u2014should I be worried about something serious going on with my heart or brain?\nDoctor: I can understand why you\u2019d be worried, especially given your symptoms of exertional chest pain and a brief episode of aphasia without other neurological deficits. Based on your medical history and these symptoms, I want to make sure we fully assess both your cardiac and neurological status. Have you ever experienced similar episodes of speech difficulty or transient neurological symptoms in the past, such as during your previous stroke or TIA?\nPatient: Well, um, during my previous stroke\u2014or I guess it might\u2019ve been a TIA\u2014they told me I had some transient neurological symptoms, but honestly, I don\u2019t remember having trouble with my speech like this time. Back then, I think it was more just some numbness and maybe a little weakness, but nothing with aphasia. This recent episode with the words not coming out right and saying nonsense, that was new for me.\n\nI\u2019m definitely anxious about all of this, especially with my history of coronary artery disease and carotid stenosis. Is it common to have these kinds of symptoms together? And, um, what are you most concerned about with my cardiac and neurological status? Should I be preparing for more tests or procedures?\nDoctor: I can understand why you\u2019d be anxious, especially given your history of coronary artery disease and carotid stenosis along with these new symptoms of exertional chest pain and transient aphasia. Based on what you\u2019ve described and your medical history, my assessment will focus on both your cardiac and neurological status to determine if there is ongoing ischemia or risk of stroke. To help guide our next steps, have you recently noticed any changes in your exercise tolerance or any increase in the frequency or severity of your chest pain symptoms?\nPatient: Yeah, actually\u2026 now that you mention it, I think my exercise tolerance has gotten a bit worse over the past few weeks. I used to be able to walk around the block without too much trouble, but lately I get chest pain sooner\u2014sometimes just going up a short flight of stairs. The chest pain seems to come on more easily and maybe a little more intense than before. I try to rest and it goes away, but it\u2019s definitely more frequent.\n\nWith everything going on\u2014my history of coronary artery disease, the carotid stenosis, and now these new symptoms like transient aphasia and that myoclonic jerk\u2014I\u2019m honestly pretty worried. Is this a sign that something is getting worse, like ongoing ischemia or maybe even a higher risk for stroke? What kinds of tests or procedures do you think I\u2019ll need next?\nDoctor: I can understand why you\u2019d be worried, especially with your history of coronary artery disease and carotid stenosis, and now experiencing more frequent exertional chest pain along with transient neurological symptoms like aphasia and a myoclonic jerk. Based on your symptoms and medical history, my assessment will focus on evaluating for possible cardiac ischemia and cerebrovascular insufficiency. To help guide the next steps in your clinical evaluation, have you recently experienced any episodes of chest pain or neurological symptoms at rest, or have they only occurred with exertion?\nPatient: Thank you for explaining symptoms, doctor. Um, to answer your question\u2014I\u2019d say the chest pain almost always happens with exertion, like walking or climbing stairs. I can\u2019t really recall having chest pain while I was just sitting or resting. The neurological symptoms\u2014the aphasia and that myoclonic jerk\u2014those were kind of isolated events. The aphasia happened at home when I was just talking, not doing anything physical, and the myoclonic event was during a procedure, so I was lying down.\n\nI\u2019m still pretty anxious about all of this, especially since you mentioned cardiac ischemia and cerebrovascular insufficiency. With my history of coronary artery disease and carotid stenosis, does this mean I\u2019m at higher risk for something serious, like a heart attack or stroke? And, um, what kinds of tests will help figure out what\u2019s going on? Should I be preparing for more procedures or interventions?\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: dizzy, nauseous, chest pain, nausea, numbness. Assessment: coronary artery disease, carotid stenosis, possible cardiac ischemia. Plan: rest, exercise, assessment of cardiac status. Clinical note: Patient with history of coronary artery disease and carotid stenosis presents with worsening exertional chest pain, transient aphasia, myoclonic jerk, and brief episodes of blurry vision and dizziness. Symptoms suggest possible cardiac ischemia and cerebrovascular insufficiency. Further cardiac and neurological evaluation recommended.. Extracted: 18 symptoms, 5 diagnoses, 5 treatments.",
+  "annotations": {
+    "symptoms": [
+      "dizzy",
+      "nauseous",
+      "chest pain",
+      "nausea",
+      "numbness",
+      "weakness",
+      "shortness of breath",
+      "sweating",
+      "breath",
+      "dizziness",
+      "burning sensation under breastbone",
+      "anxiety",
+      "slurred speech",
+      "aphasia",
+      "myoclonic jerk",
+      "blurry vision",
+      "decreased exercise tolerance",
+      "increased frequency and intensity of chest pain"
+    ],
+    "diagnoses": [
+      "coronary artery disease",
+      "carotid stenosis",
+      "possible cardiac ischemia",
+      "possible cerebrovascular insufficiency",
+      "history of stroke or TIA"
+    ],
+    "treatments": [
+      "rest",
+      "exercise",
+      "assessment of cardiac status",
+      "assessment of neurological status",
+      "recommendation for further tests or procedures"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.880 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.971 \u2705\n\u2022 Dialogue Naturalness: 0.809 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n1. **Medical Communication Safety and Appropriateness:**\n   - The doctor consistently demonstrates safe, responsible, and professional communication. There is no evidence of harmful or inappropriate advice. The doctor repeatedly reassures the patient, acknowledges their anxiety, and maintains a focus on both cardiac and neurological risks, which is clinically appropriate given the symptoms (exertional chest pain, transient aphasia, myoclonic jerk) and the patient\u2019s history (coronary artery disease, carotid stenosis).\n   - The doctor\u2019s questions are thorough and systematic, covering associated symptoms (e.g., shortness of breath, dizziness, palpitations, nausea, sweating), triggers (exertion vs. rest), and neurological deficits (weakness, numbness, vision changes, facial droop). This reflects a real-world approach to risk stratification for acute coronary syndrome and cerebrovascular events.\n   - The doctor avoids premature reassurance or dismissal and appropriately signals the need for further evaluation and possible testing.\n\n2. **Natural and Believable Patient Behavior:**\n   - The patient\u2019s responses are progressive and realistic. They initially focus on the most alarming symptom (chest pain), then recall additional details as prompted by the doctor\u2019s questions\u2014a common pattern in real clinical encounters.\n   - The patient expresses anxiety and uncertainty, seeks clarification (\u201cIs it normal for those symptoms to happen together?\u201d), and asks about the seriousness of their symptoms\u2014typical of someone with a complex medical history facing new or worsening symptoms.\n   - Occasional hesitations (\u201cUm, let me think\u2026\u201d) and the gradual recall of events (e.g., remembering the myoclonic jerk during a procedure) add to the authenticity.\n   - The patient\u2019s concern about their risk (\u201cShould I be worried about something serious going on with my heart or brain?\u201d) and about next steps (\u201cWhat kinds of tests or procedures do you think I\u2019ll need next?\u201d) is highly believable.\n\n3. **Empathy and Professionalism:**\n   - The doctor repeatedly validates the patient\u2019s concerns (\u201cI can understand why you\u2019d be anxious\u2026\u201d), uses empathetic language, and maintains a calm, supportive tone throughout.\n   - There is no evidence of dismissiveness or lack of professionalism. The doctor\u2019s responses are measured, attentive, and tailored to the patient\u2019s emotional state.\n\n4. **Meaningful Medical Purpose:**\n   - The conversation is purposeful: it systematically explores the nature, timing, and associated features of both cardiac and neurological symptoms.\n   - The dialogue builds a clear clinical picture that would inform real-world decision-making regarding further diagnostic workup (e.g., cardiac stress testing, neuroimaging) and risk stratification.\n   - The exchange allows for clarification of symptom chronology and context (exertional vs. rest), which is critical in differentiating between cardiac ischemia and neurological events.\n\n5. **Dialogue Flow and Realism:**\n   - The conversation flows logically, with appropriate turn-taking. The doctor\u2019s questions follow naturally from the patient\u2019s disclosures.\n   - Some repetition in phrasing (\u201cI can understand why you\u2019d be anxious\u2026\u201d) is realistic in medical interviews, especially when addressing ongoing patient anxiety.\n   - The patient\u2019s progressive disclosure of information mirrors real clinical encounters where patients often remember additional details as they feel more comfortable or as prompted by specific questions.\n\n**Conclusion:**  \nThis dialogue represents a plausible, safe, and clinically appropriate medical encounter. Both the doctor\u2019s approach and the patient\u2019s behavior are realistic, empathetic, and purposeful. Minor imperfections in language or repetition do not detract from its overall authenticity.\n\n**Summary Judgment:**  \n**DIALOGUE REALISTIC:**  \nThe conversation exemplifies authentic medical communication with appropriate clinical reasoning, empathetic rapport-building, natural patient behavior, and a logical flow serving a meaningful medical purpose.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.880)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.264/0.3 (Score: 0.880)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.971,
+      "naturalness": 0.809,
+      "safety": 0.88,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 82.59465956687927,
+  "dialogue_stats": {
+    "turn_count": 22,
+    "word_count": 1738,
+    "doctor_turns": 11,
+    "patient_turns": 11
+  }
+}

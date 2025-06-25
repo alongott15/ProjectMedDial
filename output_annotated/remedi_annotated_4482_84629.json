@@ -6,32 +6,38 @@
     {
       "turn_id": 0,
       "role": "Doctor",
-      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing right sided weakness in your arm and leg, as well as some difficulty with your speech. Can you describe in more detail how these symptoms started and if you\u2019ve noticed any changes since they began?",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve experienced right-sided weakness in your arm and leg as well as some difficulty with your speech. Can you tell me more about when these symptoms first began and how they have changed since then?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "right sided weakness in arm and leg"
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "greeting and thanking patient"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "difficulty with speech"
+          "value": "right-sided weakness in arm and leg, difficulty with speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "when symptoms first began"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "onset and progression of symptoms"
+          "value": "how symptoms have changed"
         }
       ]
     },
     {
       "turn_id": 1,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 yeah, the main thing is this weakness I\u2019ve got on my right side\u2014my arm and my leg. It sort of came on pretty suddenly, and I just haven\u2019t been able to use them like I normally do. That\u2019s what\u2019s worrying me the most right now.",
+      "utterance_text": "Um, hi. Yeah, the main thing is I started having this weakness on my right side\u2014my arm and my leg. It kind of came on pretty suddenly, and it\u2019s just not really getting better. That\u2019s what\u2019s worrying me the most right now.",
       "remedi_labels": [
         {
           "label_type": "intent",
@@ -49,15 +55,27 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Time",
-          "value": "came on suddenly"
+          "value": "sudden onset"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "not getting better"
         }
       ]
     },
     {
       "turn_id": 2,
       "role": "Doctor",
-      "utterance_text": "Thank you for explaining your symptoms so clearly. I\u2019d like to understand more about your right-sided weakness\u2014have you noticed any changes in your ability to speak or any difficulty with swallowing since these symptoms began?",
+      "utterance_text": "Thank you for sharing that with me\u2014I can understand why these symptoms would be concerning. In addition to the right-sided weakness, have you noticed any changes in your ability to speak or any difficulty with articulation, such as slurred speech or trouble finding words?",
       "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing that with me\u2014I can understand why these symptoms would be concerning."
+        },
         {
           "label_type": "action",
           "type_name": "Inquiring",
@@ -68,42 +86,54 @@
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "difficulty with swallowing"
+          "value": "difficulty with articulation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "slurred speech"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "trouble finding words"
         }
       ]
     },
     {
       "turn_id": 3,
       "role": "Patient",
-      "utterance_text": "Yeah, um\u2026 actually, I have noticed some trouble with my speech\u2014like, it\u2019s harder to get the words out, and my voice sounds different. I think that\u2019s called dysarthria, right? And swallowing feels a bit off too, but the speech is what stands out to me. Should I be worried about that?",
+      "utterance_text": "Well, um... yes, I have noticed some changes with my speech. I think it\u2019s called dysarthria? My words feel kind of slurred, and it\u2019s harder to get them out clearly. That started around the same time as the weakness. Should I be worried about that?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "trouble with speech"
+          "value": "changes with speech"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "harder to get the words out"
+          "value": "slurred speech"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "voice sounds different"
+          "value": "difficulty speaking clearly"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "swallowing feels a bit off"
+          "value": "started around the same time as weakness"
         },
         {
           "label_type": "intent",
-          "type_name": "QA",
+          "type_name": "Inquiring",
           "slot": "Other",
           "value": "Should I be worried about that?"
         }
@@ -112,74 +142,44 @@
     {
       "turn_id": 4,
       "role": "Doctor",
-      "utterance_text": "I can completely understand why you\u2019re experiencing anxious\u2014sudden changes in speech and weakness can be very concerning. You mentioned difficulty with swallowing as well; can you tell me if you\u2019ve had any episodes of choking, coughing when eating or drinking, or if certain foods or liquids are harder to swallow than others?",
+      "utterance_text": "I can absolutely understand why you\u2019d feel anxious about these symptoms\u2014sudden changes like weakness and slurred speech are understandably alarming. In addition to the weakness and dysarthria, have you experienced any difficulty swallowing, such as coughing or choking when eating or drinking?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "sudden changes in speech"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "weakness"
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "I can absolutely understand why you\u2019d feel anxious about these symptoms\u2014sudden changes like weakness and slurred speech are understandably alarming."
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "difficulty with swallowing"
+          "value": "difficulty swallowing"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "episodes of choking"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "coughing when eating or drinking"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "certain foods or liquids are harder to swallow"
+          "value": "coughing or choking when eating or drinking"
         }
       ]
     },
     {
       "turn_id": 5,
       "role": "Patient",
-      "utterance_text": "Well, um\u2026 yeah, I guess I have had some dysphagia\u2014like, swallowing\u2019s just not as easy as it used to be. I haven\u2019t really choked, but sometimes I feel like things get stuck or go down the wrong way, especially with water. I do get a bit lightheaded too, now that I think about it. It\u2019s just\u2026 all these symptoms together are making me pretty concerned, but I\u2019m hoping it\u2019s something you can help me with.",
+      "utterance_text": "Yeah, actually... now that you mention it, I have had some trouble swallowing\u2014dysphagia, I think you called it? It\u2019s like, food and even water just don\u2019t go down right, and I feel like I might choke sometimes. And, um, I\u2019ve also been feeling kind of lightheaded off and on since all this started. Is that something I should be worried about too?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "dysphagia"
+          "value": "trouble swallowing"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "difficulty swallowing"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "sensation of food getting stuck"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "sensation of food going down the wrong way"
+          "value": "feeling like might choke"
         },
         {
           "label_type": "intent",
@@ -189,53 +189,41 @@
         },
         {
           "label_type": "intent",
-          "type_name": "Informing",
+          "type_name": "Inquiring",
           "slot": "Other",
-          "value": "concern about symptoms"
+          "value": "Is that something I should be worried about"
         }
       ]
     },
     {
       "turn_id": 6,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially given how suddenly they appeared. To help with my assessment, can you tell me if the right-sided weakness has remained the same, improved, or worsened since it first started?",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the combination of weakness, dysarthria, and difficulty swallowing. To help guide my assessment, can you describe whether the right-sided weakness has remained constant or if you\u2019ve noticed any changes in the severity or distribution of this symptom since it began?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "I can understand why you\u2019d be worried about these symptoms, especially given how suddenly they appeared."
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness, dysarthria, difficulty swallowing"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "right-sided weakness"
+          "value": "right-sided weakness; changes in severity or distribution"
         }
       ]
     },
     {
       "turn_id": 7,
       "role": "Patient",
-      "utterance_text": "Let me think\u2026 I\u2019d say the right-sided weakness has kind of stayed the same since it started\u2014not really better or worse. It\u2019s just there, and it\u2019s making symptoms like holding a spoon or even walking pretty tough. Also, I\u2019ve noticed some blurred vision and dizziness along with everything else. I\u2019m still pretty concerned, but I\u2019m hoping these symptoms can be figured out.",
+      "utterance_text": "Let me think... The right-sided weakness has pretty much stayed the same since it started. I haven\u2019t really noticed it getting better or worse\u2014it\u2019s just there, in both my arm and my leg. Actually, I\u2019ve also had some blurred vision and dizziness along with everything else. I\u2019m not sure if that\u2019s related, but it\u2019s been making symptoms a bit harder. I\u2019m still hopeful this can get sorted out, but it\u2019s definitely concerning.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
           "value": "right-sided weakness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "difficulty holding a spoon"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "difficulty walking"
         },
         {
           "label_type": "intent",
@@ -254,26 +242,38 @@
     {
       "turn_id": 8,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially since they\u2019re affecting your daily activities. To help with my assessment, have you noticed any changes in sensation\u2014such as numbness, tingling, or decreased experiencing\u2014on the right side of your clinical examination along with the weakness?",
+      "utterance_text": "Thank you for describing your symptoms so clearly\u2014it helps guide my assessment. Regarding the lightheadedness and dizziness you mentioned, have you experienced any episodes of loss of consciousness or fainting since these symptoms began?",
       "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for describing your symptoms so clearly\u2014it helps guide my assessment."
+        },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "changes in sensation such as numbness, tingling, or decreased sensation on the right side"
+          "value": "episodes of loss of consciousness or fainting since lightheadedness and dizziness began"
         }
       ]
     },
     {
       "turn_id": 9,
       "role": "Patient",
-      "utterance_text": "Yeah, um\u2026 now that you mention it, I think there is some diminished sensation\u2014mostly over the outside of my right calf. It\u2019s not completely numb, but it just feels different, like not as strong as the other side. And actually, I\u2019ve been having a headache too, and it\u2019s been harder to get around\u2014trouble ambulating, I guess you\u2019d call it. I just don\u2019t feel steady on my feet at all.",
+      "utterance_text": "Um, no, I haven\u2019t actually fainted or lost consciousness since these symptoms started\u2014just the lightheadedness and dizziness. But, well, I have had a headache that kind of comes and goes. And I\u2019ve been having trouble ambulating\u2014I just don\u2019t feel steady on my feet, especially with the right-sided weakness. I\u2019m still hoping this is something that can be treated, but it\u2019s definitely making me nervous.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "diminished sensation over the outside of right calf"
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
         },
         {
           "label_type": "intent",
@@ -292,99 +292,86 @@
           "type_name": "Informing",
           "slot": "Symptom",
           "value": "unsteady on feet"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right-sided weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "hoping this is treatable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "feeling nervous"
         }
       ]
     },
     {
       "turn_id": 10,
       "role": "Doctor",
-      "utterance_text": "Thank you for describing your symptoms so clearly. Regarding the episodes of lightheadedness you mentioned earlier, have you experienced any loss of consciousness, fainting, or palpitations associated with these symptoms?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "Thank you for describing your symptoms so clearly."
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "loss of consciousness"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "fainting"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "palpitations"
-        }
-      ]
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s helpful for my assessment. You mentioned difficulty holding a spoon in your right hand; have you also noticed any changes in sensation, such as numbness or tingling, in your right arm or hand since the onset of your symptoms?",
+      "remedi_labels": []
     },
     {
       "turn_id": 11,
       "role": "Patient",
-      "utterance_text": "Yeah, actually\u2026 I have had episodes of syncope before\u2014like, I\u2019ve fainted a couple of times in the past. With this recent lightheadedness, though, I haven\u2019t completely lost consciousness, but I do feel like I might if I stand up too quickly. No real palpitations that I can remember.\n\nAnd, um\u2026 about the weakness\u2014I couldn\u2019t even hold a spoon in my right hand earlier, which was really frustrating. My voice has changed too; it\u2019s gotten deeper since all this started. I\u2019m just hoping these symptoms aren\u2019t something permanent. Is there anything specific I should be worried about?",
+      "utterance_text": "Yeah, actually\u2014I couldn\u2019t hold a spoon in my right hand at all, it just kind of slipped out. I don\u2019t really notice numbness or tingling in my right arm or hand, but I do feel like the strength just isn\u2019t there. I did notice some diminished sensation over the side of my right calf, though\u2014not sure if that\u2019s related.\n\nAlso, I\u2019ve noticed my voice sounds different\u2014deeper than usual, I think. Is that part of the dysarthria, or could it be something else? I\u2019m just trying to understand what all these symptoms might mean together.",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "episodes of syncope, fainted a couple of times in the past"
+          "slot": "Symptom",
+          "value": "couldn\u2019t hold a spoon in right hand, weakness in right hand"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "recent lightheadedness"
+          "value": "no numbness or tingling in right arm or hand"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "almost losing consciousness when standing up quickly"
+          "value": "diminished sensation over the side of right calf"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no palpitations"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "weakness in right hand, unable to hold a spoon"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "voice has changed, gotten deeper"
+          "value": "voice sounds deeper than usual"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Is there anything specific I should be worried about?"
+          "slot": "Symptom",
+          "value": "Is deeper voice part of dysarthria or something else?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "What do these symptoms mean together?"
         }
       ]
     },
     {
       "turn_id": 12,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious, especially with these sudden changes in strength and coordination. To help with my assessment, have you noticed any involuntary movements, muscle spasms, or changes in muscle tone\u2014such as stiffness or floppiness\u2014in your right arm or leg since these symptoms began?",
+      "utterance_text": "Thank you for explaining your symptoms in detail\u2014it\u2019s helpful for my assessment. In addition to the right-sided weakness and difficulty with grip strength, have you noticed any involuntary movements, muscle stiffness, or changes in muscle tone in your right arm or leg during this period?",
       "remedi_labels": [
         {
           "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "sudden changes in strength and coordination"
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining your symptoms in detail\u2014it\u2019s helpful for my assessment."
         },
         {
           "label_type": "action",
@@ -396,32 +383,26 @@
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "muscle spasms"
+          "value": "muscle stiffness"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "changes in muscle tone such as stiffness or floppiness in right arm or leg"
+          "value": "changes in muscle tone"
         }
       ]
     },
     {
       "turn_id": 13,
       "role": "Patient",
-      "utterance_text": "Let me think\u2026 I haven\u2019t really noticed any involuntary movements or spasms, but my right arm and leg do feel kind of weak and maybe a bit floppy\u2014not stiff, just not able to hold symptoms up like before. I guess that\u2019s a change in muscle tone, right?\n\nAlso, I wanted to mention\u2014I\u2019ve had more trouble swallowing lately, and my family said my face looks a little droopy on the right side. I saw it in the mirror too, like my smile isn\u2019t even. Should I be worried about that facial droop? Does it mean something serious?",
+      "utterance_text": "Let me think... I haven\u2019t really noticed any involuntary movements or muscle stiffness, but my right arm and leg just feel kind of heavy and weak. I guess I\u2019m not sure about changes in muscle tone, but it\u2019s definitely harder to move them, and sometimes they feel a bit floppy.\n\nAlso, I wanted to mention\u2014I\u2019ve had more trouble swallowing lately, and my family pointed out that my face looks a little droopy on the right side. Is that something you see too? I\u2019m just trying to piece together if all these symptoms are connected. Should I be worried about this getting worse?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "right arm and leg weakness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "muscle tone change (floppy, not stiff)"
+          "value": "heaviness and weakness in right arm and leg"
         },
         {
           "label_type": "intent",
@@ -433,265 +414,32 @@
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "right facial droop"
+          "value": "droopy face on the right side"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "facial droop seriousness"
+          "value": "doctor's observation of facial droop"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "whether symptoms are connected"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "should be worried about symptoms getting worse"
         }
       ]
     },
     {
       "turn_id": 14,
       "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the new facial droop and difficulty holding objects in your right hand. During your clinical examination, have you noticed any changes in your ability to feel touch or temperature on the right side of your face compared to the left?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "facial droop"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "difficulty holding objects in right hand"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "changes in ability to feel touch on right side of face"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "changes in ability to feel temperature on right side of face"
-        }
-      ]
-    },
-    {
-      "turn_id": 15,
-      "role": "Patient",
-      "utterance_text": "Um\u2026 I think my sensation on the right side of my face is mostly the same as the left\u2014I haven\u2019t really noticed much difference with touch or temperature there. It\u2019s more that my face just looks droopy on the right, and when I try to smile, it\u2019s uneven. \n\nAlso, when you did the exam, I remember my right arm had a downward drift when I tried to hold it up. That was kind of discouraging to see. And, sorry\u2014I keep getting teary eyed talking about all this. I don\u2019t usually cry, but it\u2019s just a lot to take in right now.\n\nIs it common for these symptoms to come on so suddenly? And do you think there\u2019s a good chance I\u2019ll get back to my baseline?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no difference in sensation with touch or temperature on right side of face"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "right side of face looks droopy"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "uneven smile"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "right arm had downward drift when holding it up"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "teary eyed and emotional"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Pathogeny",
-          "value": "Is it common for these symptoms to come on so suddenly?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "do you think there\u2019s a good chance I\u2019ll get back to my baseline?"
-        }
-      ]
-    },
-    {
-      "turn_id": 16,
-      "role": "Doctor",
-      "utterance_text": "Thank you for sharing all of this\u2014it\u2019s completely understandable to feel emotional when facing sudden changes in your strength and speech. Based on your symptoms of right-sided weakness, facial droop, and difficulty holding objects, my assessment is focused on possible neurological causes such as a stroke. To further guide my evaluation, have you experienced any double vision or abnormal eye movements since these symptoms began?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Chitchat",
-          "slot": "Other",
-          "value": "Thank you for sharing all of this\u2014it\u2019s completely understandable to feel emotional when facing sudden changes in your strength and speech."
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "possible neurological causes such as a stroke"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "right-sided weakness, facial droop, difficulty holding objects"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "double vision or abnormal eye movements"
-        }
-      ]
-    },
-    {
-      "turn_id": 17,
-      "role": "Patient",
-      "utterance_text": "Yeah, actually\u2026 I have noticed some symptoms with my vision\u2014sometimes symptoms look a bit blurry, and I think there\u2019s been some double vision too. I\u2019m not sure if my eyes are moving funny, but it does feel off, especially when I try to look around quickly. \n\nAlso, I wanted to mention\u2014I\u2019ve got diminished sensation over the lateral aspect of my right calf. It just feels kind of numb or dull compared to the left side. And my gait\u2019s been really unsteady because of the weakness; I don\u2019t feel comfortable walking away from the bed at all. \n\nI know you mentioned stroke as a possible cause\u2014does all of this fit with that? Is there anything else I should be watching out for or doing differently right now?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "blurry vision"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "double vision"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "eyes moving funny"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "diminished sensation over the lateral aspect of right calf"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "numbness or dullness in right calf"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "unsteady gait"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "weakness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Disease",
-          "value": "stroke"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "anything else I should be watching out for or doing differently"
-        }
-      ]
-    },
-    {
-      "turn_id": 18,
-      "role": "Doctor",
-      "utterance_text": "Thank you for sharing these details\u2014it\u2019s important for me to understand exactly how your symptoms have developed. Based on your right-sided weakness, difficulty holding a spoon, facial droop, and changes in speech and swallowing, my assessment is focused on a possible neurological condition such as a stroke. Have you noticed any new symptoms like chest pain, shortness of breath, or palpitations that might suggest involvement of your cardiovascular system?",
-      "remedi_labels": []
-    },
-    {
-      "turn_id": 19,
-      "role": "Patient",
-      "utterance_text": "Well, um\u2026 I haven\u2019t had any chest pain or shortness of breath, and I don\u2019t think I\u2019ve felt any palpitations either. It\u2019s mostly just these neurological symptoms that have been bothering me. Actually, I wanted to mention\u2014I\u2019m really unable to stand on my right leg at all, and I haven\u2019t felt comfortable walking away from the bed because of how unsteady I am. My gait is just so off, and I\u2019m worried about falling.\n\nI know you\u2019re thinking about a stroke, and with my history, that does make me nervous. Is it possible for these symptoms to get better over time? And is there anything else I should be doing right now to help my recovery?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no chest pain"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no shortness of breath"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no palpitations"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "neurological symptoms"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "unable to stand on right leg"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "unsteady gait"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "worried about falling"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "history of stroke"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Effect",
-          "value": "Is it possible for these symptoms to get better over time?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Is there anything else I should be doing right now to help my recovery?"
-        }
-      ]
-    },
-    {
-      "turn_id": 20,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious, especially given your sudden neurological symptoms and your medical history of prior stroke. Based on your description\u2014right-sided weakness, facial droop, dysarthria, dysphagia, unsteady gait, and sensory changes\u2014my assessment is strongly focused on a possible acute cerebrovascular event such as a stroke. To further guide my evaluation, have you experienced any new symptoms like severe headache, sudden vision loss, or confusion since your initial onset?",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the new right-sided weakness and difficulty holding objects in your right hand. To help with my assessment, have you noticed any changes in your ability to feel touch, temperature, or pain on your right side compared to your left during your clinical examination or daily activities?",
       "remedi_labels": [
         {
           "label_type": "action",
@@ -703,570 +451,148 @@
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "facial droop"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "dysarthria"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "dysphagia"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "unsteady gait"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "sensory changes"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "acute cerebrovascular event (stroke)"
+          "value": "difficulty holding objects in right hand"
         },
         {
           "label_type": "action",
           "type_name": "Inquiring",
           "slot": "Symptom",
-          "value": "severe headache"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "sudden vision loss"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "confusion"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Disease-history",
-          "value": "prior stroke"
+          "value": "changes in ability to feel touch, temperature, or pain on right side compared to left"
         }
       ]
     },
     {
-      "turn_id": 21,
+      "turn_id": 15,
       "role": "Patient",
-      "utterance_text": "Yeah, actually\u2026 I have had a pretty bad headpain since all this started. It\u2019s not the worst pain I\u2019ve ever had, but it\u2019s definitely more than my usual headpains. My vision\u2019s been a bit blurry, but I haven\u2019t had sudden vision loss\u2014just that double vision and some blurriness. I don\u2019t think I\u2019ve been confused, but I do feel a little out of it sometimes, maybe from being so lightheaded.\n\nAlso, I wanted to mention\u2014I\u2019ve had a lot of trouble with drooling lately, especially on the right side. My right arm and leg weakness is still there, and it\u2019s making symptoms really tough. I\u2019m just hoping these symptoms mean there\u2019s still a chance for symptoms to improve. Is there anything specific you recommend for recovery if this does turn out to be another stroke?",
+      "utterance_text": "Yeah, actually... now that you ask, I have noticed some changes in sensation. Over the lateral aspect of my right calf, it feels kind of diminished\u2014like I can\u2019t feel touch or temperature as well as on my left side. I\u2019m not sure about pain, but definitely touch and maybe temperature.\n\nAlso, during the exam, I think you might have seen that my right arm has a bit of a downward drift when I try to hold it up. That\u2019s been pretty noticeable for me too. Sorry, I\u2019m just\u2014I get teary eyed talking about all this, it\u2019s just a lot to take in. I\u2019m still hopeful, but it\u2019s hard not to worry. Is there anything specific I should be looking out for, or anything that would mean symptoms are getting worse?",
       "remedi_labels": [
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "headpain"
+          "value": "diminished sensation over the lateral aspect of right calf, decreased touch and temperature sensation"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "blurry vision"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "double vision"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "feeling out of it"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "lightheadedness"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "drooling on the right side"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "right arm and leg weakness"
+          "value": "right arm downward drift"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "recommendation for recovery if this is another stroke"
+          "slot": "Precaution",
+          "value": "asking if there is anything specific to look out for or signs that symptoms are getting worse"
         }
       ]
     },
     {
-      "turn_id": 22,
+      "turn_id": 16,
       "role": "Doctor",
-      "utterance_text": "I can understand how confusing and overwhelming these symptoms must feel, especially given your medical history and the sudden changes you\u2019ve described. Based on your symptoms\u2014right-sided weakness, facial droop, dysarthria, dysphagia, unsteady gait, sensory changes, and drooling\u2014my clinical assessment is highly suggestive of an acute stroke affecting the areas of the brain responsible for movement and speech.\n\nThe most important steps for recovery include early rehabilitation with physical, occupational, and speech therapy, as well as careful management of risk factors such as blood pressure and cholesterol. We will also monitor your neurological status closely and adjust your treatment plan as needed.\n\nTo help guide your ongoing care, have you experienced any difficulty controlling your bladder or bowel function since the onset of these symptoms?",
+      "utterance_text": "Thank you for sharing your experiences so openly\u2014I can assess how difficult and overwhelming this must feel, and it\u2019s completely understandable to feel emotional. Based on your symptoms\u2014persistent right-sided weakness, difficulty holding objects in your right hand, facial droop, dysarthria, and sensory changes\u2014my assessment is highly suggestive of a neurological condition, possibly a stroke affecting the left side of your brain. To further guide my evaluation, have you experienced any new or worsening symptoms such as sudden severe headache, vision loss, or difficulty understanding speech since your initial onset?",
       "remedi_labels": [
         {
           "label_type": "action",
           "type_name": "Diagnosis",
           "slot": "Disease",
-          "value": "acute stroke"
+          "value": "neurological condition, possibly a stroke affecting the left side of the brain"
         },
         {
           "label_type": "action",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "right-sided weakness, facial droop, dysarthria, dysphagia, unsteady gait, sensory changes, drooling"
+          "value": "persistent right-sided weakness, difficulty holding objects in right hand, facial droop, dysarthria, sensory changes"
         },
         {
           "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "early rehabilitation with physical, occupational, and speech therapy"
-        },
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening symptoms such as sudden severe headache, vision loss, or difficulty understanding speech"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining symptoms so clearly. I appreciate you taking the time. Um, since all this started, I haven\u2019t had a sudden severe headpain or lost my vision completely, but my vision has been kind of blurred at times. I haven\u2019t really had trouble understanding speech, but it\u2019s definitely been harder to get my own words out\u2014like with the dysarthria.\n\nI did want to mention again that the sensation over the lateral aspect of my right calf is still diminished\u2014it just feels different compared to my left side. And my gait\u2019s been really unsteady because of the weakness; I don\u2019t feel comfortable walking away from the bed, and I definitely can\u2019t stand on my right leg by itself.\n\nIs there anything specific I should be watching for that would mean symptoms are getting worse? And, um, is this kind of presentation common with a stroke? I\u2019m just trying to understand what\u2019s happening and what to expect next.",
+      "remedi_labels": [
         {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "management of risk factors such as blood pressure and cholesterol"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
+          "label_type": "intent",
+          "type_name": "Chitchat",
           "slot": "Other",
-          "value": "monitor neurological status and adjust treatment plan as needed"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "difficulty controlling bladder or bowel function"
-        }
-      ]
-    },
-    {
-      "turn_id": 23,
-      "role": "Patient",
-      "utterance_text": "Well, um\u2026 actually, I haven\u2019t had any trouble controlling my bladder or bowels since all this started. That part\u2019s been normal for me, thankfully.\n\nBut now that I feel a bit more comfortable sharing, I did want to mention\u2014I\u2019ve noticed some nystagmus in all directions when I try to move my eyes. It\u2019s kind of unsettling, and I\u2019m not sure if that\u2019s related to the stroke symptoms you mentioned. Also, there were a few moments where I just couldn\u2019t get any words out at all\u2014like complete anarthria, I think is the term. That was really scary.\n\nI appreciate you explaining the recovery steps and what to expect. Is there anything specific I should be doing right now to help with these symptoms? And do you think early therapy can really make a difference in getting back to my baseline?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no trouble controlling bladder or bowels"
+          "value": "Thank you for explaining symptoms so clearly. I appreciate you taking the time."
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "nystagmus in all directions when moving eyes"
+          "value": "blurred vision at times"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "episodes of complete anarthria"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Is there anything specific I should be doing right now to help with these symptoms?"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "Do you think early therapy can really make a difference in getting back to my baseline?"
-        }
-      ]
-    },
-    {
-      "turn_id": 24,
-      "role": "Doctor",
-      "utterance_text": "Thank you for sharing these additional symptoms, including the nystagmus and episodes of anarthria\u2014these findings further support my assessment that your symptoms are likely due to a significant neurological event, such as a stroke involving the brainstem or cerebellum. Early initiation of rehabilitation therapies\u2014physical, occupational, and speech therapy\u2014has been shown to significantly improve recovery and functional outcomes after stroke, so starting these interventions as soon as possible is crucial. \n\nIn addition to therapy, we will continue to closely monitor your neurological status and manage risk factors like blood pressure and cholesterol. Have you had any recent fever or signs of infection since your symptoms began?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "early initiation of rehabilitation therapies\u2014physical, occupational, and speech therapy"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "monitor neurological status and manage risk factors like blood pressure and cholesterol"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "recent fever or signs of infection"
-        }
-      ]
-    },
-    {
-      "turn_id": 25,
-      "role": "Patient",
-      "utterance_text": "No, I haven\u2019t had any fever or signs of infection since these symptoms started\u2014no chills or anything like that. I\u2019ve just been dealing with all these neurological symptoms.\n\nActually, now that I feel a bit more comfortable, I wanted to mention something else\u2014I\u2019ve had moments where it felt like I had quadriparesis, not just weakness on the right side. There were times when both my arms and legs felt really weak, almost like I couldn\u2019t move them at all. And once or twice, the nurses said my heart rate dropped suddenly\u2014sudden bradycardia, I think they called it. That was pretty scary.\n\nI\u2019m still concerned, but hearing about early therapy and close monitoring does give me some hope. Is it common to have symptoms like quadriparesis and bradycardia with a stroke in the brainstem or cerebellum? And is there anything else I should be watching for while I\u2019m here?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no fever"
+          "value": "no sudden severe headpain"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no signs of infection"
+          "value": "no complete loss of vision"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "no chills"
+          "value": "no trouble understanding speech"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "neurological symptoms"
+          "value": "harder to get words out (dysarthria)"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "quadriparesis"
+          "value": "diminished sensation over lateral aspect of right calf"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "weakness in both arms and legs"
+          "value": "gait unsteady due to weakness"
         },
         {
           "label_type": "intent",
           "type_name": "Informing",
           "slot": "Symptom",
-          "value": "sudden bradycardia"
+          "value": "not comfortable walking away from bed"
         },
         {
           "label_type": "intent",
-          "type_name": "Inquiring",
+          "type_name": "Informing",
           "slot": "Symptom",
-          "value": "Is it common to have quadriparesis and bradycardia with a stroke in the brainstem or cerebellum?"
+          "value": "cannot stand on right leg by itself"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Precaution",
-          "value": "Is there anything else I should be watching for while I\u2019m here?"
-        }
-      ]
-    },
-    {
-      "turn_id": 26,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried, especially with symptoms like quadriparesis and sudden bradycardia\u2014these can be particularly alarming and are sometimes assessn with strokes involving the brainstem, where vital functions and pathways for movement are located. My clinical assessment is that your symptoms are consistent with a significant neurological event, likely affecting the brainstem or cerebellum, which can explain both the widespread weakness and changes in heart rate.\n\nEarly initiation of rehabilitation therapies\u2014physical, occupational, and speech therapy\u2014remains crucial for maximizing recovery, and close monitoring for any changes in your neurological status or vital signs is essential. As we continue your care, have you experienced any new difficulty with breathing or swallowing that feels worse than when your symptoms first began?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "quadriparesis"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "sudden bradycardia"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "stroke involving the brainstem"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "neurological event affecting the brainstem or cerebellum"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "early initiation of rehabilitation therapies (physical, occupational, and speech therapy)"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "close monitoring for changes in neurological status or vital signs"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "new difficulty with breathing or swallowing"
-        }
-      ]
-    },
-    {
-      "turn_id": 27,
-      "role": "Patient",
-      "utterance_text": "Well, um\u2026 I haven\u2019t really noticed any new difficulty with breathing\u2014it\u2019s about the same as when all this started, so no shortness of breath or anything like that. Swallowing is still tough, though, and I think the dysphagia might be a little worse, especially with thin liquids. I have to really concentrate to keep from choking or drooling.\n\nActually, I wanted to mention\u2014I was told my blood pressure dropped pretty low at one point, so I guess that\u2019s hypotension? That was around the same time as the bradycardia. It made me feel even more lightheaded than usual. Is that something that happens often with brainstem strokes?\n\nI\u2019m still concerned about all these symptoms, but I do feel a bit more hopeful now that you\u2019ve explained the plan for therapy and close monitoring. Is there anything else I should be watching out for or letting you know about as symptoms progress?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no new difficulty with breathing"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no shortness of breath"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "swallowing is still tough"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "dysphagia worse with thin liquids"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "choking or drooling when swallowing"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "blood pressure dropped (hypotension)"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "bradycardia"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "lightheadedness"
+          "value": "Is there anything specific I should be watching for that would mean symptoms are getting worse?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
           "slot": "Disease",
-          "value": "Is hypotension and bradycardia common with brainstem strokes?"
+          "value": "Is this kind of presentation common with a stroke?"
         },
         {
           "label_type": "intent",
           "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "Is there anything else I should be watching out for or letting you know about as symptoms progress?"
-        }
-      ]
-    },
-    {
-      "turn_id": 28,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the recent episodes of hypotension and worsening dysphagia. Based on my clinical assessment, your symptoms\u2014including right-sided weakness, facial droop, dysarthria, dysphagia, nystagmus, quadriparesis, bradycardia, and hypotension\u2014are highly suggestive of a brainstem stroke, which can affect vital functions such as swallowing and cardiovascular regulation.\n\nEarly and intensive rehabilitation therapy is crucial for maximizing recovery, and close neurological monitoring will help us detect any changes promptly. It\u2019s important to let the medical team know immediately if you experience any new symptoms such as worsening shortness of breath, inability to swallow saliva, or sudden changes in consciousness.\n\nTo further guide your care, have you noticed any new difficulty with coughing or clearing your throat effectively during swallowing since your symptoms began?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "brainstem stroke"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "right-sided weakness, facial droop, dysarthria, dysphagia, nystagmus, quadriparesis, bradycardia, hypotension"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "early and intensive rehabilitation therapy"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "close neurological monitoring"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "notify medical team if new symptoms such as worsening shortness of breath, inability to swallow saliva, or sudden changes in consciousness occur"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "new difficulty with coughing or clearing throat during swallowing"
-        }
-      ]
-    },
-    {
-      "turn_id": 29,
-      "role": "Patient",
-      "utterance_text": "Yeah, actually\u2026 now that you mention it, I have noticed it\u2019s harder to cough or clear my throat when I try to swallow, especially with liquids. Sometimes I feel like I just can\u2019t get a good cough out, and I worry that symptoms might be going down the wrong way. I haven\u2019t had any choking episodes, but it does make me nervous\u2014especially with all this drooling and dysphagia.\n\nI\u2019m still pretty concerned about these symptoms, but I do feel a bit more hopeful now that you\u2019re talking about early and intensive rehabilitation therapy. Is there anything specific I can do right now to help with the swallowing and prevent symptoms from getting worse? And how long does it usually take for symptoms like these to improve after a brainstem stroke?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "harder to cough or clear throat when swallowing, especially with liquids"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "feeling like symptoms might be going down the wrong way"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no choking episodes"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "drooling"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "dysphagia"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Treatment",
-          "value": "specific things to do to help with swallowing and prevent symptoms from getting worse"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Time",
-          "value": "how long it takes for symptoms like these to improve after a brainstem stroke"
-        }
-      ]
-    },
-    {
-      "turn_id": 30,
-      "role": "Doctor",
-      "utterance_text": "I can understand why you\u2019d be anxious, especially with ongoing symptoms like dysphagia, drooling, and difficulty clearing your throat\u2014these can be very distressing after a brainstem stroke. My clinical assessment is that your symptoms are consistent with impaired swallowing function, which increases the risk of aspiration, so I recommend a formal swallowing evaluation by a speech-language pathologist and maintaining aspiration precautions (such as upright positioning during meals and using thickened liquids if advised). \n\nTo further guide your care, have you noticed any episodes of coughing or choking during meals, or any signs of respiratory symptoms such as new cough or shortness of breath since your symptoms began?",
-      "remedi_labels": [
-        {
-          "label_type": "action",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "dysphagia, drooling, difficulty clearing throat"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Diagnosis",
-          "slot": "Disease",
-          "value": "impaired swallowing function"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Treatment",
-          "value": "formal swallowing evaluation by a speech-language pathologist"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Recommendation",
-          "slot": "Precaution",
-          "value": "maintaining aspiration precautions (upright positioning during meals, using thickened liquids if advised)"
-        },
-        {
-          "label_type": "action",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "episodes of coughing or choking during meals, new cough, shortness of breath"
-        }
-      ]
-    },
-    {
-      "turn_id": 31,
-      "role": "Patient",
-      "utterance_text": "Well, um\u2026 I haven\u2019t really had any full-on choking episodes during meals, but I do sometimes cough a little bit, especially when I\u2019m drinking water or something thin. It\u2019s like my throat just doesn\u2019t clear the way it used to. I haven\u2019t noticed any new cough or shortness of breath, though\u2014my breathing seems about the same as before all this started.\n\nI appreciate you recommending the swallowing evaluation and aspiration precautions. I\u2019ll definitely try to sit upright and be careful with what I eat and drink. Is there anything else I should be doing to lower my risk of aspiration? And do you think symptoms like dysphagia and drooling usually get better with therapy after a brainstem stroke, or is it common for them to stick around?",
-      "remedi_labels": [
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "cough when drinking water or thin liquids"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "throat does not clear as before"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no new cough"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Informing",
-          "slot": "Symptom",
-          "value": "no shortness of breath"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Precaution",
-          "value": "anything else to lower risk of aspiration"
-        },
-        {
-          "label_type": "intent",
-          "type_name": "Inquiring",
-          "slot": "Symptom",
-          "value": "whether dysphagia and drooling improve with therapy after brainstem stroke or persist"
+          "slot": "Other",
+          "value": "I\u2019m just trying to understand what\u2019s happening and what to expect next."
         }
       ]
     }

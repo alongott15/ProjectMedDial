@@ -1,0 +1,1111 @@
+{
+  "source_row_id": 3921,
+  "source_subject_id": 9571,
+  "source_hadm_id": 115057,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I assess you\u2019ve been experiencing chronic shortness of breath and low blood pressure. Can you tell me more about how your dyspnea has changed recently and if there are specific activities that make your symptoms worse?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "greeting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "chronic shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "symptom triggers"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yeah, I\u2019ve been having more shortness of breath lately. It seems like it\u2019s getting worse, even when I\u2019m just walking to the bathroom or getting dressed. And, uh, I\u2019ve also noticed some jaw pain when I\u2019m moving around\u2014it kind of comes and goes. I\u2019m not sure if that\u2019s related, but it\u2019s been worrying me.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaw pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that with me\u2014it\u2019s important that we understand how your symptoms are affecting your daily activities. You mentioned both increased shortness of breath and jaw pain with exertion; have you noticed any chest discomfort, palpitations, or dizziness when these symptoms occur?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing that with me\u2014it\u2019s important that we understand how your symptoms are affecting your daily activities."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaw pain with exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dizziness"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 well, I guess my main concern is really the shortness of breath and just feeling so tired all the time. I haven\u2019t really noticed much chest discomfort, but I do get a bit lightheaded sometimes. Also, I don\u2019t know if it matters, but I\u2019ve got these psoriatic lesions\u2014they\u2019re on my back, buttocks, abdomen, chest, and legs. I\u2019m just feeling pretty anxious about all of this.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "psoriatic lesions"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "back, buttocks, abdomen, chest, and legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014these symptoms can be very concerning, especially with the increased shortness of breath and fatigue. To help guide our assessment, can you tell me if your dyspnea is worse when you\u2019re lying flat or if you ever wake up at night experiencing short of breath?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dyspnea worse when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "waking up at night experiencing shortness of breath"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, yeah, I do notice my shortness of breath is worse when I\u2019m lying flat. Sometimes I have to prop myself up with a couple of pillows, otherwise it feels like I can\u2019t catch my breath. And, um, there have been a few nights where I wake up suddenly, kind of gasping. I also get this jaw and neck pain sometimes, and once or twice I\u2019ve felt a bit of chest pain too. Should I be worried about that?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worse when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "needs to prop up with pillows to breathe"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up at night gasping for breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaw and neck pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about that?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with your shortness of breath worsening when lying flat and waking you up at night. To help with our assessment, have you noticed any swelling in your legs or ankles, or any recent weight gain that might suggest fluid retention?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worsening when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in your legs or ankles"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "fluid retention"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Yeah, um\u2026 actually, I have noticed some swelling in my lower legs. It\u2019s been pretty prominent lately, and it doesn\u2019t really go away when I put my feet up. I don\u2019t think it\u2019s pitting\u2014like, when I press on it, it just kind of stays the same. I haven\u2019t really examinationed my weight, but my shoes feel tighter. And, uh, that neck pain and jaw pain I mentioned earlier\u2014they seem to come on with activity too. I\u2019m just not sure what\u2019s going on, and it\u2019s making me pretty anxious.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in lower legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling does not go away with elevation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no pitting edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shoes feel tighter"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck pain with activity"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaw pain with activity"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with these symptoms affecting your daily life. Since you mentioned both dyspnea and episodes of lightheadedness, have you experienced any episodes of near-fainting or actual loss of consciousness during these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "near-fainting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "loss of consciousness"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Um\u2026 I haven\u2019t actually fainted, but there have been a couple of times where I felt like I might. It\u2019s usually when I stand up too quickly, or if I\u2019ve been moving around more than usual. I get really lightheaded and kind of dizzy, and sometimes my vision gets a little blurry for a second. I think my blood pressure might be low during those times\u2014one of the nurses mentioned hypotension before. And the dyspnea just seems to make everything feel harder. It\u2019s all just making me pretty anxious, honestly.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blurry vision"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "hypotension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "anxiety"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with these ongoing symptoms and the impact on your daily life. Given your history of anemia and recent findings of guaiac positive stools, have you noticed any changes in your bowel movements, such as darker or black stools, or visible blood when you have a bowel movement?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "anemia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "guaiac positive stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in bowel movements"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "darker or black stools"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "visible blood in stool"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that you mention it, I have noticed my bowel movements have been a lot darker lately\u2014almost black, really. And there was one time where I saw what looked like blood, kind of grossly bloody, during a rectal exam before I came in. I know you mentioned guaiac positive stools and anemia, and I\u2019m starting to wonder if this bleeding is why I\u2019m so tired and short of breath. Is that something I should be really concerned about? Could this be causing my hypotension too?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark bowel movements"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "black stool"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "blood in stool"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tiredness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "concern about bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "bleeding causing hypotension"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the fatigue and jaw pain you\u2019ve described. To help guide our assessment, can you tell me if your jaw pain ever occurs at rest, or is it always brought on by physical activity or exertion?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaw pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "jaw pain at rest or with physical activity"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 The jaw pain is mostly when I\u2019m doing something\u2014like walking or climbing stairs. I don\u2019t really notice it much when I\u2019m just sitting or resting. It\u2019s kind of like an anginal equivalent, right? I read that can happen with heart symptoms. \n\nAnd, um, I\u2019ve really noticed my energy is way down lately. Even simple symptoms just wear me out. The swelling in my lower legs is still pretty prominent, and like I mentioned before, it\u2019s non-pitting and doesn\u2019t really go away. \n\nIs all of this connected\u2014the decreased energy, the edema, the jaw pain, and the anemia? I\u2019m just feeling pretty anxious about what it all means.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaw pain on exertion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased energy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in lower legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "non-pitting edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Are decreased energy, edema, jaw pain, and anemia connected?"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about these symptoms, especially with the combination of decreased energy, jaw pain with exertion, and prominent non-pitting lower extremity edema. To help with our assessment, have you noticed any shortness of breath or difficulty breathing at night that wakes you from sleep, or any recent changes in your urine output that might suggest fluid overload?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased energy"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaw pain with exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "prominent non-pitting lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty breathing at night that wakes you from sleep"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in urine output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fluid overload"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Yeah, I have had some shortness of breath at night\u2014it\u2019s actually woken me up a few times, like I mentioned earlier. I\u2019ll wake up kind of gasping or just feeling like I can\u2019t get enough air. It\u2019s definitely worse when I\u2019m lying flat, so I\u2019ve been sleeping with extra pillows.\n\nAs for my urine output, um\u2026 I think it\u2019s maybe a little less than usual, but I\u2019m not totally sure. I haven\u2019t been keeping track exactly, but it just seems like I\u2019m not going as much.\n\nAlso, I don\u2019t know if this matters, but someone pointed out that my eyes look pretty pale\u2014pale conjunctiva, I think you\u2019d call it? And there\u2019s more redness around my lips, like increased erythema in the peri-labial folds. I\u2019m just feeling really anxious about all these symptoms coming together. Should I be worried that this is all related to my anemia or maybe my heart?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath at night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "waking up gasping for air"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worse shortness of breath when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sleeping with extra pillows"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pale conjunctiva"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "increased erythema in peri-labial folds"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "anemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart disease"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about all these symptoms coming together, especially with your history of anemia and heart disease. Based on your description\u2014jaw pain with exertion, prominent non-pitting lower extremity edema, worsening dyspnea, and pale conjunctiva\u2014these findings could be related to both your cardiac function and ongoing blood loss. As part of our assessment, have you experienced any chest discomfort or pressure during these episodes of jaw pain, or do you notice any palpitations or irregular heartbeats?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "anemia and heart disease"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaw pain with exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "prominent non-pitting lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pale conjunctiva"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "cardiac dysfunction and ongoing blood loss (possible causes)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest discomfort or pressure during jaw pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations or irregular heartbeats"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Yeah, actually\u2026 now that I\u2019m thinking about it, there have been a couple of times when I\u2019ve felt some chest discomfort or pressure along with the jaw pain, especially if I\u2019m walking or doing something a little more strenuous. It\u2019s not always really strong, but it\u2019s definitely there. I haven\u2019t really noticed palpitations or irregular heartbeats, though\u2014my heart just feels tired, if that makes sense.\n\nUm, I also wanted to mention\u2014I\u2019ve been having significant diarrhea lately. It\u2019s been going on for a while and sometimes it\u2019s pretty urgent. I don\u2019t know if that could be related to the anemia or blood loss, but it\u2019s definitely new for me.\n\nAnd, actually, I\u2019ve noticed these kind of residual neck pulsations\u2014like a throbbing in my neck, especially when I\u2019m lying down. Is that something I should be worried about? I just feel like all these symptoms are piling up and I\u2019m not sure what\u2019s most important.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chest discomfort or pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaw pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart feels tired"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diarrhea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "urgent diarrhea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck pulsations or throbbing in neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "neck pulsations or throbbing in neck"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Are these symptoms related or important?"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with so many symptoms happening at once. Based on what you\u2019ve described\u2014jaw pain with exertion, prominent non-pitting lower extremity edema, worsening dyspnea, anemia, and recent gastroindiagnostic evaluationinal bleeding\u2014these findings suggest both cardiac and hematologic factors may be contributing to your condition. As part of our assessment, have you ever been evaluated for worsening heart failure symptoms recently, such as an echocardiogram or cardiac examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "jaw pain with exertion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "prominent non-pitting lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anemia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recent gastrointestinal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "cardiac and hematologic factors contributing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "echocardiogram or cardiac examination"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t had an echocardiogram or a full cardiac examination recently. The last time I had one was probably a year or so ago, after I had that CABG. I know my ejection fraction was around 40% back then, but nobody\u2019s examinationed it since all these new symptoms started.\n\nAnd, actually, the black stool has been pretty persistent. There was also that time during a rectal exam where it was grossly bloody\u2014so I\u2019m guessing that\u2019s what you meant by gastrointestinal bleeding. I\u2019m just really anxious about how it all ties together. Should I be worried that this is both my heart and the anemia acting up at the same time? Is there something specific I should be asking for in terms of tests or treatment?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "echocardiogram"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "full cardiac examination"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "a year or so ago"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "CABG"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "ejection fraction was around 40%"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "black stool"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "grossly bloody stool during rectal exam"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "gastrointestinal bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "heart and anemia acting up at the same time"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "tests"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "treatment"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, given your persistent symptoms and the uncertainty about how they\u2019re connected. Based on what you\u2019ve shared\u2014worsening dyspnea, exertional jaw and chest pain, prominent non-pitting lower extremity edema, anemia with gastroindiagnostic evaluationinal bleeding, and recent diarrhea\u2014it\u2019s important to assess both your cardiac function and the extent of your blood loss. As part of our assessment, have you recently had laboratory diagnostic evaluations to evaluate your hemoglobin level and cardiac biomarkers, or would you be open to repeating these diagnostic evaluations to guide our next steps?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "exertional jaw and chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "prominent non-pitting lower extremity edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anemia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "gastrointestinal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "recent diarrhea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "laboratory diagnostic evaluations for hemoglobin level and cardiac biomarkers"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Yeah, I\u2019d definitely be open to repeating those laboratory diagnostic evaluations if you think it\u2019ll help figure out what\u2019s going on. I know they examinationed my hemoglobin when I first came in, but I\u2019m not sure about the cardiac biomarkers. I just want to make sure we\u2019re not missing anything, especially with all these symptoms happening at once.\n\nActually, before I was admitted, I did have some pretty dark bowel movements\u2014almost black\u2014and there was some bleeding too. That\u2019s part of why I came in, because it really worried me. With the anemia and everything else, I just keep thinking, is this all connected? Should I be worried that the bleeding is making my heart symptoms worse, or could it be something else entirely?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "hemoglobin"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "cardiac biomarkers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dark bowel movements"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bleeding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "connection between bleeding and heart symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with ongoing symptoms of anemia, gastroindiagnostic evaluationinal bleeding, and worsening shortness of breath. Based on your medical history and current symptoms, it\u2019s likely that the blood loss is contributing to your anemia, which can worsen cardiac symptoms such as dyspnea, fatigue, and even anginal equivalents like jaw pain. I recommend a comprehensive assessment including repeat laboratory diagnostic evaluations (hemoglobin, hematocrit, iron studies), cardiac biomarkers, and possibly an echocardiogram to evaluate your cardiac function. In addition to addressing the source of gastroindiagnostic evaluationinal bleeding, would you be willing to undergo further gastroenterological examination, such as endoscopy or colonoscopy, to help identify and manage the bleeding source?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anemia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "gastrointestinal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dyspnea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anginal equivalents like jaw pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "anemia due to blood loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "repeat laboratory diagnostic evaluations (hemoglobin, hematocrit, iron studies)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "cardiac biomarkers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "echocardiogram"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "addressing the source of gastrointestinal bleeding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "further gastroenterological examination, such as endoscopy or colonoscopy"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Yes, I\u2019d be willing to do whatever diagnostic evaluations you think are necessary, including an endoscopy or colonoscopy if that\u2019ll help figure out where the bleeding is coming from. I know with my history of anemia and now these black stools and grossly bloody rectal exam, it sounds like finding the source is important.\n\nUm, I am a little nervous about the procedures, but I trust your judgment. I just want to get to the bottom of why I\u2019m feeling so weak and short of breath\u2014and if the blood loss is making my cardiac symptoms worse, I definitely want to address that. Is there anything I should watch out for while we\u2019re waiting for the results? And, just so I understand, could the ongoing diarrhea and psoriatic lesions be related to all of this, or are they separate symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "anemia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "black stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "bloody rectal exam"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cardiac symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything I should watch out for while waiting for results?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "Could the ongoing diarrhea and psoriatic lesions be related to all of this, or are they separate symptoms?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diarrhea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "psoriatic lesions"
+        }
+      ]
+    }
+  ]
+}

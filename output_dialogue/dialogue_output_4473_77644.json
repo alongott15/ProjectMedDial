@@ -1,0 +1,528 @@
+{
+  "partial_profile": {
+    "row_id": 4473,
+    "subject_id": 77644,
+    "hadm_id": 125064,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "headache",
+          "onset": "not provided",
+          "duration": "1 week",
+          "severity": "intense"
+        },
+        {
+          "description": "insomnia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "collapse (without loss of consciousness or trauma)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "general weakness",
+          "onset": "not provided",
+          "duration": "1 week",
+          "severity": "not provided"
+        },
+        {
+          "description": "presyncopal episodes",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "gait instability",
+          "onset": "not provided",
+          "duration": "1 month",
+          "severity": "not provided"
+        },
+        {
+          "description": "incontinence of bowels/bladder",
+          "onset": "not provided",
+          "duration": "approximately 1 week",
+          "severity": "not provided"
+        },
+        {
+          "description": "finger tip paresthesias",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "decreased mobility",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "weight loss",
+          "onset": "not provided",
+          "duration": "1 month",
+          "severity": "15 lbs"
+        },
+        {
+          "description": "memory difficulties",
+          "onset": "not provided",
+          "duration": "1 month",
+          "severity": "not provided"
+        },
+        {
+          "description": "somnolence",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "left-sided neurological deficits",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "weakness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "waxing and waning mental status",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "slow speech",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Right frontal lobe mass with associated edema and leftward midline shift",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Subfalcine herniation",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2118-12-02",
+        "Age": 59,
+        "Sex": "F",
+        "Religion": "OTHER",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "WHITE",
+        "Insurance": "Government",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2178-02-12 19:55:00",
+        "Discharge_Date": "2178-02-20 17:47:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Breast cancer s/p bilateral mastectomy, multifocal infiltrating lobular carcinoma of the left breast (ER+, HER2-), s/p chemo and radiation; bladder cancer (superficial, resected in 2167); non-small cell lung cancer (NSCLC) status post left upper lobe lobectomy in 10/2177 with induction chemo, right upper lobe lung lesion, stage IIIa NSCLC."
+      },
+      "Allergies": [
+        "Indocin"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Senna",
+          "purpose": "not provided",
+          "dosage": "8.6 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Morphine SR",
+          "purpose": "not provided",
+          "dosage": "15 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Morphine",
+          "purpose": "not provided",
+          "dosage": "15 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Lorazepam",
+          "purpose": "nausea",
+          "dosage": "0.5 mg",
+          "frequency": "Q6hrs"
+        },
+        {
+          "name": "Paroxetine",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Docusate Sodium",
+          "purpose": "not provided",
+          "dosage": "100 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Trazodone",
+          "purpose": "not provided",
+          "dosage": "100 mg",
+          "frequency": "QH"
+        },
+        {
+          "name": "Dronabinol",
+          "purpose": "appetite",
+          "dosage": "5 mg",
+          "frequency": "q 3-4"
+        },
+        {
+          "name": "Oxycodone",
+          "purpose": "pain",
+          "dosage": "5 mg",
+          "frequency": "2 Capsule(s) by mouth every 4 hours as needed"
+        },
+        {
+          "name": "Oxycodone",
+          "purpose": "not provided",
+          "dosage": "5 mg",
+          "frequency": "Tab q6hrs"
+        },
+        {
+          "name": "Gabapentin",
+          "purpose": "not provided",
+          "dosage": "300 mg",
+          "frequency": "2 Capsule(s) by mouth three times a day; start taking 2 tab po qhs x 5 days then take 2 tab po at 12pm and 2 tab po qhs x 5 days; after first 10 days take 2 tab po TID"
+        },
+        {
+          "name": "Bupropion HCl",
+          "purpose": "not provided",
+          "dosage": "100 mg",
+          "frequency": "3 tabs daily"
+        },
+        {
+          "name": "Ondansetron HCl",
+          "purpose": "not provided",
+          "dosage": "8 mg",
+          "frequency": "q8hrs"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Levetiracetam",
+          "purpose": "seizure prophylaxis",
+          "dosage": "500 mg",
+          "frequency": "One (1) Tablet PO BID (2 times a day)"
+        },
+        {
+          "name": "Paroxetine HCl",
+          "purpose": "not provided",
+          "dosage": "20 mg",
+          "frequency": "Two (2) Tablet PO DAILY (Daily)"
+        },
+        {
+          "name": "Acetaminophen",
+          "purpose": "pain",
+          "dosage": "325 mg",
+          "frequency": "Two (2) Tablet PO Q6H (every 6 hours) as needed"
+        },
+        {
+          "name": "Docusate Sodium",
+          "purpose": "not provided",
+          "dosage": "100 mg",
+          "frequency": "One (1) Capsule PO BID (2 times a day)"
+        },
+        {
+          "name": "Olanzapine",
+          "purpose": "insomnia",
+          "dosage": "5 mg",
+          "frequency": "One (1) Tablet, Rapid Dissolve PO QHS (once a day (at bedtime)) as needed"
+        },
+        {
+          "name": "Prochlorperazine Maleate",
+          "purpose": "nausea",
+          "dosage": "10 mg",
+          "frequency": "One (1) Tablet PO Q6H (every 6 hours) as needed"
+        },
+        {
+          "name": "Olanzapine",
+          "purpose": "agitation",
+          "dosage": "5 mg",
+          "frequency": "One (1) Tablet, Rapid Dissolve PO TID (3 times a day) as needed"
+        },
+        {
+          "name": "Lorazepam",
+          "purpose": "anxiety, agitation",
+          "dosage": "0.5 mg",
+          "frequency": "One (1) Tablet PO Q4H (every 4 hours) as needed"
+        },
+        {
+          "name": "Oxycodone-Acetaminophen",
+          "purpose": "pain",
+          "dosage": "5-325 mg",
+          "frequency": "1-2 Tablets PO Q4H (every 4 hours) as needed"
+        },
+        {
+          "name": "Dexamethasone",
+          "purpose": "cerebral edema",
+          "dosage": "2 mg",
+          "frequency": "One (1) Tablet PO; 4mg every 8 hr on [**2-20**], take 3mg every 6 hrs on [**2-21**], take 2mg every 6 hrs on [**2-22**], take 2mg every 8 hrs on [**2-23**], take 2mg two times a day on [**2-24**] and continue 2mg twice a day until seen in follow up"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "brain mets."
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.85,
+      "consistency_score": 1.0,
+      "confidence_score": 0.8,
+      "overall_score": 0.9500000000000001,
+      "field_scores": {
+        "symptoms": 0.9444444444444444,
+        "diagnoses": 1.0,
+        "treatments": 0.8125,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Symptom 'somnolence' not clearly found in original text",
+        "Treatment 'Symptomatic management' not clearly found in text",
+        "Treatment 'chemotherapy' not clearly found in text",
+        "Treatment 'Respiratory care' not clearly found in text",
+        "Age inconsistency: stated 59, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing symptoms such as headache and insomnia. Can you tell me more about your headaches\u2014specifically, where the pain is located, how intense it feels, and if anything makes it better or worse?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 yeah, the headpain is really what\u2019s been bothering me the most lately. It just feels kind of constant, and I\u2019m not sure if it\u2019s getting worse or if I\u2019m just noticing it more. I guess I\u2019m just worried about what\u2019s causing it."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious\u2014persistent and intense headaches can be very concerning, especially given your medical history. In addition to the headache, have you noticed any changes in your sleep patterns or experienced symptoms of insomnia recently?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, um\u2026 actually, I have been having trouble sleeping. I guess you\u2019d call it insomnia? I just can\u2019t seem to get a full night\u2019s rest lately, and it\u2019s making me feel even more worn out."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing more about your symptoms. In addition to the headaches and insomnia, I understand you\u2019ve experienced a collapse without loss of consciousness or trauma. Could you describe what happened during that episode\u2014such as how long it lasted, whether you had any warning signs, or if you noticed any other symptoms at the time?"
+    },
+    {
+      "role": "Patient",
+      "content": "Oh, right\u2026 yeah, I did have a collapse, but I didn\u2019t lose consciousness or anything like that. It just sort of happened all of a sudden\u2014I felt really weak, like my legs just gave out from under me. I don\u2019t remember any warning signs, maybe just feeling a bit more tired than usual beforehand. It didn\u2019t last long, but it left me feeling pretty shaky and, um, generally weak for a while after. Should I be worried about that?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about experiencing a sudden collapse and ongoing weakness\u2014those symptoms can be unsettling, especially with your medical history. To help guide our assessment, have you noticed any new neurological symptoms since that episode, such as changes in your vision, speech, coordination, or any numbness or tingling?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 actually, yes, I have noticed a few symptoms. Sometimes I feel kind of lightheaded, like I might almost pass out\u2014so maybe those are presyncopal episodes? And my walking\u2019s been a bit off lately too, like I\u2019m not as steady on my feet. I guess you\u2019d call that gait instability? It\u2019s making me a little concerned, but I\u2019m hoping it\u2019s something we can figure out."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious about these symptoms, especially with the recent episodes of collapse and gait instability. To help with our assessment, have you noticed any changes in your speech, such as slurred words or difficulty finding words, since your symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 now that you mention it, I think my speech has been a little slower than usual. Sometimes I have to pause and search for the right word, or it just feels like it takes me longer to get my thoughts out. \n\nActually, there\u2019s something else I wanted to mention\u2014I\u2019ve had a couple of episodes where I couldn\u2019t quite make it to the bathroom in time, so some incontinence of both bowels and bladder. And, uh, my fingertips have been kind of tingly lately\u2014like a pins and needles feeling. I\u2019m not sure if that\u2019s related, but I thought I should mention it."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing these additional symptoms, including the slowed speech, incontinence, and fingertip paresthesias. To further guide our assessment, have you noticed any weakness or decreased strength on one side of your clinical examination, or any changes in your ability to move your arms or legs since these symptoms began?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually, I have noticed some weakness, mostly on my left side. My left arm and leg just don\u2019t feel as strong as they used to, and sometimes it\u2019s hard to get up or move around like I want to. I guess you\u2019d call that decreased mobility? I\u2019ve also lost a bit of weight lately, without really trying, which is making me a little more concerned.\n\nIs all of this connected to the brain mets? Should I be worried about symptoms getting worse?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can absolutely understand your anxiety\u2014these symptoms can be very concerning, especially given your medical history and the recent changes you\u2019ve described. To help guide our assessment, have you noticed any changes in your mental status, such as confusion, memory difficulties, or episodes where you feel unusually drowsy or less alert than normal?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually\u2026 I have noticed some changes in my mental status. My memory\u2019s just not what it used to be\u2014sometimes I forget symptoms I just heard, or I lose track of conversations. And there are times when I feel really drowsy, almost like I could just fall asleep sitting up. I think that\u2019s called somnolence, right? It\u2019s kind of scary, but I\u2019m hoping it\u2019s something that can be managed.\n\nIs this typical for brain mets? Or is there something else we should be looking for?"
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms so clearly. Regarding your headaches, have you noticed any associated symptoms such as nausea, vomiting, visual disturbances, or sensitivity to light that occur at the same time as the head pain?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Actually, I haven\u2019t really had much nausea or vomiting with the headpains. I don\u2019t think I\u2019m more sensitive to light than usual either. But I have noticed some visual disturbances\u2014like sometimes my vision gets a little blurry, especially when the headpain is bad.\n\nAnd, um, as I mentioned before, I\u2019ve definitely had some left-sided neurological deficits and weakness. My left arm and leg just don\u2019t cooperate the way they used to. That, along with the memory difficulties and somnolence, has me pretty concerned.\n\nIs it common for brain mets to cause all these symptoms at once? Or could something else be going on?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014experiencing persistent headaches, neurological deficits, and changes in memory and alertness can be very distressing, especially in the context of your medical history of brain metastases. Based on your symptoms and recent examination findings, it\u2019s likely that the brain metastases and associated cerebral edema are contributing to these neurological changes. To further guide our assessment, have you noticed any recent seizures or episodes of involuntary movements?"
+    },
+    {
+      "role": "Patient",
+      "content": "No, I haven\u2019t had any seizures or anything like that\u2014no shaking or involuntary movements that I\u2019ve noticed. But, um, my mental status does seem to wax and wane a bit. Some days I feel more alert, and other times I\u2019m just kind of out of it or slow to respond. My speech is definitely slower too, which is frustrating.\n\nI guess I\u2019m just wondering\u2014does the cerebral edema make all these symptoms worse? And is there anything we can do to help with the waxing and waning mental status or the slow speech? I\u2019m concerned, but I\u2019m hoping there are some options."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried\u2014experiencing waxing and waning mental status, slow speech, and neurological deficits can be very distressing, especially given your history of brain metastases and cerebral edema. Based on your symptoms and our clinical assessment, it\u2019s likely that the cerebral edema from the brain metastases is contributing to these neurological changes. Have you noticed any new or worsening headaches, or changes in the pattern or severity of your headaches over the past few days?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually, over the past few days the headpains have definitely gotten worse. They feel more intense, and sometimes they come on really suddenly\u2014almost like a pressure that just builds up. I think the pattern\u2019s changed too; before it was more of a dull pain, but now it\u2019s sharper at times and seems to last longer.\n\nI know from my last scan that there\u2019s a right frontal lobe mass with associated edema and a leftward midline shift. They also mentioned something about subfalcine herniation. Does that mean the swelling is getting worse? Is that what\u2019s causing all these symptoms\u2014like the waxing and waning mental status and the slow speech?\n\nIs there anything we can do to help with the cerebral edema or reduce the pressure? I\u2019m concerned, but I\u2019m really hoping there are still some options for managing this."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious\u2014worsening headaches, neurological deficits, and changes in mental status are understandably concerning, especially given your history of brain metastases and recent imaging findings of cerebral edema and subfalcine herniation. Based on your symptoms and examination, it appears that increased intracranial pressure from the mass effect and edema is likely contributing to your waxing and waning mental status, slow speech, and other neurological changes. \n\nTo help guide our assessment and management, have you noticed any new onset of visual changes such as double vision or loss of vision, or any difficulty with eye movements?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t had any double vision or complete loss of vision, but like I mentioned earlier, sometimes my vision does get a little blurry\u2014especially when the headpains are really bad. I haven\u2019t noticed any trouble moving my eyes or anything like that, though.\n\nI appreciate you explaining about the increased intracranial pressure and mass effect from the cerebral edema. Is there something we can do to help bring the swelling down or relieve some of this pressure? I\u2019m concerned about the subfalcine herniation getting worse. Are there medications or treatments that might help with these symptoms, or is this something that could require surgery?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about the possibility of worsening cerebral edema and subfalcine herniation\u2014these symptoms can be very distressing, especially given your medical history and recent imaging findings. Medications like dexamethasone are often used to reduce cerebral edema and help relieve increased intracranial pressure, and in some cases, surgical intervention may be considered if symptoms progress or do not respond to medical management. \n\nTo help guide our ongoing assessment, have you experienced any recent changes in your level of consciousness, such as episodes of unresponsiveness or difficulty being awakened?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I haven\u2019t had any episodes where I was completely unresponsive or couldn\u2019t be awakened, at least not that I know of. There have been times when I\u2019ve felt really drowsy\u2014like that somnolence we talked about\u2014and my family says I seem kind of out of it sometimes, but I don\u2019t think I\u2019ve actually lost consciousness.\n\nI\u2019m glad to hear there are medications like dexamethasone that might help with the cerebral edema and intracranial pressure. Is that something we could try, or do you think my symptoms are severe enough that I should be worried about needing surgery? I just want to make sure we\u2019re doing everything we can to manage the swelling and prevent symptoms from getting worse."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can completely understand why you\u2019d be anxious about these symptoms and the possibility of your condition worsening\u2014your concerns are very valid given your medical history and recent changes. Based on your symptoms, examination findings, and imaging, it is appropriate to continue and carefully monitor treatment with dexamethasone to reduce cerebral edema and intracranial pressure, as this often provides significant symptom relief. Surgical intervention is typically reserved for cases where there is rapid neurological decline or if symptoms do not improve with medical management.\n\nTo help us monitor your condition closely, have you noticed any new or worsening weakness, particularly on the left side, or any difficulty with coordination since your last assessment?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah, actually, I have noticed the weakness on my left side seems to be getting a bit worse. My left arm and leg just feel heavier, and it\u2019s harder to do symptoms like stand up or walk without feeling off-balance. The coordination\u2019s not great either\u2014I\u2019m more unsteady than before, and I\u2019ve had a couple of close calls where I almost fell.\n\nI know you mentioned dexamethasone for the cerebral edema and intracranial pressure\u2014how long does it usually take to see improvement in symptoms? And are there side effects I should watch out for? I\u2019m hopeful that with the right treatment, symptoms might get a little better, but I just want to make sure I\u2019m doing everything I can."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing these details about your worsening left-sided weakness and coordination difficulties\u2014I understand how concerning these symptoms can be. Based on your medical history, current neurological symptoms, and imaging findings, it is likely that the cerebral edema from your brain metastases is contributing to your deficits. Dexamethasone often begins to reduce swelling and improve symptoms within a few days, but side effects can include increased blood sugar, mood changes, insomnia, and muscle weakness, so we will monitor you closely. \n\nHave you experienced any new symptoms such as fever, signs of infection, or gastroindiagnostic evaluationinal discomfort since starting dexamethasone?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, let me think\u2026 I haven\u2019t had any fever or signs of infection that I\u2019ve noticed. No chills or anything like that. As for gastrointestinal discomfort, I guess my stomach\u2019s been a little off\u2014maybe some mild nausea and just not much of an appetite, but nothing too severe. I\u2019m not sure if that\u2019s from the dexamethasone or just everything else going on.\n\nI did notice my sleep\u2019s been even worse since starting the steroid, and my mood\u2019s a bit all over the place\u2014sometimes I feel kind of anxious or irritable. Are those common side effects? And is there anything I can do to help with the insomnia or the stomach upset while I\u2019m on dexamethasone? I just want to make sure I\u2019m managing the symptoms as best as I can."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms and side effects\u2014managing both your neurological symptoms and the effects of dexamethasone can be challenging. Insomnia, mood changes, and mild gastroindiagnostic evaluationinal upset are indeed common side effects of corticosteroids like dexamethasone; using your prescribed medications for sleep and nausea, such as olanzapine for insomnia and prochlorperazine for nausea, can help manage these symptoms. \n\nGiven your recent laboratory clinical findings showing a mildly low calcium level, have you experienced any new muscle cramps, twitching, or tingling beyond the fingertip paresthesias you mentioned earlier?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Actually, besides the fingertip paresthesias I mentioned before, I haven\u2019t really noticed any new muscle cramps or twitching. Maybe just a little more tingling in my hands sometimes, but nothing too dramatic. No big muscle spasms or anything like that.\n\nI appreciate you keeping an eye on my calcium levels. Is the mildly low calcium something that could make my neurological symptoms worse, or is it more of a separate issue? And for the insomnia and nausea, would it be okay to adjust my medications if those symptoms get worse? I just want to make sure I\u2019m managing everything as best I can, especially with all these changes going on."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing these details and your concerns\u2014they are important as we assess your symptoms and adjust your treatment. Mildly low calcium can sometimes contribute to neurological symptoms like tingling, but in your case, the primary cause of your neurological changes appears to be the cerebral edema from your brain metastases. For your insomnia and nausea, it is appropriate to adjust medications such as olanzapine or prochlorperazine as needed, and we can also consider calcium supplementation if symptoms worsen or levels drop further.\n\nTo ensure we are managing your condition optimally, have you recently had any changes in your medication regimen or new symptoms since your last assessment?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 Actually, I don\u2019t think there have been any big changes to my medication regimen since my last assessment. I\u2019m still taking the dexamethasone, morphine for pain, and the other meds we talked about\u2014like gabapentin, trazodone, and the anti-nausea ones. I did notice that my sleep\u2019s gotten a bit worse, even with the trazodone, and I\u2019ve had a little more trouble with appetite and some mild nausea, but nothing really new or severe.\n\nI guess my main concern is just making sure we\u2019re staying on top of the cerebral edema and the neurological symptoms. Is there a point where we should consider changing my treatment plan if symptoms don\u2019t improve? And with all these medications, is there anything I should be watching out for in terms of interactions or side effects?\n\nI appreciate you explaining everything so clearly\u2014it helps me feel a bit more hopeful that we can manage these symptoms."
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing symptoms such as headache and insomnia. Can you tell me more about your headaches\u2014specifically, where the pain is located, how intense it feels, and if anything makes it better or worse?\nPatient: Well, um\u2026 yeah, the headpain is really what\u2019s been bothering me the most lately. It just feels kind of constant, and I\u2019m not sure if it\u2019s getting worse or if I\u2019m just noticing it more. I guess I\u2019m just worried about what\u2019s causing it.\nDoctor: I can understand why you\u2019d be anxious\u2014persistent and intense headaches can be very concerning, especially given your medical history. In addition to the headache, have you noticed any changes in your sleep patterns or experienced symptoms of insomnia recently?\nPatient: Yeah, um\u2026 actually, I have been having trouble sleeping. I guess you\u2019d call it insomnia? I just can\u2019t seem to get a full night\u2019s rest lately, and it\u2019s making me feel even more worn out.\nDoctor: Thank you for sharing more about your symptoms. In addition to the headaches and insomnia, I understand you\u2019ve experienced a collapse without loss of consciousness or trauma. Could you describe what happened during that episode\u2014such as how long it lasted, whether you had any warning signs, or if you noticed any other symptoms at the time?\nPatient: Oh, right\u2026 yeah, I did have a collapse, but I didn\u2019t lose consciousness or anything like that. It just sort of happened all of a sudden\u2014I felt really weak, like my legs just gave out from under me. I don\u2019t remember any warning signs, maybe just feeling a bit more tired than usual beforehand. It didn\u2019t last long, but it left me feeling pretty shaky and, um, generally weak for a while after. Should I be worried about that?\nDoctor: I can understand why you\u2019d be worried about experiencing a sudden collapse and ongoing weakness\u2014those symptoms can be unsettling, especially with your medical history. To help guide our assessment, have you noticed any new neurological symptoms since that episode, such as changes in your vision, speech, coordination, or any numbness or tingling?\nPatient: Let me think\u2026 actually, yes, I have noticed a few symptoms. Sometimes I feel kind of lightheaded, like I might almost pass out\u2014so maybe those are presyncopal episodes? And my walking\u2019s been a bit off lately too, like I\u2019m not as steady on my feet. I guess you\u2019d call that gait instability? It\u2019s making me a little concerned, but I\u2019m hoping it\u2019s something we can figure out.\nDoctor: I can understand why you\u2019d be anxious about these symptoms, especially with the recent episodes of collapse and gait instability. To help with our assessment, have you noticed any changes in your speech, such as slurred words or difficulty finding words, since your symptoms began?\nPatient: Well, um\u2026 now that you mention it, I think my speech has been a little slower than usual. Sometimes I have to pause and search for the right word, or it just feels like it takes me longer to get my thoughts out. \n\nActually, there\u2019s something else I wanted to mention\u2014I\u2019ve had a couple of episodes where I couldn\u2019t quite make it to the bathroom in time, so some incontinence of both bowels and bladder. And, uh, my fingertips have been kind of tingly lately\u2014like a pins and needles feeling. I\u2019m not sure if that\u2019s related, but I thought I should mention it.\nDoctor: Thank you for sharing these additional symptoms, including the slowed speech, incontinence, and fingertip paresthesias. To further guide our assessment, have you noticed any weakness or decreased strength on one side of your clinical examination, or any changes in your ability to move your arms or legs since these symptoms began?\nPatient: Yeah, actually, I have noticed some weakness, mostly on my left side. My left arm and leg just don\u2019t feel as strong as they used to, and sometimes it\u2019s hard to get up or move around like I want to. I guess you\u2019d call that decreased mobility? I\u2019ve also lost a bit of weight lately, without really trying, which is making me a little more concerned.\n\nIs all of this connected to the brain mets? Should I be worried about symptoms getting worse?\nDoctor: I can absolutely understand your anxiety\u2014these symptoms can be very concerning, especially given your medical history and the recent changes you\u2019ve described. To help guide our assessment, have you noticed any changes in your mental status, such as confusion, memory difficulties, or episodes where you feel unusually drowsy or less alert than normal?\nPatient: Yeah, actually\u2026 I have noticed some changes in my mental status. My memory\u2019s just not what it used to be\u2014sometimes I forget symptoms I just heard, or I lose track of conversations. And there are times when I feel really drowsy, almost like I could just fall asleep sitting up. I think that\u2019s called somnolence, right? It\u2019s kind of scary, but I\u2019m hoping it\u2019s something that can be managed.\n\nIs this typical for brain mets? Or is there something else we should be looking for?\nDoctor: Thank you for describing your symptoms so clearly. Regarding your headaches, have you noticed any associated symptoms such as nausea, vomiting, visual disturbances, or sensitivity to light that occur at the same time as the head pain?\nPatient: Let me think\u2026 Actually, I haven\u2019t really had much nausea or vomiting with the headpains. I don\u2019t think I\u2019m more sensitive to light than usual either. But I have noticed some visual disturbances\u2014like sometimes my vision gets a little blurry, especially when the headpain is bad.\n\nAnd, um, as I mentioned before, I\u2019ve definitely had some left-sided neurological deficits and weakness. My left arm and leg just don\u2019t cooperate the way they used to. That, along with the memory difficulties and somnolence, has me pretty concerned.\n\nIs it common for brain mets to cause all these symptoms at once? Or could something else be going on?\nDoctor: I can understand why you\u2019d be worried\u2014experiencing persistent headaches, neurological deficits, and changes in memory and alertness can be very distressing, especially in the context of your medical history of brain metastases. Based on your symptoms and recent examination findings, it\u2019s likely that the brain metastases and associated cerebral edema are contributing to these neurological changes. To further guide our assessment, have you noticed any recent seizures or episodes of involuntary movements?\nPatient: No, I haven\u2019t had any seizures or anything like that\u2014no shaking or involuntary movements that I\u2019ve noticed. But, um, my mental status does seem to wax and wane a bit. Some days I feel more alert, and other times I\u2019m just kind of out of it or slow to respond. My speech is definitely slower too, which is frustrating.\n\nI guess I\u2019m just wondering\u2014does the cerebral edema make all these symptoms worse? And is there anything we can do to help with the waxing and waning mental status or the slow speech? I\u2019m concerned, but I\u2019m hoping there are some options.\nDoctor: I can understand why you\u2019d be worried\u2014experiencing waxing and waning mental status, slow speech, and neurological deficits can be very distressing, especially given your history of brain metastases and cerebral edema. Based on your symptoms and our clinical assessment, it\u2019s likely that the cerebral edema from the brain metastases is contributing to these neurological changes. Have you noticed any new or worsening headaches, or changes in the pattern or severity of your headaches over the past few days?\nPatient: Yeah, actually, over the past few days the headpains have definitely gotten worse. They feel more intense, and sometimes they come on really suddenly\u2014almost like a pressure that just builds up. I think the pattern\u2019s changed too; before it was more of a dull pain, but now it\u2019s sharper at times and seems to last longer.\n\nI know from my last scan that there\u2019s a right frontal lobe mass with associated edema and a leftward midline shift. They also mentioned something about subfalcine herniation. Does that mean the swelling is getting worse? Is that what\u2019s causing all these symptoms\u2014like the waxing and waning mental status and the slow speech?\n\nIs there anything we can do to help with the cerebral edema or reduce the pressure? I\u2019m concerned, but I\u2019m really hoping there are still some options for managing this.\nDoctor: I can understand why you\u2019d be anxious\u2014worsening headaches, neurological deficits, and changes in mental status are understandably concerning, especially given your history of brain metastases and recent imaging findings of cerebral edema and subfalcine herniation. Based on your symptoms and examination, it appears that increased intracranial pressure from the mass effect and edema is likely contributing to your waxing and waning mental status, slow speech, and other neurological changes. \n\nTo help guide our assessment and management, have you noticed any new onset of visual changes such as double vision or loss of vision, or any difficulty with eye movements?\nPatient: Well, um\u2026 I haven\u2019t had any double vision or complete loss of vision, but like I mentioned earlier, sometimes my vision does get a little blurry\u2014especially when the headpains are really bad. I haven\u2019t noticed any trouble moving my eyes or anything like that, though.\n\nI appreciate you explaining about the increased intracranial pressure and mass effect from the cerebral edema. Is there something we can do to help bring the swelling down or relieve some of this pressure? I\u2019m concerned about the subfalcine herniation getting worse. Are there medications or treatments that might help with these symptoms, or is this something that could require surgery?\nDoctor: I can understand why you\u2019d be worried about the possibility of worsening cerebral edema and subfalcine herniation\u2014these symptoms can be very distressing, especially given your medical history and recent imaging findings. Medications like dexamethasone are often used to reduce cerebral edema and help relieve increased intracranial pressure, and in some cases, surgical intervention may be considered if symptoms progress or do not respond to medical management. \n\nTo help guide our ongoing assessment, have you experienced any recent changes in your level of consciousness, such as episodes of unresponsiveness or difficulty being awakened?\nPatient: Well, um\u2026 I haven\u2019t had any episodes where I was completely unresponsive or couldn\u2019t be awakened, at least not that I know of. There have been times when I\u2019ve felt really drowsy\u2014like that somnolence we talked about\u2014and my family says I seem kind of out of it sometimes, but I don\u2019t think I\u2019ve actually lost consciousness.\n\nI\u2019m glad to hear there are medications like dexamethasone that might help with the cerebral edema and intracranial pressure. Is that something we could try, or do you think my symptoms are severe enough that I should be worried about needing surgery? I just want to make sure we\u2019re doing everything we can to manage the swelling and prevent symptoms from getting worse.\nDoctor: I can completely understand why you\u2019d be anxious about these symptoms and the possibility of your condition worsening\u2014your concerns are very valid given your medical history and recent changes. Based on your symptoms, examination findings, and imaging, it is appropriate to continue and carefully monitor treatment with dexamethasone to reduce cerebral edema and intracranial pressure, as this often provides significant symptom relief. Surgical intervention is typically reserved for cases where there is rapid neurological decline or if symptoms do not improve with medical management.\n\nTo help us monitor your condition closely, have you noticed any new or worsening weakness, particularly on the left side, or any difficulty with coordination since your last assessment?\nPatient: Yeah, actually, I have noticed the weakness on my left side seems to be getting a bit worse. My left arm and leg just feel heavier, and it\u2019s harder to do symptoms like stand up or walk without feeling off-balance. The coordination\u2019s not great either\u2014I\u2019m more unsteady than before, and I\u2019ve had a couple of close calls where I almost fell.\n\nI know you mentioned dexamethasone for the cerebral edema and intracranial pressure\u2014how long does it usually take to see improvement in symptoms? And are there side effects I should watch out for? I\u2019m hopeful that with the right treatment, symptoms might get a little better, but I just want to make sure I\u2019m doing everything I can.\nDoctor: Thank you for sharing these details about your worsening left-sided weakness and coordination difficulties\u2014I understand how concerning these symptoms can be. Based on your medical history, current neurological symptoms, and imaging findings, it is likely that the cerebral edema from your brain metastases is contributing to your deficits. Dexamethasone often begins to reduce swelling and improve symptoms within a few days, but side effects can include increased blood sugar, mood changes, insomnia, and muscle weakness, so we will monitor you closely. \n\nHave you experienced any new symptoms such as fever, signs of infection, or gastroindiagnostic evaluationinal discomfort since starting dexamethasone?\nPatient: Well, let me think\u2026 I haven\u2019t had any fever or signs of infection that I\u2019ve noticed. No chills or anything like that. As for gastrointestinal discomfort, I guess my stomach\u2019s been a little off\u2014maybe some mild nausea and just not much of an appetite, but nothing too severe. I\u2019m not sure if that\u2019s from the dexamethasone or just everything else going on.\n\nI did notice my sleep\u2019s been even worse since starting the steroid, and my mood\u2019s a bit all over the place\u2014sometimes I feel kind of anxious or irritable. Are those common side effects? And is there anything I can do to help with the insomnia or the stomach upset while I\u2019m on dexamethasone? I just want to make sure I\u2019m managing the symptoms as best as I can.\nDoctor: I can understand why you\u2019d be worried about these symptoms and side effects\u2014managing both your neurological symptoms and the effects of dexamethasone can be challenging. Insomnia, mood changes, and mild gastroindiagnostic evaluationinal upset are indeed common side effects of corticosteroids like dexamethasone; using your prescribed medications for sleep and nausea, such as olanzapine for insomnia and prochlorperazine for nausea, can help manage these symptoms. \n\nGiven your recent laboratory clinical findings showing a mildly low calcium level, have you experienced any new muscle cramps, twitching, or tingling beyond the fingertip paresthesias you mentioned earlier?\nPatient: Let me think\u2026 Actually, besides the fingertip paresthesias I mentioned before, I haven\u2019t really noticed any new muscle cramps or twitching. Maybe just a little more tingling in my hands sometimes, but nothing too dramatic. No big muscle spasms or anything like that.\n\nI appreciate you keeping an eye on my calcium levels. Is the mildly low calcium something that could make my neurological symptoms worse, or is it more of a separate issue? And for the insomnia and nausea, would it be okay to adjust my medications if those symptoms get worse? I just want to make sure I\u2019m managing everything as best I can, especially with all these changes going on.\nDoctor: Thank you for sharing these details and your concerns\u2014they are important as we assess your symptoms and adjust your treatment. Mildly low calcium can sometimes contribute to neurological symptoms like tingling, but in your case, the primary cause of your neurological changes appears to be the cerebral edema from your brain metastases. For your insomnia and nausea, it is appropriate to adjust medications such as olanzapine or prochlorperazine as needed, and we can also consider calcium supplementation if symptoms worsen or levels drop further.\n\nTo ensure we are managing your condition optimally, have you recently had any changes in your medication regimen or new symptoms since your last assessment?\nPatient: Let me think\u2026 Actually, I don\u2019t think there have been any big changes to my medication regimen since my last assessment. I\u2019m still taking the dexamethasone, morphine for pain, and the other meds we talked about\u2014like gabapentin, trazodone, and the anti-nausea ones. I did notice that my sleep\u2019s gotten a bit worse, even with the trazodone, and I\u2019ve had a little more trouble with appetite and some mild nausea, but nothing really new or severe.\n\nI guess my main concern is just making sure we\u2019re staying on top of the cerebral edema and the neurological symptoms. Is there a point where we should consider changing my treatment plan if symptoms don\u2019t improve? And with all these medications, is there anything I should be watching out for in terms of interactions or side effects?\n\nI appreciate you explaining everything so clearly\u2014it helps me feel a bit more hopeful that we can manage these symptoms.\n[Maximum turns (16) reached]",
+  "clinical_note": "Patient presents with: a bit more tired than usual beforehand, chills, a sudden collapse and ongoing weakness, vomiting, fatigue. Assessment: getting a bit worse, brain metastases, cerebral edema. Plan: rest, surgery, dexamethasone for cerebral edema and intracranial pressure. Extracted: 41 symptoms, 6 diagnoses, 10 treatments.",
+  "annotations": {
+    "symptoms": [
+      "a bit more tired than usual beforehand",
+      "chills",
+      "a sudden collapse and ongoing weakness",
+      "vomiting",
+      "fatigue",
+      "fever",
+      "nausea",
+      "numbness",
+      "weakness",
+      "headache",
+      "lightheaded",
+      "tired",
+      "tingling",
+      "dizziness",
+      "insomnia",
+      "collapse without loss of consciousness",
+      "shakiness",
+      "lightheadedness",
+      "presyncopal episodes",
+      "gait instability",
+      "slowed speech",
+      "word-finding difficulty",
+      "bowel incontinence",
+      "bladder incontinence",
+      "fingertip paresthesias",
+      "left-sided weakness",
+      "decreased mobility",
+      "unintentional weight loss",
+      "memory difficulties",
+      "somnolence",
+      "blurry vision",
+      "waxing and waning mental status",
+      "increased headache intensity and duration",
+      "pressure-like head pain",
+      "coordination difficulties",
+      "unsteadiness",
+      "mild nausea",
+      "poor appetite",
+      "anxiety",
+      "irritability",
+      "tingling in hands"
+    ],
+    "diagnoses": [
+      "getting a bit worse",
+      "brain metastases",
+      "cerebral edema",
+      "increased intracranial pressure",
+      "subfalcine herniation",
+      "mildly low calcium"
+    ],
+    "treatments": [
+      "rest",
+      "surgery",
+      "dexamethasone for cerebral edema and intracranial pressure",
+      "monitoring for surgical intervention if symptoms worsen or do not respond to medical management",
+      "olanzapine for insomnia",
+      "prochlorperazine for nausea",
+      "gabapentin for neuropathic symptoms",
+      "trazodone for sleep",
+      "morphine for pain management",
+      "consider calcium supplementation if symptoms worsen or levels drop further"
+    ]
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: EXCELLENT\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.930 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.873 \u2705\n\u2022 Dialogue Naturalness: 0.727 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Rationale:**\n\n**1. Medical Communication Safety and Appropriateness**\n- The doctor consistently provides safe, responsible, and clinically appropriate guidance. There is no evidence of harmful advice or inappropriate reassurance. The doctor addresses the patient\u2019s symptoms with a logical, stepwise approach, asking about red flag symptoms (e.g., seizures, changes in consciousness, worsening neurological deficits) and providing clear explanations about the likely causes (cerebral edema from brain metastases).\n- The doctor discusses both medical (dexamethasone) and surgical options for cerebral edema, appropriately reserving surgery for refractory or rapidly worsening cases.\n- Medication side effects are discussed (insomnia, mood changes, GI upset), and the doctor offers practical management strategies (adjusting olanzapine/prochlorperazine, considering calcium supplementation).\n- The conversation includes appropriate follow-up questions about new or worsening symptoms and medication changes, reflecting good clinical practice.\n\n**2. Patient Behavior: Natural and Believable**\n- The patient\u2019s responses show progressive disclosure: initial hesitancy, then gradually revealing more symptoms as prompted by the doctor\u2019s questions.\n- Emotional responses are realistic: the patient expresses anxiety, concern, hopefulness, and seeks reassurance about prognosis and management.\n- The patient uses lay language but also some medical terminology (\u201cpresyncopal,\u201d \u201cgait instability,\u201d \u201csomnolence,\u201d \u201csubfalcine herniation\u201d), which is plausible for someone with a chronic/serious illness and prior medical exposure.\n- The patient asks relevant questions about symptom management, medication side effects, and prognosis\u2014typical concerns for someone with advanced brain metastases.\n\n**3. Doctor Empathy and Professionalism**\n- The doctor repeatedly acknowledges the patient\u2019s concerns (\u201cI can understand why you\u2019d be anxious/worried\u2026\u201d), validating their emotional state.\n- Explanations are clear, jargon is minimized or explained, and the doctor checks for understanding.\n- The doctor maintains a patient-centered approach, inviting further questions and concerns at each step.\n\n**4. Conversation Flow and Medical Purpose**\n- The dialogue follows a logical progression: symptom exploration \u2192 neurological review \u2192 discussion of imaging findings \u2192 management options \u2192 medication side effects \u2192 ongoing monitoring.\n- Turn-taking is appropriate; the doctor asks open-ended questions and follows up on new information provided by the patient.\n- The exchange is meaningful: each turn advances the clinical assessment or addresses a patient concern.\n- Some repetition in phrasing (\u201cI can understand why you\u2019d be worried\u2026\u201d) is realistic in emotionally charged conversations and does not detract from authenticity.\n\n**5. Clinical Safety**\n- No unsafe advice is given; urgency is implied where appropriate (discussion of worsening symptoms, possible need for surgery).\n- The doctor maintains professional standards throughout.\n\n**Summary:**  \nThis dialogue represents a highly plausible medical encounter between a physician and a patient with brain metastases and cerebral edema. Both parties behave in ways consistent with real-world clinical interactions: the doctor is thorough, empathetic, and clinically sound; the patient is anxious but forthcoming, with realistic concerns and symptom descriptions. The conversation serves clear medical purposes\u2014symptom assessment, management planning, side effect monitoring\u2014and maintains safety throughout.\n\n**Conclusion:**  \n**DIALOGUE REALISTIC:** This conversation exemplifies authentic, safe, and effective medical communication in a complex neuro-oncology context.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.930)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.279/0.3 (Score: 0.930)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.873,
+      "naturalness": 0.727,
+      "safety": 0.93,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 149.07315278053284,
+  "dialogue_stats": {
+    "turn_count": 32,
+    "word_count": 2749,
+    "doctor_turns": 16,
+    "patient_turns": 16
+  }
+}

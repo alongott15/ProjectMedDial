@@ -1,0 +1,1263 @@
+{
+  "source_row_id": 4172,
+  "source_subject_id": 82040,
+  "source_hadm_id": 103716,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Good evening, thank you for coming in today. I understand you are experiencing low back pain and some discomfort. Can you describe in more detail how your back pain started and if there are any specific activities or movements that make your symptoms better or worse?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Good evening, thank you for coming in today."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low back pain and some discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Pathogeny",
+          "value": "how your back pain started"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "if there are any specific activities or movements that make your symptoms better or worse"
+        }
+      ]
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, it\u2019s my lower back. The pain\u2019s been getting worse over the last few days. I\u2019m not really sure what set it off, but it\u2019s making it hard for me to move around. I just\u2026 I wanted to get it checked because I\u2019m worried.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Degree",
+          "value": "getting worse"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "last few days"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Effect",
+          "value": "hard to move around"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014worsening back pain can be very concerning, especially when it affects your mobility. To help guide my assessment, can you tell me if you\u2019ve noticed any other symptoms such as dry mouth or difficulty staying hydrated along with your back pain?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dry mouth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty staying hydrated"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 my main concern really is this lower back pain, especially right around the L5/S1 area and kind of out to the side near the SI joint. It just feels pretty bad and I\u2019m worried about it. I haven\u2019t really noticed much else, I don\u2019t think\u2026",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lower back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "L5/S1 area"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Range-body",
+          "value": "side near the SI joint"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially since your back pain is worsening and affecting your ability to move. To help with my assessment, have you noticed any symptoms such as dry mouth or difficulty swallowing, which could suggest dry mucous membranes?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain is worsening and affecting ability to move"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "dry mouth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty swallowing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Other",
+          "value": "dry mouth or difficulty swallowing could suggest dry mucous membranes"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have noticed my mouth feels a bit dry lately. And actually, I\u2019ve been having a little trouble with my breathing\u2014it just feels harder than usual, especially when I move around. The back pain is definitely getting worse too. Should I be worried about these symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry mouth"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble with breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about these symptoms?"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with worsening back pain and new symptoms like dry mouth and difficulty breathing. To help guide my assessment, have you experienced any weakness or numbness in your legs, or any changes in your ability to urinate or control your bladder since these symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry mouth"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "weakness in legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "numbness in legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ability to urinate"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in bladder control"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Well\u2026 let me think. I have been feeling kind of weak in my legs, actually. It\u2019s not numbness exactly, but they just feel weaker than usual, and I\u2019m a little unsteady when I try to get up. And, um, I\u2019ve had a bit of trouble urinating\u2014like it\u2019s harder to go sometimes.\n\nAlso, since you mentioned symptoms like dry mucous membranes, my mouth and throat do feel pretty dry. And when I breathe in, it feels a bit crackly, especially on the left side at the base of my lungs. I\u2019m sorry if that\u2019s too much information\u2014I just want to make sure I\u2019m telling you everything important.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unsteadiness when getting up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble urinating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry mouth and throat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "crackly feeling when breathing in, especially left lung base"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s very helpful for my assessment. You mentioned a crackling sensation when you breathe in, especially at the base of your left lung. Have you experienced any cough, fever, or increase in sputum production along with these respiratory symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing these details\u2014it\u2019s very helpful for my assessment."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "crackling sensation when breathing in, especially at the base of left lung"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "increase in sputum production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "respiratory symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t really had much of a cough, maybe just a little bit here and there, but nothing with a lot of sputum. I did have some high fevers the other night, though\u2014I felt pretty warm and sweaty. \n\nAnd, actually, when you were pressing on my back earlier, it was really tender in the lumbar spine and the right paraspinal area. Also, I\u2019ve noticed my left lower leg looks a bit different\u2014there\u2019s some swelling and kind of a discoloration, like venous stasis changes with a little bit of edema. \n\nI\u2019m just feeling more anxious because these symptoms seem to be piling up. Should I be worried about all of this happening at once?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "high fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "felt warm and sweaty"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness in lumbar spine and right paraspinal area"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling and discoloration in left lower leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "venous stasis changes with edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Should I be worried about all of this happening at once?"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious with these symptoms happening together, especially as your back pain and breathing difficulties are worsening. To help with my assessment, have you noticed any chest pain, palpitations, or shortness of breath when lying flat, in addition to the crackles at the lung bases and your other respiratory symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "breathing difficulties"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath when lying flat"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "crackles at the lung bases"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "respiratory symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Well, I haven\u2019t really had chest pain, but I do get some palpitations every now and then\u2014my heart just feels like it\u2019s fluttering or racing, especially when I\u2019m anxious. As for shortness of breath, yes, it does seem worse when I\u2019m lying flat. I noticed that last night\u2014it was harder to catch my breath, and I had to prop myself up with extra pillows.\n\nAbout the crackles at my lung bases, I think they\u2019re more noticeable now than they were yesterday, especially on the left side. And, um, I also wanted to mention that I\u2019ve had some erythema under both breasts. It was pretty red before, but it seems to be improving a little bit now.\n\nI know that\u2019s a lot of symptoms all together, and I\u2019m just feeling really anxious about what it could mean. Should I be worried about my heart or lungs with all these changes?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "heart fluttering or racing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath worse when lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "crackles at lung bases, more noticeable on the left side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythema under both breasts, improving"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety about symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Should I be worried about my heart or lungs with all these changes?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with your symptoms affecting both your breathing and your back. Since you mentioned worsening crackles at the lung bases, particularly on the left, have you noticed any swelling in your legs or ankles that has increased recently, or any sudden weight gain, which could suggest fluid retention related to your heart or lungs?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms affecting breathing and back"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening crackles at the lung bases, particularly on the left"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "swelling in legs or ankles"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sudden weight gain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "fluid retention related to heart or lungs"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Yes, actually, I have noticed some swelling in my left lower leg and ankle\u2014it seems like there\u2019s more edema than usual, and the skin looks kind of discolored, like those venous stasis changes you mentioned. I haven\u2019t really checked my weight lately, but my shoes do feel tighter on that side.\n\nAlso, when you press on my lower back, especially in the lumbar spine and the right paraspinal region, it\u2019s really tender\u2014almost like point tenderness. That\u2019s been getting worse too.\n\nWith all these symptoms\u2014like the crackles at my lung bases, the edema, and the back pain\u2014I\u2019m just getting more anxious. Is this something serious with my heart or lungs? Should I be worried about fluid building up or something else going on?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling in left lower leg and ankle"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "edema"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "skin discoloration"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shoes feel tighter on that side"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness in lumbar spine and right paraspinal region"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "crackles at lung bases"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "serious heart or lung condition"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fluid building up"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious with these symptoms, especially as your back pain and swelling are worsening alongside changes in your breathing. To further guide my assessment, have you experienced any recent loss of bladder or bowel control, or any numbness or tingling in your lower extremities, which can sometimes be associated with significant lumbar spine conditions?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "swelling"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "loss of bladder or bowel control"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "numbness or tingling in lower extremities"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I haven\u2019t lost control of my bladder or bowels, but like I mentioned before, I have had some trouble urinating\u2014it\u2019s just harder to go sometimes. I don\u2019t really have numbness or tingling in my legs, but they do feel weaker than usual, and I\u2019m a bit unsteady when I walk.\n\nActually, since we\u2019re talking about symptoms, I wanted to mention that I\u2019ve had erythema under both breasts. It was pretty red a few days ago, but it seems to be improving now. And those high fevers I had the other night really worried me\u2014I felt so hot and sweaty, and then just really weak afterward.\n\nWith all these symptoms\u2014like the back pain, the edema in my left leg, the crackles at my lung bases, and now the fevers\u2014I just can\u2019t help but feel anxious. Should I be worried that something serious is going on?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "trouble urinating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unsteady gait"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "erythema under both breasts"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "high fevers"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "hot and sweaty"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness after fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "edema in left leg"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "crackles at lung bases"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "concern about something serious going on"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious with these symptoms, especially given your worsening low back pain, leg edema, fevers, and the crackles at your lung bases. Based on your medical history and current symptoms, I\u2019m concerned about possible infection, fluid overload, or even a complication involving your spine or lungs. To help guide my assessment, have you recently experienced any chills, night sweats, or unintentional weight loss in addition to the high fevers you described?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening low back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "leg edema"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "crackles at lung bases"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "fluid overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "complication involving spine or lungs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "night sweats"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "unintentional weight loss"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "high fevers"
+        }
+      ]
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I have had some chills, especially at night\u2014I\u2019ll feel really cold and then suddenly get very sweaty. I\u2019m not sure about weight loss; my appetite hasn\u2019t been great lately, but I haven\u2019t really examinationed my weight. The weakness in my legs is still there, and it\u2019s making it harder for me to get around. And I\u2019m still having trouble urinating\u2014it just feels like I can\u2019t go as easily as before.\n\nWith all these symptoms\u2014like the fevers, chills, night sweats, weakness in my legs, and trouble urinating\u2014I am getting more anxious. Is this something serious with my spine or lungs? Should I be worried about infection or fluid overload like you mentioned?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "night sweats"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "loss of appetite"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness in legs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty urinating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "anxiety"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "serious condition with spine or lungs"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "fluid overload"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, given your worsening low back pain, weakness in your legs, difficulty urinating, fevers, chills, and the crackles at your lung bases. Based on your symptoms and medical history, I am concerned about the possibility of a spinal infection or pneumonia, as well as potential fluid overload due to your cardiac history. To further guide my assessment, have you experienced any recent changes in your mental status, such as confusion or difficulty staying alert?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening low back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness in your legs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty urinating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "crackles at your lung bases"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "spinal infection"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "pneumonia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "fluid overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "recent changes in mental status such as confusion or difficulty staying alert"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I don\u2019t think I\u2019ve been confused, but I have felt more tired than usual\u2014just kind of worn out and maybe a little foggy at times. I haven\u2019t had trouble knowing where I am or anything like that, but it\u2019s been harder to stay alert, especially when the fevers are high.\n\nI really appreciate you explaining your concerns. When you say symptoms like spinal infection or pneumonia, it does make me more anxious. Should I be worried about something like sepsis or an abscess in my spine? And with the fluid overload, is that something that could make my breathing worse or cause more swelling? I just want to understand what might be happening and what the next steps are.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "mental fogginess"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty staying alert"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "spinal abscess"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "fluid overload causing worse breathing or swelling"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "next steps"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious, especially with the combination of worsening low back pain, leg weakness, difficulty urinating, fevers, chills, and changes in your breathing. Based on your symptoms and medical history, my assessment is that we need to consider serious conditions such as spinal infection (like epidural abscess), pneumonia, or even sepsis, as well as possible fluid overload given your cardiac history. As part of my clinical evaluation, have you noticed any new or worsening headaches or neck stiffness, which could suggest involvement of the central nervous system?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening low back pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "leg weakness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty urinating"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "changes in breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "spinal infection (epidural abscess)"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "pneumonia"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "fluid overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening headaches"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "neck stiffness"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, let me think\u2026 I haven\u2019t really had any new headpains or neck stiffness\u2014at least nothing that stands out to me. My head does feel a little heavy sometimes when the fever is up, but I wouldn\u2019t call it a real headpain. And my neck isn\u2019t stiff, just maybe a bit pain from being in bed more.\n\nI really appreciate you explaining all of this to me. Hearing terms like spinal infection, epidural abscess, pneumonia, and sepsis\u2014it does make me quite anxious. Should I be worried that this could get worse quickly? Is there anything I should be looking out for, or anything I can do to help myself while you\u2019re figuring symptoms out? And with my history of aortic stenosis and congestive heart failure, does that put me at higher risk for these complications?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "head feels heavy when fever is up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new headpains"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no neck stiffness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "neck pain from being in bed more"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "risk of spinal infection, epidural abscess, pneumonia, sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "should I be worried this could get worse quickly"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "is there anything I should be looking out for"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "is there anything I can do to help myself"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "aortic stenosis and congestive heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "does my history put me at higher risk for complications"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially given your symptoms and your medical history of aortic stenosis and congestive heart failure, which can increase your risk for complications like infection or fluid overload. Based on my assessment, your combination of worsening low back pain, leg weakness, difficulty urinating, fevers, chills, and respiratory symptoms raises concern for a serious underlying condition such as spinal infection (epidural abscess), pneumonia, or even sepsis, and your cardiac history may make you more susceptible to rapid changes.\n\nThe next steps will include a thorough physical examination, laboratory studies to assess for infection or inflammation, and likely imaging of your spine and chest to identify any abscess or pneumonia. We will also closely monitor your fluid status given your heart history.\n\nWhile we proceed with this assessment, have you noticed any new or worsening shortness of breath at rest or chest discomfort since your symptoms began?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "aortic stenosis and congestive heart failure"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening low back pain, leg weakness, difficulty urinating, fevers, chills, respiratory symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "spinal infection (epidural abscess), pneumonia, sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "physical examination, laboratory studies, imaging of spine and chest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Precaution",
+          "value": "closely monitor fluid status"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening shortness of breath at rest or chest discomfort"
+        }
+      ]
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, I have noticed that my shortness of breath has gotten worse, even when I\u2019m just sitting still. It used to only bother me when I was moving around, but now it feels harder to catch my breath at rest too. I haven\u2019t really had chest discomfort\u2014no pain or pressure\u2014but the breathing part is definitely more noticeable, especially with the crackles you mentioned at the lung bases.\n\nI\u2019m glad you\u2019re examinationing for symptoms like infection, inflammation, and fluid overload. With my history of aortic stenosis and congestive heart failure, I do worry about how quickly symptoms could change for me. Is there anything specific I should be watching out for while you\u2019re doing these tests? And, um, if it does turn out to be something like an epidural abscess or pneumonia, what kind of treatments would I need? \n\nSorry for all the questions\u2014I just want to understand what\u2019s happening and what to expect.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath has gotten worse at rest"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest discomfort, pain, or pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "breathing difficulty more noticeable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "crackles at lung bases"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "aortic stenosis and congestive heart failure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything specific I should be watching out for while you\u2019re doing these tests?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "If it is an epidural abscess or pneumonia, what kind of treatments would I need?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing your concerns and questions\u2014it\u2019s completely understandable to want to know what to expect, especially given your medical history and the severity of your symptoms. Based on your clinical presentation\u2014worsening low back pain with point tenderness, leg weakness, difficulty urinating, fevers, chills, night sweats, crackles at the lung bases, and new-onset shortness of breath at rest\u2014my assessment is that we need to urgently evaluate for possible spinal infection (such as an epidural abscess), pneumonia, sepsis, and fluid overload related to your heart condition.\n\nThe next steps will include laboratory studies to assess for infection and inflammation, imaging studies such as MRI of the spine and chest X-ray or CT scan, and close monitoring of your respiratory and neurological status. If an epidural abscess or pneumonia is confirmed, treatment would likely involve intravenous antibiotics and possibly surgical intervention if there is compression of the spinal cord. For fluid overload, we may need to adjust your medications and manage your fluids carefully.\n\nWhile we proceed with this assessment, have you experienced any new or worsening dizziness or lightheadedness when changing positions, which could indicate changes in your blood pressure or cardiac status?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible spinal infection (epidural abscess), pneumonia, sepsis, fluid overload"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening low back pain, point tenderness, leg weakness, difficulty urinating, fevers, chills, night sweats, crackles at the lung bases, new-onset shortness of breath at rest"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "laboratory studies, MRI of the spine, chest X-ray or CT scan"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "intravenous antibiotics, surgical intervention if spinal cord compression, adjust medications, manage fluids"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening dizziness or lightheadedness when changing positions"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, actually, I have felt a bit more lightheaded lately, especially when I get up from bed or from a chair. It\u2019s not every single time, but sometimes I feel a little dizzy and have to steady myself for a moment. I just thought maybe it was from being weak or not eating much, but now I\u2019m wondering if it could be my blood pressure or something with my heart.\n\nThank you for explaining everything so clearly. I know you mentioned symptoms like epidural abscess, pneumonia, sepsis, and fluid overload\u2014should I be really worried that this could get worse quickly? And if you find something serious on the MRI or the chest X-ray, how soon would treatment start? I just want to make sure I\u2019m doing everything I can to help myself get better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness when standing up"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling weak"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "epidural abscess"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "pneumonia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "fluid overload"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "treatment start time after MRI or chest X-ray"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "how to help myself get better"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "partial_profile": {
+    "row_id": 3919,
+    "subject_id": 72671,
+    "hadm_id": 188200,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Heart palpitations",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Dyspnea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "General malaise",
+          "onset": "since last chemotherapy session (2 weeks ago)",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Poor appetite",
+          "onset": "since last chemotherapy session (2 weeks ago)",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Weight loss (from 135 lbs to 103 lbs)",
+          "onset": "since last chemotherapy session (2 weeks ago)",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Anxiety attacks",
+          "onset": "night prior to admission",
+          "duration": "most of the night",
+          "severity": "not provided"
+        },
+        {
+          "description": "Dizziness",
+          "onset": "night prior to admission, around 1AM",
+          "duration": "not provided",
+          "severity": "acute"
+        },
+        {
+          "description": "Rapid heart rate",
+          "onset": "night prior to admission",
+          "duration": "not provided",
+          "severity": "pounding"
+        },
+        {
+          "description": "Bilateral wheezing",
+          "onset": "on exam in ED",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Pale and ill-appearing",
+          "onset": "on exam in ED",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Occasional constipation",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Dizziness during SVT episodes",
+          "onset": "during SVT episodes",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "tachypnea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "markedly tachypneic"
+        },
+        {
+          "description": "cachexia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "chronically ill appearing man, cachectic"
+        },
+        {
+          "description": "pallid complexion",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Sinus tachycardia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "multiple episodes of SVT (supraventricular tachycardia)",
+          "onset": "shortly after 2am on [**2138-9-20**]",
+          "duration": "not provided",
+          "severity": "rates into the 270s"
+        },
+        {
+          "description": "lightheadedness",
+          "onset": "during SVT episodes",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hypotension",
+          "onset": "during SVT episodes",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Breakthrough episode of SVT with HR in 160s",
+          "onset": "2138-09-27",
+          "duration": "less than 5 minutes",
+          "severity": "not provided"
+        },
+        {
+          "description": "No associated chest pains, dizziness or desaturations during SVT episode",
+          "onset": "2138-09-27",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "No complaints of dizziness, palpitations, chest pain or shortness of breath at rest at discharge",
+          "onset": "at discharge",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Asymptomatic SVT episode",
+          "onset": "2138-10-01",
+          "duration": "approx 3 minutes",
+          "severity": "not provided"
+        },
+        {
+          "description": "Lightheaded, hypotensive and anxious during acute SVT episode",
+          "onset": "2138-09-21",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Tachypnea (respirations in the 30s) during acute SVT episode",
+          "onset": "2138-09-21",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "very sedated with low respiratory rate",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "respiratory acidosis (pH 7.17, pCO2 101)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "somnolent and difficult to arouse",
+          "onset": "on the day of planned discharge",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hypercarbia",
+          "onset": "on the day of planned discharge",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "respiratory distress",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "mild sore throat after extubation",
+          "onset": "after extubation",
+          "duration": "2 days",
+          "severity": "mild"
+        },
+        {
+          "description": "decompensated respiratory status requiring intubation",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "cardiac ectopy",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "somnolence and impaired respirations after benzodiazepine use",
+          "onset": "after Ativan administration",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "confusion and lethargy after Trazadone",
+          "onset": "after Trazadone administration",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "erythematous inflammation on right forearm at prior IV site",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "mild edema, tenderness"
+        },
+        {
+          "description": "loose stool",
+          "onset": "towards the end of hospital stay",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2107-11-27",
+        "Age": 30,
+        "Sex": "M",
+        "Religion": "OTHER",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2138-09-20 10:15:00",
+        "Discharge_Date": "2138-10-02 15:55:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Hodgkin's Lymphoma, mesothelioma"
+      },
+      "Allergies": [
+        "Morphine",
+        "Demerol"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Cisplatin",
+          "purpose": "Chemotherapy for mesothelioma",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Alimta",
+          "purpose": "Chemotherapy for mesothelioma",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "amiodarone",
+          "purpose": "SVT control",
+          "dosage": "PO",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Amiodarone",
+          "purpose": "Arrhythmia control (SVT)",
+          "dosage": "200mg daily",
+          "frequency": "daily"
+        },
+        {
+          "name": "Cyclobenzaprine",
+          "purpose": "Muscle relaxant",
+          "dosage": "not provided",
+          "frequency": "held"
+        },
+        {
+          "name": "Ativan",
+          "purpose": "Anxiolytic/benzodiazepine",
+          "dosage": "not provided",
+          "frequency": "held"
+        },
+        {
+          "name": "Propofol",
+          "purpose": "Sedation during intubation",
+          "dosage": "very low doses",
+          "frequency": "continuous infusion"
+        },
+        {
+          "name": "Metoprolol",
+          "purpose": "not provided",
+          "dosage": "37",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Celexa",
+          "purpose": "anxiety/depression",
+          "dosage": "usual home dose",
+          "frequency": "not provided"
+        },
+        {
+          "name": "amiodarone",
+          "purpose": "slows heart rate",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Amiodarone",
+          "purpose": "Arrhythmia control (SVT)",
+          "dosage": "200mg daily",
+          "frequency": "daily"
+        },
+        {
+          "name": "Cepacol throat lozenges",
+          "purpose": "Relief of sore throat",
+          "dosage": "not provided",
+          "frequency": "as needed"
+        },
+        {
+          "name": "Celexa",
+          "purpose": "anxiety/depression",
+          "dosage": "usual home dose",
+          "frequency": "not provided"
+        },
+        {
+          "name": "magnesium supplement",
+          "purpose": "treatment of hypomagnesemia",
+          "dosage": "standing daily",
+          "frequency": "daily"
+        },
+        {
+          "name": "amiodarone",
+          "purpose": "slows heart rate",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Heart palpitations and dyspnea"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.9,
+      "consistency_score": 1.0,
+      "confidence_score": 0.85,
+      "overall_score": 0.9666666666666667,
+      "field_scores": {
+        "symptoms": 0.9459459459459459,
+        "diagnoses": 0.9512195121951219,
+        "treatments": 1.0,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Symptom 'cachexia' not clearly found in original text",
+        "Symptom 'lightheadedness' not clearly found in original text",
+        "Diagnosis 'anemia' not clearly supported by text",
+        "Diagnosis 'SVT (Supraventricular Tachycardia)' not clearly supported by text",
+        "Age inconsistency: stated 30, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing drainage from your wound related to a recurrent fistula, and I assess there has been a rise in your white blood cell count. Can you describe any changes in the amount or appearance of the drainage from your wound recently?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, hi. Yeah, I\u2019ve noticed there\u2019s still drainage from the wound, and, well, I guess my main concern is that my abdominal pain has been getting worse lately. I\u2019m just feeling pretty uncomfortable overall."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing that with me\u2014I can understand how increasing abdominal pain and ongoing drainage would be uncomfortable. To help guide my assessment, can you tell me if you\u2019ve noticed any changes in the color, odor, or amount of the wound drainage along with your worsening abdominal pain?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 the drainage from the fistula seems like it\u2019s a bit more than before. I\u2019m not sure about the color\u2014it still looks kind of yellowish, I think. I just know it\u2019s leaking more and it\u2019s making me pretty uncomfortable."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for describing your symptoms in detail\u2014I appreciate your openness. You mentioned the drainage has increased and your abdominal pain is worsening. Have you experienced any fevers, chills, or other signs of infection along with these symptoms?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, actually, yeah\u2014I\u2019ve had some fevers, I think over 101, and sometimes chills too. I also feel kind of nauseated a lot lately. They told me my white blood cell count was up to 20,000, so I guess that\u2019s not a good sign? Should I be worried about these symptoms?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can absolutely understand why you\u2019d feel anxious with these symptoms, especially given the increased drainage, abdominal pain, fevers, and elevated white blood cell count. To help with my assessment, have you noticed any redness, swelling, or pus developing around the wound site that might suggest a localized infection?"
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing drainage from your wound related to a recurrent fistula, and I assess there has been a rise in your white blood cell count. Can you describe any changes in the amount or appearance of the drainage from your wound recently?\nPatient: Um, hi. Yeah, I\u2019ve noticed there\u2019s still drainage from the wound, and, well, I guess my main concern is that my abdominal pain has been getting worse lately. I\u2019m just feeling pretty uncomfortable overall.\nDoctor: Thank you for sharing that with me\u2014I can understand how increasing abdominal pain and ongoing drainage would be uncomfortable. To help guide my assessment, can you tell me if you\u2019ve noticed any changes in the color, odor, or amount of the wound drainage along with your worsening abdominal pain?\nPatient: Well, um\u2026 the drainage from the fistula seems like it\u2019s a bit more than before. I\u2019m not sure about the color\u2014it still looks kind of yellowish, I think. I just know it\u2019s leaking more and it\u2019s making me pretty uncomfortable.\nDoctor: Thank you for describing your symptoms in detail\u2014I appreciate your openness. You mentioned the drainage has increased and your abdominal pain is worsening. Have you experienced any fevers, chills, or other signs of infection along with these symptoms?\nPatient: Um, actually, yeah\u2014I\u2019ve had some fevers, I think over 101, and sometimes chills too. I also feel kind of nauseated a lot lately. They told me my white blood cell count was up to 20,000, so I guess that\u2019s not a good sign? Should I be worried about these symptoms?\nDoctor: I can absolutely understand why you\u2019d feel anxious with these symptoms, especially given the increased drainage, abdominal pain, fevers, and elevated white blood cell count. To help with my assessment, have you noticed any redness, swelling, or pus developing around the wound site that might suggest a localized infection?\nPatient: [Simulation ended due to invalid response from Patient Agent at turn 4]",
+  "clinical_note": "Patient presents with: chills, abdominal pain, fever, nausea, drainage from wound. Assessment: recurrent fistula, possible infection. Clinical note: Patient with a recurrent fistula presents with increased yellowish wound drainage, worsening abdominal pain, fevers, chills, nausea, and elevated white blood cell count, raising concern for possible infection.. Extracted: 11 symptoms, 2 diagnoses, 0 treatments.",
+  "annotations": {
+    "symptoms": [
+      "chills",
+      "abdominal pain",
+      "fever",
+      "nausea",
+      "drainage from wound",
+      "worsening abdominal pain",
+      "increased wound drainage",
+      "yellowish wound drainage",
+      "fevers over 101",
+      "elevated white blood cell count",
+      "feeling uncomfortable"
+    ],
+    "diagnoses": [
+      "recurrent fistula",
+      "possible infection"
+    ],
+    "treatments": []
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 0.941\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.870 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 0.585 \u2705\n\u2022 Semantic Similarity: 0.560 \u25cb\n\u2022 Dialogue Naturalness: 1.000 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence:**\n\n1. **Medical Communication Safety and Appropriateness:**  \n   - The doctor\u2019s questions are clinically appropriate, focusing on key symptoms (drainage changes, pain, fever, chills, wound appearance) relevant to a recurrent fistula and possible infection.\n   - There is no evidence of unsafe or inappropriate advice; the doctor is gathering information before making recommendations.\n   - The doctor acknowledges the elevated white blood cell count and integrates it into the assessment, which is medically sound.\n\n2. **Natural and Believable Patient Behavior:**  \n   - The patient\u2019s responses show uncertainty (\u201cI\u2019m not sure about the color\u201d), progressive disclosure (\u201cI\u2019ve had some fevers, I think over 101\u201d), and emotional concern (\u201cShould I be worried about these symptoms?\u201d), all of which are typical in real clinical encounters.\n   - The patient expresses discomfort and anxiety, which is appropriate given the symptoms described.\n\n3. **Empathy and Professionalism:**  \n   - The doctor repeatedly thanks the patient for sharing information and validates their concerns (\u201cI can absolutely understand why you\u2019d feel anxious\u2026\u201d).\n   - The tone is supportive and nonjudgmental, with clear efforts to build rapport.\n\n4. **Meaningful Medical Purpose and Logical Flow:**  \n   - The conversation logically progresses from symptom description to more detailed inquiry about infection signs.\n   - Each question builds on previous answers, demonstrating a structured clinical reasoning process.\n   - The exchange serves a clear diagnostic purpose: assessing for worsening infection or complications.\n\n**Minor Imperfections:**  \n- Some repetition in phrasing (\u201cThank you for describing your symptoms in detail\u201d) is present but within normal limits for real medical conversations.\n- The simulation ends abruptly due to a technical issue, but up to that point, the dialogue remains realistic.\n\n**Conclusion:**  \nThis conversation represents a plausible and clinically appropriate medical encounter. The doctor\u2019s approach is safe, empathetic, and patient-centered; the patient\u2019s behavior is believable; and the dialogue serves a clear medical purpose with logical progression.\n\n**Overall Assessment:**  \nThe dialogue meets criteria for realism and clinical appropriateness.\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.870)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.261/0.3 (Score: 0.870)\n  \u2022 SOTA Metrics: 0.131/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 0.941,
+    "sota_metrics": {
+      "semantic": 0.56,
+      "naturalness": 1.0,
+      "safety": 0.87,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 0.585,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 20.625324487686157,
+  "dialogue_stats": {
+    "turn_count": 7,
+    "word_count": 332,
+    "doctor_turns": 4,
+    "patient_turns": 3
+  }
+}

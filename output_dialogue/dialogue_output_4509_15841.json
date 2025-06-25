@@ -1,0 +1,404 @@
+{
+  "partial_profile": {
+    "row_id": 4507,
+    "subject_id": 6800,
+    "hadm_id": 142356,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Worsening abdominal pain",
+          "onset": "one month ago",
+          "duration": "one month",
+          "severity": "not provided"
+        },
+        {
+          "description": "Increased abdominal girth",
+          "onset": "one month ago",
+          "duration": "one month",
+          "severity": "not provided"
+        },
+        {
+          "description": "Nausea",
+          "onset": "past week",
+          "duration": "one week",
+          "severity": "not provided"
+        },
+        {
+          "description": "Vomiting",
+          "onset": "past week",
+          "duration": "one week",
+          "severity": "not provided"
+        },
+        {
+          "description": "Decreased appetite",
+          "onset": "past week",
+          "duration": "one week",
+          "severity": "not provided"
+        },
+        {
+          "description": "Decreased bowel movements",
+          "onset": "past few weeks",
+          "duration": "few weeks",
+          "severity": "not provided"
+        },
+        {
+          "description": "Increased abdominal pain with meals and alcohol consumption",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Low grade temperatures with chills",
+          "onset": "past week",
+          "duration": "one week",
+          "severity": "not provided"
+        },
+        {
+          "description": "Increased confusion",
+          "onset": "past week",
+          "duration": "one week",
+          "severity": "not provided"
+        },
+        {
+          "description": "Lethargy",
+          "onset": "on admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "mental status changes",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "increased abdominal girth/pain",
+          "onset": "one month",
+          "duration": "one month",
+          "severity": "not provided"
+        },
+        {
+          "description": "tachycardia",
+          "onset": "night of admission",
+          "duration": "not provided",
+          "severity": "heart rate in 120s"
+        },
+        {
+          "description": "vomiting bright red blood and coffee grounds",
+          "onset": "night of admission",
+          "duration": "not provided",
+          "severity": "vomited 300 to 350 cc of coffee grounds"
+        },
+        {
+          "description": "hypotension",
+          "onset": "after paracentesis",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "worsening metabolic acidosis",
+          "onset": "[**12-30**]",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "compensatory hyperventilation",
+          "onset": "[**12-30**]",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "high respiratory rate",
+          "onset": "after intubation",
+          "duration": "not provided",
+          "severity": "in 30s and 40s"
+        },
+        {
+          "description": "hypoxia",
+          "onset": "after intubation",
+          "duration": "not provided",
+          "severity": "requiring increased FIO2"
+        },
+        {
+          "description": "increased secretions",
+          "onset": "after intubation",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "bradycardia with runs of ventricular tachycardia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "oliguria",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "somnolent and unresponsive",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [],
+      "Treatment_Options": []
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2123-08-12",
+        "Age": 54,
+        "Sex": "F",
+        "Religion": "NOT SPECIFIED",
+        "Marital_Status": "DIVORCED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2177-12-29 21:33:00",
+        "Discharge_Date": "2178-01-01 19:41:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Alcoholic hepatitis, alcoholic pancreatitis, alcoholic ketoacidosis. Depression with suicidal ideation. Right total hip replacement secondary to AVN, breast cancer status post right mastectomy, status post radiation therapy and chemotherapy in 2171, question of hemachromatosis, status post cholecystectomy."
+      },
+      "Allergies": [
+        "Terazol",
+        "Darvocet",
+        "Celebrex",
+        "Vioxx",
+        "Ampicillin",
+        "Erythromycin"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Folate",
+          "purpose": "Vitamin supplementation",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Thiamine",
+          "purpose": "Vitamin supplementation",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Multivitamin",
+          "purpose": "Vitamin supplementation",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Oxycodone",
+          "purpose": "Pain control",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Effexor",
+          "purpose": "Depression",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Trazodone",
+          "purpose": "Depression/insomnia",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "BuSpar",
+          "purpose": "Anxiety",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Levofloxacin",
+          "purpose": "SBP prophylaxis and possible pneumonia/sepsis",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Vancomycin",
+          "purpose": "SBP prophylaxis and possible pneumonia/sepsis",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Flagyl",
+          "purpose": "SBP prophylaxis and possible pneumonia/sepsis",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Ativan",
+          "purpose": "sedation",
+          "dosage": "not provided",
+          "frequency": "drip"
+        },
+        {
+          "name": "neo-synephrine",
+          "purpose": "vasopressor for hypotension",
+          "dosage": "not provided",
+          "frequency": "drip"
+        },
+        {
+          "name": "vaso",
+          "purpose": "vasopressor for hypotension",
+          "dosage": "not provided",
+          "frequency": "drip"
+        },
+        {
+          "name": "insulin",
+          "purpose": "control blood glucose",
+          "dosage": "not provided",
+          "frequency": "drip"
+        },
+        {
+          "name": "morphine",
+          "purpose": "sedation",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Protonix",
+          "purpose": "prophylaxis",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": []
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Abdominal pain."
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.9,
+      "consistency_score": 1.0,
+      "confidence_score": 0.85,
+      "overall_score": 0.9666666666666667,
+      "field_scores": {
+        "symptoms": 0.9130434782608695,
+        "diagnoses": 0.9642857142857143,
+        "treatments": 0.9666666666666667,
+        "demographics": 0.39999999999999997
+      },
+      "issues": [
+        "Symptom 'Lethargy' not clearly found in original text",
+        "Symptom 'oliguria' not clearly found in original text",
+        "Diagnosis 'disseminated intravascular coagulation (DIC)' not clearly supported by text",
+        "Treatment 'hydration' not clearly found in text",
+        "Age inconsistency: stated 53, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ]
+    }
+  },
+  "dialogue": [
+    {
+      "role": "Doctor",
+      "content": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing shortness of breath and some agitation. Can you describe in more detail how your shortness of breath has changed over the past few days?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um, yeah\u2026 it\u2019s mainly the shortness of breath that\u2019s got me worried. It just feels a lot harder to catch my breath lately, even when I\u2019m not doing much. I\u2019m not sure if it\u2019s getting worse, but it\u2019s definitely more noticeable than before."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why experiencing short of breath would make you anxious, and I appreciate you sharing how it\u2019s affecting you. To help guide my assessment, can you tell me if your shortness of breath is worse when you\u2019re lying down, or do you notice it more when you\u2019re active?"
+    },
+    {
+      "role": "Patient",
+      "content": "Well, um\u2026 I think it\u2019s a bit worse when I\u2019m moving around, like just walking to the bathroom makes me feel more out of breath. But even when I\u2019m sitting, I notice my breathing feels like more work than usual\u2014like increased work of breathing, I guess. It\u2019s making me pretty anxious, honestly."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried about these symptoms, especially since your shortness of breath has become more noticeable and is affecting your daily activities. To help with my assessment, have you experienced any chest discomfort, palpitations, or swelling in your legs along with your shortness of breath?"
+    },
+    {
+      "role": "Patient",
+      "content": "Let me think\u2026 I haven\u2019t really noticed chest discomfort or palpitations, at least not that I can remember. Um, I have had some swelling\u2014just a little\u2014in my lower legs, like trace edema, I think you\u2019d call it. Also, lately I\u2019ve been feeling kind of agitated and, well, sometimes it\u2019s hard for me to stay awake. My family said I seemed a bit somnolent and difficult to arouse at times. That\u2019s new for me, and it\u2019s making me more anxious. Should I be worried about these symptoms?"
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be anxious, especially with new symptoms like somnolence and increased agitation along with your shortness of breath. To help guide my assessment, have you noticed any recent changes in your cough, such as increased frequency, sputum production, or the presence of blood?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 actually, I haven\u2019t really had much of a cough, and I don\u2019t think I\u2019ve noticed any sputum or blood when I do cough. But, well, I did notice some blood in my stools recently\u2014that kind of freaked me out. And there have been a couple times where I felt like I was in real respiratory distress, like it was just so shortness of breath all of a sudden. I\u2019m pretty anxious about all these symptoms happening together."
+    },
+    {
+      "role": "Doctor",
+      "content": "I can understand why you\u2019d be worried, especially with new symptoms like blood in your stools and episodes of respiratory distress. To help with my assessment, have you experienced any fever, chills, or recent weight loss along with your shortness of breath and agitation?"
+    },
+    {
+      "role": "Patient",
+      "content": "Um\u2026 no, I don\u2019t think I\u2019ve had any fever or chills. I haven\u2019t noticed any weight loss either, at least not on purpose. My appetite\u2019s been about the same. I did have some initial respiratory symptoms a few days ago\u2014like just feeling more winded and kind of tight in my chest, but not really pain. And honestly, all of this is making my anxiety worse. I keep worrying something serious is going on."
+    },
+    {
+      "role": "Doctor",
+      "content": "Thank you for sharing these details\u2014it\u2019s helpful for my assessment. Given your symptoms of shortness of breath and agitation, have you experienced any recent changes in your mental status, such as confusion, difficulty concentrating, or memory lapses?"
+    },
+    {
+      "role": "Patient",
+      "content": "Yeah\u2026 actually, now that you mention it, I have had some trouble with confusion and just feeling kind of out of it. My family said I seemed more somnolent and hard to wake up at times, which is unusual for me. Sometimes it\u2019s hard to focus or remember symptoms lately, and I\u2019m not sure if it\u2019s from my anxiety or something else.\n\nAlso, um, I wanted to mention\u2014I\u2019ve noticed this rash on my abdomen and arms. It\u2019s kind of a maculopapular rash, with these excoriated papules that I keep scratching without really thinking about it. And like I said earlier, there\u2019s still that trace lower extremity edema in my legs. \n\nShould I be worried that all these symptoms are happening together? Is there something serious going on?"
+    }
+  ],
+  "transcript": "Doctor: Hello, thank you for coming in today. I understand you\u2019ve been experiencing shortness of breath and some agitation. Can you describe in more detail how your shortness of breath has changed over the past few days?\nPatient: Um, yeah\u2026 it\u2019s mainly the shortness of breath that\u2019s got me worried. It just feels a lot harder to catch my breath lately, even when I\u2019m not doing much. I\u2019m not sure if it\u2019s getting worse, but it\u2019s definitely more noticeable than before.\nDoctor: I can understand why experiencing short of breath would make you anxious, and I appreciate you sharing how it\u2019s affecting you. To help guide my assessment, can you tell me if your shortness of breath is worse when you\u2019re lying down, or do you notice it more when you\u2019re active?\nPatient: Well, um\u2026 I think it\u2019s a bit worse when I\u2019m moving around, like just walking to the bathroom makes me feel more out of breath. But even when I\u2019m sitting, I notice my breathing feels like more work than usual\u2014like increased work of breathing, I guess. It\u2019s making me pretty anxious, honestly.\nDoctor: I can understand why you\u2019d be worried about these symptoms, especially since your shortness of breath has become more noticeable and is affecting your daily activities. To help with my assessment, have you experienced any chest discomfort, palpitations, or swelling in your legs along with your shortness of breath?\nPatient: Let me think\u2026 I haven\u2019t really noticed chest discomfort or palpitations, at least not that I can remember. Um, I have had some swelling\u2014just a little\u2014in my lower legs, like trace edema, I think you\u2019d call it. Also, lately I\u2019ve been feeling kind of agitated and, well, sometimes it\u2019s hard for me to stay awake. My family said I seemed a bit somnolent and difficult to arouse at times. That\u2019s new for me, and it\u2019s making me more anxious. Should I be worried about these symptoms?\nDoctor: I can understand why you\u2019d be anxious, especially with new symptoms like somnolence and increased agitation along with your shortness of breath. To help guide my assessment, have you noticed any recent changes in your cough, such as increased frequency, sputum production, or the presence of blood?\nPatient: Um\u2026 actually, I haven\u2019t really had much of a cough, and I don\u2019t think I\u2019ve noticed any sputum or blood when I do cough. But, well, I did notice some blood in my stools recently\u2014that kind of freaked me out. And there have been a couple times where I felt like I was in real respiratory distress, like it was just so shortness of breath all of a sudden. I\u2019m pretty anxious about all these symptoms happening together.\nDoctor: I can understand why you\u2019d be worried, especially with new symptoms like blood in your stools and episodes of respiratory distress. To help with my assessment, have you experienced any fever, chills, or recent weight loss along with your shortness of breath and agitation?\nPatient: Um\u2026 no, I don\u2019t think I\u2019ve had any fever or chills. I haven\u2019t noticed any weight loss either, at least not on purpose. My appetite\u2019s been about the same. I did have some initial respiratory symptoms a few days ago\u2014like just feeling more winded and kind of tight in my chest, but not really pain. And honestly, all of this is making my anxiety worse. I keep worrying something serious is going on.\nDoctor: Thank you for sharing these details\u2014it\u2019s helpful for my assessment. Given your symptoms of shortness of breath and agitation, have you experienced any recent changes in your mental status, such as confusion, difficulty concentrating, or memory lapses?\nPatient: Yeah\u2026 actually, now that you mention it, I have had some trouble with confusion and just feeling kind of out of it. My family said I seemed more somnolent and hard to wake up at times, which is unusual for me. Sometimes it\u2019s hard to focus or remember symptoms lately, and I\u2019m not sure if it\u2019s from my anxiety or something else.\n\nAlso, um, I wanted to mention\u2014I\u2019ve noticed this rash on my abdomen and arms. It\u2019s kind of a maculopapular rash, with these excoriated papules that I keep scratching without really thinking about it. And like I said earlier, there\u2019s still that trace lower extremity edema in my legs. \n\nShould I be worried that all these symptoms are happening together? Is there something serious going on?\n[Patient showed understanding of Doctor's conclusion]",
+  "clinical_note": "Patient presents with: chills, fever, cough, shortness of breath, weight loss. Clinical note: The patient reports worsening shortness of breath, agitation, increased work of breathing, trace lower extremity edema, somnolence, confusion, blood in stools, episodes of respiratory distress, chest tightness, and a maculopapular rash with excoriated papules. No diagnosis or treatment was provided during the conversation.. Extracted: 23 symptoms, 0 diagnoses, 0 treatments.",
+  "annotations": {
+    "symptoms": [
+      "chills",
+      "fever",
+      "cough",
+      "shortness of breath",
+      "weight loss",
+      "chest pain",
+      "breath",
+      "shortness of breath and some agitation",
+      "short of breath would make you anxious",
+      "agitation",
+      "increased work of breathing",
+      "anxiety",
+      "trace lower extremity edema",
+      "somnolence",
+      "difficulty staying awake",
+      "confusion",
+      "difficulty concentrating",
+      "memory lapses",
+      "blood in stools",
+      "episodes of respiratory distress",
+      "initial chest tightness",
+      "maculopapular rash on abdomen and arms",
+      "excoriated papules"
+    ],
+    "diagnoses": [],
+    "treatments": []
+  },
+  "sota_evaluation": {
+    "coach_feedback": "\ud83d\udcca Calibrated SOTA Evaluation Results:\nOverall SOTA Score: 1.000\nSafety Status: GOOD\n\n\ud83d\udd2c Key Calibrated Metrics:\n\u2022 Medical Safety: 0.850 \u2705 (Critical)\n\u2022 Progressive Disclosure: 0.700 \u2705\n\u2022 Medical Coverage: 1.000 \u2705\n\u2022 Semantic Similarity: 0.597 \u25cb\n\u2022 Dialogue Naturalness: 0.951 \u25cb (Known strict metric)\n\n\ud83c\udfaf Evaluation Notes:\n\u2022 Expert assessment prioritized over automated metrics\n\u2022 Medical safety is the critical factor\n\u2022 Some naturalness metrics may be overly strict\n\u2022 Focus on overall clinical authenticity\n\n\n\ud83c\udfaf Expert Dialogue Assessment:\nDIALOGUE REALISTIC:\n\n**Evidence and Analysis:**\n\n**1. Medical Communication Safety and Appropriateness:**  \nThe doctor\u2019s responses are consistently safe, responsible, and clinically appropriate. The physician uses open-ended questions to elicit a detailed history of the patient\u2019s symptoms (e.g., \u201cCan you describe in more detail how your shortness of breath has changed?\u201d), follows up on key symptoms (orthopnea, edema, mental status changes, cough, blood in stools), and demonstrates awareness of red flag symptoms (somnolence, confusion, blood in stool, respiratory distress). The doctor does not provide premature reassurance or unsafe advice and maintains a professional tone throughout.\n\n**2. Patient Behavior Naturalness and Believability:**  \nThe patient\u2019s responses are realistic and reflect a natural progression of information disclosure. The patient expresses uncertainty (\u201cI\u2019m not sure if it\u2019s getting worse\u2026\u201d), provides clarifications when prompted, and volunteers new symptoms as the conversation develops (e.g., rash, blood in stool). Emotional responses such as anxiety, worry, and agitation are appropriately expressed given the concerning constellation of symptoms. The patient\u2019s hesitations (\u201cUm\u2026\u201d, \u201cLet me think\u2026\u201d) and need for reassurance (\u201cShould I be worried about these symptoms?\u201d) are believable and typical in real clinical encounters.\n\n**3. Doctor Empathy and Professionalism:**  \nThe doctor repeatedly acknowledges the patient\u2019s concerns and emotional state (\u201cI can understand why you\u2019d be anxious\u2026\u201d), validates their experiences, and thanks them for sharing details. This demonstrates empathy and a patient-centered approach. The doctor\u2019s language is supportive without being dismissive or alarmist.\n\n**4. Meaningful Medical Purpose and Logical Flow:**  \nThe conversation follows a logical clinical progression: initial symptom exploration, clarification of associated symptoms (orthopnea, edema, chest discomfort), review of systems (cough, fever, weight loss), and further probing into mental status and dermatologic findings. Each question builds on previous answers, and the patient\u2019s disclosures prompt appropriate follow-up from the doctor. The exchange is purposeful, gathering information necessary for differential diagnosis and triage.\n\n**Additional Notes:**  \n- Some repetition in phrasing (\u201cI can understand why you\u2019d be anxious\u2026\u201d) is common in real medical conversations as doctors seek to reassure patients.\n- The patient\u2019s use of some medical terminology (\u201ctrace edema,\u201d \u201cmaculopapular rash\u201d) is plausible if the patient has prior medical exposure or is repeating what others have told them.\n- The conversation does not include a final management plan or explicit safety netting, but this is reasonable given the focus on history-taking in this excerpt.\n\n**Conclusion:**  \nThis dialogue represents a plausible, safe, and clinically appropriate medical encounter. Both the doctor\u2019s and patient\u2019s behaviors are authentic, the conversation flows logically, and the information exchange serves a clear medical purpose.\n\n**Overall Assessment:**  \n\u2713 Medical communication is safe and appropriate  \n\u2713 Patient behavior is natural and believable  \n\u2713 Doctor shows empathy and professionalism  \n\u2713 Conversation flows logically  \n\u2713 Information exchange serves medical purpose\n\n**Result:**  \nDIALOGUE REALISTIC\n\n\n\ud83d\udccb Calibrated Decision Analysis:\n\u2705 REALISTIC - Expert assessment confirmed (Safety: 0.850)\n\ud83d\udcc8 Calibrated Score Breakdown:\n  \u2022 Expert Assessment: 0.500/0.5 (Realistic)\n  \u2022 Safety Evaluation: 0.255/0.3 (Score: 0.850)\n  \u2022 SOTA Metrics: 0.164/0.2 (Disclosure: 0.700)\n\ud83c\udfaf Key Factor: Expert assessment prioritized over automated metrics\n\ud83d\udd27 Adaptive Threshold: 0.650",
+    "quality_score": 1.0,
+    "sota_metrics": {
+      "semantic": 0.597,
+      "naturalness": 0.951,
+      "safety": 0.85,
+      "progressive_disclosure": 0.7,
+      "medical_coverage": 1.0,
+      "clinical_reasoning": 0.0
+    },
+    "evaluation_method": "SOTA_multi_metric"
+  },
+  "refinement_cycles": 0,
+  "processing_time": 33.550421714782715,
+  "dialogue_stats": {
+    "turn_count": 12,
+    "word_count": 740,
+    "doctor_turns": 6,
+    "patient_turns": 6
+  }
+}

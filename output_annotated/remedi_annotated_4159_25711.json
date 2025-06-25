@@ -1,0 +1,1542 @@
+{
+  "source_row_id": 4158,
+  "source_subject_id": 25711,
+  "source_hadm_id": 188300,
+  "remedi_style_dialogue_annotations": [
+    {
+      "turn_id": 0,
+      "role": "Doctor",
+      "utterance_text": "Hello, thank you for coming in today. I understand you\u2019ve been experiencing nausea, vomiting, and right lower quadrant abdominal pain since last night. Can you describe if your abdominal pain has changed in intensity or location since it began?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 1,
+      "role": "Patient",
+      "utterance_text": "Um, yes, thank you, doctor. The main thing that brought me in is this right lower quadrant abdominal pain\u2014it\u2019s been pretty uncomfortable since last night. I\u2019m not sure if it\u2019s gotten worse, but it just hasn\u2019t let up, and I\u2019m feeling pretty miserable.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "right lower quadrant abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "since last night"
+        }
+      ]
+    },
+    {
+      "turn_id": 2,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing that\u2014persistent abdominal pain can be very distressing. In addition to the pain, can you tell me more about your nausea and vomiting\u2014specifically, how often you\u2019ve been experiencing these symptoms and whether you\u2019ve noticed any blood or unusual color in your vomit?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing that\u2014persistent abdominal pain can be very distressing."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Frequency",
+          "value": "how often you\u2019ve been experiencing these symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "whether you\u2019ve noticed any blood or unusual color in your vomit"
+        }
+      ]
+    },
+    {
+      "turn_id": 3,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 the nausea and vomiting have been happening on and off since last night. I think I\u2019ve thrown up a few times\u2014maybe three? I\u2019m not sure if there was blood, but it did look kind of dark, almost like coffee grounds. Also, I should mention, I\u2019ve had this kind of chronic abdominal pain after meals for a while now, but this feels different\u2014more intense, I guess.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "since last night"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Frequency",
+          "value": "a few times\u2014maybe three"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomit looked dark, almost like coffee grounds"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chronic abdominal pain after meals"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain more intense than usual"
+        }
+      ]
+    },
+    {
+      "turn_id": 4,
+      "role": "Doctor",
+      "utterance_text": "Thank you for describing your symptoms in detail\u2014it helps guide my assessment. You mentioned your vomit appeared dark, like coffee grounds, which can sometimes indicate bleeding in the upper gastroindiagnostic evaluationinal tract. Have you noticed any changes in your stool color, such as it appearing black or tarry, which could also suggest gastroindiagnostic evaluationinal bleeding?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomit appeared dark, like coffee grounds"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "can sometimes indicate bleeding in the upper gastrointestinal tract"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in stool color, such as black or tarry"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Pathogeny",
+          "value": "black or tarry stool could suggest gastrointestinal bleeding"
+        }
+      ]
+    },
+    {
+      "turn_id": 5,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I haven\u2019t really noticed any black or tarry stools, but it\u2019s a little hard for me to tell sometimes because of my ostomy. I do have chronic abdominal pain, usually after meals, but this pain feels more like acute on chronic abdominal pain\u2014just sharper and more persistent than usual. Should I be worried about the coffee-ground emesis?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no black or tarry stools"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "ostomy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "chronic abdominal pain, usually after meals"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "acute on chronic abdominal pain\u2014sharper and more persistent than usual"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "coffee-ground emesis"
+        }
+      ]
+    },
+    {
+      "turn_id": 6,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious\u2014assessing coffee-ground material in your vomit can be alarming, and it\u2019s important we take it seriously. You mentioned having a fever as well; have you experienced any shaking chills or noticed your temperature staying elevated for more than 24 hours?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee-ground material in vomit"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shaking chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Temperature",
+          "value": "temperature staying elevated for more than 24 hours"
+        }
+      ]
+    },
+    {
+      "turn_id": 7,
+      "role": "Patient",
+      "utterance_text": "Um, yes, actually, I did have some shaking chills last night, and my temperature went up pretty high\u2014I think it was around 103, maybe a little over. It\u2019s been up there for more than a day now, on and off. I\u2019m just feeling really uncomfortable and kind of weak. Is that something I should be really concerned about?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shaking chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": "around 103"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "more than a day"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weak"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Is that something I should be really concerned about?"
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014persistent high fevers and shaking chills are concerning symptoms and it\u2019s important we address them promptly. During your clinical assessment, did you notice any worsening of your abdominal tenderness or any new areas of pain when your fever was at its highest?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent high fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shaking chills"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening of abdominal tenderness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new areas of pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Temperature",
+          "value": "fever at its highest"
+        }
+      ]
+    },
+    {
+      "turn_id": 9,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I think the abdominal tenderness did get worse when my fever was at its highest. The pain seemed to spread out a bit\u2014like, it wasn\u2019t just in the right lower quadrant anymore, but more diffuse across my belly. I haven\u2019t really noticed any new pain in my back, but the abdominal pain definitely got more intense. I\u2019m just worried because it\u2019s not getting better, and actually feels like it\u2019s getting worse. Should I be concerned about this worsening abdominal pain?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal tenderness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain spreading from right lower quadrant to diffuse across abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new back pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain getting more intense"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening abdominal pain"
+        }
+      ]
+    },
+    {
+      "turn_id": 10,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried about your worsening abdominal pain, especially with persistent high fevers and diffuse tenderness. To help with my assessment, have you noticed any symptoms such as shortness of breath, chest discomfort, or lightheadedness along with your abdominal pain and fever?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent high fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "chest discomfort"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fever"
+        }
+      ]
+    },
+    {
+      "turn_id": 11,
+      "role": "Patient",
+      "utterance_text": "Actually, yes, now that you mention it\u2014I have felt a bit lightheaded, especially when I try to stand up. I don\u2019t think I\u2019ve had real chest discomfort, but maybe just a little fluttering feeling, which I guess could be from my atrial fibrillation? And I have noticed some shortness of breath, but I thought maybe that was just from feeling so weak and uncomfortable with all these symptoms.\n\nThe nausea and vomiting are still pretty bad, and the coffee-ground emesis really scared me. I\u2019m just not sure what\u2019s going on, and I\u2019m worried because nothing seems to be getting better. Is there something serious happening?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "lightheadedness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fluttering feeling (possibly from atrial fibrillation)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "coffee-ground emesis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "Is there something serious happening?"
+        }
+      ]
+    },
+    {
+      "turn_id": 12,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with persistent symptoms and high fevers. During your clinical assessment, have you noticed any signs of rigidity or guarding in your abdomen when it\u2019s examined, or has the tenderness remained mostly mild and diffuse?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent symptoms"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "high fevers"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "rigidity or guarding in abdomen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "tenderness remained mild and diffuse"
+        }
+      ]
+    },
+    {
+      "turn_id": 13,
+      "role": "Patient",
+      "utterance_text": "Well, um, when the nurse pressed on my abdomen earlier, I definitely felt a lot of tenderness\u2014it was pretty diffuse, not just in one spot. I don\u2019t know if it was true rigidity or guarding, but I did tense up a bit because it hurt. The pain just seems to be everywhere now, not just the right lower quadrant. And my fever really spiked last night\u2014I saw it go up to 103.6. \n\nI\u2019m just feeling so uncomfortable and honestly a little scared. Is this kind of diffuse abdominal tenderness with a high fever something that could mean an infection or something serious? I just want to know what\u2019s going on and get some relief.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diffuse abdominal tenderness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "pain everywhere in abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tenderness on abdominal palpation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tense up/guarding due to pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": "103.6"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "uncomfortable"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "scared"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "infection or something serious"
+        }
+      ]
+    },
+    {
+      "turn_id": 14,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019re experiencing anxious\u2014persistent high fever and diffuse abdominal tenderness are definitely concerning symptoms. During your assessment, have you experienced any signs of abdominal distension, or have you noticed any changes in your ostomy output, such as decreased volume or unusual color?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent high fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diffuse abdominal tenderness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "changes in ostomy output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "decreased volume or unusual color of ostomy output"
+        }
+      ]
+    },
+    {
+      "turn_id": 15,
+      "role": "Patient",
+      "utterance_text": "Let me think\u2026 Actually, I have noticed some abdominal distension\u2014my belly feels a bit more bloated than usual. As for my ostomy output, it seems like the volume has gone down, and the color looks a little darker than normal. I\u2019m not sure if that\u2019s important, but it\u2019s definitely different from what I usually see.\n\nAlso, I\u2019ve been feeling really dry\u2014like my mouth and lips are just parched. The nurse mentioned my mucous membranes were dry, and I think my heart\u2019s been racing too; they said I was tachycardic. I just feel so uncomfortable and weak, and honestly, I\u2019m worried about what all these symptoms together might mean. Is there something serious going on? What should I expect next?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased ostomy output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "darker ostomy output color"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry mouth and lips"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dry mucous membranes"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "tachycardia"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "concern about seriousness of symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what to expect next"
+        }
+      ]
+    },
+    {
+      "turn_id": 16,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014persistent high fever, diffuse abdominal tenderness, abdominal distension, and decreased ostomy output are all concerning symptoms that suggest a potentially serious underlying condition, such as infection or inflammation in the abdomen. Based on your medical history and current symptoms, I\u2019d like to ask: have you noticed any signs of confusion, difficulty staying awake, or changes in your mental status during this episode?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 17,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 now that you mention it, I have felt a little more confused than usual at times\u2014like, sometimes I just feel kind of foggy or it\u2019s hard to concentrate. I haven\u2019t actually fallen asleep unexpectedly, but I do feel really tired and sort of out of it. I\u2019m not sure if that\u2019s from the fever or just everything going on.\n\nAlso, I overheard the nurse mention my blood pressure was low, so I guess that means I\u2019m hypotensive? And they said my breathing was faster than normal\u2014tachypnea, I think? I just feel really uncomfortable, weak, and honestly a bit scared because these symptoms all seem to be piling up. Is this something that could get worse quickly? What should I expect in terms of treatment or next steps?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty concentrating"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fatigue"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling out of it"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "low blood pressure"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fast breathing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fear"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "progression/worsening of current symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "expected treatment or next steps"
+        }
+      ]
+    },
+    {
+      "turn_id": 18,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried\u2014your symptoms of high fever, diffuse abdominal tenderness, abdominal distension, decreased ostomy output, and episodes of confusion are all concerning and suggest a potentially serious abdominal infection or sepsis. Based on your medical history and current symptoms, during your examination did anyone note any signs of peritoneal irritation, such as rebound tenderness or involuntary guarding, which could indicate peritonitis?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "high fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diffuse abdominal tenderness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal distension"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased ostomy output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "episodes of confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "potentially serious abdominal infection or sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "signs of peritoneal irritation such as rebound tenderness or involuntary guarding"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "peritonitis"
+        }
+      ]
+    },
+    {
+      "turn_id": 19,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 I think when they pressed on my belly earlier, it definitely hurt more when they let go\u2014so maybe that\u2019s rebound tenderness? I did tense up a bit too, but I\u2019m not sure if that counts as involuntary guarding. Everything just feels so sore and sensitive right now.\n\nAlso, I overheard someone mention something about bilateral basilar crackles and perihilar airspace opacities on my chest imaging. Does that mean there\u2019s something going on with my lungs too? I\u2019m just feeling really overwhelmed with all these symptoms\u2014abdominal pain, fever, confusion, and now possibly something in my lungs. Is this all connected? What should I expect next? I just want to feel better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "rebound tenderness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "guarding"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sore and sensitive abdomen"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "fever"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "bilateral basilar crackles and perihilar airspace opacities on chest imaging"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "lung involvement"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "Are all these symptoms connected?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Other",
+          "value": "What should I expect next?"
+        }
+      ]
+    },
+    {
+      "turn_id": 20,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details\u2014it\u2019s understandable to feel overwhelmed with multiple symptoms occurring at once. Based on your description, you are experiencing persistent high fever, diffuse abdominal tenderness with possible rebound, decreased ostomy output, confusion, and now findings on chest imaging suggesting possible pneumonia or aspiration. To help guide my assessment, have you noticed any new or worsening cough, sputum production, or difficulty breathing in addition to your abdominal symptoms?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent high fever"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "diffuse abdominal tenderness with possible rebound"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased ostomy output"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "findings on chest imaging suggesting possible pneumonia or aspiration"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening cough"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "sputum production"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "difficulty breathing"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "abdominal symptoms"
+        }
+      ]
+    },
+    {
+      "turn_id": 21,
+      "role": "Patient",
+      "utterance_text": "Well, um\u2026 yes, actually, I have noticed some new symptoms with my breathing. I\u2019ve been a bit more short of breath than usual, and I\u2019ve had a cough that started just a day or two ago. It\u2019s not a really strong cough, but sometimes I bring up a little sputum\u2014it looks kind of yellowish. Breathing just feels a bit harder, especially when I\u2019m lying down.\n\nAnd about the fever\u2014I\u2019ve had shaking chills and my temperature has been over 102 degrees for more than a day now. None of this seems to be getting better after 48 hours; if anything, it feels like symptoms are getting worse. The abdominal pain is still really bad, and now with the confusion and all these new symptoms, I\u2019m just really uncomfortable and worried.\n\nIs it possible that all of this\u2014my abdominal symptoms and now the findings on my chest imaging\u2014could be connected? Should I be worried about sepsis or something serious like that? What can you do to help me feel better?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "cough"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "yellowish sputum"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty breathing when lying down"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shaking chills"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Temperature",
+          "value": "over 102 degrees"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Time",
+          "value": "more than a day"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms getting worse after 48 hours"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "connection between abdominal symptoms and chest imaging findings"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "possibility of sepsis or something serious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "what can be done to help feel better"
+        }
+      ]
+    },
+    {
+      "turn_id": 22,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious\u2014experiencing persistent abdominal pain, high fever, confusion, and now respiratory symptoms can be very overwhelming. Based on your symptoms, examination findings, and imaging clinical findings, there is a concern for a serious infection such as sepsis, possibly originating from your abdomen and potentially involving your lungs as well. At this point, it\u2019s important that we continue close monitoring, provide intravenous fluids, broad-spectrum antibiotics, and supportive care to stabilize your condition.\n\nTo further guide your treatment, have you had any recent blood cultures or imaging studies (such as a CT scan of the abdomen) performed to help identify the source of infection?",
+      "remedi_labels": []
+    },
+    {
+      "turn_id": 23,
+      "role": "Patient",
+      "utterance_text": "Thank you for explaining everything so clearly, doctor. Um, as far as I know, I had some blood drawn earlier today, and they mentioned something about blood cultures, but I\u2019m not sure if the results are back yet. I haven\u2019t had a CT scan of my abdomen during this visit\u2014just some X-rays and chest imaging, I think. Would a CT scan help figure out what\u2019s going on?\n\nAlso, I wanted to mention\u2014I\u2019ve been vomiting a lot, and sometimes I can\u2019t even keep my medications down. I\u2019m worried because I know some of them are really important, like my Coumadin and antibiotics. And actually, these symptoms seem to come back even after I finish treatment, which is frustrating.\n\nI\u2019m just feeling really uncomfortable and anxious right now. Is there anything else you can do to help with the nausea or the pain while we wait for more results? And should I be worried about symptoms getting worse before they get better?",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for explaining everything so clearly, doctor."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "blood drawn earlier today"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "blood cultures"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "blood culture results"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "no CT scan of abdomen during this visit"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "X-rays and chest imaging done"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "Would a CT scan help figure out what\u2019s going on?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "vomiting a lot"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "sometimes can\u2019t keep medications down"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Medicine",
+          "value": "Coumadin and antibiotics"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "symptoms come back after finishing treatment"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable and anxious"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything else you can do to help with the nausea or the pain while we wait for more results?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "Should I be worried about symptoms getting worse before they get better?"
+        }
+      ]
+    },
+    {
+      "turn_id": 24,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be worried, especially with persistent symptoms and difficulty keeping medications down. Based on your current assessment, I recommend we continue supportive care with intravenous fluids, antiemetic medications to help control your nausea, and pain management as needed, while closely monitoring your vital signs and laboratory clinical findings. In addition, obtaining a CT scan of your abdomen would be helpful to further evaluate for any intra-abdominal source of infection or complication. While we await your blood culture clinical findings, have you experienced any new or worsening symptoms such as increased confusion, decreased urine output, or difficulty breathing since your last examination?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "supportive care with intravenous fluids"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine-category",
+          "value": "antiemetic medications"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "pain management as needed"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "monitoring vital signs and laboratory clinical findings"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "CT scan of abdomen"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new or worsening symptoms such as increased confusion, decreased urine output, or difficulty breathing"
+        }
+      ]
+    },
+    {
+      "turn_id": 25,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor. Um, since my last examination, I think the confusion has maybe gotten a little worse\u2014I just feel kind of foggy and it\u2019s hard to focus sometimes. I\u2019ve also noticed that I\u2019m not really urinating as much as usual, which I guess means my urine output is decreased. The shortness of breath is still there, and maybe even a bit worse when I try to move around or lie flat.\n\nI really appreciate you explaining everything and trying to help with the nausea and pain. Is there anything else I should watch out for while I\u2019m here? And, um, how soon do you think we\u2019ll have answers from the CT scan or blood cultures? I just want to make sure I\u2019m doing everything I can to get better.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "confusion"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling foggy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "difficulty focusing"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "decreased urine output"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "shortness of breath"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "worsening shortness of breath with movement or lying flat"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "anything else to watch out for"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Check_item",
+          "value": "how soon results from CT scan or blood cultures will be available"
+        }
+      ]
+    },
+    {
+      "turn_id": 26,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these updates\u2014I appreciate your attention to your symptoms and understand how challenging this must be. Based on your current assessment, you are showing signs of possible sepsis with ongoing abdominal and respiratory symptoms, decreased urine output, and worsening confusion, which require close monitoring and prompt intervention. While we await the clinical findings of your blood cultures and arrange for abdominal imaging such as a CT scan to further evaluate the source of infection, I recommend continuing intravenous fluids, antibiotics, antiemetics, and supportive care; if your symptoms worsen or you notice any new neurological changes, please notify the medical team immediately. Have you experienced any new onset of chest pain or palpitations since your last assessment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you for sharing these updates\u2014I appreciate your attention to your symptoms and understand how challenging this must be."
+        },
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "possible sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal and respiratory symptoms, decreased urine output, worsening confusion"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Precaution",
+          "value": "require close monitoring and prompt intervention"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Check_item",
+          "value": "awaiting blood cultures, arranging abdominal imaging such as CT scan"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "continuing intravenous fluids, antibiotics, antiemetics, and supportive care"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Precaution",
+          "slot": "Precaution",
+          "value": "if symptoms worsen or new neurological changes occur, notify the medical team immediately"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new onset of chest pain or palpitations"
+        }
+      ]
+    },
+    {
+      "turn_id": 27,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor\u2014I really appreciate you keeping me updated and explaining everything. Um, since my last assessment, I haven\u2019t had any new chest pain, but I have noticed a bit more palpitations\u2014like my heart feels like it\u2019s fluttering or racing at times. I know I have a history of atrial fibrillation, so maybe that\u2019s part of it, but it does make me a little anxious, especially with everything else going on.\n\nI\u2019m just feeling so uncomfortable and weak, and the nausea and abdominal pain are still pretty bad. Is there anything else you can do to help with the pain or make me feel more comfortable while we wait for the CT scan and blood culture results? And, um, should I be worried about these palpitations getting worse with the sepsis? I just want to make sure I\u2019m not missing anything important or putting myself at more risk.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Chitchat",
+          "slot": "Other",
+          "value": "Thank you, doctor\u2014I really appreciate you keeping me updated and explaining everything."
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "more palpitations (heart fluttering or racing)"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "history of atrial fibrillation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "feeling uncomfortable and weak"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "Is there anything else you can do to help with the pain or make me feel more comfortable?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "Should I be worried about these palpitations getting worse with the sepsis?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "I just want to make sure I\u2019m not missing anything important or putting myself at more risk."
+        }
+      ]
+    },
+    {
+      "turn_id": 28,
+      "role": "Doctor",
+      "utterance_text": "I can understand why you\u2019d be anxious, especially with persistent abdominal pain, nausea, and palpitations on top of your medical history of atrial fibrillation. Based on your current symptoms and examination findings, we will continue supportive care with intravenous fluids, antiemetics for nausea, and pain management\u2014while closely monitoring your cardiac rhythm due to the risk of arrhythmias with sepsis. Have you noticed any new dizziness, fainting, or worsening palpitations since your last assessment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent abdominal pain"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "atrial fibrillation"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "supportive care with intravenous fluids"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Medicine-category",
+          "value": "antiemetics"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "pain management"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Precaution",
+          "value": "closely monitoring cardiac rhythm due to risk of arrhythmias with sepsis"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new dizziness"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "fainting"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "worsening palpitations"
+        }
+      ]
+    },
+    {
+      "turn_id": 29,
+      "role": "Patient",
+      "utterance_text": "Thank you for examinationing in, doctor. Um, I have noticed some dizziness, especially when I try to sit up or stand\u2014it\u2019s like the room spins a little and I feel pretty unsteady. I haven\u2019t fainted, but I do feel weaker than usual, and sometimes I worry I might pass out if I\u2019m not careful. The palpitations are still there, but I don\u2019t think they\u2019ve gotten much worse since earlier\u2014just that fluttery feeling off and on.\n\nI really appreciate you keeping such a close eye on my cardiac rhythm, especially with my history of atrial fibrillation and now with the risk of arrhythmias from sepsis. Is there anything else I should be watching for? And, um, how soon do you think the pain and nausea might get better with the supportive care? I just want to feel more comfortable and know what to expect while we wait for all these clinical findings.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizziness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "room spins"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "unsteady"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weakness"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease-history",
+          "value": "atrial fibrillation"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Disease",
+          "value": "risk of arrhythmias from sepsis"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Precaution",
+          "value": "Is there anything else I should be watching for?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "how soon do you think the pain and nausea might get better with the supportive care?"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Effect",
+          "value": "what to expect while we wait for all these clinical findings"
+        }
+      ]
+    },
+    {
+      "turn_id": 30,
+      "role": "Doctor",
+      "utterance_text": "Thank you for sharing these details and for your patience during this challenging time. Based on your symptoms\u2014persistent abdominal pain, nausea, vomiting, high fever, confusion, decreased urine output, and palpitations\u2014along with your medical history and examination findings, my assessment is that you are experiencing a serious infection, likely sepsis, possibly with intra-abdominal and pulmonary involvement. We will continue intravenous fluids, antibiotics, antiemetics, and pain management, and closely monitor your cardiac rhythm and vital signs. As we await further diagnostic clinical findings, have you experienced any new onset of chest discomfort or difficulty speaking since your last assessment?",
+      "remedi_labels": [
+        {
+          "label_type": "action",
+          "type_name": "Diagnosis",
+          "slot": "Disease",
+          "value": "serious infection, likely sepsis, possibly with intra-abdominal and pulmonary involvement"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "persistent abdominal pain, nausea, vomiting, high fever, confusion, decreased urine output, palpitations"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Treatment",
+          "value": "continue intravenous fluids, antibiotics, antiemetics, pain management"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Recommendation",
+          "slot": "Check_item",
+          "value": "closely monitor cardiac rhythm and vital signs"
+        },
+        {
+          "label_type": "action",
+          "type_name": "Inquiring",
+          "slot": "Symptom",
+          "value": "new onset of chest discomfort or difficulty speaking"
+        }
+      ]
+    },
+    {
+      "turn_id": 31,
+      "role": "Patient",
+      "utterance_text": "Thank you, doctor. Um, I haven\u2019t had any new chest discomfort or trouble speaking since you last examinationed on me. My palpitations are still there off and on, and I\u2019m still feeling pretty dizzy and weak, but no chest pain or speech symptoms.\n\nI really appreciate you explaining everything and keeping such a close watch on me. I\u2019m just so uncomfortable with this abdominal pain and nausea\u2014it\u2019s hard to rest or even think straight sometimes. Is there anything else you can do to help with the pain or make me feel less nauseated while we wait for the clinical findings? And, um, how long does it usually take to start feeling better once you\u2019re treating sepsis? I\u2019m just worried about how serious this is and what to expect next.",
+      "remedi_labels": [
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no new chest discomfort"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no trouble speaking"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "palpitations off and on"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "dizzy"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "weak"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no chest pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "no speech symptoms"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "abdominal pain"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Informing",
+          "slot": "Symptom",
+          "value": "nausea"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Treatment",
+          "value": "pain relief or anti-nausea options while waiting for clinical findings"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Time",
+          "value": "how long it takes to feel better after starting sepsis treatment"
+        },
+        {
+          "label_type": "intent",
+          "type_name": "Inquiring",
+          "slot": "Disease",
+          "value": "seriousness of sepsis and what to expect next"
+        }
+      ]
+    }
+  ]
+}
