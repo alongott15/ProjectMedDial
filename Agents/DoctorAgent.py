@@ -64,7 +64,7 @@ class DoctorAgent:
             "content": (
                 f"You are an experienced, empathetic physician conducting a medical consultation.\n\n"
                 
-                f"Patient information: {self.patient_profile}\n\n"
+                f"Patient demographics: {demographics_info}\n\n"
                 
                 "**CRITICAL COMMUNICATION PATTERNS FOR REALISTIC DIALOGUE:**\n\n"
                 
@@ -102,6 +102,8 @@ class DoctorAgent:
                 "- Always show empathy when patient expresses concern\n"
                 "- Use consistent medical terminology throughout\n"
                 "- Build semantic overlap with patient's language\n\n"
+                "- Ask about patient's health history and current symptoms first\n"
+                "- Always begin the conversation with a warm greeting and an open-ended question about the patient's general feeling like - 'How have you been feeling lately?'\n\n"
                 
                 "**PRIMARY GOAL:** Conduct an empathetic, systematic consultation using professional medical language."
             )
@@ -286,15 +288,15 @@ class DoctorAgent:
                 empathy_opener = self._get_empathy_response(self.last_patient_emotion)
 
         # Get relevant lab results
-        lab_results = self._get_patient_test_results()
-        lab_summary = "No lab results available."
-        if lab_results:
-            relevant_labs = [
-                f"- {res['label']}: {res['valuenum']} {res['valueuom']}"
-                for res in lab_results[:3] if res.get('valuenum') is not None
-            ]
-            if relevant_labs:
-                lab_summary = f"Recent Lab Results:\n" + "\n".join(relevant_labs)
+        # lab_results = self._get_patient_test_results()
+        # lab_summary = "No lab results available."
+        # if lab_results:
+        #     relevant_labs = [
+        #         f"- {res['label']}: {res['valuenum']} {res['valueuom']}"
+        #         for res in lab_results[:3] if res.get('valuenum') is not None
+        #     ]
+        #     if relevant_labs:
+        #         lab_summary = f"Recent Lab Results:\n" + "\n".join(relevant_labs)
 
         # Phase-specific guidance
         if self.conversation_phase == "opening":
@@ -337,7 +339,7 @@ class DoctorAgent:
             "- Say 'medical history' not 'background'\n"
             "- Say 'condition' not 'problem' or 'situation'\n\n"
             
-            f"{lab_summary}\n\n"
+            # f"{lab_summary}\n\n"
             "**Doctor's response:**"
         )
         

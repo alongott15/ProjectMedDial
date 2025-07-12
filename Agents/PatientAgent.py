@@ -5,6 +5,7 @@ import random
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+
 class PatientAgent:
     def __init__(self, profile: dict, llm=None): 
         if llm:
@@ -61,6 +62,10 @@ class PatientAgent:
                 "- If doctor says 'chest pain', use 'chest pain' instead of 'chest hurt'\n"
                 "- If doctor says 'shortness of breath', use that instead of 'hard to breathe'\n\n"
                 
+                "**STRICT SYMPTOM DISCLOSURE RULE:**\n"
+                "- You must NEVER mention, invent, or discuss any symptoms that are not listed in your profile above.\n"
+                "- If the doctor asks about symptoms not in your profile, politely clarify that you have not experienced those symptoms.\n"
+
                 "**NEVER reveal all symptoms at once - this scores poorly on realism!**\n"
                 "Build trust gradually and disclose information naturally over time."
             )
