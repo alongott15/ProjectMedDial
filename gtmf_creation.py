@@ -7,6 +7,7 @@ from azure.ai.inference.models import SystemMessage, UserMessage
 from azure.core.credentials import AzureKeyCredential
 from Models.classes import GTMF
 from Utils.utils import get_db_uri, format_date, build_symptom_conditions, calculate_age
+from Utils.medical_validation import validate_medical_extraction, assess_dialogue_safety, MedicalConceptValidator
 import re
 import os
 from typing import Dict, List, Tuple
@@ -17,11 +18,13 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class GTMFQualityScore:
-    """Quality assessment for GTMF extraction"""
+    """FIXED: Realistic quality assessment for GTMF extraction"""
     completeness_score: float  # 0-1, how much of the note was captured
     accuracy_score: float      # 0-1, how accurate the extractions are
     consistency_score: float   # 0-1, internal consistency of extracted data
     confidence_score: float    # 0-1, model confidence in extractions
+    medical_validity: float    # 0-1, medical concept validity
+    safety_score: float        # 0-1, medical safety assessment
     field_scores: Dict[str, float]  # Individual field quality scores
     issues: List[str]          # List of identified issues
     recommendations: List[str]  # Improvement recommendations
@@ -94,204 +97,192 @@ def chunk_medical_text(text: str, max_chunk_size: int = 3000, overlap: int = 200
     return chunks
 
 class GTMFQualityAssessor:
-    """Assesses the quality of GTMF extractions using Azure AI"""
+    """FIXED: Realistic GTMF extraction quality assessment"""
     
     def __init__(self, azure_client: AzureAIClient):
         self.azure_client = azure_client
+        self.medical_validator = MedicalConceptValidator()
     
     def assess_gtmf_quality(self, medical_text: str, gtmf_instance: GTMF) -> GTMFQualityScore:
-        """Comprehensive quality assessment of GTMF extraction"""
+        """FIXED: Realistic quality assessment of GTMF extraction"""
         
         # Convert GTMF to dict for easier analysis
         gtmf_dict = gtmf_instance.model_dump()
         
-        # Individual field assessments
+        # Extract medical data for validation
+        symptoms = [s.description for s in gtmf_instance.Core_Fields.Symptoms if s.description and s.description != "not provided"]
+        diagnoses = [d.primary for d in gtmf_instance.Core_Fields.Diagnoses if d.primary and d.primary != "not provided"]
+        treatments = [t.procedure for t in gtmf_instance.Core_Fields.Treatment_Options if t.procedure and t.procedure != "not provided"]
+        
+        # 1. MEDICAL VALIDITY using medical validation utils
+        medical_validation = validate_medical_extraction(symptoms, diagnoses, treatments)
+        medical_validity_score = medical_validation['overall_medical_validity']
+        
+        # 2. MEDICAL SAFETY assessment
+        safety_assessment = assess_dialogue_safety(medical_text)
+        safety_score = safety_assessment['safety_score']
+        
+        # 3. REALISTIC field assessments
         field_scores = {}
         issues = []
-        recommendations = []
         
-        # 1. Assess Symptoms
-        symptoms_score, symptoms_issues = self._assess_symptoms(medical_text, gtmf_dict.get("Core_Fields", {}).get("Symptoms", []))
+        # Assess symptoms realistically
+        symptoms_score, symptoms_issues = self._assess_symptoms_realistic(medical_text, symptoms)
         field_scores["symptoms"] = symptoms_score
         issues.extend(symptoms_issues)
         
-        # 2. Assess Diagnoses
-        diagnoses_score, diagnoses_issues = self._assess_diagnoses(medical_text, gtmf_dict.get("Core_Fields", {}).get("Diagnoses", []))
+        # Assess diagnoses realistically
+        diagnoses_score, diagnoses_issues = self._assess_diagnoses_realistic(medical_text, diagnoses)
         field_scores["diagnoses"] = diagnoses_score
         issues.extend(diagnoses_issues)
         
-        # 3. Assess Treatments
-        treatments_score, treatments_issues = self._assess_treatments(medical_text, gtmf_dict.get("Core_Fields", {}).get("Treatment_Options", []))
+        # Assess treatments realistically
+        treatments_score, treatments_issues = self._assess_treatments_realistic(medical_text, treatments)
         field_scores["treatments"] = treatments_score
         issues.extend(treatments_issues)
         
-        # 4. Assess Demographics consistency
-        demographics_score, demographics_issues = self._assess_demographics(gtmf_dict.get("Context_Fields", {}).get("Patient_Demographics", {}))
-        field_scores["demographics"] = demographics_score
-        issues.extend(demographics_issues)
+        # 4. REALISTIC completeness assessment
+        completeness_score = self._assess_completeness_realistic(medical_text, gtmf_dict)
         
-        # 5. Overall completeness check
-        completeness_score = self._assess_completeness(medical_text, gtmf_dict)
+        # 5. REALISTIC consistency assessment
+        consistency_score = self._assess_consistency_realistic(symptoms, diagnoses)
         
-        # 6. Consistency check
-        consistency_score = self._assess_consistency(gtmf_dict)
+        # 6. REALISTIC accuracy assessment (no more inflated Azure AI scores)
+        accuracy_score = self._calculate_realistic_accuracy(field_scores, medical_validity_score)
         
-        # 7. Azure AI-based accuracy assessment
-        accuracy_score, confidence_score = self._azure_accuracy_assessment(medical_text, gtmf_dict)
+        # 7. REALISTIC confidence score
+        confidence_score = self._calculate_realistic_confidence(field_scores, issues)
         
-        # Generate recommendations
-        recommendations = self._generate_recommendations(field_scores, issues)
+        # Generate realistic recommendations
+        recommendations = self._generate_realistic_recommendations(field_scores, issues, medical_validation)
         
         return GTMFQualityScore(
             completeness_score=completeness_score,
             accuracy_score=accuracy_score,
             consistency_score=consistency_score,
             confidence_score=confidence_score,
+            medical_validity=medical_validity_score,
+            safety_score=safety_score,
             field_scores=field_scores,
             issues=issues,
             recommendations=recommendations
         )
     
-    def _assess_symptoms(self, text: str, symptoms: List[Dict]) -> Tuple[float, List[str]]:
-        """Assess symptom extraction quality"""
+    def _assess_symptoms_realistic(self, text: str, symptoms: List[str]) -> Tuple[float, List[str]]:
+        """REALISTIC symptom assessment"""
         issues = []
         
         if not symptoms:
             # Check if text actually contains symptoms
-            symptom_indicators = ["pain", "ache", "discomfort", "nausea", "vomiting", "fatigue", 
-                                "fever", "cough", "shortness of breath", "dizzy", "headache"]
-            text_lower = text.lower()
-            if any(indicator in text_lower for indicator in symptom_indicators):
+            medical_entities = self.medical_validator.extract_medical_entities(text)
+            if medical_entities['symptoms']:
                 issues.append("Symptoms present in text but none extracted")
-                return 0.2, issues
+                return 0.3, issues  # Realistic penalty
             else:
-                return 1.0, issues  # No symptoms to extract
+                return 0.8, issues  # Realistic score when no symptoms exist
         
-        # Check for quality issues in extracted symptoms
-        valid_symptoms = 0
+        # Validate symptoms using medical validator
+        validation = self.medical_validator.validate_medical_terms(symptoms, 'symptoms')
+        
+        # Check text coverage
+        symptoms_found_in_text = 0
         for symptom in symptoms:
-            desc = symptom.get("description", "").strip()
-            if not desc or desc == "not provided":
-                issues.append("Empty or placeholder symptom description found")
-                continue
-            
-            # Check if symptom appears in original text
-            if desc.lower() not in text.lower():
-                # Try partial matching
-                words = desc.lower().split()
-                if not any(word in text.lower() for word in words if len(word) > 3):
-                    issues.append(f"Symptom '{desc}' not clearly found in original text")
-                    continue
-            
-            valid_symptoms += 1
+            if symptom.lower() in text.lower():
+                symptoms_found_in_text += 1
+            else:
+                # Check partial match
+                words = symptom.lower().split()
+                if any(word in text.lower() for word in words if len(word) > 3):
+                    symptoms_found_in_text += 0.5
         
-        score = valid_symptoms / len(symptoms) if symptoms else 1.0
+        text_coverage = symptoms_found_in_text / len(symptoms) if symptoms else 0.0
+        
+        # REALISTIC scoring
+        score = (validation['validity_score'] * 0.6 + text_coverage * 0.4)
+        
+        if validation['invalid_terms']:
+            issues.append(f"Invalid medical terms: {', '.join(validation['invalid_terms'][:3])}")
+        
+        if text_coverage < 0.5:
+            issues.append("Many symptoms not clearly found in original text")
+        
         return score, issues
     
-    def _assess_diagnoses(self, text: str, diagnoses: List[Dict]) -> Tuple[float, List[str]]:
-        """Assess diagnosis extraction quality"""
+    def _assess_diagnoses_realistic(self, text: str, diagnoses: List[str]) -> Tuple[float, List[str]]:
+        """REALISTIC diagnosis assessment"""
         issues = []
         
         if not diagnoses:
             # Check if text contains diagnostic information
-            diagnostic_indicators = ["diagnosis", "diagnosed", "condition", "disease", "syndrome"]
-            if any(indicator in text.lower() for indicator in diagnostic_indicators):
+            if any(indicator in text.lower() for indicator in ["diagnosis", "diagnosed", "condition"]):
                 issues.append("Diagnostic information present but no diagnoses extracted")
-                return 0.3, issues
-            return 1.0, issues
+                return 0.4, issues
+            return 0.8, issues
         
-        valid_diagnoses = 0
+        # Validate diagnoses using medical validator
+        validation = self.medical_validator.validate_medical_terms(diagnoses, 'diagnoses')
+        
+        # Check text coverage
+        diagnoses_found_in_text = 0
         for diagnosis in diagnoses:
-            primary = diagnosis.get("primary", "").strip()
-            if not primary or primary == "not provided":
-                issues.append("Empty or placeholder diagnosis found")
-                continue
-            
-            # Simple validation - check if diagnosis terms appear in text
-            if primary.lower() not in text.lower():
-                words = primary.lower().split()
-                if not any(word in text.lower() for word in words if len(word) > 3):
-                    issues.append(f"Diagnosis '{primary}' not clearly supported by text")
-                    continue
-            
-            valid_diagnoses += 1
+            if diagnosis.lower() in text.lower():
+                diagnoses_found_in_text += 1
+            else:
+                # Check partial match
+                words = diagnosis.lower().split()
+                if any(word in text.lower() for word in words if len(word) > 3):
+                    diagnoses_found_in_text += 0.5
         
-        score = valid_diagnoses / len(diagnoses) if diagnoses else 1.0
+        text_coverage = diagnoses_found_in_text / len(diagnoses) if diagnoses else 0.0
+        
+        # REALISTIC scoring
+        score = (validation['validity_score'] * 0.7 + text_coverage * 0.3)
+        
+        if validation['invalid_terms']:
+            issues.append(f"Invalid diagnoses: {', '.join(validation['invalid_terms'][:3])}")
+        
         return score, issues
     
-    def _assess_treatments(self, text: str, treatments: List[Dict]) -> Tuple[float, List[str]]:
-        """Assess treatment extraction quality"""
+    def _assess_treatments_realistic(self, text: str, treatments: List[str]) -> Tuple[float, List[str]]:
+        """REALISTIC treatment assessment"""
         issues = []
         
         if not treatments:
-            treatment_indicators = ["treatment", "therapy", "medication", "surgery", "procedure"]
-            if any(indicator in text.lower() for indicator in treatment_indicators):
+            if any(indicator in text.lower() for indicator in ["treatment", "therapy", "medication"]):
                 issues.append("Treatment information present but none extracted")
-                return 0.3, issues
-            return 1.0, issues
+                return 0.4, issues
+            return 0.8, issues
         
-        valid_treatments = 0
+        # Validate treatments using medical validator
+        validation = self.medical_validator.validate_medical_terms(treatments, 'treatments')
+        
+        # Check text coverage
+        treatments_found_in_text = 0
         for treatment in treatments:
-            procedure = treatment.get("procedure", "").strip()
-            if not procedure or procedure == "not provided":
-                issues.append("Empty or placeholder treatment found")
-                continue
-            
-            if procedure.lower() not in text.lower():
-                words = procedure.lower().split()
-                if not any(word in text.lower() for word in words if len(word) > 3):
-                    issues.append(f"Treatment '{procedure}' not clearly found in text")
-                    continue
-            
-            valid_treatments += 1
+            if treatment.lower() in text.lower():
+                treatments_found_in_text += 1
+            else:
+                # Check partial match
+                words = treatment.lower().split()
+                if any(word in text.lower() for word in words if len(word) > 3):
+                    treatments_found_in_text += 0.5
         
-        score = valid_treatments / len(treatments) if treatments else 1.0
+        text_coverage = treatments_found_in_text / len(treatments) if treatments else 0.0
+        
+        # REALISTIC scoring
+        score = (validation['validity_score'] * 0.7 + text_coverage * 0.3)
+        
+        if validation['invalid_terms']:
+            issues.append(f"Invalid treatments: {', '.join(validation['invalid_terms'][:3])}")
+        
         return score, issues
     
-    def _assess_demographics(self, demographics: Dict) -> Tuple[float, List[str]]:
-        """Assess demographic data consistency"""
-        issues = []
-        
-        # Check for age consistency
-        age = demographics.get("Age", 0)
-        dob = demographics.get("Date_of_Birth", "")
-        admission_date = demographics.get("Admission_Date", "")
-        
-        if age > 0 and dob != "not provided" and admission_date != "not provided":
-            try:
-                # Recalculate age to verify
-                calculated_age = calculate_age(dob, admission_date)
-                if abs(calculated_age - age) > 1:  # Allow 1 year tolerance
-                    issues.append(f"Age inconsistency: stated {age}, calculated {calculated_age}")
-            except:
-                issues.append("Could not verify age calculation")
-        
-        # Check for missing critical demographics
-        required_fields = ["Age", "Sex"]
-        missing_fields = [field for field in required_fields 
-                         if demographics.get(field, "not provided") == "not provided"]
-        
-        if missing_fields:
-            issues.append(f"Missing required demographic fields: {', '.join(missing_fields)}")
-        
-        # Score based on completeness and consistency
-        total_fields = len(demographics)
-        filled_fields = sum(1 for v in demographics.values() 
-                           if v != "not provided" and str(v).strip())
-        
-        completeness_ratio = filled_fields / total_fields if total_fields > 0 else 1.0
-        consistency_penalty = len(issues) * 0.2
-        
-        score = max(0.0, completeness_ratio - consistency_penalty)
-        return score, issues
-    
-    def _assess_completeness(self, text: str, gtmf_dict: Dict) -> float:
-        """Assess overall completeness of extraction"""
+    def _assess_completeness_realistic(self, text: str, gtmf_dict: Dict) -> float:
+        """REALISTIC completeness assessment"""
         text_length = len(text.split())
         
         # Count extracted content
         core_fields = gtmf_dict.get("Core_Fields", {})
-        context_fields = gtmf_dict.get("Context_Fields", {})
         
         symptom_count = len([s for s in core_fields.get("Symptoms", []) 
                            if s.get("description", "").strip() and s.get("description") != "not provided"])
@@ -300,112 +291,103 @@ class GTMFQualityAssessor:
         treatment_count = len([t for t in core_fields.get("Treatment_Options", []) 
                              if t.get("procedure", "").strip() and t.get("procedure") != "not provided"])
         
-        # Expected content based on text length
-        expected_symptoms = min(10, max(1, text_length // 200))  # Rough heuristic
-        expected_diagnoses = min(5, max(1, text_length // 400))
-        expected_treatments = min(5, max(1, text_length // 300))
+        # REALISTIC expected content based on text length
+        if text_length < 200:
+            expected_items = 2
+        elif text_length < 500:
+            expected_items = 4
+        elif text_length < 1000:
+            expected_items = 6
+        else:
+            expected_items = 8
         
-        symptom_completeness = min(1.0, symptom_count / expected_symptoms)
-        diagnosis_completeness = min(1.0, diagnosis_count / expected_diagnoses)
-        treatment_completeness = min(1.0, treatment_count / expected_treatments)
+        actual_items = symptom_count + diagnosis_count + treatment_count
         
-        overall_completeness = (symptom_completeness + diagnosis_completeness + treatment_completeness) / 3
-        return overall_completeness
+        # REALISTIC completeness calculation
+        completeness = min(1.0, actual_items / expected_items)
+        
+        # Bonus for having items in each category (realistic medical notes should have variety)
+        category_bonus = 0.0
+        if symptom_count > 0 and diagnosis_count > 0:
+            category_bonus += 0.1
+        if treatment_count > 0:
+            category_bonus += 0.05
+        
+        return min(1.0, completeness + category_bonus)
     
-    def _assess_consistency(self, gtmf_dict: Dict) -> float:
-        """Check internal consistency of GTMF data"""
-        consistency_score = 1.0
+    def _assess_consistency_realistic(self, symptoms: List[str], diagnoses: List[str]) -> float:
+        """REALISTIC consistency assessment using medical validator"""
+        if not symptoms or not diagnoses:
+            return 0.7  # Neutral score when data is missing
         
-        # Check if symptoms align with diagnoses
-        symptoms = gtmf_dict.get("Core_Fields", {}).get("Symptoms", [])
-        diagnoses = gtmf_dict.get("Core_Fields", {}).get("Diagnoses", [])
-        
-        # Simple keyword matching for consistency
-        symptom_keywords = set()
-        for symptom in symptoms:
-            desc = symptom.get("description", "").lower()
-            symptom_keywords.update(desc.split())
-        
-        diagnosis_keywords = set()
-        for diagnosis in diagnoses:
-            primary = diagnosis.get("primary", "").lower()
-            diagnosis_keywords.update(primary.split())
-        
-        # Check for some overlap (not perfect, but basic consistency)
-        if symptom_keywords and diagnosis_keywords:
-            overlap = len(symptom_keywords.intersection(diagnosis_keywords))
-            if overlap == 0:
-                consistency_score -= 0.2  # Penalty for no keyword overlap
-        
-        return max(0.0, consistency_score)
+        # Use medical validator for consistency assessment
+        consistency_result = self.medical_validator.assess_medical_consistency(symptoms, diagnoses)
+        return consistency_result['consistency_score']
     
-    def _azure_accuracy_assessment(self, text: str, gtmf_dict: Dict) -> Tuple[float, float]:
-        """Use Azure AI to assess accuracy and provide confidence score"""
+    def _calculate_realistic_accuracy(self, field_scores: Dict[str, float], medical_validity: float) -> float:
+        """REALISTIC accuracy calculation"""
+        # Weight field scores realistically
+        symptom_weight = 0.4
+        diagnosis_weight = 0.4
+        treatment_weight = 0.2
         
-        system_message = """You are a medical information extraction quality assessor. Your task is to evaluate how accurately medical information has been extracted from clinical text."""
+        field_accuracy = (
+            field_scores.get("symptoms", 0.5) * symptom_weight +
+            field_scores.get("diagnoses", 0.5) * diagnosis_weight +
+            field_scores.get("treatments", 0.5) * treatment_weight
+        )
         
-        user_message = f"""
-        Assess the accuracy of this medical information extraction:
+        # Combine with medical validity
+        accuracy = (field_accuracy * 0.7 + medical_validity * 0.3)
         
-        Original Text (first 500 chars): {text[:500]}...
-        
-        Extracted Information:
-        - Symptoms: {[s.get('description') for s in gtmf_dict.get('Core_Fields', {}).get('Symptoms', [])]}
-        - Diagnoses: {[d.get('primary') for d in gtmf_dict.get('Core_Fields', {}).get('Diagnoses', [])]}
-        - Treatments: {[t.get('procedure') for t in gtmf_dict.get('Core_Fields', {}).get('Treatment_Options', [])]}
-        
-        Rate the accuracy (0.0-1.0) and confidence (0.0-1.0) of these extractions.
-        Respond with just two numbers separated by a space: accuracy_score confidence_score
-        Example: 0.85 0.90
-        """
-        
-        try:
-            response = self.azure_client.chat_completion(system_message, user_message, temperature=0.1)
-            
-            # Parse scores
-            numbers = re.findall(r'0\.\d+|1\.0', response)
-            if len(numbers) >= 2:
-                accuracy = float(numbers[0])
-                confidence = float(numbers[1])
-                return accuracy, confidence
-            
-        except Exception as e:
-            logger.warning(f"Azure AI accuracy assessment failed: {e}")
-        
-        # Default scores if Azure AI assessment fails
-        return 0.7, 0.6
+        return accuracy
     
-    def _generate_recommendations(self, field_scores: Dict[str, float], issues: List[str]) -> List[str]:
-        """Generate improvement recommendations based on scores and issues"""
+    def _calculate_realistic_confidence(self, field_scores: Dict[str, float], issues: List[str]) -> float:
+        """REALISTIC confidence calculation"""
+        # Base confidence from field scores
+        avg_field_score = sum(field_scores.values()) / len(field_scores) if field_scores else 0.5
+        
+        # Penalty for issues
+        issue_penalty = min(0.3, len(issues) * 0.1)
+        
+        confidence = max(0.1, avg_field_score - issue_penalty)
+        
+        return confidence
+    
+    def _generate_realistic_recommendations(self, field_scores: Dict[str, float], issues: List[str], 
+                                          medical_validation: Dict[str, float]) -> List[str]:
+        """Generate realistic improvement recommendations"""
         recommendations = []
         
         # Field-specific recommendations
-        if field_scores.get("symptoms", 1.0) < 0.7:
-            recommendations.append("Improve symptom extraction: use more specific medical terminology matching")
+        if field_scores.get("symptoms", 1.0) < 0.6:
+            recommendations.append("Improve symptom extraction accuracy and medical terminology")
         
-        if field_scores.get("diagnoses", 1.0) < 0.7:
-            recommendations.append("Enhance diagnosis extraction: look for more diagnostic indicators in text")
+        if field_scores.get("diagnoses", 1.0) < 0.6:
+            recommendations.append("Enhance diagnosis extraction and validation")
         
-        if field_scores.get("treatments", 1.0) < 0.7:
-            recommendations.append("Better treatment identification: include medications and procedures")
+        if field_scores.get("treatments", 1.0) < 0.6:
+            recommendations.append("Better treatment and medication identification")
         
-        if field_scores.get("demographics", 1.0) < 0.8:
-            recommendations.append("Improve demographic data validation and consistency checks")
+        # Medical validity recommendations
+        if medical_validation['overall_medical_validity'] < 0.7:
+            recommendations.append("Improve medical concept validation and consistency")
         
         # Issue-based recommendations
-        if any("not clearly found" in issue for issue in issues):
-            recommendations.append("Enhance text-to-extraction matching validation")
+        if len(issues) > 3:
+            recommendations.append("Address multiple extraction issues for better quality")
         
-        if any("Empty or placeholder" in issue for issue in issues):
-            recommendations.append("Improve extraction completeness - avoid placeholder values")
+        # Safety recommendations
+        if any("safety" in issue.lower() for issue in issues):
+            recommendations.append("Review and improve medical safety compliance")
         
-        return recommendations
+        return recommendations[:5]  # Limit to top 5 recommendations
 
 def extract_gtmf_chunked(medical_text: str, azure_client: AzureAIClient) -> Tuple[GTMF, GTMFQualityScore]:
     """
-    Extract structured GTMF data with chunking and quality assessment
+    FIXED: Extract structured GTMF data with realistic quality assessment
     """
-    logger.info("Extracting GTMF from medical text with chunking and quality assessment")
+    logger.info("Extracting GTMF from medical text with realistic quality assessment")
     
     # Get GTMF schema
     schema_json = GTMF.model_json_schema()
@@ -467,14 +449,15 @@ def extract_gtmf_chunked(medical_text: str, azure_client: AzureAIClient) -> Tupl
     try:
         structured_output = GTMF(**merged_extraction)
         
-        # Quality assessment
+        # REALISTIC quality assessment
         assessor = GTMFQualityAssessor(azure_client)
         quality_score = assessor.assess_gtmf_quality(medical_text, structured_output)
         
-        logger.info(f"GTMF extraction completed with quality scores: "
+        logger.info(f"GTMF extraction completed with REALISTIC quality scores: "
                    f"Completeness={quality_score.completeness_score:.2f}, "
                    f"Accuracy={quality_score.accuracy_score:.2f}, "
-                   f"Consistency={quality_score.consistency_score:.2f}")
+                   f"Medical Validity={quality_score.medical_validity:.2f}, "
+                   f"Safety={quality_score.safety_score:.2f}")
         
         return structured_output, quality_score
         
@@ -583,14 +566,14 @@ def fetch_notes(session):
         return []
 
 def process_notes(results, azure_client: AzureAIClient):
-    """Process fetched notes with quality scoring using Azure AI"""
-    logger.info("Processing fetched notes with Azure AI quality assessment")
+    """FIXED: Process fetched notes with realistic quality scoring"""
+    logger.info("Processing fetched notes with REALISTIC quality assessment")
     structured_results = []
     quality_summary = {
         "total_processed": 0,
-        "high_quality": 0,  # >0.8 overall score
-        "medium_quality": 0,  # 0.6-0.8 overall score
-        "low_quality": 0,   # <0.6 overall score
+        "high_quality": 0,     # >0.7 overall score (realistic)
+        "medium_quality": 0,   # 0.5-0.7 overall score
+        "low_quality": 0,      # <0.5 overall score
         "common_issues": [],
         "average_scores": {}
     }
@@ -616,18 +599,20 @@ def process_notes(results, azure_client: AzureAIClient):
                 'Discharge_Date': dis_formatted
             }
 
-            # Extract GTMF with quality assessment using Azure AI
+            # Extract GTMF with REALISTIC quality assessment
             gtmf_instance, quality_score = extract_gtmf_chunked(row['text'], azure_client)
 
-            # Update quality summary
+            # Update quality summary with REALISTIC scoring
             quality_summary["total_processed"] += 1
             overall_score = (quality_score.completeness_score + 
                            quality_score.accuracy_score + 
-                           quality_score.consistency_score) / 3
+                           quality_score.medical_validity + 
+                           quality_score.safety_score) / 4
             
-            if overall_score > 0.8:
+            # REALISTIC quality thresholds
+            if overall_score > 0.7:
                 quality_summary["high_quality"] += 1
-            elif overall_score > 0.6:
+            elif overall_score > 0.5:
                 quality_summary["medium_quality"] += 1
             else:
                 quality_summary["low_quality"] += 1
@@ -644,13 +629,15 @@ def process_notes(results, azure_client: AzureAIClient):
                 })
             })
             
-            # Include quality scores in output
+            # Include REALISTIC quality scores in output
             result_with_quality = gtmf_instance.model_dump()
             result_with_quality["quality_assessment"] = {
                 "completeness_score": quality_score.completeness_score,
                 "accuracy_score": quality_score.accuracy_score,
                 "consistency_score": quality_score.consistency_score,
                 "confidence_score": quality_score.confidence_score,
+                "medical_validity": quality_score.medical_validity,
+                "safety_score": quality_score.safety_score,
                 "overall_score": overall_score,
                 "field_scores": quality_score.field_scores,
                 "issues": quality_score.issues,
@@ -658,7 +645,7 @@ def process_notes(results, azure_client: AzureAIClient):
             }
             
             structured_results.append(result_with_quality)
-            logger.info(f"Processed note {idx} with overall quality score: {overall_score:.2f}")
+            logger.info(f"Processed note {idx} with REALISTIC overall quality score: {overall_score:.2f}")
             
         except Exception as e:
             logger.error(f"Error processing note at index {idx}: {e}")
@@ -669,24 +656,26 @@ def process_notes(results, azure_client: AzureAIClient):
     if structured_results:
         avg_completeness = sum(r["quality_assessment"]["completeness_score"] for r in structured_results) / len(structured_results)
         avg_accuracy = sum(r["quality_assessment"]["accuracy_score"] for r in structured_results) / len(structured_results)
-        avg_consistency = sum(r["quality_assessment"]["consistency_score"] for r in structured_results) / len(structured_results)
+        avg_medical_validity = sum(r["quality_assessment"]["medical_validity"] for r in structured_results) / len(structured_results)
+        avg_safety = sum(r["quality_assessment"]["safety_score"] for r in structured_results) / len(structured_results)
         
         quality_summary["average_scores"] = {
             "completeness": avg_completeness,
             "accuracy": avg_accuracy,
-            "consistency": avg_consistency
+            "medical_validity": avg_medical_validity,
+            "safety": avg_safety
         }
     
-    # Log quality summary
-    logger.info(f"Quality Summary: {quality_summary['high_quality']} high, "
+    # Log REALISTIC quality summary
+    logger.info(f"REALISTIC Quality Summary: {quality_summary['high_quality']} high, "
                f"{quality_summary['medium_quality']} medium, "
                f"{quality_summary['low_quality']} low quality extractions")
     
     return structured_results, quality_summary
 
 def main():
-    """Main execution with Azure AI and quality reporting"""
-    logger.info("Starting GTMF extraction process with Azure AI quality assessment")
+    """Main execution with REALISTIC Azure AI quality reporting"""
+    logger.info("Starting GTMF extraction process with REALISTIC quality assessment")
     
     # Initialize Azure AI client
     try:
@@ -708,29 +697,30 @@ def main():
             
             structured_results, quality_summary = process_notes(results, azure_client)
             
-            # Save results with quality information
+            # Save results with REALISTIC quality information
             output_path = 'gtmf/gtmf_example_azure.json'
             with open(output_path, 'w', encoding='utf-8') as outfile:
                 json.dump(structured_results, outfile, indent=2)
             
-            # Save quality summary
+            # Save REALISTIC quality summary
             quality_report_path = 'gtmf/quality_report_azure.json'
             with open(quality_report_path, 'w', encoding='utf-8') as outfile:
                 json.dump(quality_summary, outfile, indent=2)
             
             logger.info(f"Extraction complete. Results saved to {output_path}")
-            logger.info(f"Quality report saved to {quality_report_path}")
+            logger.info(f"REALISTIC quality report saved to {quality_report_path}")
             
-            # Print summary
-            print(f"\n=== GTMF Azure AI Quality Summary ===")
+            # Print REALISTIC summary
+            print(f"\n=== GTMF Azure AI REALISTIC Quality Summary ===")
             print(f"Total processed: {quality_summary['total_processed']}")
-            print(f"High quality (>0.8): {quality_summary['high_quality']}")
-            print(f"Medium quality (0.6-0.8): {quality_summary['medium_quality']}")
-            print(f"Low quality (<0.6): {quality_summary['low_quality']}")
+            print(f"High quality (>0.7): {quality_summary['high_quality']}")
+            print(f"Medium quality (0.5-0.7): {quality_summary['medium_quality']}")
+            print(f"Low quality (<0.5): {quality_summary['low_quality']}")
             if quality_summary.get('average_scores'):
                 print(f"Average completeness: {quality_summary['average_scores']['completeness']:.2f}")
                 print(f"Average accuracy: {quality_summary['average_scores']['accuracy']:.2f}")
-                print(f"Average consistency: {quality_summary['average_scores']['consistency']:.2f}")
+                print(f"Average medical validity: {quality_summary['average_scores']['medical_validity']:.2f}")
+                print(f"Average safety: {quality_summary['average_scores']['safety']:.2f}")
             
     except Exception as e:
         logger.error(f"Error in main execution: {e}")

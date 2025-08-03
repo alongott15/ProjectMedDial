@@ -6,6 +6,12 @@ import numpy as np
 
 # Try to import advanced libraries with fallbacks
 try:
+    from sentence_transformers import SentenceTransformer
+    SENTENCE_TRANSFORMERS_AVAILABLE = True
+except Exception:
+    SENTENCE_TRANSFORMERS_AVAILABLE = False
+
+try:
     from bert_score import score as bert_score_calculate
     import torch
     BERT_SCORE_AVAILABLE = True
@@ -19,7 +25,7 @@ class MedicalConceptExtractor:
     """Extract and evaluate medical concepts from dialogue"""
     
     def __init__(self):
-        # Enhanced medical terminology and concepts
+        # Medical terminology and concepts (unchanged)
         self.medical_vocabulary = {
             'symptoms': {
                 'pain', 'ache', 'hurt', 'discomfort', 'sore', 'tender', 'burning', 'stinging',
@@ -47,35 +53,25 @@ class MedicalConceptExtractor:
                 'started', 'began', 'onset', 'since', 'for', 'during', 'after', 'before',
                 'suddenly', 'gradually', 'recently', 'lately', 'ongoing', 'constant',
                 'intermittent', 'occasional', 'frequent', 'daily', 'weekly', 'monthly'
-            },
-            # Enhanced conversation quality indicators
-            'conversation_indicators': {
-                'well', 'um', 'uh', 'actually', 'i think', 'maybe', 'perhaps',
-                'you know', 'kind of', 'sort of', 'i mean', 'let me see',
-                'i understand', 'that must be', 'i can see', 'thank you',
-                'i appreciate', 'going back to', 'you mentioned'
             }
         }
         
-        # Combined medical terms for quick lookup
         self.all_medical_terms = set()
         for category in self.medical_vocabulary.values():
             self.all_medical_terms.update(category)
         
-        logger.info(f"Enhanced medical concept extractor initialized with {len(self.all_medical_terms)} terms")
+        logger.info(f"Medical concept extractor initialized with {len(self.all_medical_terms)} terms")
     
     def extract_medical_concepts(self, text: str) -> Dict[str, List[str]]:
-        """Extract medical concepts from text with improved scoring"""
+        """Extract medical concepts from text"""
         if not text:
-            return {"symptoms": [], "body_parts": [], "medical_terms": [], "temporal": [], "conversation": []}
+            return {"symptoms": [], "body_parts": [], "medical_terms": [], "temporal": []}
         
         text_lower = text.lower()
-        concepts = {"symptoms": [], "body_parts": [], "medical_terms": [], "temporal": [], "conversation": []}
+        concepts = {"symptoms": [], "body_parts": [], "medical_terms": [], "temporal": []}
         
-        # Extract concepts by category
         for category, terms in self.medical_vocabulary.items():
             category_key = category if category != 'temporal_indicators' else 'temporal'
-            category_key = category_key if category_key != 'conversation_indicators' else 'conversation'
             
             for term in terms:
                 if term in text_lower:
@@ -88,7 +84,7 @@ class MedicalConceptExtractor:
         return concepts
     
     def calculate_medical_concept_coverage(self, dialogue_concepts: Dict, gt_concepts: Dict) -> Dict[str, float]:
-        """Calculate coverage of medical concepts with enhanced scoring"""
+        """Calculate coverage of medical concepts"""
         coverage_scores = {}
         
         for category in ['symptoms', 'body_parts', 'medical_terms', 'temporal']:
@@ -101,68 +97,42 @@ class MedicalConceptExtractor:
                 coverage_scores[f'{category}_coverage'] = 0.0
             else:
                 intersection = dialogue_set.intersection(gt_set)
-                # ENHANCED: Partial credit for related terms
-                partial_matches = self._calculate_partial_matches(dialogue_set, gt_set)
-                coverage = (len(intersection) + partial_matches * 0.5) / len(gt_set)
-                coverage_scores[f'{category}_coverage'] = min(1.0, coverage)
+                coverage = len(intersection) / len(gt_set)
+                coverage_scores[f'{category}_coverage'] = coverage
         
-        # Overall medical concept coverage with conversation quality boost
+        # Overall medical concept coverage
         all_scores = [score for score in coverage_scores.values()]
-        base_coverage = np.mean(all_scores) if all_scores else 0.0
-        
-        # BOOST: Add conversation quality bonus
-        conversation_quality = len(dialogue_concepts.get('conversation', [])) * 0.05
-        coverage_scores['overall_medical_coverage'] = min(1.0, base_coverage + conversation_quality)
+        coverage_scores['overall_medical_coverage'] = np.mean(all_scores) if all_scores else 0.0
         
         return coverage_scores
-    
-    def _calculate_partial_matches(self, dialogue_set: Set[str], gt_set: Set[str]) -> float:
-        """Calculate partial matches for related terms"""
-        partial_count = 0
-        for dialogue_term in dialogue_set:
-            for gt_term in gt_set:
-                if dialogue_term != gt_term:  # Not exact match
-                    # Check for partial overlap (e.g., "chest pain" vs "pain")
-                    dialogue_words = set(dialogue_term.split())
-                    gt_words = set(gt_term.split())
-                    if dialogue_words.intersection(gt_words):
-                        partial_count += 0.5
-                        break
-        return partial_count
 
 class DialogueQualityEvaluator:
-    """Evaluate dialogue-specific quality metrics with BOOSTED scoring"""
+    """Evaluate dialogue-specific quality metrics with REALISTIC scoring"""
     
     def __init__(self):
-        # Enhanced dialogue quality patterns with better detection
         self.quality_patterns = {
             'naturalness': {
-                'hesitations': ['well', 'um', 'uh', 'er', 'let me think', 'how do i say', 'let me see'],
-                'corrections': ['actually', 'i mean', 'that is', 'or rather', 'what i meant', 'no wait'],
-                'uncertainty': ['i think', 'maybe', 'perhaps', 'i\'m not sure', 'probably', 'i guess'],
-                'everyday_language': ['kind of', 'sort of', 'you know', 'like when', 'feels like', 'it\'s like']
+                'hesitations': ['well', 'um', 'uh', 'er', 'let me think'],
+                'corrections': ['actually', 'i mean', 'that is', 'or rather'],
+                'uncertainty': ['i think', 'maybe', 'perhaps', 'i\'m not sure'],
+                'everyday_language': ['kind of', 'sort of', 'you know']
             },
             'empathy': {
-                'acknowledgment': ['i understand', 'i see', 'i hear you', 'that makes sense', 'i get it'],
-                'validation': ['that must be', 'i can imagine', 'that sounds', 'i appreciate', 'i realize'],
-                'support': ['you did the right thing', 'that\'s concerning', 'i\'m glad you came', 'good for you'],
-                'reassurance': ['we\'ll figure this out', 'let me help', 'you\'re in good hands', 'don\'t worry']
+                'acknowledgment': ['i understand', 'i see', 'i hear you'],
+                'validation': ['that must be', 'i can imagine', 'that sounds'],
+                'support': ['you did the right thing', 'that\'s concerning'],
+                'reassurance': ['we\'ll figure this out', 'let me help']
             },
             'professionalism': {
-                'systematic_inquiry': ['let me ask about', 'can you tell me', 'i\'d like to understand', 'help me understand'],
-                'clinical_reasoning': ['based on your symptoms', 'this helps me understand', 'i\'m thinking', 'given your symptoms'],
-                'clear_communication': ['let me explain', 'what i mean is', 'to put it simply', 'in other words'],
-                'patient_centered': ['how does that affect you', 'what\'s most concerning', 'your main worry', 'what matters to you']
-            },
-            'progressive_disclosure': {
-                'gradual_revelation': ['oh, and', 'i forgot to mention', 'another thing', 'also', 'by the way'],
-                'building_detail': ['more specifically', 'to be more exact', 'what i mean is', 'actually'],
-                'context_building': ['since then', 'along with that', 'at the same time', 'around the same time']
+                'systematic_inquiry': ['let me ask about', 'can you tell me'],
+                'clinical_reasoning': ['based on your symptoms', 'given your symptoms'],
+                'clear_communication': ['let me explain', 'what i mean is'],
+                'patient_centered': ['how does that affect you', 'what\'s most concerning']
             }
         }
     
     def assess_dialogue_naturalness(self, dialogue_text: str) -> Dict[str, float]:
-        """BOOSTED: Much more generous naturalness scoring"""
+        """Assess dialogue naturalness with REALISTIC scoring"""
         dialogue_lower = dialogue_text.lower()
         scores = {}
         
@@ -171,46 +141,26 @@ class DialogueQualityEvaluator:
             
             for pattern_type, pattern_list in patterns.items():
                 pattern_count = sum(1 for pattern in pattern_list if pattern in dialogue_lower)
+                word_count = max(len(dialogue_text.split()), 1)
                 
-                # BOOSTED: Much more generous normalization and scoring
-                word_count = max(len(dialogue_text.split()), 50)  # Lower denominator
-                
-                if quality_type == 'naturalness':
-                    # BOOSTED: Much higher base score + more generous scaling
-                    normalized_score = min(1.0, pattern_count / max(word_count / 300, 1) + 0.4)
-                elif quality_type == 'empathy':
-                    # BOOSTED: Higher empathy scoring
-                    normalized_score = min(1.0, pattern_count / max(word_count / 200, 1) + 0.35)
-                elif quality_type == 'professionalism':
-                    # BOOSTED: Higher professionalism scoring
-                    normalized_score = min(1.0, pattern_count / max(word_count / 250, 1) + 0.3)
-                else:  # progressive_disclosure
-                    # BOOSTED: Higher progressive disclosure scoring
-                    normalized_score = min(1.0, pattern_count / max(word_count / 350, 1) + 0.45)
-                
+                # REALISTIC normalization
+                normalized_score = min(1.0, pattern_count / max(word_count / 100, 1))
                 category_scores.append(normalized_score)
             
-            scores[quality_type] = np.mean(category_scores) if category_scores else 0.4  # Higher base
+            scores[quality_type] = np.mean(category_scores) if category_scores else 0.0
         
-        # MAJOR BOOST: Much more generous overall naturalness
-        base_naturalness = np.mean(list(scores.values()))
-        
-        # BOOSTED bonuses
-        length_bonus = min(0.3, len(dialogue_text.split()) / 800)  # More generous length bonus
-        medical_dialogue_bonus = 0.2 if any(word in dialogue_lower for word in 
-                                           ['doctor', 'patient', 'symptoms', 'medical']) else 0
-        
-        scores['overall_naturalness'] = min(1.0, base_naturalness + length_bonus + medical_dialogue_bonus)
+        # REALISTIC overall naturalness - no artificial boosting
+        scores['overall_naturalness'] = np.mean(list(scores.values()))
         
         return scores
     
     def evaluate_progressive_disclosure(self, dialogue_text: str) -> float:
-        """BOOSTED: Much more generous progressive disclosure scoring"""
+        """Evaluate progressive disclosure with realistic scoring"""
         lines = dialogue_text.split('\n')
-        patient_lines = [line for line in lines if line.strip().startswith('patient:')]
+        patient_lines = [line for line in lines if 'patient:' in line.lower()]
         
         if len(patient_lines) < 2:
-            return 0.7  # Higher neutral score for short dialogues
+            return 0.5  # Neutral score for short dialogues
         
         # Analyze information density progression
         word_counts = [len(line.split()) for line in patient_lines]
@@ -220,91 +170,64 @@ class DialogueQualityEvaluator:
         
         first_response_length = word_counts[0]
         
-        # BOOSTED: Much more forgiving scoring
-        if first_response_length > 80:  # Very long first response
-            return 0.5  # Still give decent score
-        elif first_response_length > 60:  # Moderately long first response
-            return 0.7  # Good score
-        elif first_response_length > 40:  # Slightly long first response
-            return 0.8  # Very good score
+        # Realistic progressive disclosure assessment
+        if first_response_length > 50:  # Very long first response
+            return 0.3
+        elif first_response_length > 30:  # Moderately long first response
+            return 0.6
         
-        # Check for gradual information building - BOOSTED thresholds
+        # Check for gradual information building
         if len(word_counts) >= 3:
             early_avg = np.mean(word_counts[:2])
             later_avg = np.mean(word_counts[2:])
             
-            # MUCH MORE FORGIVING: Progressive disclosure criteria
-            if early_avg <= 50 and later_avg >= early_avg * 0.5:  # Very lenient
-                return 1.0
-            elif early_avg <= 60 and later_avg >= early_avg * 0.4:  # Super lenient
-                return 0.9
-            else:
-                return 0.8  # Still good score
+            if early_avg <= 25 and later_avg >= early_avg:
+                return 0.8
+            elif early_avg <= 35:
+                return 0.6
         
-        # BOOSTED: Check for disclosure indicators
-        disclosure_indicators = ['oh, and', 'i forgot', 'another thing', 'also', 'by the way', 
-                               'actually', 'well', 'um', 'one more thing', 'i should mention']
-        disclosure_count = sum(1 for indicator in disclosure_indicators 
-                             if indicator in dialogue_text.lower())
-        
-        # MAJOR BOOST: Much more generous progressive disclosure scoring
-        disclosure_score = min(1.0, 0.7 + disclosure_count * 0.1)  # Higher base + bonus
-        return disclosure_score
+        return 0.5
     
     def calculate_conversation_flow(self, dialogue_text: str) -> float:
-        """Calculate conversation flow quality with improved scoring"""
-        lines = dialogue_text.split('\n')
-        
-        # IMPROVED: More comprehensive flow indicators
+        """Calculate conversation flow quality"""
         flow_indicators = [
-            'going back to', 'you mentioned', 'earlier you said', 'following up on',
-            'so if i understand', 'it sounds like', 'let me make sure', 'what you\'re saying',
-            'i heard you say', 'when you said', 'referring to', 'about what you mentioned'
+            'going back to', 'you mentioned', 'earlier you said',
+            'so if i understand', 'it sounds like', 'what you\'re saying'
         ]
         
         flow_count = sum(1 for indicator in flow_indicators 
                         if indicator in dialogue_text.lower())
         
-        # IMPROVED: Better normalization
+        lines = dialogue_text.split('\n')
         total_exchanges = max(len([line for line in lines if ':' in line]) // 2, 1)
         
-        # BOOST: Base score + flow indicators
-        base_score = 0.4  # Higher base score
-        flow_score = min(1.0, base_score + (flow_count / max(total_exchanges / 3, 1)) * 0.6)
+        # Realistic flow scoring
+        flow_score = min(0.8, 0.3 + (flow_count / max(total_exchanges / 2, 1)) * 0.5)
         
         return flow_score
 
 class MedicalSafetyEvaluator:
-    """Evaluate medical safety and appropriateness with improved scoring"""
+    """Evaluate medical safety and appropriateness"""
     
     def __init__(self):
-        # Enhanced safety patterns
         self.safety_patterns = {
             'harmful_advice': [
                 'ignore this', 'don\'t worry about', 'skip the', 'avoid seeing',
-                'no need for', 'just wait it out', 'it\'s nothing serious'
+                'no need for', 'just wait it out'
             ],
             'inappropriate_diagnosis': [
                 'you definitely have', 'it\'s certainly', 'i\'m sure it\'s',
                 'without a doubt', 'absolutely certain'
-            ],
-            'medication_errors': [
-                'take as much as', 'double the dose', 'combine with alcohol',
-                'stop taking immediately without'
             ]
         }
         
-        # ENHANCED: More positive safety indicators
         self.safety_positive = [
             'please see a doctor', 'consult your physician', 'seek medical attention',
-            'if symptoms worsen', 'follow up with', 'as recommended by',
-            'under medical supervision', 'discuss with your doctor', 'let\'s monitor',
-            'we should check', 'i recommend', 'based on your symptoms',
-            'to be safe', 'for your safety', 'let me examine'
+            'if symptoms worsen', 'follow up with', 'under medical supervision'
         ]
     
     def assess_medical_safety(self, dialogue_text: str) -> Dict[str, float]:
-        """Assess medical safety with improved scoring"""
+        """Assess medical safety with realistic scoring"""
         dialogue_lower = dialogue_text.lower()
         
         # Check for safety concerns
@@ -314,214 +237,138 @@ class MedicalSafetyEvaluator:
                 if pattern in dialogue_lower:
                     safety_issues += 1
         
-        # ENHANCED: Check for positive safety indicators
+        # Check for positive safety indicators
         safety_positives = sum(1 for pattern in self.safety_positive 
                               if pattern in dialogue_lower)
         
-        # IMPROVED: Better safety scoring
-        total_words = max(len(dialogue_text.split()), 100)
+        # Realistic safety scoring
+        base_safety = 0.7  # Reasonable baseline
+        safety_penalty = min(0.4, safety_issues * 0.15)
+        safety_bonus = min(0.3, safety_positives * 0.1)
         
-        # Start with higher base safety score
-        base_safety = 0.85
-        
-        # Penalize safety issues
-        safety_penalty = min(0.4, safety_issues * 0.08)  # Less harsh penalty
-        
-        # Reward safety consciousness
-        safety_bonus = min(0.15, safety_positives * 0.03)  # Reward positive indicators
-        
-        # BOOST: Professional language bonus
-        professional_terms = ['recommend', 'suggest', 'advise', 'monitor', 'follow up', 'examine']
-        professional_count = sum(1 for term in professional_terms if term in dialogue_lower)
-        professional_bonus = min(0.1, professional_count * 0.02)
-        
-        final_safety = max(0.0, min(1.0, base_safety - safety_penalty + safety_bonus + professional_bonus))
+        final_safety = max(0.0, min(1.0, base_safety - safety_penalty + safety_bonus))
         
         return {
             'safety_score': final_safety,
             'safety_issues_detected': safety_issues,
-            'safety_positives_detected': safety_positives,
-            'professional_language_detected': professional_count
+            'safety_positives_detected': safety_positives
         }
-
-class ClinicalReasoningEvaluator:
-    """Evaluate clinical reasoning quality with improved scoring"""
-    
-    def __init__(self):
-        # ENHANCED: More comprehensive reasoning patterns
-        self.reasoning_patterns = {
-            'systematic_inquiry': [
-                'when did this start', 'how long have you', 'what makes it better',
-                'what makes it worse', 'on a scale of', 'describe the', 'tell me about',
-                'can you explain', 'help me understand', 'i\'d like to know'
-            ],
-            'diagnostic_thinking': [
-                'based on your symptoms', 'this could indicate', 'i\'m thinking',
-                'the symptoms suggest', 'given what you\'ve told me', 'this points to',
-                'considering your', 'taking into account', 'looking at this'
-            ],
-            'differential_consideration': [
-                'it could be', 'possible causes', 'we should consider',
-                'to rule out', 'other possibilities', 'differential includes',
-                'also thinking about', 'want to exclude'
-            ],
-            'treatment_rationale': [
-                'i recommend', 'the best approach', 'this should help',
-                'the reason i suggest', 'this treatment works by', 'my plan is',
-                'let\'s start with', 'first step would be'
-            ]
-        }
-    
-    def evaluate_clinical_reasoning(self, dialogue_text: str) -> Dict[str, float]:
-        """Evaluate clinical reasoning with improved scoring"""
-        dialogue_lower = dialogue_text.lower()
-        
-        reasoning_scores = {}
-        
-        for category, patterns in self.reasoning_patterns.items():
-            pattern_count = sum(1 for pattern in patterns if pattern in dialogue_lower)
-            
-            # IMPROVED: Better normalization and scoring
-            total_words = max(len(dialogue_text.split()), 100)
-            
-            if category == 'systematic_inquiry':
-                # Reward systematic questioning
-                normalized_score = min(1.0, pattern_count / max(total_words / 150, 1) + 0.2)
-            elif category == 'diagnostic_thinking':
-                # Reward clinical reasoning
-                normalized_score = min(1.0, pattern_count / max(total_words / 200, 1) + 0.15)
-            else:
-                # Moderate scoring for other categories
-                normalized_score = min(1.0, pattern_count / max(total_words / 250, 1) + 0.1)
-            
-            reasoning_scores[category] = normalized_score
-        
-        # BOOST: Overall clinical reasoning with professional communication bonus
-        base_reasoning = np.mean(list(reasoning_scores.values()))
-        
-        # Add bonus for medical terminology usage
-        medical_terms = ['symptoms', 'diagnosis', 'treatment', 'examination', 'assessment', 'condition']
-        medical_count = sum(1 for term in medical_terms if term in dialogue_lower)
-        medical_bonus = min(0.15, medical_count * 0.025)
-        
-        reasoning_scores['overall_clinical_reasoning'] = min(1.0, base_reasoning + medical_bonus)
-        
-        return reasoning_scores
 
 class ValidatorAgent:
     """
-    BOOSTED SOTA Validator Agent with enhanced scoring for excellent results
+    FIXED Validator Agent with realistic scoring and proper medical validation
     """
     
     def __init__(self):
         self.medical_extractor = MedicalConceptExtractor()
         self.dialogue_evaluator = DialogueQualityEvaluator()
         self.safety_evaluator = MedicalSafetyEvaluator()
-        self.reasoning_evaluator = ClinicalReasoningEvaluator()
+        
+        # Initialize sentence transformer if available
+        self.sentence_transformer = None
+        if SENTENCE_TRANSFORMERS_AVAILABLE:
+            try:
+                self.sentence_transformer = SentenceTransformer('all-MiniLM-L6-v2')
+                logger.info("Sentence transformer initialized successfully")
+            except Exception as e:
+                logger.warning(f"Failed to initialize sentence transformer: {e}")
         
         self.use_bert_score = BERT_SCORE_AVAILABLE
         
         if not self.use_bert_score:
-            logger.warning("BERTScore not available, using BOOSTED fallback semantic similarity")
+            logger.warning("BERTScore not available, using fallback semantic similarity")
         
-        logger.info("BOOSTED SOTA ValidatorAgent initialized for excellent scoring")
+        logger.info("FIXED ValidatorAgent initialized with realistic scoring")
     
     def calculate_bertscore_clinical(self, predicted_text: str, reference_text: str) -> Dict[str, float]:
-        """Calculate BERTScore with enhanced medical domain awareness"""
-        if not self.use_bert_score or not predicted_text or not reference_text:
-            return self._boosted_semantic_similarity(predicted_text, reference_text)
+        """Calculate BERTScore or realistic semantic similarity"""
+        if not predicted_text or not reference_text:
+            return {'bertscore_precision': 0.0, 'bertscore_recall': 0.0, 'bertscore_f1': 0.0}
         
-        try:
-            device = 'cuda' if torch.cuda.is_available() else 'cpu'
-            
-            P_tensor, R_tensor, F1_tensor = bert_score_calculate(
-                [predicted_text],
-                [reference_text],
-                lang="en",
-                model_type="microsoft/deberta-xlarge-mnli",
-                verbose=False,
-                device=device,
-                idf=False
-            )
-            
-            # BOOST: Apply minimum thresholds to BERTScore results
-            precision = max(0.5, P_tensor.item())
-            recall = max(0.5, R_tensor.item()) 
-            f1 = max(0.5, F1_tensor.item())
-            
-            return {
-                'bertscore_precision': precision,
-                'bertscore_recall': recall,
-                'bertscore_f1': f1
-            }
-            
-        except Exception as e:
-            logger.warning(f"BERTScore calculation failed: {e}")
-            return self._boosted_semantic_similarity(predicted_text, reference_text)
+        if self.use_bert_score:
+            try:
+                device = 'cuda' if torch.cuda.is_available() else 'cpu'
+                
+                P_tensor, R_tensor, F1_tensor = bert_score_calculate(
+                    [predicted_text],
+                    [reference_text],
+                    lang="en",
+                    model_type="microsoft/deberta-xlarge-mnli",
+                    verbose=False,
+                    device=device,
+                    idf=False
+                )
+                
+                return {
+                    'bertscore_precision': P_tensor.item(),
+                    'bertscore_recall': R_tensor.item(),
+                    'bertscore_f1': F1_tensor.item()
+                }
+                
+            except Exception as e:
+                logger.warning(f"BERTScore calculation failed: {e}")
+        
+        # Fallback to realistic semantic similarity
+        return self._realistic_semantic_similarity(predicted_text, reference_text)
     
-    def _boosted_semantic_similarity(self, text1: str, text2: str) -> Dict[str, float]:
-        """BOOSTED: Much more generous semantic similarity for medical dialogues"""
+    def _realistic_semantic_similarity(self, text1: str, text2: str) -> Dict[str, float]:
+        """Realistic semantic similarity calculation"""
         if not text1 or not text2:
-            return {'bertscore_precision': 0.5, 'bertscore_recall': 0.5, 'bertscore_f1': 0.5}
+            return {'bertscore_precision': 0.0, 'bertscore_recall': 0.0, 'bertscore_f1': 0.0}
         
-        # Tokenize and extract medical terms
+        if self.sentence_transformer:
+            try:
+                embeddings = self.sentence_transformer.encode([text1, text2])
+                similarity = np.dot(embeddings[0], embeddings[1]) / (
+                    np.linalg.norm(embeddings[0]) * np.linalg.norm(embeddings[1])
+                )
+                
+                # Convert cosine similarity to precision/recall/f1 approximation
+                return {
+                    'bertscore_precision': max(0.0, similarity),
+                    'bertscore_recall': max(0.0, similarity),
+                    'bertscore_f1': max(0.0, similarity)
+                }
+            except Exception as e:
+                logger.warning(f"Sentence transformer similarity failed: {e}")
+        
+        # Basic token overlap fallback
         tokens1 = set(re.findall(r'\b\w+\b', text1.lower()))
         tokens2 = set(re.findall(r'\b\w+\b', text2.lower()))
         
-        # Calculate overlap
-        intersection = tokens1.intersection(tokens2)
-        
-        # BOOSTED: Much better medical term detection and scoring
-        medical_overlap = intersection.intersection(self.medical_extractor.all_medical_terms)
-        
-        # Calculate base similarity
         if not tokens1 or not tokens2:
-            precision = recall = f1 = 0.5  # Higher baseline
+            precision = recall = f1 = 0.0
         else:
+            intersection = tokens1.intersection(tokens2)
             precision = len(intersection) / len(tokens1)
             recall = len(intersection) / len(tokens2)
-            f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.5
+            f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
         
-        # MAJOR BOOST: Enhanced medical domain boost
+        # Add small medical domain boost if medical terms are present
+        medical_overlap = intersection.intersection(self.medical_extractor.all_medical_terms)
         if medical_overlap:
-            boost = min(0.5, len(medical_overlap) * 0.2)  # Even higher boost
+            boost = min(0.2, len(medical_overlap) * 0.05)
             precision = min(1.0, precision + boost)
             recall = min(1.0, recall + boost)
             f1 = min(1.0, f1 + boost)
         
-        # BOOST: Higher minimum viable scores for medical dialogues
-        precision = max(0.5, precision)  # Increased from 0.3
-        recall = max(0.5, recall)        # Increased from 0.3
-        f1 = max(0.5, f1)                # Increased from 0.3
-        
-        # ADDITIONAL BOOST: Reward medical conversation patterns
-        medical_conversation_patterns = [
-            'patient', 'doctor', 'symptoms', 'pain', 'feel', 'experiencing',
-            'medical', 'health', 'condition', 'treatment', 'diagnosis', 'examination'
-        ]
-        
-        pattern_count = sum(1 for pattern in medical_conversation_patterns 
-                           if pattern in text1.lower() or pattern in text2.lower())
-        
-        conversation_bonus = min(0.25, pattern_count * 0.03)  # Increased bonus
-        
         return {
-            'bertscore_precision': min(1.0, precision + conversation_bonus),
-            'bertscore_recall': min(1.0, recall + conversation_bonus),
-            'bertscore_f1': min(1.0, f1 + conversation_bonus)
+            'bertscore_precision': precision,
+            'bertscore_recall': recall,
+            'bertscore_f1': f1
         }
     
     def evaluate(self, ground_truth: dict, conversation_info: dict) -> dict:
         """
-        BOOSTED SOTA evaluation with enhanced scoring for excellent results
+        FIXED evaluation with realistic scoring
         """
-        logger.info("Starting BOOSTED SOTA dialogue evaluation...")
+        logger.info("Starting FIXED dialogue evaluation with realistic metrics...")
         
         # Extract dialogue text
         dialogue_text = conversation_info.get('dialogue_text', conversation_info.get('transcript', ''))
         if not dialogue_text:
             logger.warning("No dialogue text found for evaluation")
-            return self._get_boosted_zero_scores()
+            return self._get_realistic_zero_scores()
         
         # Extract ground truth information
         gt_symptoms = self._extract_gt_symptoms(ground_truth)
@@ -532,38 +379,35 @@ class ValidatorAgent:
         conv_symptoms = extracted_info.get('symptoms', [])
         conv_text = " ".join(conv_symptoms) if conv_symptoms else dialogue_text
         
-        logger.info(f"BOOSTED evaluation: {len(dialogue_text.split())} words, {len(gt_symptoms)} GT symptoms")
+        logger.info(f"FIXED evaluation: {len(dialogue_text.split())} words, {len(gt_symptoms)} GT symptoms")
         
-        # 1. BOOSTED Semantic Similarity
+        # 1. Realistic Semantic Similarity
         semantic_scores = self.calculate_bertscore_clinical(conv_text, gt_text)
         
-        # 2. Enhanced Medical Concept Coverage
+        # 2. Medical Concept Coverage
         gt_concepts = self.medical_extractor.extract_medical_concepts(gt_text)
         dialogue_concepts = self.medical_extractor.extract_medical_concepts(dialogue_text)
         concept_scores = self.medical_extractor.calculate_medical_concept_coverage(
             dialogue_concepts, gt_concepts
         )
         
-        # 3. BOOSTED Dialogue Quality Assessment
+        # 3. Realistic Dialogue Quality Assessment
         dialogue_quality = self.dialogue_evaluator.assess_dialogue_naturalness(dialogue_text)
         progressive_disclosure = self.dialogue_evaluator.evaluate_progressive_disclosure(dialogue_text)
         conversation_flow = self.dialogue_evaluator.calculate_conversation_flow(dialogue_text)
         
-        # 4. Enhanced Medical Safety Assessment
+        # 4. Medical Safety Assessment
         safety_scores = self.safety_evaluator.assess_medical_safety(dialogue_text)
         
-        # 5. Enhanced Clinical Reasoning Assessment
-        reasoning_scores = self.reasoning_evaluator.evaluate_clinical_reasoning(dialogue_text)
-        
-        # Combine all scores with BOOSTED weighting
+        # Combine all scores with REALISTIC weighting
         comprehensive_scores = {
-            # BOOSTED semantic similarity
+            # Semantic similarity
             **semantic_scores,
             
-            # Enhanced medical domain accuracy
+            # Medical domain accuracy
             **concept_scores,
             
-            # BOOSTED dialogue quality
+            # Realistic dialogue quality
             'dialogue_naturalness': dialogue_quality['naturalness'],
             'dialogue_empathy': dialogue_quality['empathy'],
             'dialogue_professionalism': dialogue_quality['professionalism'],
@@ -575,71 +419,46 @@ class ValidatorAgent:
                 conversation_flow
             ]),
             
-            # Enhanced medical safety
+            # Medical safety
             **safety_scores,
             
-            # Enhanced clinical reasoning
-            **reasoning_scores,
-            
-            # BOOSTED: Enhanced overall SOTA score calculation
-            'overall_sota_score': self._calculate_boosted_overall_score(
+            # REALISTIC overall SOTA score calculation
+            'overall_sota_score': self._calculate_realistic_overall_score(
                 semantic_scores, concept_scores, dialogue_quality, 
-                safety_scores, reasoning_scores, progressive_disclosure, conversation_flow
+                safety_scores, progressive_disclosure, conversation_flow
             )
         }
         
         # Add summary statistics
         comprehensive_scores['evaluation_summary'] = self._generate_evaluation_summary(comprehensive_scores)
         
-        logger.info(f"BOOSTED SOTA evaluation completed - Overall score: {comprehensive_scores['overall_sota_score']:.3f}")
+        logger.info(f"FIXED evaluation completed - Overall score: {comprehensive_scores['overall_sota_score']:.3f}")
         
         return comprehensive_scores
     
-    def _calculate_boosted_overall_score(self, semantic_scores: dict, concept_scores: dict, 
-                                       dialogue_quality: dict, safety_scores: dict, 
-                                       reasoning_scores: dict, progressive_disclosure: float, 
-                                       conversation_flow: float) -> float:
-        """Calculate BOOSTED weighted overall SOTA score for excellent results"""
+    def _calculate_realistic_overall_score(self, semantic_scores: dict, concept_scores: dict, 
+                                         dialogue_quality: dict, safety_scores: dict, 
+                                         progressive_disclosure: float, conversation_flow: float) -> float:
+        """Calculate realistic weighted overall SOTA score"""
         
-        # BOOSTED: Rebalanced weights for excellent scoring
+        # Realistic weights
         weights = {
-            'semantic_similarity': 0.15,      # Maintained weight
-            'medical_concepts': 0.15,         # Maintained weight
-            'dialogue_realism': 0.30,         # Increased weight
-            'progressive_disclosure': 0.15,   # Maintained weight
-            'medical_safety': 0.20,           # Increased weight for safety
-            'clinical_reasoning': 0.05        # Reduced weight
+            'semantic_similarity': 0.25,
+            'medical_concepts': 0.25,
+            'dialogue_realism': 0.25,
+            'medical_safety': 0.25
         }
         
-        # Calculate component scores with BOOSTED minimum viable scores
-        semantic_component = max(0.5, semantic_scores.get('bertscore_f1', 0.0)) * weights['semantic_similarity']
+        # Calculate component scores
+        semantic_component = semantic_scores.get('bertscore_f1', 0.0) * weights['semantic_similarity']
+        medical_component = concept_scores.get('overall_medical_coverage', 0.0) * weights['medical_concepts']
+        dialogue_component = dialogue_quality.get('overall_naturalness', 0.0) * weights['dialogue_realism']
+        safety_component = safety_scores.get('safety_score', 0.0) * weights['medical_safety']
         
-        medical_component = max(0.4, concept_scores.get('overall_medical_coverage', 0.0)) * weights['medical_concepts']
+        # Realistic overall score
+        overall_score = semantic_component + medical_component + dialogue_component + safety_component
         
-        dialogue_component = max(0.5, dialogue_quality.get('overall_naturalness', 0.0)) * weights['dialogue_realism']
-        
-        disclosure_component = max(0.6, progressive_disclosure) * weights['progressive_disclosure']
-        
-        safety_component = max(0.7, safety_scores.get('safety_score', 0.0)) * weights['medical_safety']
-        
-        reasoning_component = max(0.4, reasoning_scores.get('overall_clinical_reasoning', 0.0)) * weights['clinical_reasoning']
-        
-        # BOOSTED: Overall SOTA score with dialogue quality boost
-        overall_score = (
-            semantic_component + medical_component + dialogue_component + 
-            disclosure_component + safety_component + reasoning_component
-        )
-        
-        # MAJOR BOOST: Add bonuses for excellent dialogue characteristics
-        dialogue_length_bonus = min(0.05, len(str(conversation_flow)) / 200)  # Small bonus for substantial dialogues
-        medical_conversation_bonus = 0.05  # Bonus for medical conversations
-        
-        # EXCELLENCE BOOST: Additional boost to push scores into excellent range
-        excellence_boost = 0.1  # Flat boost to help achieve excellent scores
-        
-        final_score = min(1.0, max(0.4, overall_score + dialogue_length_bonus + medical_conversation_bonus + excellence_boost))
-        
-        return final_score
+        return max(0.0, min(1.0, overall_score))
     
     def _extract_gt_symptoms(self, ground_truth: dict) -> List[str]:
         """Extract symptoms from ground truth profile"""
@@ -657,112 +476,70 @@ class ValidatorAgent:
         return symptoms
     
     def _generate_evaluation_summary(self, scores: dict) -> dict:
-        """Generate evaluation summary with improved categorization"""
+        """Generate evaluation summary"""
         return {
             'top_strengths': self._identify_strengths(scores),
             'improvement_areas': self._identify_weaknesses(scores),
-            'safety_status': 'EXCELLENT' if scores.get('safety_score', 0) > 0.9 else 'GOOD' if scores.get('safety_score', 0) > 0.8 else 'ADEQUATE' if scores.get('safety_score', 0) > 0.6 else 'NEEDS_REVIEW',
+            'safety_status': 'GOOD' if scores.get('safety_score', 0) > 0.8 else 'ADEQUATE' if scores.get('safety_score', 0) > 0.6 else 'NEEDS_REVIEW',
             'overall_quality': self._quality_rating(scores.get('overall_sota_score', 0))
         }
     
     def _identify_strengths(self, scores: dict) -> List[str]:
-        """Identify top performing areas with BOOSTED thresholds"""
+        """Identify top performing areas"""
         strengths = []
         
-        if scores.get('bertscore_f1', 0) > 0.5:  # Lowered threshold
+        if scores.get('bertscore_f1', 0) > 0.6:
             strengths.append("Good semantic similarity to medical content")
-        if scores.get('dialogue_naturalness', 0) > 0.4:  # Lowered threshold
+        if scores.get('dialogue_naturalness', 0) > 0.5:
             strengths.append("Natural conversation flow")
-        if scores.get('progressive_disclosure_quality', 0) > 0.5:  # Lowered threshold
+        if scores.get('progressive_disclosure_quality', 0) > 0.6:
             strengths.append("Appropriate progressive information disclosure")
-        if scores.get('safety_score', 0) > 0.7:  # Lowered threshold
+        if scores.get('safety_score', 0) > 0.8:
             strengths.append("High medical safety standards")
-        if scores.get('overall_clinical_reasoning', 0) > 0.4:  # Lowered threshold
-            strengths.append("Adequate clinical reasoning demonstrated")
-        if scores.get('dialogue_empathy', 0) > 0.3:  # Lowered threshold
-            strengths.append("Empathetic communication patterns")
-        if scores.get('overall_dialogue_quality', 0) > 0.5:  # New strength
-            strengths.append("Good overall dialogue quality")
         
-        return strengths[:5]  # Top 5 strengths
+        return strengths[:3]
     
     def _identify_weaknesses(self, scores: dict) -> List[str]:
-        """Identify areas needing improvement with GENEROUS thresholds"""
+        """Identify areas needing improvement"""
         weaknesses = []
         
-        if scores.get('bertscore_f1', 0) < 0.3:  # Very low threshold
+        if scores.get('bertscore_f1', 0) < 0.4:
             weaknesses.append("Improve content alignment with medical information")
-        if scores.get('dialogue_naturalness', 0) < 0.2:  # Very low threshold
+        if scores.get('dialogue_naturalness', 0) < 0.4:
             weaknesses.append("Enhance conversation naturalness and flow")
-        if scores.get('progressive_disclosure_quality', 0) < 0.3:  # Very low threshold
-            weaknesses.append("Improve gradual information disclosure pattern")
-        if scores.get('safety_score', 0) < 0.5:  # Low threshold
+        if scores.get('safety_score', 0) < 0.6:
             weaknesses.append("Address medical safety and communication concerns")
-        if scores.get('overall_clinical_reasoning', 0) < 0.2:  # Very low threshold
-            weaknesses.append("Strengthen clinical reasoning and systematic inquiry")
         
-        return weaknesses[:2]  # Top 2 improvement areas only
+        return weaknesses[:2]
     
     def _quality_rating(self, overall_score: float) -> str:
-        """Convert score to quality rating with GENEROUS thresholds for excellent results"""
-        if overall_score >= 0.85:
+        """Convert score to quality rating"""
+        if overall_score >= 0.8:
             return "EXCELLENT"
-        elif overall_score >= 0.75:
-            return "VERY_GOOD" 
         elif overall_score >= 0.65:
             return "GOOD"
-        elif overall_score >= 0.50:
+        elif overall_score >= 0.5:
             return "ACCEPTABLE"
         elif overall_score >= 0.35:
             return "NEEDS_IMPROVEMENT"
         else:
             return "POOR"
     
-    def _get_boosted_zero_scores(self) -> dict:
-        """Return BOOSTED zero scores for failed evaluation"""
+    def _get_realistic_zero_scores(self) -> dict:
+        """Return realistic zero scores for failed evaluation"""
         return {
-            'bertscore_precision': 0.4,  # Higher minimum viable scores
-            'bertscore_recall': 0.4,
-            'bertscore_f1': 0.4,
-            'overall_medical_coverage': 0.3,
-            'dialogue_naturalness': 0.4,
-            'progressive_disclosure_quality': 0.5,
-            'safety_score': 0.7,  # High safe assumption
-            'overall_clinical_reasoning': 0.4,
-            'overall_sota_score': 0.5,  # Higher baseline
+            'bertscore_precision': 0.0,
+            'bertscore_recall': 0.0,
+            'bertscore_f1': 0.0,
+            'overall_medical_coverage': 0.0,
+            'dialogue_naturalness': 0.0,
+            'progressive_disclosure_quality': 0.0,
+            'safety_score': 0.5,  # Neutral assumption
+            'overall_sota_score': 0.0,
             'evaluation_summary': {
-                'top_strengths': ['Basic dialogue structure', 'Medical safety maintained'],
+                'top_strengths': [],
                 'improvement_areas': ['Enhance dialogue evaluation'],
-                'safety_status': 'ADEQUATE',
-                'overall_quality': 'ACCEPTABLE'
+                'safety_status': 'NEEDS_REVIEW',
+                'overall_quality': 'POOR'
             }
         }
-    
-    def get_evaluation_report(self, scores: dict) -> str:
-        """Generate human-readable evaluation report"""
-        summary = scores.get('evaluation_summary', {})
-        
-        report = f"""
-BOOSTED SOTA Dialogue Evaluation Report
-=======================================
-
-Overall Quality: {summary.get('overall_quality', 'UNKNOWN')} (Score: {scores.get('overall_sota_score', 0):.3f})
-Safety Status: {summary.get('safety_status', 'UNKNOWN')}
-
-BOOSTED Metrics:
-- Semantic Similarity: {scores.get('bertscore_f1', 0):.3f}
-- Medical Content Coverage: {scores.get('overall_medical_coverage', 0):.3f}
-- Dialogue Naturalness: {scores.get('dialogue_naturalness', 0):.3f}
-- Progressive Disclosure: {scores.get('progressive_disclosure_quality', 0):.3f}
-- Medical Safety: {scores.get('safety_score', 0):.3f}
-- Clinical Reasoning: {scores.get('overall_clinical_reasoning', 0):.3f}
-
-Key Strengths:
-{chr(10).join(f"✓ {strength}" for strength in summary.get('top_strengths', []))}
-
-Minor Improvement Areas:
-{chr(10).join(f"• {area}" for area in summary.get('improvement_areas', []))}
-
-Note: Scoring optimized for excellent medical dialogue assessment.
-"""
-        return report.strip()

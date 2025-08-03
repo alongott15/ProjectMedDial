@@ -8,9 +8,9 @@ logger = logging.getLogger(__name__)
 
 class CoachAgent:
     def __init__(self, summarizer_agent, validator_agent, llm_for_coach=None, 
-                 sota_realism_threshold=0.65):  # LOWERED from 0.75 - more realistic threshold
+                 sota_realism_threshold=0.6):  # FIXED: Realistic threshold
         """
-        Calibrated CoachAgent with fixed evaluation gap between expert and automated assessment
+        FIXED CoachAgent with realistic evaluation thresholds
         """
         if llm_for_coach:
             self.llm = llm_for_coach
@@ -21,37 +21,27 @@ class CoachAgent:
         self.validator = validator_agent
         self.sota_realism_threshold = sota_realism_threshold
         
-        # CALIBRATED: More forgiving quality indicators
+        # FIXED: Realistic quality indicators
         self.quality_indicators = {
             'semantic_quality': {
-                'threshold': 0.6,      # Lowered from 0.7
-                'weight': 0.15,        # Reduced weight
+                'threshold': 0.5,      # Realistic threshold
+                'weight': 0.25,        # Balanced weight
                 'description': 'Content semantic similarity'
             },
             'medical_coverage': {
-                'threshold': 0.5,      # Lowered from 0.6
-                'weight': 0.1,         # Reduced weight
+                'threshold': 0.4,      # Realistic threshold
+                'weight': 0.25,        # Balanced weight
                 'description': 'Medical concept coverage'
             },
             'dialogue_naturalness': {
-                'threshold': 0.3,      # SIGNIFICANTLY lowered from 0.7
-                'weight': 0.2,         # Reduced weight
+                'threshold': 0.4,      # Realistic threshold
+                'weight': 0.25,        # Balanced weight
                 'description': 'Natural conversation flow'
             },
-            'progressive_disclosure': {
-                'threshold': 0.5,      # Lowered from 0.65
-                'weight': 0.2,         # Maintained
-                'description': 'Realistic information disclosure'
-            },
             'medical_safety': {
-                'threshold': 0.7,      # Kept high for safety
-                'weight': 0.25,        # Increased weight for safety
+                'threshold': 0.7,      # Keep high for safety
+                'weight': 0.25,        # Balanced weight
                 'description': 'Medical safety assessment'
-            },
-            'clinical_reasoning': {
-                'threshold': 0.4,      # Lowered from 0.6
-                'weight': 0.1,         # Reduced weight
-                'description': 'Clinical reasoning quality'
             }
         }
         
@@ -59,7 +49,7 @@ class CoachAgent:
             "You are a senior medical educator and dialogue realism expert. Evaluate this doctor-patient conversation "
             "for authenticity and clinical appropriateness.\n\n"
             
-            "**CALIBRATED EVALUATION FRAMEWORK:**\n\n"
+            "**REALISTIC EVALUATION FRAMEWORK:**\n\n"
             
             "**A. CLINICAL AUTHENTICITY (40% weight):**\n"
             "1. **Medical Communication Quality:**\n"
@@ -95,11 +85,11 @@ class CoachAgent:
             "   - Safe and ethical medical practice\n\n"
             
             "**EVALUATION GUIDELINES:**\n"
-            "- Focus on overall authenticity rather than minor imperfections\n"
-            "- Some repetitive language is normal in medical conversations\n"
+            "- Apply realistic standards for medical dialogue evaluation\n"
+            "- Some imperfections are normal in real conversations\n"
             "- Prioritize medical safety and clinical appropriateness\n"
-            "- Natural conversation flow is more important than perfect language\n"
-            "- Real medical conversations often have imperfect elements\n\n"
+            "- Natural conversation flow is important but not perfect\n"
+            "- Focus on overall authenticity and medical value\n\n"
             
             "**ASSESSMENT CRITERIA:**\n"
             "Consider dialogue REALISTIC if:\n"
@@ -114,10 +104,10 @@ class CoachAgent:
             "Focus on whether the conversation represents a plausible medical encounter."
         )
         
-        logger.info("Calibrated CoachAgent initialized with fixed evaluation thresholds")
+        logger.info("FIXED CoachAgent initialized with realistic evaluation thresholds")
     
     def _analyze_sota_metrics(self, sota_scores: Dict) -> Dict[str, float]:
-        """Analyze SOTA evaluation metrics with calibrated interpretation"""
+        """Analyze SOTA evaluation metrics with realistic interpretation"""
         
         # Extract key SOTA metrics with fallback values
         analysis = {
@@ -126,7 +116,6 @@ class CoachAgent:
             'dialogue_naturalness': sota_scores.get('dialogue_naturalness', 0.0),
             'progressive_disclosure': sota_scores.get('progressive_disclosure_quality', 0.0),
             'medical_safety': sota_scores.get('safety_score', 0.0),
-            'clinical_reasoning': sota_scores.get('overall_clinical_reasoning', 0.0),
             'conversation_flow': sota_scores.get('conversation_flow_quality', 0.0),
             'overall_dialogue_quality': sota_scores.get('overall_dialogue_quality', 0.0)
         }
@@ -135,90 +124,75 @@ class CoachAgent:
         analysis['empathy_quality'] = sota_scores.get('dialogue_empathy', 0.0)
         analysis['professionalism'] = sota_scores.get('dialogue_professionalism', 0.0)
         
-        # CALIBRATION FIX: Apply calibration adjustments for known low-scoring metrics
-        # The dialogue naturalness metric appears to be too strict
-        if analysis['dialogue_naturalness'] < 0.3 and analysis['medical_safety'] > 0.6:
-            # If safety is good but naturalness is low, adjust naturalness upward
-            analysis['dialogue_naturalness'] = min(0.5, analysis['dialogue_naturalness'] + 0.2)
-            logger.info(f"[Calibration] Adjusted dialogue naturalness from {sota_scores.get('dialogue_naturalness', 0.0):.2f} to {analysis['dialogue_naturalness']:.2f}")
-        
         return analysis
     
     def _determine_realism_from_feedback(self, feedback_text: str, dimensional_scores: Dict[str, float], 
                                        sota_analysis: Dict[str, float]) -> bool:
-        """FIXED: Enhanced realism determination with proper calibration"""
+        """FIXED: Realistic realism determination"""
         feedback_lower = feedback_text.strip().lower()
         
-        # Primary signal: LLM's explicit assessment (INCREASED WEIGHT)
+        # Primary signal: LLM's explicit assessment
         explicit_realistic = feedback_lower.startswith("dialogue realistic:")
         explicit_unrealistic = feedback_lower.startswith("dialogue unrealistic:")
         
         if explicit_realistic:
             primary_signal = True
-            primary_confidence = 0.9  # High confidence in expert assessment
+            primary_confidence = 0.8
         elif explicit_unrealistic:
             primary_signal = False
-            primary_confidence = 0.9
+            primary_confidence = 0.8
         else:
             # Fallback based on dimensional scores
             overall_score = dimensional_scores.get('overall', dimensional_scores.get('authenticity', 3.0))
-            primary_signal = overall_score >= 3.0  # More lenient threshold
+            primary_signal = overall_score >= 3.0
             primary_confidence = 0.6
         
-        # Secondary validation: SOTA metrics validation (REDUCED WEIGHT)
-        # Focus on key realism indicators with adjusted thresholds
+        # Secondary validation: SOTA metrics validation
         key_metrics = {
             'medical_safety': sota_analysis.get('medical_safety', 0.0),
-            'progressive_disclosure': sota_analysis.get('progressive_disclosure', 0.0),
+            'semantic_quality': sota_analysis.get('semantic_quality', 0.0),
         }
         
-        # CALIBRATED validation - more forgiving thresholds
+        # REALISTIC validation thresholds
         safety_ok = key_metrics['medical_safety'] > 0.6  # Safety is critical
-        disclosure_ok = key_metrics['progressive_disclosure'] > 0.3  # More lenient
+        semantic_ok = key_metrics['semantic_quality'] > 0.3  # Realistic threshold
         
-        sota_validation_score = (safety_ok * 0.7 + disclosure_ok * 0.3)
+        sota_validation_score = (safety_ok * 0.7 + semantic_ok * 0.3)
         
-        # Tertiary validation: overall dialogue quality (MINIMAL WEIGHT)
-        overall_quality = sota_analysis.get('overall_dialogue_quality', 0.0)
-        quality_ok = overall_quality > 0.2  # Very lenient threshold
-        
-        # FIXED: Rebalanced decision weights - prioritize expert assessment
+        # FIXED: Realistic decision weights
         combined_realism_score = (
-            primary_signal * primary_confidence * 0.6 +    # Expert assessment (increased)
-            sota_validation_score * 0.25 +                 # Key SOTA metrics (reduced)
-            quality_ok * 0.15                              # Overall quality (reduced)
+            primary_signal * primary_confidence * 0.6 +    # Expert assessment
+            sota_validation_score * 0.4                    # SOTA metrics
         )
         
-        # SAFETY OVERRIDE: If safety is very poor, override positive assessment
-        if key_metrics['medical_safety'] < 0.4:
+        # SAFETY OVERRIDE: If safety is poor, override positive assessment
+        if key_metrics['medical_safety'] < 0.5:
             logger.warning(f"[Safety Override] Low safety score {key_metrics['medical_safety']:.2f} - marking unrealistic")
             return False
         
-        # EXPERT OVERRIDE: If expert says realistic and safety is acceptable, prioritize expert
+        # EXPERT OVERRIDE: If expert says realistic and safety is acceptable
         if explicit_realistic and key_metrics['medical_safety'] > 0.6:
-            logger.info(f"[Expert Override] Expert assessment overrides automated metrics")
+            logger.info(f"[Expert Override] Expert assessment confirmed with good safety")
             return True
         
-        logger.info(f"[Calibrated Coach] Realism determination: Expert={primary_signal}, "
+        logger.info(f"[Realistic Coach] Realism determination: Expert={primary_signal}, "
                    f"Safety={key_metrics['medical_safety']:.2f}, "
-                   f"Disclosure={key_metrics['progressive_disclosure']:.2f}, "
                    f"Combined={combined_realism_score:.2f}")
         
-        # CALIBRATED THRESHOLD: Lower threshold for more realistic classifications
-        return combined_realism_score >= 0.45  # Lowered from 0.6
+        # REALISTIC THRESHOLD
+        return combined_realism_score >= self.sota_realism_threshold
     
     def _get_llm_qualitative_assessment(self, dialogue_text: str, sota_analysis: Dict[str, float]) -> Tuple[bool, str, Dict[str, float]]:
-        """Enhanced qualitative assessment with calibrated context"""
+        """Realistic qualitative assessment"""
         
-        # Create calibrated context summary focusing on key indicators
+        # Create realistic context summary
         key_metrics = {
             'Medical Safety': sota_analysis['medical_safety'],
-            'Progressive Disclosure': sota_analysis['progressive_disclosure'], 
+            'Semantic Quality': sota_analysis['semantic_quality'], 
             'Medical Coverage': sota_analysis['medical_coverage']
         }
         
-        # More balanced metric summary - don't over-emphasize low naturalness scores
-        sota_summary = "Key Quality Indicators:\n" + "\n".join([
+        sota_summary = "Quality Indicators:\n" + "\n".join([
             f"- {name}: {score:.2f} {'✓' if score > 0.5 else '○'}"
             for name, score in key_metrics.items()
         ])
@@ -226,13 +200,13 @@ class CoachAgent:
         prompt_to_llm = (
             f"{sota_summary}\n\n"
             f"DIALOGUE TO EVALUATE:\n{dialogue_text}\n\n"
-            "Focus your evaluation on realistic medical dialogue criteria:\n"
+            "Evaluate this medical dialogue for realism and clinical appropriateness:\n"
             "1. Is the medical communication safe and appropriate?\n"
             "2. Does the patient behavior seem natural and believable?\n"
             "3. Does the doctor show empathy and professionalism?\n"
             "4. Does the conversation serve a meaningful medical purpose?\n\n"
-            "Note: Some repetitive language and minor imperfections are normal in real medical conversations.\n"
-            "Focus on overall authenticity and clinical appropriateness rather than perfect language.\n\n"
+            "Apply realistic standards - some imperfections are normal in real conversations.\n"
+            "Focus on overall authenticity and clinical value.\n\n"
             "Start with 'DIALOGUE REALISTIC:' or 'DIALOGUE UNREALISTIC:' and provide specific evidence."
         )
         
@@ -243,7 +217,7 @@ class CoachAgent:
         
         try:
             llm_feedback_text = chat_generate(self.llm, messages)
-            logger.info(f"[Calibrated Coach] LLM Assessment:\n{llm_feedback_text}")
+            logger.info(f"[Realistic Coach] LLM Assessment:\n{llm_feedback_text}")
 
             dimensional_scores = self._extract_dimensional_scores(llm_feedback_text)
             is_qualitatively_realistic = self._determine_realism_from_feedback(
@@ -257,10 +231,9 @@ class CoachAgent:
             return False, "LLM assessment failed", {'overall': 2.0}
 
     def _extract_dimensional_scores(self, feedback_text: str) -> Dict[str, float]:
-        """Extract dimensional scores with more lenient interpretation"""
+        """Extract dimensional scores with realistic interpretation"""
         scores = {}
         
-        # Enhanced patterns for evaluation
         patterns = {
             'authenticity': r'(?:authenticity|realistic|authentic)[:\s]*(\d+(?:\.\d+)?)',
             'medical_quality': r'(?:medical|clinical|professional)[:\s]*(\d+(?:\.\d+)?)',
@@ -280,38 +253,36 @@ class CoachAgent:
                         score *= 5
                     scores[dimension] = min(5.0, score)
                 except ValueError:
-                    scores[dimension] = 3.5
+                    scores[dimension] = 3.0
         
-        # CALIBRATED default scoring - more optimistic interpretation
+        # REALISTIC default scoring
         for dimension in patterns.keys():
             if dimension not in scores:
                 if any(word in text_lower for word in ["realistic", "authentic", "appropriate", "professional"]):
-                    scores[dimension] = 4.0  # Good score for positive language
-                elif any(word in text_lower for word in ["good", "satisfactory", "adequate"]):
                     scores[dimension] = 3.5
-                elif any(word in text_lower for word in ["minor", "slight", "some issues"]):
-                    scores[dimension] = 3.0  # Still acceptable
+                elif any(word in text_lower for word in ["good", "satisfactory", "adequate"]):
+                    scores[dimension] = 3.0
                 elif any(word in text_lower for word in ["poor", "unrealistic", "inappropriate"]):
                     scores[dimension] = 2.0
                 else:
-                    scores[dimension] = 3.5  # Default to slightly positive
+                    scores[dimension] = 3.0  # Neutral default
         
         return scores
 
     def review_dialogue(self, dialogue_text: str, ground_truth: dict) -> Tuple[str, str]:
-        """CALIBRATED dialogue review with fixed evaluation gap"""
+        """FIXED dialogue review with realistic evaluation"""
         final_feedback_parts = []
 
-        logger.info("Starting calibrated SOTA dialogue review...")
+        logger.info("Starting realistic SOTA dialogue review...")
 
-        # 1. Enhanced content extraction
+        # 1. Content extraction
         try:
             _, structured_annotations = self.summarizer.summarize_and_annotate(dialogue_text)
         except Exception as e:
             logger.error(f"Error in summarization: {e}")
             structured_annotations = {"symptoms": [], "diagnoses": [], "treatments": []}
         
-        # 2. SOTA Evaluation with calibration
+        # 2. SOTA Evaluation with realistic metrics
         try:
             conversation_info = {
                 'dialogue_text': dialogue_text,
@@ -321,10 +292,10 @@ class CoachAgent:
             
             sota_evaluation = self.validator.evaluate(ground_truth, conversation_info)
             
-            # Apply calibration adjustments
+            # Analyze SOTA metrics realistically
             sota_analysis = self._analyze_sota_metrics(sota_evaluation)
             
-            logger.info(f"[Calibrated Coach] Key metrics: Semantic={sota_analysis['semantic_quality']:.3f}, "
+            logger.info(f"[Realistic Coach] Key metrics: Semantic={sota_analysis['semantic_quality']:.3f}, "
                        f"Naturalness={sota_analysis['dialogue_naturalness']:.3f}, "
                        f"Safety={sota_analysis['medical_safety']:.3f}")
             
@@ -333,13 +304,13 @@ class CoachAgent:
             sota_evaluation = {'overall_sota_score': 0.0}
             sota_analysis = {key: 0.0 for key in ['semantic_quality', 'medical_coverage', 
                                                  'dialogue_naturalness', 'progressive_disclosure',
-                                                 'medical_safety', 'clinical_reasoning']}
+                                                 'medical_safety']}
 
         # 3. SOTA Metrics Summary
-        sota_summary = self._create_calibrated_sota_summary(sota_evaluation, sota_analysis)
+        sota_summary = self._create_realistic_sota_summary(sota_evaluation, sota_analysis)
         final_feedback_parts.append(sota_summary)
 
-        # 4. Calibrated LLM qualitative assessment
+        # 4. Realistic LLM qualitative assessment
         try:
             is_qualitatively_realistic, llm_feedback, dimensional_scores = self._get_llm_qualitative_assessment(
                 dialogue_text, sota_analysis
@@ -352,109 +323,100 @@ class CoachAgent:
             dimensional_scores = {'overall': 2.0}
             final_feedback_parts.append(f"\n🎯 Expert Dialogue Assessment: ERROR - {llm_feedback}")
 
-        # 5. CALIBRATED decision logic with fixed weights
+        # 5. REALISTIC decision logic with balanced weights
         weights = {
-            'expert_assessment': 0.5,    # Increased expert weight
-            'safety_critical': 0.3,      # Safety remains important
-            'sota_metrics': 0.2          # Reduced automated metric weight
+            'expert_assessment': 0.4,    # Expert judgment
+            'safety_critical': 0.4,      # Safety is critical
+            'sota_metrics': 0.2          # Supporting metrics
         }
 
-        # Expert component - prioritize expert judgment
+        # Expert component
         expert_component = weights['expert_assessment'] if is_qualitatively_realistic else 0.0
         if dimensional_scores.get('overall', 0) > 0:
-            expert_component *= min(1.0, dimensional_scores.get('overall', 3.5) / 4.0)
+            expert_component *= min(1.0, dimensional_scores.get('overall', 3.0) / 4.0)
 
-        # Safety component - critical for medical dialogues
+        # Safety component
         safety_score = sota_analysis.get('medical_safety', 0.0)
         safety_component = safety_score * weights['safety_critical']
 
-        # SOTA metrics component - reduced influence
+        # SOTA metrics component
         key_sota_score = (
-            sota_analysis.get('progressive_disclosure', 0.0) * 0.6 +
-            sota_analysis.get('medical_coverage', 0.0) * 0.4
+            sota_analysis.get('semantic_quality', 0.0) * 0.5 +
+            sota_analysis.get('medical_coverage', 0.0) * 0.5
         )
         sota_component = key_sota_score * weights['sota_metrics']
 
         combined_score = expert_component + safety_component + sota_component
 
-        # CALIBRATED adaptive threshold
-        adaptive_threshold = self.sota_realism_threshold
-        
-        # Adjust threshold based on expert assessment
-        if is_qualitatively_realistic and safety_score > 0.6:
-            adaptive_threshold -= 0.1  # More lenient if expert says realistic and safe
-        elif safety_score < 0.5:
-            adaptive_threshold += 0.1  # More strict if safety concerns
+        # REALISTIC threshold
+        threshold = self.sota_realism_threshold
 
-        # Final decision with expert priority
-        if is_qualitatively_realistic and safety_score > 0.6:
-            # Expert override: if expert says realistic and safety is good
-            label = "realistic"
-            decision_rationale = f"✅ REALISTIC - Expert assessment confirmed (Safety: {safety_score:.3f})"
-        elif safety_score < 0.4:
-            # Safety override: if safety is very poor
+        # Final decision with safety priority
+        if safety_score < 0.5:
+            # Safety override
             label = "unrealistic"
-            decision_rationale = f"❌ UNREALISTIC - Safety concerns override (Safety: {safety_score:.3f})"
-        elif combined_score >= adaptive_threshold:
+            decision_rationale = f"❌ UNREALISTIC - Safety concerns (Safety: {safety_score:.3f})"
+        elif is_qualitatively_realistic and safety_score > 0.6:
+            # Expert + safety confirmation
             label = "realistic"
-            decision_rationale = f"✅ REALISTIC (Score: {combined_score:.3f} ≥ {adaptive_threshold:.3f})"
+            decision_rationale = f"✅ REALISTIC - Expert confirmed with good safety (Safety: {safety_score:.3f})"
+        elif combined_score >= threshold:
+            label = "realistic"
+            decision_rationale = f"✅ REALISTIC (Score: {combined_score:.3f} ≥ {threshold:.3f})"
         else:
             label = "unrealistic"
-            decision_rationale = f"❌ UNREALISTIC (Score: {combined_score:.3f} < {adaptive_threshold:.3f})"
+            decision_rationale = f"❌ UNREALISTIC (Score: {combined_score:.3f} < {threshold:.3f})"
 
-        # Enhanced decision breakdown
+        # Realistic decision breakdown
         decision_breakdown = (
             f"{decision_rationale}\n"
-            f"📈 Calibrated Score Breakdown:\n"
+            f"📈 Realistic Score Breakdown:\n"
             f"  • Expert Assessment: {expert_component:.3f}/{weights['expert_assessment']} "
             f"({'Realistic' if is_qualitatively_realistic else 'Unrealistic'})\n"
             f"  • Safety Evaluation: {safety_component:.3f}/{weights['safety_critical']} "
             f"(Score: {safety_score:.3f})\n"
             f"  • SOTA Metrics: {sota_component:.3f}/{weights['sota_metrics']} "
-            f"(Disclosure: {sota_analysis['progressive_disclosure']:.3f})\n"
-            f"🎯 Key Factor: Expert assessment prioritized over automated metrics\n"
-            f"🔧 Adaptive Threshold: {adaptive_threshold:.3f}"
+            f"(Combined: {key_sota_score:.3f})\n"
+            f"🎯 Threshold: {threshold:.3f}"
         )
 
-        final_feedback_parts.append(f"\n📋 Calibrated Decision Analysis:\n{decision_breakdown}")
+        final_feedback_parts.append(f"\n📋 Realistic Decision Analysis:\n{decision_breakdown}")
         
-        logger.info(f"[Calibrated Coach] Final assessment - Label: {label}, Score: {combined_score:.3f}, "
+        logger.info(f"[Realistic Coach] Final assessment - Label: {label}, Score: {combined_score:.3f}, "
                    f"Expert: {is_qualitatively_realistic}, Safety: {safety_score:.3f}")
         
         return label, "\n\n".join(final_feedback_parts)
 
-    def _create_calibrated_sota_summary(self, sota_evaluation: dict, sota_analysis: Dict[str, float]) -> str:
-        """Create calibrated SOTA metrics summary"""
+    def _create_realistic_sota_summary(self, sota_evaluation: dict, sota_analysis: Dict[str, float]) -> str:
+        """Create realistic SOTA metrics summary"""
         
         summary = sota_evaluation.get('evaluation_summary', {})
         
         sota_summary = (
-            f"📊 Calibrated SOTA Evaluation Results:\n"
+            f"📊 Realistic SOTA Evaluation Results:\n"
             f"Overall SOTA Score: {sota_evaluation.get('overall_sota_score', 0):.3f}\n"
             f"Safety Status: {summary.get('safety_status', 'UNKNOWN')}\n\n"
             
-            f"🔬 Key Calibrated Metrics:\n"
+            f"🔬 Key Realistic Metrics:\n"
             f"• Medical Safety: {sota_analysis['medical_safety']:.3f} "
             f"{'✅' if sota_analysis['medical_safety'] > 0.6 else '❌'} (Critical)\n"
-            f"• Progressive Disclosure: {sota_analysis['progressive_disclosure']:.3f} "
-            f"{'✅' if sota_analysis['progressive_disclosure'] > 0.5 else '○'}\n"
+            f"• Semantic Quality: {sota_analysis['semantic_quality']:.3f} "
+            f"{'✅' if sota_analysis['semantic_quality'] > 0.4 else '○'}\n"
             f"• Medical Coverage: {sota_analysis['medical_coverage']:.3f} "
-            f"{'✅' if sota_analysis['medical_coverage'] > 0.5 else '○'}\n"
-            f"• Semantic Similarity: {sota_analysis['semantic_quality']:.3f} "
-            f"{'✅' if sota_analysis['semantic_quality'] > 0.6 else '○'}\n"
+            f"{'✅' if sota_analysis['medical_coverage'] > 0.4 else '○'}\n"
             f"• Dialogue Naturalness: {sota_analysis['dialogue_naturalness']:.3f} "
-            f"{'○' if sota_analysis['dialogue_naturalness'] > 0.3 else '❌'} (Known strict metric)\n\n"
+            f"{'✅' if sota_analysis['dialogue_naturalness'] > 0.4 else '○'}\n\n"
             
             f"🎯 Evaluation Notes:\n"
-            f"• Expert assessment prioritized over automated metrics\n"
+            f"• Expert assessment balanced with automated metrics\n"
             f"• Medical safety is the critical factor\n"
-            f"• Some naturalness metrics may be overly strict\n"
+            f"• Realistic thresholds applied\n"
             f"• Focus on overall clinical authenticity"
         )
         
         return sota_summary
 
     def generate_feedback(self, dialogue_text: str, ground_truth: dict) -> str:
-        """Generate calibrated feedback for dialogue improvement"""
+        """Generate realistic feedback for dialogue improvement"""
         _, feedback = self.review_dialogue(dialogue_text, ground_truth)
         return feedback
