@@ -1,0 +1,5340 @@
+[
+  {
+    "row_id": 17818,
+    "subject_id": 15776,
+    "hadm_id": 121664,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Yellow eyes (scleral icterus)",
+          "onset": "[**2135-1-15**]",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Dark urine",
+          "onset": "several days prior to [**2135-1-15**]",
+          "duration": "several days",
+          "severity": "not provided"
+        },
+        {
+          "description": "[**Male First Name (un) 1658**]-colored stools",
+          "onset": "several days prior to [**2135-1-15**]",
+          "duration": "several days",
+          "severity": "not provided"
+        },
+        {
+          "description": "Nausea",
+          "onset": "[**2135-3-17**]",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Vomiting",
+          "onset": "[**2135-3-17**]",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Diarrhea",
+          "onset": "[**2135-3-17**]",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Increasing jaundice",
+          "onset": "several weeks prior to [**2135-3-17**]",
+          "duration": "several weeks",
+          "severity": "not provided"
+        },
+        {
+          "description": "bright red blood per rectum",
+          "onset": "2135-3-19",
+          "duration": "not provided",
+          "severity": "significant"
+        },
+        {
+          "description": "drop in hematocrit from 25 to 16",
+          "onset": "2135-3-19",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "melena",
+          "onset": "not provided",
+          "duration": "persistent",
+          "severity": "not provided"
+        },
+        {
+          "description": "decreased urine output",
+          "onset": "at the time of bleeding episodes",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "fatigue",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "weakness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "abdominal distention",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "shortness of breath",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "jaundice",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "marked"
+        },
+        {
+          "description": "drowsiness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "scleral icterus",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "marked"
+        },
+        {
+          "description": "persistent diarrhea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "intermittent nausea and vomiting",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "elevated white blood cell count",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "peak of 38,000"
+        },
+        {
+          "description": "hypoxic respiratory failure",
+          "onset": "hospital day three",
+          "duration": "acute episode, resolved within 48 hours",
+          "severity": "not provided"
+        },
+        {
+          "description": "mild coagulopathy",
+          "onset": "not provided",
+          "duration": "last week of hospitalization",
+          "severity": "INR reached a maximum of 1.7"
+        },
+        {
+          "description": "intermittent tachycardia",
+          "onset": "not provided",
+          "duration": "intermittent",
+          "severity": "not provided"
+        },
+        {
+          "description": "hyperdynamic precordium",
+          "onset": "not provided",
+          "duration": "intermittent",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [
+        {
+          "primary": "Nonobstructive jaundice",
+          "notes": "Found on initial presentation with total serum bilirubin of 18"
+        },
+        {
+          "primary": "Coombs positive hemolytic anemia",
+          "notes": "Found at initial presentation"
+        },
+        {
+          "primary": "Autoimmune hepatitis",
+          "notes": "Presumptive diagnosis; could not be excluded on biopsy"
+        },
+        {
+          "primary": "Drug induced hypersensitivity hepatitis (caused by khat)",
+          "notes": "Presumptive diagnosis; acute hepatitis consistent with drug hypersensitivity reaction on biopsy"
+        },
+        {
+          "primary": "coagulopathy",
+          "notes": "not provided"
+        },
+        {
+          "primary": "acute renal failure",
+          "notes": "increase in creatinine from 1.0 to 3.3; decreased urine output"
+        },
+        {
+          "primary": "ATN (acute tubular necrosis) versus bile acid induced injury",
+          "notes": "muddy brown casts on urine microscopy"
+        },
+        {
+          "primary": "elevated serum immunotransferase levels",
+          "notes": "improved on steroids"
+        },
+        {
+          "primary": "elevated total serum bilirubin",
+          "notes": "total serum bilirubin 73.5"
+        },
+        {
+          "primary": "hepatitis A virus",
+          "notes": "IgG positive, IgM negative"
+        },
+        {
+          "primary": "transient atrial fibrillation",
+          "notes": "as detailed above"
+        },
+        {
+          "primary": "malaria",
+          "notes": "not provided"
+        },
+        {
+          "primary": "drug hypersensitivity reaction (affecting liver)",
+          "notes": "Liver biopsy more consistent with drug hypersensitivity reaction than autoimmune hepatitis."
+        },
+        {
+          "primary": "hepatitis",
+          "notes": "Severe hepatitis with markedly elevated liver function tests."
+        },
+        {
+          "primary": "pancreatitis",
+          "notes": "Amylase and lipase levels markedly elevated."
+        },
+        {
+          "primary": "hyponatremia",
+          "notes": "Attributed to volume depletion from persistent diarrhea."
+        },
+        {
+          "primary": "stably elevated liver function tests",
+          "notes": "Slow, progressive decline plateaued by discharge."
+        },
+        {
+          "primary": "Clostridium difficile colitis",
+          "notes": "Clinical diagnosis made despite negative Clostridium difficile toxin antibody, based on elevated WBC and diarrhea"
+        },
+        {
+          "primary": "hypoxic respiratory failure due to volume overload",
+          "notes": "Occurred on hospital day three, required intubation and transfer to SICU"
+        },
+        {
+          "primary": "mild coagulopathy secondary to severe hepatitis",
+          "notes": "INR reached a maximum of 1.7"
+        },
+        {
+          "primary": "intermittent tachycardia likely due to mild intervascular volume depletion",
+          "notes": "No evidence of pulmonary hypertension on echocardiogram"
+        },
+        {
+          "primary": "Acute subfulimnant hepatitis",
+          "notes": "Most likely due to drug hypersensitivity induced by khat."
+        },
+        {
+          "primary": "Gastrointestinal bleed",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Blood loss anemia",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Presumed Clostridium difficile colitis",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Coagulase negative Staphylococcal bacteremia",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Transient acute hypoxic respiratory failure",
+          "notes": "not provided"
+        }
+      ],
+      "Treatment_Options": [
+        {
+          "procedure": "High dose steroids",
+          "details": "Prednisone 60 mg po q day initiated at outside hospital",
+          "treatment": "Steroid therapy for hepatitis",
+          "medications": [
+            {
+              "name": "Prednisone",
+              "purpose": "Treatment of hepatitis (autoimmune or drug-induced)",
+              "dosage": "60 mg",
+              "frequency": "po q day"
+            }
+          ]
+        },
+        {
+          "procedure": "Transjugular liver biopsy",
+          "details": "Attempted at outside hospital but aborted due to rapid atrial fibrillation; later performed on [**2135-3-18**]",
+          "treatment": "Diagnostic procedure for hepatitis",
+          "medications": []
+        },
+        {
+          "procedure": "fresh-frozen plasma administration",
+          "details": "administered for coagulopathy",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "fresh-frozen plasma",
+              "purpose": "treat coagulopathy",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "vitamin K administration",
+          "details": "administered for coagulopathy",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "vitamin K",
+              "purpose": "treat coagulopathy",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "steroid therapy",
+          "details": "dexamethasone 3.75 mg IV q8h",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "dexamethasone",
+              "purpose": "steroid therapy",
+              "dosage": "3.75 mg IV",
+              "frequency": "q8h"
+            }
+          ]
+        },
+        {
+          "procedure": "packed red blood cell transfusion",
+          "details": "to maintain hematocrit",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "packed red blood cells",
+              "purpose": "maintain hematocrit",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "EGD (esophagogastroduodenoscopy)",
+          "details": "demonstrated red blood in upper and middle thirds of esophagus; no clear source of bleeding identified",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "transfer to MICU at outside hospital",
+          "details": "for management of acute renal failure and ongoing bleeding",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "transfer to Surgical Intensive Care Unit for liver transplant evaluation",
+          "details": "at Hospital1 69 on 2135-3-20",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "lactulose administration",
+          "details": "medication at time of transfer",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "lactulose",
+              "purpose": "not provided",
+              "dosage": "20 mL po",
+              "frequency": "qid"
+            }
+          ]
+        },
+        {
+          "procedure": "phytonadione administration",
+          "details": "medication at time of transfer",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "phytonadione",
+              "purpose": "not provided",
+              "dosage": "10 mg subQ",
+              "frequency": "q day"
+            }
+          ]
+        },
+        {
+          "procedure": "morphine sulfate administration",
+          "details": "medication at time of transfer, for pain",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "morphine sulfate",
+              "purpose": "pain",
+              "dosage": "1-2 mg IV",
+              "frequency": "q4h prn"
+            }
+          ]
+        },
+        {
+          "procedure": "promethazine administration",
+          "details": "medication at time of transfer, for nausea",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "promethazine",
+              "purpose": "nausea",
+              "dosage": "25 mg IV",
+              "frequency": "q6h prn"
+            }
+          ]
+        },
+        {
+          "procedure": "liver transplant listing",
+          "details": "Patient was initially placed on the list for a liver transplant due to severity of hepatitis.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "NPO (nothing by mouth)",
+          "details": "Patient made NPO due to concern for pancreatitis.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "steroid discontinuation",
+          "details": "Steroids discontinued on hospital day two after liver biopsy results.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "steroids",
+              "purpose": "treatment of presumed autoimmune hepatitis",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "diet advancement",
+          "details": "By hospital day 3-27, patient was tolerating sips of clears and diet was slowly advanced.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "hemodialysis",
+          "details": "Started soon after hospitalization for marked uremia; several courses as needed; last on [**3-26**].",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "intravenous fluids",
+          "details": "Adjusted as necessary based on serum sodium and bicarbonate; aggressive volume resuscitation reinstituted.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "hypertonic saline",
+          "details": "Given for one day with increase in serum sodium.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "empiric antibiotic therapy",
+          "details": "Vancomycin started on [**3-23**] for gram-positive cocci in blood culture.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Vancomycin",
+              "purpose": "empiric treatment for gram-positive cocci bacteremia",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "medication for renal failure",
+          "details": "Sevelamer and epoetin started during severe acute renal failure, discontinued prior to discharge.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Sevelamer",
+              "purpose": "management of hyperphosphatemia in renal failure",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "epoetin",
+              "purpose": "management of anemia in renal failure",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Vancomycin course",
+          "details": "Seven day course for coagulase negative Staphylococcus",
+          "treatment": "antibiotic therapy",
+          "medications": [
+            {
+              "name": "Vancomycin",
+              "purpose": "Treatment of coagulase negative Staphylococcus infection",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Metronidazole course",
+          "details": "10 day course for empiric coverage of Clostridium difficile",
+          "treatment": "antibiotic therapy",
+          "medications": [
+            {
+              "name": "Metronidazole",
+              "purpose": "Empiric coverage for Clostridium difficile colitis",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Intubation and mechanical ventilation",
+          "details": "For acute hypoxic respiratory failure, patient transferred to SICU and extubated within 48 hours",
+          "treatment": "respiratory support",
+          "medications": []
+        },
+        {
+          "procedure": "Oral phytonadione administration",
+          "details": "Initially administered for coagulopathy, no improvement",
+          "treatment": "vitamin K therapy",
+          "medications": [
+            {
+              "name": "Phytonadione (oral)",
+              "purpose": "Treatment of coagulopathy",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Subcutaneous phytonadione administration",
+          "details": "Started for two days prior to discharge due to inadequate intestinal absorption",
+          "treatment": "vitamin K therapy",
+          "medications": [
+            {
+              "name": "Phytonadione (subQ)",
+              "purpose": "Treatment of coagulopathy",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Transthoracic echocardiogram",
+          "details": "Performed to evaluate for pulmonary hypertension; no evidence found",
+          "treatment": "diagnostic evaluation",
+          "medications": []
+        },
+        {
+          "procedure": "Medication management",
+          "details": "Patient instructed to take all medications as prescribed and follow up with blood tests and liver clinic.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Ursodiol",
+              "purpose": "not provided",
+              "dosage": "300 mg",
+              "frequency": "po tid"
+            },
+            {
+              "name": "Pantoprazole",
+              "purpose": "not provided",
+              "dosage": "40 mg",
+              "frequency": "po q day"
+            }
+          ]
+        }
+      ]
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2100-12-15",
+        "Age": 34,
+        "Sex": "M",
+        "Religion": "MUSLIM",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "BLACK/AFRICAN AMERICAN",
+        "Insurance": "Government",
+        "Admission_Type": "URGENT",
+        "Admission_Date": "2135-03-20 21:47:00",
+        "Discharge_Date": "2135-04-08 15:46:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "No history of alcohol abuse, illicit drug abuse, or exposure to other potentially toxic substances. History of chewing khat (Somali herb) for energy. No khat use for three months prior to initial presentation."
+      },
+      "Allergies": [
+        "Bactrim (causes edema)"
+      ],
+      "Current_Medications": [
+        {
+          "name": "dexamethasone",
+          "purpose": "steroid therapy",
+          "dosage": "3.75 mg IV",
+          "frequency": "q8h"
+        },
+        {
+          "name": "lactulose",
+          "purpose": "not provided",
+          "dosage": "20 mL po",
+          "frequency": "qid"
+        },
+        {
+          "name": "phytonadione",
+          "purpose": "not provided",
+          "dosage": "10 mg subQ",
+          "frequency": "q day"
+        },
+        {
+          "name": "morphine sulfate",
+          "purpose": "pain",
+          "dosage": "1-2 mg IV",
+          "frequency": "q4h prn"
+        },
+        {
+          "name": "promethazine",
+          "purpose": "nausea",
+          "dosage": "25 mg IV",
+          "frequency": "q6h prn"
+        },
+        {
+          "name": "steroids",
+          "purpose": "treatment of presumed autoimmune hepatitis",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "lactulose",
+          "purpose": "prevention of hepatic encephalopathy",
+          "dosage": "high doses",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Ursodiol",
+          "purpose": "not provided",
+          "dosage": "300 mg",
+          "frequency": "po tid"
+        },
+        {
+          "name": "Pantoprazole",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "po q day"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Yellow eyes."
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.8,
+      "consistency_score": 1.0,
+      "confidence_score": 0.75,
+      "overall_score": 0.9333333333333332,
+      "field_scores": {
+        "symptoms": 0.96,
+        "diagnoses": 1.0,
+        "treatments": 0.896551724137931,
+        "demographics": 0.39999999999999997
+      },
+      "issues": [
+        "Symptom 'drowsiness' not clearly found in original text",
+        "Treatment 'EGD (esophagogastroduodenoscopy)' not clearly found in text",
+        "Treatment 'NPO (nothing by mouth)' not clearly found in text",
+        "Treatment 'Intubation and mechanical ventilation' not clearly found in text",
+        "Age inconsistency: stated 34, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ],
+      "advanced_metrics": {
+        "clinical_coherence": 0.542,
+        "safety_score": 1.0,
+        "terminology_accuracy": 0.06172839506172839
+      }
+    }
+  },
+  {
+    "row_id": 17825,
+    "subject_id": 24030,
+    "hadm_id": 178086,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "hematemesis",
+          "onset": "since 4am [**9-16**]",
+          "duration": "about one day PTA",
+          "severity": "not provided"
+        },
+        {
+          "description": "nausea",
+          "onset": "about one day PTA",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "bloody vomiting",
+          "onset": "about one day PTA",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "maroon colored stool",
+          "onset": "not provided",
+          "duration": "per MICU team, 1 week",
+          "severity": "not provided"
+        },
+        {
+          "description": "hip pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "anxious",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "altered mental status (off baseline mental status, not oriented to month, auditory hallucinations, mildly positive asterixis)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "mild"
+        },
+        {
+          "description": "pain in hips",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [
+        {
+          "primary": "Alcoholic cirrhosis",
+          "notes": "History of alcoholic cirrhosis, abstinent from alcohol for 3.5 years"
+        },
+        {
+          "primary": "Hepatic encephalopathy",
+          "notes": "History of hepatic encephalopathy, previously on lactulose and aldactone"
+        },
+        {
+          "primary": "Upper GI bleed secondary to esophageal varices",
+          "notes": "Massive upper GI bleed, banding performed"
+        },
+        {
+          "primary": "Avascular necrosis of bilateral hips",
+          "notes": "Diagnosed by MRI, s/p total hip replacement, second planned"
+        },
+        {
+          "primary": "History of acute pancreatitis",
+          "notes": "Patient was unaware of this diagnosis, informed by physician"
+        },
+        {
+          "primary": "History of alcohol withdrawal seizure",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Cirrhosis of the liver",
+          "notes": "Liver ultrasound showed cirrhosis; not adequately examined for focal lesions."
+        },
+        {
+          "primary": "Gallstones and sludge within the gallbladder",
+          "notes": "Liver ultrasound finding."
+        },
+        {
+          "primary": "Splenomegaly suggesting portal hypertension",
+          "notes": "Liver ultrasound finding."
+        },
+        {
+          "primary": "Encephalopathy",
+          "notes": "Altered mental status, asterixis, treated with lactulose."
+        },
+        {
+          "primary": "Anemia",
+          "notes": "Low Hgb and Hct, required transfusion."
+        },
+        {
+          "primary": "Portal hypertension",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Bleeding Esophageal Varices",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Bilateral Avascular necrosis of the hip",
+          "notes": "not provided"
+        }
+      ],
+      "Treatment_Options": [
+        {
+          "procedure": "Endoscopic Gastroduodenoscopy (EGD) with banding",
+          "details": "EGD performed with banding of two varices near the E-G junction",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Central Line Placement",
+          "details": "Confirmed by chest x-ray",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Medical management for GI bleed and cirrhosis",
+          "details": "Levaquin/Flagyl started prophylactically, nadolol for hypertension, octreotide, nexium IV, 2u FFP, 2u PRBC",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Levaquin",
+              "purpose": "prophylactic antibiotic",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Flagyl",
+              "purpose": "prophylactic antibiotic",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Nadolol",
+              "purpose": "hypertension, portal hypertension",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Octreotide",
+              "purpose": "variceal bleeding",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Nexium IV",
+              "purpose": "gastric acid suppression",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "FFP",
+              "purpose": "coagulopathy, volume resuscitation",
+              "dosage": "2 units",
+              "frequency": "not provided"
+            },
+            {
+              "name": "PRBC",
+              "purpose": "anemia, volume resuscitation",
+              "dosage": "2 units",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Blood transfusion",
+          "details": "3 units of blood given during admission until hematocrit stabilized.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Lactulose therapy",
+          "details": "Restarted to control encephalopathy.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Lactulose",
+              "purpose": "Control hepatic encephalopathy",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Repeat EGD",
+          "details": "To be performed in two weeks by gastroenterologist.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Sclerotherapy",
+          "details": "Recent sclerotherapy at outside hospital.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Medication management",
+          "details": "Medications on admission included isosorbide dinitrate and nadolol.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Isosorbide dinitrate",
+              "purpose": "not provided",
+              "dosage": "5 mg",
+              "frequency": "t.i.d."
+            },
+            {
+              "name": "Nadolol",
+              "purpose": "not provided",
+              "dosage": "40 mg",
+              "frequency": "b.i.d."
+            }
+          ]
+        },
+        {
+          "procedure": "Repeat endoscopy (EGD)",
+          "details": "Recommended in the next week",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Discontinue Medication",
+          "details": "Discontinue taking isosorbide dinitrate (Isordil)",
+          "treatment": "not provided",
+          "medications": []
+        }
+      ]
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2143-08-12",
+        "Age": 51,
+        "Sex": "M",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2194-09-18 18:15:00",
+        "Discharge_Date": "2194-09-22 14:30:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "1. Alcoholic cirrhosis. 2. Hepatic encephalopathy. 3. Massive upper GI bleed secondary to esophageal varices. 4. Avascular necrosis of bilateral hips by MRI, now s/p THR, 2nd planned for [**10-24**]. 5. History of acute pancreatitis. 6. History of alcohol withdrawal seizure. 7. Hepatitis C negative, hepatitis surface antigen negative, hepatitis B surface antibody positive, hepatitis B core antibody negative, hepatitis A antibody negative."
+      },
+      "Allergies": [
+        "Erythromycin Base"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Levaquin",
+          "purpose": "prophylactic antibiotic",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Flagyl",
+          "purpose": "prophylactic antibiotic",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Nadolol",
+          "purpose": "hypertension, portal hypertension",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Octreotide",
+          "purpose": "variceal bleeding",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Nexium IV",
+          "purpose": "gastric acid suppression",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Isosorbide dinitrate",
+          "purpose": "not provided",
+          "dosage": "5 mg",
+          "frequency": "t.i.d."
+        },
+        {
+          "name": "Nadolol",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "b.i.d."
+        },
+        {
+          "name": "Protonix",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "b.i.d."
+        },
+        {
+          "name": "Benadryl",
+          "purpose": "for sleep",
+          "dosage": "50 mg",
+          "frequency": "h.s."
+        },
+        {
+          "name": "Motrin",
+          "purpose": "not provided",
+          "dosage": "800 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Albuterol",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "PRN"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Nadolol",
+          "purpose": "not provided",
+          "dosage": "20 mg",
+          "frequency": "Two (2) Tablet PO twice a day"
+        },
+        {
+          "name": "Ciprofloxacin",
+          "purpose": "not provided",
+          "dosage": "500 mg",
+          "frequency": "One (1) Tablet PO Q12H (every 12 hours) for 7 days"
+        },
+        {
+          "name": "Lactulose",
+          "purpose": "not provided",
+          "dosage": "10 g/15 mL",
+          "frequency": "Thirty (30) ML PO twice a day"
+        },
+        {
+          "name": "Oxycodone-Acetaminophen",
+          "purpose": "for pain",
+          "dosage": "5-325 mg",
+          "frequency": "One (1) Tablet PO Q4-6H (every 4 to 6 hours) as needed"
+        },
+        {
+          "name": "Pantoprazole",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "One (1) Recon Soln Intravenous Q12H (every 12 hours)"
+        },
+        {
+          "name": "Benadryl",
+          "purpose": "for insomnia",
+          "dosage": "50 mg",
+          "frequency": "One (1) Capsule PO at bedtime as needed"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "GIB / TIPS eval s/p banding from [**Hospital 5871**] Hospital"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.9,
+      "consistency_score": 1.0,
+      "confidence_score": 0.85,
+      "overall_score": 0.9666666666666667,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 0.9285714285714286,
+        "treatments": 1.0,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Diagnosis 'Anemia' not clearly supported by text",
+        "Age inconsistency: stated 51, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks"
+      ],
+      "advanced_metrics": {
+        "clinical_coherence": 0.55,
+        "safety_score": 1.0,
+        "terminology_accuracy": 0.125
+      }
+    }
+  },
+  {
+    "row_id": 17828,
+    "subject_id": 32789,
+    "hadm_id": 162014,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "left arm numbness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "dizziness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "seizure with left eye deviation and left facial twitching",
+          "onset": "not provided",
+          "duration": "a few minutes",
+          "severity": "not provided"
+        },
+        {
+          "description": "decreased responsiveness post-seizure",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "respiratory distress with desaturation to upper-80's and breathing 40bpm",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "persistent facial twitching on the left",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "unresponsive",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "No response to noxious stimuli in the limbs",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Plantar response was mute bilaterally",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Seizure",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Atrial fibrillation with rapid ventricular response (afib with RVR)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Hypotension",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "vague low back pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "decreased hematocrit",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "cloudiness of thinking",
+          "onset": "not provided",
+          "duration": "transient",
+          "severity": "not provided"
+        },
+        {
+          "description": "right wrist pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "cloudy thinking",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "trouble speaking",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "trouble swallowing",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "gait problems",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [
+        {
+          "primary": "status epilepticus",
+          "notes": "Presented with multiple seizures, persistent left facial twitching, and unresponsiveness."
+        },
+        {
+          "primary": "respiratory distress",
+          "notes": "Desaturation to upper-80's, breathing 40bpm, required intubation."
+        },
+        {
+          "primary": "hypertension",
+          "notes": "History of HTN."
+        },
+        {
+          "primary": "hyperlipidemia",
+          "notes": "History of HLD."
+        },
+        {
+          "primary": "Meningitis (suspected)",
+          "notes": "Empiric treatment started; diagnosis not confirmed due to unsuccessful lumbar puncture"
+        },
+        {
+          "primary": "Atrial fibrillation with rapid ventricular response",
+          "notes": "Developed during hospital course; rate controlled with Diltiazem"
+        },
+        {
+          "primary": "Small infarct (stroke)",
+          "notes": "MRI showed small infarct, felt to be the cause of seizure"
+        },
+        {
+          "primary": "Seizure",
+          "notes": "Thought to be secondary to acute infarct. Initially treated with Dilantin and required reloading several times. Transitioned to keppra to avoid drug-drug interactions with coumadin."
+        },
+        {
+          "primary": "Retroperitoneal Hematoma",
+          "notes": "Large right sided retroperitoneal hemorrhage, likely spontaneous in the setting of anticoagulation. Required transfusion and ICU care."
+        },
+        {
+          "primary": "New onset atrial fibrillation",
+          "notes": "Difficult to control with medications alone. Managed with amiodarone, metoprolol, and DC cardioversion. Mini-Maze procedure planned."
+        },
+        {
+          "primary": "Acute infarct",
+          "notes": "Likely embolic in setting of new onset afib. Complicated by RP hematoma. Currently on aspirin alone."
+        },
+        {
+          "primary": "Depression",
+          "notes": "Started on celexa. Consider transition from keppra if mood side effects."
+        },
+        {
+          "primary": "Stroke (R frontal/embolic)",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Atrial fibrillation with rapid ventricular response, s/p cardioversion",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Retroperitoneal bleed s/p blood transfusion and FFP",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Right wrist abscess (MRSA+ wound)",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Cellulitis in the lower back at the site of the LP attempts",
+          "notes": "not provided"
+        }
+      ],
+      "Treatment_Options": [
+        {
+          "procedure": "intubation",
+          "details": "Elective intubation due to respiratory distress and desaturation.",
+          "treatment": "Airway management",
+          "medications": []
+        },
+        {
+          "procedure": "LP attempted",
+          "details": "Lumbar puncture attempted.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "seizure management",
+          "details": "Acute management of status epilepticus.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "ativan",
+              "purpose": "seizure control",
+              "dosage": "2mg IV",
+              "frequency": "administered at 5:06pm"
+            },
+            {
+              "name": "etomidate",
+              "purpose": "sedation for intubation",
+              "dosage": "not provided",
+              "frequency": "administered at 5:08pm"
+            },
+            {
+              "name": "succinylcholine",
+              "purpose": "paralysis for intubation",
+              "dosage": "not provided",
+              "frequency": "administered at 5:08pm"
+            },
+            {
+              "name": "vecuronium",
+              "purpose": "paralysis",
+              "dosage": "not provided",
+              "frequency": "administered at 17:13"
+            },
+            {
+              "name": "dilantin",
+              "purpose": "seizure prophylaxis",
+              "dosage": "2000mg IV (20mg/kg)",
+              "frequency": "not provided"
+            },
+            {
+              "name": "propofol",
+              "purpose": "sedation",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Intubation for airway protection",
+          "details": "Performed in the emergency department",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Empiric treatment for meningitis",
+          "details": "Started on admission to ICU",
+          "treatment": "Empiric antibiotics (specific agents not provided)",
+          "medications": []
+        },
+        {
+          "procedure": "Rate control for atrial fibrillation",
+          "details": "Developed afib with RVR, rate controlled with Diltiazem",
+          "treatment": "Diltiazem",
+          "medications": [
+            {
+              "name": "Diltiazem",
+              "purpose": "Rate control for atrial fibrillation",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Anticonvulsant therapy",
+          "details": "Initially treated with Dilantin, transitioned to keppra to avoid drug-drug interactions with coumadin.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Dilantin",
+              "purpose": "Seizure control",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Keppra",
+              "purpose": "Seizure control",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Anticoagulation management",
+          "details": "Transition from heparin drip to coumadin in setting of new onset atrial fibrillation. Complicated by retroperitoneal hemorrhage.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Heparin",
+              "purpose": "Anticoagulation",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Coumadin",
+              "purpose": "Anticoagulation",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Blood transfusion",
+          "details": "Received 10 units of PRBC's and 8 units of FFP for retroperitoneal hemorrhage.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Diuresis",
+          "details": "Diuresed with lasix once hemodynamically stable after pulmonary edema.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Lasix",
+              "purpose": "Diuresis",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "DC cardioversion",
+          "details": "Performed after normal TEE for atrial fibrillation. Second cardioversion planned but averted after return to sinus rhythm.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Medical management of atrial fibrillation",
+          "details": "Controlled with amiodarone and metoprolol.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Amiodarone",
+              "purpose": "Atrial fibrillation control",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Metoprolol",
+              "purpose": "Atrial fibrillation control",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Mini-Maze procedure",
+          "details": "Planned for 2 weeks post-discharge for atrial fibrillation. Pre-operative evaluation including MRI of the heart completed as inpatient. Outpatient adenosine MIBI to be performed prior to procedure.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Antiplatelet therapy",
+          "details": "Currently on aspirin alone for acute infarct.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Aspirin",
+              "purpose": "Antiplatelet therapy",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Antidepressant therapy",
+          "details": "Started on celexa for depression. Consider transition from keppra if mood side effects.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Celexa",
+              "purpose": "Depression",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Incision and drainage of right wrist abscess",
+          "details": "Performed by vascular surgery for MRSA+ abscess at right wrist",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Wound care",
+          "details": "Normal saline wet-to-dry dressing changes three times daily at the wrist",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Antibiotic therapy for MRSA+ wound",
+          "details": "Vancomycin 1 g IV q12h for 3 weeks, continued as outpatient via PICC",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Vancomycin",
+              "purpose": "Treatment of MRSA+ wound",
+              "dosage": "1,000 mg",
+              "frequency": "IV every 12 hours for 18 days"
+            }
+          ]
+        },
+        {
+          "procedure": "Antibiotic therapy for cellulitis",
+          "details": "Keflex initiated for cellulitis in lower back",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Keflex",
+              "purpose": "Treatment of cellulitis",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "mini-Maze cardiac procedure",
+          "details": "Tentatively scheduled for approximately 2 weeks after discharge. Patient to call Dr. [Name (NI) 9379] office to confirm scheduling.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "outpatient adenosine MIBI",
+          "details": "Order placed to be performed prior to the mini-Maze procedure. Patient to call Dr. [Name (NI) 1565] office to determine timing and make arrangements.",
+          "treatment": "not provided",
+          "medications": []
+        }
+      ]
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2061-01-09",
+        "Age": 54,
+        "Sex": "F",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2115-10-15 18:41:00",
+        "Discharge_Date": "2115-11-04 17:30:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "HTN, HLD"
+      },
+      "Allergies": [
+        "No Known Allergies to Drugs"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Phenytoin",
+          "purpose": "Seizure prophylaxis or treatment",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Flovent",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Zocor",
+          "purpose": "not provided",
+          "dosage": "10",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Atenolol",
+          "purpose": "not provided",
+          "dosage": "50",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Neurontin",
+          "purpose": "back pain",
+          "dosage": "300mg",
+          "frequency": "qhs"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Atorvastatin",
+          "purpose": "not provided",
+          "dosage": "40 mg",
+          "frequency": "PO daily"
+        },
+        {
+          "name": "Famotidine",
+          "purpose": "not provided",
+          "dosage": "20 mg",
+          "frequency": "PO BID"
+        },
+        {
+          "name": "Aspirin",
+          "purpose": "not provided",
+          "dosage": "81 mg",
+          "frequency": "PO daily"
+        },
+        {
+          "name": "Heparin (Porcine)",
+          "purpose": "not provided",
+          "dosage": "5,000 unit/mL",
+          "frequency": "Injection TID"
+        },
+        {
+          "name": "Levetiracetam",
+          "purpose": "not provided",
+          "dosage": "500 mg",
+          "frequency": "PO BID"
+        },
+        {
+          "name": "Citalopram",
+          "purpose": "not provided",
+          "dosage": "20 mg",
+          "frequency": "PO daily"
+        },
+        {
+          "name": "Metoprolol Tartrate",
+          "purpose": "not provided",
+          "dosage": "25 mg",
+          "frequency": "PO BID"
+        },
+        {
+          "name": "Amiodarone",
+          "purpose": "not provided",
+          "dosage": "200 mg",
+          "frequency": "PO twice a day"
+        },
+        {
+          "name": "Furosemide",
+          "purpose": "not provided",
+          "dosage": "20 mg",
+          "frequency": "PO BID"
+        },
+        {
+          "name": "Docusate Sodium",
+          "purpose": "not provided",
+          "dosage": "100 mg",
+          "frequency": "PO BID"
+        },
+        {
+          "name": "Bisacodyl",
+          "purpose": "not provided",
+          "dosage": "10 mg",
+          "frequency": "Rectal HS as needed"
+        },
+        {
+          "name": "Acetaminophen",
+          "purpose": "fever",
+          "dosage": "325 mg",
+          "frequency": "PO Q6H as needed"
+        },
+        {
+          "name": "Albuterol",
+          "purpose": "not provided",
+          "dosage": "90 mcg/Actuation",
+          "frequency": "1-2 Puffs Inhalation Q6H as needed"
+        },
+        {
+          "name": "Oxycodone-Acetaminophen",
+          "purpose": "not provided",
+          "dosage": "5-325 mg",
+          "frequency": "1-2 Tablets PO Q6H as needed"
+        },
+        {
+          "name": "Lorazepam",
+          "purpose": "anxiety",
+          "dosage": "0.5 mg",
+          "frequency": "PO Q4H as needed"
+        },
+        {
+          "name": "Heparin Flush CVL",
+          "purpose": "not provided",
+          "dosage": "100 units/ml, 1 ml",
+          "frequency": "IV daily and PRN"
+        },
+        {
+          "name": "Vancomycin",
+          "purpose": "Treatment of MRSA+ wound",
+          "dosage": "1,000 mg",
+          "frequency": "IV every 12 hours for 18 days"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "status epilepticus"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.85,
+      "consistency_score": 1.0,
+      "confidence_score": 0.8,
+      "overall_score": 0.9500000000000001,
+      "field_scores": {
+        "symptoms": 0.95,
+        "diagnoses": 0.8823529411764706,
+        "treatments": 0.8095238095238095,
+        "demographics": 0.39999999999999997
+      },
+      "issues": [
+        "Symptom 'Hypotension' not clearly found in original text",
+        "Diagnosis 'hypertension' not clearly supported by text",
+        "Diagnosis 'hyperlipidemia' not clearly supported by text",
+        "Treatment 'Anticonvulsant therapy' not clearly found in text",
+        "Treatment 'Diuresis' not clearly found in text",
+        "Treatment 'Antiplatelet therapy' not clearly found in text",
+        "Treatment 'Antidepressant therapy' not clearly found in text",
+        "Age inconsistency: stated 54, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ],
+      "advanced_metrics": {
+        "clinical_coherence": 0.55,
+        "safety_score": 1.0,
+        "terminology_accuracy": 0.06896551724137931
+      }
+    }
+  },
+  {
+    "row_id": 17831,
+    "subject_id": 7533,
+    "hadm_id": 166898,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "trouble breathing",
+          "onset": "morning of admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "congestion",
+          "onset": "morning of admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "difficulty breathing",
+          "onset": "morning of admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "gasping/gurgling",
+          "onset": "morning of admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "lips turning blue",
+          "onset": "morning of admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "collapse",
+          "onset": "morning of admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "moving only right side of body after ROSC",
+          "onset": "after ROSC",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "poor short term memory",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "right eye with old ptosis",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "short term memory is severely impaired",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "severe"
+        },
+        {
+          "description": "mildly impulsive with some perseveration",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "mild"
+        },
+        {
+          "description": "tachycardia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hypotension",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "intermittent atrial fibrillation with rates in the 180s",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "euvolemic",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "delirium",
+          "onset": "during ICU stay",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "confusion",
+          "onset": "at discharge",
+          "duration": "not provided",
+          "severity": "sometimes"
+        }
+      ],
+      "Diagnoses": [
+        {
+          "primary": "cardiac arrest",
+          "notes": "s/p cardiac arrest; initial rhythm PEA, ROSC achieved after 2 rounds of epinephrine"
+        },
+        {
+          "primary": "intramural hematoma of aorta",
+          "notes": "beginning at aortic arch distal to left subclavian, ending above diaphragm, with active extravasation"
+        },
+        {
+          "primary": "intramural hematoma of brachiocephalic artery",
+          "notes": "asymmetric eccentric hypodensity in wall of brachiocephalic artery"
+        },
+        {
+          "primary": "bilateral dependent consolidations and diffuse ground glass opacities",
+          "notes": "suggesting aspiration or pneumonia with likely fluid overload"
+        },
+        {
+          "primary": "minimally displaced anterior rib fractures",
+          "notes": "4-8th ribs on right, 5-9th ribs on left"
+        },
+        {
+          "primary": "mild global left ventricular hypokinesis",
+          "notes": "noted on bedside ultrasound"
+        },
+        {
+          "primary": "metabolic acidosis",
+          "notes": "Chem 10: K 5.4, bicarb 12, AG 29"
+        },
+        {
+          "primary": "moderate to severe regional left ventricular systolic dysfunction",
+          "notes": "hypokinesis/near-akinesis of the basal and mid inferior and inferolateral segments"
+        },
+        {
+          "primary": "Moderate to severe left ventricular systolic dysfunction",
+          "notes": "Associated with hypokinesis/near-akinesis of the basal and mid inferior and inferolateral segments."
+        },
+        {
+          "primary": "Depressed right ventricular function",
+          "notes": "Right ventricular chamber size is normal with depressed free wall contractility."
+        },
+        {
+          "primary": "Moderate mitral regurgitation",
+          "notes": "Eccentric, posteriorly directed jet of moderate (2+) mitral regurgitation is seen."
+        },
+        {
+          "primary": "Aortic intramural hematoma involving short proximal segment of the innominate artery",
+          "notes": "Known descending aortic intramural hematoma is incompletely imaged on this study."
+        },
+        {
+          "primary": "Mild narrowing of left vertebral artery origin and left ICA origin",
+          "notes": "Intracranial and neck vessels are otherwise patent without evidence of occlusion or focal aneurysm."
+        },
+        {
+          "primary": "Bilateral pulmonary consolidations with air bronchograms",
+          "notes": "Incompletely imaged, better evaluated on same-day dedicated chest CTA."
+        },
+        {
+          "primary": "Cardiomegaly",
+          "notes": "Again seen on CXR."
+        },
+        {
+          "primary": "Left lower lobe collapse and/or consolidation",
+          "notes": "Again seen on CXR."
+        },
+        {
+          "primary": "Left greater than right pleural effusions",
+          "notes": "Unchanged on CXR."
+        },
+        {
+          "primary": "Upper zone redistribution and diffusely increased interstitial markings",
+          "notes": "Could represent either CHF or an infectious or inflammatory interstitial process."
+        },
+        {
+          "primary": "Small right temporal/occipital scalp hematoma",
+          "notes": "Seen on MRI head."
+        },
+        {
+          "primary": "Mild involutional changes (mildly enlarged ventricles and sulci)",
+          "notes": "Consistent with mild involutional changes on MRI head."
+        },
+        {
+          "primary": "Mild mucosal thickening in right sphenoid and bilateral ethmoid air cells",
+          "notes": "Seen on MRI head."
+        },
+        {
+          "primary": "T12 vertebral compression fracture",
+          "notes": "Vertebral body endplate scalloping and T12 vertebral compression fracture again noted."
+        },
+        {
+          "primary": "Rib fractures",
+          "notes": "Known rib fractures not well demonstrated on these views."
+        },
+        {
+          "primary": "Pneumonia (CAP/Aspiration PNA)",
+          "notes": "Patient started on vancomycin, ceftriaxone, and flagyl."
+        },
+        {
+          "primary": "Intramural hematoma",
+          "notes": "Evaluated by vascular surgery, thought to be chronic and not requiring intervention."
+        },
+        {
+          "primary": "Acute systolic congestive heart failure",
+          "notes": "EF 35%. Aggressively diuresed once BP stabilized, now appears euvolemic."
+        },
+        {
+          "primary": "NSTEMI",
+          "notes": "History of inferior MI in 2104 s/p revascularization. Severe 3 vessel CAD, PCI not an option. Medical management undertaken."
+        },
+        {
+          "primary": "Multifocal pneumonia (VAP)",
+          "notes": "Treated with 8d course of cefepime (partial course of vancomycin and flagyl)."
+        },
+        {
+          "primary": "Delirium and anoxic brain injury",
+          "notes": "No obvious infarct on brain MRI. Low score on cognitive assessment. Short term memory severely impaired, mildly impulsive with some perseveration."
+        },
+        {
+          "primary": "Respiratory arrest",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Cardiogenic shock",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Multifocal Pneumonia",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Aortic Dissection, Type B",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Transient atrial fibrillation",
+          "notes": "not provided"
+        },
+        {
+          "primary": "[**Doctor Last Name 933**] disease",
+          "notes": "not provided"
+        },
+        {
+          "primary": "Hyperglycemia",
+          "notes": "not provided"
+        }
+      ],
+      "Treatment_Options": [
+        {
+          "procedure": "intubation",
+          "details": "performed on scene by EMS",
+          "treatment": "airway management",
+          "medications": []
+        },
+        {
+          "procedure": "CPR",
+          "details": "performed by EMS after collapse",
+          "treatment": "resuscitation",
+          "medications": [
+            {
+              "name": "epinephrine",
+              "purpose": "cardiac resuscitation",
+              "dosage": "not provided",
+              "frequency": "2 rounds"
+            }
+          ]
+        },
+        {
+          "procedure": "cooling",
+          "details": "initiated by EMS after ROSC",
+          "treatment": "targeted temperature management",
+          "medications": [
+            {
+              "name": "vecuronium",
+              "purpose": "paralysis for cooling",
+              "dosage": "not provided",
+              "frequency": "single dose"
+            }
+          ]
+        },
+        {
+          "procedure": "antibiotic therapy",
+          "details": "given for concern for aspiration",
+          "treatment": "empiric antibiotics",
+          "medications": [
+            {
+              "name": "vancomycin",
+              "purpose": "empiric antibiotic for aspiration",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "levofloxacin",
+              "purpose": "empiric antibiotic for aspiration",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "metronidazole",
+              "purpose": "empiric antibiotic for aspiration",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "tight blood pressure control",
+          "details": "recommended by vascular surgery",
+          "treatment": "blood pressure management",
+          "medications": []
+        },
+        {
+          "procedure": "head/neck CTA and TEE",
+          "details": "recommended to assess for extent of dissection",
+          "treatment": "diagnostic imaging",
+          "medications": []
+        },
+        {
+          "procedure": "Removal of ET tube, NG tube, and right IJ line",
+          "details": "Tubes and line have been removed as per CXR report.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Post arrest protocol and hypothermia",
+          "details": "Goal temperature modified to 34.5C.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Antibiotic therapy for CAP/Aspiration PNA",
+          "details": "Started on vancomycin, ceftriaxone, and flagyl.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "vancomycin",
+              "purpose": "CAP/Aspiration pneumonia",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "ceftriaxone",
+              "purpose": "CAP/Aspiration pneumonia",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "flagyl",
+              "purpose": "CAP/Aspiration pneumonia",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Blood pressure control",
+          "details": "Recommended aggressive blood pressure control.",
+          "treatment": "prn esmolol gtt",
+          "medications": [
+            {
+              "name": "esmolol",
+              "purpose": "blood pressure control",
+              "dosage": "not provided",
+              "frequency": "prn"
+            }
+          ]
+        },
+        {
+          "procedure": "Diuresis for heart failure",
+          "details": "Aggressively diuresed once BP stabilized, now appears euvolemic. Daily weights with furosemide adjustment for weight gain.",
+          "treatment": "Lasix at 20 mg daily",
+          "medications": [
+            {
+              "name": "Lasix",
+              "purpose": "diuresis for heart failure",
+              "dosage": "20 mg",
+              "frequency": "daily"
+            }
+          ]
+        },
+        {
+          "procedure": "Medical management of NSTEMI",
+          "details": "Severe 3 vessel CAD, PCI not an option. Maintained on ASS, statin, BB. Aspirin held initially for concern for bleed.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Aspirin",
+              "purpose": "secondary prevention of MI",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Statin",
+              "purpose": "secondary prevention of MI",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Beta blocker",
+              "purpose": "secondary prevention of MI",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Empiric broadening of antibiotics for sepsis",
+          "details": "Antibiotics broadened to vancomycin, cefepime, levoquin, and flagyl.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "vancomycin",
+              "purpose": "empiric coverage for sepsis",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "cefepime",
+              "purpose": "empiric coverage for sepsis",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "levoquin",
+              "purpose": "empiric coverage for sepsis",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "flagyl",
+              "purpose": "empiric coverage for sepsis",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Antibiotic therapy for VAP",
+          "details": "Treated with 8d course of cefepime (partial course of vancomycin and flagyl).",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "cefepime",
+              "purpose": "VAP",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "vancomycin",
+              "purpose": "VAP",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "flagyl",
+              "purpose": "VAP",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "ICU care",
+          "details": "Required Haldol for delirium during ICU stay",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Haldol",
+              "purpose": "delirium",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Vasopressor support",
+          "details": "Medicine to keep blood pressure up",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Diuretic therapy",
+          "details": "Diuretics used to remove extra fluid after heart failure",
+          "treatment": "diuretics",
+          "medications": [
+            {
+              "name": "furosemide",
+              "purpose": "remove extra fluid",
+              "dosage": "20 mg",
+              "frequency": "once a day"
+            }
+          ]
+        },
+        {
+          "procedure": "Physical and occupational therapy",
+          "details": "To help recover after hospitalization",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Medication management",
+          "details": "Changes to chronic medications at discharge",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "aspirin",
+              "purpose": "antiplatelet",
+              "dosage": "325 mg",
+              "frequency": "daily"
+            },
+            {
+              "name": "levothyroxine",
+              "purpose": "thyroid replacement",
+              "dosage": "100 mcg",
+              "frequency": "daily"
+            },
+            {
+              "name": "atorvastatin",
+              "purpose": "cholesterol lowering",
+              "dosage": "80 mg",
+              "frequency": "daily"
+            },
+            {
+              "name": "metoprolol succinate",
+              "purpose": "beta blocker",
+              "dosage": "100 mg",
+              "frequency": "2 tablets daily (200 mg total)"
+            },
+            {
+              "name": "docusate sodium",
+              "purpose": "prevent constipation",
+              "dosage": "100 mg",
+              "frequency": "BID"
+            },
+            {
+              "name": "lisinopril",
+              "purpose": "blood pressure control",
+              "dosage": "5 mg",
+              "frequency": "at bedtime"
+            },
+            {
+              "name": "furosemide",
+              "purpose": "remove extra fluid",
+              "dosage": "20 mg",
+              "frequency": "once a day"
+            },
+            {
+              "name": "Vitamin D3",
+              "purpose": "supplement",
+              "dosage": "2,000 unit",
+              "frequency": "once a day"
+            }
+          ]
+        }
+      ]
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2047-10-19",
+        "Age": 66,
+        "Sex": "F",
+        "Religion": "JEHOVAH'S WITNESS",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "ASIAN - KOREAN",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2114-03-29 09:36:00",
+        "Discharge_Date": "2114-04-11 16:00:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "CAD s/p MI in 2104; HTN; HL; Grave's s/p radioactive iodine ablation now on thyroid replacement; Vitiligo"
+      },
+      "Allergies": [],
+      "Current_Medications": [
+        {
+          "name": "Aspirin",
+          "purpose": "secondary prevention of MI",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Statin",
+          "purpose": "secondary prevention of MI",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Beta blocker",
+          "purpose": "secondary prevention of MI",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Synthroid",
+          "purpose": "thyroid replacement",
+          "dosage": "100 mcg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Metoprolol succinate",
+          "purpose": "beta blocker",
+          "dosage": "50 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Aspirin",
+          "purpose": "antiplatelet",
+          "dosage": "81 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Simvastatin",
+          "purpose": "cholesterol lowering",
+          "dosage": "40 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Diovan/HCTZ",
+          "purpose": "blood pressure control",
+          "dosage": "80/12.5 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Vitamin D",
+          "purpose": "supplement",
+          "dosage": "[**2101**] units",
+          "frequency": "daily"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "aspirin",
+          "purpose": "antiplatelet",
+          "dosage": "325 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "levothyroxine",
+          "purpose": "thyroid replacement",
+          "dosage": "100 mcg",
+          "frequency": "daily"
+        },
+        {
+          "name": "atorvastatin",
+          "purpose": "cholesterol lowering",
+          "dosage": "80 mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "metoprolol succinate",
+          "purpose": "beta blocker",
+          "dosage": "100 mg",
+          "frequency": "2 tablets daily (200 mg total)"
+        },
+        {
+          "name": "docusate sodium",
+          "purpose": "prevent constipation",
+          "dosage": "100 mg",
+          "frequency": "BID"
+        },
+        {
+          "name": "lisinopril",
+          "purpose": "blood pressure control",
+          "dosage": "5 mg",
+          "frequency": "at bedtime"
+        },
+        {
+          "name": "furosemide",
+          "purpose": "remove extra fluid",
+          "dosage": "20 mg",
+          "frequency": "once a day"
+        },
+        {
+          "name": "Vitamin D3",
+          "purpose": "supplement",
+          "dosage": "2,000 unit",
+          "frequency": "once a day"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "s/p cardiac arrest"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.85,
+      "consistency_score": 1.0,
+      "confidence_score": 0.8,
+      "overall_score": 0.9500000000000001,
+      "field_scores": {
+        "symptoms": 0.7647058823529411,
+        "diagnoses": 0.9722222222222222,
+        "treatments": 0.9473684210526315,
+        "demographics": 0.39999999999999997
+      },
+      "issues": [
+        "Symptom 'congestion' not clearly found in original text",
+        "Symptom 'hypotension' not clearly found in original text",
+        "Symptom 'delirium' not clearly found in original text",
+        "Symptom 'confusion' not clearly found in original text",
+        "Diagnosis 'metabolic acidosis' not clearly supported by text",
+        "Treatment 'Vasopressor support' not clearly found in text",
+        "Age inconsistency: stated 66, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ],
+      "advanced_metrics": {
+        "clinical_coherence": 0.55,
+        "safety_score": 1.0,
+        "terminology_accuracy": 0.06944444444444445
+      }
+    }
+  },
+  {
+    "row_id": 17832,
+    "subject_id": 24800,
+    "hadm_id": 109340,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "left sided weakness",
+          "onset": "acute",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "slurred speech",
+          "onset": "acute",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "left facial droop",
+          "onset": "acute",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "flaccid paralysis on left arm",
+          "onset": "acute",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "dysarthria",
+          "onset": "acute",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "neglecting left side",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "naming impaired",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "decreased tone on left side",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "UMN weakness on left arm and leg",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "2-1"
+        },
+        {
+          "description": "acute onset left sided weakness",
+          "onset": "acute",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "left neglect",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "deteriorating overall condition",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [
+        {
+          "primary": "acute stroke (suspected cerebrovascular event)",
+          "notes": "Patient presented with acute left sided weakness, facial droop, and dysarthria. Multiple vascular risk factors present."
+        },
+        {
+          "primary": "colon cancer status post resection",
+          "notes": "Recent partial colectomy for colon cancer."
+        },
+        {
+          "primary": "atrial fibrillation",
+          "notes": "History of atrial fibrillation, risk factor for stroke."
+        },
+        {
+          "primary": "hypertension",
+          "notes": "History of high blood pressure."
+        },
+        {
+          "primary": "coronary artery disease status post pacemaker",
+          "notes": "History of CAD, s/p pacer."
+        },
+        {
+          "primary": "hyperlipidemia",
+          "notes": "History of high cholesterol."
+        },
+        {
+          "primary": "COPD",
+          "notes": "History of chronic obstructive pulmonary disease."
+        },
+        {
+          "primary": "GERD",
+          "notes": "History of gastroesophageal reflux disease."
+        },
+        {
+          "primary": "anxiety",
+          "notes": "History of anxiety."
+        },
+        {
+          "primary": "cataract status post surgery",
+          "notes": "History of cataract surgeries."
+        },
+        {
+          "primary": "right MCA stroke, probably embolic",
+          "notes": "Significant territory right MCA stroke, probably embolic given subtherapeutic INR. Head CT revealed hypodensity in right subcortical and insular white matter consistent with infarct."
+        },
+        {
+          "primary": "septic physiology",
+          "notes": "Began to exhibit septic physiology in ICU, with WBC up to 24, evidence of DIC, and lactate as high as 14."
+        },
+        {
+          "primary": "disseminated intravascular coagulation (DIC)",
+          "notes": "Evidence of DIC during ICU stay."
+        },
+        {
+          "primary": "left ventricular cavity enlargement with severe regional systolic dysfunction consistent with multivessel CAD",
+          "notes": "Echocardiogram on 4-20"
+        },
+        {
+          "primary": "right ventricular hypokinesis",
+          "notes": "Echocardiogram on 4-20"
+        },
+        {
+          "primary": "moderate mitral regurgitation",
+          "notes": "Echocardiogram on 4-20"
+        },
+        {
+          "primary": "pulmonary embolism within a left upper lobe segmental pulmonary artery",
+          "notes": "Chest CTA on 4-19"
+        },
+        {
+          "primary": "bilateral pleural effusions",
+          "notes": "Chest CTA on 4-19"
+        },
+        {
+          "primary": "right middle cerebral artery infarct",
+          "notes": "Discharge diagnosis"
+        },
+        {
+          "primary": "sepsis",
+          "notes": "Discharge diagnosis"
+        }
+      ],
+      "Treatment_Options": [
+        {
+          "procedure": "heparin administration",
+          "details": "Started on heparin after symptom recurrence and transferred for further care.",
+          "treatment": "anticoagulation",
+          "medications": [
+            {
+              "name": "heparin",
+              "purpose": "anticoagulation for stroke prevention",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "warfarin restart",
+          "details": "Warfarin was held during recent surgery and restarted upon discharge.",
+          "treatment": "anticoagulation",
+          "medications": [
+            {
+              "name": "warfarin",
+              "purpose": "anticoagulation for atrial fibrillation",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "discontinue heparin",
+          "details": "Heparin discontinued due to high risk of bleeding.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "start dopamine and achieve SBP 160-200",
+          "details": "Dopamine started to maintain systolic blood pressure between 160-200.",
+          "treatment": "dopamine infusion",
+          "medications": [
+            {
+              "name": "dopamine",
+              "purpose": "maintain blood pressure",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "broad-spectrum antibiotics",
+          "details": "Started due to septic physiology.",
+          "treatment": "broad-spectrum antibiotics",
+          "medications": [
+            {
+              "name": "broad-spectrum antibiotics",
+              "purpose": "treatment of sepsis",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "stat head CTA",
+          "details": "Obtain stat head CTA to evaluate cerebral vasculature.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "carotid ultrasound",
+          "details": "Obtain carotid ultrasound to assess carotid arteries.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "check lipid profile",
+          "details": "Lipid profile to assess vascular risk factors.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "withdrawal of care",
+          "details": "Care was withdrawn on 4-20 in accordance with patient's previously expressed wishes due to poor prognosis and deteriorating condition.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "medication management",
+          "details": "Medications on admission",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "asa 81",
+              "purpose": "not provided",
+              "dosage": "81 mg",
+              "frequency": "not provided"
+            },
+            {
+              "name": "warfarin",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "avapro",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "imdur",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "metformin",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "spiriva",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "clonazepam",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "lasix",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "zetia",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "lipitor",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "fish oil",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "nifedipine",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "toprol xl",
+              "purpose": "not provided",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        }
+      ]
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2059-04-12",
+        "Age": 80,
+        "Sex": "F",
+        "Religion": "UNOBTAINABLE",
+        "Marital_Status": null,
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2139-04-17 21:56:00",
+        "Discharge_Date": "2139-04-20 17:43:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "high blood pressure, atrial fibrillation, colon cancer status post resection, high cholesterol, coronary artery disease status post pacemaker, cataract status post surgery, anxiety, COPD, GERD"
+      },
+      "Allergies": [
+        "Cardizem",
+        "Plavix",
+        "Prozac",
+        "Accupril",
+        "Crestor",
+        "Topiramate",
+        "Norvasc",
+        "Demerol",
+        "Bextra",
+        "Lescol",
+        "Famvir"
+      ],
+      "Current_Medications": [
+        {
+          "name": "asa 81",
+          "purpose": "not provided",
+          "dosage": "81 mg",
+          "frequency": "not provided"
+        },
+        {
+          "name": "warfarin",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "avapro",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "imdur",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "metformin",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "spiriva",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "clonazepam",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "lasix",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "zetia",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "lipitor",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "fish oil",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "nifedipine",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "toprol xl",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": []
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "left sided weakness"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.95,
+      "consistency_score": 1.0,
+      "confidence_score": 0.95,
+      "overall_score": 0.9833333333333334,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 0.85,
+        "treatments": 1.0,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Diagnosis 'hypertension' not clearly supported by text",
+        "Diagnosis 'hyperlipidemia' not clearly supported by text",
+        "Diagnosis 'disseminated intravascular coagulation (DIC)' not clearly supported by text",
+        "Age inconsistency: stated 80, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks"
+      ],
+      "advanced_metrics": {
+        "clinical_coherence": 0.5499999999999999,
+        "safety_score": 1.0,
+        "terminology_accuracy": 0.11904761904761904
+      }
+    }
+  },
+  {
+    "row_id": 17833,
+    "subject_id": 23100,
+    "hadm_id": 107988,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "fever",
+          "onset": "at dialysis",
+          "duration": "not provided",
+          "severity": "103 F, later 104.2 F"
+        },
+        {
+          "description": "rigors",
+          "onset": "with fever at dialysis",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "myalgias",
+          "onset": "with fever at dialysis",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "new small left lower lobe opacity, most likely atelectasis, although pneumonia cannot be excluded",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "appearance suggesting a small new left loculated pleural effusion",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "large right pleural effusion",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "new patchy left lower lobe opacity, concerning for infectious process such as pneumonia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Tachycardia",
+          "onset": "on admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Relative hypotension",
+          "onset": "on admission",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Elevated blood sugars (FS in 400s)",
+          "onset": "on admission",
+          "duration": "not provided",
+          "severity": "very elevated"
+        },
+        {
+          "description": "Low blood sugars",
+          "onset": "after infection cleared",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "elevated white count",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "GI bleed from esophagus",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [
+        {
+          "primary": "Likely line infection",
+          "notes": "Fever at dialysis, R SCV HD line in place for 7 months, no local signs of infection"
+        },
+        {
+          "primary": "End-stage renal disease (ESRD) on hemodialysis",
+          "notes": "History of diabetic nephropathy, on HD since 3-12, pre-op for renal transplant"
+        },
+        {
+          "primary": "Type 1 diabetes mellitus",
+          "notes": "History of type 1 DM"
+        },
+        {
+          "primary": "Hypertension",
+          "notes": "History of HTN"
+        },
+        {
+          "primary": "Hypercholesterolemia",
+          "notes": "History of hypercholesterolemia"
+        },
+        {
+          "primary": "Blindness in right eye",
+          "notes": "History of right eye blindness"
+        },
+        {
+          "primary": "Left leg weakness",
+          "notes": "History of left leg weakness"
+        },
+        {
+          "primary": "Goiter",
+          "notes": "History of goiter"
+        },
+        {
+          "primary": "moderate pulmonary artery systolic hypertension",
+          "notes": "TTE: moderate pulmonary artery systolic hypertension"
+        },
+        {
+          "primary": "mild symmetric left ventricular hypertrophy",
+          "notes": "TEE: mild symmetric left ventricular hypertrophy with normal cavity size and systolic function"
+        },
+        {
+          "primary": "mild mitral regurgitation",
+          "notes": "TEE: mild (1+) mitral regurgitation"
+        },
+        {
+          "primary": "multiple, mobile, very thin, fibrinous strands on the mitral annulus and valve",
+          "notes": "TEE: probably do not represent infective endocarditis"
+        },
+        {
+          "primary": "cholelithiasis without cholecystitis",
+          "notes": "RUQ US: cholelithiasis without cholecystitis"
+        },
+        {
+          "primary": "large right pleural effusion",
+          "notes": "RUQ US: large right pleural effusion"
+        },
+        {
+          "primary": "small right kidney consistent with renal failure",
+          "notes": "RUQ US: echogenic and small right kidney consistent with the given history of renal failure"
+        },
+        {
+          "primary": "new patchy left lower lobe opacity, concerning for pneumonia",
+          "notes": "CXR: new patchy left lower lobe opacity, concerning for infectious process such as pneumonia"
+        },
+        {
+          "primary": "Staphylococcus aureus bacteremia (MSSA)",
+          "notes": "Blood culture: 4/4 bottles Staph Aureus sensitive to naficillin; 1/4 bottles MSSA"
+        },
+        {
+          "primary": "bacteremia with Capnocytophaga, Lactobacillus, Veillonella, Prevotella species",
+          "notes": "Blood culture: CAPNOCYTOPHAGA SPECIES; ANAEROBIC BOTTLE-FINAL {LACTOBACILLUS SPECIES, VEILLONELLA SPECIES, PREVOTELLA SPECIES}"
+        },
+        {
+          "primary": "MSSA bacteremia",
+          "notes": "Blood cultures positive for staph aureus sensitive to oxacillin"
+        },
+        {
+          "primary": "Line infection",
+          "notes": "HD line infection with MSSA"
+        },
+        {
+          "primary": "ESRD on hemodialysis",
+          "notes": "Patient on M/W/F HD schedule, with R SCV permacath HD line"
+        },
+        {
+          "primary": "Diabetes Mellitus Type I",
+          "notes": "HbA1c 7.9"
+        },
+        {
+          "primary": "Thrombosed AVF",
+          "notes": "Thrombectomy performed, HD center unable to access graft"
+        },
+        {
+          "primary": "Esophagitis and upper GI bleed",
+          "notes": "Occurred after TEE, caused hypotension"
+        },
+        {
+          "primary": "infection of dialysis line",
+          "notes": "not provided"
+        },
+        {
+          "primary": "GI bleed from esophagus",
+          "notes": "not provided"
+        },
+        {
+          "primary": "small infiltrate on chest xray (possible pneumonia)",
+          "notes": "not provided"
+        }
+      ],
+      "Treatment_Options": [
+        {
+          "procedure": "permanent tunneled line placement",
+          "details": "not provided",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "PICC placement",
+          "details": "not provided",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "temporary dialysis line placement",
+          "details": "not provided",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "EGD",
+          "details": "EGD x 2",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "IV antibiotics",
+          "details": "Admitted for likely line infection and treatment with IV antibiotics",
+          "treatment": "IV antibiotics",
+          "medications": [
+            {
+              "name": "Vancomycin",
+              "purpose": "empiric treatment for line infection",
+              "dosage": "1 gm",
+              "frequency": "once at HD"
+            },
+            {
+              "name": "Ciprofloxacin",
+              "purpose": "empiric treatment for infection",
+              "dosage": "400 mg IV",
+              "frequency": "once"
+            },
+            {
+              "name": "Gentamicin",
+              "purpose": "empiric treatment for infection",
+              "dosage": "30 mg IV",
+              "frequency": "once"
+            }
+          ]
+        },
+        {
+          "procedure": "Antipyretic therapy",
+          "details": "Given for fever",
+          "treatment": "antipyretics",
+          "medications": [
+            {
+              "name": "Tylenol",
+              "purpose": "antipyretic",
+              "dosage": "1 gm",
+              "frequency": "once"
+            },
+            {
+              "name": "Motrin",
+              "purpose": "antipyretic",
+              "dosage": "600 mg",
+              "frequency": "once"
+            }
+          ]
+        },
+        {
+          "procedure": "IV fluids",
+          "details": "Given in ED",
+          "treatment": "IVF",
+          "medications": []
+        },
+        {
+          "procedure": "placement of large bore dual lumen catheter from right internal jugular approach",
+          "details": "CXR: distal tip is near the cavoatrial junction",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "right-sided PICC line placement",
+          "details": "CXR: right-sided PICC line crosses midline into the left brachiocephalic vein",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "antibiotic therapy for Staphylococcus aureus bacteremia",
+          "details": "Staph Aureus sensitive to naficillin",
+          "treatment": "naficillin",
+          "medications": [
+            {
+              "name": "naficillin",
+              "purpose": "treatment of Staphylococcus aureus bacteremia",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "IV antibiotic therapy",
+          "details": "Broad-spectrum coverage for bacteremia and line infection",
+          "treatment": "IV Vancomycin (dosed by level), IV Ciprofloxacin, IV Gentamicin (dosed at HD), switched to IV Nafcillin after MSSA identified, Zosyn continued for 14 days, Meropenem briefly added for 1-2 doses",
+          "medications": [
+            {
+              "name": "Vancomycin",
+              "purpose": "Empiric broad-spectrum antibiotic for bacteremia",
+              "dosage": "dosed by level",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Ciprofloxacin",
+              "purpose": "Empiric broad-spectrum antibiotic",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Gentamicin",
+              "purpose": "Empiric broad-spectrum antibiotic",
+              "dosage": "dosed at HD",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Nafcillin",
+              "purpose": "Definitive therapy for MSSA bacteremia",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Zosyn",
+              "purpose": "Antibiotic coverage for additional organisms",
+              "dosage": "not provided",
+              "frequency": "continued for 14 days"
+            },
+            {
+              "name": "Meropenem",
+              "purpose": "Antibiotic added when blood pressure dropped",
+              "dosage": "not provided",
+              "frequency": "1-2 doses"
+            }
+          ]
+        },
+        {
+          "procedure": "Hemodialysis",
+          "details": "Dialyzed through line on third hospital day to maintain usual HD schedule",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "HD line management",
+          "details": "R SCV tunneled line discontinued, temporary line placed, then permanent tunneled line placed",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Thrombectomy",
+          "details": "Thrombectomy of thrombosed AVF performed",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Glycemic control",
+          "details": "Insulin regimen adjusted for infection and glycemic control",
+          "treatment": "Lantus 8 U qam at home, increased to 10 U qam, then decreased to 5 U; Humalog 14 U given for hyperglycemia; FS qid; HISS",
+          "medications": [
+            {
+              "name": "Lantus",
+              "purpose": "Long-acting insulin for glycemic control",
+              "dosage": "8 U qam at home, increased to 10 U, then decreased to 5 U",
+              "frequency": "qam"
+            },
+            {
+              "name": "Humalog",
+              "purpose": "Short-acting insulin for hyperglycemia",
+              "dosage": "14 U",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Blood pressure management",
+          "details": "BP meds held on admission due to hypotension, restarted as BPs increased, then stopped again after GI bleed",
+          "treatment": "Metoprolol 100 mg, Lisinopril 40 mg qd, Nifedipine 60 mg qd, ASA continued",
+          "medications": [
+            {
+              "name": "Metoprolol",
+              "purpose": "Blood pressure control",
+              "dosage": "100 mg",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Lisinopril",
+              "purpose": "Blood pressure control",
+              "dosage": "40 mg",
+              "frequency": "qd"
+            },
+            {
+              "name": "Nifedipine",
+              "purpose": "Blood pressure control",
+              "dosage": "60 mg",
+              "frequency": "qd"
+            },
+            {
+              "name": "ASA",
+              "purpose": "Antiplatelet therapy",
+              "dosage": "not provided",
+              "frequency": "continued"
+            }
+          ]
+        },
+        {
+          "procedure": "protonix therapy",
+          "details": "For GI bleed from esophagus",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "protonix",
+              "purpose": "GI bleed from esophagus",
+              "dosage": "not provided",
+              "frequency": "twice daily"
+            }
+          ]
+        },
+        {
+          "procedure": "follow-up EGD",
+          "details": "Follow-up EGD in 1 month",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "bilateral upper extremity venogram",
+          "details": "To assess veins for dialysis access",
+          "treatment": "not provided",
+          "medications": []
+        }
+      ]
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2139-02-28",
+        "Age": 39,
+        "Sex": "F",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "BLACK/AFRICAN AMERICAN",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2178-12-30 18:18:00",
+        "Discharge_Date": "2179-01-14 17:04:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Type 1 DM, Hypercholesterolemia, HTN, ESRD (on HD since 3-12, pre-op for renal transplant), blindness in right eye, left leg weakness, goiter"
+      },
+      "Allergies": [
+        "Zocor"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Lantus",
+          "purpose": "Long-acting insulin for glycemic control",
+          "dosage": "8 U qam at home",
+          "frequency": "qam"
+        },
+        {
+          "name": "ASA",
+          "purpose": "Antiplatelet therapy",
+          "dosage": "not provided",
+          "frequency": "continued"
+        },
+        {
+          "name": "antibiotics",
+          "purpose": "infection of dialysis line",
+          "dosage": "not provided",
+          "frequency": "IV, 14 days"
+        },
+        {
+          "name": "protonix",
+          "purpose": "GI bleed from esophagus",
+          "dosage": "not provided",
+          "frequency": "twice daily"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "protonix",
+          "purpose": "GI bleed from esophagus",
+          "dosage": "not provided",
+          "frequency": "twice daily"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "fever"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.85,
+      "consistency_score": 1.0,
+      "confidence_score": 0.8,
+      "overall_score": 0.9500000000000001,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 1.0,
+        "treatments": 0.8947368421052632,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Treatment 'IV fluids' not clearly found in text",
+        "Treatment 'Hemodialysis' not clearly found in text",
+        "Age inconsistency: stated 39, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ],
+      "advanced_metrics": {
+        "clinical_coherence": 0.55,
+        "safety_score": 1.0,
+        "terminology_accuracy": 0.15254237288135594
+      }
+    }
+  },
+  {
+    "row_id": 17838,
+    "subject_id": 11135,
+    "hadm_id": 158004,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Abdominal distention",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Abdominal discomfort",
+          "onset": "since last tap approximately one week ago",
+          "duration": "about one week",
+          "severity": "increased when lying down"
+        },
+        {
+          "description": "Jaundice (icteric sclerae, sublingual icterus)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Dry mucous membranes",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "altered mental status (less oriented, only alert and oriented times one to himself)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "right sided abdominal pain",
+          "onset": "after second paracentesis",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "aspiration of clear liquid and tube feedings",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "elevated white count (16)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "nausea with Nepro tube feeds",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "worsened mental status",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [
+        {
+          "primary": "Alcoholic hepatitis and cirrhosis",
+          "notes": "History of alcoholic hepatitis and cirrhosis"
+        },
+        {
+          "primary": "Acute renal failure",
+          "notes": "Past medical history"
+        },
+        {
+          "primary": "Diabetes mellitus",
+          "notes": "Past medical history"
+        },
+        {
+          "primary": "Hepatitis A antibody positive",
+          "notes": "Hepatitis B and C negative"
+        },
+        {
+          "primary": "Hyponatremia secondary to cirrhosis",
+          "notes": "Past medical history"
+        },
+        {
+          "primary": "Grade II esophageal varices",
+          "notes": "Past medical history"
+        },
+        {
+          "primary": "Ascites",
+          "notes": "Paracentesis performed for ascites"
+        },
+        {
+          "primary": "Malnutrition",
+          "notes": "Patient is very malnutritioned"
+        },
+        {
+          "primary": "hepatic encephalopathy secondary to cirrhosis",
+          "notes": "not provided"
+        },
+        {
+          "primary": "large abdominal ascites",
+          "notes": "not provided"
+        },
+        {
+          "primary": "cirrhotic liver",
+          "notes": "MRI showed liver volume of 1479 cc"
+        },
+        {
+          "primary": "esophageal varices",
+          "notes": "not provided"
+        },
+        {
+          "primary": "pseudocysts",
+          "notes": "not provided"
+        },
+        {
+          "primary": "left upper pole renal cyst",
+          "notes": "not provided"
+        },
+        {
+          "primary": "left atrial dilation",
+          "notes": "found on transesophageal echocardiogram"
+        },
+        {
+          "primary": "mild symmetric left ventricular hypertrophy",
+          "notes": "found on transesophageal echocardiogram"
+        },
+        {
+          "primary": "gaseous distention secondary to lactulose use",
+          "notes": "not provided"
+        },
+        {
+          "primary": "coagulopathy secondary to cirrhosis",
+          "notes": "INR worsened from 2.1 to 2.6"
+        },
+        {
+          "primary": "Hyponatremia",
+          "notes": "Sodium of 125 on admission, resolved to 140 with fluid restriction."
+        },
+        {
+          "primary": "Acute renal failure from acute tubular necrosis likely to prerenal azotemia",
+          "notes": "Creatinine 1.5 on admission, improved to 1.2 with albumin and normal saline, worsened to 2.4, treated with octreotide and midodrine."
+        },
+        {
+          "primary": "Anemia of chronic disease and anemia secondary to blood loss",
+          "notes": "Hematocrit fell to 26 with guaiac positive stool, transfused 1 unit PRBC, hematocrit stabilized at 30."
+        },
+        {
+          "primary": "MRSA and group B beta Streptococcus bacteremia",
+          "notes": "Blood cultures positive for MRSA and group B beta hemolytic Streptococcus, treated with Vancomycin."
+        },
+        {
+          "primary": "Cellulitis",
+          "notes": "CT scan showed fat stranding at right flank and right lower quadrant consistent with cellulitis."
+        },
+        {
+          "primary": "VRE colonization",
+          "notes": "VRE rectal screen positive, but no VRE in blood cultures."
+        },
+        {
+          "primary": "aspiration pneumonia",
+          "notes": "Confirmed by chest x-ray showing low lung volumes, left upper lobe/lingula loss of translucency, and increased retrocardiac opacity. Associated with aspiration of clear liquid and tube feedings."
+        },
+        {
+          "primary": "MRSA bacteremia",
+          "notes": "Patient was on Vancomycin for this diagnosis."
+        }
+      ],
+      "Treatment_Options": [
+        {
+          "procedure": "Therapeutic peritoneal tap (paracentesis)",
+          "details": "Bedside paracentesis performed, 3 liters of straw-colored fluid removed, fluid sent for cell count and Gram stain",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Hepatology workup",
+          "details": "not provided",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Nutrition consult",
+          "details": "not provided",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Medication management",
+          "details": "Home medications continued",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Colace",
+              "purpose": "Stool softener",
+              "dosage": "100 mg",
+              "frequency": "po bid"
+            },
+            {
+              "name": "Protonix",
+              "purpose": "Gastric acid suppression",
+              "dosage": "40 mg",
+              "frequency": "po q day"
+            },
+            {
+              "name": "Pentoxifylline",
+              "purpose": "Liver disease management",
+              "dosage": "400 mg",
+              "frequency": "po tid"
+            },
+            {
+              "name": "Vitamin K",
+              "purpose": "Correct coagulopathy",
+              "dosage": "10 mg",
+              "frequency": "po q day"
+            },
+            {
+              "name": "Multivitamin",
+              "purpose": "Nutritional supplementation",
+              "dosage": "one tablet",
+              "frequency": "po q day"
+            },
+            {
+              "name": "Folate",
+              "purpose": "Nutritional supplementation",
+              "dosage": "1 mg",
+              "frequency": "po q day"
+            },
+            {
+              "name": "Thiamine",
+              "purpose": "Nutritional supplementation",
+              "dosage": "100 mg",
+              "frequency": "po q day"
+            },
+            {
+              "name": "Serax",
+              "purpose": "Anxiety/withdrawal management",
+              "dosage": "10 mg",
+              "frequency": "q hs prn"
+            },
+            {
+              "name": "Ursodiol",
+              "purpose": "Liver disease management",
+              "dosage": "300 mg",
+              "frequency": "po tid"
+            },
+            {
+              "name": "Lactulose",
+              "purpose": "Hepatic encephalopathy prevention",
+              "dosage": "30 cc",
+              "frequency": "po bid"
+            },
+            {
+              "name": "Compazine",
+              "purpose": "Antiemetic for nausea",
+              "dosage": "10 mg",
+              "frequency": "po q6h prn nausea"
+            }
+          ]
+        },
+        {
+          "procedure": "paracentesis",
+          "details": "Second paracentesis at bedside attempted, only 100 cc of straw-colored fluid with some blood tinged fluid obtained after 4-19 re-entries; fluid analysis showed 35 white cells, 7% neutrophils, 13% lymphocytes, 190 red cells, Gram stain negative",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "MRI of abdomen",
+          "details": "Showed cirrhotic liver, large abdominal ascites, esophageal varices, pseudocysts, left upper pole renal cyst, question of right accessory hepatic vein",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "abdominal ultrasound",
+          "details": "No right accessory hepatic vein",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "transesophageal echocardiogram",
+          "details": "Showed left atrial dilation, mild symmetric left ventricular hypertrophy, ejection fraction >55%, no valvular problems or pericardial effusion",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "CT scan of the head",
+          "details": "No evidence of intracranial hemorrhage",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "KUB and upright chest x-ray",
+          "details": "No free air, but showed a lot of gaseous distention",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Fleet enema and simethicone",
+          "details": "Started to help relieve gaseous distention from lactulose use",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Fleet enema",
+              "purpose": "relieve gaseous distention",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "simethicone",
+              "purpose": "relieve gaseous distention",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Fluid restriction",
+          "details": "1.5 liter fluid restriction for hyponatremia, continued as possible.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Albumin and normal saline administration",
+          "details": "Given for acute renal failure, improved creatinine initially.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Albumin",
+              "purpose": "Improve renal function",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Normal saline",
+              "purpose": "Improve renal function",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Medication adjustment for renal failure",
+          "details": "Increase octreotide to 200 mcg subQ tid and midodrine to 12.5 mg po tid as per Renal team.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Octreotide",
+              "purpose": "Treat acute renal failure",
+              "dosage": "200 mcg",
+              "frequency": "subQ tid"
+            },
+            {
+              "name": "Midodrine",
+              "purpose": "Treat acute renal failure",
+              "dosage": "12.5 mg",
+              "frequency": "po tid"
+            }
+          ]
+        },
+        {
+          "procedure": "Packed red blood cell transfusion",
+          "details": "1 unit PRBC given for anemia, hematocrit increased from 26 to 30.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Empiric antibiotic therapy",
+          "details": "Vancomycin started for MRSA and group B beta Streptococcus bacteremia, renally dosed, continued as blood cultures remained negative for VRE.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Vancomycin",
+              "purpose": "Treat MRSA and group B beta Streptococcus bacteremia",
+              "dosage": "not provided",
+              "frequency": "Renally dosed, given when level <15"
+            }
+          ]
+        },
+        {
+          "procedure": "Observation",
+          "details": "Patient observed on increased octreotide and midodrine instead of ICU transfer for Swan placement.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "antibiotic therapy for aspiration pneumonia",
+          "details": "Started on Levaquin and Flagyl to cover aspiration pneumonia.",
+          "treatment": "antibiotics",
+          "medications": [
+            {
+              "name": "Levaquin",
+              "purpose": "aspiration pneumonia",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Flagyl",
+              "purpose": "aspiration pneumonia",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "antibiotic therapy for MRSA bacteremia",
+          "details": "Patient was on Vancomycin for MRSA bacteremia.",
+          "treatment": "antibiotics",
+          "medications": [
+            {
+              "name": "Vancomycin",
+              "purpose": "MRSA bacteremia",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "insulin therapy for diabetes mellitus",
+          "details": "Started on glargine 16 units subQ q am with regular insulin-sliding scale.",
+          "treatment": "insulin",
+          "medications": [
+            {
+              "name": "glargine",
+              "purpose": "diabetes mellitus",
+              "dosage": "16 units subQ q am",
+              "frequency": "once daily in the morning"
+            },
+            {
+              "name": "regular insulin-sliding scale",
+              "purpose": "diabetes mellitus",
+              "dosage": "not provided",
+              "frequency": "sliding scale"
+            }
+          ]
+        },
+        {
+          "procedure": "nutritional support via tube feeding",
+          "details": "Started on Nepro tube feeds, changed to Criticare due to intolerance, then switched to Deliver due to high glucose content. Tolerated Deliver without nausea.",
+          "treatment": "tube feeding",
+          "medications": [
+            {
+              "name": "Nepro",
+              "purpose": "nutritional support",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Criticare",
+              "purpose": "nutritional support",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Deliver",
+              "purpose": "nutritional support",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "NPO (nothing per mouth)",
+          "details": "Speech and Swallow recommended patient remain NPO due to aspiration risk and worsened mental status.",
+          "treatment": "NPO",
+          "medications": []
+        }
+      ]
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2139-10-08",
+        "Age": 60,
+        "Sex": "M",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Private",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2200-05-27 18:39:00",
+        "Discharge_Date": "2200-07-10 13:15:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Alcoholic hepatitis and cirrhosis, acute renal failure, diabetes mellitus, hepatitis A antibody positive (hepatitis B and C negative), hyponatremia secondary to cirrhosis, grade II esophageal varices"
+      },
+      "Allergies": [],
+      "Current_Medications": [
+        {
+          "name": "Colace",
+          "purpose": "Stool softener",
+          "dosage": "100 mg",
+          "frequency": "po bid"
+        },
+        {
+          "name": "Protonix",
+          "purpose": "Gastric acid suppression",
+          "dosage": "40 mg",
+          "frequency": "po q day"
+        },
+        {
+          "name": "Pentoxifylline",
+          "purpose": "Liver disease management",
+          "dosage": "400 mg",
+          "frequency": "po tid"
+        },
+        {
+          "name": "Vitamin K",
+          "purpose": "Correct coagulopathy",
+          "dosage": "10 mg",
+          "frequency": "po q day"
+        },
+        {
+          "name": "Multivitamin",
+          "purpose": "Nutritional supplementation",
+          "dosage": "one tablet",
+          "frequency": "po q day"
+        },
+        {
+          "name": "Folate",
+          "purpose": "Nutritional supplementation",
+          "dosage": "1 mg",
+          "frequency": "po q day"
+        },
+        {
+          "name": "Thiamine",
+          "purpose": "Nutritional supplementation",
+          "dosage": "100 mg",
+          "frequency": "po q day"
+        },
+        {
+          "name": "Serax",
+          "purpose": "Anxiety/withdrawal management",
+          "dosage": "10 mg",
+          "frequency": "q hs prn"
+        },
+        {
+          "name": "Ursodiol",
+          "purpose": "Liver disease management",
+          "dosage": "300 mg",
+          "frequency": "po tid"
+        },
+        {
+          "name": "Lactulose",
+          "purpose": "Hepatic encephalopathy prevention",
+          "dosage": "30 cc",
+          "frequency": "po bid"
+        },
+        {
+          "name": "Compazine",
+          "purpose": "Antiemetic for nausea",
+          "dosage": "10 mg",
+          "frequency": "po q6h prn nausea"
+        },
+        {
+          "name": "ursodiol",
+          "purpose": "hepatic encephalopathy",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "lactulose",
+          "purpose": "hepatic encephalopathy",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Octreotide",
+          "purpose": "Treat acute renal failure",
+          "dosage": "200 mcg",
+          "frequency": "subQ tid"
+        },
+        {
+          "name": "Midodrine",
+          "purpose": "Treat acute renal failure",
+          "dosage": "12.5 mg",
+          "frequency": "po tid"
+        },
+        {
+          "name": "Vancomycin",
+          "purpose": "Treat MRSA and group B beta Streptococcus bacteremia",
+          "dosage": "not provided",
+          "frequency": "Renally dosed, given when level <15"
+        }
+      ],
+      "Discharge_Medications": []
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Abdominal distention"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.7,
+      "consistency_score": 1.0,
+      "confidence_score": 0.6,
+      "overall_score": 0.9,
+      "field_scores": {
+        "symptoms": 1.0,
+        "diagnoses": 0.9615384615384616,
+        "treatments": 0.9090909090909091,
+        "demographics": 0.39999999999999997
+      },
+      "issues": [
+        "Diagnosis 'VRE colonization' not clearly supported by text",
+        "Treatment 'Observation' not clearly found in text",
+        "Treatment 'NPO (nothing per mouth)' not clearly found in text",
+        "Age inconsistency: stated 60, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ],
+      "advanced_metrics": {
+        "clinical_coherence": 0.55,
+        "safety_score": 1.0,
+        "terminology_accuracy": 0.10344827586206896
+      }
+    }
+  },
+  {
+    "row_id": 18430,
+    "subject_id": 16691,
+    "hadm_id": 110720,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "fevers",
+          "onset": "not provided",
+          "duration": "prolonged",
+          "severity": "persistent, high"
+        },
+        {
+          "description": "jaundice",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "pancytopenia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "splenomegaly",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hypotension",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "significant"
+        },
+        {
+          "description": "poor urine output",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "shortness of breath",
+          "onset": "not provided",
+          "duration": "increasing",
+          "severity": "not provided"
+        },
+        {
+          "description": "acidosis",
+          "onset": "not provided",
+          "duration": "worsening",
+          "severity": "not provided"
+        },
+        {
+          "description": "tachypneic appearance",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "depression",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "heard voices telling him to shoot himself",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "tachycardia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "tachypnea",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "distended abdomen",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "diffuse abdominal tenderness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "no bowel sounds",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hepatosplenomegaly",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "pitting edema in extremities",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "dried blood in oropharynx and around nares",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "continued bleeding",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "hypoxia",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "fever",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "severe tetany",
+          "onset": "hospital day three",
+          "duration": "not provided",
+          "severity": "severe"
+        },
+        {
+          "description": "bleeding from the nose (epistaxis)",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "anuria",
+          "onset": "during this hospital course",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [
+        {
+          "primary": "pancytopenia",
+          "notes": "Thought to be secondary to splenomegaly"
+        },
+        {
+          "primary": "splenomegaly",
+          "notes": "not provided"
+        },
+        {
+          "primary": "granulomatous hepatitis",
+          "notes": "Liver biopsy showed granulomatous hepatitis"
+        },
+        {
+          "primary": "mild mitral regurgitation",
+          "notes": "not provided"
+        },
+        {
+          "primary": "depression",
+          "notes": "not provided"
+        },
+        {
+          "primary": "question sarcoid",
+          "notes": "Prednisone started for possible sarcoid due to granulomatous infiltrate in liver"
+        },
+        {
+          "primary": "question history of alcohol use",
+          "notes": "not provided"
+        },
+        {
+          "primary": "question history of seizure disorder",
+          "notes": "not provided"
+        },
+        {
+          "primary": "metabolic acidosis",
+          "notes": "Anion gap metabolic acidosis, unclear etiology; possible hypoperfusion, renal failure, liver involvement, or tumor lysis. Required ventilatory support and sodium bicarbonate drip. Started on CVVH with bicarbonate exchange."
+        },
+        {
+          "primary": "respiratory failure",
+          "notes": "Maximally vented for supportive acidosis due to poor respiratory compensation. Hypoxic secondary to volume overload and possible pneumonia at right apex by CT scan."
+        },
+        {
+          "primary": "fever and sepsis",
+          "notes": "Etiology unclear. Required pressor support with Levophed, improved hemodynamics. Work-up pending."
+        },
+        {
+          "primary": "possible pneumonia",
+          "notes": "Possible pneumonia process at right apex by CT scan."
+        },
+        {
+          "primary": "possible lymphoma",
+          "notes": "Bone marrow biopsy shows infiltrate might be consistent with lymphoma. Clinical course explained by possible tumor lysis syndrome given elevation of uric acid."
+        },
+        {
+          "primary": "tumor lysis syndrome",
+          "notes": "Suspected due to elevation of uric acid."
+        },
+        {
+          "primary": "hyperbilirubinemia/hepatitis",
+          "notes": "Liver biopsy with inflammatory cell infiltrate and granulomas, not suggestive of tuberculosis or sarcoid. Differential includes Hodgkin's lymphoma, leptospirosis, or other infectious disease process."
+        },
+        {
+          "primary": "hypocalcemia",
+          "notes": "Significant drop in calcium upon initiation of CVVH with citrate exchange; required calcium drip and TPN for repletion."
+        },
+        {
+          "primary": "coagulopathy (DIC)",
+          "notes": "Low platelets and abnormal coagulations attributed to DIC; continued epistaxis."
+        },
+        {
+          "primary": "acute renal failure (acute tubular necrosis, ATN)",
+          "notes": "Essentially anuric during hospital course; attributed to ATN; required hemodialysis."
+        },
+        {
+          "primary": "pericardial effusion",
+          "notes": "Initial echocardiogram showed mild to moderate effusion; repeat showed improvement but ejection fraction was 30%."
+        }
+      ],
+      "Treatment_Options": [
+        {
+          "procedure": "Prednisone therapy",
+          "details": "Started for possible sarcoid due to granulomatous infiltrate in liver",
+          "treatment": "Prednisone 20 mg three times a day",
+          "medications": [
+            {
+              "name": "Prednisone",
+              "purpose": "possible sarcoid/granulomatous hepatitis",
+              "dosage": "20 mg",
+              "frequency": "three times a day"
+            }
+          ]
+        },
+        {
+          "procedure": "Empiric antimicrobial therapy",
+          "details": "Started at outside hospital for persistent fever",
+          "treatment": "Zosyn, Diflucan, Vancomycin",
+          "medications": [
+            {
+              "name": "Zosyn",
+              "purpose": "empiric treatment for infection",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Diflucan",
+              "purpose": "empiric antifungal treatment",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Vancomycin",
+              "purpose": "empiric treatment for infection",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Dopamine drip",
+          "details": "Started for significant hypotension prior to transfer",
+          "treatment": "Dopamine infusion",
+          "medications": [
+            {
+              "name": "Dopamine",
+              "purpose": "treatment of hypotension",
+              "dosage": "not provided",
+              "frequency": "continuous infusion"
+            }
+          ]
+        },
+        {
+          "procedure": "Intubation",
+          "details": "For compensation of acidosis and tachypnea",
+          "treatment": "Intubation and mechanical ventilation",
+          "medications": []
+        },
+        {
+          "procedure": "Transfusion",
+          "details": "Ten units of platelets, two units of packed red blood cells, two units of fresh frozen plasma",
+          "treatment": "Blood product transfusion",
+          "medications": []
+        },
+        {
+          "procedure": "ventilatory support",
+          "details": "Maximum ventilatory support for metabolic acidosis",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "sodium bicarbonate drip",
+          "details": "Started on hospital day two for bicarbonate of 9",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "sodium bicarbonate",
+              "purpose": "treat metabolic acidosis",
+              "dosage": "not provided",
+              "frequency": "continuous drip"
+            }
+          ]
+        },
+        {
+          "procedure": "CVVH with bicarbonate exchange",
+          "details": "Started on hospital day three for metabolic acidosis",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "blood product transfusion",
+          "details": "To support hematocrit greater than 30 and INR less than 1",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "ventilation",
+          "details": "Maximally vented for supportive acidosis due to poor respiratory compensation.",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "pressor support",
+          "details": "Required pressor support with Levophed, able to wean with improvement of hemodynamics.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Levophed",
+              "purpose": "pressor support",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "empirical broad spectrum antibiotics",
+          "details": "Initiated for empirical broad coverage for sepsis.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Vancomycin",
+              "purpose": "empirical broad coverage",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Meropenem",
+              "purpose": "empirical broad coverage",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "doxycycline",
+              "purpose": "empirical broad coverage",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Levaquin",
+              "purpose": "empirical broad coverage",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "Caspofungin",
+              "purpose": "empirical broad coverage",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "empirical treatment of tumor lysis",
+          "details": "Empirical treatment of tumor lysis syndrome due to elevated uric acid.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "allopurinol",
+              "purpose": "treatment of tumor lysis syndrome",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "high dose steroids",
+          "details": "High dose steroids for two days without improvement, then decreased to distress dose only.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "steroids",
+              "purpose": "treatment of possible sarcoid or inflammatory process",
+              "dosage": "maximum dose for two days, then decreased",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "calcium drip",
+          "details": "Initiated during CVVH with citrate exchange for hypocalcemia and tetany.",
+          "treatment": "Calcium repletion",
+          "medications": [
+            {
+              "name": "calcium",
+              "purpose": "treat hypocalcemia",
+              "dosage": "not provided",
+              "frequency": "continuous drip"
+            }
+          ]
+        },
+        {
+          "procedure": "total parenteral nutrition (TPN)",
+          "details": "Started on hospital day four with calcium supplementation.",
+          "treatment": "Nutritional support and calcium repletion",
+          "medications": [
+            {
+              "name": "calcium",
+              "purpose": "supplementation in TPN",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "CVVH (Continuous Veno-Venous Hemofiltration)",
+          "details": "Maintained on CVVH with citrate exchange.",
+          "treatment": "Renal replacement therapy",
+          "medications": []
+        },
+        {
+          "procedure": "hemodialysis with bicarbonate exchange",
+          "details": "For acute renal failure/ATN.",
+          "treatment": "Renal replacement therapy",
+          "medications": []
+        },
+        {
+          "procedure": "platelet transfusion",
+          "details": "For low platelets and ongoing bleeding.",
+          "treatment": "Supportive care for coagulopathy",
+          "medications": [
+            {
+              "name": "platelets",
+              "purpose": "treat thrombocytopenia and bleeding",
+              "dosage": "not provided",
+              "frequency": "as needed"
+            }
+          ]
+        },
+        {
+          "procedure": "fresh frozen plasma transfusion",
+          "details": "For abnormal coagulations and DIC.",
+          "treatment": "Supportive care for coagulopathy",
+          "medications": [
+            {
+              "name": "fresh frozen plasma",
+              "purpose": "treat coagulopathy",
+              "dosage": "not provided",
+              "frequency": "as needed"
+            }
+          ]
+        },
+        {
+          "procedure": "ENT consultation",
+          "details": "For epistaxis; recommended supportive care only.",
+          "treatment": "Supportive care",
+          "medications": []
+        }
+      ]
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2086-06-26",
+        "Age": 29,
+        "Sex": "M",
+        "Religion": "UNOBTAINABLE",
+        "Marital_Status": "SINGLE",
+        "Ethnicity": "UNKNOWN/NOT SPECIFIED",
+        "Insurance": "Self Pay",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2115-11-04 05:13:00",
+        "Discharge_Date": "2115-11-22 17:00:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "1. Pancytopenia. 2. Splenomegaly. 3. Granulomatous hepatitis. 4. Mild mitral regurgitation. 5. Depression. 6. Question history of alcohol use. 7. Question history of seizure disorder."
+      },
+      "Allergies": [
+        "Question Prozac"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Prednisone",
+          "purpose": "not provided",
+          "dosage": "20",
+          "frequency": "three times a day"
+        },
+        {
+          "name": "Protonix",
+          "purpose": "not provided",
+          "dosage": "40",
+          "frequency": "once daily"
+        },
+        {
+          "name": "Zyprexa",
+          "purpose": "not provided",
+          "dosage": "15",
+          "frequency": "once daily"
+        },
+        {
+          "name": "Paxil",
+          "purpose": "not provided",
+          "dosage": "30",
+          "frequency": "once daily"
+        },
+        {
+          "name": "Lexapro",
+          "purpose": "not provided",
+          "dosage": "10",
+          "frequency": "once daily"
+        }
+      ],
+      "Discharge_Medications": []
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "The patient was transferred from outside hospital for continued fevers, jaundice, pancytopenia and splenomegaly."
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.8,
+      "consistency_score": 1.0,
+      "confidence_score": 0.75,
+      "overall_score": 0.9333333333333332,
+      "field_scores": {
+        "symptoms": 0.92,
+        "diagnoses": 1.0,
+        "treatments": 0.8571428571428571,
+        "demographics": 0.3
+      },
+      "issues": [
+        "Symptom 'hypoxia' not clearly found in original text",
+        "Symptom 'anuria' not clearly found in original text",
+        "Treatment 'Intubation' not clearly found in text",
+        "Treatment 'Transfusion' not clearly found in text",
+        "Treatment 'ventilation' not clearly found in text",
+        "Age inconsistency: stated 29, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ],
+      "advanced_metrics": {
+        "clinical_coherence": 0.5559999999999999,
+        "safety_score": 1.0,
+        "terminology_accuracy": 0.07692307692307693
+      }
+    }
+  },
+  {
+    "row_id": 18432,
+    "subject_id": 86206,
+    "hadm_id": 190529,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "Somnolence",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Respiratory distress",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Worsening dyspnea on exertion",
+          "onset": "1 to 1.5 months ago",
+          "duration": "1 to 1.5 months",
+          "severity": "not provided"
+        },
+        {
+          "description": "Fatigue",
+          "onset": "1 to 1.5 months ago",
+          "duration": "1 to 1.5 months",
+          "severity": "not provided"
+        },
+        {
+          "description": "Orthopnea",
+          "onset": "1 to 1.5 months ago",
+          "duration": "1 to 1.5 months",
+          "severity": "not provided"
+        },
+        {
+          "description": "Paroxysmal nocturnal dyspnea",
+          "onset": "1 to 1.5 months ago",
+          "duration": "1 to 1.5 months",
+          "severity": "not provided"
+        },
+        {
+          "description": "Productive cough",
+          "onset": "1 to 1.5 months ago",
+          "duration": "1 to 1.5 months",
+          "severity": "not provided"
+        },
+        {
+          "description": "Bilateral calf pain",
+          "onset": "1 to 1.5 months ago",
+          "duration": "1 to 1.5 months",
+          "severity": "not provided"
+        },
+        {
+          "description": "Diaphragmatic weakness",
+          "onset": "post-procedure",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "Hypotension",
+          "onset": "post-procedure",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "difficulty breathing after extubation",
+          "onset": "after breathing tube was removed post-procedure",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [
+        {
+          "primary": "Coronary artery disease",
+          "notes": "History of percutaneous coronary interventions with multiple stents"
+        },
+        {
+          "primary": "Paroxysmal atrial fibrillation",
+          "notes": "Diagnosed in 2178, failed Sotalol and Tikosyn"
+        },
+        {
+          "primary": "Peripheral vascular disease",
+          "notes": "Status post left carotid endarterectomy and left subclavian bypass"
+        },
+        {
+          "primary": "History of cerebrovascular accident",
+          "notes": "CVA in 2177, reports some mild memory deficits"
+        },
+        {
+          "primary": "Dyslipidemia",
+          "notes": "Cardiac risk factor"
+        },
+        {
+          "primary": "Diabetes",
+          "notes": "Cardiac risk factor"
+        },
+        {
+          "primary": "Diaphragmatic weakness",
+          "notes": "Resulting in respiratory difficulty and reintubation after procedure"
+        },
+        {
+          "primary": "Somnolence and respiratory distress post-procedure",
+          "notes": "Difficult to arouse after extubation, required reintubation"
+        },
+        {
+          "primary": "Somnolence secondary to sedation from propofol during PVI procedure",
+          "notes": "Initial concern for stroke, but imaging and neurology consult did not support this. Mental status improved after sedation stopped."
+        },
+        {
+          "primary": "Respiratory distress secondary to sedation from PVI procedure",
+          "notes": "Required reintubation; resolved after sedation wore off."
+        },
+        {
+          "primary": "Hypotension likely related to sedating medications",
+          "notes": "Phenylephrine used, successfully weaned after sedation wore off."
+        },
+        {
+          "primary": "Atrial fibrillation, status post pulmonary vein isolation (PVI)",
+          "notes": "Now in sinus rhythm after procedure with adequate rate control."
+        },
+        {
+          "primary": "History of coronary artery disease (CAD)",
+          "notes": "Past medical history"
+        },
+        {
+          "primary": "History of paroxysmal atrial fibrillation",
+          "notes": "Past medical history"
+        },
+        {
+          "primary": "History of peripheral vascular disease (PVD)",
+          "notes": "Past medical history"
+        },
+        {
+          "primary": "History of cerebrovascular accident (CVA)",
+          "notes": "Past medical history"
+        },
+        {
+          "primary": "atrial fibrillation",
+          "notes": "Patient underwent pulmonary vein isolation for atrial fibrillation"
+        }
+      ],
+      "Treatment_Options": [
+        {
+          "procedure": "Pulmonary vein isolation",
+          "details": "Elective procedure performed on 2182-11-21",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Mechanical ventilation",
+          "details": "Intubation and sedation post-procedure due to respiratory distress",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Fentanyl",
+              "purpose": "Sedation during procedure",
+              "dosage": "150 mcg",
+              "frequency": "Single dose"
+            },
+            {
+              "name": "Midazolam",
+              "purpose": "Sedation during procedure",
+              "dosage": "4 mg",
+              "frequency": "Single dose"
+            },
+            {
+              "name": "Propofol",
+              "purpose": "Sedation during procedure",
+              "dosage": "310 mg",
+              "frequency": "Single dose"
+            }
+          ]
+        },
+        {
+          "procedure": "Pulmonary vein isolation (PVI)",
+          "details": "Elective procedure for atrial fibrillation",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Intubation and mechanical ventilation",
+          "details": "Reintubation required due to post-procedure respiratory distress and somnolence",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Sedation with propofol",
+          "details": "Used during PVI procedure; likely cause of somnolence and respiratory depression",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Propofol",
+              "purpose": "Sedation during PVI procedure",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "Phenylephrine administration",
+          "details": "Used to manage hypotension post-procedure",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Phenylephrine",
+              "purpose": "Management of hypotension",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "reintubation",
+          "details": "Due to difficulty breathing after initial extubation",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "cardiac event monitor",
+          "details": "To be followed by cardiologist after discharge",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "medication management",
+          "details": "Aspirin started, Metoprolol succinate dose changed, Dronedarone discontinued",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Aspirin",
+              "purpose": "antiplatelet therapy",
+              "dosage": "81 mg",
+              "frequency": "by mouth daily"
+            },
+            {
+              "name": "Metoprolol succinate",
+              "purpose": "rate control for atrial fibrillation",
+              "dosage": "100 mg XL",
+              "frequency": "by mouth twice daily"
+            }
+          ]
+        }
+      ]
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "2116-01-02",
+        "Age": 66,
+        "Sex": "M",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "MARRIED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "ELECTIVE",
+        "Admission_Date": "2182-11-21 07:15:00",
+        "Discharge_Date": "2182-11-22 11:45:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "Coronary artery disease with multiple percutaneous coronary interventions and stents; Paroxysmal atrial fibrillation diagnosed in 2178, failed Sotalol and Tikosyn; Peripheral vascular disease status post left carotid endarterectomy and left subclavian bypass; History of cerebrovascular accident in 2177 with mild memory deficits; Diabetes; Dyslipidemia; No history of hypertension, CABG, or pacing/ICD."
+      },
+      "Allergies": [
+        "Lipitor"
+      ],
+      "Current_Medications": [
+        {
+          "name": "Aspirin",
+          "purpose": "antiplatelet therapy",
+          "dosage": "81 mg",
+          "frequency": "by mouth daily"
+        },
+        {
+          "name": "Metoprolol succinate",
+          "purpose": "rate control for atrial fibrillation",
+          "dosage": "100 mg XL",
+          "frequency": "by mouth twice daily"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Aspirin",
+          "purpose": "antiplatelet therapy",
+          "dosage": "81 mg",
+          "frequency": "by mouth daily"
+        },
+        {
+          "name": "Metoprolol succinate",
+          "purpose": "rate control for atrial fibrillation",
+          "dosage": "100 mg XL",
+          "frequency": "by mouth twice daily"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "Somnolence and respiratory distress"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.8,
+      "consistency_score": 1.0,
+      "confidence_score": 0.75,
+      "overall_score": 0.9333333333333332,
+      "field_scores": {
+        "symptoms": 0.9090909090909091,
+        "diagnoses": 1.0,
+        "treatments": 1.0,
+        "demographics": 0.39999999999999997
+      },
+      "issues": [
+        "Symptom 'Fatigue' not clearly found in original text",
+        "Age inconsistency: stated 66, calculated -1"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ],
+      "advanced_metrics": {
+        "clinical_coherence": 0.55,
+        "safety_score": 1.0,
+        "terminology_accuracy": 0.08108108108108109
+      }
+    }
+  },
+  {
+    "row_id": 18433,
+    "subject_id": 6973,
+    "hadm_id": 188846,
+    "Core_Fields": {
+      "Symptoms": [
+        {
+          "description": "fall down stairs",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "neurological deficits in bilateral triceps",
+          "onset": "after fall",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "neurological deficits in bilateral lower extremities (myelopathy)",
+          "onset": "after fall",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "confusion",
+          "onset": "POD 2",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "pain",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "numbness or tingling",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "weakness",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "headache",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "redness around incision",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "increased drainage from incision",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        },
+        {
+          "description": "fevers > 101",
+          "onset": "not provided",
+          "duration": "not provided",
+          "severity": "not provided"
+        }
+      ],
+      "Diagnoses": [
+        {
+          "primary": "C7 burst fracture",
+          "notes": "Revealed on trauma evaluation after fall"
+        },
+        {
+          "primary": "severe ligamentous posterior injury",
+          "notes": "Associated with C7 burst fracture"
+        },
+        {
+          "primary": "epidural hematoma",
+          "notes": "Associated with C7 burst fracture"
+        },
+        {
+          "primary": "myelopathy",
+          "notes": "Neurological deficits in bilateral triceps and lower extremities"
+        },
+        {
+          "primary": "compression fracture of the C7 vertebral body",
+          "notes": "No listhesis"
+        },
+        {
+          "primary": "spinous process fractures of C4 and C6",
+          "notes": "not provided"
+        },
+        {
+          "primary": "right lamina fracture of C5",
+          "notes": "not provided"
+        },
+        {
+          "primary": "flexion injury of C7",
+          "notes": "not provided"
+        },
+        {
+          "primary": "cortical irregularity of the base of 5th proximal phalanx and head of the 4th proximal phalanx, possible acute fractures",
+          "notes": "uncertain age"
+        },
+        {
+          "primary": "multilevel dorsal epidural hematoma",
+          "notes": "in association with multiple cervical spine fractures and ligamentous injuries"
+        },
+        {
+          "primary": "degenerative changes of T-spine and L-spine",
+          "notes": "not provided"
+        },
+        {
+          "primary": "anterior wedge fracture of C7",
+          "notes": "with associated distraction fracture of the C6 spinous process and extension into the fused right C6-7 lamina"
+        },
+        {
+          "primary": "C7 laminar fracture",
+          "notes": "not provided"
+        },
+        {
+          "primary": "C6-C7 spinous process fracture",
+          "notes": "not provided"
+        },
+        {
+          "primary": "epidural spinal hematoma",
+          "notes": "not provided"
+        },
+        {
+          "primary": "cervical spinal stenosis C3-C7",
+          "notes": "not provided"
+        }
+      ],
+      "Treatment_Options": [
+        {
+          "procedure": "Decompressive laminectomy C3-C7, posterior instrumented fusion using bilateral mass screws and rods from C5, C6, C7, T1",
+          "details": "Urgent surgery performed on morning of 2105-4-6",
+          "treatment": "Surgical intervention for spinal injury",
+          "medications": []
+        },
+        {
+          "procedure": "admission to trauma ICU",
+          "details": "with neurosurgery consult",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "morphine",
+              "purpose": "pain",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "solumederol",
+              "purpose": "spinal injury",
+              "dosage": "taper",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "C-collar",
+          "details": "immobilization",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "decompressive laminectomy C3-C7 and posterior instrumented fusion",
+          "details": "using bilateral mass screws and rods from C5, C6, C7, T1",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "gentamycin",
+              "purpose": "peri-operative antibiotic",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            },
+            {
+              "name": "vancomycin",
+              "purpose": "peri-operative antibiotic",
+              "dosage": "not provided",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "pain management",
+          "details": "morphine PCA discontinued due to possible over-narcotization; started on low standing dose valium and low dose vicodin po",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "valium",
+              "purpose": "pain/possible muscle spasm",
+              "dosage": "low standing dose",
+              "frequency": "not provided"
+            },
+            {
+              "name": "vicodin",
+              "purpose": "pain",
+              "dosage": "low dose",
+              "frequency": "not provided"
+            }
+          ]
+        },
+        {
+          "procedure": "acute rehabilitation",
+          "details": "recommended by PT",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "fitted for new C-collar",
+          "details": "prior to discharge",
+          "treatment": "not provided",
+          "medications": []
+        },
+        {
+          "procedure": "Medication management",
+          "details": "Discharge medications provided for pain, nausea, gastric protection, and muscle relaxation.",
+          "treatment": "not provided",
+          "medications": [
+            {
+              "name": "Hydrocodone-Acetaminophen 5-500 mg Tablet",
+              "purpose": "pain management",
+              "dosage": "One (1) Tablet",
+              "frequency": "PO Q4-6H (every 4 to 6 hours) as needed"
+            },
+            {
+              "name": "Prochlorperazine 10 mg Tablet",
+              "purpose": "nausea management",
+              "dosage": "One (1) Tablet",
+              "frequency": "PO Q6H (every 6 hours) as needed"
+            },
+            {
+              "name": "Lansoprazole 30 mg Capsule, Delayed Release(E.C.)",
+              "purpose": "gastric protection",
+              "dosage": "One (1) Capsule, Delayed Release(E.C.)",
+              "frequency": "PO DAILY (Daily)"
+            },
+            {
+              "name": "Acetaminophen 325 mg Tablet",
+              "purpose": "pain management",
+              "dosage": "One (1) Tablet",
+              "frequency": "PO Q4-6H (every 4 to 6 hours) as needed"
+            },
+            {
+              "name": "Diazepam 2 mg Tablet",
+              "purpose": "muscle relaxation",
+              "dosage": "One (1) Tablet",
+              "frequency": "PO Q8H (every 8 hours) for 2 days"
+            }
+          ]
+        },
+        {
+          "procedure": "Follow-up care",
+          "details": "Schedule follow-up appointment in 2 weeks, have staples removed at rehab facility, monitor for complications.",
+          "treatment": "not provided",
+          "medications": []
+        }
+      ]
+    },
+    "Context_Fields": {
+      "Patient_Demographics": {
+        "Date_of_Birth": "1805-04-05",
+        "Age": 300,
+        "Sex": "F",
+        "Religion": "CATHOLIC",
+        "Marital_Status": "WIDOWED",
+        "Ethnicity": "WHITE",
+        "Insurance": "Medicare",
+        "Admission_Type": "EMERGENCY",
+        "Admission_Date": "2105-04-05 23:48:00",
+        "Discharge_Date": "2105-04-10 11:40:00"
+      },
+      "Medical_History": {
+        "Past_Medical_History": "DM2, shingles, knee surgery, appendectomy"
+      },
+      "Allergies": [
+        "Codeine"
+      ],
+      "Current_Medications": [
+        {
+          "name": "ASA",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        },
+        {
+          "name": "Metoprolol",
+          "purpose": "not provided",
+          "dosage": "not provided",
+          "frequency": "not provided"
+        }
+      ],
+      "Discharge_Medications": [
+        {
+          "name": "Heparin (Porcine)",
+          "purpose": "not provided",
+          "dosage": "5,000 unit/mL",
+          "frequency": "One (1) Injection TID (3 times a day)"
+        },
+        {
+          "name": "Docusate Sodium",
+          "purpose": "not provided",
+          "dosage": "100 mg",
+          "frequency": "One (1) Capsule PO BID (2 times a day)"
+        },
+        {
+          "name": "Aspirin",
+          "purpose": "not provided",
+          "dosage": "81 mg",
+          "frequency": "One (1) Tablet, Chewable PO DAILY (Daily)"
+        },
+        {
+          "name": "Bisacodyl",
+          "purpose": "not provided",
+          "dosage": "5 mg",
+          "frequency": "Two (2) Tablet, Delayed Release (E.C.) PO DAILY (Daily) as needed"
+        },
+        {
+          "name": "Metoprolol Tartrate",
+          "purpose": "not provided",
+          "dosage": "25 mg",
+          "frequency": "One (1) Tablet PO BID (2 times a day)"
+        },
+        {
+          "name": "Hydrocodone-Acetaminophen 5-500 mg Tablet",
+          "purpose": "pain management",
+          "dosage": "One (1) Tablet",
+          "frequency": "PO Q4-6H (every 4 to 6 hours) as needed"
+        },
+        {
+          "name": "Prochlorperazine 10 mg Tablet",
+          "purpose": "nausea management",
+          "dosage": "One (1) Tablet",
+          "frequency": "PO Q6H (every 6 hours) as needed"
+        },
+        {
+          "name": "Lansoprazole 30 mg Capsule, Delayed Release(E.C.)",
+          "purpose": "gastric protection",
+          "dosage": "One (1) Capsule, Delayed Release(E.C.)",
+          "frequency": "PO DAILY (Daily)"
+        },
+        {
+          "name": "Acetaminophen 325 mg Tablet",
+          "purpose": "pain management",
+          "dosage": "One (1) Tablet",
+          "frequency": "PO Q4-6H (every 4 to 6 hours) as needed"
+        },
+        {
+          "name": "Diazepam 2 mg Tablet",
+          "purpose": "muscle relaxation",
+          "dosage": "One (1) Tablet",
+          "frequency": "PO Q8H (every 8 hours) for 2 days"
+        }
+      ]
+    },
+    "Additional_Context": {
+      "Chief_Complaint": "fall down stairs"
+    },
+    "quality_assessment": {
+      "completeness_score": 1.0,
+      "accuracy_score": 0.85,
+      "consistency_score": 0.8,
+      "confidence_score": 0.9,
+      "overall_score": 0.8833333333333334,
+      "field_scores": {
+        "symptoms": 0.9090909090909091,
+        "diagnoses": 1.0,
+        "treatments": 1.0,
+        "demographics": 0.5
+      },
+      "issues": [
+        "Symptom 'confusion' not clearly found in original text"
+      ],
+      "recommendations": [
+        "Improve demographic data validation and consistency checks",
+        "Enhance text-to-extraction matching validation"
+      ],
+      "advanced_metrics": {
+        "clinical_coherence": 0.5318181818181817,
+        "safety_score": 1.0,
+        "terminology_accuracy": 0.05555555555555555
+      }
+    }
+  }
+]

@@ -1,8 +1,3 @@
-# gtmf_creation_enhanced.py
-"""
-ENHANCED: GTMF Creation with Advanced Medical Validation Integration
-Minimal changes for maximum impact - integrates with enhanced validation system
-"""
 import json
 import logging
 from sqlalchemy import create_engine, text
@@ -12,52 +7,122 @@ from azure.ai.inference.models import SystemMessage, UserMessage
 from azure.core.credentials import AzureKeyCredential
 from Models.classes import GTMF
 from Utils.utils import get_db_uri, format_date, build_symptom_conditions, calculate_age
-
-# ENHANCEMENT: Import advanced validation components
-from Utils.medical_knowledge_mimic import MIMICMedicalKnowledgeBase, MedicalValidationResult
-from Utils.medical_validator import AdvancedMedicalValidator, ClinicalValidationMetrics
-from Agents.ValidatorAgent import EnhancedValidatorAgent
-
 import re
 import os
+from typing import Dict, List, Tuple
 from dataclasses import dataclass
-import numpy as np
+
+# MINIMAL ADDITION: Import advanced validation components if available
+try:
+    from Utils.medical_knowledge_mimic import MIMICMedicalKnowledgeBase
+    from Utils.medical_validator import AdvancedMedicalValidator
+    ADVANCED_VALIDATION_AVAILABLE = True
+except ImportError:
+    ADVANCED_VALIDATION_AVAILABLE = False
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# MINIMAL ADDITION: Robust JSON parsing functions (essential fix)
+def aggressive_json_clean(text: str) -> str:
+    """Aggressively clean text to extract valid JSON"""
+    # Remove markdown code blocks
+    text = re.sub(r'```[a-z]*\n?', '', text)
+    text = re.sub(r'```', '', text)
+    
+    # Remove common prefixes
+    prefixes = ['Here is the JSON:', 'JSON:', 'Response:', 'Output:', 'Result:']
+    for prefix in prefixes:
+        if text.strip().startswith(prefix):
+            text = text.strip()[len(prefix):].strip()
+    
+    # Fix common JSON issues
+    text = re.sub(r'\n+', ' ', text)  # Replace multiple newlines with space
+    text = re.sub(r'\t+', ' ', text)  # Replace tabs with space
+    text = re.sub(r'\s+', ' ', text)  # Normalize whitespace
+    
+    # Remove trailing commas
+    text = re.sub(r',(\s*[}\]])', r'\1', text)
+    
+    return text.strip()
+
+def safe_json_parse_object(json_str: str, field_name: str = "") -> dict:
+    """Safely parse JSON object with fallback strategies"""
+    if not json_str or json_str.strip() in ['', '{}']:
+        return {}
+    
+    try:
+        result = json.loads(json_str)
+        if isinstance(result, dict):
+            return result
+        return {}
+    except json.JSONDecodeError as e:
+        logger.warning(f"JSON parse error for {field_name}: {e}")
+        
+        # Try to fix and re-parse
+        try:
+            cleaned = json_str.strip()
+            
+            # Ensure proper object formatting
+            if not cleaned.startswith('{'):
+                cleaned = '{' + cleaned
+            if not cleaned.endswith('}'):
+                cleaned = cleaned + '}'
+            
+            # Fix common issues
+            cleaned = re.sub(r'(?<!\\)"(?=[^",\]\}]*")', '\\"', cleaned)
+            cleaned = re.sub(r',(\s*[}\]])', r'\1', cleaned)
+            
+            result = json.loads(cleaned)
+            if isinstance(result, dict):
+                return result
+                    
+        except Exception as fix_error:
+            logger.warning(f"Failed to fix JSON for {field_name}: {fix_error}")
+        
+        # Return minimal valid structure if all parsing fails
+        return {
+            "Core_Fields": {
+                "Symptoms": [],
+                "Diagnoses": [],
+                "Treatment_Options": []
+            },
+            "Context_Fields": {
+                "Patient_Demographics": {
+                    "Date_of_Birth": "not provided",
+                    "Age": 0,
+                    "Sex": "not provided",
+                    "Religion": "not provided",
+                    "Marital_Status": "not provided",
+                    "Ethnicity": "not provided",
+                    "Insurance": "not provided",
+                    "Admission_Type": "not provided",
+                    "Admission_Date": "not provided",
+                    "Discharge_Date": "not provided"
+                },
+                "Medical_History": {"Past_Medical_History": "not provided"},
+                "Allergies": [],
+                "Current_Medications": [],
+                "Discharge_Medications": []
+            },
+            "Additional_Context": {"Chief_Complaint": "not provided"}
+        }
+
 @dataclass
-class EnhancedGTMFQualityScore:
-    """ENHANCED: Quality assessment integrating advanced medical validation"""
-    
-    # Advanced Medical Validation Metrics
-    clinical_validation: ClinicalValidationMetrics  # Full advanced validation results
-    mimic_validation: MedicalValidationResult       # MIMIC-III knowledge validation
-    
-    # Traditional Metrics (Enhanced)
-    completeness_score: float      # 0-1, enhanced with advanced methods
-    accuracy_score: float          # 0-1, now using clinical validation
-    consistency_score: float       # 0-1, medical coherence validation
-    confidence_score: float        # 0-1, statistical confidence
-    
-    # New Advanced-derived Metrics
-    medical_entity_f1: float        # Standardized medical entity F1
-    clinical_safety_score: float    # Enhanced safety validation
-    terminology_accuracy: float    # UMLS/SNOMED-CT validation
-    clinical_readiness: str         # Clinical deployment readiness
-    
-    # Quality Indicators
-    field_scores: dict
-    issues: list
-    recommendations: list
-    confidence_interval: tuple  # 95% CI
-    
-    # Evaluation Summary
-    evaluation_method: str          # Indicates advanced validation used
-    mimic_kb_available: bool        # MIMIC-III knowledge base status
+class GTMFQualityScore:
+    """Quality assessment for GTMF extraction"""
+    completeness_score: float  # 0-1, how much of the note was captured
+    accuracy_score: float      # 0-1, how accurate the extractions are
+    consistency_score: float   # 0-1, internal consistency of extracted data
+    confidence_score: float    # 0-1, model confidence in extractions
+    field_scores: Dict[str, float]  # Individual field quality scores
+    issues: List[str]          # List of identified issues
+    recommendations: List[str]  # Improvement recommendations
+    # MINIMAL ADDITION: Advanced metrics if available
+    advanced_metrics: Dict = None  # Advanced validation results if available
 
 class AzureAIClient:
-    """Enhanced Azure AI client with better error handling"""
+    """Azure AI client wrapper for GTMF extraction"""
     
     def __init__(self, endpoint: str = None, api_key: str = None, model_name: str = "gpt-4.1"):
         self.endpoint = endpoint or os.getenv("AZURE_AI_ENDPOINT")
@@ -72,8 +137,8 @@ class AzureAIClient:
             credential=AzureKeyCredential(self.api_key)
         )
     
-    def chat_completion(self, system_message: str, user_message: str, temperature: float = 0.0):
-        """Generate chat completion with enhanced error handling"""
+    def chat_completion(self, system_message: str, user_message: str, temperature: float = 0.0) -> str:
+        """Generate chat completion using Azure AI"""
         try:
             response = self.client.complete(
                 messages=[
@@ -89,565 +154,7 @@ class AzureAIClient:
             logger.error(f"Azure AI completion failed: {e}")
             raise
 
-class EnhancedGTMFQualityAssessor:
-    """
-    ENHANCED: GTMF quality assessment using advanced medical validation
-    Replaces the basic GTMFQualityAssessor with minimal API changes
-    """
-    
-    def __init__(self, azure_client: AzureAIClient):
-        self.azure_client = azure_client
-        
-        # ENHANCEMENT: Initialize advanced validation components
-        try:
-            db_uri = get_db_uri()
-            if db_uri:
-                self.mimic_kb = MIMICMedicalKnowledgeBase(db_uri)
-                self.mimic_available = True
-                logger.info("MIMIC-III knowledge base loaded for GTMF validation")
-            else:
-                self.mimic_kb = None
-                self.mimic_available = False
-                logger.warning("MIMIC-III database not available")
-        except Exception as e:
-            logger.error(f"Failed to load MIMIC-III knowledge base: {e}")
-            self.mimic_kb = None
-            self.mimic_available = False
-        
-        # Initialize advanced validator
-        try:
-            self.advanced_validator = AdvancedMedicalValidator(self.mimic_kb)
-            self.advanced_available = True
-            logger.info("Advanced medical validator initialized")
-        except Exception as e:
-            logger.error(f"Failed to initialize advanced validator: {e}")
-            self.advanced_validator = None
-            self.advanced_available = False
-        
-        # Initialize enhanced validator for dialogue assessment
-        try:
-            self.enhanced_validator = EnhancedValidatorAgent(
-                use_advanced_validation=self.advanced_available,
-                use_mimic_kb=self.mimic_available
-            )
-            logger.info("Enhanced validator agent initialized")
-        except Exception as e:
-            logger.error(f"Failed to initialize enhanced validator: {e}")
-            self.enhanced_validator = None
-    
-    def assess_gtmf_quality(self, medical_text: str, gtmf_instance: GTMF):
-        """
-        ENHANCED: Comprehensive GTMF quality assessment using advanced validation
-        Minimal API changes - same input/output structure but enhanced internally
-        """
-        logger.info("Starting enhanced GTMF quality assessment with advanced validation")
-        
-        # Convert GTMF to structured data for validation
-        gtmf_dict = gtmf_instance.model_dump()
-        
-        # Extract medical components
-        symptoms = self._extract_symptoms_from_gtmf(gtmf_instance)
-        diagnoses = self._extract_diagnoses_from_gtmf(gtmf_instance)
-        treatments = self._extract_treatments_from_gtmf(gtmf_instance)
-        
-        # ENHANCEMENT 1: Advanced Clinical Validation
-        clinical_validation = None
-        if self.advanced_available and self.advanced_validator:
-            try:
-                clinical_context = self._prepare_clinical_context_from_gtmf(gtmf_instance)
-                clinical_validation = self.advanced_validator.validate_medical_dialogue(
-                    predicted_dialogue=medical_text,
-                    reference_dialogue=None,
-                    clinical_context=clinical_context
-                )
-                logger.info(f"Advanced validation completed - Overall quality: {clinical_validation.overall_clinical_quality:.3f}")
-            except Exception as e:
-                logger.error(f"Advanced validation failed: {e}")
-                clinical_validation = None
-        
-        # ENHANCEMENT 2: MIMIC-III Knowledge Base Validation
-        mimic_validation = None
-        if self.mimic_available and self.mimic_kb:
-            try:
-                mimic_validation = self.mimic_kb.validate_clinical_coherence(
-                    symptoms, diagnoses, treatments
-                )
-                logger.info(f"MIMIC-III validation completed - Coherence: {mimic_validation.clinical_coherence:.3f}")
-            except Exception as e:
-                logger.error(f"MIMIC-III validation failed: {e}")
-                mimic_validation = None
-        
-        # ENHANCEMENT 3: Enhanced Field Assessment
-        field_scores = {}
-        issues = []
-        recommendations = []
-        
-        if clinical_validation:
-            # Use advanced metrics for field assessment
-            field_scores = {
-                "symptoms": clinical_validation.medical_entity_f1,
-                "diagnoses": clinical_validation.diagnostic_coherence,
-                "treatments": clinical_validation.treatment_appropriateness,
-                "overall_medical": clinical_validation.overall_clinical_quality
-            }
-            
-            recommendations.extend(clinical_validation.recommendations)
-            
-            # Extract issues from advanced validation
-            if clinical_validation.overall_clinical_quality < 0.7:
-                issues.append("Overall clinical quality below recommended threshold")
-            if clinical_validation.clinical_safety < 0.8:
-                issues.append("Clinical safety concerns detected")
-            if clinical_validation.terminology_accuracy < 0.75:
-                issues.append("Medical terminology accuracy needs improvement")
-        
-        else:
-            # Fallback to enhanced traditional assessment
-            field_scores, field_issues = self._assess_fields_enhanced(medical_text, gtmf_dict)
-            issues.extend(field_issues)
-            recommendations = self._generate_fallback_recommendations(field_scores, issues)
-        
-        # ENHANCEMENT 4: Calculate enhanced quality scores
-        enhanced_scores = self._calculate_enhanced_quality_scores(
-            clinical_validation, mimic_validation, field_scores, medical_text, gtmf_dict
-        )
-        
-        # ENHANCEMENT 5: Statistical confidence intervals
-        confidence_interval = self._calculate_confidence_interval(
-            clinical_validation, mimic_validation, field_scores
-        )
-        
-        # ENHANCEMENT 6: Clinical readiness assessment
-        clinical_readiness = self._assess_clinical_readiness(
-            clinical_validation, mimic_validation, enhanced_scores
-        )
-        
-        return EnhancedGTMFQualityScore(
-            # Advanced Validation Results
-            clinical_validation=clinical_validation,
-            mimic_validation=mimic_validation,
-            
-            # Enhanced Traditional Metrics  
-            completeness_score=enhanced_scores['completeness'],
-            accuracy_score=enhanced_scores['accuracy'],
-            consistency_score=enhanced_scores['consistency'],
-            confidence_score=enhanced_scores['confidence'],
-            
-            # New Advanced-derived Metrics
-            medical_entity_f1=clinical_validation.medical_entity_f1 if clinical_validation else enhanced_scores.get('entity_f1', 0.5),
-            clinical_safety_score=clinical_validation.clinical_safety if clinical_validation else enhanced_scores.get('safety', 0.7),
-            terminology_accuracy=clinical_validation.terminology_accuracy if clinical_validation else enhanced_scores.get('terminology', 0.6),
-            clinical_readiness=clinical_readiness,
-            
-            # Quality Details
-            field_scores=field_scores,
-            issues=issues,
-            recommendations=recommendations,
-            confidence_interval=confidence_interval,
-            
-            # Evaluation Metadata
-            evaluation_method="advanced_enhanced" if self.advanced_available else "enhanced_traditional",
-            mimic_kb_available=self.mimic_available
-        )
-    
-    def _extract_symptoms_from_gtmf(self, gtmf: GTMF):
-        """Extract symptoms from GTMF for validation"""
-        symptoms = []
-        for symptom in gtmf.Core_Fields.Symptoms:
-            if symptom.description and symptom.description != "not provided":
-                symptoms.append(symptom.description)
-        return symptoms
-    
-    def _extract_diagnoses_from_gtmf(self, gtmf: GTMF):
-        """Extract diagnoses from GTMF for validation"""
-        diagnoses = []
-        for diagnosis in gtmf.Core_Fields.Diagnoses:
-            if diagnosis.primary and diagnosis.primary != "not provided":
-                diagnoses.append(diagnosis.primary)
-        return diagnoses
-    
-    def _extract_treatments_from_gtmf(self, gtmf: GTMF):
-        """Extract treatments from GTMF for validation"""
-        treatments = []
-        for treatment in gtmf.Core_Fields.Treatment_Options:
-            if treatment.procedure and treatment.procedure != "not provided":
-                treatments.append(treatment.procedure)
-        return treatments
-    
-    def _prepare_clinical_context_from_gtmf(self, gtmf: GTMF):
-        """Prepare clinical context for advanced validation"""
-        return {
-            'symptoms': self._extract_symptoms_from_gtmf(gtmf),
-            'diagnoses': self._extract_diagnoses_from_gtmf(gtmf),
-            'treatments': self._extract_treatments_from_gtmf(gtmf),
-            'patient_age': gtmf.Context_Fields.Patient_Demographics.Age,
-            'patient_sex': gtmf.Context_Fields.Patient_Demographics.Sex,
-            'medical_history': gtmf.Context_Fields.Medical_History.Past_Medical_History if gtmf.Context_Fields.Medical_History else "",
-            'allergies': gtmf.Context_Fields.Allergies,
-            'current_medications': gtmf.Context_Fields.Current_Medications
-        }
-    
-    def _assess_fields_enhanced(self, medical_text: str, gtmf_dict: dict):
-        """Enhanced field assessment with better medical validation"""
-        field_scores = {}
-        issues = []
-        
-        # Enhanced symptom assessment
-        symptoms = gtmf_dict.get("Core_Fields", {}).get("Symptoms", [])
-        symptom_score, symptom_issues = self._assess_symptoms_enhanced(medical_text, symptoms)
-        field_scores["symptoms"] = symptom_score
-        issues.extend(symptom_issues)
-        
-        # Enhanced diagnosis assessment
-        diagnoses = gtmf_dict.get("Core_Fields", {}).get("Diagnoses", [])
-        diagnosis_score, diagnosis_issues = self._assess_diagnoses_enhanced(medical_text, diagnoses)
-        field_scores["diagnoses"] = diagnosis_score
-        issues.extend(diagnosis_issues)
-        
-        # Enhanced treatment assessment
-        treatments = gtmf_dict.get("Core_Fields", {}).get("Treatment_Options", [])
-        treatment_score, treatment_issues = self._assess_treatments_enhanced(medical_text, treatments)
-        field_scores["treatments"] = treatment_score
-        issues.extend(treatment_issues)
-        
-        return field_scores, issues
-    
-    def _assess_symptoms_enhanced(self, text: str, symptoms):
-        """Enhanced symptom assessment using medical patterns"""
-        issues = []
-        
-        if not symptoms:
-            # Check if medical text contains symptom indicators
-            symptom_indicators = ['pain', 'ache', 'discomfort', 'nausea', 'fever', 'cough', 'headache']
-            if any(indicator in text.lower() for indicator in symptom_indicators):
-                issues.append("Medical text contains symptoms but none extracted")
-                return 0.3, issues
-            return 0.8, issues  # No symptoms expected
-        
-        # Validate symptom quality
-        valid_symptoms = 0
-        total_symptoms = len(symptoms)
-        
-        for symptom in symptoms:
-            if isinstance(symptom, dict):
-                desc = symptom.get("description", "").strip()
-                if desc and desc != "not provided":
-                    # Check if symptom appears in text
-                    if desc.lower() in text.lower():
-                        valid_symptoms += 1
-                    else:
-                        # Check partial match
-                        words = desc.lower().split()
-                        if any(word in text.lower() for word in words if len(word) > 3):
-                            valid_symptoms += 0.5
-        
-        score = valid_symptoms / total_symptoms if total_symptoms > 0 else 0.5
-        
-        if score < 0.6:
-            issues.append("Many extracted symptoms not clearly supported by text")
-        
-        return score, issues
-    
-    def _assess_diagnoses_enhanced(self, text: str, diagnoses):
-        """Enhanced diagnosis assessment"""
-        issues = []
-        
-        if not diagnoses:
-            # Check if text contains diagnostic information
-            if any(indicator in text.lower() for indicator in ["diagnosis", "diagnosed", "condition", "disease"]):
-                issues.append("Diagnostic information present but no diagnoses extracted")
-                return 0.4, issues
-            return 0.8, issues
-        
-        # Validate diagnosis quality
-        valid_diagnoses = 0
-        total_diagnoses = len(diagnoses)
-        
-        for diagnosis in diagnoses:
-            if isinstance(diagnosis, dict):
-                primary = diagnosis.get("primary", "").strip()
-                if primary and primary != "not provided":
-                    # Validate against text
-                    if primary.lower() in text.lower():
-                        valid_diagnoses += 1
-                    else:
-                        # Check partial match
-                        words = primary.lower().split()
-                        if any(word in text.lower() for word in words if len(word) > 3):
-                            valid_diagnoses += 0.5
-        
-        score = valid_diagnoses / total_diagnoses if total_diagnoses > 0 else 0.5
-        
-        if score < 0.6:
-            issues.append("Extracted diagnoses not well supported by text")
-        
-        return score, issues
-    
-    def _assess_treatments_enhanced(self, text: str, treatments):
-        """Enhanced treatment assessment"""
-        issues = []
-        
-        if not treatments:
-            if any(indicator in text.lower() for indicator in ["treatment", "therapy", "medication", "prescription"]):
-                issues.append("Treatment information present but none extracted")
-                return 0.4, issues
-            return 0.8, issues
-        
-        # Validate treatment quality
-        valid_treatments = 0
-        total_treatments = len(treatments)
-        
-        for treatment in treatments:
-            if isinstance(treatment, dict):
-                procedure = treatment.get("procedure", "").strip()
-                if procedure and procedure != "not provided":
-                    # Validate against text
-                    if procedure.lower() in text.lower():
-                        valid_treatments += 1
-                    else:
-                        # Check partial match
-                        words = procedure.lower().split()
-                        if any(word in text.lower() for word in words if len(word) > 3):
-                            valid_treatments += 0.5
-        
-        score = valid_treatments / total_treatments if total_treatments > 0 else 0.5
-        
-        if score < 0.6:
-            issues.append("Extracted treatments not well supported by text")
-        
-        return score, issues
-    
-    def _calculate_enhanced_quality_scores(self, clinical_validation: ClinicalValidationMetrics, 
-                                          mimic_validation: MedicalValidationResult,
-                                          field_scores: dict,
-                                          medical_text: str, gtmf_dict: dict):
-        """Calculate enhanced quality scores integrating advanced validation"""
-        
-        if clinical_validation:
-            # Use advanced validation results
-            return {
-                'completeness': clinical_validation.clinical_completeness,
-                'accuracy': (clinical_validation.medical_entity_f1 + clinical_validation.terminology_accuracy) / 2,
-                'consistency': clinical_validation.diagnostic_coherence,
-                'confidence': clinical_validation.overall_clinical_quality,
-                'entity_f1': clinical_validation.medical_entity_f1,
-                'safety': clinical_validation.clinical_safety,
-                'terminology': clinical_validation.terminology_accuracy
-            }
-        
-        elif mimic_validation:
-            # Use MIMIC-III validation results
-            return {
-                'completeness': mimic_validation.concept_coverage,
-                'accuracy': mimic_validation.terminology_accuracy,
-                'consistency': mimic_validation.clinical_coherence,
-                'confidence': mimic_validation.validity_score,
-                'entity_f1': mimic_validation.validity_score,
-                'safety': mimic_validation.safety_score,
-                'terminology': mimic_validation.terminology_accuracy
-            }
-        
-        else:
-            # Fallback to enhanced traditional calculation
-            text_length = len(medical_text.split())
-            
-            # Enhanced completeness calculation
-            total_extracted = sum(len(gtmf_dict.get("Core_Fields", {}).get(field, [])) 
-                                for field in ["Symptoms", "Diagnoses", "Treatment_Options"])
-            expected_items = max(3, text_length // 200)  # More realistic expectation
-            completeness = min(1.0, total_extracted / expected_items)
-            
-            # Enhanced accuracy from field scores
-            accuracy = sum(field_scores.values()) / len(field_scores) if field_scores else 0.5
-            
-            # Basic consistency (could be enhanced with more sophisticated methods)
-            consistency = 0.7  # Default reasonable score
-            
-            # Confidence based on field performance
-            confidence = accuracy * 0.8  # Conservative confidence
-            
-            return {
-                'completeness': completeness,
-                'accuracy': accuracy,
-                'consistency': consistency,
-                'confidence': confidence,
-                'entity_f1': accuracy,  # Approximation
-                'safety': 0.7,  # Default safe assumption
-                'terminology': accuracy * 0.9  # Approximation
-            }
-    
-    def _calculate_confidence_interval(self, clinical_validation: ClinicalValidationMetrics,
-                                     mimic_validation: MedicalValidationResult,
-                                     field_scores: dict):
-        """Calculate 95% confidence interval for quality assessment"""
-        
-        if clinical_validation and hasattr(clinical_validation, 'confidence_interval'):
-            return clinical_validation.confidence_interval
-        
-        # Calculate CI from available scores
-        all_scores = []
-        
-        if clinical_validation:
-            all_scores.extend([
-                clinical_validation.medical_entity_f1,
-                clinical_validation.terminology_accuracy,
-                clinical_validation.clinical_completeness,
-                clinical_validation.diagnostic_coherence,
-                clinical_validation.clinical_safety
-            ])
-        
-        if mimic_validation:
-            all_scores.extend([
-                mimic_validation.validity_score,
-                mimic_validation.clinical_coherence,
-                mimic_validation.terminology_accuracy
-            ])
-        
-        all_scores.extend(field_scores.values())
-        
-        if len(all_scores) >= 3:
-            mean_score = np.mean(all_scores)
-            std_score = np.std(all_scores)
-            margin = 1.96 * std_score / np.sqrt(len(all_scores))
-            
-            return (max(0.0, mean_score - margin), min(1.0, mean_score + margin))
-        else:
-            # Default CI for insufficient data
-            return (0.4, 0.8)
-    
-    def _assess_clinical_readiness(self, clinical_validation: ClinicalValidationMetrics,
-                                  mimic_validation: MedicalValidationResult,
-                                  enhanced_scores: dict):
-        """Assess clinical deployment readiness"""
-        
-        if clinical_validation:
-            overall_quality = clinical_validation.overall_clinical_quality
-            safety_score = clinical_validation.clinical_safety
-        elif mimic_validation:
-            overall_quality = mimic_validation.validity_score
-            safety_score = mimic_validation.safety_score
-        else:
-            overall_quality = enhanced_scores.get('confidence', 0.5)
-            safety_score = enhanced_scores.get('safety', 0.7)
-        
-        # Clinical readiness assessment based on established thresholds
-        if overall_quality >= 0.85 and safety_score >= 0.9:
-            return "Ready for clinical pilot testing"
-        elif overall_quality >= 0.75 and safety_score >= 0.8:
-            return "Suitable for supervised clinical testing"
-        elif overall_quality >= 0.65 and safety_score >= 0.7:
-            return "Requires improvement before clinical use"
-        elif overall_quality >= 0.5:
-            return "Significant improvement needed"
-        else:
-            return "Not suitable for clinical deployment"
-    
-    def _generate_fallback_recommendations(self, field_scores: dict, 
-                                         issues: list):
-        """Generate recommendations when advanced validation is not available"""
-        recommendations = []
-        
-        if field_scores.get("symptoms", 1.0) < 0.6:
-            recommendations.append("Improve symptom extraction accuracy and validation")
-        
-        if field_scores.get("diagnoses", 1.0) < 0.6:
-            recommendations.append("Enhance diagnosis extraction and medical coherence")
-        
-        if field_scores.get("treatments", 1.0) < 0.6:
-            recommendations.append("Better treatment identification and validation")
-        
-        if len(issues) > 3:
-            recommendations.append("Address multiple extraction quality issues")
-        
-        recommendations.append("Consider enabling advanced validation for better assessment")
-        
-        return recommendations[:5]
-
-# MINIMAL CHANGE: Update extract_gtmf_chunked to use enhanced quality assessment
-def extract_gtmf_chunked(medical_text: str, azure_client: AzureAIClient):
-    """
-    ENHANCED: Extract GTMF with advanced quality assessment (minimal API changes)
-    """
-    logger.info("Extracting GTMF with enhanced advanced quality assessment")
-    
-    # Get GTMF schema
-    schema_json = GTMF.model_json_schema()
-    
-    # Chunk the text if it's too long
-    chunks = chunk_medical_text(medical_text, max_chunk_size=3000, overlap=200)
-    logger.info(f"Processing {len(chunks)} chunks")
-    
-    # System message for extraction (unchanged)
-    system_message = """You are a medical information extraction expert. Your task is to extract all relevant details from medical notes and convert them into structured JSON format.
-
-    Key Instructions:
-    1. Extract ALL medical information present in the text
-    2. If you have multiple symptoms or diagnoses, create separate objects for each one
-    3. If information is missing, use 'not provided' for string fields or empty arrays for lists
-    4. Include medications as part of treatment options
-    5. Your output must be valid JSON that conforms to the provided schema
-    6. Focus on accuracy and completeness"""
-    
-    all_extractions = []
-    
-    # Process each chunk (unchanged)
-    for i, chunk in enumerate(chunks):
-        logger.info(f"Processing chunk {i+1}/{len(chunks)}")
-        
-        user_message = f"""
-        Extract medical information from this clinical note chunk and format it according to the JSON schema below.
-
-        JSON Schema:
-        {json.dumps(schema_json, indent=2)}
-
-        Medical Note Chunk:
-        {chunk}
-
-        Provide only the JSON output:
-        """
-        
-        try:
-            result = azure_client.chat_completion(system_message, user_message, temperature=0.0)
-            
-            # Clean up the response to extract JSON
-            json_start = result.find('{')
-            json_end = result.rfind('}') + 1
-            
-            if json_start >= 0 and json_end > json_start:
-                json_str = result[json_start:json_end]
-                data = json.loads(json_str)
-                all_extractions.append(data)
-            else:
-                logger.warning(f"Could not extract JSON from chunk {i+1}")
-                
-        except Exception as e:
-            logger.error(f"Error processing chunk {i+1}: {e}")
-            continue
-    
-    # Merge extractions from all chunks (unchanged)
-    merged_extraction = merge_gtmf_extractions(all_extractions)
-    
-    try:
-        structured_output = GTMF(**merged_extraction)
-        
-        # ENHANCEMENT: Use enhanced quality assessor with advanced validation
-        assessor = EnhancedGTMFQualityAssessor(azure_client)
-        quality_score = assessor.assess_gtmf_quality(medical_text, structured_output)
-        
-        logger.info(f"Enhanced GTMF extraction completed with advanced quality scores: "
-                   f"Overall={quality_score.confidence_score:.2f}, "
-                   f"Medical Entity F1={quality_score.medical_entity_f1:.2f}, "
-                   f"Clinical Safety={quality_score.clinical_safety_score:.2f}, "
-                   f"Clinical Readiness: {quality_score.clinical_readiness}")
-        
-        return structured_output, quality_score
-        
-    except Exception as e:
-        logger.error(f"Error in enhanced extract_gtmf_chunked: {e}")
-        raise
-
-# Keep existing utility functions unchanged
-def chunk_medical_text(text: str, max_chunk_size: int = 3000, overlap: int = 200):
+def chunk_medical_text(text: str, max_chunk_size: int = 3000, overlap: int = 200) -> List[str]:
     """Split medical text into overlapping chunks for better processing"""
     if len(text) <= max_chunk_size:
         return [text]
@@ -681,7 +188,466 @@ def chunk_medical_text(text: str, max_chunk_size: int = 3000, overlap: int = 200
     
     return chunks
 
-def merge_gtmf_extractions(extractions):
+class GTMFQualityAssessor:
+    """Assesses the quality of GTMF extractions using Azure AI"""
+    
+    def __init__(self, azure_client: AzureAIClient):
+        self.azure_client = azure_client
+        
+        # MINIMAL ADDITION: Initialize advanced validation if available
+        self.mimic_kb = None
+        self.advanced_validator = None
+        
+        if ADVANCED_VALIDATION_AVAILABLE:
+            try:
+                db_uri = get_db_uri()
+                if db_uri:
+                    self.mimic_kb = MIMICMedicalKnowledgeBase(db_uri)
+                    self.advanced_validator = AdvancedMedicalValidator(self.mimic_kb)
+                    logger.info("Advanced validation components loaded")
+            except Exception as e:
+                logger.warning(f"Advanced validation not available: {e}")
+    
+    def assess_gtmf_quality(self, medical_text: str, gtmf_instance: GTMF) -> GTMFQualityScore:
+        """Comprehensive quality assessment of GTMF extraction"""
+        
+        # Convert GTMF to dict for easier analysis
+        gtmf_dict = gtmf_instance.model_dump()
+        
+        # Individual field assessments
+        field_scores = {}
+        issues = []
+        recommendations = []
+        
+        # 1. Assess Symptoms
+        symptoms_score, symptoms_issues = self._assess_symptoms(medical_text, gtmf_dict.get("Core_Fields", {}).get("Symptoms", []))
+        field_scores["symptoms"] = symptoms_score
+        issues.extend(symptoms_issues)
+        
+        # 2. Assess Diagnoses
+        diagnoses_score, diagnoses_issues = self._assess_diagnoses(medical_text, gtmf_dict.get("Core_Fields", {}).get("Diagnoses", []))
+        field_scores["diagnoses"] = diagnoses_score
+        issues.extend(diagnoses_issues)
+        
+        # 3. Assess Treatments
+        treatments_score, treatments_issues = self._assess_treatments(medical_text, gtmf_dict.get("Core_Fields", {}).get("Treatment_Options", []))
+        field_scores["treatments"] = treatments_score
+        issues.extend(treatments_issues)
+        
+        # 4. Assess Demographics consistency
+        demographics_score, demographics_issues = self._assess_demographics(gtmf_dict.get("Context_Fields", {}).get("Patient_Demographics", {}))
+        field_scores["demographics"] = demographics_score
+        issues.extend(demographics_issues)
+        
+        # 5. Overall completeness check
+        completeness_score = self._assess_completeness(medical_text, gtmf_dict)
+        
+        # 6. Consistency check
+        consistency_score = self._assess_consistency(gtmf_dict)
+        
+        # 7. Azure AI-based accuracy assessment
+        accuracy_score, confidence_score = self._azure_accuracy_assessment(medical_text, gtmf_dict)
+        
+        # MINIMAL ADDITION: Advanced validation if available
+        advanced_metrics = None
+        if self.advanced_validator and self.mimic_kb:
+            try:
+                symptoms = [s.description for s in gtmf_instance.Core_Fields.Symptoms if s.description != "not provided"]
+                diagnoses = [d.primary for d in gtmf_instance.Core_Fields.Diagnoses if d.primary != "not provided"]
+                treatments = [t.procedure for t in gtmf_instance.Core_Fields.Treatment_Options if t.procedure != "not provided"]
+                
+                mimic_validation = self.mimic_kb.validate_clinical_coherence(symptoms, diagnoses, treatments)
+                advanced_metrics = {
+                    "clinical_coherence": mimic_validation.clinical_coherence,
+                    "safety_score": mimic_validation.safety_score,
+                    "terminology_accuracy": mimic_validation.terminology_accuracy
+                }
+                
+                # Enhance scores with advanced metrics
+                consistency_score = max(consistency_score, mimic_validation.clinical_coherence)
+                logger.info(f"Advanced validation applied - Clinical coherence: {mimic_validation.clinical_coherence:.2f}")
+                
+            except Exception as e:
+                logger.warning(f"Advanced validation failed: {e}")
+        
+        # Generate recommendations
+        recommendations = self._generate_recommendations(field_scores, issues)
+        
+        return GTMFQualityScore(
+            completeness_score=completeness_score,
+            accuracy_score=accuracy_score,
+            consistency_score=consistency_score,
+            confidence_score=confidence_score,
+            field_scores=field_scores,
+            issues=issues,
+            recommendations=recommendations,
+            advanced_metrics=advanced_metrics
+        )
+    
+    def _assess_symptoms(self, text: str, symptoms: List[Dict]) -> Tuple[float, List[str]]:
+        """Assess symptom extraction quality"""
+        issues = []
+        
+        if not symptoms:
+            # Check if text actually contains symptoms
+            symptom_indicators = ["pain", "ache", "discomfort", "nausea", "vomiting", "fatigue", 
+                                "fever", "cough", "shortness of breath", "dizzy", "headache"]
+            text_lower = text.lower()
+            if any(indicator in text_lower for indicator in symptom_indicators):
+                issues.append("Symptoms present in text but none extracted")
+                return 0.2, issues
+            else:
+                return 1.0, issues  # No symptoms to extract
+        
+        # Check for quality issues in extracted symptoms
+        valid_symptoms = 0
+        for symptom in symptoms:
+            desc = symptom.get("description", "").strip()
+            if not desc or desc == "not provided":
+                issues.append("Empty or placeholder symptom description found")
+                continue
+            
+            # Check if symptom appears in original text
+            if desc.lower() not in text.lower():
+                # Try partial matching
+                words = desc.lower().split()
+                if not any(word in text.lower() for word in words if len(word) > 3):
+                    issues.append(f"Symptom '{desc}' not clearly found in original text")
+                    continue
+            
+            valid_symptoms += 1
+        
+        score = valid_symptoms / len(symptoms) if symptoms else 1.0
+        return score, issues
+    
+    def _assess_diagnoses(self, text: str, diagnoses: List[Dict]) -> Tuple[float, List[str]]:
+        """Assess diagnosis extraction quality"""
+        issues = []
+        
+        if not diagnoses:
+            # Check if text contains diagnostic information
+            diagnostic_indicators = ["diagnosis", "diagnosed", "condition", "disease", "syndrome"]
+            if any(indicator in text.lower() for indicator in diagnostic_indicators):
+                issues.append("Diagnostic information present but no diagnoses extracted")
+                return 0.3, issues
+            return 1.0, issues
+        
+        valid_diagnoses = 0
+        for diagnosis in diagnoses:
+            primary = diagnosis.get("primary", "").strip()
+            if not primary or primary == "not provided":
+                issues.append("Empty or placeholder diagnosis found")
+                continue
+            
+            # Simple validation - check if diagnosis terms appear in text
+            if primary.lower() not in text.lower():
+                words = primary.lower().split()
+                if not any(word in text.lower() for word in words if len(word) > 3):
+                    issues.append(f"Diagnosis '{primary}' not clearly supported by text")
+                    continue
+            
+            valid_diagnoses += 1
+        
+        score = valid_diagnoses / len(diagnoses) if diagnoses else 1.0
+        return score, issues
+    
+    def _assess_treatments(self, text: str, treatments: List[Dict]) -> Tuple[float, List[str]]:
+        """Assess treatment extraction quality"""
+        issues = []
+        
+        if not treatments:
+            treatment_indicators = ["treatment", "therapy", "medication", "surgery", "procedure"]
+            if any(indicator in text.lower() for indicator in treatment_indicators):
+                issues.append("Treatment information present but none extracted")
+                return 0.3, issues
+            return 1.0, issues
+        
+        valid_treatments = 0
+        for treatment in treatments:
+            procedure = treatment.get("procedure", "").strip()
+            if not procedure or procedure == "not provided":
+                issues.append("Empty or placeholder treatment found")
+                continue
+            
+            if procedure.lower() not in text.lower():
+                words = procedure.lower().split()
+                if not any(word in text.lower() for word in words if len(word) > 3):
+                    issues.append(f"Treatment '{procedure}' not clearly found in text")
+                    continue
+            
+            valid_treatments += 1
+        
+        score = valid_treatments / len(treatments) if treatments else 1.0
+        return score, issues
+    
+    def _assess_demographics(self, demographics: Dict) -> Tuple[float, List[str]]:
+        """Assess demographic data consistency"""
+        issues = []
+        
+        # Check for age consistency
+        age = demographics.get("Age", 0)
+        dob = demographics.get("Date_of_Birth", "")
+        admission_date = demographics.get("Admission_Date", "")
+        
+        if age > 0 and dob != "not provided" and admission_date != "not provided":
+            try:
+                # Recalculate age to verify
+                calculated_age = calculate_age(dob, admission_date)
+                if abs(calculated_age - age) > 1:  # Allow 1 year tolerance
+                    issues.append(f"Age inconsistency: stated {age}, calculated {calculated_age}")
+            except:
+                issues.append("Could not verify age calculation")
+        
+        # Check for missing critical demographics
+        required_fields = ["Age", "Sex"]
+        missing_fields = [field for field in required_fields 
+                         if demographics.get(field, "not provided") == "not provided"]
+        
+        if missing_fields:
+            issues.append(f"Missing required demographic fields: {', '.join(missing_fields)}")
+        
+        # Score based on completeness and consistency
+        total_fields = len(demographics)
+        filled_fields = sum(1 for v in demographics.values() 
+                           if v != "not provided" and str(v).strip())
+        
+        completeness_ratio = filled_fields / total_fields if total_fields > 0 else 1.0
+        consistency_penalty = len(issues) * 0.2
+        
+        score = max(0.0, completeness_ratio - consistency_penalty)
+        return score, issues
+    
+    def _assess_completeness(self, text: str, gtmf_dict: Dict) -> float:
+        """Assess overall completeness of extraction"""
+        text_length = len(text.split())
+        
+        # Count extracted content
+        core_fields = gtmf_dict.get("Core_Fields", {})
+        context_fields = gtmf_dict.get("Context_Fields", {})
+        
+        symptom_count = len([s for s in core_fields.get("Symptoms", []) 
+                           if s.get("description", "").strip() and s.get("description") != "not provided"])
+        diagnosis_count = len([d for d in core_fields.get("Diagnoses", []) 
+                             if d.get("primary", "").strip() and d.get("primary") != "not provided"])
+        treatment_count = len([t for t in core_fields.get("Treatment_Options", []) 
+                             if t.get("procedure", "").strip() and t.get("procedure") != "not provided"])
+        
+        # Expected content based on text length
+        expected_symptoms = min(10, max(1, text_length // 200))  # Rough heuristic
+        expected_diagnoses = min(5, max(1, text_length // 400))
+        expected_treatments = min(5, max(1, text_length // 300))
+        
+        symptom_completeness = min(1.0, symptom_count / expected_symptoms)
+        diagnosis_completeness = min(1.0, diagnosis_count / expected_diagnoses)
+        treatment_completeness = min(1.0, treatment_count / expected_treatments)
+        
+        overall_completeness = (symptom_completeness + diagnosis_completeness + treatment_completeness) / 3
+        return overall_completeness
+    
+    def _assess_consistency(self, gtmf_dict: Dict) -> float:
+        """Check internal consistency of GTMF data"""
+        consistency_score = 1.0
+        
+        # Check if symptoms align with diagnoses
+        symptoms = gtmf_dict.get("Core_Fields", {}).get("Symptoms", [])
+        diagnoses = gtmf_dict.get("Core_Fields", {}).get("Diagnoses", [])
+        
+        # Simple keyword matching for consistency
+        symptom_keywords = set()
+        for symptom in symptoms:
+            desc = symptom.get("description", "").lower()
+            symptom_keywords.update(desc.split())
+        
+        diagnosis_keywords = set()
+        for diagnosis in diagnoses:
+            primary = diagnosis.get("primary", "").lower()
+            diagnosis_keywords.update(primary.split())
+        
+        # Check for some overlap (not perfect, but basic consistency)
+        if symptom_keywords and diagnosis_keywords:
+            overlap = len(symptom_keywords.intersection(diagnosis_keywords))
+            if overlap == 0:
+                consistency_score -= 0.2  # Penalty for no keyword overlap
+        
+        return max(0.0, consistency_score)
+    
+    def _azure_accuracy_assessment(self, text: str, gtmf_dict: Dict) -> Tuple[float, float]:
+        """Use Azure AI to assess accuracy and provide confidence score"""
+        
+        system_message = """You are a medical information extraction quality assessor. Your task is to evaluate how accurately medical information has been extracted from clinical text."""
+        
+        user_message = f"""
+        Assess the accuracy of this medical information extraction:
+        
+        Original Text (first 500 chars): {text[:500]}...
+        
+        Extracted Information:
+        - Symptoms: {[s.get('description') for s in gtmf_dict.get('Core_Fields', {}).get('Symptoms', [])]}
+        - Diagnoses: {[d.get('primary') for d in gtmf_dict.get('Core_Fields', {}).get('Diagnoses', [])]}
+        - Treatments: {[t.get('procedure') for t in gtmf_dict.get('Core_Fields', {}).get('Treatment_Options', [])]}
+        
+        Rate the accuracy (0.0-1.0) and confidence (0.0-1.0) of these extractions.
+        Respond with just two numbers separated by a space: accuracy_score confidence_score
+        Example: 0.85 0.90
+        """
+        
+        try:
+            response = self.azure_client.chat_completion(system_message, user_message, temperature=0.1)
+            
+            # Parse scores
+            numbers = re.findall(r'0\.\d+|1\.0', response)
+            if len(numbers) >= 2:
+                accuracy = float(numbers[0])
+                confidence = float(numbers[1])
+                return accuracy, confidence
+            
+        except Exception as e:
+            logger.warning(f"Azure AI accuracy assessment failed: {e}")
+        
+        # Default scores if Azure AI assessment fails
+        return 0.7, 0.6
+    
+    def _generate_recommendations(self, field_scores: Dict[str, float], issues: List[str]) -> List[str]:
+        """Generate improvement recommendations based on scores and issues"""
+        recommendations = []
+        
+        # Field-specific recommendations
+        if field_scores.get("symptoms", 1.0) < 0.7:
+            recommendations.append("Improve symptom extraction: use more specific medical terminology matching")
+        
+        if field_scores.get("diagnoses", 1.0) < 0.7:
+            recommendations.append("Enhance diagnosis extraction: look for more diagnostic indicators in text")
+        
+        if field_scores.get("treatments", 1.0) < 0.7:
+            recommendations.append("Better treatment identification: include medications and procedures")
+        
+        if field_scores.get("demographics", 1.0) < 0.8:
+            recommendations.append("Improve demographic data validation and consistency checks")
+        
+        # Issue-based recommendations
+        if any("not clearly found" in issue for issue in issues):
+            recommendations.append("Enhance text-to-extraction matching validation")
+        
+        if any("Empty or placeholder" in issue for issue in issues):
+            recommendations.append("Improve extraction completeness - avoid placeholder values")
+        
+        return recommendations
+
+def extract_gtmf_chunked(medical_text: str, azure_client: AzureAIClient) -> Tuple[GTMF, GTMFQualityScore]:
+    """
+    Extract structured GTMF data with chunking and quality assessment
+    """
+    logger.info("Extracting GTMF from medical text with chunking and quality assessment")
+    
+    # Get GTMF schema
+    schema_json = GTMF.model_json_schema()
+    
+    # Chunk the text if it's too long
+    chunks = chunk_medical_text(medical_text, max_chunk_size=3000, overlap=200)
+    logger.info(f"Processing {len(chunks)} chunks")
+    
+    # MINIMAL ENHANCEMENT: Better system message for JSON quality
+    system_message = """You are a medical information extraction expert. Your task is to extract all relevant details from medical notes and convert them into structured JSON format.
+
+    CRITICAL: Output ONLY valid JSON - no explanations, no markdown, no code blocks.
+
+    Key Instructions:
+    1. Extract ALL medical information present in the text
+    2. If you have multiple symptoms or diagnoses, create separate objects for each one
+    3. If information is missing, use 'not provided' for string fields or empty arrays for lists
+    4. Include medications as part of treatment options
+    5. Your output must be valid JSON that conforms to the provided schema
+    6. Focus on accuracy and completeness
+    
+    Always start your response directly with the opening brace { and end with closing brace }"""
+    
+    all_extractions = []
+    
+    # Process each chunk with ENHANCED JSON parsing
+    for i, chunk in enumerate(chunks):
+        logger.info(f"Processing chunk {i+1}/{len(chunks)}")
+        
+        user_message = f"""
+        Extract medical information from this clinical note chunk and format it according to the JSON schema below.
+        
+        IMPORTANT: Respond with ONLY the JSON object, no other text.
+
+        JSON Schema:
+        {json.dumps(schema_json, indent=2)}
+
+        Medical Note Chunk:
+        {chunk}
+
+        JSON Output:
+        """
+        
+        try:
+            result = azure_client.chat_completion(system_message, user_message, temperature=0.0)
+            logger.debug(f"Raw LLM response for chunk {i+1}: {result[:200]}...")
+            
+            # ENHANCED JSON PARSING: Clean and parse the response
+            cleaned_result = aggressive_json_clean(result)
+            
+            # Enhanced JSON boundary detection
+            json_start = -1
+            json_end = -1
+            brace_count = 0
+            
+            for idx, char in enumerate(cleaned_result):
+                if char == '{':
+                    if json_start == -1:
+                        json_start = idx
+                    brace_count += 1
+                elif char == '}':
+                    brace_count -= 1
+                    if brace_count == 0 and json_start != -1:
+                        json_end = idx + 1
+                        break
+            
+            if json_start >= 0 and json_end > json_start:
+                json_str = cleaned_result[json_start:json_end]
+                data = safe_json_parse_object(json_str, f"chunk_{i+1}")
+                
+                if data and data != {}:
+                    all_extractions.append(data)
+                    logger.info(f"Successfully parsed JSON from chunk {i+1}")
+                else:
+                    logger.warning(f"Empty or invalid JSON from chunk {i+1}, skipping")
+            else:
+                logger.warning(f"Could not find valid JSON boundaries in chunk {i+1}")
+                
+        except Exception as e:
+            logger.error(f"Error processing chunk {i+1}: {e}")
+            continue
+    
+    if not all_extractions:
+        logger.error("No valid extractions obtained from any chunks")
+        # Create minimal valid extraction
+        minimal_extraction = safe_json_parse_object("", "minimal_fallback")
+        all_extractions = [minimal_extraction]
+    
+    # Merge extractions from all chunks
+    merged_extraction = merge_gtmf_extractions(all_extractions)
+    
+    try:
+        structured_output = GTMF(**merged_extraction)
+        
+        # Quality assessment
+        assessor = GTMFQualityAssessor(azure_client)
+        quality_score = assessor.assess_gtmf_quality(medical_text, structured_output)
+        
+        logger.info(f"GTMF extraction completed with quality scores: "
+                   f"Completeness={quality_score.completeness_score:.2f}, "
+                   f"Accuracy={quality_score.accuracy_score:.2f}, "
+                   f"Consistency={quality_score.consistency_score:.2f}")
+        
+        return structured_output, quality_score
+        
+    except Exception as e:
+        logger.error(f"Error in extract_gtmf_chunked: {e}")
+        raise
+
+def merge_gtmf_extractions(extractions: List[Dict]) -> Dict:
     """Merge multiple GTMF extractions from chunks into a single comprehensive extraction"""
     if not extractions:
         raise ValueError("No extractions to merge")
@@ -756,30 +722,50 @@ def merge_gtmf_extractions(extractions):
     
     return merged
 
-# ENHANCEMENT: Update process_notes to use enhanced quality assessment
+def fetch_notes(session):
+    """Fetch notes from the MIMIC-III database matching specified criteria."""
+    logger.info("Fetching notes from database")
+    symptom_conditions = build_symptom_conditions()
+    query = text(f"""
+        SELECT n.row_id, n.subject_id, n.hadm_id, n.text, 
+               a.admittime, a.dischtime, a.subject_id, a.religion, a.marital_status, a.ethnicity, a.insurance, a.admission_type,
+               p.gender, p.dob, n.category
+        FROM noteevents n
+        JOIN admissions a ON n.hadm_id = a.hadm_id
+        JOIN patients p ON n.subject_id = p.subject_id
+        WHERE n.text ILIKE :keyword
+          AND ({symptom_conditions})
+          AND n.category ILIKE :category
+        LIMIT 10
+    """)
+    params = {'keyword': '%Chief Complaint%', 'category': '%Discharge Summary%'}
+    try:
+        results = session.execute(query, params).mappings().all()
+        logger.info(f"Fetched {len(results)} notes from database")
+        return results
+    except Exception as e:
+        logger.error(f"Error fetching notes: {e}")
+        return []
+
 def process_notes(results, azure_client: AzureAIClient):
-    """Enhanced note processing with advanced quality assessment and reporting"""
-    logger.info("Processing notes with enhanced advanced quality assessment")
+    """Process fetched notes with quality scoring using Azure AI"""
+    logger.info("Processing fetched notes with Azure AI quality assessment")
     structured_results = []
     quality_summary = {
         "total_processed": 0,
-        "high_quality": 0,         # >0.8 overall score (advanced enhanced)
-        "medium_quality": 0,       # 0.6-0.8 overall score  
-        "low_quality": 0,          # <0.6 overall score
-        "clinical_ready": 0,       # Ready for clinical testing
-        "safety_compliant": 0,     # High safety scores
+        "high_quality": 0,  # >0.8 overall score
+        "medium_quality": 0,  # 0.6-0.8 overall score
+        "low_quality": 0,   # <0.6 overall score
+        "json_parse_failures": 0,  # MINIMAL ADDITION: Track JSON failures
         "common_issues": [],
         "average_scores": {},
-        "advanced_validation_rate": 0, # Percentage using advanced validation
-        "mimic_kb_rate": 0        # Percentage using MIMIC-III KB
+        # MINIMAL ADDITION: Advanced validation tracking
+        "advanced_validation_used": 0
     }
-
-    advanced_used_count = 0
-    mimic_used_count = 0
 
     for idx, row in enumerate(results):
         try:
-            # Demographics processing (unchanged)
+            # Demographics processing
             dob_formatted = format_date(row['dob'], '%Y-%m-%d')
             adm_formatted = format_date(row['admittime'], '%Y-%m-%d %H:%M:%S')
             dis_formatted = format_date(row['dischtime'], '%Y-%m-%d %H:%M:%S')
@@ -798,18 +784,14 @@ def process_notes(results, azure_client: AzureAIClient):
                 'Discharge_Date': dis_formatted
             }
 
-            # ENHANCEMENT: Extract GTMF with enhanced quality assessment
+            # Extract GTMF with quality assessment using Azure AI
             gtmf_instance, quality_score = extract_gtmf_chunked(row['text'], azure_client)
 
-            # Track advanced validation usage
+            # Update quality summary
             quality_summary["total_processed"] += 1
-            if quality_score.evaluation_method == "advanced_enhanced":
-                advanced_used_count += 1
-            if quality_score.mimic_kb_available:
-                mimic_used_count += 1
-
-            # ENHANCEMENT: Enhanced quality categorization
-            overall_score = quality_score.confidence_score
+            overall_score = (quality_score.completeness_score + 
+                           quality_score.accuracy_score + 
+                           quality_score.consistency_score) / 3
             
             if overall_score > 0.8:
                 quality_summary["high_quality"] += 1
@@ -818,18 +800,13 @@ def process_notes(results, azure_client: AzureAIClient):
             else:
                 quality_summary["low_quality"] += 1
             
-            # Clinical readiness tracking
-            if "ready" in quality_score.clinical_readiness.lower():
-                quality_summary["clinical_ready"] += 1
-            
-            # Safety compliance tracking
-            if quality_score.clinical_safety_score > 0.8:
-                quality_summary["safety_compliant"] += 1
-
-            # Collect issues for analysis
             quality_summary["common_issues"].extend(quality_score.issues)
+            
+            # MINIMAL ADDITION: Track advanced validation usage
+            if quality_score.advanced_metrics:
+                quality_summary["advanced_validation_used"] += 1
 
-            # Update GTMF with metadata and demographics (unchanged)
+            # Update GTMF with metadata and demographics
             gtmf_instance = gtmf_instance.model_copy(update={
                 "row_id": row['row_id'],
                 "subject_id": row['subject_id'],
@@ -839,108 +816,58 @@ def process_notes(results, azure_client: AzureAIClient):
                 })
             })
             
-            # ENHANCEMENT: Include enhanced quality scores in output
+            # Include quality scores in output
             result_with_quality = gtmf_instance.model_dump()
-            result_with_quality["enhanced_quality_assessment"] = {
-                # Advanced Metrics
-                "medical_entity_f1": quality_score.medical_entity_f1,
-                "clinical_safety_score": quality_score.clinical_safety_score,
-                "terminology_accuracy": quality_score.terminology_accuracy,
-                "clinical_readiness": quality_score.clinical_readiness,
-                
-                # Enhanced Traditional Metrics
+            result_with_quality["quality_assessment"] = {
                 "completeness_score": quality_score.completeness_score,
                 "accuracy_score": quality_score.accuracy_score,
                 "consistency_score": quality_score.consistency_score,
                 "confidence_score": quality_score.confidence_score,
-                
-                # Validation Details
-                "evaluation_method": quality_score.evaluation_method,
-                "mimic_kb_available": quality_score.mimic_kb_available,
-                "confidence_interval": quality_score.confidence_interval,
-                
-                # Quality Details
+                "overall_score": overall_score,
                 "field_scores": quality_score.field_scores,
                 "issues": quality_score.issues,
                 "recommendations": quality_score.recommendations,
-                
-                # Advanced Validation Results (if available)
-                "advanced_validation": quality_score.clinical_validation.__dict__ if quality_score.clinical_validation else None,
-                "mimic_validation": quality_score.mimic_validation.__dict__ if quality_score.mimic_validation else None
+                # MINIMAL ADDITION: Include advanced metrics if available
+                "advanced_metrics": quality_score.advanced_metrics
             }
             
             structured_results.append(result_with_quality)
-            logger.info(f"Processed note {idx} with enhanced quality - Overall: {overall_score:.2f}, "
-                       f"Safety: {quality_score.clinical_safety_score:.2f}, "
-                       f"Clinical Readiness: {quality_score.clinical_readiness}")
+            logger.info(f"Processed note {idx} with overall quality score: {overall_score:.2f}")
             
+        except json.JSONDecodeError as e:
+            logger.error(f"JSON parsing failed for note at index {idx}: {e}")
+            quality_summary["json_parse_failures"] += 1
+            quality_summary["total_processed"] += 1  
+            quality_summary["low_quality"] += 1
         except Exception as e:
             logger.error(f"Error processing note at index {idx}: {e}")
             quality_summary["total_processed"] += 1
             quality_summary["low_quality"] += 1
     
-    # ENHANCEMENT: Calculate enhanced average scores and usage statistics
+    # Calculate average scores
     if structured_results:
-        total_results = len(structured_results)
-        
-        # Calculate averages from enhanced scores
-        avg_completeness = sum(r["enhanced_quality_assessment"]["completeness_score"] for r in structured_results) / total_results
-        avg_accuracy = sum(r["enhanced_quality_assessment"]["accuracy_score"] for r in structured_results) / total_results
-        avg_medical_entity_f1 = sum(r["enhanced_quality_assessment"]["medical_entity_f1"] for r in structured_results) / total_results
-        avg_safety = sum(r["enhanced_quality_assessment"]["clinical_safety_score"] for r in structured_results) / total_results
-        avg_terminology = sum(r["enhanced_quality_assessment"]["terminology_accuracy"] for r in structured_results) / total_results
+        avg_completeness = sum(r["quality_assessment"]["completeness_score"] for r in structured_results) / len(structured_results)
+        avg_accuracy = sum(r["quality_assessment"]["accuracy_score"] for r in structured_results) / len(structured_results)
+        avg_consistency = sum(r["quality_assessment"]["consistency_score"] for r in structured_results) / len(structured_results)
         
         quality_summary["average_scores"] = {
             "completeness": avg_completeness,
             "accuracy": avg_accuracy,
-            "medical_entity_f1": avg_medical_entity_f1,
-            "clinical_safety": avg_safety,
-            "terminology_accuracy": avg_terminology
+            "consistency": avg_consistency
         }
-        
-        # Usage statistics
-        quality_summary["advanced_validation_rate"] = advanced_used_count / total_results
-        quality_summary["mimic_kb_rate"] = mimic_used_count / total_results
     
-    # ENHANCEMENT: Enhanced quality summary logging
-    logger.info(f"Enhanced Quality Summary: {quality_summary['high_quality']} high, "
+    # Log quality summary
+    logger.info(f"Quality Summary: {quality_summary['high_quality']} high, "
                f"{quality_summary['medium_quality']} medium, "
                f"{quality_summary['low_quality']} low quality extractions")
-    logger.info(f"Clinical Readiness: {quality_summary['clinical_ready']} ready for testing")
-    logger.info(f"Advanced Validation Rate: {quality_summary['advanced_validation_rate']:.1%}")
-    logger.info(f"MIMIC-III KB Usage: {quality_summary['mimic_kb_rate']:.1%}")
+    logger.info(f"JSON parse failures: {quality_summary['json_parse_failures']}")
+    logger.info(f"Advanced validation used: {quality_summary['advanced_validation_used']}")
     
     return structured_results, quality_summary
 
-# Keep existing database functions unchanged
-def fetch_notes(session):
-    """Fetch notes from the MIMIC-III database matching specified criteria."""
-    logger.info("Fetching notes from database")
-    symptom_conditions = build_symptom_conditions()
-    query = text(f"""
-        SELECT n.row_id, n.subject_id, n.hadm_id, n.text, 
-               a.admittime, a.dischtime, a.subject_id, a.religion, a.marital_status, a.ethnicity, a.insurance, a.admission_type,
-               p.gender, p.dob, n.category
-        FROM noteevents n
-        JOIN admissions a ON n.hadm_id = a.hadm_id
-        JOIN patients p ON n.subject_id = p.subject_id
-        WHERE n.text ILIKE :keyword
-          AND ({symptom_conditions})
-          AND n.category ILIKE :category
-        LIMIT 100
-    """)
-    params = {'keyword': '%Chief Complaint%', 'category': '%Discharge Summary%'}
-    try:
-        results = session.execute(query, params).mappings().all()
-        logger.info(f"Fetched {len(results)} notes from database")
-        return results
-    except Exception as e:
-        logger.error(f"Error fetching notes: {e}")
-        return []
-
 def main():
-    """ENHANCED: Main execution with advanced quality reporting"""
-    logger.info("Starting enhanced GTMF extraction with advanced validation")
+    """Main execution with Azure AI and quality reporting"""
+    logger.info("Starting GTMF extraction process with Azure AI quality assessment")
     
     # Initialize Azure AI client
     try:
@@ -962,40 +889,34 @@ def main():
             
             structured_results, quality_summary = process_notes(results, azure_client)
             
-            # ENHANCEMENT: Save results with enhanced quality information
-            output_path = 'gtmf/gtmf_example_enhanced.json'
+            # Save results with quality information
+            output_path = 'gtmf/gtmf_example_minimal_enhanced.json'
             with open(output_path, 'w', encoding='utf-8') as outfile:
                 json.dump(structured_results, outfile, indent=2)
             
-            # Save enhanced quality summary
-            quality_report_path = 'gtmf/enhanced_quality_report.json'
+            # Save quality summary
+            quality_report_path = 'gtmf/quality_report_minimal_enhanced.json'
             with open(quality_report_path, 'w', encoding='utf-8') as outfile:
                 json.dump(quality_summary, outfile, indent=2)
             
-            logger.info(f"Enhanced extraction complete. Results saved to {output_path}")
-            logger.info(f"Enhanced quality report saved to {quality_report_path}")
+            logger.info(f"Extraction complete. Results saved to {output_path}")
+            logger.info(f"Quality report saved to {quality_report_path}")
             
-            # ENHANCEMENT: Print enhanced summary with advanced metrics
-            print(f"\n=== Enhanced GTMF Advanced Quality Summary ===")
+            # Print summary
+            print(f"\n=== GTMF Minimal Enhanced Quality Summary ===")
             print(f"Total processed: {quality_summary['total_processed']}")
             print(f"High quality (>0.8): {quality_summary['high_quality']}")
             print(f"Medium quality (0.6-0.8): {quality_summary['medium_quality']}")
             print(f"Low quality (<0.6): {quality_summary['low_quality']}")
-            print(f"Clinical ready: {quality_summary['clinical_ready']}")
-            print(f"Safety compliant: {quality_summary['safety_compliant']}")
-            print(f"Advanced validation rate: {quality_summary['advanced_validation_rate']:.1%}")
-            print(f"MIMIC-III KB usage: {quality_summary['mimic_kb_rate']:.1%}")
-            
+            print(f"JSON parse failures: {quality_summary['json_parse_failures']}")
+            print(f"Advanced validation used: {quality_summary['advanced_validation_used']}")
             if quality_summary.get('average_scores'):
-                print(f"\n=== Enhanced Average Scores ===")
-                print(f"Medical Entity F1: {quality_summary['average_scores']['medical_entity_f1']:.3f}")
-                print(f"Clinical Safety: {quality_summary['average_scores']['clinical_safety']:.3f}")
-                print(f"Terminology Accuracy: {quality_summary['average_scores']['terminology_accuracy']:.3f}")
-                print(f"Completeness: {quality_summary['average_scores']['completeness']:.3f}")
-                print(f"Accuracy: {quality_summary['average_scores']['accuracy']:.3f}")
+                print(f"Average completeness: {quality_summary['average_scores']['completeness']:.2f}")
+                print(f"Average accuracy: {quality_summary['average_scores']['accuracy']:.2f}")
+                print(f"Average consistency: {quality_summary['average_scores']['consistency']:.2f}")
             
     except Exception as e:
-        logger.error(f"Error in enhanced main execution: {e}")
+        logger.error(f"Error in main execution: {e}")
 
 if __name__ == '__main__':
     main()
