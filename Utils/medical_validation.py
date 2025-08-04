@@ -1,1472 +1,674 @@
 """
- Medical Validation System
-Comprehensive medical concept validation with clinical domain expertise
+Medical Validation System using MIMIC-III Dataset Knowledge
+Replaces custom vocabularies with real medical knowledge from MIMIC-III
+
+This system uses actual medical terminologies from:
+- D_ICD_DIAGNOSES: Real ICD-9 diagnosis codes and descriptions
+- D_ICD_PROCEDURES: Real ICD-9 procedure codes and descriptions  
+- PRESCRIPTIONS: Actual medication names from clinical practice
+- D_LABITEMS: Laboratory test items and descriptions
+- NOTEEVENTS: Clinical terminology from real medical notes
+- ADMISSIONS: Patient demographic and admission categories
 """
+
 import logging
 import re
 import json
-import math
 from collections import defaultdict, Counter
-import os
+from typing import Dict, List, Tuple, Set, Optional
+from dataclasses import dataclass
+from difflib import SequenceMatcher
+from sqlalchemy import create_engine, text
+from sqlalchemy.orm import sessionmaker
+from Utils.utils import get_db_uri
 
 logger = logging.getLogger(__name__)
 
-class MedicalConceptValidator:
-    """ medical concept validation with comprehensive clinical knowledge"""
+@dataclass
+class MIMICNERMetrics:
+    """Traditional NER evaluation metrics using MIMIC-III knowledge"""
+    precision: float
+    recall: float
+    f1_score: float
+    exact_matches: int
+    partial_matches: int
+    mimic_vocabulary_matches: int
+    total_predicted: int
+    total_gold: int
+    support: int
+
+@dataclass
+class MIMICEntityEvaluation:
+    """Entity-level evaluation results using MIMIC-III data"""
+    entity_type: str
+    metrics: MIMICNERMetrics
+    mimic_mappings: Dict[str, str]
+    validation_details: Dict[str, any]
+    error_analysis: List[str]
+
+class MIMICMedicalKnowledgeExtractor:
+    """Extract medical knowledge from MIMIC-III dataset tables"""
     
-    def __init__(self):
-        # Initialize comprehensive medical knowledge base
-        self._initialize_medical_vocabularies()
-        self._initialize_medical_relationships()
-        self._initialize_clinical_patterns()
-        self._initialize_drug_database()
-        self._initialize_icd_mappings()
-        self._initialize_severity_indicators()
+    def __init__(self, db_session=None):
+        self.db_session = db_session
+        self.engine = None
+        if not db_session:
+            self._initialize_db_connection()
         
-        # Medical scoring weights
-        self.scoring_weights = {
-            'exact_match': 1.0,
-            'synonym_match': 0.9,
-            'category_match': 0.7,
-            'partial_match': 0.5,
-            'contextual_match': 0.6,
-            'relationship_bonus': 0.2,
-            'severity_bonus': 0.1
-        }
+        # Cache for extracted vocabularies
+        self._diagnosis_vocabulary = None
+        self._procedure_vocabulary = None
+        self._medication_vocabulary = None
+        self._lab_vocabulary = None
+        self._clinical_terminology = None
         
-        logger.info(f" medical validator initialized with {len(self.all_medical_terms)} terms")
+        logger.info("MIMIC-III Medical Knowledge Extractor initialized")
     
-    def _initialize_medical_vocabularies(self):
-        """Initialize comprehensive medical vocabularies"""
-        
-        # Expanded symptom taxonomy with clinical categories
-        self.symptom_taxonomy = {
-            'pain_symptoms': {
-                'chest_pain': ['chest pain', 'chest discomfort', 'thoracic pain', 'anginal pain', 'cardiac chest pain'],
-                'abdominal_pain': ['abdominal pain', 'belly pain', 'stomach pain', 'epigastric pain', 'periumbilical pain'],
-                'headache': ['headache', 'cephalgia', 'head pain', 'cranial pain', 'migraine', 'tension headache'],
-                'back_pain': ['back pain', 'lumbar pain', 'thoracic back pain', 'spinal pain', 'dorsalgia'],
-                'joint_pain': ['joint pain', 'arthralgia', 'knee pain', 'hip pain', 'shoulder pain', 'ankle pain'],
-                'muscle_pain': ['muscle pain', 'myalgia', 'muscular ache', 'muscle cramps', 'muscle stiffness']
-            },
-            'respiratory_symptoms': {
-                'dyspnea': ['shortness of breath', 'dyspnea', 'breathlessness', 'difficulty breathing', 'air hunger'],
-                'cough': ['cough', 'productive cough', 'dry cough', 'chronic cough', 'persistent cough'],
-                'wheezing': ['wheezing', 'wheeze', 'respiratory wheeze', 'bronchial wheeze'],
-                'chest_tightness': ['chest tightness', 'chest constriction', 'tight chest', 'chest pressure']
-            },
-            'cardiovascular_symptoms': {
-                'palpitations': ['palpitations', 'heart palpitations', 'irregular heartbeat', 'heart racing'],
-                'syncope': ['syncope', 'fainting', 'loss of consciousness', 'blackout', 'passing out'],
-                'edema': ['edema', 'swelling', 'fluid retention', 'peripheral edema', 'leg swelling']
-            },
-            'gastrointestinal_symptoms': {
-                'nausea': ['nausea', 'feeling sick', 'queasiness', 'sick to stomach'],
-                'vomiting': ['vomiting', 'throwing up', 'emesis', 'retching'],
-                'diarrhea': ['diarrhea', 'loose stools', 'frequent bowel movements', 'watery stools'],
-                'constipation': ['constipation', 'hard stools', 'infrequent bowel movements', 'difficulty passing stool'],
-                'heartburn': ['heartburn', 'acid reflux', 'gastroesophageal reflux', 'burning chest']
-            },
-            'neurological_symptoms': {
-                'dizziness': ['dizziness', 'vertigo', 'lightheadedness', 'giddiness', 'unsteadiness'],
-                'numbness': ['numbness', 'tingling', 'paresthesia', 'pins and needles', 'loss of sensation'],
-                'weakness': ['weakness', 'muscle weakness', 'fatigue', 'tiredness', 'asthenia'],
-                'confusion': ['confusion', 'disorientation', 'cognitive impairment', 'mental fog'],
-                'seizure': ['seizure', 'convulsion', 'epileptic fit', 'seizure activity']
-            },
-            'constitutional_symptoms': {
-                'fever': ['fever', 'elevated temperature', 'pyrexia', 'high temperature', 'febrile'],
-                'chills': ['chills', 'rigors', 'shivering', 'feeling cold'],
-                'night_sweats': ['night sweats', 'nocturnal sweating', 'sleep hyperhidrosis'],
-                'weight_loss': ['weight loss', 'unintentional weight loss', 'rapid weight loss'],
-                'appetite_loss': ['loss of appetite', 'decreased appetite', 'anorexia', 'poor appetite']
-            }
-        }
-        
-        # Comprehensive diagnosis taxonomy
-        self.diagnosis_taxonomy = {
-            'cardiovascular_diseases': {
-                'heart_failure': ['heart failure', 'congestive heart failure', 'chf', 'cardiac failure'],
-                'hypertension': ['hypertension', 'high blood pressure', 'elevated blood pressure', 'htn'],
-                'coronary_artery_disease': ['coronary artery disease', 'cad', 'ischemic heart disease', 'atherosclerotic heart disease'],
-                'myocardial_infarction': ['myocardial infarction', 'heart attack', 'mi', 'acute mi'],
-                'arrhythmia': ['arrhythmia', 'cardiac arrhythmia', 'irregular heartbeat', 'dysrhythmia'],
-                'angina': ['angina', 'angina pectoris', 'stable angina', 'unstable angina']
-            },
-            'respiratory_diseases': {
-                'asthma': ['asthma', 'bronchial asthma', 'allergic asthma', 'exercise-induced asthma'],
-                'copd': ['copd', 'chronic obstructive pulmonary disease', 'emphysema', 'chronic bronchitis'],
-                'pneumonia': ['pneumonia', 'lung infection', 'bacterial pneumonia', 'viral pneumonia'],
-                'bronchitis': ['bronchitis', 'acute bronchitis', 'chronic bronchitis'],
-                'pulmonary_embolism': ['pulmonary embolism', 'pe', 'lung embolism', 'pulmonary thromboembolism']
-            },
-            'endocrine_diseases': {
-                'diabetes': ['diabetes', 'diabetes mellitus', 'type 1 diabetes', 'type 2 diabetes', 'dm'],
-                'thyroid_disease': ['thyroid disease', 'hyperthyroidism', 'hypothyroidism', 'thyroid dysfunction'],
-                'metabolic_syndrome': ['metabolic syndrome', 'insulin resistance syndrome']
-            },
-            'gastrointestinal_diseases': {
-                'gastritis': ['gastritis', 'stomach inflammation', 'gastric inflammation'],
-                'peptic_ulcer': ['peptic ulcer', 'stomach ulcer', 'duodenal ulcer', 'gastric ulcer'],
-                'gerd': ['gerd', 'gastroesophageal reflux disease', 'acid reflux disease'],
-                'ibs': ['irritable bowel syndrome', 'ibs', 'spastic colon'],
-                'inflammatory_bowel_disease': ['inflammatory bowel disease', 'ibd', 'crohns disease', 'ulcerative colitis']
-            },
-            'infectious_diseases': {
-                'viral_infection': ['viral infection', 'virus', 'viral illness', 'viral syndrome'],
-                'bacterial_infection': ['bacterial infection', 'bacterial illness', 'sepsis', 'bacteremia'],
-                'urinary_tract_infection': ['urinary tract infection', 'uti', 'bladder infection', 'cystitis'],
-                'upper_respiratory_infection': ['upper respiratory infection', 'uri', 'common cold', 'rhinovirus']
-            },
-            'neurological_diseases': {
-                'stroke': ['stroke', 'cerebrovascular accident', 'cva', 'brain attack'],
-                'migraine': ['migraine', 'migraine headache', 'classical migraine', 'common migraine'],
-                'epilepsy': ['epilepsy', 'seizure disorder', 'epileptic disorder'],
-                'parkinsons': ['parkinsons disease', 'parkinson disease', 'pd', 'parkinsonian syndrome']
-            },
-            'musculoskeletal_diseases': {
-                'arthritis': ['arthritis', 'joint inflammation', 'arthritic condition'],
-                'osteoarthritis': ['osteoarthritis', 'oa', 'degenerative joint disease'],
-                'rheumatoid_arthritis': ['rheumatoid arthritis', 'ra', 'inflammatory arthritis'],
-                'fibromyalgia': ['fibromyalgia', 'fibromyalgia syndrome', 'chronic pain syndrome']
-            }
-        }
-        
-        #  treatment taxonomy
-        self.treatment_taxonomy = {
-            'pharmacological': {
-                'cardiovascular_drugs': {
-                    'ace_inhibitors': ['lisinopril', 'enalapril', 'captopril', 'ace inhibitor'],
-                    'beta_blockers': ['metoprolol', 'atenolol', 'propranolol', 'beta blocker'],
-                    'calcium_channel_blockers': ['amlodipine', 'nifedipine', 'verapamil', 'calcium channel blocker'],
-                    'diuretics': ['furosemide', 'hydrochlorothiazide', 'spironolactone', 'diuretic'],
-                    'statins': ['atorvastatin', 'simvastatin', 'rosuvastatin', 'statin']
-                },
-                'respiratory_drugs': {
-                    'bronchodilators': ['albuterol', 'salbutamol', 'ipratropium', 'bronchodilator'],
-                    'corticosteroids': ['prednisone', 'prednisolone', 'budesonide', 'corticosteroid'],
-                    'leukotriene_inhibitors': ['montelukast', 'zafirlukast', 'leukotriene inhibitor']
-                },
-                'antibiotics': {
-                    'penicillins': ['amoxicillin', 'ampicillin', 'penicillin', 'penicillin antibiotic'],
-                    'macrolides': ['azithromycin', 'clarithromycin', 'erythromycin', 'macrolide'],
-                    'fluoroquinolones': ['ciprofloxacin', 'levofloxacin', 'moxifloxacin', 'fluoroquinolone'],
-                    'cephalosporins': ['cephalexin', 'ceftriaxone', 'cephalosporin']
-                },
-                'analgesics': {
-                    'nsaids': ['ibuprofen', 'naproxen', 'diclofenac', 'nsaid', 'anti-inflammatory'],
-                    'acetaminophen': ['acetaminophen', 'paracetamol', 'tylenol'],
-                    'opioids': ['morphine', 'oxycodone', 'hydrocodone', 'opioid', 'narcotic']
-                }
-            },
-            'procedural': {
-                'diagnostic_procedures': {
-                    'imaging': ['x-ray', 'ct scan', 'mri', 'ultrasound', 'echocardiogram', 'mammography'],
-                    'laboratory': ['blood test', 'urine test', 'blood work', 'lab work', 'culture'],
-                    'cardiac_tests': ['ecg', 'ekg', 'stress test', 'cardiac catheterization', 'holter monitor'],
-                    'endoscopy': ['colonoscopy', 'endoscopy', 'bronchoscopy', 'cystoscopy']
-                },
-                'therapeutic_procedures': {
-                    'surgery': ['surgery', 'surgical procedure', 'operation', 'surgical intervention'],
-                    'minimally_invasive': ['laparoscopy', 'arthroscopy', 'angioplasty', 'stent placement'],
-                    'rehabilitation': ['physical therapy', 'occupational therapy', 'speech therapy', 'rehabilitation']
-                }
-            },
-            'lifestyle': {
-                'behavioral': ['diet modification', 'exercise', 'weight loss', 'smoking cessation', 'stress management'],
-                'monitoring': ['blood pressure monitoring', 'glucose monitoring', 'symptom tracking']
-            }
-        }
-        
-        # Create unified medical term dictionary
-        self.all_medical_terms = set()
-        self._flatten_taxonomy(self.symptom_taxonomy)
-        self._flatten_taxonomy(self.diagnosis_taxonomy)
-        self._flatten_taxonomy(self.treatment_taxonomy)
-        
-        # Medical synonyms and abbreviations
-        self.medical_synonyms = {
-            'mi': 'myocardial infarction',
-            'chf': 'congestive heart failure',
-            'copd': 'chronic obstructive pulmonary disease',
-            'pe': 'pulmonary embolism',
-            'dvt': 'deep vein thrombosis',
-            'htn': 'hypertension',
-            'dm': 'diabetes mellitus',
-            'cad': 'coronary artery disease',
-            'uti': 'urinary tract infection',
-            'uri': 'upper respiratory infection',
-            'sob': 'shortness of breath',
-            'cp': 'chest pain',
-            'abd pain': 'abdominal pain'
-        }
-    
-    def _initialize_medical_relationships(self):
-        """Initialize comprehensive medical relationships"""
-        
-        # Symptom-diagnosis relationships with confidence scores
-        self.symptom_diagnosis_relationships = {
-            'chest pain': {
-                'myocardial infarction': 0.9,
-                'angina': 0.85,
-                'pulmonary embolism': 0.7,
-                'gastroesophageal reflux disease': 0.6,
-                'costochondritis': 0.5,
-                'anxiety': 0.4
-            },
-            'shortness of breath': {
-                'heart failure': 0.9,
-                'asthma': 0.85,
-                'copd': 0.8,
-                'pulmonary embolism': 0.75,
-                'pneumonia': 0.7,
-                'anxiety': 0.4
-            },
-            'abdominal pain': {
-                'gastritis': 0.8,
-                'peptic ulcer': 0.75,
-                'appendicitis': 0.7,
-                'gallstones': 0.65,
-                'inflammatory bowel disease': 0.6
-            },
-            'headache': {
-                'migraine': 0.8,
-                'tension headache': 0.75,
-                'hypertension': 0.6,
-                'sinusitis': 0.5,
-                'medication overuse headache': 0.4
-            },
-            'fever': {
-                'viral infection': 0.8,
-                'bacterial infection': 0.75,
-                'urinary tract infection': 0.7,
-                'pneumonia': 0.65
-            },
-            'fatigue': {
-                'anemia': 0.7,
-                'thyroid disease': 0.65,
-                'depression': 0.6,
-                'chronic fatigue syndrome': 0.55,
-                'heart failure': 0.5
-            }
-        }
-        
-        # Diagnosis-treatment relationships
-        self.diagnosis_treatment_relationships = {
-            'hypertension': {
-                'ace inhibitors': 0.9,
-                'beta blockers': 0.85,
-                'calcium channel blockers': 0.8,
-                'diuretics': 0.75,
-                'lifestyle modification': 0.9
-            },
-            'diabetes': {
-                'metformin': 0.9,
-                'insulin': 0.8,
-                'diet modification': 0.95,
-                'exercise': 0.9,
-                'glucose monitoring': 0.95
-            },
-            'asthma': {
-                'bronchodilators': 0.95,
-                'corticosteroids': 0.8,
-                'leukotriene inhibitors': 0.7,
-                'allergy management': 0.7
-            },
-            'depression': {
-                'antidepressants': 0.85,
-                'psychotherapy': 0.8,
-                'cognitive behavioral therapy': 0.85,
-                'exercise': 0.7
-            }
-        }
-        
-        # Drug-drug interactions (contraindications)
-        self.drug_interactions = {
-            'warfarin': ['aspirin', 'ibuprofen', 'naproxen'],
-            'ace inhibitors': ['potassium supplements', 'spironolactone'],
-            'beta blockers': ['verapamil', 'diltiazem'],
-            'digoxin': ['furosemide', 'quinidine']
-        }
-        
-        # Contraindications
-        self.contraindications = {
-            'beta blockers': ['asthma', 'copd', 'heart block'],
-            'ace inhibitors': ['pregnancy', 'hyperkalemia', 'bilateral renal artery stenosis'],
-            'nsaids': ['peptic ulcer disease', 'chronic kidney disease', 'heart failure'],
-            'metformin': ['chronic kidney disease', 'liver disease', 'heart failure']
-        }
-    
-    def _initialize_clinical_patterns(self):
-        """Initialize clinical pattern recognition"""
-        
-        # Medical urgency patterns
-        self.urgency_patterns = {
-            'emergency': {
-                'patterns': [
-                    'crushing chest pain', 'severe chest pain', 'sudden severe headache',
-                    'difficulty breathing', 'cannot breathe', 'severe shortness of breath',
-                    'loss of consciousness', 'syncope', 'fainting',
-                    'severe abdominal pain', 'excruciating pain',
-                    'sudden weakness', 'facial drooping', 'slurred speech'
-                ],
-                'score': 1.0
-            },
-            'urgent': {
-                'patterns': [
-                    'worsening chest pain', 'increasing shortness of breath',
-                    'persistent vomiting', 'severe headache',
-                    'high fever', 'temperature over 102', 'fever above 38.5',
-                    'persistent pain', 'worsening pain'
-                ],
-                'score': 0.8
-            },
-            'non_urgent': {
-                'patterns': [
-                    'mild pain', 'occasional discomfort', 'minor headache',
-                    'slight fever', 'low-grade fever', 'intermittent symptoms'
-                ],
-                'score': 0.3
-            }
-        }
-        
-        # Clinical severity indicators
-        self.severity_indicators = {
-            'mild': ['mild', 'slight', 'minor', 'minimal', 'little', 'low-grade'],
-            'moderate': ['moderate', 'medium', 'noticeable', 'persistent'],
-            'severe': ['severe', 'intense', 'excruciating', 'unbearable', 'extreme', 'terrible'],
-            'critical': ['life-threatening', 'critical', 'emergency', 'crisis']
-        }
-        
-        # Temporal patterns
-        self.temporal_patterns = {
-            'acute': ['sudden', 'suddenly', 'acute', 'rapid', 'quickly', 'immediate'],
-            'chronic': ['chronic', 'long-term', 'persistent', 'ongoing', 'continuous'],
-            'intermittent': ['intermittent', 'occasional', 'sporadic', 'comes and goes'],
-            'progressive': ['worsening', 'getting worse', 'progressive', 'increasing']
-        }
-    
-    def _initialize_drug_database(self):
-        """Initialize comprehensive drug database"""
-        
-        self.drug_database = {
-            'generic_names': {
-                'lisinopril': {'class': 'ace_inhibitor', 'brand': ['prinivil', 'zestril']},
-                'metoprolol': {'class': 'beta_blocker', 'brand': ['lopressor', 'toprol']},
-                'amlodipine': {'class': 'calcium_channel_blocker', 'brand': ['norvasc']},
-                'atorvastatin': {'class': 'statin', 'brand': ['lipitor']},
-                'metformin': {'class': 'biguanide', 'brand': ['glucophage']},
-                'albuterol': {'class': 'bronchodilator', 'brand': ['ventolin', 'proair']},
-                'omeprazole': {'class': 'proton_pump_inhibitor', 'brand': ['prilosec']},
-                'sertraline': {'class': 'ssri', 'brand': ['zoloft']},
-                'ibuprofen': {'class': 'nsaid', 'brand': ['advil', 'motrin']},
-                'acetaminophen': {'class': 'analgesic', 'brand': ['tylenol']}
-            },
-            'drug_classes': {
-                'ace_inhibitor': ['lisinopril', 'enalapril', 'captopril', 'ramipril'],
-                'beta_blocker': ['metoprolol', 'atenolol', 'propranolol', 'carvedilol'],
-                'statin': ['atorvastatin', 'simvastatin', 'rosuvastatin', 'pravastatin'],
-                'bronchodilator': ['albuterol', 'levalbuterol', 'ipratropium', 'tiotropium'],
-                'nsaid': ['ibuprofen', 'naproxen', 'diclofenac', 'celecoxib']
-            }
-        }
-    
-    def _initialize_icd_mappings(self):
-        """Initialize ICD-10 code mappings for common conditions"""
-        
-        self.icd10_mappings = {
-            'hypertension': 'I10',
-            'diabetes mellitus': 'E11',
-            'asthma': 'J45',
-            'heart failure': 'I50',
-            'myocardial infarction': 'I21',
-            'stroke': 'I64',
-            'pneumonia': 'J18',
-            'copd': 'J44',
-            'depression': 'F32',
-            'anxiety': 'F41'
-        }
-    
-    def _initialize_severity_indicators(self):
-        """Initialize clinical severity assessment patterns"""
-        
-        self.severity_scoring = {
-            'pain_scales': {
-                'mild': ['1', '2', '3', 'mild', 'slight', 'minimal'],
-                'moderate': ['4', '5', '6', 'moderate', 'noticeable'],
-                'severe': ['7', '8', '9', '10', 'severe', 'intense', 'excruciating']
-            },
-            'functional_impact': {
-                'minimal': ['no impact', 'minimal impact', 'can function normally'],
-                'moderate': ['some impact', 'affects daily activities', 'limits function'],
-                'severe': ['significant impact', 'cannot function', 'bedridden', 'unable to work']
-            }
-        }
-    
-    def _flatten_taxonomy(self, taxonomy):
-        """Flatten taxonomy to extract all medical terms"""
-        if isinstance(taxonomy, dict):
-            for key, value in taxonomy.items():
-                if isinstance(value, list):
-                    self.all_medical_terms.update(value)
-                    self.all_medical_terms.add(key)
-                elif isinstance(value, dict):
-                    self.all_medical_terms.add(key)
-                    self._flatten_taxonomy(value)
-    
-    def validate_medical_terms(self, terms, category=None, context=None):
-        """ medical term validation with contextual analysis"""
-        if not terms:
-            return {
-                'validity_score': 1.0,
-                'valid_terms': [],
-                'invalid_terms': [],
-                'confidence_scores': {},
-                'category_matches': {},
-                'suggestions': {}
-            }
-        
-        valid_terms = []
-        invalid_terms = []
-        confidence_scores = {}
-        category_matches = {}
-        suggestions = {}
-        
-        for term in terms:
-            if not isinstance(term, str):
-                term = str(term)
-            
-            term_clean = term.lower().strip()
-            
-            # Multi-level validation
-            validation_result = self._validate_single_term(term_clean, category, context)
-            
-            if validation_result['is_valid']:
-                valid_terms.append(term)
-                confidence_scores[term] = validation_result['confidence']
-                category_matches[term] = validation_result['category']
-                
-                if validation_result['suggestions']:
-                    suggestions[term] = validation_result['suggestions']
+    def _initialize_db_connection(self):
+        """Initialize database connection to MIMIC-III"""
+        try:
+            db_uri = get_db_uri()
+            if db_uri:
+                self.engine = create_engine(db_uri)
+                Session = sessionmaker(bind=self.engine)
+                self.db_session = Session()
+                logger.info("Connected to MIMIC-III database")
             else:
-                invalid_terms.append(term)
-                confidence_scores[term] = validation_result['confidence']
-                
-                if validation_result['suggestions']:
-                    suggestions[term] = validation_result['suggestions']
-        
-        validity_score = len(valid_terms) / len(terms) if terms else 1.0
-        
-        # Apply context-based adjustments
-        if context:
-            validity_score = self._apply_contextual_adjustments(validity_score, valid_terms, context)
-        
-        return {
-            'validity_score': validity_score,
-            'valid_terms': valid_terms,
-            'invalid_terms': invalid_terms,
-            'confidence_scores': confidence_scores,
-            'category_matches': category_matches,
-            'suggestions': suggestions
-        }
+                logger.error("Database URI not available")
+                raise ValueError("Cannot connect to MIMIC-III database")
+        except Exception as e:
+            logger.error(f"Failed to connect to MIMIC-III database: {e}")
+            raise
     
-    def _validate_single_term(self, term, category, context):
-        """ single term validation"""
+    def get_diagnosis_vocabulary(self) -> Dict[str, List[str]]:
+        """Extract diagnosis vocabulary from D_ICD_DIAGNOSES table"""
+        if self._diagnosis_vocabulary is not None:
+            return self._diagnosis_vocabulary
         
-        # 1. Exact match
-        if term in self.all_medical_terms:
-            return {
-                'is_valid': True,
-                'confidence': self.scoring_weights['exact_match'],
-                'category': self._find_term_category(term),
-                'suggestions': []
-            }
+        logger.info("Extracting diagnosis vocabulary from MIMIC-III D_ICD_DIAGNOSES")
         
-        # 2. Synonym/abbreviation match
-        if term in self.medical_synonyms:
-            expanded_term = self.medical_synonyms[term]
-            return {
-                'is_valid': True,
-                'confidence': self.scoring_weights['synonym_match'],
-                'category': self._find_term_category(expanded_term),
-                'suggestions': [f"Expanded from abbreviation: {expanded_term}"]
-            }
-        
-        # 3. Fuzzy matching with medical terms
-        fuzzy_matches = self._find_fuzzy_matches(term)
-        if fuzzy_matches:
-            best_match = fuzzy_matches[0]
-            return {
-                'is_valid': True,
-                'confidence': self.scoring_weights['partial_match'] * best_match['similarity'],
-                'category': best_match['category'],
-                'suggestions': [f"Fuzzy match: {best_match['term']} (similarity: {best_match['similarity']:.2f})"]
-            }
-        
-        # 4. Pattern-based validation
-        pattern_result = self._validate_medical_patterns(term, category)
-        if pattern_result['is_valid']:
-            return pattern_result
-        
-        # 5. Contextual validation
-        if context:
-            contextual_result = self._validate_contextual(term, context)
-            if contextual_result['is_valid']:
-                return contextual_result
-        
-        # 6. Generate suggestions for invalid terms
-        suggestions = self._generate_suggestions(term)
-        
-        return {
-            'is_valid': False,
-            'confidence': 0.0,
-            'category': 'unknown',
-            'suggestions': suggestions
-        }
-    
-    def _find_fuzzy_matches(self, term):
-        """Find fuzzy matches using Levenshtein-like similarity"""
-        matches = []
-        
-        for medical_term in self.all_medical_terms:
-            similarity = self._calculate_similarity(term, medical_term)
+        try:
+            query = text("""
+                SELECT icd9_code, short_title, long_title
+                FROM d_icd_diagnoses
+                ORDER BY icd9_code
+            """)
             
-            if similarity > 0.7:  # Threshold for fuzzy matching
-                matches.append({
-                    'term': medical_term,
-                    'similarity': similarity,
-                    'category': self._find_term_category(medical_term)
-                })
-        
-        # Sort by similarity
-        matches.sort(key=lambda x: x['similarity'], reverse=True)
-        return matches[:3]  # Return top 3 matches
-    
-    def _calculate_similarity(self, term1, term2):
-        """Calculate string similarity using character overlap and position"""
-        if not term1 or not term2:
-            return 0.0
-        
-        # Character overlap similarity
-        chars1 = set(term1.lower())
-        chars2 = set(term2.lower())
-        char_overlap = len(chars1.intersection(chars2)) / len(chars1.union(chars2))
-        
-        # Word overlap similarity
-        words1 = set(term1.lower().split())
-        words2 = set(term2.lower().split())
-        if words1 and words2:
-            word_overlap = len(words1.intersection(words2)) / len(words1.union(words2))
-        else:
-            word_overlap = 0.0
-        
-        # Substring similarity
-        substring_sim = 0.0
-        if term1 in term2 or term2 in term1:
-            substring_sim = min(len(term1), len(term2)) / max(len(term1), len(term2))
-        
-        # Combined similarity
-        return max(char_overlap * 0.4 + word_overlap * 0.5 + substring_sim * 0.1, substring_sim)
-    
-    def _validate_medical_patterns(self, term, category):
-        """Validate using medical patterns"""
-        
-        medical_suffixes = {
-            'itis': 'inflammation',  # gastritis, arthritis
-            'osis': 'condition',     # fibrosis, osteoporosis
-            'emia': 'blood_condition',  # anemia, leukemia
-            'pathy': 'disease',      # neuropathy, myopathy
-            'algia': 'pain',         # neuralgia, myalgia
-            'ectomy': 'surgical_removal',  # appendectomy
-            'scopy': 'examination',  # endoscopy, colonoscopy
-            'gram': 'recording',     # electrocardiogram
-            'logy': 'study',         # cardiology, neurology
-        }
-        
-        for suffix, pattern_type in medical_suffixes.items():
-            if term.endswith(suffix):
-                return {
-                    'is_valid': True,
-                    'confidence': self.scoring_weights['category_match'],
-                    'category': pattern_type,
-                    'suggestions': [f"Medical suffix pattern: {suffix} indicates {pattern_type}"]
-                }
-        
-        # Drug naming patterns
-        drug_patterns = [
-            (r'\w+cillin$', 'antibiotic'),  # penicillin, amoxicillin
-            (r'\w+mycin$', 'antibiotic'),   # erythromycin, azithromycin
-            (r'\w+olol$', 'beta_blocker'),  # metoprolol, atenolol
-            (r'\w+pril$', 'ace_inhibitor'), # lisinopril, enalapril
-            (r'\w+statin$', 'statin'),      # atorvastatin, simvastatin
-        ]
-        
-        for pattern, drug_class in drug_patterns:
-            if re.match(pattern, term):
-                return {
-                    'is_valid': True,
-                    'confidence': self.scoring_weights['category_match'],
-                    'category': drug_class,
-                    'suggestions': [f"Drug naming pattern indicates {drug_class}"]
-                }
-        
-        return {'is_valid': False}
-    
-    def _validate_contextual(self, term, context):
-        """Validate term based on context"""
-        if not context:
-            return {'is_valid': False}
-        
-        context_lower = context.lower()
-        
-        # Check if term appears in context (high confidence)
-        if term in context_lower:
-            return {
-                'is_valid': True,
-                'confidence': self.scoring_weights['contextual_match'],
-                'category': 'contextual',
-                'suggestions': [f"Term found in provided context"]
+            results = self.db_session.execute(query).mappings().all()
+            
+            diagnosis_vocab = {}
+            diagnosis_terms = []
+            
+            for row in results:
+                icd_code = row['icd9_code']
+                short_title = str(row['short_title']).lower() if row['short_title'] else ""
+                long_title = str(row['long_title']).lower() if row['long_title'] else ""
+                
+                # Store all variations for this diagnosis
+                terms = []
+                if short_title:
+                    terms.append(short_title)
+                    diagnosis_terms.append(short_title)
+                if long_title and long_title != short_title:
+                    terms.append(long_title)
+                    diagnosis_terms.append(long_title)
+                
+                if terms:
+                    diagnosis_vocab[icd_code] = terms
+            
+            # Create comprehensive diagnosis term list
+            self._diagnosis_vocabulary = {
+                'icd_mappings': diagnosis_vocab,
+                'all_terms': list(set(diagnosis_terms)),
+                'term_count': len(set(diagnosis_terms))
             }
+            
+            logger.info(f"Extracted {len(diagnosis_vocab)} ICD-9 diagnosis codes with {len(set(diagnosis_terms))} unique terms")
+            return self._diagnosis_vocabulary
+            
+        except Exception as e:
+            logger.error(f"Error extracting diagnosis vocabulary: {e}")
+            return {'icd_mappings': {}, 'all_terms': [], 'term_count': 0}
+    
+    def get_medication_vocabulary(self) -> Dict[str, List[str]]:
+        """Extract medication vocabulary from PRESCRIPTIONS table"""
+        if self._medication_vocabulary is not None:
+            return self._medication_vocabulary
         
-        # Check for related terms in context
-        related_score = 0.0
-        for medical_term in self.all_medical_terms:
-            if medical_term in context_lower:
-                similarity = self._calculate_similarity(term, medical_term)
-                related_score = max(related_score, similarity)
+        logger.info("Extracting medication vocabulary from MIMIC-III PRESCRIPTIONS")
         
-        if related_score > 0.6:
-            return {
-                'is_valid': True,
-                'confidence': self.scoring_weights['contextual_match'] * related_score,
-                'category': 'contextual_related',
-                'suggestions': [f"Contextually related term (score: {related_score:.2f})"]
+        try:
+            query = text("""
+                SELECT DISTINCT 
+                    LOWER(drug) as drug_name,
+                    LOWER(drug_name_poe) as drug_name_poe,
+                    LOWER(drug_name_generic) as drug_name_generic
+                FROM prescriptions
+                WHERE drug IS NOT NULL
+                LIMIT 10000
+            """)
+            
+            results = self.db_session.execute(query).mappings().all()
+            
+            medication_terms = set()
+            drug_mappings = {}
+            
+            for row in results:
+                drug_name = row['drug_name']
+                drug_name_poe = row['drug_name_poe']
+                drug_name_generic = row['drug_name_generic']
+                
+                # Collect all drug name variations
+                drugs = []
+                if drug_name and drug_name.strip():
+                    drugs.append(drug_name.strip())
+                    medication_terms.add(drug_name.strip())
+                
+                if drug_name_poe and drug_name_poe.strip() and drug_name_poe != drug_name:
+                    drugs.append(drug_name_poe.strip())
+                    medication_terms.add(drug_name_poe.strip())
+                
+                if drug_name_generic and drug_name_generic.strip() and drug_name_generic not in [drug_name, drug_name_poe]:
+                    drugs.append(drug_name_generic.strip())
+                    medication_terms.add(drug_name_generic.strip())
+                
+                if drugs:
+                    # Use primary drug name as key
+                    primary_drug = drugs[0]
+                    drug_mappings[primary_drug] = drugs
+            
+            self._medication_vocabulary = {
+                'drug_mappings': drug_mappings,
+                'all_terms': list(medication_terms),
+                'term_count': len(medication_terms)
             }
-        
-        return {'is_valid': False}
+            
+            logger.info(f"Extracted {len(medication_terms)} unique medication terms")
+            return self._medication_vocabulary
+            
+        except Exception as e:
+            logger.error(f"Error extracting medication vocabulary: {e}")
+            return {'drug_mappings': {}, 'all_terms': [], 'term_count': 0}
     
-    def _find_term_category(self, term):
-        """Find which category a medical term belongs to"""
+    def get_clinical_terminology(self) -> Dict[str, int]:
+        """Extract clinical terminology from NOTEEVENTS (sample)"""
+        if self._clinical_terminology is not None:
+            return self._clinical_terminology
         
-        # Search in symptom taxonomy
-        for category, subcategories in self.symptom_taxonomy.items():
-            for subcategory, terms in subcategories.items():
-                if term in terms or term == subcategory:
-                    return f"symptom_{category}"
+        logger.info("Extracting clinical terminology from MIMIC-III NOTEEVENTS (sample)")
         
-        # Search in diagnosis taxonomy
-        for category, subcategories in self.diagnosis_taxonomy.items():
-            for subcategory, terms in subcategories.items():
-                if term in terms or term == subcategory:
-                    return f"diagnosis_{category}"
-        
-        # Search in treatment taxonomy
-        for category, subcategories in self.treatment_taxonomy.items():
-            if isinstance(subcategories, dict):
-                for subcategory, items in subcategories.items():
-                    if isinstance(items, dict):
-                        for item_category, terms in items.items():
-                            if term in terms or term == item_category:
-                                return f"treatment_{category}_{subcategory}"
-                    elif isinstance(items, list):
-                        if term in items or term == subcategory:
-                            return f"treatment_{category}"
-        
-        return 'unknown'
+        try:
+            # Sample clinical notes to extract terminology
+            query = text("""
+                SELECT text
+                FROM noteevents
+                WHERE category IN ('Discharge summary', 'Physician', 'Nursing/other')
+                AND text IS NOT NULL
+                LIMIT 1000
+            """)
+            
+            results = self.db_session.execute(query).mappings().all()
+            
+            # Extract medical terminology using pattern matching
+            medical_terms = Counter()
+            
+            # Common medical term patterns
+            medical_patterns = [
+                r'\b[a-z]+itis\b',      # inflammatory conditions
+                r'\b[a-z]+osis\b',      # conditions
+                r'\b[a-z]+emia\b',      # blood conditions  
+                r'\b[a-z]+pathy\b',     # disease conditions
+                r'\b[a-z]+algia\b',     # pain conditions
+                r'\b[a-z]+ectomy\b',    # surgical removal
+                r'\b[a-z]+scopy\b',     # examinations
+                r'\b[a-z]+gram\b',      # recordings
+            ]
+            
+            for row in results:
+                if row['text']:
+                    text = row['text'].lower()
+                    
+                    # Extract terms matching medical patterns
+                    for pattern in medical_patterns:
+                        matches = re.findall(pattern, text)
+                        for match in matches:
+                            if len(match) > 3:  # Filter very short terms
+                                medical_terms[match] += 1
+            
+            # Keep terms that appear multiple times (more likely to be medical)
+            filtered_terms = {term: count for term, count in medical_terms.items() if count >= 2}
+            
+            self._clinical_terminology = filtered_terms
+            
+            logger.info(f"Extracted {len(filtered_terms)} clinical terms from notes")
+            return self._clinical_terminology
+            
+        except Exception as e:
+            logger.error(f"Error extracting clinical terminology: {e}")
+            return {}
     
-    def _generate_suggestions(self, term):
-        """Generate suggestions for invalid terms"""
-        suggestions = []
-        
-        # Find close matches
-        close_matches = []
-        for medical_term in list(self.all_medical_terms)[:200]:  # Limit for performance
-            similarity = self._calculate_similarity(term, medical_term)
-            if similarity > 0.5:
-                close_matches.append((medical_term, similarity))
-        
-        close_matches.sort(key=lambda x: x[1], reverse=True)
-        
-        if close_matches:
-            suggestions.extend([f"Did you mean: {match[0]}?" for match, _ in close_matches[:3]])
-        
-        # Check for common misspellings
-        common_corrections = {
-            'pnemonia': 'pneumonia',
-            'diabetis': 'diabetes',
-            'asma': 'asthma',
-            'hipertension': 'hypertension',
-            'alergic': 'allergic'
-        }
-        
-        if term in common_corrections:
-            suggestions.append(f"Possible correction: {common_corrections[term]}")
-        
-        return suggestions
+    def close(self):
+        """Close database connection"""
+        if hasattr(self, 'db_session') and self.db_session:
+            self.db_session.close()
+
+class MIMICBasedValidator:
+    """Medical validation using MIMIC-III derived vocabularies"""
     
-    def _apply_contextual_adjustments(self, base_score, valid_terms, context):
-        """Apply contextual adjustments to the validity score"""
+    def __init__(self, db_session=None):
+        self.knowledge_extractor = MIMICMedicalKnowledgeExtractor(db_session)
+        self._load_mimic_vocabularies()
         
-        context_lower = context.lower()
+    def _load_mimic_vocabularies(self):
+        """Load all MIMIC-III vocabularies"""
+        logger.info("Loading MIMIC-III medical vocabularies...")
         
-        # Bonus for medical context indicators
-        medical_context_indicators = [
-            'patient', 'doctor', 'medical', 'clinical', 'diagnosis', 'treatment',
-            'symptoms', 'medication', 'therapy', 'procedure', 'examination'
-        ]
+        self.diagnosis_vocab = self.knowledge_extractor.get_diagnosis_vocabulary()
+        self.medication_vocab = self.knowledge_extractor.get_medication_vocabulary()
+        self.clinical_terms = self.knowledge_extractor.get_clinical_terminology()
         
-        context_bonus = 0.0
-        for indicator in medical_context_indicators:
-            if indicator in context_lower:
-                context_bonus += 0.02
-        
-        context_bonus = min(0.1, context_bonus)  # Cap at 10%
-        
-        return min(1.0, base_score + context_bonus)
+        logger.info("MIMIC-III vocabularies loaded successfully")
     
-    def assess_medical_consistency(self, symptoms, diagnoses, treatments=None):
-        """ medical consistency assessment"""
+    def validate_symptoms(self, symptoms: List[str], context: str = None) -> Dict[str, any]:
+        """Validate symptoms against MIMIC-III clinical vocabulary"""
+        validated_symptoms = []
+        invalid_symptoms = []
+        mimic_mappings = {}
         
-        if not symptoms or not diagnoses:
-            return {
-                'consistency_score': 0.8,
-                'relationships_found': [],
-                'inconsistencies': [],
-                'confidence': 0.6,
-                'detailed_analysis': {}
-            }
-        
-        relationships_found = []
-        inconsistencies = []
-        consistency_scores = []
-        detailed_analysis = {}
+        # Combine relevant vocabularies for symptom validation
+        all_symptom_terms = set(self.diagnosis_vocab['all_terms'])
+        all_symptom_terms.update(self.clinical_terms.keys())
         
         for symptom in symptoms:
-            symptom_clean = symptom.lower().strip()
-            symptom_analysis = {
-                'symptom': symptom,
-                'compatible_diagnoses': [],
-                'incompatible_diagnoses': [],
-                'relationship_scores': {}
-            }
+            normalized_symptom = self._normalize_medical_term(symptom)
             
-            for diagnosis in diagnoses:
-                diagnosis_clean = diagnosis.lower().strip()
-                
-                # Check direct relationships
-                relationship_score = self._calculate_relationship_score(symptom_clean, diagnosis_clean)
-                
-                if relationship_score > 0.5:
-                    relationships_found.append({
-                        'symptom': symptom,
-                        'diagnosis': diagnosis,
-                        'score': relationship_score,
-                        'type': 'compatible'
-                    })
-                    symptom_analysis['compatible_diagnoses'].append(diagnosis)
-                elif relationship_score < 0.2:
-                    inconsistencies.append({
-                        'symptom': symptom,
-                        'diagnosis': diagnosis,
-                        'issue': 'low_compatibility',
-                        'score': relationship_score
-                    })
-                    symptom_analysis['incompatible_diagnoses'].append(diagnosis)
-                
-                symptom_analysis['relationship_scores'][diagnosis] = relationship_score
-                consistency_scores.append(relationship_score)
-            
-            detailed_analysis[symptom] = symptom_analysis
-        
-        # Check treatment consistency
-        if treatments:
-            treatment_analysis = self._analyze_treatment_consistency(diagnoses, treatments)
-            detailed_analysis['treatments'] = treatment_analysis
-            consistency_scores.extend(treatment_analysis.get('scores', []))
-        
-        # Calculate overall consistency
-        if consistency_scores:
-            mean_score = sum(consistency_scores) / len(consistency_scores)
-            # Apply penalty for inconsistencies
-            penalty = min(0.3, len(inconsistencies) * 0.05)
-            overall_score = max(0.0, mean_score - penalty)
-        else:
-            overall_score = 0.5
-        
-        # Calculate confidence based on number of relationships found
-        confidence = min(1.0, 0.5 + len(relationships_found) * 0.1)
+            # Check direct match
+            if normalized_symptom in all_symptom_terms:
+                validated_symptoms.append(symptom)
+                mimic_mappings[symptom] = 'direct_match'
+            else:
+                # Check partial match
+                best_match = self._find_best_match(normalized_symptom, all_symptom_terms)
+                if best_match and best_match[1] > 0.8:  # High similarity threshold
+                    validated_symptoms.append(symptom)
+                    mimic_mappings[symptom] = f'partial_match: {best_match[0]}'
+                else:
+                    invalid_symptoms.append(symptom)
         
         return {
-            'consistency_score': overall_score,
-            'relationships_found': relationships_found,
-            'inconsistencies': inconsistencies,
-            'confidence': confidence,
-            'detailed_analysis': detailed_analysis
+            'valid_concepts': validated_symptoms,
+            'invalid_concepts': invalid_symptoms,
+            'mimic_mappings': mimic_mappings,
+            'validation_score': len(validated_symptoms) / len(symptoms) if symptoms else 1.0,
+            'vocabulary_coverage': len(all_symptom_terms)
         }
     
-    def _calculate_relationship_score(self, symptom, diagnosis):
-        """Calculate relationship score between symptom and diagnosis"""
+    def validate_diagnoses(self, diagnoses: List[str], context: str = None) -> Dict[str, any]:
+        """Validate diagnoses against MIMIC-III ICD-9 diagnosis vocabulary"""
+        validated_diagnoses = []
+        invalid_diagnoses = []
+        mimic_mappings = {}
         
-        # Direct relationship lookup
-        if symptom in self.symptom_diagnosis_relationships:
-            if diagnosis in self.symptom_diagnosis_relationships[symptom]:
-                return self.symptom_diagnosis_relationships[symptom][diagnosis]
+        # Use ICD-9 diagnosis vocabulary
+        all_diagnosis_terms = set(self.diagnosis_vocab['all_terms'])
         
-        # Fuzzy matching for relationships
-        symptom_matches = self._find_fuzzy_matches(symptom)
-        diagnosis_matches = self._find_fuzzy_matches(diagnosis)
-        
-        max_score = 0.0
-        
-        for sym_match in symptom_matches:
-            if sym_match['term'] in self.symptom_diagnosis_relationships:
-                for diag_match in diagnosis_matches:
-                    if diag_match['term'] in self.symptom_diagnosis_relationships[sym_match['term']]:
-                        base_score = self.symptom_diagnosis_relationships[sym_match['term']][diag_match['term']]
-                        adjusted_score = base_score * sym_match['similarity'] * diag_match['similarity']
-                        max_score = max(max_score, adjusted_score)
-        
-        # Category-based scoring
-        if max_score == 0.0:
-            symptom_category = self._find_term_category(symptom)
-            diagnosis_category = self._find_term_category(diagnosis)
+        for diagnosis in diagnoses:
+            normalized_diagnosis = self._normalize_medical_term(diagnosis)
             
-            if symptom_category != 'unknown' and diagnosis_category != 'unknown':
-                # Some categories naturally align
-                category_alignments = {
-                    'symptom_cardiovascular_symptoms': 'diagnosis_cardiovascular_diseases',
-                    'symptom_respiratory_symptoms': 'diagnosis_respiratory_diseases',
-                    'symptom_gastrointestinal_symptoms': 'diagnosis_gastrointestinal_diseases',
-                    'symptom_neurological_symptoms': 'diagnosis_neurological_diseases'
-                }
-                
-                for sym_cat, diag_cat in category_alignments.items():
-                    if symptom_category == sym_cat and diagnosis_category == diag_cat:
-                        max_score = 0.6
-                        break
+            # Check direct match
+            if normalized_diagnosis in all_diagnosis_terms:
+                validated_diagnoses.append(diagnosis)
+                mimic_mappings[diagnosis] = 'icd9_match'
+            else:
+                # Check partial match with ICD-9 terms
+                best_match = self._find_best_match(normalized_diagnosis, all_diagnosis_terms)
+                if best_match and best_match[1] > 0.7:  # Lower threshold for diagnoses
+                    validated_diagnoses.append(diagnosis)
+                    mimic_mappings[diagnosis] = f'icd9_partial: {best_match[0]}'
+                else:
+                    invalid_diagnoses.append(diagnosis)
         
-        return max_score
+        return {
+            'valid_concepts': validated_diagnoses,
+            'invalid_concepts': invalid_diagnoses,
+            'mimic_mappings': mimic_mappings,
+            'validation_score': len(validated_diagnoses) / len(diagnoses) if diagnoses else 1.0,
+            'icd9_coverage': len(all_diagnosis_terms)
+        }
     
-    def _analyze_treatment_consistency(self, diagnoses, treatments):
-        """Analyze consistency between diagnoses and treatments"""
+    def validate_treatments(self, treatments: List[str], context: str = None) -> Dict[str, any]:
+        """Validate treatments against MIMIC-III medication vocabulary"""
+        validated_treatments = []
+        invalid_treatments = []
+        mimic_mappings = {}
         
-        treatment_scores = []
-        compatible_treatments = []
-        incompatible_treatments = []
+        # Use medication vocabulary for treatments
+        all_treatment_terms = set(self.medication_vocab['all_terms'])
         
         for treatment in treatments:
-            treatment_clean = treatment.lower().strip()
-            treatment_analysis = {
-                'treatment': treatment,
-                'compatible_diagnoses': [],
-                'scores': {}
-            }
+            normalized_treatment = self._normalize_medical_term(treatment)
             
-            for diagnosis in diagnoses:
-                diagnosis_clean = diagnosis.lower().strip()
-                
-                # Check direct diagnosis-treatment relationships
-                relationship_score = self._calculate_treatment_relationship_score(diagnosis_clean, treatment_clean)
-                
-                treatment_analysis['scores'][diagnosis] = relationship_score
-                
-                if relationship_score > 0.5:
-                    treatment_analysis['compatible_diagnoses'].append(diagnosis)
-                    compatible_treatments.append({
-                        'treatment': treatment,
-                        'diagnosis': diagnosis,
-                        'score': relationship_score
-                    })
-                
-                treatment_scores.append(relationship_score)
-        
-        return {
-            'scores': treatment_scores,
-            'compatible_treatments': compatible_treatments,
-            'treatment_analysis': treatment_analysis
-        }
-    
-    def _calculate_treatment_relationship_score(self, diagnosis, treatment):
-        """Calculate relationship score between diagnosis and treatment"""
-        
-        # Direct relationship lookup
-        if diagnosis in self.diagnosis_treatment_relationships:
-            if treatment in self.diagnosis_treatment_relationships[diagnosis]:
-                return self.diagnosis_treatment_relationships[diagnosis][treatment]
-        
-        # Check if treatment matches drug class for diagnosis
-        for drug_class, drugs in self.drug_database['drug_classes'].items():
-            if treatment in drugs:
-                # Check if this drug class is appropriate for the diagnosis
-                for diag, treatments_dict in self.diagnosis_treatment_relationships.items():
-                    if diagnosis in diag or diag in diagnosis:
-                        if drug_class in treatments_dict:
-                            return treatments_dict[drug_class] * 0.8  # Slightly lower for specific drug
-        
-        return 0.0
-    
-    def extract_medical_entities(self, text):
-        """ medical entity extraction with confidence scoring"""
-        
-        if not text:
-            return {
-                'symptoms': [], 'diagnoses': [], 'treatments': [], 'body_parts': [],
-                'confidence_scores': {}, 'entity_positions': {}, 'severity_indicators': {}
-            }
-        
-        text_lower = text.lower()
-        
-        extracted = {
-            'symptoms': [],
-            'diagnoses': [],
-            'treatments': [],
-            'body_parts': []
-        }
-        
-        confidence_scores = {}
-        entity_positions = {}
-        severity_indicators = {}
-        
-        #  entity extraction with position tracking
-        for category_name, taxonomy in [
-            ('symptoms', self.symptom_taxonomy),
-            ('diagnoses', self.diagnosis_taxonomy),
-            ('treatments', self.treatment_taxonomy)
-        ]:
-            category_key = category_name
-            
-            for subcategory, items in taxonomy.items():
-                if isinstance(items, dict):
-                    for item_name, terms in items.items():
-                        if isinstance(terms, list):
-                            for term in terms:
-                                if term in text_lower:
-                                    if term not in extracted[category_key]:
-                                        extracted[category_key].append(term)
-                                        
-                                        # Calculate confidence
-                                        confidence = self._calculate_extraction_confidence(term, text_lower)
-                                        confidence_scores[term] = confidence
-                                        
-                                        # Find position
-                                        position = text_lower.find(term)
-                                        entity_positions[term] = position
-                                        
-                                        # Extract severity if it's a symptom
-                                        if category_key == 'symptoms':
-                                            severity = self._extract_severity_indicators(term, text_lower, position)
-                                            if severity:
-                                                severity_indicators[term] = severity
-        
-        # Remove duplicates while preserving order and metadata
-        for category in extracted:
-            extracted[category] = list(dict.fromkeys(extracted[category]))
-        
-        return {
-            **extracted,
-            'confidence_scores': confidence_scores,
-            'entity_positions': entity_positions,
-            'severity_indicators': severity_indicators
-        }
-    
-    def _calculate_extraction_confidence(self, term, text):
-        """Calculate confidence score for extracted entity"""
-        
-        base_confidence = 0.8
-        
-        # Bonus for exact match
-        if term in text:
-            base_confidence += 0.1
-        
-        # Bonus for context
-        medical_context_words = ['patient', 'doctor', 'diagnosis', 'treatment', 'symptom']
-        context_bonus = sum(0.02 for word in medical_context_words if word in text)
-        context_bonus = min(0.1, context_bonus)
-        
-        # Check for qualifiers that increase confidence
-        confidence_qualifiers = ['severe', 'chronic', 'acute', 'persistent', 'diagnosed with']
-        qualifier_bonus = sum(0.03 for qualifier in confidence_qualifiers 
-                            if qualifier in text and qualifier in text[max(0, text.find(term)-20):text.find(term)+len(term)+20])
-        qualifier_bonus = min(0.15, qualifier_bonus)
-        
-        return min(1.0, base_confidence + context_bonus + qualifier_bonus)
-    
-    def _extract_severity_indicators(self, term, text, position):
-        """Extract severity indicators for symptoms"""
-        
-        # Look for severity indicators around the term
-        window_start = max(0, position - 30)
-        window_end = min(len(text), position + len(term) + 30)
-        context_window = text[window_start:window_end]
-        
-        severity_found = {}
-        
-        for severity_level, indicators in self.severity_indicators.items():
-            for indicator in indicators:
-                if indicator in context_window:
-                    severity_found[severity_level] = indicator
-        
-        # Also check for numerical scales
-        pain_scale_pattern = r'(\d+)\s*(?:out of|/)\s*10'
-        pain_match = re.search(pain_scale_pattern, context_window)
-        if pain_match:
-            pain_score = int(pain_match.group(1))
-            if pain_score <= 3:
-                severity_found['mild'] = f'pain scale {pain_score}/10'
-            elif pain_score <= 6:
-                severity_found['moderate'] = f'pain scale {pain_score}/10'
+            # Check medication match
+            if normalized_treatment in self.medication_vocab['all_terms']:
+                validated_treatments.append(treatment)
+                mimic_mappings[treatment] = 'medication_match'
             else:
-                severity_found['severe'] = f'pain scale {pain_score}/10'
+                # Check partial match
+                best_match = self._find_best_match(normalized_treatment, all_treatment_terms)
+                if best_match and best_match[1] > 0.75:
+                    validated_treatments.append(treatment)
+                    mimic_mappings[treatment] = f'partial_match: {best_match[0]}'
+                else:
+                    invalid_treatments.append(treatment)
         
-        return severity_found if severity_found else None
+        return {
+            'valid_concepts': validated_treatments,
+            'invalid_concepts': invalid_treatments,
+            'mimic_mappings': mimic_mappings,
+            'validation_score': len(validated_treatments) / len(treatments) if treatments else 1.0,
+            'medication_coverage': len(self.medication_vocab['all_terms'])
+        }
+    
+    def _normalize_medical_term(self, term: str) -> str:
+        """Normalize medical term for matching"""
+        if not term:
+            return ""
+        
+        # Convert to lowercase and strip
+        normalized = term.lower().strip()
+        
+        # Remove common punctuation
+        normalized = re.sub(r'[^\w\s]', ' ', normalized)
+        
+        # Normalize whitespace
+        normalized = re.sub(r'\s+', ' ', normalized)
+        
+        return normalized.strip()
+    
+    def _find_best_match(self, term: str, vocabulary: Set[str]) -> Optional[Tuple[str, float]]:
+        """Find best matching term in vocabulary using string similarity"""
+        best_match = None
+        best_score = 0.0
+        
+        for vocab_term in vocabulary:
+            if vocab_term:  # Skip empty terms
+                similarity = SequenceMatcher(None, term, vocab_term).ratio()
+                if similarity > best_score:
+                    best_score = similarity
+                    best_match = vocab_term
+        
+        return (best_match, best_score) if best_match else None
+    
+    def close(self):
+        """Close database connections"""
+        self.knowledge_extractor.close()
 
-class MedicalSafetyValidator:
-    """ medical safety validation with comprehensive clinical guidelines"""
+# Global validator instance
+_global_validator = None
+
+def _get_validator():
+    """Get or create global validator instance"""
+    global _global_validator
+    if _global_validator is None:
+        _global_validator = MIMICBasedValidator()
+    return _global_validator
+
+# Main validation functions for integration with existing codebase
+def validate_medical_extraction(symptoms: List[str], 
+                              diagnoses: List[str], 
+                              treatments: List[str], 
+                              context: str = None,
+                              gold_standard: Dict[str, List[str]] = None) -> Dict[str, float]:
+    """
+    Validate medical extraction using MIMIC-III derived vocabularies
+    """
+    logger.info("Validating medical extraction using MIMIC-III knowledge")
     
-    def __init__(self):
-        self.medical_validator = MedicalConceptValidator()
-        self._initialize_safety_knowledge()
-    
-    def _initialize_safety_knowledge(self):
-        """Initialize comprehensive medical safety knowledge base"""
+    try:
+        validator = _get_validator()
         
-        # Critical safety red flags
-        self.critical_safety_patterns = {
-            'immediate_emergency': {
-                'patterns': [
-                    'crushing chest pain', 'severe chest pain radiating', 'cannot breathe',
-                    'loss of consciousness', 'sudden severe headache', 'facial drooping',
-                    'slurred speech', 'sudden weakness', 'severe abdominal pain',
-                    'vomiting blood', 'blood in stool', 'difficulty swallowing',
-                    'severe allergic reaction', 'anaphylaxis', 'severe breathing difficulty'
-                ],
-                'severity': 'critical',
-                'recommendation': 'Immediate emergency medical attention required'
-            },
-            'urgent_care': {
-                'patterns': [
-                    'worsening chest pain', 'increasing shortness of breath',
-                    'persistent vomiting', 'high fever over 102', 'severe headache',
-                    'persistent abdominal pain', 'worsening pain', 'new neurological symptoms'
-                ],
-                'severity': 'urgent',
-                'recommendation': 'Urgent medical evaluation needed within hours'
-            },
-            'harmful_advice_patterns': {
-                'patterns': [
-                    'ignore chest pain', 'skip emergency care', 'avoid calling 911',
-                    'dont see a doctor', 'just wait it out', 'self-medicate with',
-                    'stop all medications suddenly', 'double the dose', 'mix with alcohol',
-                    'ignore severe symptoms', 'home surgery', 'avoid hospitals'
-                ],
-                'severity': 'harmful',
-                'recommendation': 'Advice could be harmful to patient safety'
+        # Validate each entity type
+        symptom_validation = validator.validate_symptoms(symptoms, context)
+        diagnosis_validation = validator.validate_diagnoses(diagnoses, context)
+        treatment_validation = validator.validate_treatments(treatments, context)
+        
+        # Calculate overall scores
+        overall_score = (
+            symptom_validation['validation_score'] * 0.4 +
+            diagnosis_validation['validation_score'] * 0.4 +
+            treatment_validation['validation_score'] * 0.2
+        )
+        
+        return {
+            'overall_medical_validity': overall_score,
+            'symptom_validity': symptom_validation['validation_score'],
+            'diagnosis_validity': diagnosis_validation['validation_score'],
+            'treatment_validity': treatment_validation['validation_score'],
+            'medical_consistency': overall_score,  # Using overall score as consistency proxy
+            'detailed_validation': {
+                'symptoms': symptom_validation,
+                'diagnoses': diagnosis_validation,
+                'treatments': treatment_validation
             }
         }
         
-        # Drug safety patterns
-        self.drug_safety_patterns = {
-            'dangerous_combinations': [
-                'warfarin with aspirin', 'ace inhibitor with potassium',
-                'beta blocker with verapamil', 'nsaid with warfarin',
-                'alcohol with opioids', 'sedatives with alcohol'
-            ],
-            'contraindicated_combinations': [
-                'beta blocker in asthma', 'ace inhibitor in pregnancy',
-                'nsaid in heart failure', 'metformin in kidney disease'
-            ],
-            'dosing_concerns': [
-                'double the dose', 'take extra', 'skip doses frequently',
-                'crush extended release', 'split capsules'
-            ]
+    except Exception as e:
+        logger.error(f"Error in MIMIC-III based validation: {e}")
+        return {
+            'overall_medical_validity': 0.5,
+            'symptom_validity': 0.5,
+            'diagnosis_validity': 0.5,
+            'treatment_validity': 0.5,
+            'medical_consistency': 0.5,
+            'validation_error': str(e)
         }
-        
-        # Medical communication safety
-        self.communication_safety = {
-            'appropriate_language': [
-                'consult your doctor', 'seek medical attention', 'follow up with',
-                'as prescribed by', 'under medical supervision', 'if symptoms worsen',
-                'monitor closely', 'regular check-ups', 'discuss with your physician'
-            ],
-            'inappropriate_certainty': [
-                'definitely cancer', 'certainly fatal', 'absolutely nothing wrong',
-                'guaranteed cure', 'impossible to treat', 'never needs treatment',
-                'always means', 'certainly indicates'
-            ]
-        }
-        
-        # Clinical guideline violations
-        self.guideline_violations = {
-            'medication_advice': [
-                'stop taking immediately without consulting', 'adjust dose without doctor',
-                'share prescription medications', 'use expired medications',
-                'take someone elses medication'
-            ],
-            'diagnostic_advice': [
-                'no need for testing', 'skip the x-ray', 'avoid blood work',
-                'dont need to see specialist', 'imaging is unnecessary'
-            ]
-        }
+
+def assess_dialogue_safety(dialogue_text: str) -> Dict[str, any]:
+    """
+    Assess dialogue safety using MIMIC-III clinical context
+    """
+    logger.info("Assessing dialogue safety using MIMIC-III clinical context")
     
-    def assess_comprehensive_safety(self, text):
-        """Comprehensive medical safety assessment"""
+    try:
+        validator = _get_validator()
         
-        if not text:
-            return {
-                'safety_score': 0.8,
-                'safety_status': 'NEUTRAL',
-                'risk_level': 'low',
-                'safety_violations': [],
-                'recommendations': [],
-                'urgency_indicators': [],
-                'drug_safety_issues': []
-            }
+        # Extract basic medical concepts from dialogue
+        extracted_concepts = _extract_basic_medical_concepts(dialogue_text)
         
-        text_lower = text.lower()
+        # Validate against MIMIC vocabularies
+        symptom_validation = validator.validate_symptoms(extracted_concepts.get('symptoms', []), dialogue_text)
+        diagnosis_validation = validator.validate_diagnoses(extracted_concepts.get('diagnoses', []), dialogue_text)
+        treatment_validation = validator.validate_treatments(extracted_concepts.get('treatments', []), dialogue_text)
         
-        # Initialize assessment results
-        safety_violations = []
-        urgency_indicators = []
-        drug_safety_issues = []
-        recommendations = []
-        
-        # 1. Critical safety pattern detection
-        critical_issues = self._detect_critical_patterns(text_lower)
-        safety_violations.extend(critical_issues)
-        
-        # 2. Drug safety assessment
-        drug_issues = self._assess_drug_safety(text_lower)
-        drug_safety_issues.extend(drug_issues)
-        
-        # 3. Communication safety evaluation
-        comm_issues = self._assess_communication_safety(text_lower)
-        safety_violations.extend(comm_issues)
-        
-        # 4. Urgency detection
-        urgency_indicators = self._detect_urgency_indicators(text_lower)
-        
-        # 5. Guideline compliance check
-        guideline_issues = self._check_guideline_compliance(text_lower)
-        safety_violations.extend(guideline_issues)
-        
-        # Calculate overall safety score
-        safety_score = self._calculate_comprehensive_safety_score(
-            safety_violations, drug_safety_issues, urgency_indicators
+        # Calculate safety score based on vocabulary validation
+        concept_validity = (
+            symptom_validation['validation_score'] * 0.4 +
+            diagnosis_validation['validation_score'] * 0.4 +
+            treatment_validation['validation_score'] * 0.2
         )
         
-        # Determine risk level and status
-        risk_level, safety_status = self._determine_risk_level(safety_score, safety_violations)
+        # Base safety assessment
+        safety_score = 0.8  # Start with good assumption
+        safety_issues = []
         
-        # Generate recommendations
-        recommendations = self._generate_safety_recommendations(
-            safety_violations, drug_safety_issues, urgency_indicators
-        )
+        # Check for harmful patterns
+        harmful_patterns = [
+            'ignore chest pain', 'skip emergency', 'avoid doctor', 'stop medication suddenly'
+        ]
+        
+        text_lower = dialogue_text.lower()
+        for pattern in harmful_patterns:
+            if pattern in text_lower:
+                safety_issues.append(f"Potentially harmful advice: {pattern}")
+                safety_score -= 0.2
+        
+        # Adjust safety score based on concept validity
+        safety_score = (safety_score * 0.7) + (concept_validity * 0.3)
+        safety_score = max(0.0, min(1.0, safety_score))
+        
+        # Determine safety status
+        if safety_score >= 0.8:
+            safety_status = 'SAFE'
+        elif safety_score >= 0.6:
+            safety_status = 'ACCEPTABLE'
+        else:
+            safety_status = 'NEEDS_REVIEW'
         
         return {
             'safety_score': safety_score,
             'safety_status': safety_status,
-            'risk_level': risk_level,
-            'safety_violations': safety_violations,
-            'recommendations': recommendations,
-            'urgency_indicators': urgency_indicators,
-            'drug_safety_issues': drug_safety_issues,
-            'detailed_analysis': {
-                'critical_patterns_found': len([v for v in safety_violations if v.get('severity') == 'critical']),
-                'harmful_advice_detected': len([v for v in safety_violations if 'harmful' in v.get('type', '')]),
-                'communication_issues': len([v for v in safety_violations if 'communication' in v.get('type', '')]),
-                'drug_interactions': len(drug_safety_issues)
+            'safety_violations': safety_issues,
+            'recommendations': _generate_safety_recommendations(safety_issues, safety_score)
+        }
+        
+    except Exception as e:
+        logger.error(f"Error in MIMIC-III based safety assessment: {e}")
+        return {
+            'safety_score': 0.6,
+            'safety_status': 'UNKNOWN',
+            'safety_violations': [f"Assessment error: {str(e)}"],
+            'recommendations': ['Manual safety review recommended']
+        }
+
+def extract_medical_entities_comprehensive(text: str) -> Dict[str, List[str]]:
+    """
+    Extract medical entities using MIMIC-III vocabularies
+    """
+    logger.info("Extracting medical entities using MIMIC-III knowledge")
+    
+    try:
+        validator = _get_validator()
+        
+        # Extract basic concepts first
+        basic_concepts = _extract_basic_medical_concepts(text)
+        
+        # Validate and enhance with MIMIC vocabularies
+        symptom_validation = validator.validate_symptoms(basic_concepts['symptoms'], text)
+        diagnosis_validation = validator.validate_diagnoses(basic_concepts['diagnoses'], text)
+        treatment_validation = validator.validate_treatments(basic_concepts['treatments'], text)
+        
+        return {
+            'symptoms': symptom_validation['valid_concepts'],
+            'diagnoses': diagnosis_validation['valid_concepts'],
+            'treatments': treatment_validation['valid_concepts'],
+            'confidence_scores': {
+                'symptoms': symptom_validation['validation_score'],
+                'diagnoses': diagnosis_validation['validation_score'],
+                'treatments': treatment_validation['validation_score']
+            },
+            'mimic_mappings': {
+                'symptoms': symptom_validation['mimic_mappings'],
+                'diagnoses': diagnosis_validation['mimic_mappings'],
+                'treatments': treatment_validation['mimic_mappings']
             }
         }
-    
-    def _detect_critical_patterns(self, text):
-        """Detect critical safety patterns"""
         
-        violations = []
-        
-        for category, data in self.critical_safety_patterns.items():
-            for pattern in data['patterns']:
-                if pattern in text:
-                    violations.append({
-                        'type': f'critical_{category}',
-                        'pattern': pattern,
-                        'severity': data['severity'],
-                        'recommendation': data['recommendation'],
-                        'position': text.find(pattern)
-                    })
-        
-        return violations
-    
-    def _assess_drug_safety(self, text):
-        """Assess drug safety issues"""
-        
-        drug_issues = []
-        
-        # Check for dangerous drug combinations
-        for combination in self.drug_safety_patterns['dangerous_combinations']:
-            if self._check_drug_combination_in_text(combination, text):
-                drug_issues.append({
-                    'type': 'dangerous_combination',
-                    'combination': combination,
-                    'severity': 'high',
-                    'recommendation': 'Review drug interaction with healthcare provider'
-                })
-        
-        # Check for contraindicated combinations
-        for combination in self.drug_safety_patterns['contraindicated_combinations']:
-            if self._check_contraindication_in_text(combination, text):
-                drug_issues.append({
-                    'type': 'contraindication',
-                    'combination': combination,
-                    'severity': 'critical',
-                    'recommendation': 'Contraindicated combination - immediate medical review needed'
-                })
-        
-        # Check for dosing concerns
-        for concern in self.drug_safety_patterns['dosing_concerns']:
-            if concern in text:
-                drug_issues.append({
-                    'type': 'dosing_concern',
-                    'issue': concern,
-                    'severity': 'medium',
-                    'recommendation': 'Consult healthcare provider about proper dosing'
-                })
-        
-        return drug_issues
-    
-    def _check_drug_combination_in_text(self, combination, text):
-        """Check if drug combination is mentioned in text"""
-        
-        drugs = combination.split(' with ')
-        if len(drugs) == 2:
-            drug1, drug2 = drugs[0].strip(), drugs[1].strip()
-            return drug1 in text and drug2 in text
-        
-        return False
-    
-    def _check_contraindication_in_text(self, combination, text):
-        """Check if contraindicated combination is mentioned"""
-        
-        parts = combination.split(' in ')
-        if len(parts) == 2:
-            drug, condition = parts[0].strip(), parts[1].strip()
-            return drug in text and condition in text
-        
-        return False
-    
-    def _assess_communication_safety(self, text):
-        """Assess medical communication safety"""
-        
-        comm_issues = []
-        
-        # Check for inappropriate certainty
-        for pattern in self.communication_safety['inappropriate_certainty']:
-            if pattern in text:
-                comm_issues.append({
-                    'type': 'communication_inappropriate_certainty',
-                    'pattern': pattern,
-                    'severity': 'medium',
-                    'recommendation': 'Avoid absolute statements in medical communication'
-                })
-        
-        # Check for harmful communication patterns
-        harmful_patterns = [
-            'dont worry about', 'ignore the symptoms', 'no need to see doctor',
-            'definitely not serious', 'impossible to be'
-        ]
-        
-        for pattern in harmful_patterns:
-            if pattern in text:
-                comm_issues.append({
-                    'type': 'communication_potentially_harmful',
-                    'pattern': pattern,
-                    'severity': 'high',
-                    'recommendation': 'Avoid dismissive medical communication'
-                })
-        
-        return comm_issues
-    
-    def _detect_urgency_indicators(self, text):
-        """Detect medical urgency indicators"""
-        
-        urgency_indicators = []
-        
-        # Check urgency patterns from medical validator
-        for urgency_level, data in self.medical_validator.urgency_patterns.items():
-            for pattern in data['patterns']:
-                if pattern in text:
-                    urgency_indicators.append({
-                        'level': urgency_level,
-                        'pattern': pattern,
-                        'score': data['score'],
-                        'position': text.find(pattern)
-                    })
-        
-        # Sort by urgency score
-        urgency_indicators.sort(key=lambda x: x['score'], reverse=True)
-        
-        return urgency_indicators
-    
-    def _check_guideline_compliance(self, text):
-        """Check compliance with clinical guidelines"""
-        
-        guideline_issues = []
-        
-        for category, violations in self.guideline_violations.items():
-            for violation in violations:
-                if violation in text:
-                    guideline_issues.append({
-                        'type': f'guideline_violation_{category}',
-                        'violation': violation,
-                        'severity': 'high',
-                        'recommendation': 'Review clinical practice guidelines'
-                    })
-        
-        return guideline_issues
-    
-    def _calculate_comprehensive_safety_score(self, safety_violations, drug_issues, urgency_indicators):
-        """Calculate comprehensive safety score"""
-        
-        base_score = 0.85  # Start with good assumption
-        
-        # Apply penalties for different types of violations
-        penalty_weights = {
-            'critical': 0.4,
-            'high': 0.2,
-            'medium': 0.1,
-            'low': 0.05
+    except Exception as e:
+        logger.error(f"Error in MIMIC-III based entity extraction: {e}")
+        return {
+            'symptoms': [],
+            'diagnoses': [],
+            'treatments': [],
+            'confidence_scores': {},
+            'mimic_mappings': {},
+            'extraction_error': str(e)
         }
-        
-        total_penalty = 0.0
-        
-        # Penalties for safety violations
-        for violation in safety_violations:
-            severity = violation.get('severity', 'medium')
-            penalty = penalty_weights.get(severity, 0.1)
-            total_penalty += penalty
-        
-        # Penalties for drug safety issues
-        for issue in drug_issues:
-            severity = issue.get('severity', 'medium')
-            penalty = penalty_weights.get(severity, 0.1) * 0.8  # Slightly lower weight
-            total_penalty += penalty
-        
-        # Penalties for high urgency indicators without appropriate response
-        high_urgency = [u for u in urgency_indicators if u['score'] > 0.8]
-        if high_urgency:
-            # Check if appropriate response is mentioned
-            appropriate_responses = ['call 911', 'emergency room', 'immediate medical attention']
-            has_appropriate_response = any(response in ' '.join([u['pattern'] for u in urgency_indicators]) 
-                                         for response in appropriate_responses)
-            
-            if not has_appropriate_response:
-                total_penalty += 0.3  # Significant penalty for not addressing urgency
-        
-        # Cap total penalty
-        total_penalty = min(0.7, total_penalty)
-        
-        # Calculate final score
-        final_score = max(0.1, base_score - total_penalty)
-        
-        # Bonus for positive safety indicators
-        positive_indicators = self.communication_safety['appropriate_language']
-        positive_count = sum(1 for indicator in positive_indicators 
-                           if indicator in ' '.join([v.get('pattern', '') for v in safety_violations]))
-        
-        bonus = min(0.1, positive_count * 0.02)
-        final_score = min(1.0, final_score + bonus)
-        
-        return final_score
-    
-    def _determine_risk_level(self, safety_score, violations):
-        """Determine risk level and safety status"""
-        
-        # Check for critical violations
-        critical_violations = [v for v in violations if v.get('severity') == 'critical']
-        
-        if critical_violations:
-            return 'critical', 'UNSAFE'
-        elif safety_score < 0.3:
-            return 'high', 'UNSAFE'
-        elif safety_score < 0.5:
-            return 'medium', 'CAUTION'
-        elif safety_score < 0.7:
-            return 'low', 'ACCEPTABLE'
-        else:
-            return 'minimal', 'SAFE'
-    
-    def _generate_safety_recommendations(self, violations, drug_issues, urgency_indicators):
-        """Generate safety recommendations"""
-        
-        recommendations = []
-        
-        # Recommendations for critical issues
-        critical_issues = [v for v in violations if v.get('severity') == 'critical']
-        if critical_issues:
-            recommendations.append('CRITICAL: Immediate medical review required for patient safety')
-        
-        # Recommendations for drug safety
-        if drug_issues:
-            recommendations.append('Review all medications with healthcare provider for potential interactions')
-        
-        # Recommendations for urgency
-        high_urgency = [u for u in urgency_indicators if u['score'] > 0.8]
-        if high_urgency:
-            recommendations.append('High urgency symptoms detected - ensure appropriate emergency response')
-        
-        # General recommendations based on violation types
-        violation_types = set(v.get('type', '') for v in violations)
-        
-        if any('communication' in vtype for vtype in violation_types):
-            recommendations.append('Improve medical communication clarity and appropriateness')
-        
-        if any('guideline' in vtype for vtype in violation_types):
-            recommendations.append('Review and follow established clinical practice guidelines')
-        
-        # Default recommendation if no specific issues
-        if not recommendations:
-            recommendations.append('Continue following established medical safety practices')
-        
-        return recommendations[:5]  # Limit to top 5 recommendations
 
-# Convenience functions for easy integration
-def validate_medical_extraction(symptoms, diagnoses, treatments, context=None):
-    """ validation of medical extraction results"""
-    validator = MedicalConceptValidator()
+def _extract_basic_medical_concepts(text: str) -> Dict[str, List[str]]:
+    """Extract basic medical concepts using pattern matching"""
+    symptoms = []
+    diagnoses = []
+    treatments = []
     
-    symptom_validation = validator.validate_medical_terms(symptoms, 'symptoms', context)
-    diagnosis_validation = validator.validate_medical_terms(diagnoses, 'diagnoses', context)
-    treatment_validation = validator.validate_medical_terms(treatments, 'treatments', context)
+    text_lower = text.lower()
     
-    consistency = validator.assess_medical_consistency(symptoms, diagnoses, treatments)
+    # Common symptom patterns
+    symptom_patterns = [
+        r'pain', r'ache', r'hurt', r'discomfort', r'nausea', r'vomit', r'fever',
+        r'cough', r'headache', r'dizzy', r'tired', r'fatigue', r'weak'
+    ]
     
-    # Calculate weighted overall score
-    overall_score = (
-        symptom_validation['validity_score'] * 0.35 +
-        diagnosis_validation['validity_score'] * 0.35 +
-        treatment_validation['validity_score'] * 0.25 +
-        consistency['consistency_score'] * 0.05
-    )
+    for pattern in symptom_patterns:
+        if re.search(pattern, text_lower):
+            symptoms.append(pattern)
+    
+    # Common diagnosis patterns
+    diagnosis_patterns = [
+        r'hypertension', r'diabetes', r'asthma', r'pneumonia', r'infection',
+        r'heart failure', r'depression', r'anxiety'
+    ]
+    
+    for pattern in diagnosis_patterns:
+        if re.search(pattern, text_lower):
+            diagnoses.append(pattern)
+    
+    # Common treatment patterns
+    treatment_patterns = [
+        r'medication', r'medicine', r'therapy', r'treatment', r'surgery',
+        r'antibiotic', r'pain killer', r'insulin'
+    ]
+    
+    for pattern in treatment_patterns:
+        if re.search(pattern, text_lower):
+            treatments.append(pattern)
     
     return {
-        'overall_medical_validity': overall_score,
-        'symptom_validity': symptom_validation['validity_score'],
-        'diagnosis_validity': diagnosis_validation['validity_score'],
-        'treatment_validity': treatment_validation['validity_score'],
-        'medical_consistency': consistency['consistency_score'],
-        'detailed_validation': {
-            'symptoms': symptom_validation,
-            'diagnoses': diagnosis_validation,
-            'treatments': treatment_validation,
-            'consistency': consistency
-        }
+        'symptoms': symptoms,
+        'diagnoses': diagnoses,
+        'treatments': treatments
     }
 
-def assess_dialogue_safety(dialogue_text):
-    """ safety assessment of dialogue content"""
-    safety_validator = MedicalSafetyValidator()
-    return safety_validator.assess_comprehensive_safety(dialogue_text)
+def _generate_safety_recommendations(safety_issues: List[str], safety_score: float) -> List[str]:
+    """Generate safety recommendations"""
+    recommendations = []
+    
+    if safety_issues:
+        recommendations.append("Address identified safety concerns in medical communication")
+    
+    if safety_score < 0.6:
+        recommendations.append("Improve medical communication safety and accuracy")
+    
+    if not recommendations:
+        recommendations.append("Continue following established medical safety practices")
+    
+    return recommendations
 
-def extract_medical_entities_comprehensive(text):
-    """Comprehensive medical entity extraction"""
-    validator = MedicalConceptValidator()
-    return validator.extract_medical_entities(text)
+# Backward compatibility functions
+def assess_medical_consistency(symptoms: List[str], diagnoses: List[str], treatments: List[str] = None) -> Dict[str, any]:
+    """Backward compatible medical consistency assessment using MIMIC-III"""
+    try:
+        validator = _get_validator()
+        
+        # Validate concepts against MIMIC vocabularies
+        symptom_validation = validator.validate_symptoms(symptoms)
+        diagnosis_validation = validator.validate_diagnoses(diagnoses)
+        treatment_validation = validator.validate_treatments(treatments or [])
+        
+        # Calculate consistency based on validation scores
+        consistency_score = (
+            symptom_validation['validation_score'] * 0.4 +
+            diagnosis_validation['validation_score'] * 0.4 +
+            treatment_validation['validation_score'] * 0.2
+        )
+        
+        return {
+            'consistency_score': consistency_score,
+            'relationships_found': [],  # Simplified for MIMIC-III approach
+            'inconsistencies': [],
+            'confidence': consistency_score,
+            'detailed_analysis': {
+                'symptoms': symptom_validation,
+                'diagnoses': diagnosis_validation,
+                'treatments': treatment_validation
+            }
+        }
+        
+    except Exception as e:
+        logger.error(f"Error in MIMIC-III consistency assessment: {e}")
+        return {
+            'consistency_score': 0.5,
+            'relationships_found': [],
+            'inconsistencies': [f"Assessment error: {str(e)}"],
+            'confidence': 0.3,
+            'detailed_analysis': {}
+        }
