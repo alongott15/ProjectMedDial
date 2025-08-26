@@ -1,0 +1,3281 @@
+[
+  {
+    "subject_id": 2,
+    "hadm_id": 163353,
+    "diagnoses": [
+      {
+        "name": "Need for prophylactic vaccination and inoculation against viral hepatitis"
+      },
+      {
+        "name": "Observation for suspected infectious condition"
+      },
+      {
+        "name": "Single liveborn, born in hospital, delivered by cesarean section"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Prophylactic administration of vaccine against other diseases"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Ampicillin Sodium"
+      },
+      {
+        "name": "NEO*IV*Gentamicin"
+      },
+      {
+        "name": "Send 500mg Vial"
+      },
+      {
+        "name": "Syringe (Neonatal) *D5W*"
+      }
+    ],
+    "demographics": {
+      "age": 0,
+      "gender": "M",
+      "ethnicity": "ASIAN",
+      "insurance": "Private",
+      "admission_type": "NEWBORN"
+    },
+    "symptoms": []
+  },
+  {
+    "subject_id": 4,
+    "hadm_id": 185777,
+    "diagnoses": [
+      {
+        "name": "Alkalosis"
+      },
+      {
+        "name": "Antiviral drugs causing adverse effects in therapeutic use"
+      },
+      {
+        "name": "Bacteremia"
+      },
+      {
+        "name": "Cachexia"
+      },
+      {
+        "name": "Cirrhosis of liver without mention of alcohol"
+      },
+      {
+        "name": "Human immunodeficiency virus [HIV] disease"
+      },
+      {
+        "name": "Infection with microorganisms resistant to penicillins"
+      },
+      {
+        "name": "Methicillin susceptible Staphylococcus aureus in conditions classified elsewhere and of unspecified site"
+      },
+      {
+        "name": "Pneumocystosis"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Diagnostic ultrasound of heart"
+      },
+      {
+        "name": "Other bronchoscopy"
+      },
+      {
+        "name": "Venous catheterization, not elsewhere classified"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Acyclovir"
+      },
+      {
+        "name": "Artificial Tears"
+      },
+      {
+        "name": "Benzonatate"
+      },
+      {
+        "name": "Clindamycin"
+      },
+      {
+        "name": "Clonazepam"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Dextromethorphan-Guaifenesin (Sugar Free)"
+      },
+      {
+        "name": "Didanosine Chewable Tab"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Fluconazole"
+      },
+      {
+        "name": "Guaifenesin-Codeine Phosphate"
+      },
+      {
+        "name": "Heparin"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Lamivudine"
+      },
+      {
+        "name": "Lantus"
+      },
+      {
+        "name": "Levothyroxine Sodium"
+      },
+      {
+        "name": "Loperamide HCl"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Prednisone"
+      },
+      {
+        "name": "Primaquine Phosphate"
+      },
+      {
+        "name": "Ranitidine"
+      },
+      {
+        "name": "Senna"
+      },
+      {
+        "name": "Tenofovir Disoproxil Fum."
+      },
+      {
+        "name": "Vancomycin HCl"
+      }
+    ],
+    "demographics": {
+      "age": 47,
+      "gender": "F",
+      "ethnicity": "WHITE",
+      "insurance": "Private",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Cough/Deep Breathe: Done"
+      },
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Location: Not Indicated"
+      },
+      {
+        "description": "Pain Present: No"
+      },
+      {
+        "description": "PainLevel Acceptable: Yes"
+      }
+    ]
+  },
+  {
+    "subject_id": 6,
+    "hadm_id": 107064,
+    "diagnoses": [
+      {
+        "name": "Anemia, unspecified"
+      },
+      {
+        "name": "Disorders of phosphorus metabolism"
+      },
+      {
+        "name": "Hyperpotassemia"
+      },
+      {
+        "name": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+      },
+      {
+        "name": "Peripheral vascular complications, not elsewhere classified"
+      },
+      {
+        "name": "Personal history of tobacco use"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Incision of vessel, abdominal arteries"
+      },
+      {
+        "name": "Other kidney transplantation"
+      },
+      {
+        "name": "Repair of blood vessel with synthetic patch graft"
+      },
+      {
+        "name": "Transfusion of packed cells"
+      },
+      {
+        "name": "Transplant from live related donor"
+      }
+    ],
+    "medications": [
+      {
+        "name": "1/2 NS"
+      },
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Albuterol"
+      },
+      {
+        "name": "Amlodipine"
+      },
+      {
+        "name": "Anti-Thymocyte Globulin (Rabbit)"
+      },
+      {
+        "name": "Bisacodyl"
+      },
+      {
+        "name": "Calcium Gluconate"
+      },
+      {
+        "name": "D5 1/2NS"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Diphenhydramine HCl"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Dolasetron Mesylate"
+      },
+      {
+        "name": "Filgrastim"
+      },
+      {
+        "name": "Furosemide"
+      },
+      {
+        "name": "Heparin Sodium"
+      },
+      {
+        "name": "Hydromorphone"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Methylprednisolone Na Succ."
+      },
+      {
+        "name": "Metoclopramide"
+      },
+      {
+        "name": "Metoprolol"
+      },
+      {
+        "name": "Morphine Sulfate"
+      },
+      {
+        "name": "Mycophenolate Mofetil"
+      },
+      {
+        "name": "Neutra-Phos"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "Nystatin Oral Suspension"
+      },
+      {
+        "name": "Oxycodone-Acetaminophen"
+      },
+      {
+        "name": "Pamidronate"
+      },
+      {
+        "name": "Pantoprazole"
+      },
+      {
+        "name": "Prednisone"
+      },
+      {
+        "name": "Sulfameth/Trimethoprim SS"
+      },
+      {
+        "name": "Syringe (IV Room)"
+      },
+      {
+        "name": "Tacrolimus"
+      },
+      {
+        "name": "Valganciclovir HCl"
+      },
+      {
+        "name": "Vial"
+      },
+      {
+        "name": "Warfarin"
+      }
+    ],
+    "demographics": {
+      "age": 65,
+      "gender": "F",
+      "ethnicity": "WHITE",
+      "insurance": "Medicare",
+      "admission_type": "ELECTIVE"
+    },
+    "symptoms": [
+      {
+        "description": "Cough/Deep Breathe: Done"
+      },
+      {
+        "description": "Pain Assess Method: Change in Vitals"
+      },
+      {
+        "description": "Pain Assess Method: Non-verbal cues"
+      },
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Cause: Cough/DeepBreath"
+      },
+      {
+        "description": "Pain Cause: Movement/Turning"
+      },
+      {
+        "description": "Pain Level: 0-None"
+      },
+      {
+        "description": "Pain Level: 3-Mild to Mod"
+      },
+      {
+        "description": "Pain Level: 4-Mild to Mod"
+      }
+    ]
+  },
+  {
+    "subject_id": 8,
+    "hadm_id": 159514,
+    "diagnoses": [
+      {
+        "name": "Need for prophylactic vaccination and inoculation against viral hepatitis"
+      },
+      {
+        "name": "Observation for suspected infectious condition"
+      },
+      {
+        "name": "Routine or ritual circumcision"
+      },
+      {
+        "name": "Single liveborn, born in hospital, delivered by cesarean section"
+      },
+      {
+        "name": "Transitory tachypnea of newborn"
+      },
+      {
+        "name": "Unspecified fetal and neonatal jaundice"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Circumcision"
+      },
+      {
+        "name": "Non-invasive mechanical ventilation"
+      },
+      {
+        "name": "Prophylactic administration of vaccine against other diseases"
+      }
+    ],
+    "medications": [
+      {
+        "name": "NEO*IV*Ampicillin Sodium"
+      },
+      {
+        "name": "NEO*IV*Gentamicin"
+      },
+      {
+        "name": "Send 500mg Vial"
+      },
+      {
+        "name": "Syringe (Neonatal) *D5W*"
+      }
+    ],
+    "demographics": {
+      "age": 0,
+      "gender": "M",
+      "ethnicity": "WHITE",
+      "insurance": "Private",
+      "admission_type": "NEWBORN"
+    },
+    "symptoms": [
+      {
+        "description": "Pain: None"
+      },
+      {
+        "description": "Pain: Present"
+      }
+    ]
+  },
+  {
+    "subject_id": 9,
+    "hadm_id": 150750,
+    "diagnoses": [
+      {
+        "name": "Acute kidney failure, unspecified"
+      },
+      {
+        "name": "Congestive heart failure, unspecified"
+      },
+      {
+        "name": "Intracerebral hemorrhage"
+      },
+      {
+        "name": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      {
+        "name": "Unspecified essential hypertension"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      {
+        "name": "Insertion of endotracheal tube"
+      }
+    ],
+    "medications": [
+      {
+        "name": "*NF* Nicardipine HCl IV"
+      },
+      {
+        "name": "Calcium Gluconate"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Enalaprilat"
+      },
+      {
+        "name": "Hydralazine HCl"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Labetalol HCl"
+      },
+      {
+        "name": "Lansoprazole Oral Suspension"
+      },
+      {
+        "name": "Levofloxacin"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Mannitol"
+      },
+      {
+        "name": "Metoclopramide"
+      },
+      {
+        "name": "Metoprolol"
+      },
+      {
+        "name": "Metronidazole"
+      },
+      {
+        "name": "Nitroprusside Sodium"
+      },
+      {
+        "name": "Norepinephrine"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "NS (Glass Bottle)"
+      },
+      {
+        "name": "Pantoprazole Sodium"
+      },
+      {
+        "name": "Phenytoin"
+      },
+      {
+        "name": "Phenytoin Sodium"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Propofol (Generic)"
+      },
+      {
+        "name": "Soln."
+      },
+      {
+        "name": "SW"
+      },
+      {
+        "name": "Vancomycin HCl"
+      }
+    ],
+    "demographics": {
+      "age": 41,
+      "gender": "M",
+      "ethnicity": "UNKNOWN/NOT SPECIFIED",
+      "insurance": "Medicaid",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Cough Reflex: Absent"
+      },
+      {
+        "description": "Cough Reflex: Impaired"
+      },
+      {
+        "description": "Cough Reflex: Intact"
+      },
+      {
+        "description": "Pain Assess Method: Change in Vitals"
+      },
+      {
+        "description": "Pain Assess Method: Grimace Scale"
+      },
+      {
+        "description": "Pain Location: Not Indicated"
+      },
+      {
+        "description": "Pain Management [Route/Status #1]: IV Gtt"
+      },
+      {
+        "description": "Pain Present: No"
+      },
+      {
+        "description": "Pain Present: Other/Remarks"
+      },
+      {
+        "description": "Pain Type: None"
+      }
+    ]
+  },
+  {
+    "subject_id": 10,
+    "hadm_id": 184167,
+    "diagnoses": [
+      {
+        "name": "29-30 completed weeks of gestation"
+      },
+      {
+        "name": "Neonatal jaundice associated with preterm delivery"
+      },
+      {
+        "name": "Observation for suspected infectious condition"
+      },
+      {
+        "name": "Other preterm infants, 1,250-1,499 grams"
+      },
+      {
+        "name": "Single liveborn, born in hospital, delivered without mention of cesarean section"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Enteral infusion of concentrated nutritional substances"
+      },
+      {
+        "name": "Other phototherapy"
+      },
+      {
+        "name": "Parenteral infusion of concentrated nutritional substances"
+      }
+    ],
+    "medications": [
+      {
+        "name": "D10W"
+      },
+      {
+        "name": "NEO*IV*Ampicillin Sodium"
+      },
+      {
+        "name": "NEO*IV*Fat Emulsion"
+      },
+      {
+        "name": "NEO*IV*Gentamicin"
+      },
+      {
+        "name": "NEO*IV*Parenteral Nutrition"
+      },
+      {
+        "name": "NEO*PO*Ferrous Sulfate Elixer"
+      },
+      {
+        "name": "Send 500mg Vial"
+      },
+      {
+        "name": "Syringe (Neonatal)"
+      },
+      {
+        "name": "Syringe (Neonatal) *D5W*"
+      }
+    ],
+    "demographics": {
+      "age": 0,
+      "gender": "F",
+      "ethnicity": "BLACK/AFRICAN AMERICAN",
+      "insurance": "Medicaid",
+      "admission_type": "NEWBORN"
+    },
+    "symptoms": [
+      {
+        "description": "Pain: None"
+      }
+    ]
+  },
+  {
+    "subject_id": 11,
+    "hadm_id": 194540,
+    "diagnoses": [
+      {
+        "name": "Malignant neoplasm of parietal lobe"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Closed [percutaneous] [needle] biopsy of brain"
+      },
+      {
+        "name": "Injection or infusion of cancer chemotherapeutic substance"
+      },
+      {
+        "name": "Other excision or destruction of lesion or tissue of brain"
+      },
+      {
+        "name": "Other radiotherapeutic procedure"
+      }
+    ],
+    "medications": [
+      {
+        "name": "*NF* Temozolomide"
+      },
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Dexamethasone"
+      },
+      {
+        "name": "DiphenhydrAMINE"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Fish Oil (Omega 3)"
+      },
+      {
+        "name": "Gentamicin"
+      },
+      {
+        "name": "Haloperidol"
+      },
+      {
+        "name": "Heparin"
+      },
+      {
+        "name": "HYDROmorphone (Dilaudid)"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Levetiracetam"
+      },
+      {
+        "name": "Mannitol 20%"
+      },
+      {
+        "name": "Melatonin"
+      },
+      {
+        "name": "Meperidine"
+      },
+      {
+        "name": "Morphine Sulfate"
+      },
+      {
+        "name": "Multivitamins"
+      },
+      {
+        "name": "Nitroprusside Sodium"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "NS (Glass Bottle)"
+      },
+      {
+        "name": "Ondansetron"
+      },
+      {
+        "name": "Ondansetron ODT"
+      },
+      {
+        "name": "Oxycodone-Acetaminophen"
+      },
+      {
+        "name": "OxycoDONE (Immediate Release) "
+      },
+      {
+        "name": "Pantoprazole"
+      },
+      {
+        "name": "Pantoprazole Sodium"
+      },
+      {
+        "name": "Phenytoin"
+      },
+      {
+        "name": "Phenytoin Sodium"
+      },
+      {
+        "name": "Potassium Chl 20 mEq / 1000 mL D5 1/2 NS"
+      },
+      {
+        "name": "Potassium Chl 20 mEq / 1000 mL NS"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Potassium Chloride Replacement (Oncology)"
+      },
+      {
+        "name": "Prochlorperazine"
+      },
+      {
+        "name": "Promethazine HCl"
+      },
+      {
+        "name": "Senna"
+      },
+      {
+        "name": "Soln."
+      },
+      {
+        "name": "Syringe (IV Room)"
+      },
+      {
+        "name": "Tetanus-Diphtheria Toxoids-Td"
+      },
+      {
+        "name": "traZODONE HCl"
+      },
+      {
+        "name": "Vancomycin"
+      },
+      {
+        "name": "Vial"
+      }
+    ],
+    "demographics": {
+      "age": 50,
+      "gender": "F",
+      "ethnicity": "WHITE",
+      "insurance": "Private",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Cough Reflex: Intact"
+      },
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Location: Not Indicated"
+      },
+      {
+        "description": "Pain Present: No"
+      },
+      {
+        "description": "PainLevel Acceptable: Yes"
+      }
+    ]
+  },
+  {
+    "subject_id": 12,
+    "hadm_id": 112213,
+    "diagnoses": [
+      {
+        "name": "Calculus of gallbladder with other cholecystitis, without mention of obstruction"
+      },
+      {
+        "name": "Cardiac arrest"
+      },
+      {
+        "name": "Cardiac complications, not elsewhere classified"
+      },
+      {
+        "name": "Hemorrhage complicating a procedure"
+      },
+      {
+        "name": "Incisional hernia without mention of obstruction or gangrene"
+      },
+      {
+        "name": "Malignant neoplasm of head of pancreas"
+      },
+      {
+        "name": "Peritoneal adhesions (postoperative) (postinfection)"
+      },
+      {
+        "name": "Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+      },
+      {
+        "name": "Unspecified essential hypertension"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Anastomosis of hepatic duct to gastrointestinal tract"
+      },
+      {
+        "name": "Cardiopulmonary resuscitation, not otherwise specified"
+      },
+      {
+        "name": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      {
+        "name": "Incisional hernia repair"
+      },
+      {
+        "name": "Insertion of endotracheal tube"
+      },
+      {
+        "name": "Open biopsy of pancreas"
+      },
+      {
+        "name": "Other lysis of peritoneal adhesions"
+      },
+      {
+        "name": "Parenteral infusion of concentrated nutritional substances"
+      },
+      {
+        "name": "Reopening of recent laparotomy site"
+      },
+      {
+        "name": "Venous catheterization, not elsewhere classified"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Albuterol Neb Soln"
+      },
+      {
+        "name": "Atenolol"
+      },
+      {
+        "name": "Calcium Gluconate"
+      },
+      {
+        "name": "Cefazolin"
+      },
+      {
+        "name": "Clonidine HCl"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Diphenhydramine HCl"
+      },
+      {
+        "name": "Fentanyl Citrate"
+      },
+      {
+        "name": "Fluocinolone 0.025% Cream"
+      },
+      {
+        "name": "Haloperidol"
+      },
+      {
+        "name": "Heparin"
+      },
+      {
+        "name": "Humulin-R Insulin"
+      },
+      {
+        "name": "Hydralazine HCl"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Ipratropium Bromide Neb"
+      },
+      {
+        "name": "Levofloxacin"
+      },
+      {
+        "name": "Lorazepam"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Metoclopramide"
+      },
+      {
+        "name": "Metoprolol"
+      },
+      {
+        "name": "Metronidazole"
+      },
+      {
+        "name": "Moexipril HCl"
+      },
+      {
+        "name": "Morphine Sulfate"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "Pantoprazole"
+      },
+      {
+        "name": "Pantoprazole Sodium"
+      },
+      {
+        "name": "Phenylephrine HCl"
+      },
+      {
+        "name": "Phytonadione"
+      },
+      {
+        "name": "Piperacillin-Tazobactam Na"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Propofol (Diprivan)"
+      },
+      {
+        "name": "Propofol (Generic)"
+      },
+      {
+        "name": "Sarna Lotion"
+      },
+      {
+        "name": "Sodium Bicarbonate"
+      },
+      {
+        "name": "SW"
+      }
+    ],
+    "demographics": {
+      "age": 72,
+      "gender": "M",
+      "ethnicity": "WHITE",
+      "insurance": "Medicare",
+      "admission_type": "ELECTIVE"
+    },
+    "symptoms": [
+      {
+        "description": "Cough Effort: None"
+      },
+      {
+        "description": "Cough Effort: Strong"
+      },
+      {
+        "description": "Cough Effort: Weak"
+      },
+      {
+        "description": "Pain Assess Method: Change in Vitals"
+      },
+      {
+        "description": "Pain Assess Method: Grimace Scale"
+      },
+      {
+        "description": "Pain Assess Method: Non-verbal cues"
+      },
+      {
+        "description": "Pain Assess Method: Other"
+      },
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Cause: Incisional"
+      }
+    ]
+  },
+  {
+    "subject_id": 13,
+    "hadm_id": 143045,
+    "diagnoses": [
+      {
+        "name": "Coronary atherosclerosis of native coronary artery"
+      },
+      {
+        "name": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      {
+        "name": "Intermediate coronary syndrome"
+      },
+      {
+        "name": "Pure hypercholesterolemia"
+      },
+      {
+        "name": "Unspecified essential hypertension"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "(Aorto)coronary bypass of two coronary arteries"
+      },
+      {
+        "name": "Diagnostic ultrasound of heart"
+      },
+      {
+        "name": "Extracorporeal circulation auxiliary to open heart surgery"
+      },
+      {
+        "name": "Implant of pulsation balloon"
+      },
+      {
+        "name": "Single internal mammary-coronary artery bypass"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Aspirin"
+      },
+      {
+        "name": "Aspirin EC"
+      },
+      {
+        "name": "Atorvastatin"
+      },
+      {
+        "name": "Atropine Sulfate"
+      },
+      {
+        "name": "Bisacodyl"
+      },
+      {
+        "name": "Calcium Gluconate"
+      },
+      {
+        "name": "Captopril"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Docusate Sodium (Liquid)"
+      },
+      {
+        "name": "Furosemide"
+      },
+      {
+        "name": "Glycopyrrolate"
+      },
+      {
+        "name": "Heparin Sodium"
+      },
+      {
+        "name": "Hydralazine HCl"
+      },
+      {
+        "name": "Ibuprofen"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Ketorolac"
+      },
+      {
+        "name": "Lorazepam"
+      },
+      {
+        "name": "Maalox/Benadryl/Lidocaine"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Meperidine"
+      },
+      {
+        "name": "Metformin"
+      },
+      {
+        "name": "Metoclopramide"
+      },
+      {
+        "name": "Metoprolol"
+      },
+      {
+        "name": "Midazolam HCl"
+      },
+      {
+        "name": "Milk of Magnesia"
+      },
+      {
+        "name": "Morphine Sulfate"
+      },
+      {
+        "name": "Neostigmine"
+      },
+      {
+        "name": "Nitroglycerin"
+      },
+      {
+        "name": "Nitroglycerin SL"
+      },
+      {
+        "name": "Nitroprusside Sodium"
+      },
+      {
+        "name": "Oxycodone-Acetaminophen"
+      },
+      {
+        "name": "Pantoprazole"
+      },
+      {
+        "name": "Phenylephrine HCl"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Propofol (Generic)"
+      },
+      {
+        "name": "Ranitidine"
+      },
+      {
+        "name": "Sodium Bicarbonate"
+      },
+      {
+        "name": "Sucralfate"
+      },
+      {
+        "name": "SW"
+      },
+      {
+        "name": "Vancomycin HCl"
+      },
+      {
+        "name": "Zolpidem Tartrate"
+      }
+    ],
+    "demographics": {
+      "age": 39,
+      "gender": "F",
+      "ethnicity": "WHITE",
+      "insurance": "Medicaid",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Cough/Deep Breathe: Done"
+      },
+      {
+        "description": "Pain Assess Method: Non-verbal cues"
+      },
+      {
+        "description": "Pain Assess Method: Other"
+      },
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Cause: Activity"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Cause: Cough/DeepBreath"
+      },
+      {
+        "description": "Pain Cause: Incisional"
+      },
+      {
+        "description": "Pain Cause: Movement/Turning"
+      },
+      {
+        "description": "Pain Level: 1-None to Mild"
+      }
+    ]
+  },
+  {
+    "subject_id": 17,
+    "hadm_id": 161087,
+    "diagnoses": [
+      {
+        "name": "Cardiogenic shock"
+      },
+      {
+        "name": "Depressive disorder, not elsewhere classified"
+      },
+      {
+        "name": "Displacement of cervical intervertebral disc without myelopathy"
+      },
+      {
+        "name": "Hypotension, unspecified"
+      },
+      {
+        "name": "Other and unspecified hyperlipidemia"
+      },
+      {
+        "name": "Pain in joint, lower leg"
+      },
+      {
+        "name": "Unspecified disease of pericardium"
+      },
+      {
+        "name": "Unspecified pleural effusion"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Diagnostic ultrasound of heart"
+      },
+      {
+        "name": "Pericardiectomy"
+      },
+      {
+        "name": "Venous catheterization, not elsewhere classified"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Aspirin"
+      },
+      {
+        "name": "Aspirin EC"
+      },
+      {
+        "name": "Bisacodyl"
+      },
+      {
+        "name": "BuPROPion"
+      },
+      {
+        "name": "Calcium Gluconate"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Docusate Sodium (Liquid)"
+      },
+      {
+        "name": "Furosemide"
+      },
+      {
+        "name": "Glycopyrrolate"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Insulin Human Regular"
+      },
+      {
+        "name": "Ketorolac"
+      },
+      {
+        "name": "LR"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Meperidine"
+      },
+      {
+        "name": "Metoclopramide"
+      },
+      {
+        "name": "Metoprolol"
+      },
+      {
+        "name": "Milk of Magnesia"
+      },
+      {
+        "name": "Morphine Sulfate"
+      },
+      {
+        "name": "Neostigmine"
+      },
+      {
+        "name": "Nitroglycerin"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "Oxycodone-Acetaminophen"
+      },
+      {
+        "name": "Phenylephrine HCl"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Propofol"
+      },
+      {
+        "name": "Ranitidine"
+      },
+      {
+        "name": "Sucralfate"
+      },
+      {
+        "name": "SW"
+      },
+      {
+        "name": "Syringe"
+      },
+      {
+        "name": "Vancomycin HCl"
+      }
+    ],
+    "demographics": {
+      "age": 47,
+      "gender": "F",
+      "ethnicity": "WHITE",
+      "insurance": "Private",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Cough/Deep Breathe: Done"
+      },
+      {
+        "description": "Pain Assess Method: Change in Vitals"
+      },
+      {
+        "description": "Pain Assess Method: Non-verbal cues"
+      },
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Cause: Movement/Turning"
+      },
+      {
+        "description": "Pain Level: 1-None to Mild"
+      },
+      {
+        "description": "Pain Level: 3-Mild to Mod"
+      },
+      {
+        "description": "Pain Level: 4-Mild to Mod"
+      },
+      {
+        "description": "Pain Level: 7-Mod to Severe"
+      }
+    ]
+  },
+  {
+    "subject_id": 17,
+    "hadm_id": 194023,
+    "diagnoses": [
+      {
+        "name": "Ostium secundum type atrial septal defect"
+      },
+      {
+        "name": "Other and unspecified hyperlipidemia"
+      },
+      {
+        "name": "Other iatrogenic hypotension"
+      },
+      {
+        "name": "Personal history of other diseases of circulatory system"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Diagnostic ultrasound of heart"
+      },
+      {
+        "name": "Extracorporeal circulation auxiliary to open heart surgery"
+      },
+      {
+        "name": "Other and unspecified repair of atrial septal defect"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Aspirin"
+      },
+      {
+        "name": "Aspirin EC"
+      },
+      {
+        "name": "Bisacodyl"
+      },
+      {
+        "name": "BuPROPion (Sustained Release)"
+      },
+      {
+        "name": "Calcium Gluconate"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Docusate Sodium (Liquid)"
+      },
+      {
+        "name": "Furosemide"
+      },
+      {
+        "name": "Glycopyrrolate"
+      },
+      {
+        "name": "Hydromorphone"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Insulin Human Regular"
+      },
+      {
+        "name": "Ketorolac"
+      },
+      {
+        "name": "LR"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Meperidine"
+      },
+      {
+        "name": "Metoclopramide"
+      },
+      {
+        "name": "Milk of Magnesia"
+      },
+      {
+        "name": "Morphine Sulfate"
+      },
+      {
+        "name": "Neostigmine"
+      },
+      {
+        "name": "Nitroglycerin"
+      },
+      {
+        "name": "Nitroprusside Sodium"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "Oxycodone-Acetaminophen"
+      },
+      {
+        "name": "Phenylephrine HCl"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Propofol"
+      },
+      {
+        "name": "Ranitidine"
+      },
+      {
+        "name": "Sucralfate"
+      },
+      {
+        "name": "SW"
+      },
+      {
+        "name": "Syringe"
+      },
+      {
+        "name": "Vancomycin HCl"
+      }
+    ],
+    "demographics": {
+      "age": 47,
+      "gender": "F",
+      "ethnicity": "WHITE",
+      "insurance": "Private",
+      "admission_type": "ELECTIVE"
+    },
+    "symptoms": [
+      {
+        "description": "Cough/Deep Breathe: Done"
+      },
+      {
+        "description": "Pain Assess Method: Non-verbal cues"
+      },
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Cause: Activity"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Cause: Movement/Turning"
+      },
+      {
+        "description": "Pain Level: 1-None to Mild"
+      },
+      {
+        "description": "Pain Level: 2-Mild"
+      },
+      {
+        "description": "Pain Level: 3-Mild to Mod"
+      },
+      {
+        "description": "Pain Level: 4-Mild to Mod"
+      }
+    ]
+  },
+  {
+    "subject_id": 18,
+    "hadm_id": 188822,
+    "diagnoses": [
+      {
+        "name": "Diabetes with other specified manifestations, type II or unspecified type, not stated as uncontrolled"
+      },
+      {
+        "name": "Family history of psychiatric condition"
+      },
+      {
+        "name": "Insulins and antidiabetic agents causing adverse effects in therapeutic use"
+      },
+      {
+        "name": "Long-term (current) use of insulin"
+      },
+      {
+        "name": "Long-term (current) use of other medications"
+      },
+      {
+        "name": "Loss of weight"
+      },
+      {
+        "name": "Major depressive affective disorder, recurrent episode, severe, without mention of psychotic behavior"
+      },
+      {
+        "name": "Other convulsions"
+      },
+      {
+        "name": "Other diseases of pharynx, not elsewhere classified"
+      },
+      {
+        "name": "Pure hypercholesterolemia"
+      },
+      {
+        "name": "Right bundle branch block"
+      },
+      {
+        "name": "Unspecified essential hypertension"
+      },
+      {
+        "name": "Unspecified sleep apnea"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Electroencephalogram"
+      },
+      {
+        "name": "Non-invasive mechanical ventilation"
+      },
+      {
+        "name": "Other psychiatric drug therapy"
+      }
+    ],
+    "medications": [
+      {
+        "name": "1/2 NS"
+      },
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Aluminum-Magnesium Hydrox.-Simethicone"
+      },
+      {
+        "name": "Aspirin"
+      },
+      {
+        "name": "Clonazepam"
+      },
+      {
+        "name": "D5 1/2NS"
+      },
+      {
+        "name": "Escitalopram Oxalate"
+      },
+      {
+        "name": "Folic Acid"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Lorazepam"
+      },
+      {
+        "name": "Maalox/Diphenhydramine/Lidocaine"
+      },
+      {
+        "name": "Milk of Magnesia"
+      },
+      {
+        "name": "Morphine Sulfate"
+      },
+      {
+        "name": "Neutra-Phos"
+      },
+      {
+        "name": "Nortriptyline"
+      },
+      {
+        "name": "NS (Glass Bottle)"
+      },
+      {
+        "name": "Phenytoin Sodium"
+      },
+      {
+        "name": "Quetiapine Fumarate"
+      },
+      {
+        "name": "Rosuvastatin Calcium"
+      },
+      {
+        "name": "Thiamine HCl"
+      },
+      {
+        "name": "traZODONE HCl"
+      }
+    ],
+    "demographics": {
+      "age": 50,
+      "gender": "M",
+      "ethnicity": "WHITE",
+      "insurance": "Private",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Level: 1-None to Mild"
+      },
+      {
+        "description": "Pain Level (Rest): 1-None to Mild"
+      },
+      {
+        "description": "Pain Location: Chest Pain"
+      },
+      {
+        "description": "Pain Management [Route/Status #1]: IV Push"
+      },
+      {
+        "description": "Pain Present: No"
+      },
+      {
+        "description": "Pain Present: Yes"
+      },
+      {
+        "description": "Pain Type: Dull"
+      },
+      {
+        "description": "PainLevel Acceptable: Yes"
+      }
+    ]
+  },
+  {
+    "subject_id": 19,
+    "hadm_id": 109235,
+    "diagnoses": [
+      {
+        "name": "Accidental fall on or from other stairs or steps"
+      },
+      {
+        "name": "Atony of bladder"
+      },
+      {
+        "name": "Closed fracture of patella"
+      },
+      {
+        "name": "Closed fracture of second cervical vertebra"
+      },
+      {
+        "name": "Dissection of carotid artery"
+      },
+      {
+        "name": "Osteoporosis, unspecified"
+      },
+      {
+        "name": "Other persistent mental disorders due to conditions classified elsewhere"
+      },
+      {
+        "name": "Unspecified essential hypertension"
+      },
+      {
+        "name": "Urinary tract infection, site not specified"
+      }
+    ],
+    "treatments": [],
+    "medications": [
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Aspirin"
+      },
+      {
+        "name": "Calcium Carbonate"
+      },
+      {
+        "name": "D5 1/2NS"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Docusate Sodium (Liquid)"
+      },
+      {
+        "name": "Famotidine"
+      },
+      {
+        "name": "Haloperidol"
+      },
+      {
+        "name": "Heparin"
+      },
+      {
+        "name": "Heparin Sodium"
+      },
+      {
+        "name": "Levofloxacin"
+      },
+      {
+        "name": "Lorazepam"
+      },
+      {
+        "name": "LR"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Metoprolol"
+      },
+      {
+        "name": "Metoprolol XL"
+      },
+      {
+        "name": "Olanzapine"
+      },
+      {
+        "name": "Pantoprazole"
+      },
+      {
+        "name": "Pantoprazole Sodium"
+      },
+      {
+        "name": "Pneumococcal Vac Polyvalent"
+      },
+      {
+        "name": "Potassium Chl 20 mEq / 1000 mL D5 1/2 NS"
+      },
+      {
+        "name": "traZODONE HCl"
+      },
+      {
+        "name": "Vial"
+      },
+      {
+        "name": "Vitamin D"
+      }
+    ],
+    "demographics": {
+      "age": 300,
+      "gender": "M",
+      "ethnicity": "WHITE",
+      "insurance": "Medicare",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Cough Reflex: Intact"
+      },
+      {
+        "description": "Pain Assess Method: Non-verbal cues"
+      },
+      {
+        "description": "Pain Assess Method: Other"
+      },
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Location: Neck"
+      },
+      {
+        "description": "Pain Location: Other/Remarks"
+      },
+      {
+        "description": "Pain Management [Route/Status #1]: IV Push"
+      },
+      {
+        "description": "Pain Present: Other/Remarks"
+      },
+      {
+        "description": "Pain Present: Yes"
+      }
+    ]
+  },
+  {
+    "subject_id": 20,
+    "hadm_id": 157681,
+    "diagnoses": [
+      {
+        "name": "Coronary atherosclerosis of native coronary artery"
+      },
+      {
+        "name": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      {
+        "name": "Intermediate coronary syndrome"
+      },
+      {
+        "name": "Other and unspecified hyperlipidemia"
+      },
+      {
+        "name": "Unspecified essential hypertension"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "(Aorto)coronary bypass of two coronary arteries"
+      },
+      {
+        "name": "Extracorporeal circulation auxiliary to open heart surgery"
+      },
+      {
+        "name": "Single internal mammary-coronary artery bypass"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Aspirin"
+      },
+      {
+        "name": "Aspirin EC"
+      },
+      {
+        "name": "Atorvastatin"
+      },
+      {
+        "name": "Bisacodyl"
+      },
+      {
+        "name": "Calcium Gluconate"
+      },
+      {
+        "name": "Cefazolin"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Diovan"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Furosemide"
+      },
+      {
+        "name": "Glipizide"
+      },
+      {
+        "name": "Glycopyrrolate"
+      },
+      {
+        "name": "Hespan"
+      },
+      {
+        "name": "Ibuprofen"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Meperidine"
+      },
+      {
+        "name": "Metoclopramide"
+      },
+      {
+        "name": "Metoprolol"
+      },
+      {
+        "name": "Midazolam HCl"
+      },
+      {
+        "name": "Milk of Magnesia"
+      },
+      {
+        "name": "Morphine Sulfate"
+      },
+      {
+        "name": "Neostigmine"
+      },
+      {
+        "name": "Nitroglycerin"
+      },
+      {
+        "name": "Nitroprusside Sodium"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "Oxazepam"
+      },
+      {
+        "name": "Oxycodone-Acetaminophen"
+      },
+      {
+        "name": "Pantoprazole"
+      },
+      {
+        "name": "Phenylephrine HCl"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Propofol (Generic)"
+      },
+      {
+        "name": "Ranitidine"
+      },
+      {
+        "name": "Sucralfate"
+      },
+      {
+        "name": "SW"
+      }
+    ],
+    "demographics": {
+      "age": 75,
+      "gender": "F",
+      "ethnicity": "WHITE",
+      "insurance": "Medicare",
+      "admission_type": "ELECTIVE"
+    },
+    "symptoms": [
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Cause: Activity"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Level: 3-Mild to Mod"
+      },
+      {
+        "description": "Pain Level (Rest): 3-Mild to Mod"
+      },
+      {
+        "description": "Pain Location: Incisional"
+      },
+      {
+        "description": "Pain Location: Not Indicated"
+      },
+      {
+        "description": "Pain Management [Route/Status #1]: IV Push"
+      },
+      {
+        "description": "Pain Present: No"
+      },
+      {
+        "description": "Pain Present: Yes"
+      }
+    ]
+  },
+  {
+    "subject_id": 21,
+    "hadm_id": 109451,
+    "diagnoses": [
+      {
+        "name": "Acute kidney failure, unspecified"
+      },
+      {
+        "name": "Anemia in chronic kidney disease"
+      },
+      {
+        "name": "Atrial fibrillation"
+      },
+      {
+        "name": "Blood in stool"
+      },
+      {
+        "name": "Candidiasis of other urogenital sites"
+      },
+      {
+        "name": "Cardiogenic shock"
+      },
+      {
+        "name": "Compression of vein"
+      },
+      {
+        "name": "Congestive heart failure, unspecified"
+      },
+      {
+        "name": "Coronary atherosclerosis of native coronary artery"
+      },
+      {
+        "name": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      {
+        "name": "Gout, unspecified"
+      },
+      {
+        "name": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+      },
+      {
+        "name": "Other late effects of cerebrovascular disease"
+      },
+      {
+        "name": "Paroxysmal ventricular tachycardia"
+      },
+      {
+        "name": "Personal history of malignant neoplasm of prostate"
+      },
+      {
+        "name": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      {
+        "name": "Pure hypercholesterolemia"
+      },
+      {
+        "name": "Subendocardial infarction, initial episode of care"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Angioplasty of other non-coronary vessel(s)"
+      },
+      {
+        "name": "Combined right and left heart cardiac catheterization"
+      },
+      {
+        "name": "Coronary arteriography using two catheters"
+      },
+      {
+        "name": "Hemodialysis"
+      },
+      {
+        "name": "Implant of pulsation balloon"
+      },
+      {
+        "name": "Insertion of non-drug-eluting coronary artery stent(s)"
+      },
+      {
+        "name": "Insertion of three vascular stents"
+      },
+      {
+        "name": "Nonoperative removal of heart assist system"
+      },
+      {
+        "name": "Percutaneous transluminal coronary angioplasty [PTCA]"
+      },
+      {
+        "name": "Procedure on three vessels"
+      },
+      {
+        "name": "Transfusion of packed cells"
+      },
+      {
+        "name": "Venous catheterization for renal dialysis"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Acetylcysteine 20%"
+      },
+      {
+        "name": "Amiodarone HCl"
+      },
+      {
+        "name": "Artificial Tears"
+      },
+      {
+        "name": "Aspirin"
+      },
+      {
+        "name": "Atorvastatin"
+      },
+      {
+        "name": "Atropine Sulfate"
+      },
+      {
+        "name": "Calcitriol"
+      },
+      {
+        "name": "Calcium Carbonate"
+      },
+      {
+        "name": "Calcium Gluconate"
+      },
+      {
+        "name": "Captopril"
+      },
+      {
+        "name": "Chlorothiazide Sodium"
+      },
+      {
+        "name": "Clonidine HCl"
+      },
+      {
+        "name": "Clopidogrel Bisulfate"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "D5W (EXCEL BAG)"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Docusate Sodium (Liquid)"
+      },
+      {
+        "name": "Epoetin Alfa"
+      },
+      {
+        "name": "Eucerin"
+      },
+      {
+        "name": "Fluconazole"
+      },
+      {
+        "name": "Furosemide"
+      },
+      {
+        "name": "Glycerin Supps"
+      },
+      {
+        "name": "Heparin Sodium"
+      },
+      {
+        "name": "HydrALAZINE HCl"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Isosorbide Mononitrate (Extended Release)"
+      },
+      {
+        "name": "Levofloxacin"
+      },
+      {
+        "name": "Lisinopril"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Metolazone"
+      },
+      {
+        "name": "Metoprolol"
+      },
+      {
+        "name": "Morphine Sulfate"
+      },
+      {
+        "name": "Nitroglycerin"
+      },
+      {
+        "name": "Normocarb"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "Pantoprazole"
+      },
+      {
+        "name": "Pantoprazole Sodium"
+      },
+      {
+        "name": "Pneumococcal Vac Polyvalent"
+      },
+      {
+        "name": "Polysaccharide Iron Complex"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Senna"
+      },
+      {
+        "name": "Sertraline HCl"
+      },
+      {
+        "name": "Simvastatin"
+      },
+      {
+        "name": "Sodium Bicarbonate"
+      },
+      {
+        "name": "Sterile Water"
+      },
+      {
+        "name": "SW"
+      },
+      {
+        "name": "Vial"
+      },
+      {
+        "name": "Warfarin"
+      },
+      {
+        "name": "Zolpidem Tartrate"
+      }
+    ],
+    "demographics": {
+      "age": 87,
+      "gender": "M",
+      "ethnicity": "WHITE",
+      "insurance": "Medicare",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Level: 6-Mod to Severe"
+      },
+      {
+        "description": "Pain Level: 7-Mod to Severe"
+      },
+      {
+        "description": "Pain Level (Rest): 6-Mod to Severe"
+      },
+      {
+        "description": "Pain Level (Rest): 7-Mod to Severe"
+      },
+      {
+        "description": "Pain Level/Response: 2-Mild"
+      },
+      {
+        "description": "Pain Level/Response: 7-Mod to Severe"
+      },
+      {
+        "description": "Pain Location: Chest Pain"
+      },
+      {
+        "description": "Pain Location: Right Leg"
+      }
+    ]
+  },
+  {
+    "subject_id": 21,
+    "hadm_id": 111970,
+    "diagnoses": [
+      {
+        "name": "Abscess of liver"
+      },
+      {
+        "name": "Anemia, unspecified"
+      },
+      {
+        "name": "Atrial fibrillation"
+      },
+      {
+        "name": "Cellulitis and abscess of upper arm and forearm"
+      },
+      {
+        "name": "Coronary atherosclerosis of native coronary artery"
+      },
+      {
+        "name": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      {
+        "name": "Gout, unspecified"
+      },
+      {
+        "name": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+      },
+      {
+        "name": "Infection with microorganisms without mention of resistance to multiple drugs"
+      },
+      {
+        "name": "Intestinal infection due to Clostridium difficile"
+      },
+      {
+        "name": "Malignant neoplasm of prostate"
+      },
+      {
+        "name": "Other late effects of cerebrovascular disease"
+      },
+      {
+        "name": "Other postoperative infection"
+      },
+      {
+        "name": "Other specified septicemias"
+      },
+      {
+        "name": "Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+      },
+      {
+        "name": "Peripheral vascular disease, unspecified"
+      },
+      {
+        "name": "Pressure ulcer, other site"
+      },
+      {
+        "name": "Septic shock"
+      },
+      {
+        "name": "Severe sepsis"
+      },
+      {
+        "name": "Unspecified acquired hypothyroidism"
+      },
+      {
+        "name": "Unspecified pleural effusion"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Hemodialysis"
+      },
+      {
+        "name": "Injection or infusion of oxazolidinone class of antibiotics"
+      },
+      {
+        "name": "Systemic arterial pressure monitoring"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Amiodarone HCl"
+      },
+      {
+        "name": "Aspirin"
+      },
+      {
+        "name": "Calcium Carbonate"
+      },
+      {
+        "name": "Clopidogrel Bisulfate"
+      },
+      {
+        "name": "Cosyntropin"
+      },
+      {
+        "name": "D5 1/2NS"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Desmopressin Acetate"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Fexofenadine"
+      },
+      {
+        "name": "Haloperidol"
+      },
+      {
+        "name": "Heparin"
+      },
+      {
+        "name": "Hydromorphone"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Levothyroxine Sodium"
+      },
+      {
+        "name": "Linezolid"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Meropenem"
+      },
+      {
+        "name": "Metronidazole"
+      },
+      {
+        "name": "Morphine Sulfate"
+      },
+      {
+        "name": "Multivitamin IV"
+      },
+      {
+        "name": "Norepinephrine"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "NS (Mini Bag Plus)"
+      },
+      {
+        "name": "Pantoprazole"
+      },
+      {
+        "name": "Pantoprazole Sodium"
+      },
+      {
+        "name": "Phytonadione"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Protamine Sulfate"
+      },
+      {
+        "name": "Senna"
+      },
+      {
+        "name": "Sertraline"
+      },
+      {
+        "name": "Simvastatin"
+      },
+      {
+        "name": "SW"
+      },
+      {
+        "name": "Vancomycin HCl"
+      },
+      {
+        "name": "Vancomycin Oral Liquid"
+      },
+      {
+        "name": "Vasopressin"
+      },
+      {
+        "name": "Vial"
+      }
+    ],
+    "demographics": {
+      "age": 87,
+      "gender": "M",
+      "ethnicity": "WHITE",
+      "insurance": "Medicare",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Pain Assess Method: Change in Vitals"
+      },
+      {
+        "description": "Pain Assess Method: Grimace Scale"
+      },
+      {
+        "description": "Pain Assess Method: Non-verbal cues"
+      },
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Cause: Activity"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Cause: Movement/Turning"
+      },
+      {
+        "description": "Pain Cause: Procedural"
+      },
+      {
+        "description": "Pain Level: 0-None"
+      },
+      {
+        "description": "Pain Level: 3-Mild to Mod"
+      }
+    ]
+  },
+  {
+    "subject_id": 23,
+    "hadm_id": 124321,
+    "diagnoses": [
+      {
+        "name": "Aortic valve disorders"
+      },
+      {
+        "name": "Aortocoronary bypass status"
+      },
+      {
+        "name": "Benign neoplasm of cerebral meninges"
+      },
+      {
+        "name": "Cerebral edema"
+      },
+      {
+        "name": "Other acquired absence of organ"
+      },
+      {
+        "name": "Other and unspecified hyperlipidemia"
+      },
+      {
+        "name": "Other convulsions"
+      },
+      {
+        "name": "Personal history of tobacco use"
+      },
+      {
+        "name": "Pure hypercholesterolemia"
+      },
+      {
+        "name": "Unspecified essential hypertension"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Excision of lesion or tissue of cerebral meninges"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Amlodipine"
+      },
+      {
+        "name": "Bisacodyl"
+      },
+      {
+        "name": "Calcium Gluconate"
+      },
+      {
+        "name": "Dexamethasone"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Heparin"
+      },
+      {
+        "name": "HydrALAzine"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "LeVETiracetam"
+      },
+      {
+        "name": "Levofloxacin"
+      },
+      {
+        "name": "Levothyroxine Sodium"
+      },
+      {
+        "name": "Lisinopril"
+      },
+      {
+        "name": "Lorazepam"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Metoprolol Tartrate"
+      },
+      {
+        "name": "Neutra-Phos"
+      },
+      {
+        "name": "NiCARdipine IV"
+      },
+      {
+        "name": "Nitroprusside Sodium"
+      },
+      {
+        "name": "Pantoprazole"
+      },
+      {
+        "name": "Phenytoin"
+      },
+      {
+        "name": "Pneumococcal Vac Polyvalent"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Quetiapine Fumarate"
+      },
+      {
+        "name": "Senna"
+      },
+      {
+        "name": "Simvastatin"
+      },
+      {
+        "name": "SW"
+      },
+      {
+        "name": "Vancomycin"
+      }
+    ],
+    "demographics": {
+      "age": 75,
+      "gender": "M",
+      "ethnicity": "WHITE",
+      "insurance": "Medicare",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Cough Effort: None"
+      },
+      {
+        "description": "Cough Effort: Weak"
+      },
+      {
+        "description": "Cough Reflex: Intact"
+      },
+      {
+        "description": "Cough/Deep Breath: 1"
+      },
+      {
+        "description": "Pain Assessment Method: Patient Verbalized"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Level: Mild to Moderate"
+      },
+      {
+        "description": "Pain Level: Moderate"
+      },
+      {
+        "description": "Pain Level Acceptable: Yes"
+      },
+      {
+        "description": "Pain Level Response: Mild to Moderate"
+      }
+    ]
+  },
+  {
+    "subject_id": 23,
+    "hadm_id": 152223,
+    "diagnoses": [
+      {
+        "name": "Aortic valve disorders"
+      },
+      {
+        "name": "Coronary atherosclerosis of native coronary artery"
+      },
+      {
+        "name": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+      },
+      {
+        "name": "Intermediate coronary syndrome"
+      },
+      {
+        "name": "Other and unspecified hyperlipidemia"
+      },
+      {
+        "name": "Percutaneous transluminal coronary angioplasty status"
+      },
+      {
+        "name": "Unspecified essential hypertension"
+      },
+      {
+        "name": "Unspecified hearing loss"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "(Aorto)coronary bypass of three coronary arteries"
+      },
+      {
+        "name": "Diagnostic ultrasound of heart"
+      },
+      {
+        "name": "Extracorporeal circulation auxiliary to open heart surgery"
+      },
+      {
+        "name": "Single internal mammary-coronary artery bypass"
+      },
+      {
+        "name": "Transfusion of other serum"
+      },
+      {
+        "name": "Transfusion of packed cells"
+      },
+      {
+        "name": "Transfusion of platelets"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Aspirin"
+      },
+      {
+        "name": "Aspirin EC"
+      },
+      {
+        "name": "Atorvastatin"
+      },
+      {
+        "name": "Bisacodyl"
+      },
+      {
+        "name": "Calcium Gluconate"
+      },
+      {
+        "name": "Cefazolin"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Docusate Sodium (Liquid)"
+      },
+      {
+        "name": "Ferrous Gluconate"
+      },
+      {
+        "name": "Furosemide"
+      },
+      {
+        "name": "Glycopyrrolate"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Insulin Human Regular"
+      },
+      {
+        "name": "Lidocaine"
+      },
+      {
+        "name": "LR"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Meperidine"
+      },
+      {
+        "name": "Metoclopramide"
+      },
+      {
+        "name": "Metoprolol"
+      },
+      {
+        "name": "Milk of Magnesia"
+      },
+      {
+        "name": "Morphine Sulfate"
+      },
+      {
+        "name": "Neostigmine"
+      },
+      {
+        "name": "Nitroglycerin"
+      },
+      {
+        "name": "Nitroprusside Sodium"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "Oxycodone-Acetaminophen"
+      },
+      {
+        "name": "Phenylephrine HCl"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Propofol"
+      },
+      {
+        "name": "Ranitidine"
+      },
+      {
+        "name": "Soln."
+      },
+      {
+        "name": "Sucralfate"
+      },
+      {
+        "name": "SW"
+      },
+      {
+        "name": "Syringe"
+      },
+      {
+        "name": "Terazosin HCl"
+      }
+    ],
+    "demographics": {
+      "age": 71,
+      "gender": "M",
+      "ethnicity": "WHITE",
+      "insurance": "Medicare",
+      "admission_type": "ELECTIVE"
+    },
+    "symptoms": [
+      {
+        "description": "Cough/Deep Breathe: Done"
+      },
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Cause: Activity"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Cause: Cough/DeepBreath"
+      },
+      {
+        "description": "Pain Level: 4-Mild to Mod"
+      },
+      {
+        "description": "Pain Level: 8-Severe"
+      },
+      {
+        "description": "Pain Level (Rest): 4-Mild to Mod"
+      },
+      {
+        "description": "Pain Level (Rest): 8-Severe"
+      },
+      {
+        "description": "Pain Location: Incisional"
+      }
+    ]
+  },
+  {
+    "subject_id": 24,
+    "hadm_id": 161859,
+    "diagnoses": [
+      {
+        "name": "Acute myocardial infarction of other inferior wall, initial episode of care"
+      },
+      {
+        "name": "Coronary atherosclerosis of native coronary artery"
+      },
+      {
+        "name": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      {
+        "name": "Esophageal reflux"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Angiocardiography of right heart structures"
+      },
+      {
+        "name": "Combined right and left heart cardiac catheterization"
+      },
+      {
+        "name": "Coronary arteriography using two catheters"
+      },
+      {
+        "name": "Injection or infusion of platelet inhibitor"
+      },
+      {
+        "name": "Insertion of drug-eluting coronary artery stent(s)"
+      }
+    ],
+    "medications": [
+      {
+        "name": "1/2 NS"
+      },
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Aspirin EC"
+      },
+      {
+        "name": "Atenolol"
+      },
+      {
+        "name": "Atorvastatin"
+      },
+      {
+        "name": "Atropine Sulfate"
+      },
+      {
+        "name": "Captopril"
+      },
+      {
+        "name": "Clopidogrel Bisulfate"
+      },
+      {
+        "name": "Diazepam"
+      },
+      {
+        "name": "Docusate Sodium"
+      },
+      {
+        "name": "Fentanyl Citrate"
+      },
+      {
+        "name": "Heparin"
+      },
+      {
+        "name": "Insulin"
+      },
+      {
+        "name": "Lisinopril"
+      },
+      {
+        "name": "Lorazepam"
+      },
+      {
+        "name": "Metoprolol"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "Pantoprazole"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Senna"
+      },
+      {
+        "name": "Tirofiban"
+      }
+    ],
+    "demographics": {
+      "age": 39,
+      "gender": "M",
+      "ethnicity": "WHITE",
+      "insurance": "Private",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Pain Location: Not Indicated"
+      },
+      {
+        "description": "Pain Present: No"
+      },
+      {
+        "description": "Pain Type: None"
+      }
+    ]
+  },
+  {
+    "subject_id": 25,
+    "hadm_id": 129635,
+    "diagnoses": [
+      {
+        "name": "Coronary atherosclerosis of native coronary artery"
+      },
+      {
+        "name": "Diabetes with ketoacidosis, type I [juvenile type], not stated as uncontrolled"
+      },
+      {
+        "name": "Subendocardial infarction, initial episode of care"
+      },
+      {
+        "name": "Unspecified essential hypertension"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Angiocardiography of left heart structures"
+      },
+      {
+        "name": "Coronary arteriography using two catheters"
+      },
+      {
+        "name": "Injection or infusion of platelet inhibitor"
+      },
+      {
+        "name": "Insertion of drug-eluting coronary artery stent(s)"
+      },
+      {
+        "name": "Left heart cardiac catheterization"
+      }
+    ],
+    "medications": [
+      {
+        "name": "1/2 NS"
+      },
+      {
+        "name": "Acetaminophen"
+      },
+      {
+        "name": "Acetylcysteine 20%"
+      },
+      {
+        "name": "Aspirin"
+      },
+      {
+        "name": "Atorvastatin"
+      },
+      {
+        "name": "Atropine Sulfate"
+      },
+      {
+        "name": "Calcium Carbonate"
+      },
+      {
+        "name": "Calcium Gluconate"
+      },
+      {
+        "name": "Ceftazidime"
+      },
+      {
+        "name": "Clopidogrel Bisulfate"
+      },
+      {
+        "name": "D5 1/2NS"
+      },
+      {
+        "name": "D5W"
+      },
+      {
+        "name": "Eptifibatide"
+      },
+      {
+        "name": "Furosemide"
+      },
+      {
+        "name": "Heparin"
+      },
+      {
+        "name": "Heparin Sodium"
+      },
+      {
+        "name": "Humulin-R Insulin"
+      },
+      {
+        "name": "Levofloxacin"
+      },
+      {
+        "name": "Lisinopril"
+      },
+      {
+        "name": "Magnesium Oxide"
+      },
+      {
+        "name": "Magnesium Sulfate"
+      },
+      {
+        "name": "Metoprolol"
+      },
+      {
+        "name": "Metronidazole"
+      },
+      {
+        "name": "Neutra-Phos"
+      },
+      {
+        "name": "Norepinephrine"
+      },
+      {
+        "name": "NS"
+      },
+      {
+        "name": "Pantoprazole"
+      },
+      {
+        "name": "Potassium Chloride"
+      },
+      {
+        "name": "Promethazine HCl"
+      },
+      {
+        "name": "SW"
+      },
+      {
+        "name": "Vancomycin HCl"
+      },
+      {
+        "name": "Zolpidem Tartrate"
+      }
+    ],
+    "demographics": {
+      "age": 58,
+      "gender": "M",
+      "ethnicity": "WHITE",
+      "insurance": "Private",
+      "admission_type": "EMERGENCY"
+    },
+    "symptoms": [
+      {
+        "description": "Pain Assess Method: Pt Verbalized"
+      },
+      {
+        "description": "Pain Cause: Activity"
+      },
+      {
+        "description": "Pain Cause: At Rest"
+      },
+      {
+        "description": "Pain Cause: Movement/Turning"
+      },
+      {
+        "description": "Pain Level: 2-Mild"
+      },
+      {
+        "description": "Pain Level: 3-Mild to Mod"
+      },
+      {
+        "description": "Pain Level: 4-Mild to Mod"
+      },
+      {
+        "description": "Pain Level: 7-Mod to Severe"
+      },
+      {
+        "description": "Pain Level (Rest): 2-Mild"
+      },
+      {
+        "description": "Pain Level (Rest): 3-Mild to Mod"
+      }
+    ]
+  }
+]
