@@ -1,0 +1,65 @@
+{
+  "realistic_examples": [
+    {
+      "dialogue": [
+        {"role": "Doctor", "text": "Good morning. What brings you in today?"},
+        {"role": "Patient", "text": "Hi doctor. I've been having a pretty bad sore throat for the past three days."},
+        {"role": "Doctor", "text": "I'm sorry to hear that. Can you tell me more about the sore throat? Is it worse when you swallow?"},
+        {"role": "Patient", "text": "Yes, it really hurts when I swallow. And I've also noticed my throat looks kind of red."},
+        {"role": "Doctor", "text": "Have you had any fever or chills?"},
+        {"role": "Patient", "text": "I had a low fever yesterday, around 99 degrees, but it's better today."},
+        {"role": "Doctor", "text": "Any other symptoms like cough, runny nose, or body aches?"},
+        {"role": "Patient", "text": "A little bit of a runny nose, but nothing too bad."},
+        {"role": "Doctor", "text": "Based on your symptoms, this looks like a viral upper respiratory infection, possibly pharyngitis. These usually resolve on their own within a week. I'd recommend rest, plenty of fluids, and you can use over-the-counter pain relievers like acetaminophen or ibuprofen for the throat pain."},
+        {"role": "Patient", "text": "Okay, that makes sense. Do I need antibiotics?"},
+        {"role": "Doctor", "text": "Not at this time. Most sore throats are viral and don't require antibiotics. If your symptoms worsen or you develop a high fever, please come back."},
+        {"role": "Patient", "text": "Alright, thank you doctor."}
+      ],
+      "label": "REALISTIC",
+      "case_type": "LIGHT_COMMON_SYMPTOMS"
+    },
+    {
+      "dialogue": [
+        {"role": "Doctor", "text": "Hello, how can I help you today?"},
+        {"role": "Patient", "text": "I've been having this headache for about two days now."},
+        {"role": "Doctor", "text": "Can you describe the headache? Where is it located and how severe is it?"},
+        {"role": "Patient", "text": "It's mostly on the front of my head, like a dull ache. I'd say it's about a 5 out of 10 in pain."},
+        {"role": "Doctor", "text": "Have you had any nausea, vomiting, or sensitivity to light?"},
+        {"role": "Patient", "text": "No nausea or vomiting, but bright lights do bother me a little."},
+        {"role": "Doctor", "text": "Any recent stress, changes in sleep, or have you been looking at screens more than usual?"},
+        {"role": "Patient", "text": "Actually yes, I've been working long hours on my computer this week."},
+        {"role": "Doctor", "text": "This sounds like a tension-type headache, which is very common with prolonged screen time and stress. I recommend taking breaks from screens every hour, staying hydrated, and you can take ibuprofen for the pain. If it persists beyond a week or gets worse, please follow up."},
+        {"role": "Patient", "text": "That's helpful. I'll try those things. Thank you."}
+      ],
+      "label": "REALISTIC",
+      "case_type": "LIGHT_COMMON_SYMPTOMS"
+    },
+    {
+      "dialogue": [
+        {"role": "Doctor", "text": "Good afternoon. What's troubling you today?"},
+        {"role": "Patient", "text": "I've got a cough that just won't go away. It's been about a week now."},
+        {"role": "Doctor", "text": "I see. Is it a dry cough or are you bringing up any mucus?"},
+        {"role": "Patient", "text": "It's mostly dry, but sometimes I cough up a little clear mucus."},
+        {"role": "Doctor", "text": "Have you had any fever, shortness of breath, or chest pain?"},
+        {"role": "Patient", "text": "No fever or chest pain. My breathing is fine."},
+        {"role": "Doctor", "text": "Any recent cold symptoms like runny nose or congestion before the cough started?"},
+        {"role": "Patient", "text": "Yes, I had a cold about two weeks ago. The runny nose is gone but the cough stayed."},
+        {"role": "Doctor", "text": "This is likely a post-viral cough, which is common after a cold. It can linger for a few weeks as your airways heal. I recommend staying hydrated, using honey or cough drops for symptom relief, and avoiding irritants like smoke. If the cough persists beyond three weeks or you develop new symptoms, come back to see me."},
+        {"role": "Patient", "text": "Okay, I understand. I'll keep an eye on it. Thanks doctor."}
+      ],
+      "label": "REALISTIC",
+      "case_type": "LIGHT_COMMON_SYMPTOMS"
+    }
+  ],
+  "unrealistic_examples": [
+    {
+      "dialogue": [
+        {"role": "Doctor", "text": "What is wrong?"},
+        {"role": "Patient", "text": "Sore throat."},
+        {"role": "Doctor", "text": "Take antibiotics."}
+      ],
+      "label": "UNREALISTIC",
+      "reason": "Too brief, no proper history taking, premature prescription"
+    }
+  ]
+}

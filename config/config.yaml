@@ -1,0 +1,124 @@
+# Configuration for Synthetic Patient-Physician Conversation Framework
+# Light Cases, Batched GTMF Creation, LLM Judge, STS
+
+# Database Configuration
+database:
+  connection_string_env: "DB_URI"  # Environment variable for database connection
+
+# Batch Processing
+batching:
+  db_batch_size: 100  # Number of admissions to fetch per batch
+  gtmf_batch_size: 32  # Number of EHR cases to process per GTMF batch
+
+# Experiment Setup
+experiment:
+  num_admissions: 200  # Total number of admissions to process
+  profile_types:  # Which profile types to generate
+    - "FULL"
+    - "NO_DIAGNOSIS"
+    - "NO_DIAGNOSIS_NO_TREATMENT"
+
+# Light Case Filtering
+light_case_filter:
+  # Include terms (symptoms of light/common cases)
+  include_terms:
+    - "cough"
+    - "sore throat"
+    - "throat pain"
+    - "fever"
+    - "headache"
+    - "runny nose"
+    - "nasal congestion"
+    - "flu-like"
+    - "cold symptoms"
+    - "chills"
+    - "malaise"
+    - "fatigue"
+    - "mild dizziness"
+
+  # Exclude terms (severe/ICU/complex conditions)
+  exclude_terms:
+    - "ICU"
+    - "intubated"
+    - "cardiac arrest"
+    - "shock"
+    - "sepsis"
+    - "mechanical ventilation"
+    - "multi organ failure"
+    - "malignancy"
+    - "cancer"
+    - "chemotherapy"
+    - "critical care"
+    - "life support"
+    - "code blue"
+    - "resuscitation"
+
+# Dialogue Generation
+dialogue:
+  max_turns: 16
+  consecutive_confusion_limit: 2
+  loop_detection_window: 4
+
+# LLM Judge Configuration
+judge:
+  max_attempts: 3  # Maximum dialogue generation attempts per profile
+  threshold_score: 0.75  # Minimum score to consider dialogue realistic
+  few_shot_examples_path: "config/few_shot_dialogues.json"  # Path to realistic dialogue examples
+
+# Model Configuration
+models:
+  gtmf_extraction:
+    endpoint_env: "AZURE_AI_ENDPOINT"
+    api_key_env: "AZURE_AI_API_KEY"
+    model_name: "gpt-4o"
+    temperature: 0.0
+    max_tokens: 2048
+
+  dialogue_doctor:
+    endpoint_env: "AZURE_AI_ENDPOINT"
+    api_key_env: "AZURE_AI_API_KEY"
+    model_name: "gpt-4o"
+    temperature: 0.7
+    max_tokens: 512
+
+  dialogue_patient:
+    endpoint_env: "AZURE_AI_ENDPOINT"
+    api_key_env: "AZURE_AI_API_KEY"
+    model_name: "gpt-4o"
+    temperature: 0.7
+    max_tokens: 512
+
+  judge:
+    endpoint_env: "AZURE_AI_ENDPOINT"
+    api_key_env: "AZURE_AI_API_KEY"
+    model_name: "gpt-4o"
+    temperature: 0.0
+    max_tokens: 1024
+
+  summarizer:
+    endpoint_env: "AZURE_AI_ENDPOINT"
+    api_key_env: "AZURE_AI_API_KEY"
+    model_name: "gpt-4o"
+    temperature: 0.0
+    max_tokens: 512
+
+  sts:
+    model_name: "sentence-transformers/all-MiniLM-L6-v2"
+
+# Output Configuration
+outputs:
+  base_dir: "outputs"
+  ehr_dir: "outputs/ehr"
+  gtmf_dir: "outputs/gtmf"
+  profiles_dir: "outputs/profiles"
+  dialogues_dir: "outputs/dialogues"
+  judge_dir: "outputs/judge"
+  summaries_dir: "outputs/summaries"
+  sts_dir: "outputs/sts"
+  stats_dir: "outputs/stats"
+  runs_dir: "outputs/runs"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
