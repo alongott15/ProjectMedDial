@@ -2,53 +2,110 @@
   "realistic_examples": [
     {
       "dialogue": [
-        {"role": "Doctor", "text": "Good morning. What brings you in today?"},
-        {"role": "Patient", "text": "Hi doctor. I've been having a pretty bad sore throat for the past three days."},
-        {"role": "Doctor", "text": "I'm sorry to hear that. Can you tell me more about the sore throat? Is it worse when you swallow?"},
-        {"role": "Patient", "text": "Yes, it really hurts when I swallow. And I've also noticed my throat looks kind of red."},
-        {"role": "Doctor", "text": "Have you had any fever or chills?"},
-        {"role": "Patient", "text": "I had a low fever yesterday, around 99 degrees, but it's better today."},
-        {"role": "Doctor", "text": "Any other symptoms like cough, runny nose, or body aches?"},
-        {"role": "Patient", "text": "A little bit of a runny nose, but nothing too bad."},
-        {"role": "Doctor", "text": "Based on your symptoms, this looks like a viral upper respiratory infection, possibly pharyngitis. These usually resolve on their own within a week. I'd recommend rest, plenty of fluids, and you can use over-the-counter pain relievers like acetaminophen or ibuprofen for the throat pain."},
-        {"role": "Patient", "text": "Okay, that makes sense. Do I need antibiotics?"},
-        {"role": "Doctor", "text": "Not at this time. Most sore throats are viral and don't require antibiotics. If your symptoms worsen or you develop a high fever, please come back."},
-        {"role": "Patient", "text": "Alright, thank you doctor."}
+        {"role": "Doctor", "text": "Good morning. What brings you in to see me today?"},
+        {"role": "Patient", "text": "Hi doctor. I've been feeling pretty unwell for the past few days. I have a sore throat and I'm just not feeling like myself."},
+        {"role": "Doctor", "text": "I'm sorry to hear that you're not feeling well. Can you tell me more about when this started?"},
+        {"role": "Patient", "text": "It started about three days ago. At first it was just a scratchy throat, but now it really hurts when I swallow."},
+        {"role": "Doctor", "text": "I understand. And you mentioned not feeling like yourself - can you describe what other symptoms you've been experiencing?"},
+        {"role": "Patient", "text": "Well, I've been really tired and I had some chills yesterday. I checked my temperature and it was 99.5."},
+        {"role": "Doctor", "text": "Have you noticed any coughing, nasal congestion, or difficulty breathing?"},
+        {"role": "Patient", "text": "A little bit of a runny nose, but no cough really. My breathing is okay."},
+        {"role": "Doctor", "text": "That's good. Have you been around anyone who's been sick recently?"},
+        {"role": "Patient", "text": "Actually, my coworker had similar symptoms last week."},
+        {"role": "Doctor", "text": "I see. Let me take a look at your throat. Based on what you're describing and what I'm seeing, this appears to be a viral pharyngitis, which is quite common this time of year. The good news is these typically resolve on their own within 5-7 days."},
+        {"role": "Patient", "text": "So I don't need antibiotics?"},
+        {"role": "Doctor", "text": "Not at this point. Since this appears to be viral, antibiotics wouldn't be helpful. What will help is getting plenty of rest, drinking lots of fluids, and you can take acetaminophen or ibuprofen for the throat pain and any fever. Warm salt water gargles can also provide some relief."},
+        {"role": "Patient", "text": "Okay, that makes sense. How will I know if I need to come back?"},
+        {"role": "Doctor", "text": "Good question. You should come back if your fever goes above 101, if the pain gets significantly worse, if you develop difficulty swallowing or breathing, or if you're not improving after about a week. Does that sound clear?"},
+        {"role": "Patient", "text": "Yes, thank you doctor. I'll try those things and watch for those warning signs."},
+        {"role": "Doctor", "text": "Perfect. Feel better soon. Don't hesitate to call if you have any concerns."}
       ],
       "label": "REALISTIC",
-      "case_type": "LIGHT_COMMON_SYMPTOMS"
+      "case_type": "LIGHT_COMMON_SYMPTOMS",
+      "dataset": "MTS-Dialog-style"
     },
     {
       "dialogue": [
-        {"role": "Doctor", "text": "Hello, how can I help you today?"},
-        {"role": "Patient", "text": "I've been having this headache for about two days now."},
-        {"role": "Doctor", "text": "Can you describe the headache? Where is it located and how severe is it?"},
-        {"role": "Patient", "text": "It's mostly on the front of my head, like a dull ache. I'd say it's about a 5 out of 10 in pain."},
-        {"role": "Doctor", "text": "Have you had any nausea, vomiting, or sensitivity to light?"},
-        {"role": "Patient", "text": "No nausea or vomiting, but bright lights do bother me a little."},
-        {"role": "Doctor", "text": "Any recent stress, changes in sleep, or have you been looking at screens more than usual?"},
-        {"role": "Patient", "text": "Actually yes, I've been working long hours on my computer this week."},
-        {"role": "Doctor", "text": "This sounds like a tension-type headache, which is very common with prolonged screen time and stress. I recommend taking breaks from screens every hour, staying hydrated, and you can take ibuprofen for the pain. If it persists beyond a week or gets worse, please follow up."},
-        {"role": "Patient", "text": "That's helpful. I'll try those things. Thank you."}
+        {"role": "Doctor", "text": "Hello, please have a seat. What's brought you to the clinic today?"},
+        {"role": "Patient", "text": "I've been having these headaches that just won't go away."},
+        {"role": "Doctor", "text": "I'm sorry to hear that. How long have you been experiencing these headaches?"},
+        {"role": "Patient", "text": "It's been about four or five days now."},
+        {"role": "Doctor", "text": "Can you describe the headache for me? Where do you feel it, and what does it feel like?"},
+        {"role": "Patient", "text": "It's mostly across my forehead and temples. It feels like pressure, like someone's squeezing my head."},
+        {"role": "Doctor", "text": "On a scale of 1 to 10, with 10 being the worst pain imaginable, how would you rate this headache?"},
+        {"role": "Patient", "text": "Probably around a 5 or 6. It's uncomfortable but I can still function."},
+        {"role": "Doctor", "text": "I see. Have you experienced any vision changes, nausea, vomiting, or sensitivity to light or sound?"},
+        {"role": "Patient", "text": "No vision problems or vomiting. Maybe a little sensitivity to bright lights, but nothing major."},
+        {"role": "Doctor", "text": "Have you noticed anything that makes it better or worse?"},
+        {"role": "Patient", "text": "It seems to get worse as the day goes on, especially after I've been working at my computer for a while."},
+        {"role": "Doctor", "text": "Have you been under more stress than usual lately, or have there been any changes in your sleep patterns?"},
+        {"role": "Patient", "text": "Now that you mention it, work has been really stressful lately. I've been staying up later trying to finish projects."},
+        {"role": "Doctor", "text": "I understand. Based on your symptoms - the bilateral pressure-type pain, the connection to stress and computer work, and the lack of other concerning symptoms - this is consistent with tension-type headaches. These are very common and usually related to stress, poor posture, or eye strain."},
+        {"role": "Patient", "text": "Is there anything I can do about it?"},
+        {"role": "Doctor", "text": "Yes, several things. First, I'd recommend taking regular breaks from your computer - try the 20-20-20 rule: every 20 minutes, look at something 20 feet away for 20 seconds. Make sure your workstation is ergonomically set up. For the pain, over-the-counter ibuprofen or acetaminophen should help. Also, try to maintain good sleep hygiene and manage stress through relaxation techniques."},
+        {"role": "Patient", "text": "That all sounds doable. Should I be worried about anything?"},
+        {"role": "Doctor", "text": "These headaches are typically not concerning, but you should come back if they become more severe, if you develop sudden severe headache, fever, neck stiffness, or any neurological symptoms like weakness or confusion."},
+        {"role": "Patient", "text": "Okay, I'll watch for those. Thank you for the advice."}
       ],
       "label": "REALISTIC",
-      "case_type": "LIGHT_COMMON_SYMPTOMS"
+      "case_type": "LIGHT_COMMON_SYMPTOMS",
+      "dataset": "MTS-Dialog-style"
     },
     {
       "dialogue": [
-        {"role": "Doctor", "text": "Good afternoon. What's troubling you today?"},
-        {"role": "Patient", "text": "I've got a cough that just won't go away. It's been about a week now."},
-        {"role": "Doctor", "text": "I see. Is it a dry cough or are you bringing up any mucus?"},
-        {"role": "Patient", "text": "It's mostly dry, but sometimes I cough up a little clear mucus."},
-        {"role": "Doctor", "text": "Have you had any fever, shortness of breath, or chest pain?"},
-        {"role": "Patient", "text": "No fever or chest pain. My breathing is fine."},
-        {"role": "Doctor", "text": "Any recent cold symptoms like runny nose or congestion before the cough started?"},
-        {"role": "Patient", "text": "Yes, I had a cold about two weeks ago. The runny nose is gone but the cough stayed."},
-        {"role": "Doctor", "text": "This is likely a post-viral cough, which is common after a cold. It can linger for a few weeks as your airways heal. I recommend staying hydrated, using honey or cough drops for symptom relief, and avoiding irritants like smoke. If the cough persists beyond three weeks or you develop new symptoms, come back to see me."},
-        {"role": "Patient", "text": "Okay, I understand. I'll keep an eye on it. Thanks doctor."}
+        {"role": "Doctor", "text": "Good afternoon. What can I help you with today?"},
+        {"role": "Patient", "text": "I've had this cough for over a week now and it's just not getting better."},
+        {"role": "Doctor", "text": "I see. Let's talk about this cough. When exactly did it start?"},
+        {"role": "Patient", "text": "It started about 10 days ago, maybe a little more."},
+        {"role": "Doctor", "text": "And how would you describe the cough? Is it dry or are you coughing up any phlegm?"},
+        {"role": "Patient", "text": "It's mostly dry. Occasionally I'll cough up a tiny bit of clear mucus, but that's it."},
+        {"role": "Doctor", "text": "Is the cough worse at any particular time of day?"},
+        {"role": "Patient", "text": "It seems worse at night when I'm trying to sleep, and in the morning."},
+        {"role": "Doctor", "text": "Have you had any other symptoms? Fever, chest pain, shortness of breath?"},
+        {"role": "Patient", "text": "No fever, no chest pain. I can breathe fine, the cough is just really annoying."},
+        {"role": "Doctor", "text": "Did you have any other symptoms before the cough started, like a cold or flu-like illness?"},
+        {"role": "Patient", "text": "Yes! I had a cold about two and a half weeks ago. Runny nose, congestion, the usual. That all cleared up but the cough stuck around."},
+        {"role": "Doctor", "text": "That's actually very helpful information. Did you have a fever with that initial cold?"},
+        {"role": "Patient", "text": "Just a mild one for a day or two, nothing serious."},
+        {"role": "Doctor", "text": "Let me listen to your lungs. Take some deep breaths for me... Good. Your lungs sound clear. Based on your history - having a cold that resolved but left a lingering cough - this is what we call a post-viral cough. It's very common and can persist for several weeks after the initial viral infection."},
+        {"role": "Patient", "text": "So it's nothing serious?"},
+        {"role": "Doctor", "text": "Correct. Post-viral coughs can be frustrating but they're not dangerous. The airways can remain irritated and sensitive for several weeks after a virus, which causes the persistent cough. It should gradually improve over the next few weeks."},
+        {"role": "Patient", "text": "Is there anything I can do to help it?"},
+        {"role": "Doctor", "text": "Yes, a few things can help. Stay well hydrated - this helps thin any mucus. Honey can be soothing, either alone or in warm tea. You might try an over-the-counter cough suppressant with dextromethorphan at night to help you sleep. Avoid irritants like smoke or strong perfumes. And if you're around dry air, a humidifier might help."},
+        {"role": "Patient", "text": "Okay, I can do those things. When should I worry?"},
+        {"role": "Doctor", "text": "Come back if the cough persists beyond three weeks, if you develop a fever, if you start coughing up yellow, green, or bloody mucus, or if you develop shortness of breath or chest pain. But based on what I'm seeing, I expect this will resolve on its own with time."},
+        {"role": "Patient", "text": "Alright, that's reassuring. Thank you doctor."}
       ],
       "label": "REALISTIC",
-      "case_type": "LIGHT_COMMON_SYMPTOMS"
+      "case_type": "LIGHT_COMMON_SYMPTOMS",
+      "dataset": "MTS-Dialog-style"
+    },
+    {
+      "dialogue": [
+        {"role": "Doctor", "text": "Welcome. What brings you in today?"},
+        {"role": "Patient", "text": "I think I might have the flu or something. I've been feeling really run down."},
+        {"role": "Doctor", "text": "Tell me more about your symptoms and when they started."},
+        {"role": "Patient", "text": "It started yesterday morning. I woke up with body aches and just felt exhausted."},
+        {"role": "Doctor", "text": "Have you had any fever?"},
+        {"role": "Patient", "text": "Yes, I've been checking it. It's been around 100 to 100.5."},
+        {"role": "Doctor", "text": "What about respiratory symptoms? Cough, sore throat, nasal congestion?"},
+        {"role": "Patient", "text": "My throat is a bit scratchy and I have a stuffy nose. No real cough yet."},
+        {"role": "Doctor", "text": "Any chills, headache, or gastrointestinal symptoms?"},
+        {"role": "Patient", "text": "I had chills last night, and a mild headache. No stomach issues."},
+        {"role": "Doctor", "text": "Have you been around anyone who's been sick, or is there illness going around your workplace or home?"},
+        {"role": "Patient", "text": "My kids both had colds last week. They're better now though."},
+        {"role": "Doctor", "text": "That makes sense. Let me examine you. Looking at your throat... checking your lymph nodes... listening to your lungs... Everything looks consistent with a viral upper respiratory infection. Given the timeline, the mild fever, and the constellation of symptoms, this appears to be a common cold or possibly early flu."},
+        {"role": "Patient", "text": "Do I need any medications?"},
+        {"role": "Doctor", "text": "For viral infections like this, there's no specific antiviral medication that we would use at this stage. The treatment is supportive - helping your body fight off the infection. Get plenty of rest, drink lots of fluids, and you can use acetaminophen or ibuprofen for the fever and body aches. Over-the-counter decongestants can help with the stuffy nose."},
+        {"role": "Patient", "text": "How long will this last?"},
+        {"role": "Doctor", "text": "Typically these viral infections last about 7 to 10 days. The fever usually resolves in the first few days, and then the other symptoms gradually improve. You should start feeling better in a few days, though the fatigue might linger a bit longer."},
+        {"role": "Patient", "text": "When should I be concerned?"},
+        {"role": "Doctor", "text": "Come back if your fever goes above 103, if you develop difficulty breathing, chest pain, severe headache, or if you're not improving after a week. Also, if you have any underlying health conditions and you're concerned about complications, don't hesitate to call."},
+        {"role": "Patient", "text": "Okay, I understand. Thank you for your help."}
+      ],
+      "label": "REALISTIC",
+      "case_type": "LIGHT_COMMON_SYMPTOMS",
+      "dataset": "MTS-Dialog-style"
     }
   ],
   "unrealistic_examples": [
@@ -59,7 +116,18 @@
         {"role": "Doctor", "text": "Take antibiotics."}
       ],
       "label": "UNREALISTIC",
-      "reason": "Too brief, no proper history taking, premature prescription"
+      "reason": "Too brief, no proper history taking, premature prescription without examination or assessment",
+      "dataset": "negative-example"
+    },
+    {
+      "dialogue": [
+        {"role": "Doctor", "text": "Hello."},
+        {"role": "Patient", "text": "I have cough, fever, headache, sore throat, runny nose, body aches, chills, fatigue, dizziness, nausea, and chest pain."},
+        {"role": "Doctor", "text": "You have the flu."}
+      ],
+      "label": "UNREALISTIC",
+      "reason": "Unrealistic information dump from patient, no gradual disclosure, no follow-up questions from doctor",
+      "dataset": "negative-example"
     }
   ]
 }
