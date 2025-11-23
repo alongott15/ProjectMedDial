@@ -37,8 +37,8 @@ This framework:
 ### Prerequisites
 
 - Python 3.10+
-- PostgreSQL with MIMIC-III database
-- OpenAI API key
+- MIMIC-III dataset as CSV files
+- Hugging Face API key (for accessing gpt-oss-120b)
 
 ### Installation
 
@@ -46,19 +46,33 @@ This framework:
 # Install dependencies
 pip install -r requirements.txt
 
-# Set environment variables
-export DB_URI="postgresql://user:password@localhost:5432/mimic"
-export OPENAI_API_KEY="your-openai-api-key"
+# Set environment variable
+export HUGGINGFACE_API_KEY="your-huggingface-api-key"
+```
+
+### MIMIC-III CSV Setup
+
+1. Download MIMIC-III dataset from PhysioNet
+2. Extract the following CSV files to a directory (e.g., `data/mimic3_csv/`):
+   - `NOTEEVENTS.csv` - Clinical notes
+   - `PATIENTS.csv` - Patient demographics
+   - `ADMISSIONS.csv` - Admission information
+
+3. Update `config/config.yaml` to point to your CSV directory:
+```yaml
+data_source:
+  csv_dir: "data/mimic3_csv"
 ```
 
 ### Configuration
 
 Edit `config/config.yaml` to customize:
+- Data source (csv_dir pointing to MIMIC-III CSV files)
 - Batch sizes (db_batch_size, gtmf_batch_size)
 - Experiment parameters (num_admissions, profile_types)
 - Light case filter terms (include_terms, exclude_terms)
 - Dialogue settings (max_turns, max_attempts)
-- Model configurations
+- Model configurations (gpt-oss-120b via Hugging Face)
 - Judge threshold
 
 ## Usage

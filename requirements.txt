@@ -1,12 +1,11 @@
 # Core dependencies
 pydantic>=2.0.0
-sqlalchemy>=2.0.0
-psycopg2-binary>=2.9.0
 python-dotenv>=1.0.0
 pyyaml>=6.0.0
+pandas>=2.0.0
 
-# OpenAI
-openai>=1.0.0
+# Hugging Face
+huggingface-hub>=0.20.0
 
 # Sentence transformers for STS
 sentence-transformers>=2.2.0

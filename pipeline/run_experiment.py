@@ -12,7 +12,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from utils.light_case_filter import LightCaseFilter
 from utils.llms_utils import LLMClient
-from utils.utils import get_db_uri
 from agents.ehr_retrieval import EHRRetrievalAgent
 from agents.gtmf_creation import GTMFCreationAgent
 from agents.profile_generator import ProfileGeneratorAgent
@@ -75,9 +74,9 @@ class PipelineOrchestrator:
         )
 
         # Initialize EHR retrieval agent
-        db_uri = get_db_uri()
+        csv_dir = self.config['data_source']['csv_dir']
         ehr_agent = EHRRetrievalAgent(
-            db_uri=db_uri,
+            csv_dir=csv_dir,
             light_case_filter=light_case_filter,
             output_dir=self.config['outputs']['ehr_dir']
         )

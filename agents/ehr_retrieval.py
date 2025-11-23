@@ -1,93 +1,153 @@
-"""EHR Retrieval Agent - Retrieves and filters EHR cases from MIMIC-III"""
+"""EHR Retrieval Agent - Retrieves and filters EHR cases from MIMIC-III CSV files"""
 import json
 import logging
 from pathlib import Path
 from typing import List, Dict, Generator
-from sqlalchemy import create_engine, text
-from sqlalchemy.orm import sessionmaker
+import pandas as pd
+from datetime import datetime
 from utils.light_case_filter import LightCaseFilter
-from utils.utils import format_date, calculate_age
 
 logger = logging.getLogger(__name__)
 
 
 class EHRRetrievalAgent:
-    """Retrieves EHR cases from PostgreSQL MIMIC-III database with light case filtering"""
+    """Retrieves EHR cases from MIMIC-III CSV files with light case filtering"""
 
-    def __init__(self, db_uri: str, light_case_filter: LightCaseFilter, output_dir: str = "outputs/ehr"):
-        self.db_uri = db_uri
+    def __init__(self, csv_dir: str, light_case_filter: LightCaseFilter, output_dir: str = "outputs/ehr"):
+        self.csv_dir = Path(csv_dir)
         self.light_case_filter = light_case_filter
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
-        self.engine = create_engine(db_uri)
-        self.Session = sessionmaker(bind=self.engine)
+
+        # Verify CSV files exist
+        self.noteevents_path = self.csv_dir / "NOTEEVENTS.csv"
+        self.patients_path = self.csv_dir / "PATIENTS.csv"
+        self.admissions_path = self.csv_dir / "ADMISSIONS.csv"
+
+        if not self.noteevents_path.exists():
+            raise FileNotFoundError(f"NOTEEVENTS.csv not found in {csv_dir}")
+        if not self.patients_path.exists():
+            raise FileNotFoundError(f"PATIENTS.csv not found in {csv_dir}")
+        if not self.admissions_path.exists():
+            raise FileNotFoundError(f"ADMISSIONS.csv not found in {csv_dir}")
+
+        logger.info(f"Initialized EHRRetrievalAgent with CSV directory: {csv_dir}")
+
+    def load_csv_data(self):
+        """Load MIMIC-III CSV files"""
+        logger.info("Loading MIMIC-III CSV files...")
+
+        # Load notes
+        logger.info("Loading NOTEEVENTS.csv...")
+        self.notes_df = pd.read_csv(
+            self.noteevents_path,
+            usecols=['ROW_ID', 'SUBJECT_ID', 'HADM_ID', 'CATEGORY', 'TEXT'],
+            low_memory=False
+        )
+
+        # Load patients
+        logger.info("Loading PATIENTS.csv...")
+        self.patients_df = pd.read_csv(
+            self.patients_path,
+            usecols=['SUBJECT_ID', 'GENDER', 'DOB'],
+            low_memory=False
+        )
+
+        # Load admissions
+        logger.info("Loading ADMISSIONS.csv...")
+        self.admissions_df = pd.read_csv(
+            self.admissions_path,
+            usecols=['HADM_ID', 'SUBJECT_ID', 'ADMITTIME', 'DISCHTIME',
+                     'RELIGION', 'MARITAL_STATUS', 'ETHNICITY', 'INSURANCE', 'ADMISSION_TYPE'],
+            low_memory=False
+        )
+
+        logger.info(f"Loaded {len(self.notes_df)} notes, {len(self.patients_df)} patients, {len(self.admissions_df)} admissions")
+
+    def calculate_age(self, dob_str: str, admit_str: str) -> int:
+        """Calculate age from date of birth and admission date"""
+        try:
+            dob = pd.to_datetime(dob_str)
+            admit = pd.to_datetime(admit_str)
+            age = (admit - dob).days // 365
+            return max(0, age)
+        except:
+            return 0
+
+    def format_date(self, date_str: str, format_type: str = 'date') -> str:
+        """Format date string"""
+        try:
+            date = pd.to_datetime(date_str)
+            if format_type == 'date':
+                return date.strftime('%Y-%m-%d')
+            else:
+                return date.strftime('%Y-%m-%d %H:%M:%S')
+        except:
+            return "not provided"
 
     def retrieve_batch(self, batch_size: int, offset: int = 0) -> List[Dict]:
-        """Retrieve a batch of admissions from the database"""
-        query = text("""
-            SELECT
-                n.row_id, n.subject_id, n.hadm_id, n.text, n.category,
-                a.admittime, a.dischtime, a.religion, a.marital_status,
-                a.ethnicity, a.insurance, a.admission_type,
-                p.gender, p.dob
-            FROM noteevents n
-            JOIN admissions a ON n.hadm_id = a.hadm_id
-            JOIN patients p ON n.subject_id = p.subject_id
-            WHERE n.text IS NOT NULL
-              AND n.category ILIKE '%Discharge%'
-              AND LENGTH(n.text) > 500
-            ORDER BY n.hadm_id
-            LIMIT :limit OFFSET :offset
-        """)
+        """Retrieve a batch of admissions"""
+        # Filter notes for discharge summaries with text
+        discharge_notes = self.notes_df[
+            (self.notes_df['CATEGORY'].str.contains('Discharge', case=False, na=False)) &
+            (self.notes_df['TEXT'].notna()) &
+            (self.notes_df['TEXT'].str.len() > 500) &
+            (self.notes_df['HADM_ID'].notna())
+        ].copy()
 
-        try:
-            with self.Session() as session:
-                results = session.execute(query, {"limit": batch_size, "offset": offset}).mappings().all()
-                logger.info(f"Retrieved {len(results)} cases from database (offset={offset})")
-                return [dict(row) for row in results]
-        except Exception as e:
-            logger.error(f"Error retrieving batch from database: {e}")
+        # Apply batch offset and size
+        batch_notes = discharge_notes.iloc[offset:offset + batch_size]
+
+        if len(batch_notes) == 0:
             return []
 
-    def process_case(self, row: Dict) -> Dict:
-        """Process a single EHR case"""
-        dob_formatted = format_date(row.get('dob'), '%Y-%m-%d')
-        adm_formatted = format_date(row.get('admittime'), '%Y-%m-%d %H:%M:%S')
-        dis_formatted = format_date(row.get('dischtime'), '%Y-%m-%d %H:%M:%S')
-        age = calculate_age(dob_formatted, adm_formatted)
+        # Merge with admissions and patients
+        merged = batch_notes.merge(
+            self.admissions_df,
+            on=['HADM_ID', 'SUBJECT_ID'],
+            how='left'
+        ).merge(
+            self.patients_df,
+            on='SUBJECT_ID',
+            how='left'
+        )
 
-        case = {
-            "row_id": row.get('row_id'),
-            "subject_id": row.get('subject_id'),
-            "hadm_id": row.get('hadm_id'),
-            "text": row.get('text'),
-            "category": row.get('category'),
-            "demographics": {
-                "date_of_birth": dob_formatted,
-                "age": age,
-                "sex": row.get('gender', 'not provided'),
-                "religion": row.get('religion', 'not provided'),
-                "marital_status": row.get('marital_status', 'not provided'),
-                "ethnicity": row.get('ethnicity', 'not provided'),
-                "insurance": row.get('insurance', 'not provided'),
-                "admission_type": row.get('admission_type', 'not provided'),
-                "admission_date": adm_formatted,
-                "discharge_date": dis_formatted
+        cases = []
+        for _, row in merged.iterrows():
+            case = {
+                'row_id': int(row['ROW_ID']) if pd.notna(row['ROW_ID']) else 0,
+                'subject_id': int(row['SUBJECT_ID']) if pd.notna(row['SUBJECT_ID']) else 0,
+                'hadm_id': int(row['HADM_ID']) if pd.notna(row['HADM_ID']) else 0,
+                'text': str(row['TEXT']) if pd.notna(row['TEXT']) else "",
+                'category': str(row['CATEGORY']) if pd.notna(row['CATEGORY']) else "",
+                'demographics': {
+                    'date_of_birth': self.format_date(row['DOB'], 'date'),
+                    'age': self.calculate_age(row['DOB'], row['ADMITTIME']),
+                    'sex': str(row['GENDER']) if pd.notna(row['GENDER']) else 'not provided',
+                    'religion': str(row['RELIGION']) if pd.notna(row['RELIGION']) else 'not provided',
+                    'marital_status': str(row['MARITAL_STATUS']) if pd.notna(row['MARITAL_STATUS']) else 'not provided',
+                    'ethnicity': str(row['ETHNICITY']) if pd.notna(row['ETHNICITY']) else 'not provided',
+                    'insurance': str(row['INSURANCE']) if pd.notna(row['INSURANCE']) else 'not provided',
+                    'admission_type': str(row['ADMISSION_TYPE']) if pd.notna(row['ADMISSION_TYPE']) else 'not provided',
+                    'admission_date': self.format_date(row['ADMITTIME'], 'datetime'),
+                    'discharge_date': self.format_date(row['DISCHTIME'], 'datetime')
+                }
             }
-        }
 
-        # Extract chief complaint if available
-        text_lower = case["text"].lower()
-        chief_complaint = ""
-        if "chief complaint" in text_lower:
-            start_idx = text_lower.find("chief complaint")
-            end_idx = text_lower.find("\n", start_idx + 100)
-            if end_idx > start_idx:
-                chief_complaint = case["text"][start_idx:end_idx].strip()
+            # Extract chief complaint if available
+            text_lower = case["text"].lower()
+            chief_complaint = ""
+            if "chief complaint" in text_lower:
+                start_idx = text_lower.find("chief complaint")
+                end_idx = text_lower.find("\n", start_idx + 100)
+                if end_idx > start_idx:
+                    chief_complaint = case["text"][start_idx:end_idx].strip()
 
-        case["chief_complaint"] = chief_complaint
+            case["chief_complaint"] = chief_complaint
+            cases.append(case)
 
-        return case
+        logger.info(f"Retrieved {len(cases)} cases from CSV (offset={offset})")
+        return cases
 
     def retrieve_and_filter(self, batch_size: int, total_limit: int = None) -> Generator[List[Dict], None, None]:
         """
@@ -95,6 +155,9 @@ class EHRRetrievalAgent:
 
         Yields batches of filtered cases
         """
+        # Load CSV data once
+        self.load_csv_data()
+
         offset = 0
         total_retrieved = 0
         total_filtered = 0
@@ -111,9 +174,8 @@ class EHRRetrievalAgent:
                 logger.info("No more cases to retrieve")
                 break
 
-            # Process and filter cases
-            processed_cases = [self.process_case(row) for row in raw_cases]
-            filtered_cases = self.light_case_filter.filter_cases(processed_cases)
+            # Filter cases
+            filtered_cases = self.light_case_filter.filter_cases(raw_cases)
 
             total_retrieved += len(raw_cases)
             total_filtered += len(filtered_cases)

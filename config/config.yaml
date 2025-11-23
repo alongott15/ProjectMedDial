@@ -1,9 +1,11 @@
 # Configuration for Synthetic Patient-Physician Conversation Framework
 # Light Cases, Batched GTMF Creation, LLM Judge, STS
 
-# Database Configuration
-database:
-  connection_string_env: "DB_URI"  # Environment variable for database connection
+# Data Source Configuration
+data_source:
+  type: "csv"  # Use CSV files instead of database
+  csv_dir: "data/mimic3_csv"  # Directory containing MIMIC-III CSV files
+  # Required CSV files: NOTEEVENTS.csv, PATIENTS.csv, ADMISSIONS.csv
 
 # Batch Processing
 batching:
@@ -65,35 +67,35 @@ judge:
   threshold_score: 0.75  # Minimum score to consider dialogue realistic
   few_shot_examples_path: "config/few_shot_dialogues.json"  # Path to realistic dialogue examples
 
-# Model Configuration (OpenAI)
+# Model Configuration (Hugging Face)
 models:
   gtmf_extraction:
-    api_key_env: "OPENAI_API_KEY"
-    model_name: "gpt-4o"
+    api_key_env: "HUGGINGFACE_API_KEY"
+    model_name: "gpt-oss-120b"
     temperature: 0.0
     max_tokens: 2048
 
   dialogue_doctor:
-    api_key_env: "OPENAI_API_KEY"
-    model_name: "gpt-4o"
+    api_key_env: "HUGGINGFACE_API_KEY"
+    model_name: "gpt-oss-120b"
     temperature: 0.7
     max_tokens: 512
 
   dialogue_patient:
-    api_key_env: "OPENAI_API_KEY"
-    model_name: "gpt-4o"
+    api_key_env: "HUGGINGFACE_API_KEY"
+    model_name: "gpt-oss-120b"
     temperature: 0.7
     max_tokens: 512
 
   judge:
-    api_key_env: "OPENAI_API_KEY"
-    model_name: "gpt-4o"
+    api_key_env: "HUGGINGFACE_API_KEY"
+    model_name: "gpt-oss-120b"
     temperature: 0.0
     max_tokens: 1024
 
   summarizer:
-    api_key_env: "OPENAI_API_KEY"
-    model_name: "gpt-4o"
+    api_key_env: "HUGGINGFACE_API_KEY"
+    model_name: "gpt-oss-120b"
     temperature: 0.0
     max_tokens: 512
 
