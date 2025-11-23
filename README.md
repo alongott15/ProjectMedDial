@@ -38,7 +38,7 @@ This framework:
 
 - Python 3.10+
 - PostgreSQL with MIMIC-III database
-- Azure AI API credentials
+- OpenAI API key
 
 ### Installation
 
@@ -48,8 +48,7 @@ pip install -r requirements.txt
 
 # Set environment variables
 export DB_URI="postgresql://user:password@localhost:5432/mimic"
-export AZURE_AI_ENDPOINT="your-endpoint"
-export AZURE_AI_API_KEY="your-api-key"
+export OPENAI_API_KEY="your-openai-api-key"
 ```
 
 ### Configuration

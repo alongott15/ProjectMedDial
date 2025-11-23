@@ -106,7 +106,6 @@ class PipelineOrchestrator:
         # Initialize LLM client for GTMF extraction
         gtmf_model_config = self.config['models']['gtmf_extraction']
         llm_client = LLMClient(
-            endpoint=os.getenv(gtmf_model_config['endpoint_env']),
             api_key=os.getenv(gtmf_model_config['api_key_env']),
             model_name=gtmf_model_config['model_name']
         )
@@ -172,19 +171,16 @@ class PipelineOrchestrator:
         judge_config = self.config['models']['judge']
 
         doctor_llm = LLMClient(
-            endpoint=os.getenv(doctor_config['endpoint_env']),
             api_key=os.getenv(doctor_config['api_key_env']),
             model_name=doctor_config['model_name']
         )
 
         patient_llm = LLMClient(
-            endpoint=os.getenv(patient_config['endpoint_env']),
             api_key=os.getenv(patient_config['api_key_env']),
             model_name=patient_config['model_name']
         )
 
         judge_llm = LLMClient(
-            endpoint=os.getenv(judge_config['endpoint_env']),
             api_key=os.getenv(judge_config['api_key_env']),
             model_name=judge_config['model_name']
         )
@@ -278,7 +274,6 @@ class PipelineOrchestrator:
         # Initialize summarizers and STS evaluator
         summarizer_config = self.config['models']['summarizer']
         summarizer_llm = LLMClient(
-            endpoint=os.getenv(summarizer_config['endpoint_env']),
             api_key=os.getenv(summarizer_config['api_key_env']),
             model_name=summarizer_config['model_name']
         )

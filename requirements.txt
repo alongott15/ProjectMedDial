@@ -5,9 +5,8 @@ psycopg2-binary>=2.9.0
 python-dotenv>=1.0.0
 pyyaml>=6.0.0
 
-# Azure AI
-azure-ai-inference>=1.0.0
-azure-core>=1.29.0
+# OpenAI
+openai>=1.0.0
 
 # Sentence transformers for STS
 sentence-transformers>=2.2.0

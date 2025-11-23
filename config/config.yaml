@@ -65,39 +65,34 @@ judge:
   threshold_score: 0.75  # Minimum score to consider dialogue realistic
   few_shot_examples_path: "config/few_shot_dialogues.json"  # Path to realistic dialogue examples
 
-# Model Configuration
+# Model Configuration (OpenAI)
 models:
   gtmf_extraction:
-    endpoint_env: "AZURE_AI_ENDPOINT"
-    api_key_env: "AZURE_AI_API_KEY"
+    api_key_env: "OPENAI_API_KEY"
     model_name: "gpt-4o"
     temperature: 0.0
     max_tokens: 2048
 
   dialogue_doctor:
-    endpoint_env: "AZURE_AI_ENDPOINT"
-    api_key_env: "AZURE_AI_API_KEY"
+    api_key_env: "OPENAI_API_KEY"
     model_name: "gpt-4o"
     temperature: 0.7
     max_tokens: 512
 
   dialogue_patient:
-    endpoint_env: "AZURE_AI_ENDPOINT"
-    api_key_env: "AZURE_AI_API_KEY"
+    api_key_env: "OPENAI_API_KEY"
     model_name: "gpt-4o"
     temperature: 0.7
     max_tokens: 512
 
   judge:
-    endpoint_env: "AZURE_AI_ENDPOINT"
-    api_key_env: "AZURE_AI_API_KEY"
+    api_key_env: "OPENAI_API_KEY"
     model_name: "gpt-4o"
     temperature: 0.0
     max_tokens: 1024
 
   summarizer:
-    endpoint_env: "AZURE_AI_ENDPOINT"
-    api_key_env: "AZURE_AI_API_KEY"
+    api_key_env: "OPENAI_API_KEY"
     model_name: "gpt-4o"
     temperature: 0.0
     max_tokens: 512
