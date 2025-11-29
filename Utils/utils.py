@@ -87,10 +87,10 @@ def calculate_age(birth_date_str: str, admission_date_str: str) -> int:
 def fetch_notes(session):
     """
     Fetch notes from the MIMIC-III database matching specified criteria.
-    
+
     Args:
         session: An active SQLAlchemy session.
-    
+
     Returns:
         list: List of dictionary-mapped rows from the database.
     """
@@ -98,7 +98,7 @@ def fetch_notes(session):
     symptom_conditions = build_symptom_conditions()
     # Fixed query: ensure proper comma separation between columns.
     query = text(f"""
-        SELECT n.row_id, n.subject_id, n.hadm_id, n.text, 
+        SELECT n.row_id, n.subject_id, n.hadm_id, n.text,
                a.admittime, a.dischtime, a.subject_id, a.religion, a.marital_status, a.ethnicity, a.insurance, a.admission_type,
                p.gender, p.dob, n.category
         FROM noteevents n
@@ -117,3 +117,85 @@ def fetch_notes(session):
     except Exception as e:
         logger.error(f"Error fetching notes: {e}")
         return []
+
+
+def fetch_notes_batched(session, batch_size: int = 50, max_total: int = None, offset: int = 0):
+    """
+    Fetch notes from MIMIC-III database in batches.
+
+    This function supports paginated retrieval of clinical notes for processing
+    in configurable batch sizes.
+
+    Args:
+        session: An active SQLAlchemy session.
+        batch_size: Number of records to fetch per batch (default: 50).
+        max_total: Maximum total number of records to fetch (default: None = all).
+        offset: Starting offset for pagination (default: 0).
+
+    Yields:
+        list: Batches of dictionary-mapped rows from the database.
+    """
+    logger.info(f"Starting batched fetch: batch_size={batch_size}, max_total={max_total}, offset={offset}")
+
+    symptom_conditions = build_symptom_conditions()
+
+    fetched_total = 0
+    current_offset = offset
+
+    while True:
+        # Calculate how many records to fetch in this batch
+        if max_total is not None:
+            remaining = max_total - fetched_total
+            if remaining <= 0:
+                break
+            current_batch_size = min(batch_size, remaining)
+        else:
+            current_batch_size = batch_size
+
+        # Build query with LIMIT and OFFSET
+        query = text(f"""
+            SELECT n.row_id, n.subject_id, n.hadm_id, n.text,
+                   a.admittime, a.dischtime, a.subject_id, a.religion,
+                   a.marital_status, a.ethnicity, a.insurance, a.admission_type,
+                   p.gender, p.dob, n.category
+            FROM noteevents n
+            JOIN admissions a ON n.hadm_id = a.hadm_id
+            JOIN patients p ON n.subject_id = p.subject_id
+            WHERE n.text ILIKE :keyword
+              AND ({symptom_conditions})
+              AND n.category ILIKE :category
+            ORDER BY n.row_id
+            LIMIT :limit
+            OFFSET :offset
+        """)
+
+        params = {
+            'keyword': '%Chief Complaint%',
+            'category': '%Discharge Summary%',
+            'limit': current_batch_size,
+            'offset': current_offset
+        }
+
+        try:
+            results = session.execute(query, params).mappings().all()
+
+            if not results:
+                logger.info(f"No more results at offset {current_offset}")
+                break
+
+            logger.info(f"Fetched batch of {len(results)} notes (offset: {current_offset})")
+
+            yield results
+
+            fetched_total += len(results)
+            current_offset += len(results)
+
+            # If we got fewer results than requested, we've reached the end
+            if len(results) < current_batch_size:
+                break
+
+        except Exception as e:
+            logger.error(f"Error fetching batch at offset {current_offset}: {e}")
+            break
+
+    logger.info(f"Batched fetch completed: {fetched_total} total records fetched")

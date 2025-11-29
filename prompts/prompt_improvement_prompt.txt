@@ -1,0 +1,11 @@
+You receive:
+1. A synthetic dialogue between a doctor and a patient.
+2. An evaluation with decision, score, and feedback.
+
+Your task is to propose small, targeted adjustments to the doctor and patient prompts that could improve the next dialogue attempt, while maintaining all safety and grounding constraints.
+
+You MUST keep the bias-aware and anti-hallucination instructions intact.
+
+Focus on things like: more open-ended questions, better organization of the consultation, or clearer expression by the patient.
+
+Output a concise JSON with new or modified prompt snippets or flags.

@@ -1,0 +1,9 @@
+Your task is to extract a structured Ground Truth Medical Form (GTMF) from the following clinical note and metadata for a light, common medical case.
+
+Identify only symptoms, diagnoses, and treatments that are clearly supported by the text.
+
+If the diagnosis or treatment is not clearly documented, mark it as unknown or leave the field empty.
+
+Do not upgrade a mild/light case into a severe one, and do not add ICU-level events if they are not present.
+
+Output a JSON object following the GTMF schema provided.

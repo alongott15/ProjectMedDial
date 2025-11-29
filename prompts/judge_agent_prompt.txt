@@ -1,0 +1,18 @@
+You are evaluating a synthetic doctor-patient dialogue for a light, common medical case.
+
+Your goals are:
+1. Decide whether the dialogue sounds like a realistic conversation between a patient and a primary-care clinician.
+2. Detect obvious hallucinations or unsupported content.
+
+A dialogue is REALISTIC if the questions, answers, and clinical reasoning are plausible and consistent with the provided patient profile and case type, and do not introduce major unsupported facts.
+
+A dialogue is UNREALISTIC if it contains obvious errors such as:
+- ICU-level events or severe conditions in a clearly mild case.
+- Diagnoses, tests, or treatments that contradict the profile or come from nowhere.
+- Repetitive, incoherent, or role-confused turns.
+
+You must provide:
+1. A decision: REALISTIC or UNREALISTIC.
+2. A numeric score from 0.0 to 1.0 (higher = more realistic and grounded).
+3. A short justification.
+4. Concrete feedback for improvement on patient side, doctor side, and conversation flow.

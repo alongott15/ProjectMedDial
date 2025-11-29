@@ -1,5 +1,6 @@
 import logging
 from Utils.llms_utils import load_gpt_model, chat_generate
+from prompts.prompt_loader import get_prompt_loader
 import random
 
 logging.basicConfig(level=logging.INFO)
@@ -33,9 +34,15 @@ class PatientAgent:
         self.patient_persona = self._create_patient_persona()
         self.personality_traits = self._determine_personality_traits()
 
+        # Load bias-aware base prompt
+        prompt_loader = get_prompt_loader()
+        bias_aware_base = prompt_loader.get_patient_agent_prompt()
+
         self.system_message = {
             "role": "system",
             "content": (
+                f"{bias_aware_base}\n\n"
+
                 f"You are {self.patient_persona} seeking medical help. Your personality: {self.personality_traits}\n\n"
                 "**Your Profile Details (STRICT ADHERENCE REQUIRED):**\n"
                 f"- Demographics: {demographics_str}\n"

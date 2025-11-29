@@ -3,6 +3,7 @@ from Utils.llms_utils import load_gpt_model, chat_generate
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker
 from Utils.utils import get_db_uri
+from prompts.prompt_loader import get_prompt_loader
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -59,13 +60,19 @@ class DoctorAgent:
                     if desc:
                         self.key_symptoms.append(desc.lower())
 
+        # Load bias-aware base prompt
+        prompt_loader = get_prompt_loader()
+        bias_aware_base = prompt_loader.get_doctor_agent_prompt()
+
         self.system_message = {
             "role": "system",
             "content": (
+                f"{bias_aware_base}\n\n"
+
                 f"You are an experienced, empathetic physician conducting a medical consultation.\n\n"
-                
+
                 f"Patient demographics: {demographics_info}\n\n"
-                
+
                 "**CRITICAL COMMUNICATION PATTERNS FOR REALISTIC DIALOGUE:**\n\n"
                 
                 "**1. EMPATHETIC RESPONSES (High Impact on Scores):**\n"

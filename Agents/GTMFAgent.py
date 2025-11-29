@@ -8,6 +8,7 @@ from azure.ai.inference.models import SystemMessage, UserMessage
 from azure.core.credentials import AzureKeyCredential
 from Models.classes import GTMF, CoreFields, ContextFields, AdditionalContext, PatientDemographics, MedicalHistory
 from Utils import gtmf_extractor
+from prompts.prompt_loader import get_prompt_loader
 import re
 from dataclasses import dataclass
 
@@ -1512,5 +1513,71 @@ class GTMFExtractionAgent:
             ])
         
         human_readable_report = "\n".join(report_lines)
-        
+
         return gtmf, quality_assessment, human_readable_report
+
+    def extract_batch(self, ehr_cases: List[Dict], use_llm_judge: bool = None) -> List[Tuple[GTMF, Dict]]:
+        """
+        Extract GTMFs from a batch of EHR cases.
+
+        This method processes multiple EHR cases in sequence, applying the same
+        extraction logic to each case.
+
+        Args:
+            ehr_cases: List of EHR case dictionaries, each containing 'text' field
+                      and optional metadata (subject_id, hadm_id, row_id).
+            use_llm_judge: Whether to use LLM judge for quality assessment.
+                          If None, uses instance default.
+
+        Returns:
+            List of tuples (GTMF, quality_assessment_dict) for each case.
+        """
+        logger.info(f"GTMFAgent: Starting batch extraction for {len(ehr_cases)} cases")
+
+        results = []
+        successful = 0
+        failed = 0
+
+        for idx, case in enumerate(ehr_cases, 1):
+            case_id = case.get('hadm_id', case.get('row_id', idx))
+            logger.info(f"  Processing case {idx}/{len(ehr_cases)} (ID: {case_id})")
+
+            try:
+                # Extract medical text
+                medical_text = case.get('text', '')
+                if not medical_text:
+                    logger.warning(f"  Case {case_id}: Empty text, skipping")
+                    failed += 1
+                    continue
+
+                # Perform extraction with or without judge
+                if use_llm_judge or (use_llm_judge is None and self.include_llm_judge):
+                    gtmf, quality_report = self.extract_with_llm_judge(medical_text)
+                else:
+                    gtmf, quality_report = self.extract_with_quality_assessment(medical_text)
+
+                # Add metadata from case
+                gtmf.subject_id = case.get('subject_id', gtmf.subject_id)
+                gtmf.hadm_id = case.get('hadm_id', gtmf.hadm_id)
+                gtmf.row_id = case.get('row_id', gtmf.row_id)
+
+                # Add light case filter result if present
+                if 'light_case_filter' in case:
+                    quality_report['light_case_filter'] = case['light_case_filter']
+
+                # Tag as light common case
+                quality_report['case_type'] = 'LIGHT_COMMON_SYMPTOMS'
+
+                results.append((gtmf, quality_report))
+                successful += 1
+
+                logger.info(f"  ✓ Case {case_id}: Extraction successful")
+
+            except Exception as e:
+                logger.error(f"  ✗ Case {case_id}: Extraction failed - {e}")
+                failed += 1
+                continue
+
+        logger.info(f"GTMFAgent: Batch extraction complete - {successful} successful, {failed} failed")
+
+        return results

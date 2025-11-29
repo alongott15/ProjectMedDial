@@ -661,12 +661,96 @@ class SummarizerAgent:
     
     def _generate_fallback_summary(self, dialogue_text: str, annotations: Dict) -> str:
         """Generate fallback summary when LLM extraction fails"""
-        
+
         symptoms = annotations.get("symptoms", [])
         diagnoses = annotations.get("diagnoses", [])
         treatments = annotations.get("treatments", [])
-        
+
         if symptoms:
             return f"Medical consultation. Patient symptoms: {', '.join(symptoms[:3])}. Diagnoses: {', '.join(diagnoses[:2]) if diagnoses else 'None extracted'}. Treatments: {', '.join(treatments[:2]) if treatments else 'None extracted'}."
         else:
             return f"Medical consultation documented. Dialogue length: {len(dialogue_text.split())} words. Clinical information extraction attempted."
+
+    def summarize_ehr(self, ehr_text: str, metadata: Dict = None) -> str:
+        """
+        Summarize EHR clinical notes using bias-aware prompts.
+
+        This method creates a concise summary of clinical notes, grounded only
+        in the provided text without adding hallucinated details.
+
+        Args:
+            ehr_text: Clinical note text from EHR.
+            metadata: Optional metadata (demographics, dates, etc.).
+
+        Returns:
+            Summary text (5-8 sentences).
+        """
+        if not ehr_text or not ehr_text.strip():
+            return "No EHR content provided."
+
+        logger.info("Summarizing EHR note using bias-aware prompt")
+
+        # Load bias-aware prompt
+        from prompts.prompt_loader import get_prompt_loader
+        prompt_loader = get_prompt_loader()
+        system_prompt = prompt_loader.get_ehr_summarizer_prompt()
+
+        # Build user message with EHR text
+        user_content = f"Clinical Note:\n{ehr_text}"
+
+        if metadata:
+            meta_str = "\n".join([f"{k}: {v}" for k, v in metadata.items()])
+            user_content = f"Metadata:\n{meta_str}\n\n{user_content}"
+
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_content}
+        ]
+
+        # Generate summary
+        summary = chat_generate(self.llm, messages)
+
+        logger.info(f"EHR summary generated ({len(summary.split())} words)")
+        return summary
+
+    def summarize_dialogue(self, dialogue: List[Dict]) -> str:
+        """
+        Summarize a doctor-patient dialogue using bias-aware prompts.
+
+        This method creates a concise summary of the conversation, reporting
+        only what was actually said without inferring additional information.
+
+        Args:
+            dialogue: List of dialogue turns with 'role' and 'content'.
+
+        Returns:
+            Summary text (5-8 sentences).
+        """
+        if not dialogue:
+            return "No dialogue content provided."
+
+        logger.info("Summarizing dialogue using bias-aware prompt")
+
+        # Format dialogue
+        dialogue_text = "\n".join([
+            f"{turn.get('role', 'Unknown')}: {turn.get('content', '')}"
+            for turn in dialogue
+        ])
+
+        # Load bias-aware prompt
+        from prompts.prompt_loader import get_prompt_loader
+        prompt_loader = get_prompt_loader()
+        system_prompt = prompt_loader.get_dialogue_summarizer_prompt()
+
+        user_content = f"Dialogue:\n{dialogue_text}"
+
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_content}
+        ]
+
+        # Generate summary
+        summary = chat_generate(self.llm, messages)
+
+        logger.info(f"Dialogue summary generated ({len(summary.split())} words)")
+        return summary

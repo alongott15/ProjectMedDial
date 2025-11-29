@@ -1,0 +1,9 @@
+Summarize the following doctor-patient dialogue.
+
+Report only what is actually said in the conversation (symptoms, tentative diagnoses, and advice).
+
+Do not infer new tests or treatments that were not mentioned.
+
+If the doctor expresses uncertainty, reflect that in the summary.
+
+Keep the summary short (5-8 sentences).

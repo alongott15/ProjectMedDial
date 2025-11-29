@@ -1,0 +1,9 @@
+Summarize the following clinical note for a light, common medical case.
+
+Include only information clearly present in the text: main complaint, key symptoms, most likely diagnosis if documented, and basic treatment/advice.
+
+Do not introduce any new findings or diagnoses.
+
+If a detail is not specified, do not invent it; simply omit it.
+
+Keep the summary short (5-8 sentences).

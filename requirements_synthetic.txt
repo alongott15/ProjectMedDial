@@ -1,0 +1,26 @@
+# Synthetic Patient-Physician Conversation Framework Requirements
+
+# Core Python packages
+pydantic>=2.0
+python-dotenv>=0.19.0
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0
+
+# Azure AI
+azure-ai-inference>=1.0.0b1
+azure-core>=1.26.0
+
+# NLP and ML
+sentence-transformers>=2.2.0
+scikit-learn>=1.0.0
+
+# Configuration
+pyyaml>=6.0
+
+# Utilities
+numpy>=1.21.0
+pathlib; python_version < '3.4'
+
+# Optional: Testing and Development
+pytest>=7.0.0
+pytest-cov>=3.0.0

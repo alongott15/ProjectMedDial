@@ -1,0 +1,57 @@
+# Default Pipeline Configuration for Synthetic Patient-Physician Conversations
+# Light Cases, Batched GTMF Creation, LLM Judge, STS Evaluation
+
+run_name: synthetic_dialogue_run
+
+# Database configuration (MIMIC-III access)
+database:
+  db_batch_size: 50  # Number of EHR records to fetch per batch
+  max_total_records: null  # null = fetch all matching records
+  offset: 0  # Starting offset for pagination
+
+# GTMF extraction configuration
+gtmf:
+  gtmf_batch_size: 20  # Number of EHR cases to process per GTMF batch
+  use_llm_judge: true  # Use LLM judge for GTMF quality assessment
+  enable_chunking: true  # Enable chunking for long documents
+  model_name: gpt-4  # Model for GTMF extraction
+
+# Profile generation configuration
+profile:
+  profile_types:
+    - NO_DIAGNOSIS_NO_TREATMENT  # Generate profiles without diagnosis and treatment
+  # Options: FULL, NO_DIAGNOSIS, NO_DIAGNOSIS_NO_TREATMENT
+
+# Dialogue generation configuration
+dialogue:
+  max_turns: 16  # Maximum turns per dialogue
+  max_attempts_per_profile: 3  # Maximum generation attempts per profile
+  max_processing_time: 300.0  # Maximum time (seconds) per dialogue
+  model_name: gpt-4.1  # Model for dialogue generation
+  temperature: 0.3  # Sampling temperature
+
+# Judge agent configuration
+judge:
+  model_name: gpt-4.1  # Model for naturalness evaluation
+  temperature: 0.2  # Lower temperature for more consistent judgments
+  threshold: 0.6  # Minimum score (0-1) to consider dialogue REALISTIC
+  max_tokens: 1000
+
+# STS evaluation configuration
+sts:
+  model_name: all-MiniLM-L6-v2  # Sentence transformer model
+  # For medical domain: pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb
+
+# Output configuration
+output:
+  base_dir: outputs
+  ehr_dir: outputs/ehr
+  gtmf_dir: outputs/gtmf
+  profiles_dir: outputs/profiles
+  dialogues_dir: outputs/dialogues
+  judge_dir: outputs/judge
+  summaries_dir: outputs/summaries
+  sts_dir: outputs/sts
+  stats_dir: outputs/stats
+  runs_dir: outputs/runs
+  create_dirs: true  # Automatically create output directories
