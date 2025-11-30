@@ -3,9 +3,12 @@
 
 run_name: synthetic_dialogue_run
 
-# Database configuration (MIMIC-III access)
-database:
-  db_batch_size: 50  # Number of EHR records to fetch per batch
+# Data source configuration (CSV or PostgreSQL Database)
+data_source:
+  source_type: csv  # "csv" or "database"
+  csv_file_path: sample_mimic_notes.csv  # Path to CSV file (if source_type=csv)
+  database_url: null  # PostgreSQL connection string (if source_type=database)
+  batch_size: 50  # Number of EHR records to fetch per batch
   max_total_records: null  # null = fetch all matching records
   offset: 0  # Starting offset for pagination
 

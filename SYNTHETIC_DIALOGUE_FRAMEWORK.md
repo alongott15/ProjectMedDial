@@ -2,8 +2,9 @@
 
 ## Overview
 
-This framework generates realistic synthetic patient-physician dialogues from MIMIC-III EHR data. It implements:
+This framework generates realistic synthetic patient-physician dialogues from clinical EHR data. It implements:
 
+- **Flexible data sources** - Works with CSV files (default) or PostgreSQL database
 - **Light case filtering** - Focuses on common, non-severe medical conditions
 - **Batched GTMF creation** - Scalable extraction of medical forms from EHR notes
 - **LLM-based judge** - Evaluates dialogue naturalness with iterative improvement
@@ -11,6 +12,20 @@ This framework generates realistic synthetic patient-physician dialogues from MI
 - **STS evaluation** - Measures semantic similarity between EHR and dialogue summaries
 - **Bias-aware prompting** - Reduces hallucinations throughout the pipeline
 - **Comprehensive statistics** - Tracks success rates, attempts, scores, and more
+
+## Data Sources
+
+The framework supports two data sources:
+
+1. **CSV Files (Default)** - Easy to get started, no database required
+   - Sample CSV included with 10 realistic clinical notes
+   - Ideal for testing, development, and small-medium datasets
+   - See [CSV Usage Guide](CSV_USAGE_GUIDE.md) for details
+
+2. **PostgreSQL Database** - For production with large MIMIC-III datasets
+   - Direct database connectivity
+   - Efficient for very large datasets
+   - Complex SQL filtering support
 
 ## Architecture
 
@@ -125,20 +140,38 @@ pytest
 Create a `.env` file:
 
 ```bash
-# Azure AI Foundry
+# Azure AI Foundry (Required)
 AZURE_AI_ENDPOINT=<your_endpoint>
 AZURE_AI_API_KEY=<your_api_key>
 
-# MIMIC-III Database
+# Database (Optional - only if using database source)
 DATABASE_URL=postgresql://user:password@host:port/mimic
 ```
 
 ## Usage
 
-### Quick Start
+### Quick Start (CSV Mode - No Database Required)
 
 ```bash
-# Run with default configuration
+# Run with default configuration (uses sample CSV)
+python synthetic_dialogue_pipeline.py
+
+# Sample CSV is automatically created if it doesn't exist
+# Contains 10 realistic clinical notes with light symptoms
+```
+
+### Quick Start (Database Mode)
+
+```bash
+# 1. Set DATABASE_URL environment variable
+export DATABASE_URL=postgresql://user:password@host:port/mimic
+
+# 2. Update config to use database
+# Edit config/default_config.yaml:
+# data_source:
+#   source_type: database
+
+# 3. Run pipeline
 python synthetic_dialogue_pipeline.py
 ```
 
@@ -160,8 +193,11 @@ python synthetic_dialogue_pipeline.py
 See `config/default_config.yaml` for all options. Key parameters:
 
 ```yaml
-database:
-  db_batch_size: 50  # EHR records per batch
+data_source:
+  source_type: csv  # "csv" or "database"
+  csv_file_path: sample_mimic_notes.csv  # CSV file path (if csv)
+  database_url: null  # PostgreSQL URL (if database)
+  batch_size: 50  # EHR records per batch
   max_total_records: null  # null = all records
 
 gtmf:
@@ -182,6 +218,8 @@ judge:
 sts:
   model_name: all-MiniLM-L6-v2  # Sentence transformer model
 ```
+
+For detailed CSV usage, see [CSV Usage Guide](CSV_USAGE_GUIDE.md).
 
 ## Output Structure
 

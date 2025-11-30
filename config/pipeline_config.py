@@ -12,9 +12,12 @@ from pathlib import Path
 
 
 @dataclass
-class DatabaseConfig:
-    """Database connection and retrieval configuration."""
-    db_batch_size: int = 50
+class DataSourceConfig:
+    """Data source configuration (CSV or Database)."""
+    source_type: str = "csv"  # "csv" or "database"
+    csv_file_path: Optional[str] = "sample_mimic_notes.csv"  # Path to CSV file
+    database_url: Optional[str] = None  # PostgreSQL connection string
+    batch_size: int = 50
     max_total_records: Optional[int] = None
     offset: int = 0
 
@@ -81,7 +84,7 @@ class OutputConfig:
 class PipelineConfig:
     """Complete pipeline configuration."""
     run_name: str = "synthetic_dialogue_run"
-    database: DatabaseConfig = field(default_factory=DatabaseConfig)
+    data_source: DataSourceConfig = field(default_factory=DataSourceConfig)
     gtmf: GTMFConfig = field(default_factory=GTMFConfig)
     profile: ProfileConfig = field(default_factory=ProfileConfig)
     dialogue: DialogueConfig = field(default_factory=DialogueConfig)
@@ -106,9 +109,12 @@ class PipelineConfig:
     @classmethod
     def from_dict(cls, config_dict: dict) -> 'PipelineConfig':
         """Load configuration from dictionary."""
+        # Support both 'data_source' (new) and 'database' (old) for backward compatibility
+        data_source_config = config_dict.get('data_source', config_dict.get('database', {}))
+
         return cls(
             run_name=config_dict.get('run_name', 'synthetic_dialogue_run'),
-            database=DatabaseConfig(**config_dict.get('database', {})),
+            data_source=DataSourceConfig(**data_source_config),
             gtmf=GTMFConfig(**config_dict.get('gtmf', {})),
             profile=ProfileConfig(**config_dict.get('profile', {})),
             dialogue=DialogueConfig(**config_dict.get('dialogue', {})),

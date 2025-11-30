@@ -22,8 +22,9 @@ from sqlalchemy.orm import sessionmaker
 # Configuration
 from config import PipelineConfig
 
-# Database and filtering
+# Data loading and filtering
 from Utils.utils import fetch_notes_batched, get_db_uri
+from Utils.csv_loader import fetch_notes_batched_from_csv, create_sample_csv
 from Utils.light_case_filter import LightCaseFilter
 
 # Agents
@@ -150,32 +151,62 @@ class SyntheticDialoguePipeline:
 
     def _retrieve_and_filter_ehr(self) -> List[Dict]:
         """Retrieve EHR cases and apply light case filter."""
-        db_uri = get_db_uri()
-        if not db_uri:
-            raise ValueError("DATABASE_URL not configured")
-
-        engine = create_engine(db_uri)
-        Session = sessionmaker(bind=engine)
-
         all_cases = []
 
-        with Session() as session:
-            for batch in fetch_notes_batched(
-                session,
-                batch_size=self.config.database.db_batch_size,
-                max_total=self.config.database.max_total_records,
-                offset=self.config.database.offset
-            ):
-                # Convert to dictionaries
-                batch_dicts = [dict(row) for row in batch]
+        if self.config.data_source.source_type == "csv":
+            logger.info(f"Loading data from CSV: {self.config.data_source.csv_file_path}")
 
+            # Create sample CSV if it doesn't exist
+            csv_path = Path(self.config.data_source.csv_file_path)
+            if not csv_path.exists():
+                logger.warning(f"CSV file not found: {csv_path}. Creating sample CSV...")
+                create_sample_csv(str(csv_path), num_samples=10)
+
+            # Load from CSV in batches
+            for batch in fetch_notes_batched_from_csv(
+                str(csv_path),
+                batch_size=self.config.data_source.batch_size,
+                max_total=self.config.data_source.max_total_records,
+                offset=self.config.data_source.offset
+            ):
                 # Apply light case filter
-                filtered_batch, filter_stats = self.light_case_filter.filter_batch(batch_dicts)
+                filtered_batch, filter_stats = self.light_case_filter.filter_batch(batch)
 
                 all_cases.extend(filtered_batch)
 
                 logger.info(f"  Batch: {filter_stats['passed']}/{filter_stats['total']} "
                            f"passed light case filter ({filter_stats['pass_rate']:.1%})")
+
+        elif self.config.data_source.source_type == "database":
+            logger.info("Loading data from PostgreSQL database")
+
+            db_uri = self.config.data_source.database_url or get_db_uri()
+            if not db_uri:
+                raise ValueError("DATABASE_URL not configured for database source")
+
+            engine = create_engine(db_uri)
+            Session = sessionmaker(bind=engine)
+
+            with Session() as session:
+                for batch in fetch_notes_batched(
+                    session,
+                    batch_size=self.config.data_source.batch_size,
+                    max_total=self.config.data_source.max_total_records,
+                    offset=self.config.data_source.offset
+                ):
+                    # Convert to dictionaries
+                    batch_dicts = [dict(row) for row in batch]
+
+                    # Apply light case filter
+                    filtered_batch, filter_stats = self.light_case_filter.filter_batch(batch_dicts)
+
+                    all_cases.extend(filtered_batch)
+
+                    logger.info(f"  Batch: {filter_stats['passed']}/{filter_stats['total']} "
+                               f"passed light case filter ({filter_stats['pass_rate']:.1%})")
+        else:
+            raise ValueError(f"Invalid source_type: {self.config.data_source.source_type}. "
+                           f"Must be 'csv' or 'database'")
 
         logger.info(f"Total EHR cases after filtering: {len(all_cases)}")
 
