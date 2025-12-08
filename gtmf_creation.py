@@ -23,6 +23,80 @@ except ImportError:
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Light case filter configuration (expanded for more light cases)
+LIGHT_CASE_INCLUDE_TERMS = [
+    # Respiratory symptoms
+    "cough", "sore throat", "throat pain", "runny nose", "nasal congestion",
+    "upper respiratory", "cold symptoms", "flu-like", "sneezing", "stuffy nose",
+    "post-nasal drip", "scratchy throat", "hoarse voice", "mild shortness of breath",
+    # Head symptoms
+    "headache", "mild dizziness", "sinus pressure", "sinus pain", "earache",
+    "ear pain", "pressure in head", "tension headache", "migraine",
+    # Fever and systemic
+    "low-grade fever", "low grade fever", "mild fever", "chills", "malaise",
+    "fatigue", "tiredness", "weakness", "body aches", "muscle aches",
+    # GI (mild)
+    "nausea", "upset stomach", "mild abdominal pain", "diarrhea", "constipation",
+    "heartburn", "indigestion", "loss of appetite",
+    # Musculoskeletal
+    "back pain", "neck pain", "joint pain", "minor pain", "muscle soreness",
+    "stiffness", "sprain", "strain",
+    # Skin/minor issues
+    "rash", "skin irritation", "itching", "minor wound", "bruise",
+    # General
+    "not feeling well", "under the weather", "viral illness", "viral infection",
+    "common cold", "seasonal allergies", "allergy symptoms"
+]
+
+LIGHT_CASE_EXCLUDE_TERMS = [
+    "icu", "intubated", "cardiac arrest", "shock", "sepsis", "septic",
+    "mechanical ventilation", "multi organ failure", "multiorgan failure",
+    "malignancy", "cancer", "metastatic", "critical", "life-threatening",
+    "severe", "acute respiratory distress", "ards", "transplant",
+    "dialysis", "cardiac surgery", "trauma", "hemorrhage", "stroke"
+]
+
+
+def is_light_common_case(note_text: str, chief_complaint: str = "") -> dict:
+    """
+    Determine if a case is a light, common medical case.
+
+    Args:
+        note_text: Clinical note text
+        chief_complaint: Chief complaint if available
+
+    Returns:
+        Dict with 'passed' (bool) and 'reason' (str)
+    """
+    text_lower = note_text.lower()
+    cc_lower = chief_complaint.lower() if chief_complaint else ""
+    combined_text = text_lower + " " + cc_lower
+
+    # Check for exclusion terms (severe cases)
+    for term in LIGHT_CASE_EXCLUDE_TERMS:
+        if term in combined_text:
+            return {
+                "passed": False,
+                "reason": f"Contains severe/ICU indicator: '{term}'"
+            }
+
+    # Check for inclusion terms (light symptoms)
+    matched_terms = []
+    for term in LIGHT_CASE_INCLUDE_TERMS:
+        if term in combined_text:
+            matched_terms.append(term)
+
+    if matched_terms:
+        return {
+            "passed": True,
+            "reason": f"Contains light symptoms: {', '.join(matched_terms[:3])}"
+        }
+    else:
+        return {
+            "passed": False,
+            "reason": "No light/common symptoms detected"
+        }
+
 # MINIMAL ADDITION: Robust JSON parsing functions (essential fix)
 def aggressive_json_clean(text: str) -> str:
     """Aggressively clean text to extract valid JSON"""
@@ -747,8 +821,18 @@ def fetch_notes(session):
         logger.error(f"Error fetching notes: {e}")
         return []
 
-def process_notes(results, azure_client: AzureAIClient):
-    """Process fetched notes with quality scoring using Azure AI"""
+def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
+    """
+    Process fetched notes with quality scoring using Azure AI.
+
+    Args:
+        results: Database query results
+        azure_client: Azure AI client for GTMF extraction
+        batch_size: If specified, process notes in batches of this size
+
+    Returns:
+        Tuple of (structured_results, quality_summary)
+    """
     logger.info("Processing fetched notes with Azure AI quality assessment")
     structured_results = []
     quality_summary = {
@@ -760,11 +844,31 @@ def process_notes(results, azure_client: AzureAIClient):
         "common_issues": [],
         "average_scores": {},
         # MINIMAL ADDITION: Advanced validation tracking
-        "advanced_validation_used": 0
+        "advanced_validation_used": 0,
+        # NEW: Light case filtering stats
+        "light_case_passed": 0,
+        "light_case_failed": 0
     }
+
+    # Batch processing if batch_size specified
+    if batch_size and batch_size > 0:
+        total_batches = (len(results) + batch_size - 1) // batch_size
+        logger.info(f"Processing {len(results)} notes in {total_batches} batches of size {batch_size}")
+    else:
+        logger.info(f"Processing {len(results)} notes without batching")
 
     for idx, row in enumerate(results):
         try:
+            # Apply light case filter first
+            light_case_result = is_light_common_case(row['text'])
+            if not light_case_result['passed']:
+                logger.info(f"Note {idx} filtered out: {light_case_result['reason']}")
+                quality_summary["light_case_failed"] += 1
+                continue
+            else:
+                logger.info(f"Note {idx} passed light case filter: {light_case_result['reason']}")
+                quality_summary["light_case_passed"] += 1
+
             # Demographics processing
             dob_formatted = format_date(row['dob'], '%Y-%m-%d')
             adm_formatted = format_date(row['admittime'], '%Y-%m-%d %H:%M:%S')
@@ -830,6 +934,9 @@ def process_notes(results, azure_client: AzureAIClient):
                 # MINIMAL ADDITION: Include advanced metrics if available
                 "advanced_metrics": quality_score.advanced_metrics
             }
+            # Add light case filter result
+            result_with_quality["light_case_filter"] = light_case_result
+            result_with_quality["case_type"] = "LIGHT_COMMON_SYMPTOMS"
             
             structured_results.append(result_with_quality)
             logger.info(f"Processed note {idx} with overall quality score: {overall_score:.2f}")
@@ -860,6 +967,8 @@ def process_notes(results, azure_client: AzureAIClient):
     logger.info(f"Quality Summary: {quality_summary['high_quality']} high, "
                f"{quality_summary['medium_quality']} medium, "
                f"{quality_summary['low_quality']} low quality extractions")
+    logger.info(f"Light case filter: {quality_summary['light_case_passed']} passed, "
+               f"{quality_summary['light_case_failed']} filtered out")
     logger.info(f"JSON parse failures: {quality_summary['json_parse_failures']}")
     logger.info(f"Advanced validation used: {quality_summary['advanced_validation_used']}")
     
