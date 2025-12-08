@@ -1,7 +1,6 @@
 transformers>=4.30.0
 torch>=2.0.0
 pydantic>=1.10.2
-sqlalchemy>=1.4.0
 scikit-learn>=1.2.0
 sentence-transformers>=2.2.0  # For STS evaluation
 azure-ai-inference  # For GTMF extraction

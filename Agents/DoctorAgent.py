@@ -1,8 +1,6 @@
 import logging
 from Utils.llms_utils import load_gpt_model, chat_generate
-from sqlalchemy import create_engine, text
-from sqlalchemy.orm import sessionmaker
-from Utils.utils import get_db_uri
+# SQL database removed - lab results should be included in patient profile/GTMF if needed
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -110,41 +108,24 @@ class DoctorAgent:
         }
 
     def _get_patient_test_results(self) -> list:
-        """Get patient test results with error handling"""
+        """
+        Get patient test results from profile.
+
+        NOTE: Lab results are no longer fetched from database.
+        If test results are needed, they should be included in the patient_profile/GTMF.
+        """
         if not self.patient_profile:
             return []
-            
-        subject_id = self.patient_profile.get("subject_id")
-        hadm_id = self.patient_profile.get("hadm_id")
-        
-        if not subject_id or not hadm_id:
-            return []
 
-        query_str = f"""
-            SELECT l.subject_id, l.hadm_id, d.label, l.valuenum, l.valueuom, l.flag
-            FROM labevents l
-            JOIN d_labitems d ON l.itemid = d.itemid
-            WHERE l.subject_id = :subject_id AND l.hadm_id = :hadm_id
-            AND l.valuenum IS NOT NULL
-            ORDER BY l.charttime DESC
-            LIMIT 15 
-        """
-        query = text(query_str)
-        db_uri = get_db_uri()
-        if not db_uri:
-            logger.warning("Database URI not configured. Cannot fetch lab results.")
-            return []
-        
-        engine = create_engine(db_uri)
-        Session = sessionmaker(bind=engine)
-        try:
-            with Session() as session:
-                results = session.execute(query, {"subject_id": subject_id, "hadm_id": hadm_id}).mappings().all()
-                logger.info(f"Fetched {len(results)} relevant lab results for patient")
-                return results
-        except Exception as e:
-            logger.error(f"Error fetching lab results: {e}")
-            return []
+        # Check if lab results are included in the profile
+        lab_results = self.patient_profile.get("lab_results", [])
+        if lab_results:
+            logger.info(f"Found {len(lab_results)} lab results in patient profile")
+            return lab_results
+
+        # No lab results available
+        logger.debug("No lab results found in patient profile")
+        return []
 
     def _detect_patient_emotion(self, patient_message: str) -> str:
         """Simple emotion detection to improve empathy scoring"""

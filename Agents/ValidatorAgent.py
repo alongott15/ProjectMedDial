@@ -1,17 +1,12 @@
-# Agents/ValidatorAgent_Enhanced.py
+# Agents/ValidatorAgent.py
 """
-MINIMAL CHANGES: Enhanced ValidatorAgent with advanced metrics integration
+ValidatorAgent - Basic validation without database dependencies
+
+NOTE: Advanced validation features (medical_validator, medical_knowledge_mimic, medical_validation)
+have been removed. This agent now provides basic validation only.
 """
 import logging
 import numpy as np
-
-# Import the new advanced components
-from Utils.medical_validator import AdvancedMedicalValidator, validate_with_advanced_metrics
-from Utils.medical_knowledge_mimic import MIMICMedicalKnowledgeBase
-from Utils.utils import get_db_uri
-
-# Keep existing imports for backward compatibility
-from Utils.medical_validation import validate_medical_extraction, assess_dialogue_safety
 
 logger = logging.getLogger(__name__)
 
@@ -32,32 +27,13 @@ class EnhancedValidatorAgent:
         self.use_advanced_validation = use_advanced_validation
         self.use_mimic_kb = use_mimic_kb
         
-        # Initialize MIMIC knowledge base if requested
-        if use_mimic_kb:
-            try:
-                db_uri = get_db_uri()
-                if db_uri:
-                    self.mimic_kb = MIMICMedicalKnowledgeBase(db_uri)
-                    logger.info("MIMIC-III knowledge base loaded successfully")
-                else:
-                    self.mimic_kb = None
-                    logger.warning("Database URI not available, MIMIC-III KB disabled")
-            except Exception as e:
-                logger.error(f"Failed to load MIMIC-III knowledge base: {e}")
-                self.mimic_kb = None
-        else:
-            self.mimic_kb = None
-        
-        # Initialize advanced validator if requested
-        if use_advanced_validation:
-            try:
-                self.advanced_validator = AdvancedMedicalValidator(self.mimic_kb)
-                logger.info("Advanced medical validator initialized")
-            except Exception as e:
-                logger.error(f"Failed to initialize advanced validator: {e}")
-                self.advanced_validator = None
-        else:
-            self.advanced_validator = None
+        # Advanced validation components have been removed
+        self.mimic_kb = None
+        self.advanced_validator = None
+
+        if use_mimic_kb or use_advanced_validation:
+            logger.warning("Advanced validation features (use_mimic_kb, use_advanced_validation) are no longer supported")
+            logger.info("Database-dependent validation has been removed from the project")
         
         # Keep backward compatibility - initialize existing validation
         self._initialize_legacy_validation()

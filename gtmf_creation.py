@@ -1,12 +1,10 @@
 import json
 import logging
-from sqlalchemy import create_engine, text
-from sqlalchemy.orm import sessionmaker
 from azure.ai.inference import ChatCompletionsClient
 from azure.ai.inference.models import SystemMessage, UserMessage
 from azure.core.credentials import AzureKeyCredential
 from Models.classes import GTMF
-from Utils.utils import get_db_uri, format_date, build_symptom_conditions, calculate_age
+from Utils.utils import format_date, calculate_age
 import re
 import os
 from typing import Dict, List, Tuple
@@ -421,31 +419,6 @@ def merge_gtmf_extractions(extractions: List[Dict]) -> Dict:
     
     return merged
 
-def fetch_notes(session):
-    """Fetch notes from the MIMIC-III database matching specified criteria."""
-    logger.info("Fetching notes from database")
-    symptom_conditions = build_symptom_conditions()
-    query = text(f"""
-        SELECT n.row_id, n.subject_id, n.hadm_id, n.text, 
-               a.admittime, a.dischtime, a.subject_id, a.religion, a.marital_status, a.ethnicity, a.insurance, a.admission_type,
-               p.gender, p.dob, n.category
-        FROM noteevents n
-        JOIN admissions a ON n.hadm_id = a.hadm_id
-        JOIN patients p ON n.subject_id = p.subject_id
-        WHERE n.text ILIKE :keyword
-          AND ({symptom_conditions})
-          AND n.category ILIKE :category
-        LIMIT 10
-    """)
-    params = {'keyword': '%Chief Complaint%', 'category': '%Discharge Summary%'}
-    try:
-        results = session.execute(query, params).mappings().all()
-        logger.info(f"Fetched {len(results)} notes from database")
-        return results
-    except Exception as e:
-        logger.error(f"Error fetching notes: {e}")
-        return []
-
 def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
     """
     Process fetched notes with quality scoring using Azure AI.
@@ -549,7 +522,7 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
     return structured_results, quality_summary
 
 def main():
-    """Main execution with Azure AI using CSV data"""
+    """Main execution with Azure AI using CSV data only"""
     logger.info("Starting GTMF extraction process from CSV data")
 
     # Initialize Azure AI client
@@ -560,42 +533,35 @@ def main():
         logger.error(f"Failed to initialize Azure AI client: {e}")
         return
 
-    # CSV directory path - update this to your MIMIC-III CSV directory
-    csv_dir = os.getenv("MIMIC_CSV_DIR", "/path/to/mimic-iii/csv")
+    # CSV directory path - REQUIRED
+    csv_dir = os.getenv("MIMIC_CSV_DIR")
+
+    if not csv_dir:
+        logger.error("MIMIC_CSV_DIR environment variable not set!")
+        logger.info("Please set MIMIC_CSV_DIR in your .env file")
+        logger.info("Example: MIMIC_CSV_DIR=/path/to/mimic-iii/csv")
+        return
 
     if not os.path.exists(csv_dir):
         logger.error(f"CSV directory not found: {csv_dir}")
-        logger.info("Please set MIMIC_CSV_DIR environment variable or update the path in the code")
-        logger.info("Falling back to SQL database...")
+        logger.info("Please verify the path in MIMIC_CSV_DIR environment variable")
+        return
 
-        # Fallback to SQL if CSV not available
-        try:
-            engine = create_engine(get_db_uri())
-            Session = sessionmaker(bind=engine)
-            with Session() as session:
-                results = fetch_notes(session)
-                if not results:
-                    logger.warning("No notes found matching criteria.")
-                    return
-        except Exception as e:
-            logger.error(f"SQL fallback also failed: {e}")
+    # Load from CSV
+    try:
+        from Utils.csv_data_loader import CSVDataLoader
+        loader = CSVDataLoader(csv_dir)
+        results = loader.fetch_notes_with_light_case_filter(
+            category_filter="Discharge summary",
+            limit=100
+        )
+        if not results:
+            logger.warning("No light case notes found in CSV.")
             return
-    else:
-        # Load from CSV
-        try:
-            from Utils.csv_data_loader import CSVDataLoader
-            loader = CSVDataLoader(csv_dir)
-            results = loader.fetch_notes_with_light_case_filter(
-                category_filter="Discharge summary",
-                limit=100
-            )
-            if not results:
-                logger.warning("No light case notes found in CSV.")
-                return
-            logger.info(f"Loaded {len(results)} notes from CSV")
-        except Exception as e:
-            logger.error(f"Error loading CSV data: {e}")
-            return
+        logger.info(f"Loaded {len(results)} notes from CSV")
+    except Exception as e:
+        logger.error(f"Error loading CSV data: {e}")
+        return
 
     try:
         # Process notes
