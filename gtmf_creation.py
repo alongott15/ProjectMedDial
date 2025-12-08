@@ -12,14 +12,6 @@ import os
 from typing import Dict, List, Tuple
 from dataclasses import dataclass
 
-# MINIMAL ADDITION: Import advanced validation components if available
-try:
-    from Utils.medical_knowledge_mimic import MIMICMedicalKnowledgeBase
-    from Utils.medical_validator import AdvancedMedicalValidator
-    ADVANCED_VALIDATION_AVAILABLE = True
-except ImportError:
-    ADVANCED_VALIDATION_AVAILABLE = False
-
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -192,8 +184,6 @@ class GTMFQualityScore:
     field_scores: Dict[str, float]  # Individual field quality scores
     issues: List[str]          # List of identified issues
     recommendations: List[str]  # Improvement recommendations
-    # MINIMAL ADDITION: Advanced metrics if available
-    advanced_metrics: Dict = None  # Advanced validation results if available
 
 class AzureAIClient:
     """Azure AI client wrapper for GTMF extraction"""
@@ -264,23 +254,9 @@ def chunk_medical_text(text: str, max_chunk_size: int = 3000, overlap: int = 200
 
 class GTMFQualityAssessor:
     """Assesses the quality of GTMF extractions using Azure AI"""
-    
+
     def __init__(self, azure_client: AzureAIClient):
         self.azure_client = azure_client
-        
-        # MINIMAL ADDITION: Initialize advanced validation if available
-        self.mimic_kb = None
-        self.advanced_validator = None
-        
-        if ADVANCED_VALIDATION_AVAILABLE:
-            try:
-                db_uri = get_db_uri()
-                if db_uri:
-                    self.mimic_kb = MIMICMedicalKnowledgeBase(db_uri)
-                    self.advanced_validator = AdvancedMedicalValidator(self.mimic_kb)
-                    logger.info("Advanced validation components loaded")
-            except Exception as e:
-                logger.warning(f"Advanced validation not available: {e}")
     
     def assess_gtmf_quality(self, medical_text: str, gtmf_instance: GTMF) -> GTMFQualityScore:
         """Comprehensive quality assessment of GTMF extraction"""
@@ -321,32 +297,10 @@ class GTMFQualityAssessor:
         
         # 7. Azure AI-based accuracy assessment
         accuracy_score, confidence_score = self._azure_accuracy_assessment(medical_text, gtmf_dict)
-        
-        # MINIMAL ADDITION: Advanced validation if available
-        advanced_metrics = None
-        if self.advanced_validator and self.mimic_kb:
-            try:
-                symptoms = [s.description for s in gtmf_instance.Core_Fields.Symptoms if s.description != "not provided"]
-                diagnoses = [d.primary for d in gtmf_instance.Core_Fields.Diagnoses if d.primary != "not provided"]
-                treatments = [t.procedure for t in gtmf_instance.Core_Fields.Treatment_Options if t.procedure != "not provided"]
-                
-                mimic_validation = self.mimic_kb.validate_clinical_coherence(symptoms, diagnoses, treatments)
-                advanced_metrics = {
-                    "clinical_coherence": mimic_validation.clinical_coherence,
-                    "safety_score": mimic_validation.safety_score,
-                    "terminology_accuracy": mimic_validation.terminology_accuracy
-                }
-                
-                # Enhance scores with advanced metrics
-                consistency_score = max(consistency_score, mimic_validation.clinical_coherence)
-                logger.info(f"Advanced validation applied - Clinical coherence: {mimic_validation.clinical_coherence:.2f}")
-                
-            except Exception as e:
-                logger.warning(f"Advanced validation failed: {e}")
-        
+
         # Generate recommendations
         recommendations = self._generate_recommendations(field_scores, issues)
-        
+
         return GTMFQualityScore(
             completeness_score=completeness_score,
             accuracy_score=accuracy_score,
@@ -354,8 +308,7 @@ class GTMFQualityAssessor:
             confidence_score=confidence_score,
             field_scores=field_scores,
             issues=issues,
-            recommendations=recommendations,
-            advanced_metrics=advanced_metrics
+            recommendations=recommendations
         )
     
     def _assess_symptoms(self, text: str, symptoms: List[Dict]) -> Tuple[float, List[str]]:
@@ -840,12 +793,10 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
         "high_quality": 0,  # >0.8 overall score
         "medium_quality": 0,  # 0.6-0.8 overall score
         "low_quality": 0,   # <0.6 overall score
-        "json_parse_failures": 0,  # MINIMAL ADDITION: Track JSON failures
+        "json_parse_failures": 0,
         "common_issues": [],
         "average_scores": {},
-        # MINIMAL ADDITION: Advanced validation tracking
-        "advanced_validation_used": 0,
-        # NEW: Light case filtering stats
+        # Light case filtering stats
         "light_case_passed": 0,
         "light_case_failed": 0
     }
@@ -905,10 +856,6 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
                 quality_summary["low_quality"] += 1
             
             quality_summary["common_issues"].extend(quality_score.issues)
-            
-            # MINIMAL ADDITION: Track advanced validation usage
-            if quality_score.advanced_metrics:
-                quality_summary["advanced_validation_used"] += 1
 
             # Update GTMF with metadata and demographics
             gtmf_instance = gtmf_instance.model_copy(update={
@@ -930,9 +877,7 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
                 "overall_score": overall_score,
                 "field_scores": quality_score.field_scores,
                 "issues": quality_score.issues,
-                "recommendations": quality_score.recommendations,
-                # MINIMAL ADDITION: Include advanced metrics if available
-                "advanced_metrics": quality_score.advanced_metrics
+                "recommendations": quality_score.recommendations
             }
             # Add light case filter result
             result_with_quality["light_case_filter"] = light_case_result
@@ -970,7 +915,6 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
     logger.info(f"Light case filter: {quality_summary['light_case_passed']} passed, "
                f"{quality_summary['light_case_failed']} filtered out")
     logger.info(f"JSON parse failures: {quality_summary['json_parse_failures']}")
-    logger.info(f"Advanced validation used: {quality_summary['advanced_validation_used']}")
     
     return structured_results, quality_summary
 
