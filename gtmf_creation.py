@@ -174,17 +174,6 @@ def safe_json_parse_object(json_str: str, field_name: str = "") -> dict:
             "Additional_Context": {"Chief_Complaint": "not provided"}
         }
 
-@dataclass
-class GTMFQualityScore:
-    """Quality assessment for GTMF extraction"""
-    completeness_score: float  # 0-1, how much of the note was captured
-    accuracy_score: float      # 0-1, how accurate the extractions are
-    consistency_score: float   # 0-1, internal consistency of extracted data
-    confidence_score: float    # 0-1, model confidence in extractions
-    field_scores: Dict[str, float]  # Individual field quality scores
-    issues: List[str]          # List of identified issues
-    recommendations: List[str]  # Improvement recommendations
-
 class AzureAIClient:
     """Azure AI client wrapper for GTMF extraction"""
     
@@ -252,319 +241,11 @@ def chunk_medical_text(text: str, max_chunk_size: int = 3000, overlap: int = 200
     
     return chunks
 
-class GTMFQualityAssessor:
-    """Assesses the quality of GTMF extractions using Azure AI"""
-
-    def __init__(self, azure_client: AzureAIClient):
-        self.azure_client = azure_client
-    
-    def assess_gtmf_quality(self, medical_text: str, gtmf_instance: GTMF) -> GTMFQualityScore:
-        """Comprehensive quality assessment of GTMF extraction"""
-        
-        # Convert GTMF to dict for easier analysis
-        gtmf_dict = gtmf_instance.model_dump()
-        
-        # Individual field assessments
-        field_scores = {}
-        issues = []
-        recommendations = []
-        
-        # 1. Assess Symptoms
-        symptoms_score, symptoms_issues = self._assess_symptoms(medical_text, gtmf_dict.get("Core_Fields", {}).get("Symptoms", []))
-        field_scores["symptoms"] = symptoms_score
-        issues.extend(symptoms_issues)
-        
-        # 2. Assess Diagnoses
-        diagnoses_score, diagnoses_issues = self._assess_diagnoses(medical_text, gtmf_dict.get("Core_Fields", {}).get("Diagnoses", []))
-        field_scores["diagnoses"] = diagnoses_score
-        issues.extend(diagnoses_issues)
-        
-        # 3. Assess Treatments
-        treatments_score, treatments_issues = self._assess_treatments(medical_text, gtmf_dict.get("Core_Fields", {}).get("Treatment_Options", []))
-        field_scores["treatments"] = treatments_score
-        issues.extend(treatments_issues)
-        
-        # 4. Assess Demographics consistency
-        demographics_score, demographics_issues = self._assess_demographics(gtmf_dict.get("Context_Fields", {}).get("Patient_Demographics", {}))
-        field_scores["demographics"] = demographics_score
-        issues.extend(demographics_issues)
-        
-        # 5. Overall completeness check
-        completeness_score = self._assess_completeness(medical_text, gtmf_dict)
-        
-        # 6. Consistency check
-        consistency_score = self._assess_consistency(gtmf_dict)
-        
-        # 7. Azure AI-based accuracy assessment
-        accuracy_score, confidence_score = self._azure_accuracy_assessment(medical_text, gtmf_dict)
-
-        # Generate recommendations
-        recommendations = self._generate_recommendations(field_scores, issues)
-
-        return GTMFQualityScore(
-            completeness_score=completeness_score,
-            accuracy_score=accuracy_score,
-            consistency_score=consistency_score,
-            confidence_score=confidence_score,
-            field_scores=field_scores,
-            issues=issues,
-            recommendations=recommendations
-        )
-    
-    def _assess_symptoms(self, text: str, symptoms: List[Dict]) -> Tuple[float, List[str]]:
-        """Assess symptom extraction quality"""
-        issues = []
-        
-        if not symptoms:
-            # Check if text actually contains symptoms
-            symptom_indicators = ["pain", "ache", "discomfort", "nausea", "vomiting", "fatigue", 
-                                "fever", "cough", "shortness of breath", "dizzy", "headache"]
-            text_lower = text.lower()
-            if any(indicator in text_lower for indicator in symptom_indicators):
-                issues.append("Symptoms present in text but none extracted")
-                return 0.2, issues
-            else:
-                return 1.0, issues  # No symptoms to extract
-        
-        # Check for quality issues in extracted symptoms
-        valid_symptoms = 0
-        for symptom in symptoms:
-            desc = symptom.get("description", "").strip()
-            if not desc or desc == "not provided":
-                issues.append("Empty or placeholder symptom description found")
-                continue
-            
-            # Check if symptom appears in original text
-            if desc.lower() not in text.lower():
-                # Try partial matching
-                words = desc.lower().split()
-                if not any(word in text.lower() for word in words if len(word) > 3):
-                    issues.append(f"Symptom '{desc}' not clearly found in original text")
-                    continue
-            
-            valid_symptoms += 1
-        
-        score = valid_symptoms / len(symptoms) if symptoms else 1.0
-        return score, issues
-    
-    def _assess_diagnoses(self, text: str, diagnoses: List[Dict]) -> Tuple[float, List[str]]:
-        """Assess diagnosis extraction quality"""
-        issues = []
-        
-        if not diagnoses:
-            # Check if text contains diagnostic information
-            diagnostic_indicators = ["diagnosis", "diagnosed", "condition", "disease", "syndrome"]
-            if any(indicator in text.lower() for indicator in diagnostic_indicators):
-                issues.append("Diagnostic information present but no diagnoses extracted")
-                return 0.3, issues
-            return 1.0, issues
-        
-        valid_diagnoses = 0
-        for diagnosis in diagnoses:
-            primary = diagnosis.get("primary", "").strip()
-            if not primary or primary == "not provided":
-                issues.append("Empty or placeholder diagnosis found")
-                continue
-            
-            # Simple validation - check if diagnosis terms appear in text
-            if primary.lower() not in text.lower():
-                words = primary.lower().split()
-                if not any(word in text.lower() for word in words if len(word) > 3):
-                    issues.append(f"Diagnosis '{primary}' not clearly supported by text")
-                    continue
-            
-            valid_diagnoses += 1
-        
-        score = valid_diagnoses / len(diagnoses) if diagnoses else 1.0
-        return score, issues
-    
-    def _assess_treatments(self, text: str, treatments: List[Dict]) -> Tuple[float, List[str]]:
-        """Assess treatment extraction quality"""
-        issues = []
-        
-        if not treatments:
-            treatment_indicators = ["treatment", "therapy", "medication", "surgery", "procedure"]
-            if any(indicator in text.lower() for indicator in treatment_indicators):
-                issues.append("Treatment information present but none extracted")
-                return 0.3, issues
-            return 1.0, issues
-        
-        valid_treatments = 0
-        for treatment in treatments:
-            procedure = treatment.get("procedure", "").strip()
-            if not procedure or procedure == "not provided":
-                issues.append("Empty or placeholder treatment found")
-                continue
-            
-            if procedure.lower() not in text.lower():
-                words = procedure.lower().split()
-                if not any(word in text.lower() for word in words if len(word) > 3):
-                    issues.append(f"Treatment '{procedure}' not clearly found in text")
-                    continue
-            
-            valid_treatments += 1
-        
-        score = valid_treatments / len(treatments) if treatments else 1.0
-        return score, issues
-    
-    def _assess_demographics(self, demographics: Dict) -> Tuple[float, List[str]]:
-        """Assess demographic data consistency"""
-        issues = []
-        
-        # Check for age consistency
-        age = demographics.get("Age", 0)
-        dob = demographics.get("Date_of_Birth", "")
-        admission_date = demographics.get("Admission_Date", "")
-        
-        if age > 0 and dob != "not provided" and admission_date != "not provided":
-            try:
-                # Recalculate age to verify
-                calculated_age = calculate_age(dob, admission_date)
-                if abs(calculated_age - age) > 1:  # Allow 1 year tolerance
-                    issues.append(f"Age inconsistency: stated {age}, calculated {calculated_age}")
-            except:
-                issues.append("Could not verify age calculation")
-        
-        # Check for missing critical demographics
-        required_fields = ["Age", "Sex"]
-        missing_fields = [field for field in required_fields 
-                         if demographics.get(field, "not provided") == "not provided"]
-        
-        if missing_fields:
-            issues.append(f"Missing required demographic fields: {', '.join(missing_fields)}")
-        
-        # Score based on completeness and consistency
-        total_fields = len(demographics)
-        filled_fields = sum(1 for v in demographics.values() 
-                           if v != "not provided" and str(v).strip())
-        
-        completeness_ratio = filled_fields / total_fields if total_fields > 0 else 1.0
-        consistency_penalty = len(issues) * 0.2
-        
-        score = max(0.0, completeness_ratio - consistency_penalty)
-        return score, issues
-    
-    def _assess_completeness(self, text: str, gtmf_dict: Dict) -> float:
-        """Assess overall completeness of extraction"""
-        text_length = len(text.split())
-        
-        # Count extracted content
-        core_fields = gtmf_dict.get("Core_Fields", {})
-        context_fields = gtmf_dict.get("Context_Fields", {})
-        
-        symptom_count = len([s for s in core_fields.get("Symptoms", []) 
-                           if s.get("description", "").strip() and s.get("description") != "not provided"])
-        diagnosis_count = len([d for d in core_fields.get("Diagnoses", []) 
-                             if d.get("primary", "").strip() and d.get("primary") != "not provided"])
-        treatment_count = len([t for t in core_fields.get("Treatment_Options", []) 
-                             if t.get("procedure", "").strip() and t.get("procedure") != "not provided"])
-        
-        # Expected content based on text length
-        expected_symptoms = min(10, max(1, text_length // 200))  # Rough heuristic
-        expected_diagnoses = min(5, max(1, text_length // 400))
-        expected_treatments = min(5, max(1, text_length // 300))
-        
-        symptom_completeness = min(1.0, symptom_count / expected_symptoms)
-        diagnosis_completeness = min(1.0, diagnosis_count / expected_diagnoses)
-        treatment_completeness = min(1.0, treatment_count / expected_treatments)
-        
-        overall_completeness = (symptom_completeness + diagnosis_completeness + treatment_completeness) / 3
-        return overall_completeness
-    
-    def _assess_consistency(self, gtmf_dict: Dict) -> float:
-        """Check internal consistency of GTMF data"""
-        consistency_score = 1.0
-        
-        # Check if symptoms align with diagnoses
-        symptoms = gtmf_dict.get("Core_Fields", {}).get("Symptoms", [])
-        diagnoses = gtmf_dict.get("Core_Fields", {}).get("Diagnoses", [])
-        
-        # Simple keyword matching for consistency
-        symptom_keywords = set()
-        for symptom in symptoms:
-            desc = symptom.get("description", "").lower()
-            symptom_keywords.update(desc.split())
-        
-        diagnosis_keywords = set()
-        for diagnosis in diagnoses:
-            primary = diagnosis.get("primary", "").lower()
-            diagnosis_keywords.update(primary.split())
-        
-        # Check for some overlap (not perfect, but basic consistency)
-        if symptom_keywords and diagnosis_keywords:
-            overlap = len(symptom_keywords.intersection(diagnosis_keywords))
-            if overlap == 0:
-                consistency_score -= 0.2  # Penalty for no keyword overlap
-        
-        return max(0.0, consistency_score)
-    
-    def _azure_accuracy_assessment(self, text: str, gtmf_dict: Dict) -> Tuple[float, float]:
-        """Use Azure AI to assess accuracy and provide confidence score"""
-        
-        system_message = """You are a medical information extraction quality assessor. Your task is to evaluate how accurately medical information has been extracted from clinical text."""
-        
-        user_message = f"""
-        Assess the accuracy of this medical information extraction:
-        
-        Original Text (first 500 chars): {text[:500]}...
-        
-        Extracted Information:
-        - Symptoms: {[s.get('description') for s in gtmf_dict.get('Core_Fields', {}).get('Symptoms', [])]}
-        - Diagnoses: {[d.get('primary') for d in gtmf_dict.get('Core_Fields', {}).get('Diagnoses', [])]}
-        - Treatments: {[t.get('procedure') for t in gtmf_dict.get('Core_Fields', {}).get('Treatment_Options', [])]}
-        
-        Rate the accuracy (0.0-1.0) and confidence (0.0-1.0) of these extractions.
-        Respond with just two numbers separated by a space: accuracy_score confidence_score
-        Example: 0.85 0.90
-        """
-        
-        try:
-            response = self.azure_client.chat_completion(system_message, user_message, temperature=0.1)
-            
-            # Parse scores
-            numbers = re.findall(r'0\.\d+|1\.0', response)
-            if len(numbers) >= 2:
-                accuracy = float(numbers[0])
-                confidence = float(numbers[1])
-                return accuracy, confidence
-            
-        except Exception as e:
-            logger.warning(f"Azure AI accuracy assessment failed: {e}")
-        
-        # Default scores if Azure AI assessment fails
-        return 0.7, 0.6
-    
-    def _generate_recommendations(self, field_scores: Dict[str, float], issues: List[str]) -> List[str]:
-        """Generate improvement recommendations based on scores and issues"""
-        recommendations = []
-        
-        # Field-specific recommendations
-        if field_scores.get("symptoms", 1.0) < 0.7:
-            recommendations.append("Improve symptom extraction: use more specific medical terminology matching")
-        
-        if field_scores.get("diagnoses", 1.0) < 0.7:
-            recommendations.append("Enhance diagnosis extraction: look for more diagnostic indicators in text")
-        
-        if field_scores.get("treatments", 1.0) < 0.7:
-            recommendations.append("Better treatment identification: include medications and procedures")
-        
-        if field_scores.get("demographics", 1.0) < 0.8:
-            recommendations.append("Improve demographic data validation and consistency checks")
-        
-        # Issue-based recommendations
-        if any("not clearly found" in issue for issue in issues):
-            recommendations.append("Enhance text-to-extraction matching validation")
-        
-        if any("Empty or placeholder" in issue for issue in issues):
-            recommendations.append("Improve extraction completeness - avoid placeholder values")
-        
-        return recommendations
-
-def extract_gtmf_chunked(medical_text: str, azure_client: AzureAIClient) -> Tuple[GTMF, GTMFQualityScore]:
+def extract_gtmf_chunked(medical_text: str, azure_client: AzureAIClient) -> GTMF:
     """
-    Extract structured GTMF data with chunking and quality assessment
+    Extract structured GTMF data with chunking
     """
-    logger.info("Extracting GTMF from medical text with chunking and quality assessment")
+    logger.info("Extracting GTMF from medical text with chunking")
     
     # Get GTMF schema
     schema_json = GTMF.model_json_schema()
@@ -658,18 +339,9 @@ def extract_gtmf_chunked(medical_text: str, azure_client: AzureAIClient) -> Tupl
     
     try:
         structured_output = GTMF(**merged_extraction)
-        
-        # Quality assessment
-        assessor = GTMFQualityAssessor(azure_client)
-        quality_score = assessor.assess_gtmf_quality(medical_text, structured_output)
-        
-        logger.info(f"GTMF extraction completed with quality scores: "
-                   f"Completeness={quality_score.completeness_score:.2f}, "
-                   f"Accuracy={quality_score.accuracy_score:.2f}, "
-                   f"Consistency={quality_score.consistency_score:.2f}")
-        
-        return structured_output, quality_score
-        
+        logger.info(f"GTMF extraction completed successfully")
+        return structured_output
+
     except Exception as e:
         logger.error(f"Error in extract_gtmf_chunked: {e}")
         raise
@@ -786,16 +458,11 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
     Returns:
         Tuple of (structured_results, quality_summary)
     """
-    logger.info("Processing fetched notes with Azure AI quality assessment")
+    logger.info("Processing fetched notes with Azure AI")
     structured_results = []
     quality_summary = {
         "total_processed": 0,
-        "high_quality": 0,  # >0.8 overall score
-        "medium_quality": 0,  # 0.6-0.8 overall score
-        "low_quality": 0,   # <0.6 overall score
         "json_parse_failures": 0,
-        "common_issues": [],
-        "average_scores": {},
         # Light case filtering stats
         "light_case_passed": 0,
         "light_case_failed": 0
@@ -839,23 +506,11 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
                 'Discharge_Date': dis_formatted
             }
 
-            # Extract GTMF with quality assessment using Azure AI
-            gtmf_instance, quality_score = extract_gtmf_chunked(row['text'], azure_client)
+            # Extract GTMF using Azure AI
+            gtmf_instance = extract_gtmf_chunked(row['text'], azure_client)
 
             # Update quality summary
             quality_summary["total_processed"] += 1
-            overall_score = (quality_score.completeness_score + 
-                           quality_score.accuracy_score + 
-                           quality_score.consistency_score) / 3
-            
-            if overall_score > 0.8:
-                quality_summary["high_quality"] += 1
-            elif overall_score > 0.6:
-                quality_summary["medium_quality"] += 1
-            else:
-                quality_summary["low_quality"] += 1
-            
-            quality_summary["common_issues"].extend(quality_score.issues)
 
             # Update GTMF with metadata and demographics
             gtmf_instance = gtmf_instance.model_copy(update={
@@ -866,52 +521,27 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
                     "Patient_Demographics": gtmf_instance.Context_Fields.Patient_Demographics.model_copy(update=demographics)
                 })
             })
-            
-            # Include quality scores in output
-            result_with_quality = gtmf_instance.model_dump()
-            result_with_quality["quality_assessment"] = {
-                "completeness_score": quality_score.completeness_score,
-                "accuracy_score": quality_score.accuracy_score,
-                "consistency_score": quality_score.consistency_score,
-                "confidence_score": quality_score.confidence_score,
-                "overall_score": overall_score,
-                "field_scores": quality_score.field_scores,
-                "issues": quality_score.issues,
-                "recommendations": quality_score.recommendations
-            }
+
+            # Prepare output
+            result = gtmf_instance.model_dump()
             # Add light case filter result
-            result_with_quality["light_case_filter"] = light_case_result
-            result_with_quality["case_type"] = "LIGHT_COMMON_SYMPTOMS"
-            
-            structured_results.append(result_with_quality)
-            logger.info(f"Processed note {idx} with overall quality score: {overall_score:.2f}")
+            result["light_case_filter"] = light_case_result
+            result["case_type"] = "LIGHT_COMMON_SYMPTOMS"
+
+            structured_results.append(result)
+            logger.info(f"Processed note {idx} successfully")
             
         except json.JSONDecodeError as e:
             logger.error(f"JSON parsing failed for note at index {idx}: {e}")
             quality_summary["json_parse_failures"] += 1
-            quality_summary["total_processed"] += 1  
-            quality_summary["low_quality"] += 1
+            quality_summary["total_processed"] += 1
         except Exception as e:
             logger.error(f"Error processing note at index {idx}: {e}")
             quality_summary["total_processed"] += 1
-            quality_summary["low_quality"] += 1
-    
-    # Calculate average scores
-    if structured_results:
-        avg_completeness = sum(r["quality_assessment"]["completeness_score"] for r in structured_results) / len(structured_results)
-        avg_accuracy = sum(r["quality_assessment"]["accuracy_score"] for r in structured_results) / len(structured_results)
-        avg_consistency = sum(r["quality_assessment"]["consistency_score"] for r in structured_results) / len(structured_results)
-        
-        quality_summary["average_scores"] = {
-            "completeness": avg_completeness,
-            "accuracy": avg_accuracy,
-            "consistency": avg_consistency
-        }
-    
-    # Log quality summary
-    logger.info(f"Quality Summary: {quality_summary['high_quality']} high, "
-               f"{quality_summary['medium_quality']} medium, "
-               f"{quality_summary['low_quality']} low quality extractions")
+
+    # Log summary
+    logger.info(f"Processing summary: {quality_summary['total_processed']} notes processed, "
+               f"{len(structured_results)} GTMFs created")
     logger.info(f"Light case filter: {quality_summary['light_case_passed']} passed, "
                f"{quality_summary['light_case_failed']} filtered out")
     logger.info(f"JSON parse failures: {quality_summary['json_parse_failures']}")
@@ -919,9 +549,9 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
     return structured_results, quality_summary
 
 def main():
-    """Main execution with Azure AI and quality reporting"""
-    logger.info("Starting GTMF extraction process with Azure AI quality assessment")
-    
+    """Main execution with Azure AI using CSV data"""
+    logger.info("Starting GTMF extraction process from CSV data")
+
     # Initialize Azure AI client
     try:
         azure_client = AzureAIClient()
@@ -929,45 +559,70 @@ def main():
     except Exception as e:
         logger.error(f"Failed to initialize Azure AI client: {e}")
         return
-    
-    engine = create_engine(get_db_uri())
-    Session = sessionmaker(bind=engine)
+
+    # CSV directory path - update this to your MIMIC-III CSV directory
+    csv_dir = os.getenv("MIMIC_CSV_DIR", "/path/to/mimic-iii/csv")
+
+    if not os.path.exists(csv_dir):
+        logger.error(f"CSV directory not found: {csv_dir}")
+        logger.info("Please set MIMIC_CSV_DIR environment variable or update the path in the code")
+        logger.info("Falling back to SQL database...")
+
+        # Fallback to SQL if CSV not available
+        try:
+            engine = create_engine(get_db_uri())
+            Session = sessionmaker(bind=engine)
+            with Session() as session:
+                results = fetch_notes(session)
+                if not results:
+                    logger.warning("No notes found matching criteria.")
+                    return
+        except Exception as e:
+            logger.error(f"SQL fallback also failed: {e}")
+            return
+    else:
+        # Load from CSV
+        try:
+            from Utils.csv_data_loader import CSVDataLoader
+            loader = CSVDataLoader(csv_dir)
+            results = loader.fetch_notes_with_light_case_filter(
+                category_filter="Discharge summary",
+                limit=100
+            )
+            if not results:
+                logger.warning("No light case notes found in CSV.")
+                return
+            logger.info(f"Loaded {len(results)} notes from CSV")
+        except Exception as e:
+            logger.error(f"Error loading CSV data: {e}")
+            return
 
     try:
-        with Session() as session:
-            results = fetch_notes(session)
-            if not results:
-                logger.warning("No notes found matching criteria.")
-                return
-            
-            structured_results, quality_summary = process_notes(results, azure_client)
-            
-            # Save results with quality information
-            output_path = 'gtmf/gtmf_example_minimal_enhanced.json'
-            with open(output_path, 'w', encoding='utf-8') as outfile:
-                json.dump(structured_results, outfile, indent=2)
-            
-            # Save quality summary
-            quality_report_path = 'gtmf/quality_report_minimal_enhanced.json'
-            with open(quality_report_path, 'w', encoding='utf-8') as outfile:
-                json.dump(quality_summary, outfile, indent=2)
-            
-            logger.info(f"Extraction complete. Results saved to {output_path}")
-            logger.info(f"Quality report saved to {quality_report_path}")
-            
-            # Print summary
-            print(f"\n=== GTMF Minimal Enhanced Quality Summary ===")
-            print(f"Total processed: {quality_summary['total_processed']}")
-            print(f"High quality (>0.8): {quality_summary['high_quality']}")
-            print(f"Medium quality (0.6-0.8): {quality_summary['medium_quality']}")
-            print(f"Low quality (<0.6): {quality_summary['low_quality']}")
-            print(f"JSON parse failures: {quality_summary['json_parse_failures']}")
-            print(f"Advanced validation used: {quality_summary['advanced_validation_used']}")
-            if quality_summary.get('average_scores'):
-                print(f"Average completeness: {quality_summary['average_scores']['completeness']:.2f}")
-                print(f"Average accuracy: {quality_summary['average_scores']['accuracy']:.2f}")
-                print(f"Average consistency: {quality_summary['average_scores']['consistency']:.2f}")
-            
+        # Process notes
+        structured_results, summary = process_notes(results, azure_client, batch_size=50)
+
+        # Save results
+        output_path = 'gtmf/gtmf_light_cases.json'
+        os.makedirs('gtmf', exist_ok=True)
+        with open(output_path, 'w', encoding='utf-8') as outfile:
+            json.dump(structured_results, outfile, indent=2)
+
+        # Save summary
+        summary_path = 'gtmf/processing_summary.json'
+        with open(summary_path, 'w', encoding='utf-8') as outfile:
+            json.dump(summary, outfile, indent=2)
+
+        logger.info(f"Extraction complete. Results saved to {output_path}")
+        logger.info(f"Summary saved to {summary_path}")
+
+        # Print summary
+        print(f"\n=== GTMF Processing Summary ===")
+        print(f"Total processed: {summary['total_processed']}")
+        print(f"GTMFs created: {len(structured_results)}")
+        print(f"Light cases passed: {summary['light_case_passed']}")
+        print(f"Light cases filtered: {summary['light_case_failed']}")
+        print(f"JSON parse failures: {summary['json_parse_failures']}")
+
     except Exception as e:
         logger.error(f"Error in main execution: {e}")
 
