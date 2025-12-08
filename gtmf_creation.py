@@ -5,6 +5,7 @@ from azure.ai.inference.models import SystemMessage, UserMessage
 from azure.core.credentials import AzureKeyCredential
 from Models.classes import GTMF
 from Utils.utils import format_date, calculate_age
+from Utils.bias_aware_prompts import GTMF_CREATION_PROMPT
 import re
 import os
 from typing import Dict, List, Tuple
@@ -252,19 +253,10 @@ def extract_gtmf_chunked(medical_text: str, azure_client: AzureAIClient) -> GTMF
     chunks = chunk_medical_text(medical_text, max_chunk_size=3000, overlap=200)
     logger.info(f"Processing {len(chunks)} chunks")
     
-    # MINIMAL ENHANCEMENT: Better system message for JSON quality
-    system_message = """You are a medical information extraction expert. Your task is to extract all relevant details from medical notes and convert them into structured JSON format.
+    # Use bias-aware prompt for GTMF extraction
+    system_message = GTMF_CREATION_PROMPT + """
 
     CRITICAL: Output ONLY valid JSON - no explanations, no markdown, no code blocks.
-
-    Key Instructions:
-    1. Extract ALL medical information present in the text
-    2. If you have multiple symptoms or diagnoses, create separate objects for each one
-    3. If information is missing, use 'not provided' for string fields or empty arrays for lists
-    4. Include medications as part of treatment options
-    5. Your output must be valid JSON that conforms to the provided schema
-    6. Focus on accuracy and completeness
-    
     Always start your response directly with the opening brace { and end with closing brace }"""
     
     all_extractions = []

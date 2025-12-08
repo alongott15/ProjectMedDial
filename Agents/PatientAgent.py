@@ -1,5 +1,6 @@
 import logging
 from Utils.llms_utils import load_gpt_model, chat_generate
+from Utils.bias_aware_prompts import PATIENT_AGENT_ADDITION
 import random
 
 logging.basicConfig(level=logging.INFO)
@@ -67,7 +68,9 @@ class PatientAgent:
                 "- If the doctor asks about symptoms not in your profile, politely clarify that you have not experienced those symptoms.\n"
 
                 "**NEVER reveal all symptoms at once - this scores poorly on realism!**\n"
-                "Build trust gradually and disclose information naturally over time."
+                "Build trust gradually and disclose information naturally over time.\n\n"
+
+                f"{PATIENT_AGENT_ADDITION}"
             )
         }
 

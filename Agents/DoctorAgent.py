@@ -1,5 +1,6 @@
 import logging
 from Utils.llms_utils import load_gpt_model, chat_generate
+from Utils.bias_aware_prompts import DOCTOR_AGENT_ADDITION
 # SQL database removed - lab results should be included in patient profile/GTMF if needed
 
 logging.basicConfig(level=logging.INFO)
@@ -102,8 +103,10 @@ class DoctorAgent:
                 "- Build semantic overlap with patient's language\n\n"
                 "- Ask about patient's health history and current symptoms first\n"
                 "- Always begin the conversation with a warm greeting and an open-ended question about the patient's general feeling like - 'How have you been feeling lately?'\n\n"
-                
-                "**PRIMARY GOAL:** Conduct an empathetic, systematic consultation using professional medical language."
+
+                "**PRIMARY GOAL:** Conduct an empathetic, systematic consultation using professional medical language.\n\n"
+
+                f"{DOCTOR_AGENT_ADDITION}"
             )
         }
 
