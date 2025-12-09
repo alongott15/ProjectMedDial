@@ -29,6 +29,7 @@ class PatientAgent:
         allergies_str = self._get_allergies(profile)
         current_medications_str = self._get_current_medications(profile)
         symptoms_str = self._get_symptoms(profile)
+        lab_tests_str = self._get_lab_tests(profile)
 
         # Enhanced patient persona with personality traits
         self.patient_persona = self._create_patient_persona()
@@ -45,6 +46,7 @@ class PatientAgent:
                 f"- Medical History: {medical_history_str}\n"
                 f"- Allergies: {allergies_str}\n"
                 f"- Current Medications: {current_medications_str}\n"
+                f"- Recent Lab Tests: {lab_tests_str}\n"
                 f"- Current Emotional State: {self.emotional_state}\n\n"
                 
                 "**CRITICAL BEHAVIOR FOR REALISTIC CONVERSATION:**\n"
@@ -221,8 +223,31 @@ class PatientAgent:
         return ", ".join(allergies) if allergies else "None known or not specified in profile."
 
     def _get_current_medications(self, profile: dict) -> str:
+        """
+        Get current medications from profile.
+        Prefers structured prescriptions data if available, otherwise uses GTMF-extracted medications.
+        """
+        # First check for structured prescriptions (from MIMIC-III PRESCRIPTIONS table)
+        structured_prescriptions = profile.get("structured_prescriptions", [])
+        if structured_prescriptions:
+            med_names = []
+            for rx in structured_prescriptions[:10]:  # Limit to first 10 to avoid overwhelming
+                drug = rx.get('drug', '').strip()
+                if drug:
+                    # Include dose info if available for realism
+                    dose = rx.get('dose_val_rx', '')
+                    if dose:
+                        med_names.append(f"{drug} {dose}")
+                    else:
+                        med_names.append(drug)
+            if med_names:
+                return ", ".join(med_names)
+
+        # Fallback to GTMF-extracted medications
         meds = profile.get("Context_Fields", {}).get("Current_Medications", [])
-        if not meds: return "Not specified in profile."
+        if not meds:
+            return "Not specified in profile."
+
         med_names = []
         for med_item in meds:
             if isinstance(med_item, dict) and "name" in med_item:
@@ -230,7 +255,30 @@ class PatientAgent:
             elif isinstance(med_item, str):
                 med_names.append(med_item)
         return ", ".join(med_names) if med_names else "Not specified in profile."
-    
+
+    def _get_lab_tests(self, profile: dict) -> str:
+        """
+        Get lab tests from profile.
+        Patients typically know they had tests done but may not know specific values.
+        """
+        lab_results = profile.get("lab_results", [])
+        if not lab_results:
+            return "No recent lab tests recorded in profile."
+
+        # Extract unique test names (patients know test types, not always values)
+        test_names = set()
+        for lab in lab_results[:15]:  # Limit to avoid overwhelming
+            label = lab.get('label', '').strip()
+            if label:
+                test_names.add(label)
+
+        if test_names:
+            # Keep it simple - just list test types
+            tests_list = sorted(list(test_names))[:8]  # Top 8 most relevant
+            return f"Had tests including: {', '.join(tests_list)}"
+
+        return "No recent lab tests recorded in profile."
+
     def _get_symptoms(self, profile: dict) -> str:
         symptoms_list = profile.get("Core_Fields", {}).get("Symptoms", [])
         if not symptoms_list: return "No specific symptoms listed in profile to discuss."
