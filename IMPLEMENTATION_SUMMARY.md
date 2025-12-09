@@ -261,15 +261,24 @@ stats = pipeline.run_pipeline(gtmf_data=profiles[:10])
 
 ---
 
-### 8. CSV Data Processing ✓
+### 8. CSV Data Processing with Structured Data Enrichment ✓
 
-**File**: `Utils/csv_data_loader.py` (new, 251 lines)
+**File**: `Utils/csv_data_loader.py` (extended with 260+ lines)
 
-Alternative to SQL database:
+Complete CSV-based data loading with structured data enrichment:
 - Loads MIMIC-III from CSV files (NOTEEVENTS.csv, PATIENTS.csv, ADMISSIONS.csv)
-- Joins data automatically
+- **NEW**: Enriches GTMFs with structured data from additional tables:
+  - DIAGNOSES_ICD + D_ICD_DIAGNOSES: ICD-9 diagnosis codes and descriptions
+  - PROCEDURES_ICD + D_ICD_PROCEDURES: ICD-9 procedure codes and descriptions
+  - PRESCRIPTIONS: Medication prescriptions with dosage information
+  - LABEVENTS + D_LABITEMS: Laboratory test results
+- Lazy loading for memory efficiency
 - Includes light case filtering
-- Complete workflow: CSV → GTMF → JSON
+- Complete workflow: CSV → Structured Data Enrichment → GTMF → JSON
+
+**Key Methods**:
+- `get_structured_data_for_admission(subject_id, hadm_id)`: Fetches all structured clinical data
+- `fetch_notes(include_structured_data=True)`: Includes structured data with each note
 
 **Usage**:
 ```python
@@ -281,6 +290,58 @@ results, summary = csv_to_gtmf_workflow(
     limit=50,
     batch_size=10
 )
+
+# GTMFs now include:
+# - structured_diagnoses: List of ICD-9 diagnoses with descriptions
+# - structured_procedures: List of ICD-9 procedures with descriptions
+# - structured_prescriptions: List of prescriptions with dosage
+# - lab_results: List of lab test results
+```
+
+---
+
+### 9. Agent Integration with Structured Data ✓
+
+**Files**:
+- `Agents/DoctorAgent.py` (modified)
+- `Agents/PatientAgent.py` (modified)
+- `Utils/partial_profile.py` (modified)
+
+**DoctorAgent Enhancements**:
+- Added `_get_structured_diagnoses()`: Access ICD diagnosis codes from profile
+- Added `_get_structured_procedures()`: Access ICD procedure codes from profile
+- Added `_get_structured_prescriptions()`: Access prescription data from profile
+- Updated `_get_patient_test_results()`: Access lab results from profile (no SQL database)
+
+**PatientAgent Enhancements**:
+- Enhanced `_get_current_medications()`: Prefers structured prescriptions (from PRESCRIPTIONS table) when available, falls back to GTMF-extracted medications
+- Added `_get_lab_tests()`: Informs patient about recent lab tests they've had
+- Structured data provides more accurate medication names and dosage information
+- Patients realistically know about tests performed even if they don't know results
+
+**Partial Profile Filtering**:
+- Updated `generate_partial_profiles()` to properly filter structured data based on profile type:
+  - **FULL**: Keeps all structured data (diagnoses, procedures, prescriptions, lab_results)
+  - **NO_DIAGNOSIS**: Removes `structured_diagnoses` (keeps procedures, prescriptions, lab_results)
+  - **NO_DIAGNOSIS_NO_TREATMENT**: Removes `structured_diagnoses`, `structured_procedures`, `structured_prescriptions` (keeps lab_results)
+- Ensures agents only have access to data appropriate for their profile type
+- Lab results retained in all profiles (patients typically know they had tests done)
+
+**Complete Data Flow**:
+```
+MIMIC-III CSV Files
+    ↓
+CSVDataLoader (loads 7+ tables)
+    ↓
+Structured Data Enrichment
+    ↓
+GTMF Creation (gtmf_creation.py)
+    ↓
+Profile Type Filtering (partial_profile.py)
+    ↓
+Agent Initialization (DoctorAgent, PatientAgent)
+    ↓
+Dialogue Generation (dialogue_generation_framework.py)
 ```
 
 ---
@@ -298,14 +359,18 @@ results, summary = csv_to_gtmf_workflow(
 8. `dialogue_generation_framework.py` (463 lines)
 9. `FRAMEWORK_GUIDE.md` (comprehensive documentation)
 
-### Modified Files (3)
-1. `gtmf_creation.py`: +73 lines (light case filter, batch support)
-2. `Utils/partial_profile.py`: Complete rewrite (27 → 53 lines)
-3. `requirements.txt`: +5 packages
+### Modified Files (6)
+1. `gtmf_creation.py`: +333 lines (light case filter, batch support, structured data enrichment)
+2. `Utils/partial_profile.py`: Extended (+34 lines for structured data filtering)
+3. `Utils/csv_data_loader.py`: Extended (+260 lines for structured data loading)
+4. `Agents/DoctorAgent.py`: +38 lines (structured data access methods, bias-aware prompts)
+5. `Agents/PatientAgent.py`: +40 lines (structured medications, lab tests support)
+6. `requirements.txt`: Modified (removed sqlalchemy, kept pandas)
 
 ### Total Addition
-- **~1,550 new lines of code**
-- **~100 lines modified in existing files**
+- **~1,550 new lines of code** (new agents and framework)
+- **~705 lines added to existing files** (structured data integration)
+- **~26 lines removed** (SQL database code)
 - **Zero breaking changes to existing functionality**
 
 ---
