@@ -115,7 +115,7 @@ class DoctorAgent:
         Get patient test results from profile.
 
         NOTE: Lab results are no longer fetched from database.
-        If test results are needed, they should be included in the patient_profile/GTMF.
+        Test results are included in the patient_profile/GTMF from CSV data.
         """
         if not self.patient_profile:
             return []
@@ -129,6 +129,24 @@ class DoctorAgent:
         # No lab results available
         logger.debug("No lab results found in patient profile")
         return []
+
+    def _get_structured_diagnoses(self) -> list:
+        """Get structured ICD diagnosis codes from profile."""
+        if not self.patient_profile:
+            return []
+        return self.patient_profile.get("structured_diagnoses", [])
+
+    def _get_structured_procedures(self) -> list:
+        """Get structured ICD procedure codes from profile."""
+        if not self.patient_profile:
+            return []
+        return self.patient_profile.get("structured_procedures", [])
+
+    def _get_structured_prescriptions(self) -> list:
+        """Get structured prescription data from profile."""
+        if not self.patient_profile:
+            return []
+        return self.patient_profile.get("structured_prescriptions", [])
 
     def _detect_patient_emotion(self, patient_message: str) -> str:
         """Simple emotion detection to improve empathy scoring"""
