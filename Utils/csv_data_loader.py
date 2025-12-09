@@ -21,6 +21,13 @@ class CSVDataLoader:
     - NOTEEVENTS.csv: Clinical notes
     - PATIENTS.csv: Patient demographics
     - ADMISSIONS.csv: Admission records
+    - DIAGNOSES_ICD.csv: ICD diagnosis codes
+    - PROCEDURES_ICD.csv: ICD procedure codes
+    - PRESCRIPTIONS.csv: Medication prescriptions
+    - LABEVENTS.csv: Laboratory test results
+    - D_ICD_DIAGNOSES.csv: Diagnosis code descriptions
+    - D_ICD_PROCEDURES.csv: Procedure code descriptions
+    - D_LABITEMS.csv: Lab item descriptions
     """
 
     def __init__(self, csv_dir: str):
@@ -36,10 +43,21 @@ class CSVDataLoader:
 
         logger.info(f"CSV data loader initialized with directory: {csv_dir}")
 
-        # Lazy loading of dataframes
+        # Lazy loading of dataframes - core tables
         self._noteevents = None
         self._patients = None
         self._admissions = None
+
+        # Lazy loading - structured clinical data
+        self._diagnoses_icd = None
+        self._procedures_icd = None
+        self._prescriptions = None
+        self._labevents = None
+
+        # Lazy loading - dictionary tables
+        self._d_icd_diagnoses = None
+        self._d_icd_procedures = None
+        self._d_labitems = None
 
     @property
     def noteevents(self) -> pd.DataFrame:
