@@ -141,17 +141,6 @@ def gtmf_to_markdown(gtmf: GTMF | dict[str, any]) -> str:
                 lines.append(f"- {med}")
         lines.append("")
 
-    # Lab Results (if structured data available)
-    labs = gtmf_dict.get('lab_results', [])
-    if labs:
-        lines.append("## Lab Results\n")
-        for lab in labs[:15]:  # Limit to first 15
-            label = lab.get('label', 'Unknown')
-            value = lab.get('valuenum', lab.get('value', ''))
-            unit = lab.get('valueuom', '')
-            lines.append(f"- {label}: {value} {unit}".strip())
-        lines.append("")
-
     # Diagnoses (if in profile type)
     diagnoses = gtmf_dict.get('Core_Fields', {}).get('Diagnoses', [])
     if diagnoses:
@@ -244,17 +233,6 @@ def gtmf_to_markdown(gtmf: GTMF | dict[str, any]) -> str:
 
     if has_structured:
         lines.extend(structured_lines)
-
-    # Metadata
-    lines.append("## Metadata\n")
-    case_type = gtmf_dict.get('case_type', gtmf_dict.get('light_case_filter', {}).get('case_type', 'UNKNOWN'))
-    lines.append(f"- **Case Type**: {case_type}")
-
-    filter_info = gtmf_dict.get('light_case_filter', {})
-    if filter_info.get('passed') is not None:
-        lines.append(f"- **Light Case Filter**: {'Passed' if filter_info.get('passed') else 'Failed'}")
-
-    lines.append("")
 
     return "\n".join(lines)
 
@@ -393,14 +371,6 @@ def markdown_to_gtmf_dict(markdown_content: str) -> dict[str, any]:
                 if med_data:
                     gtmf['Context_Fields']['Discharge_Medications'].append(med_data)
 
-        elif current_section == 'Lab Results':
-            if line_stripped.startswith('- '):
-                if 'lab_results' not in gtmf:
-                    gtmf['lab_results'] = []
-                lab_entry = _parse_lab_result(line_stripped[2:])
-                if lab_entry:
-                    gtmf['lab_results'].append(lab_entry)
-
         elif current_section == 'Diagnoses':
             if line_stripped.startswith('- '):
                 diag_data = _parse_diagnosis(line_stripped[2:])
@@ -454,15 +424,6 @@ def markdown_to_gtmf_dict(markdown_content: str) -> dict[str, any]:
                     rx_entry = _parse_prescription(line_stripped[2:])
                     if rx_entry:
                         gtmf['structured_prescriptions'].append(rx_entry)
-
-        elif current_section == 'Metadata':
-            if '**Case Type**:' in line_stripped:
-                gtmf['case_type'] = _extract_value(line_stripped)
-            elif '**Light Case Filter**:' in line_stripped:
-                passed = 'Passed' in line_stripped
-                if 'light_case_filter' not in gtmf:
-                    gtmf['light_case_filter'] = {}
-                gtmf['light_case_filter']['passed'] = passed
 
     return gtmf
 
@@ -541,17 +502,6 @@ def _parse_medication(line: str) -> dict[str, str]:
             medication['purpose'] = part.split(':', 1)[1].strip()
 
     return medication
-
-
-def _parse_lab_result(line: str) -> dict[str, any]:
-    match = re.match(r'(.+?):\s*([0-9.]+)\s*(.+)?', line)
-    if match:
-        return {
-            'label': match.group(1).strip(),
-            'valuenum': float(match.group(2)),
-            'valueuom': match.group(3).strip() if match.group(3) else ''
-        }
-    return None
 
 
 def _parse_icd_entry(line: str) -> dict[str, any]:
