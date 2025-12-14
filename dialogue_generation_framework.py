@@ -1,23 +1,8 @@
-"""
-Main dialogue generation script implementing the PRD requirements.
-
-Features:
-- Light case GTMF processing
-- Three profile types (FULL, NO_DIAGNOSIS, NO_DIAGNOSIS_NO_TREATMENT)
-- Iterative dialogue generation (up to 3 attempts)
-- JudgeAgent for naturalness validation
-- PromptImprovementAgent for feedback
-- EHR and dialogue summarization
-- STS evaluation
-- Comprehensive statistics
-"""
-
 import json
 import logging
 import os
 import time
 from pathlib import Path
-from typing import Dict, List, Tuple
 
 from Utils.partial_profile import generate_partial_profiles
 from Utils.markdown_gtmf import load_all_gtmfs_from_directory
@@ -35,10 +20,6 @@ logger = logging.getLogger(__name__)
 
 
 class DialogueGenerationPipeline:
-    """
-    Pipeline for generating and evaluating synthetic patient-physician dialogues.
-    """
-
     def __init__(
         self,
         max_attempts: int = 3,
@@ -46,15 +27,6 @@ class DialogueGenerationPipeline:
         judge_threshold: float = 0.70,
         output_dir: str = "output_dialogue_framework"
     ):
-        """
-        Initialize the dialogue generation pipeline.
-
-        Args:
-            max_attempts: Maximum dialogue generation attempts per profile
-            max_turns: Maximum turns per dialogue
-            judge_threshold: Score threshold for realistic decision
-            output_dir: Output directory for results
-        """
         self.max_attempts = max_attempts
         self.max_turns = max_turns
         self.judge_threshold = judge_threshold
@@ -76,18 +48,7 @@ class DialogueGenerationPipeline:
         patient_profile: dict,
         full_profile: dict,
         ehr_text: str = None
-    ) -> Dict:
-        """
-        Generate dialogue with iterative improvement.
-
-        Args:
-            patient_profile: Partial profile for agents
-            full_profile: Complete profile for evaluation
-            ehr_text: Original EHR text for summarization
-
-        Returns:
-            Dict with dialogue, evaluation, summaries, and stats
-        """
+    ) -> dict:
         profile_id = f"{patient_profile.get('subject_id', 'unknown')}_{patient_profile.get('hadm_id', 'unknown')}"
         logger.info(f"\n{'='*60}")
         logger.info(f"Generating dialogue for profile: {profile_id}")
@@ -160,7 +121,7 @@ class DialogueGenerationPipeline:
 
                 # Check if successful
                 if judge_result['decision'] == "REALISTIC":
-                    logger.info(f"  ✓ Dialogue accepted on attempt {attempt_idx + 1}")
+                    logger.info(f"  Dialogue accepted on attempt {attempt_idx + 1}")
                     break
 
                 # If not successful and not last attempt, improve prompts
@@ -210,18 +171,7 @@ class DialogueGenerationPipeline:
         full_profile: dict,
         ehr_text: str = None,
         profile_type: str = "NO_DIAGNOSIS_NO_TREATMENT"
-    ) -> Dict:
-        """
-        Process a single profile through the complete pipeline.
-
-        Args:
-            full_profile: Complete GTMF profile
-            ehr_text: Original EHR text (for summarization)
-            profile_type: Type of partial profile to generate
-
-        Returns:
-            Complete result dict with dialogue, summaries, STS, and stats
-        """
+    ) -> dict:
         profile_id = f"{full_profile.get('subject_id', 'unknown')}_{full_profile.get('hadm_id', 'unknown')}"
         logger.info(f"\n{'='*80}")
         logger.info(f"Processing profile {profile_id} (type: {profile_type})")
@@ -297,27 +247,16 @@ class DialogueGenerationPipeline:
         output_path = self.output_dir / f"dialogue_{profile_id}.json"
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(result, f, indent=2)
-        logger.info(f"  ✓ Saved result to {output_path}")
+        logger.info(f"  Saved result to {output_path}")
 
         return result
 
     def run_pipeline(
         self,
-        gtmf_data: List[dict],
-        ehr_texts: Dict[str, str] = None,
-        profile_types: List[str] = None
-    ) -> Dict:
-        """
-        Run the complete pipeline on multiple profiles.
-
-        Args:
-            gtmf_data: List of GTMF profiles
-            ehr_texts: Optional dict mapping profile_id to EHR text
-            profile_types: List of profile types to generate (default: all three)
-
-        Returns:
-            Global statistics and summary
-        """
+        gtmf_data: list[dict],
+        ehr_texts: dict[str, str] = None,
+        profile_types: list[str] = None
+    ) -> dict:
         if profile_types is None:
             profile_types = ["FULL", "NO_DIAGNOSIS", "NO_DIAGNOSIS_NO_TREATMENT"]
 
@@ -416,7 +355,6 @@ class DialogueGenerationPipeline:
 
 
 def main():
-    """Main entry point."""
     logger.info("Starting Synthetic Patient-Physician Conversation Framework")
 
     # Load GTMF data from Markdown files (light cases only)
@@ -462,7 +400,7 @@ def main():
         profile_types=["NO_DIAGNOSIS_NO_TREATMENT"]  # Can extend to all three types
     )
 
-    logger.info("\n✓ Pipeline completed successfully!")
+    logger.info("\nPipeline completed successfully!")
     logger.info(f"Results saved to: {pipeline.output_dir}")
 
 

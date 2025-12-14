@@ -9,8 +9,6 @@ from Utils.bias_aware_prompts import GTMF_CREATION_PROMPT
 from Utils.markdown_gtmf import save_gtmf_markdown
 import re
 import os
-from typing import Dict, List, Tuple
-from dataclasses import dataclass
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -157,7 +155,7 @@ class AzureAIClient:
             logger.error(f"Azure AI completion failed: {e}")
             raise
 
-def chunk_medical_text(text: str, max_chunk_size: int = 3000, overlap: int = 200) -> List[str]:
+def chunk_medical_text(text: str, max_chunk_size: int = 3000, overlap: int = 200) -> list[str]:
     if len(text) <= max_chunk_size:
         return [text]
 
@@ -256,7 +254,7 @@ def extract_gtmf_chunked(medical_text: str, azure_client: AzureAIClient) -> GTMF
         logger.error(f"Error in extract_gtmf_chunked: {e}")
         raise
 
-def merge_gtmf_extractions(extractions: List[Dict]) -> Dict:
+def merge_gtmf_extractions(extractions: list[dict]) -> dict:
     if not extractions:
         raise ValueError("No extractions to merge")
 
@@ -319,13 +317,15 @@ def merge_gtmf_extractions(extractions: List[Dict]) -> Dict:
 
     return merged
 
-def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
-    structured_results = []
+def process_notes(results, azure_client: AzureAIClient, output_dir: str = 'gtmf'):
+    os.makedirs(output_dir, exist_ok=True)
+
     quality_summary = {
         "total_processed": 0,
         "json_parse_failures": 0,
         "light_case_passed": 0,
-        "light_case_failed": 0
+        "light_case_failed": 0,
+        "gtmfs_created": 0
     }
 
     for idx, row in enumerate(results):
@@ -371,7 +371,13 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
             result["light_case_filter"] = light_case_result
             result["case_type"] = "LIGHT_COMMON_SYMPTOMS"
 
-            structured_results.append(result)
+            subject_id = row['subject_id']
+            hadm_id = row['hadm_id']
+            filename = f"gtmf_{subject_id}_{hadm_id}.md"
+            output_path = os.path.join(output_dir, filename)
+            save_gtmf_markdown(result, output_path)
+
+            quality_summary["gtmfs_created"] += 1
 
         except json.JSONDecodeError as e:
             logger.error(f"JSON parsing failed for note at index {idx}: {e}")
@@ -381,7 +387,7 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
             logger.error(f"Error processing note at index {idx}: {e}")
             quality_summary["total_processed"] += 1
 
-    return structured_results, quality_summary
+    return quality_summary
 
 def main():
     try:
@@ -415,25 +421,16 @@ def main():
         return
 
     try:
-        structured_results, summary = process_notes(results, azure_client, batch_size=50)
-
         output_dir = 'gtmf'
-        os.makedirs(output_dir, exist_ok=True)
+        summary = process_notes(results, azure_client, output_dir)
 
-        for idx, gtmf in enumerate(structured_results):
-            subject_id = gtmf.get('subject_id', f'unknown_{idx}')
-            hadm_id = gtmf.get('hadm_id', idx)
-            filename = f"gtmf_{subject_id}_{hadm_id}.md"
-            output_path = os.path.join(output_dir, filename)
-            save_gtmf_markdown(gtmf, output_path)
-
-        summary_path = 'gtmf/processing_summary.json'
+        summary_path = os.path.join(output_dir, 'processing_summary.json')
         with open(summary_path, 'w', encoding='utf-8') as outfile:
             json.dump(summary, outfile, indent=2)
 
         print(f"\n=== GTMF Processing Summary ===")
         print(f"Total processed: {summary['total_processed']}")
-        print(f"GTMFs created: {len(structured_results)}")
+        print(f"GTMFs created: {summary['gtmfs_created']}")
         print(f"Light cases passed: {summary['light_case_passed']}")
         print(f"Light cases filtered: {summary['light_case_failed']}")
         print(f"JSON parse failures: {summary['json_parse_failures']}")

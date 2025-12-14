@@ -1,7 +1,6 @@
 import logging
 import pandas as pd
 from pathlib import Path
-from typing import List, Dict, Optional
 from Utils.markdown_gtmf import save_gtmf_markdown
 import os
 
@@ -45,7 +44,7 @@ class CSVDataLoader:
         category_filter: str = "Discharge summary",
         text_filter: str = "Chief Complaint",
         limit: int = 100
-    ) -> List[Dict]:
+    ) -> list[dict]:
         notes = self.noteevents.copy()
 
         if category_filter:
@@ -99,9 +98,9 @@ class CSVDataLoader:
         self,
         category_filter: str = "Discharge summary",
         limit: int = 100,
-        light_case_include_terms: List[str] = None,
-        light_case_exclude_terms: List[str] = None
-    ) -> List[Dict]:
+        light_case_include_terms: list[str] = None,
+        light_case_exclude_terms: list[str] = None
+    ) -> list[dict]:
         from gtmf_creation import is_light_common_case
 
         all_notes = self.fetch_notes(
@@ -123,7 +122,7 @@ class CSVDataLoader:
         return light_case_notes
 
 
-def csv_to_gtmf_workflow(csv_dir: str, output_path: str, limit: int = 50, batch_size: int = 10):
+def csv_to_gtmf_workflow(csv_dir: str, output_path: str, limit: int = 50):
     from gtmf_creation import AzureAIClient, process_notes
     import json
 
@@ -136,44 +135,29 @@ def csv_to_gtmf_workflow(csv_dir: str, output_path: str, limit: int = 50, batch_
 
     if not notes:
         logger.error("No light case notes found")
-        return [], {}
+        return {}
 
     azure_client = AzureAIClient()
 
-    structured_results, quality_summary = process_notes(
-        notes,
-        azure_client,
-        batch_size=batch_size
-    )
-
     output_dir = os.path.dirname(output_path) if os.path.dirname(output_path) else 'gtmf'
-    os.makedirs(output_dir, exist_ok=True)
-
-    for idx, gtmf in enumerate(structured_results):
-        subject_id = gtmf.get('subject_id', f'unknown_{idx}')
-        hadm_id = gtmf.get('hadm_id', idx)
-        filename = f"gtmf_{subject_id}_{hadm_id}.md"
-        md_output_path = os.path.join(output_dir, filename)
-        save_gtmf_markdown(gtmf, md_output_path)
+    quality_summary = process_notes(notes, azure_client, output_dir)
 
     summary_path = os.path.join(output_dir, 'processing_summary.json')
     with open(summary_path, 'w', encoding='utf-8') as f:
         json.dump(quality_summary, f, indent=2)
 
-    return structured_results, quality_summary
+    return quality_summary
 
 
 if __name__ == "__main__":
     csv_dir = "/path/to/mimic-iii/csv"
     output_path = "gtmf"
 
-    results, summary = csv_to_gtmf_workflow(
+    summary = csv_to_gtmf_workflow(
         csv_dir=csv_dir,
         output_path=output_path,
-        limit=50,
-        batch_size=10
+        limit=50
     )
 
-    print(f"\nProcessed {len(results)} notes")
+    print(f"\nGTMFs created: {summary.get('gtmfs_created', 0)}")
     print(f"Light cases: {summary.get('light_case_passed', 0)}")
-    print(f"High quality: {summary.get('high_quality', 0)}")
