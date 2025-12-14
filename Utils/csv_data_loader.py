@@ -110,16 +110,18 @@ class CSVDataLoader:
         )
 
         light_case_notes = []
+        other_notes = []
+
         for note in all_notes:
             filter_result = is_light_common_case(note['text'])
+            note['light_case_filter'] = filter_result
             if filter_result['passed']:
-                note['light_case_filter'] = filter_result
                 light_case_notes.append(note)
+            else:
+                other_notes.append(note)
 
-            if len(light_case_notes) >= limit:
-                break
-
-        return light_case_notes
+        combined_notes = light_case_notes + other_notes
+        return combined_notes[:limit]
 
 
 def csv_to_gtmf_workflow(csv_dir: str, output_path: str, limit: int = 50):

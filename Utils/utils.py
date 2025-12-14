@@ -1,5 +1,6 @@
 import os
 import logging
+import pandas as pd
 from datetime import datetime
 from dotenv import load_dotenv
 
@@ -11,39 +12,32 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 def format_date(dt, fmt: str) -> str:
-    """
-    Format a datetime object as a string.
-
-    Args:
-        dt: A datetime object or a value convertible to a string.
-        fmt (str): The format string (e.g., '%Y-%m-%d').
-
-    Returns:
-        str: Formatted date string or a default message.
-    """
-    formatted = dt.strftime(fmt) if hasattr(dt, 'strftime') else str(dt or 'Not provided')
-    logger.debug(f"Formatted date: {formatted}")
-    return formatted
+    if pd.isna(dt) or dt is None:
+        return 'Not provided'
+    if hasattr(dt, 'strftime'):
+        return dt.strftime(fmt)
+    dt_str = str(dt)
+    try:
+        parsed = pd.to_datetime(dt_str)
+        return parsed.strftime(fmt)
+    except:
+        return dt_str
 
 def calculate_age(birth_date_str: str, admission_date_str: str) -> int:
-    """
-    Calculate the age of the patient at admission.
-
-    Args:
-        birth_date_str (str): Birth date in '%Y-%m-%d' format.
-        admission_date_str (str): Admission date in '%Y-%m-%d %H:%M:%S' format.
-
-    Returns:
-        int: Patient age at admission.
-    """
     try:
-        birth_date = datetime.strptime(birth_date_str, '%Y-%m-%d')
-        admission_date = datetime.strptime(admission_date_str, '%Y-%m-%d %H:%M:%S')
+        if not birth_date_str or birth_date_str == 'Not provided':
+            return -1
+        if not admission_date_str or admission_date_str == 'Not provided':
+            return -1
+
+        birth_date = pd.to_datetime(birth_date_str)
+        admission_date = pd.to_datetime(admission_date_str)
+
         age = admission_date.year - birth_date.year
         if (admission_date.month, admission_date.day) < (birth_date.month, birth_date.day):
             age -= 1
-        logger.info(f"Calculated age: {age} (Birth: {birth_date_str}, Admission: {admission_date_str})")
+
         return age
     except Exception as e:
-        logger.error(f"Error calculating age: {e}")
+        logger.error(f"Error calculating age: {e} (Birth: {birth_date_str}, Admission: {admission_date_str})")
         return -1

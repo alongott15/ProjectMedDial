@@ -1,27 +1,10 @@
-"""
-Utilities for reading and writing GTMFs in Markdown format.
-Provides human-readable, version-control-friendly GTMF storage.
-Works with Pydantic GTMF models from Models.classes.
-"""
-
 import os
 import re
 from pathlib import Path
-from typing import Dict, List, Any, Union
 from Models.classes import GTMF, Symptom, Diagnosis, Medication, TreatmentOption
 
 
-def gtmf_to_markdown(gtmf: Union[GTMF, Dict[str, Any]]) -> str:
-    """
-    Convert a GTMF (Pydantic model or dict) to Markdown format.
-
-    Args:
-        gtmf: GTMF Pydantic model or dictionary
-
-    Returns:
-        Markdown-formatted string
-    """
-    # Convert Pydantic model to dict if needed
+def gtmf_to_markdown(gtmf: GTMF | dict[str, any]) -> str:
     if isinstance(gtmf, GTMF):
         gtmf_dict = gtmf.model_dump() if hasattr(gtmf, 'model_dump') else gtmf.dict()
     else:
@@ -276,16 +259,7 @@ def gtmf_to_markdown(gtmf: Union[GTMF, Dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def markdown_to_gtmf_dict(markdown_content: str) -> Dict[str, Any]:
-    """
-    Convert Markdown-formatted GTMF back to dictionary (compatible with Pydantic models).
-
-    Args:
-        markdown_content: Markdown string
-
-    Returns:
-        Dictionary compatible with GTMF Pydantic model
-    """
+def markdown_to_gtmf_dict(markdown_content: str) -> dict[str, any]:
     gtmf = {
         'row_id': 0,
         'subject_id': 0,
@@ -493,17 +467,14 @@ def markdown_to_gtmf_dict(markdown_content: str) -> Dict[str, Any]:
     return gtmf
 
 
-# Helper parsing functions
 def _extract_value(line: str) -> str:
-    """Extract value after colon."""
     parts = line.split(':', 1)
     if len(parts) > 1:
         return parts[1].strip()
     return ''
 
 
-def _parse_symptom(line: str) -> Dict[str, str]:
-    """Parse symptom line: '**Cough** | onset: 3 days ago | duration: 3 days | severity: moderate'"""
+def _parse_symptom(line: str) -> dict[str, str]:
     parts = [p.strip() for p in line.split('|')]
 
     # Extract description (bolded)
@@ -528,8 +499,7 @@ def _parse_symptom(line: str) -> Dict[str, str]:
     return symptom
 
 
-def _parse_diagnosis(line: str) -> Dict[str, str]:
-    """Parse diagnosis line: '**Pneumonia** | notes: Community-acquired'"""
+def _parse_diagnosis(line: str) -> dict[str, str]:
     parts = [p.strip() for p in line.split('|')]
 
     # Extract primary diagnosis (bolded)
@@ -548,8 +518,7 @@ def _parse_diagnosis(line: str) -> Dict[str, str]:
     return diagnosis
 
 
-def _parse_medication(line: str) -> Dict[str, str]:
-    """Parse medication line: '**Lisinopril** | dosage: 10mg | frequency: daily | purpose: blood pressure'"""
+def _parse_medication(line: str) -> dict[str, str]:
     parts = [p.strip() for p in line.split('|')]
 
     # Extract name (bolded)
@@ -574,8 +543,7 @@ def _parse_medication(line: str) -> Dict[str, str]:
     return medication
 
 
-def _parse_lab_result(line: str) -> Dict[str, Any]:
-    """Parse lab result line: 'WBC: 11.2 K/uL'"""
+def _parse_lab_result(line: str) -> dict[str, any]:
     match = re.match(r'(.+?):\s*([0-9.]+)\s*(.+)?', line)
     if match:
         return {
@@ -586,8 +554,7 @@ def _parse_lab_result(line: str) -> Dict[str, Any]:
     return None
 
 
-def _parse_icd_entry(line: str) -> Dict[str, Any]:
-    """Parse ICD entry: '**786.2** (seq: 1): Cough' or '**786.2**: Cough'"""
+def _parse_icd_entry(line: str) -> dict[str, any]:
     match = re.match(r'\*\*(.+?)\*\*(?:\s*\(seq:\s*(\d+)\))?\s*:\s*(.+)', line)
     if match:
         entry = {
@@ -600,8 +567,7 @@ def _parse_icd_entry(line: str) -> Dict[str, Any]:
     return None
 
 
-def _parse_prescription(line: str) -> Dict[str, Any]:
-    """Parse prescription: 'Lisinopril 10mg'"""
+def _parse_prescription(line: str) -> dict[str, any]:
     parts = line.split(maxsplit=1)
     if parts:
         return {
@@ -611,8 +577,7 @@ def _parse_prescription(line: str) -> Dict[str, Any]:
     return None
 
 
-def save_gtmf_markdown(gtmf: Union[GTMF, Dict[str, Any]], output_path: str) -> None:
-    """Save GTMF (Pydantic model or dict) as Markdown file."""
+def save_gtmf_markdown(gtmf: GTMF | dict[str, any], output_path: str) -> None:
     markdown_content = gtmf_to_markdown(gtmf)
 
     # Create directory if needed
@@ -622,27 +587,14 @@ def save_gtmf_markdown(gtmf: Union[GTMF, Dict[str, Any]], output_path: str) -> N
         f.write(markdown_content)
 
 
-def load_gtmf_markdown(file_path: str) -> Dict[str, Any]:
-    """
-    Load GTMF from Markdown file.
-    Returns dictionary compatible with Pydantic GTMF model.
-    """
+def load_gtmf_markdown(file_path: str) -> dict[str, any]:
     with open(file_path, 'r', encoding='utf-8') as f:
         markdown_content = f.read()
 
     return markdown_to_gtmf_dict(markdown_content)
 
 
-def load_all_gtmfs_from_directory(directory: str) -> List[Dict[str, Any]]:
-    """
-    Load all GTMF markdown files from a directory.
-
-    Args:
-        directory: Path to directory containing .md GTMF files
-
-    Returns:
-        List of GTMF dictionaries (compatible with Pydantic models)
-    """
+def load_all_gtmfs_from_directory(directory: str) -> list[dict[str, any]]:
     gtmfs = []
     path = Path(directory)
 
