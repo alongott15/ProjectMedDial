@@ -76,10 +76,9 @@ class PatientAgent:
         }
 
     def _prepare_gradual_disclosure(self) -> list:
-        """Prepare symptoms for gradual, natural disclosure during conversation"""
         symptoms_list = self.profile.get("Core_Fields", {}).get("Symptoms", [])
         symptoms = []
-        
+
         for sym in symptoms_list:
             if isinstance(sym, dict):
                 desc = sym.get('description', '').strip()
@@ -87,40 +86,36 @@ class PatientAgent:
                     symptoms.append(desc.lower())
             elif isinstance(sym, str) and sym.strip():
                 symptoms.append(sym.strip().lower())
-        
-        # Simple prioritization: pain/breathing first, others later
+
         priority_symptoms = []
         secondary_symptoms = []
-        
+
         for symptom in symptoms:
             if any(term in symptom for term in ['pain', 'hurt', 'breath', 'chest']):
                 priority_symptoms.append(symptom)
             else:
                 secondary_symptoms.append(symptom)
-        
+
         return priority_symptoms + secondary_symptoms
 
     def _create_patient_persona(self) -> str:
-        """Create patient persona"""
         demo = self.profile.get("Context_Fields", {}).get("Patient_Demographics", {})
         age = demo.get('Age', 0)
         sex = demo.get('Sex', 'person')
-        
+
         if age < 30:
             age_desc = "young adult"
         elif age < 60:
             age_desc = "middle-aged person"
         else:
             age_desc = "older adult"
-            
+
         return f"a {age_desc} {sex.lower()} patient"
 
     def _determine_personality_traits(self) -> str:
-        """Determine personality traits based on demographics"""
         demo = self.profile.get("Context_Fields", {}).get("Patient_Demographics", {})
         age = demo.get('Age', 0)
 
-        # Age-based traits for natural behavior
         if age < 30:
             base_traits = ["somewhat anxious about health", "asks direct questions"]
         elif age < 60:
@@ -131,10 +126,9 @@ class PatientAgent:
         return ", ".join(base_traits)
 
     def _determine_emotional_state(self) -> str:
-        """Determine emotional state"""
         symptoms = self.profile.get("Core_Fields", {}).get("Symptoms", [])
         symptom_text = " ".join([str(s).lower() for s in symptoms])
-        
+
         if any(indicator in symptom_text for indicator in ["chest pain", "breath", "severe"]):
             return "anxious and worried"
         elif any(indicator in symptom_text for indicator in ["pain", "hurt", "discomfort"]):
@@ -177,10 +171,6 @@ class PatientAgent:
         return ", ".join(med_names) if med_names else "Not specified in profile."
 
     def _get_lab_tests(self, profile: dict) -> str:
-        """
-        Get lab tests from profile.
-        Note: Lab test information is not extracted in the current GTMF structure.
-        """
         return "No specific lab test information available in profile."
 
     def _get_symptoms(self, profile: dict) -> str:
@@ -198,21 +188,16 @@ class PatientAgent:
         return "; ".join(symptom_details) if symptom_details else "No specific symptoms listed in profile to discuss."
 
     def _get_symptoms_for_turn(self) -> list:
-        """Get symptoms that can be mentioned this turn (gradual disclosure)"""
         available_symptoms = [s for s in self.symptoms_to_disclose if s not in self.mentioned_symptoms]
-        
+
         if self.conversation_turn <= 2:
-            # Early: only main symptom
             return available_symptoms[:1] if available_symptoms else []
         elif self.conversation_turn <= 5:
-            # Mid: 1-2 symptoms
             return available_symptoms[:2] if available_symptoms else []
         else:
-            # Later: more open
             return available_symptoms[:3] if available_symptoms else []
 
     def respond(self, conversation_history: list) -> str:
-        """Generate patient's response in conversation."""
         self.conversation_turn += 1
 
         llm_messages = [self.system_message]

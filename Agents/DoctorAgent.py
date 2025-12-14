@@ -85,7 +85,6 @@ class DoctorAgent:
 
 
     def _detect_patient_emotion(self, patient_message: str) -> str:
-        """Detect patient emotion for empathetic responses"""
         message_lower = patient_message.lower()
 
         if any(word in message_lower for word in ['worried', 'scared', 'afraid', 'concerned', 'anxious']):
@@ -100,7 +99,6 @@ class DoctorAgent:
             return "neutral"
 
     def _update_conversation_phase(self, turn_count: int, conversation_history: list):
-        """Update conversation phase based on turn count"""
         if turn_count <= 3:
             self.conversation_phase = "opening"
         elif turn_count <= 8:
@@ -111,24 +109,20 @@ class DoctorAgent:
             self.conversation_phase = "conclusion"
 
     def _track_clinical_findings(self, conversation_history: list):
-        """Track what clinical information we've gathered"""
         if not conversation_history:
             return
-        
-        # Track symptoms mentioned
+
         recent_patient_responses = [
-            msg['content'].lower() for msg in conversation_history[-4:] 
+            msg['content'].lower() for msg in conversation_history[-4:]
             if msg.get('role', '').lower() == 'patient'
         ]
-        
+
         for response in recent_patient_responses:
             for symptom in self.key_symptoms:
                 if symptom.lower() in response and symptom not in self.discussed_symptoms:
                     self.discussed_symptoms.add(symptom)
-                    logger.info(f"[Doctor] Noted symptom discussed: {symptom}")
 
     def respond(self, conversation_history: list) -> str:
-        """Generate doctor's response in conversation."""
         self.conversation_turn += 1
 
         llm_messages = [self.system_message]
