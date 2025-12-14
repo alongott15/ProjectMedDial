@@ -54,13 +54,11 @@ class DialogueGenerationPipeline:
         logger.info(f"Generating dialogue for profile: {profile_id}")
         logger.info(f"Profile type: {patient_profile.get('profile_type', 'UNKNOWN')}")
 
-        # Track attempt history
         attempts = []
         best_dialogue = None
         best_score = 0.0
         best_attempt_idx = -1
 
-        # Initialize agents
         doctor_agent = DoctorAgent(patient_profile=patient_profile)
         patient_agent = PatientAgent(profile=patient_profile)
 
@@ -69,13 +67,15 @@ class DialogueGenerationPipeline:
             attempt_start = time.time()
 
             try:
-                # Generate dialogue
+                logger.info(f"  Generating dialogue...")
                 conversation, transcript = simulate_dialogue(
                     doctor_agent, patient_agent,
                     max_turns=self.max_turns,
                     consecutive_confusion_limit=2,
                     loop_detection_window=4
                 )
+
+                time.sleep(1)
 
                 if not conversation or len(conversation) < 4:
                     logger.warning(f"  Dialogue too short: {len(conversation)} turns")
@@ -87,15 +87,18 @@ class DialogueGenerationPipeline:
                     })
                     continue
 
-                # Evaluate with JudgeAgent
+                logger.info(f"  Dialogue complete ({len(conversation)} turns)")
+                time.sleep(1)
+
                 logger.info(f"  Evaluating with JudgeAgent...")
                 judge_result = self.judge_agent.evaluate_dialogue(
                     conversation, full_profile, transcript
                 )
 
+                time.sleep(1)
+
                 attempt_time = time.time() - attempt_start
 
-                # Record attempt
                 attempt_record = {
                     "attempt": attempt_idx + 1,
                     "success": judge_result['decision'] == "REALISTIC",
@@ -109,7 +112,6 @@ class DialogueGenerationPipeline:
 
                 logger.info(f"  Result: {judge_result['decision']} (score: {judge_result['score']:.3f})")
 
-                # Track best dialogue
                 if judge_result['score'] > best_score:
                     best_score = judge_result['score']
                     best_dialogue = {
@@ -119,19 +121,18 @@ class DialogueGenerationPipeline:
                     }
                     best_attempt_idx = attempt_idx + 1
 
-                # Check if successful
                 if judge_result['decision'] == "REALISTIC":
                     logger.info(f"  Dialogue accepted on attempt {attempt_idx + 1}")
                     break
 
-                # If not successful and not last attempt, improve prompts
                 if attempt_idx < self.max_attempts - 1:
                     logger.info(f"  Generating improvements for next attempt...")
                     improvements = self.prompt_improvement_agent.improve_prompts(
                         judge_result, conversation
                     )
 
-                    # Apply improvements (simple feedback injection)
+                    time.sleep(1)
+
                     doctor_agent.update_prompt(improvements.get('doctor_improvements', ''))
                     patient_agent.update_prompt(improvements.get('patient_improvements', ''))
                     logger.info(f"  Prompts updated for attempt {attempt_idx + 2}")
@@ -145,7 +146,6 @@ class DialogueGenerationPipeline:
                     "turns": 0
                 })
 
-        # Return best result
         if best_dialogue:
             return {
                 "success": True,
@@ -157,7 +157,7 @@ class DialogueGenerationPipeline:
                 "judge_evaluation": best_dialogue['judge_result']
             }
         else:
-            logger.error(f"  ✗ Failed to generate acceptable dialogue after {self.max_attempts} attempts")
+            logger.error(f"  Failed to generate acceptable dialogue after {self.max_attempts} attempts")
             return {
                 "success": False,
                 "profile_id": profile_id,
@@ -178,10 +178,8 @@ class DialogueGenerationPipeline:
 
         start_time = time.time()
 
-        # Generate partial profile
         partial_profile = generate_partial_profiles(full_profile, profile_type)
 
-        # Generate dialogue with iterations
         dialogue_result = self.generate_dialogue_with_iterations(
             partial_profile, full_profile, ehr_text
         )
@@ -194,37 +192,52 @@ class DialogueGenerationPipeline:
                 "processing_time": time.time() - start_time
             }
 
-        # Summarize EHR
-        logger.info(f"  Generating EHR summary...")
-        ehr_summary = "No EHR text provided"
-        if ehr_text:
-            ehr_summary = self.ehr_summarizer.summarize(
-                ehr_text,
-                metadata=full_profile.get('Context_Fields', {})
+        is_realistic = dialogue_result['judge_evaluation']['decision'] == "REALISTIC"
+
+        ehr_summary = None
+        dialogue_summary = None
+        sts_result = None
+
+        if is_realistic:
+            logger.info(f"  Dialogue is REALISTIC - proceeding with summaries and STS")
+            time.sleep(1)
+
+            logger.info(f"  Generating EHR summary...")
+            ehr_summary = "No EHR text provided"
+            if ehr_text:
+                ehr_summary = self.ehr_summarizer.summarize(
+                    ehr_text,
+                    metadata=full_profile.get('Context_Fields', {})
+                )
+
+            time.sleep(1)
+
+            logger.info(f"  Generating dialogue summary...")
+            dialogue_summary = self.dialogue_summarizer.summarize(
+                dialogue_result['dialogue'],
+                dialogue_result['transcript']
             )
 
-        # Summarize dialogue
-        logger.info(f"  Generating dialogue summary...")
-        dialogue_summary = self.dialogue_summarizer.summarize(
-            dialogue_result['dialogue'],
-            dialogue_result['transcript']
-        )
+            time.sleep(1)
 
-        # Compute STS
-        logger.info(f"  Computing STS between summaries...")
-        sts_result = self.sts_evaluator.compute_sts_detailed(
-            ehr_summary, dialogue_summary
-        )
+            logger.info(f"  Computing STS between summaries...")
+            sts_result = self.sts_evaluator.compute_sts_detailed(
+                ehr_summary, dialogue_summary
+            )
+
+            time.sleep(1)
+        else:
+            logger.info(f"  Dialogue is NOT REALISTIC - skipping summaries and STS")
 
         processing_time = time.time() - start_time
 
-        # Compile complete result
         result = {
             "profile_id": profile_id,
             "subject_id": full_profile.get('subject_id'),
             "hadm_id": full_profile.get('hadm_id'),
             "profile_type": profile_type,
             "success": True,
+            "is_realistic": is_realistic,
             "best_attempt": dialogue_result['best_attempt'],
             "total_attempts": len(dialogue_result['attempts_summary']),
             "attempts_summary": dialogue_result['attempts_summary'],
@@ -243,7 +256,6 @@ class DialogueGenerationPipeline:
             }
         }
 
-        # Save individual result
         output_path = self.output_dir / f"dialogue_{profile_id}.json"
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(result, f, indent=2)
@@ -273,6 +285,8 @@ class DialogueGenerationPipeline:
             "total_dialogues_attempted": 0,
             "successful_dialogues": 0,
             "failed_dialogues": 0,
+            "realistic_dialogues": 0,
+            "non_realistic_dialogues": 0,
             "by_profile_type": {pt: {"success": 0, "fail": 0} for pt in profile_types},
             "attempt_distribution": {1: 0, 2: 0, 3: 0},
             "judge_scores": [],
@@ -297,14 +311,18 @@ class DialogueGenerationPipeline:
                 result = self.process_profile(full_profile, ehr_text, profile_type)
                 all_results.append(result)
 
-                # Update stats
                 stats["total_dialogues_attempted"] += 1
                 if result['success']:
                     stats["successful_dialogues"] += 1
                     stats["by_profile_type"][profile_type]["success"] += 1
                     stats["attempt_distribution"][result['best_attempt']] += 1
                     stats["judge_scores"].append(result['judge_evaluation']['score'])
-                    stats["sts_scores"].append(result['sts_evaluation']['sts_score'])
+                    if result.get('is_realistic'):
+                        stats["realistic_dialogues"] += 1
+                        if result.get('sts_evaluation'):
+                            stats["sts_scores"].append(result['sts_evaluation']['sts_score'])
+                    else:
+                        stats["non_realistic_dialogues"] += 1
                     stats["processing_times"].append(result['processing_time'])
                 else:
                     stats["failed_dialogues"] += 1
@@ -314,10 +332,12 @@ class DialogueGenerationPipeline:
                 logger.error(f"Error processing profile {profile_id}: {e}", exc_info=True)
                 stats["failed_dialogues"] += 1
 
-        # Compute aggregate stats
         if stats["judge_scores"]:
             stats["avg_judge_score"] = sum(stats["judge_scores"]) / len(stats["judge_scores"])
-            stats["avg_sts_score"] = sum(stats["sts_scores"]) / len(stats["sts_scores"])
+            if stats["sts_scores"]:
+                stats["avg_sts_score"] = sum(stats["sts_scores"]) / len(stats["sts_scores"])
+            else:
+                stats["avg_sts_score"] = None
             stats["avg_processing_time"] = sum(stats["processing_times"]) / len(stats["processing_times"])
 
         # Save global stats
@@ -325,15 +345,15 @@ class DialogueGenerationPipeline:
         with open(stats_path, 'w', encoding='utf-8') as f:
             json.dump(stats, f, indent=2)
 
-        # Save per-profile stats
         per_profile_stats = [
             {
                 "profile_id": r.get('profile_id'),
                 "success": r.get('success'),
+                "is_realistic": r.get('is_realistic'),
                 "attempts": r.get('total_attempts'),
                 "best_attempt": r.get('best_attempt'),
                 "judge_score": r.get('judge_evaluation', {}).get('score'),
-                "sts_score": r.get('sts_evaluation', {}).get('sts_score'),
+                "sts_score": r.get('sts_evaluation', {}).get('sts_score') if r.get('sts_evaluation') else None,
                 "processing_time": r.get('processing_time')
             }
             for r in all_results if r.get('success')
@@ -347,11 +367,20 @@ class DialogueGenerationPipeline:
         logger.info(f"{'='*80}")
         logger.info(f"Total profiles: {stats['total_profiles']}")
         logger.info(f"Successful dialogues: {stats['successful_dialogues']}")
+        logger.info(f"  - Realistic: {stats['realistic_dialogues']}")
+        logger.info(f"  - Non-realistic: {stats['non_realistic_dialogues']}")
         logger.info(f"Failed dialogues: {stats['failed_dialogues']}")
         logger.info(f"Success rate: {stats['successful_dialogues']/stats['total_dialogues_attempted']:.1%}")
+        if stats['realistic_dialogues'] > 0:
+            realistic_rate = stats['realistic_dialogues']/stats['successful_dialogues']
+            logger.info(f"Realistic rate: {realistic_rate:.1%} of successful dialogues")
         if stats.get('avg_judge_score'):
             logger.info(f"Average judge score: {stats['avg_judge_score']:.3f}")
-            logger.info(f"Average STS score: {stats['avg_sts_score']:.3f}")
+            if stats.get('avg_sts_score') is not None:
+                logger.info(f"Average STS score: {stats['avg_sts_score']:.3f}")
+                logger.info(f"Realistic dialogues with STS: {len(stats['sts_scores'])}")
+            else:
+                logger.info(f"No realistic dialogues generated (no STS scores)")
             logger.info(f"Average processing time: {stats['avg_processing_time']:.1f}s")
 
         return stats
