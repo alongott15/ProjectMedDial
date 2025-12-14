@@ -106,7 +106,7 @@ class CSVDataLoader:
         all_notes = self.fetch_notes(
             category_filter=category_filter,
             text_filter="",
-            limit=limit * 3
+            limit=limit * 10
         )
 
         light_case_notes = []
@@ -121,6 +121,10 @@ class CSVDataLoader:
                 other_notes.append(note)
 
         combined_notes = light_case_notes + other_notes
+
+        if len(combined_notes) < limit:
+            logger.warning(f"Only {len(combined_notes)} notes available, requested {limit}")
+
         return combined_notes[:limit]
 
 
