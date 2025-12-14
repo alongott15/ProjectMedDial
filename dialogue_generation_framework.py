@@ -20,6 +20,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 from Utils.partial_profile import generate_partial_profiles
+from Utils.markdown_gtmf import load_all_gtmfs_from_directory
 from Agents.PatientAgent import PatientAgent
 from Agents.DoctorAgent import DoctorAgent
 from Agents.JudgeAgent import JudgeAgent
@@ -418,18 +419,23 @@ def main():
     """Main entry point."""
     logger.info("Starting Synthetic Patient-Physician Conversation Framework")
 
-    # Load GTMF data (light cases only)
-    gtmf_path = "gtmf/gtmf_example_minimal_enhanced.json"  # Use light-case filtered GTMFs
+    # Load GTMF data from Markdown files (light cases only)
+    gtmf_dir = "gtmf"  # Directory containing Markdown GTMF files
 
-    if not os.path.exists(gtmf_path):
-        logger.error(f"GTMF file not found: {gtmf_path}")
+    if not os.path.exists(gtmf_dir):
+        logger.error(f"GTMF directory not found: {gtmf_dir}")
         logger.info("Please run gtmf_creation.py first to generate light-case GTMFs")
         return
 
-    with open(gtmf_path, 'r', encoding='utf-8') as f:
-        gtmf_data = json.load(f)
+    logger.info(f"Loading GTMFs from {gtmf_dir}/...")
+    gtmf_data = load_all_gtmfs_from_directory(gtmf_dir)
 
-    logger.info(f"Loaded {len(gtmf_data)} GTMF profiles")
+    if not gtmf_data:
+        logger.error(f"No GTMF files found in {gtmf_dir}/")
+        logger.info("Please run gtmf_creation.py first to generate GTMFs")
+        return
+
+    logger.info(f"Loaded {len(gtmf_data)} GTMF profiles from Markdown files")
 
     # Filter for light cases
     light_case_profiles = [

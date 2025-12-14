@@ -6,6 +6,7 @@ from azure.core.credentials import AzureKeyCredential
 from Models.classes import GTMF
 from Utils.utils import format_date, calculate_age
 from Utils.bias_aware_prompts import GTMF_CREATION_PROMPT
+from Utils.markdown_gtmf import save_gtmf_markdown
 import re
 import os
 from typing import Dict, List, Tuple
@@ -580,18 +581,24 @@ def main():
         # Process notes
         structured_results, summary = process_notes(results, azure_client, batch_size=50)
 
-        # Save results
-        output_path = 'gtmf/gtmf_light_cases.json'
-        os.makedirs('gtmf', exist_ok=True)
-        with open(output_path, 'w', encoding='utf-8') as outfile:
-            json.dump(structured_results, outfile, indent=2)
+        # Save results as Markdown files
+        output_dir = 'gtmf'
+        os.makedirs(output_dir, exist_ok=True)
+
+        logger.info(f"Saving {len(structured_results)} GTMFs as Markdown files...")
+        for idx, gtmf in enumerate(structured_results):
+            subject_id = gtmf.get('subject_id', f'unknown_{idx}')
+            hadm_id = gtmf.get('hadm_id', idx)
+            filename = f"gtmf_{subject_id}_{hadm_id}.md"
+            output_path = os.path.join(output_dir, filename)
+            save_gtmf_markdown(gtmf, output_path)
 
         # Save summary
         summary_path = 'gtmf/processing_summary.json'
         with open(summary_path, 'w', encoding='utf-8') as outfile:
             json.dump(summary, outfile, indent=2)
 
-        logger.info(f"Extraction complete. Results saved to {output_path}")
+        logger.info(f"Extraction complete. {len(structured_results)} GTMFs saved to {output_dir}/ as Markdown files")
         logger.info(f"Summary saved to {summary_path}")
 
         # Print summary

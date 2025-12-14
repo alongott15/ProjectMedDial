@@ -8,6 +8,8 @@ import logging
 import pandas as pd
 from pathlib import Path
 from typing import List, Dict, Optional
+from Utils.markdown_gtmf import save_gtmf_markdown
+import os
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -478,15 +480,24 @@ def csv_to_gtmf_workflow(
         batch_size=batch_size
     )
 
-    # Save results
+    # Save results as Markdown files
+    output_dir = os.path.dirname(output_path) if os.path.dirname(output_path) else 'gtmf'
+    os.makedirs(output_dir, exist_ok=True)
+
+    logger.info(f"Saving {len(structured_results)} GTMFs as Markdown files to {output_dir}/...")
+    for idx, gtmf in enumerate(structured_results):
+        subject_id = gtmf.get('subject_id', f'unknown_{idx}')
+        hadm_id = gtmf.get('hadm_id', idx)
+        filename = f"gtmf_{subject_id}_{hadm_id}.md"
+        md_output_path = os.path.join(output_dir, filename)
+        save_gtmf_markdown(gtmf, md_output_path)
+
+    logger.info(f"Saved {len(structured_results)} GTMFs to {output_dir}/ as Markdown files")
+
+    # Save quality summary (keep as JSON for simplicity)
     import json
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(structured_results, f, indent=2)
-
-    logger.info(f"Saved {len(structured_results)} GTMFs to {output_path}")
-
-    # Save quality summary
-    summary_path = output_path.replace('.json', '_quality_summary.json')
+    summary_filename = 'processing_summary.json'
+    summary_path = os.path.join(output_dir, summary_filename)
     with open(summary_path, 'w', encoding='utf-8') as f:
         json.dump(quality_summary, f, indent=2)
 
@@ -498,7 +509,7 @@ def csv_to_gtmf_workflow(
 if __name__ == "__main__":
     # Example usage
     csv_dir = "/path/to/mimic-iii/csv"  # Update this path
-    output_path = "gtmf/gtmf_from_csv.json"
+    output_path = "gtmf"  # Output directory for Markdown files
 
     # Run workflow
     results, summary = csv_to_gtmf_workflow(
