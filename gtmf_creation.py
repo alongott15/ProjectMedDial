@@ -491,26 +491,6 @@ def process_notes(results, azure_client: AzureAIClient, batch_size: int = None):
             # Prepare output
             result = gtmf_instance.model_dump()
 
-            # Enrich with structured data from MIMIC-III tables if available
-            if 'structured_data' in row:
-                structured = row['structured_data']
-
-                # Add ICD diagnoses (structured diagnoses supplement LLM-extracted ones)
-                if structured.get('diagnoses'):
-                    result['structured_diagnoses'] = structured['diagnoses']
-
-                # Add ICD procedures
-                if structured.get('procedures'):
-                    result['structured_procedures'] = structured['procedures']
-
-                # Add prescriptions/medications
-                if structured.get('prescriptions'):
-                    result['structured_prescriptions'] = structured['prescriptions']
-
-                # Add lab results for DoctorAgent to reference
-                if structured.get('lab_results'):
-                    result['lab_results'] = structured['lab_results']
-
             # Add light case filter result
             result["light_case_filter"] = light_case_result
             result["case_type"] = "LIGHT_COMMON_SYMPTOMS"

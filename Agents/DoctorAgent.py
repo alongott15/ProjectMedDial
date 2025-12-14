@@ -33,10 +33,6 @@ class DoctorAgent:
                 available_data_summary.append("symptoms reported in profile")
             if patient_profile.get("Context_Fields", {}).get("Medical_History"):
                 available_data_summary.append("medical history")
-            if patient_profile.get("structured_prescriptions"):
-                available_data_summary.append("prescription records")
-            if patient_profile.get("lab_results"):
-                available_data_summary.append("lab test results")
             if patient_profile.get("Context_Fields", {}).get("Allergies"):
                 available_data_summary.append("allergy information")
 
@@ -87,43 +83,6 @@ class DoctorAgent:
             )
         }
 
-    def _get_patient_test_results(self) -> list:
-        """
-        Get patient test results from profile.
-
-        NOTE: Lab results are no longer fetched from database.
-        Test results are included in the patient_profile/GTMF from CSV data.
-        """
-        if not self.patient_profile:
-            return []
-
-        # Check if lab results are included in the profile
-        lab_results = self.patient_profile.get("lab_results", [])
-        if lab_results:
-            logger.info(f"Found {len(lab_results)} lab results in patient profile")
-            return lab_results
-
-        # No lab results available
-        logger.debug("No lab results found in patient profile")
-        return []
-
-    def _get_structured_diagnoses(self) -> list:
-        """Get structured ICD diagnosis codes from profile."""
-        if not self.patient_profile:
-            return []
-        return self.patient_profile.get("structured_diagnoses", [])
-
-    def _get_structured_procedures(self) -> list:
-        """Get structured ICD procedure codes from profile."""
-        if not self.patient_profile:
-            return []
-        return self.patient_profile.get("structured_procedures", [])
-
-    def _get_structured_prescriptions(self) -> list:
-        """Get structured prescription data from profile."""
-        if not self.patient_profile:
-            return []
-        return self.patient_profile.get("structured_prescriptions", [])
 
     def _detect_patient_emotion(self, patient_message: str) -> str:
         """Detect patient emotion for empathetic responses"""
