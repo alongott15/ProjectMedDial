@@ -1,6 +1,6 @@
 import logging
 from Utils.llms_utils import load_gpt_model, chat_generate
-from Utils.bias_aware_prompts import BASE_SYSTEM_PROMPT, DOCTOR_AGENT_ADDITION
+from Utils.bias_aware_prompts import BASE_SYSTEM_PROMPT
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -83,9 +83,7 @@ class DoctorAgent:
                 "- Do not assume or invent symptoms, test results, or history not mentioned\n"
                 "- If you're unsure about something, ask the patient directly\n"
                 "- Do not escalate a light case to severe diagnoses without strong evidence from conversation\n"
-                "- Stay focused on light, common conditions (cough, sore throat, headache, mild fever, etc.)\n\n"
-
-                f"{DOCTOR_AGENT_ADDITION}"
+                "- Stay focused on light, common conditions (cough, sore throat, headache, mild fever, etc.)\n"
             )
         }
 

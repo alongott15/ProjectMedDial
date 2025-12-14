@@ -1,6 +1,6 @@
 import logging
 from Utils.llms_utils import load_gpt_model, chat_generate
-from Utils.bias_aware_prompts import BASE_SYSTEM_PROMPT, PATIENT_AGENT_ADDITION
+from Utils.bias_aware_prompts import BASE_SYSTEM_PROMPT
 import random
 
 logging.basicConfig(level=logging.INFO)
@@ -71,9 +71,7 @@ class PatientAgent:
                 "- Show natural hesitations: 'Well...', 'Um...', 'Let me think...'\n"
                 "- Express uncertainty: 'I think...', 'Maybe...', 'I'm not sure if...'\n"
                 "- Ask questions when concerned: 'Should I be worried?', 'Is this normal?'\n"
-                "- Keep responses brief and natural (1-3 sentences typically)\n\n"
-
-                f"{PATIENT_AGENT_ADDITION}"
+                "- Keep responses brief and natural (1-3 sentences typically)\n"
             )
         }
 
