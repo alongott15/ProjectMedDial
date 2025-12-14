@@ -284,6 +284,9 @@ class DialogueGenerationPipeline:
         for idx, full_profile in enumerate(gtmf_data):
             profile_id = f"{full_profile.get('subject_id', 'unknown')}_{full_profile.get('hadm_id', 'unknown')}"
 
+            if idx > 0:
+                time.sleep(2)
+
             # Get EHR text if available
             ehr_text = ehr_texts.get(profile_id)
 

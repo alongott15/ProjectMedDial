@@ -1,9 +1,11 @@
 import logging
 import os
+import time
 from typing import List, Dict
 from azure.ai.inference import ChatCompletionsClient
 from azure.ai.inference.models import SystemMessage, UserMessage, AssistantMessage
 from azure.core.credentials import AzureKeyCredential
+from azure.core.exceptions import HttpResponseError
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -44,11 +46,7 @@ def load_gpt_model(model_name='gpt-4.1', temperature=0.3, max_tokens=512):
     """
     return AzureAIFoundryClient(model_name, temperature, max_tokens)
 
-def chat_generate(llm: AzureAIFoundryClient, messages: List[Dict[str, str]]) -> str:
-    """
-    Enhanced chat generation with better conversation handling.
-    """
-    # Convert message dictionaries to Azure AI Foundry message objects
+def chat_generate(llm: AzureAIFoundryClient, messages: List[Dict[str, str]], max_retries: int = 5) -> str:
     azure_messages = []
     for msg in messages:
         if msg['role'] == 'system':
@@ -60,25 +58,40 @@ def chat_generate(llm: AzureAIFoundryClient, messages: List[Dict[str, str]]) -> 
         else:
             logger.warning(f"Unknown message role: {msg['role']}. Treating as user message.")
             azure_messages.append(UserMessage(content=msg['content']))
-    
+
     logger.debug(f"[chat_generate] Sending {len(azure_messages)} messages to Azure AI Foundry")
-    
-    try:
-        response = llm.client.complete(
-            messages=azure_messages,
-            model=llm.model_name,
-            temperature=llm.temperature,
-            max_tokens=llm.max_tokens,
-            # Enhanced parameters for more realistic conversations
-            top_p=0.95,
-            frequency_penalty=0.1,
-            presence_penalty=0.1
-        )
-        
-        text_content = response.choices[0].message.content.strip()
-        logger.debug(f"[chat_generate] Azure AI response: {text_content[:100]}...")
-        return text_content
-        
-    except Exception as e:
-        logger.error(f"Error during Azure AI Foundry invocation: {e}")
-        return "[ERROR: Could not generate response from Azure AI Foundry]"
+
+    for attempt in range(max_retries):
+        try:
+            response = llm.client.complete(
+                messages=azure_messages,
+                model=llm.model_name,
+                temperature=llm.temperature,
+                max_tokens=llm.max_tokens,
+                top_p=0.95,
+                frequency_penalty=0.1,
+                presence_penalty=0.1
+            )
+
+            text_content = response.choices[0].message.content.strip()
+            logger.debug(f"[chat_generate] Azure AI response: {text_content[:100]}...")
+
+            time.sleep(0.5)
+            return text_content
+
+        except HttpResponseError as e:
+            if e.status_code == 429:
+                wait_time = (2 ** attempt) + (attempt * 0.5)
+                logger.warning(f"Rate limit hit (429). Retrying in {wait_time:.1f}s (attempt {attempt + 1}/{max_retries})")
+                time.sleep(wait_time)
+                if attempt == max_retries - 1:
+                    logger.error(f"Max retries reached for rate limit error")
+                    return "[ERROR: Rate limit exceeded after retries]"
+            else:
+                logger.error(f"HTTP error during Azure AI invocation: {e}")
+                return f"[ERROR: HTTP {e.status_code}]"
+        except Exception as e:
+            logger.error(f"Error during Azure AI Foundry invocation: {e}")
+            return "[ERROR: Could not generate response from Azure AI Foundry]"
+
+    return "[ERROR: Unexpected end of retries]"

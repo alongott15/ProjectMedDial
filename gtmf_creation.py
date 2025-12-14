@@ -1,8 +1,10 @@
 import json
 import logging
+import time
 from azure.ai.inference import ChatCompletionsClient
 from azure.ai.inference.models import SystemMessage, UserMessage
 from azure.core.credentials import AzureKeyCredential
+from azure.core.exceptions import HttpResponseError
 from Models.classes import GTMF
 from Utils.utils import format_date, calculate_age
 from Utils.bias_aware_prompts import GTMF_CREATION_PROMPT
@@ -139,21 +141,35 @@ class AzureAIClient:
             credential=AzureKeyCredential(self.api_key)
         )
 
-    def chat_completion(self, system_message: str, user_message: str, temperature: float = 0.0) -> str:
-        try:
-            response = self.client.complete(
-                messages=[
-                    SystemMessage(content=system_message),
-                    UserMessage(content=user_message)
-                ],
-                model=self.model_name,
-                temperature=temperature,
-                max_tokens=2048
-            )
-            return response.choices[0].message.content
-        except Exception as e:
-            logger.error(f"Azure AI completion failed: {e}")
-            raise
+    def chat_completion(self, system_message: str, user_message: str, temperature: float = 0.0, max_retries: int = 5) -> str:
+        for attempt in range(max_retries):
+            try:
+                response = self.client.complete(
+                    messages=[
+                        SystemMessage(content=system_message),
+                        UserMessage(content=user_message)
+                    ],
+                    model=self.model_name,
+                    temperature=temperature,
+                    max_tokens=2048
+                )
+                time.sleep(0.5)
+                return response.choices[0].message.content
+            except HttpResponseError as e:
+                if e.status_code == 429:
+                    wait_time = (2 ** attempt) + (attempt * 0.5)
+                    logger.warning(f"Rate limit hit (429). Retrying in {wait_time:.1f}s (attempt {attempt + 1}/{max_retries})")
+                    time.sleep(wait_time)
+                    if attempt == max_retries - 1:
+                        logger.error(f"Max retries reached for rate limit error")
+                        raise
+                else:
+                    logger.error(f"HTTP error during Azure AI completion: {e}")
+                    raise
+            except Exception as e:
+                logger.error(f"Azure AI completion failed: {e}")
+                raise
+        raise Exception("Unexpected end of retries")
 
 def chunk_medical_text(text: str, max_chunk_size: int = 3000, overlap: int = 200) -> list[str]:
     if len(text) <= max_chunk_size:
