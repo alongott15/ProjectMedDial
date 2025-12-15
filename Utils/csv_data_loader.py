@@ -94,6 +94,27 @@ class CSVDataLoader:
 
         return results
 
+    def fetch_note_by_ids(self, subject_id: int, hadm_id: int) -> str:
+        notes = self.noteevents
+
+        matching_notes = notes[
+            (notes['SUBJECT_ID'] == subject_id) &
+            (notes['HADM_ID'] == hadm_id)
+        ]
+
+        if matching_notes.empty:
+            logger.warning(f"No notes found for subject_id={subject_id}, hadm_id={hadm_id}")
+            return ""
+
+        discharge_summaries = matching_notes[
+            matching_notes['CATEGORY'].str.contains('Discharge summary', case=False, na=False)
+        ]
+
+        if not discharge_summaries.empty:
+            return discharge_summaries.iloc[0]['TEXT']
+
+        return matching_notes.iloc[0]['TEXT']
+
     def fetch_notes_with_light_case_filter(
         self,
         category_filter: str = "Discharge summary",

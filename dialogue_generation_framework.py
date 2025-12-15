@@ -6,6 +6,8 @@ from pathlib import Path
 
 from Utils.partial_profile import generate_partial_profiles
 from Utils.markdown_gtmf import load_all_gtmfs_from_directory
+from Utils.dialogue_markdown import save_dialogue_markdown
+from Utils.csv_data_loader import CSVDataLoader
 from Agents.PatientAgent import PatientAgent
 from Agents.DoctorAgent import DoctorAgent
 from Agents.JudgeAgent import JudgeAgent
@@ -259,9 +261,8 @@ class DialogueGenerationPipeline:
             }
         }
 
-        output_path = self.output_dir / f"dialogue_{profile_id}.json"
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(result, f, indent=2)
+        output_path = self.output_dir / f"dialogue_{profile_id}.md"
+        save_dialogue_markdown(result, str(output_path))
         logger.info(f"  Saved result to {output_path}")
 
         return result
@@ -269,7 +270,7 @@ class DialogueGenerationPipeline:
     def run_pipeline(
         self,
         gtmf_data: list[dict],
-        ehr_texts: dict[str, str] = None,
+        csv_loader: CSVDataLoader = None,
         profile_types: list[str] = None
     ) -> dict:
         if profile_types is None:
@@ -281,7 +282,6 @@ class DialogueGenerationPipeline:
         logger.info(f"Max attempts per dialogue: {self.max_attempts}")
         logger.info(f"Judge threshold: {self.judge_threshold}")
 
-        ehr_texts = ehr_texts or {}
         all_results = []
         stats = {
             "total_profiles": len(gtmf_data),
@@ -304,11 +304,15 @@ class DialogueGenerationPipeline:
             if idx > 0:
                 time.sleep(2)
 
-            # Get EHR text if available
-            ehr_text = ehr_texts.get(profile_id)
+            ehr_text = None
+            if csv_loader:
+                subject_id = full_profile.get('subject_id')
+                hadm_id = full_profile.get('hadm_id')
+                if subject_id and hadm_id:
+                    logger.info(f"  Loading clinical note for subject_id={subject_id}, hadm_id={hadm_id}")
+                    ehr_text = csv_loader.fetch_note_by_ids(subject_id, hadm_id)
 
-            # Process with first profile type (can extend to process all types)
-            profile_type = profile_types[0]  # Use first type for now
+            profile_type = profile_types[0]
 
             try:
                 result = self.process_profile(full_profile, ehr_text, profile_type)
@@ -422,6 +426,14 @@ def main():
         light_case_profiles = gtmf_data[:10]  # Use first 10 as fallback
 
     mts_dialog_csv = os.getenv("MTS_DIALOG_CSV_PATH", None)
+    mimic_csv_dir = os.getenv("MIMIC_CSV_DIR", None)
+
+    csv_loader = None
+    if mimic_csv_dir and os.path.exists(mimic_csv_dir):
+        logger.info(f"Loading MIMIC-III CSV data from {mimic_csv_dir}")
+        csv_loader = CSVDataLoader(mimic_csv_dir)
+    else:
+        logger.warning("MIMIC_CSV_DIR not set or directory not found. STS comparison will use placeholder text.")
 
     pipeline = DialogueGenerationPipeline(
         max_attempts=3,
@@ -431,10 +443,10 @@ def main():
         mts_dialog_csv_path=mts_dialog_csv
     )
 
-    # Run pipeline (process first 5 profiles as example)
     stats = pipeline.run_pipeline(
         gtmf_data=light_case_profiles[:5],
-        profile_types=["NO_DIAGNOSIS_NO_TREATMENT"]  # Can extend to all three types
+        csv_loader=csv_loader,
+        profile_types=["NO_DIAGNOSIS_NO_TREATMENT"]
     )
 
     logger.info("\nPipeline completed successfully!")
