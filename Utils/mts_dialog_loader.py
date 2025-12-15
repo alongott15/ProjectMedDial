@@ -5,11 +5,13 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 RELEVANT_SECTIONS = [
-    "chief_complaint",
-    "history_of_present_illness",
-    "questions_and_answers",
-    "physical_examination",
-    "diagnosis"
+    "cc",
+    "genhx",
+    "ros",
+    "exam",
+    "assessment",
+    "diagnosis",
+    "plan"
 ]
 
 def load_mts_dialog_examples(
@@ -34,7 +36,7 @@ def load_mts_dialog_examples(
             return []
 
         filtered_df = df[df['section'].isin(sections)]
-        logger.info(f"Filtered to {len(filtered_df)} relevant dialogues")
+        logger.info(f"Filtered to {len(filtered_df)} relevant dialogues from sections: {sections}")
 
         examples = []
         for _, row in filtered_df.head(max_examples).iterrows():
