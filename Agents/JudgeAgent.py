@@ -9,6 +9,7 @@ import re
 from typing import Dict, Tuple
 from Utils.llms_utils import load_gpt_model, chat_generate
 from Utils.bias_aware_prompts import JUDGE_AGENT_PROMPT
+from Utils.mts_dialog_loader import load_mts_dialog_examples
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -25,24 +26,22 @@ class JudgeAgent:
     - Check for hallucinations and unsupported content
     """
 
-    def __init__(self, llm=None, few_shot_examples: list = None, threshold: float = 0.70):
-        """
-        Initialize JudgeAgent.
-
-        Args:
-            llm: Language model client (if None, will load default)
-            few_shot_examples: List of example dialogues for few-shot prompting
-            threshold: Score threshold for REALISTIC decision (default 0.70)
-        """
+    def __init__(self, llm=None, few_shot_examples: list = None, threshold: float = 0.70, mts_dialog_csv_path: str = None):
         if llm:
             self.llm = llm
         else:
             logger.info("Loading LLM for JudgeAgent")
             self.llm = load_gpt_model(temperature=0.1, max_tokens=800)
 
-        self.few_shot_examples = few_shot_examples or []
+        if mts_dialog_csv_path:
+            logger.info(f"Loading MTS-Dialog examples from {mts_dialog_csv_path}")
+            mts_examples = load_mts_dialog_examples(mts_dialog_csv_path, max_examples=3)
+            self.few_shot_examples = mts_examples
+        else:
+            self.few_shot_examples = few_shot_examples or []
+
         self.threshold = threshold
-        logger.info(f"JudgeAgent initialized with threshold={threshold}")
+        logger.info(f"JudgeAgent initialized with threshold={threshold}, examples={len(self.few_shot_examples)}")
 
     def evaluate_dialogue(
         self,

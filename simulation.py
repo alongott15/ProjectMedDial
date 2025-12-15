@@ -1,4 +1,5 @@
 import logging
+import time
 import collections
 from typing import Tuple, List, Dict
 
@@ -85,11 +86,13 @@ def simulate_dialogue(doctor_agent, patient_agent, max_turns=16, consecutive_con
 
     # Doctor initiates
     doctor_message = doctor_agent.respond([])
+    time.sleep(0.75)
+
     if not is_valid_agent_response(doctor_message):
         error_msg = "Doctor: [Simulation ended due to invalid initial response from Doctor Agent]"
         transcript_log.append(error_msg)
         return conversation_history, "\n".join(transcript_log)
-        
+
     conversation_history.append({"role": "Doctor", "content": doctor_message})
     transcript_log.append(f"Doctor: {doctor_message}")
     logger.info(f"🩺 Turn 0 (Doctor): {doctor_message[:100]}...")
@@ -104,11 +107,13 @@ def simulate_dialogue(doctor_agent, patient_agent, max_turns=16, consecutive_con
 
         # Patient responds
         patient_message = patient_agent.respond(conversation_history)
+        time.sleep(0.75)
+
         if not is_valid_agent_response(patient_message):
             error_msg = f"Patient: [Simulation ended due to invalid response from Patient Agent at turn {turn_count}]"
             transcript_log.append(error_msg)
-            break 
-        
+            break
+
         conversation_history.append({"role": "Patient", "content": patient_message})
         transcript_log.append(f"Patient: {patient_message}")
         logger.info(f"🤒 Turn {turn_count} (Patient): {patient_message[:100]}...")
@@ -146,11 +151,13 @@ def simulate_dialogue(doctor_agent, patient_agent, max_turns=16, consecutive_con
 
         # Doctor responds again
         doctor_message = doctor_agent.respond(conversation_history)
+        time.sleep(0.75)
+
         if not is_valid_agent_response(doctor_message):
             error_msg = f"Doctor: [Simulation ended due to invalid response from Doctor Agent at turn {turn_count}]"
             transcript_log.append(error_msg)
             break
-        
+
         conversation_history.append({"role": "Doctor", "content": doctor_message})
         transcript_log.append(f"Doctor: {doctor_message}")
         logger.info(f"🩺 Turn {turn_count} (Doctor): {doctor_message[:100]}...")

@@ -25,7 +25,8 @@ class DialogueGenerationPipeline:
         max_attempts: int = 3,
         max_turns: int = 16,
         judge_threshold: float = 0.70,
-        output_dir: str = "output_dialogue_framework"
+        output_dir: str = "output_dialogue_framework",
+        mts_dialog_csv_path: str = None
     ):
         self.max_attempts = max_attempts
         self.max_turns = max_turns
@@ -33,9 +34,11 @@ class DialogueGenerationPipeline:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
 
-        # Initialize agents
         logger.info("Initializing pipeline agents...")
-        self.judge_agent = JudgeAgent(threshold=judge_threshold)
+        self.judge_agent = JudgeAgent(
+            threshold=judge_threshold,
+            mts_dialog_csv_path=mts_dialog_csv_path
+        )
         self.prompt_improvement_agent = PromptImprovementAgent()
         self.ehr_summarizer = EHRSummarizerAgent()
         self.dialogue_summarizer = DialogueSummarizerAgent()
@@ -418,12 +421,14 @@ def main():
         logger.warning("No light case profiles found. Using all profiles.")
         light_case_profiles = gtmf_data[:10]  # Use first 10 as fallback
 
-    # Initialize pipeline
+    mts_dialog_csv = os.getenv("MTS_DIALOG_CSV_PATH", None)
+
     pipeline = DialogueGenerationPipeline(
         max_attempts=3,
         max_turns=16,
         judge_threshold=0.70,
-        output_dir="output_dialogue_framework"
+        output_dir="output_dialogue_framework",
+        mts_dialog_csv_path=mts_dialog_csv
     )
 
     # Run pipeline (process first 5 profiles as example)
