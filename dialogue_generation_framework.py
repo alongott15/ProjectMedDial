@@ -1,0 +1,439 @@
+import json
+import logging
+import os
+import time
+from pathlib import Path
+
+from Utils.partial_profile import generate_partial_profiles
+from Utils.markdown_gtmf import load_all_gtmfs_from_directory
+from Utils.dialogue_markdown import save_dialogue_markdown
+from Utils.csv_data_loader import CSVDataLoader
+from Agents.PatientAgent import PatientAgent
+from Agents.DoctorAgent import DoctorAgent
+from Agents.JudgeAgent import JudgeAgent
+from Agents.PromptImprovementAgent import PromptImprovementAgent
+from Agents.EHRSummarizerAgent import EHRSummarizerAgent
+from Agents.DialogueSummarizerAgent import DialogueSummarizerAgent
+from Agents.STSEvaluatorAgent import STSEvaluatorAgent
+from simulation import simulate_dialogue
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+
+class DialogueGenerationPipeline:
+    def __init__(self, max_attempts=3, max_turns=16, judge_threshold=0.7, output_dir="output_dialogue_framework", mts_dialog_csv_path=None):
+        self.max_attempts = max_attempts
+        self.max_turns = max_turns
+        self.judge_threshold = judge_threshold
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(exist_ok=True)
+
+        logger.info("Initializing pipeline agents...")
+        self.judge_agent = JudgeAgent(
+            threshold=judge_threshold,
+            mts_dialog_csv_path=mts_dialog_csv_path
+        )
+        self.prompt_improvement_agent = PromptImprovementAgent()
+        self.ehr_summarizer = EHRSummarizerAgent()
+        self.dialogue_summarizer = DialogueSummarizerAgent()
+        self.sts_evaluator = STSEvaluatorAgent()
+
+        logger.info("Pipeline initialized successfully")
+
+    def generate_dialogue_with_iterations(
+        self,
+        patient_profile: dict,
+        full_profile: dict,
+        ehr_text: str = None
+    ) -> dict:
+        profile_id = f"{patient_profile.get('subject_id', 'unknown')}_{patient_profile.get('hadm_id', 'unknown')}"
+        logger.info(f"\n{'='*60}")
+        logger.info(f"Generating dialogue for profile: {profile_id}")
+        logger.info(f"Profile type: {patient_profile.get('profile_type', 'UNKNOWN')}")
+
+        attempts = []
+        best_dialogue = None
+        best_score = 0.0
+        best_attempt_idx = -1
+
+        doctor_agent = DoctorAgent(patient_profile=patient_profile)
+        patient_agent = PatientAgent(profile=patient_profile)
+
+        for attempt_idx in range(self.max_attempts):
+            logger.info(f"  Attempt {attempt_idx + 1}/{self.max_attempts}")
+            attempt_start = time.time()
+
+            try:
+                logger.info(f"  Generating dialogue...")
+                conversation, transcript = simulate_dialogue(
+                    doctor_agent, patient_agent,
+                    max_turns=self.max_turns,
+                    consecutive_confusion_limit=2,
+                    loop_detection_window=4
+                )
+
+                time.sleep(1)
+
+                if not conversation or len(conversation) < 4:
+                    logger.warning(f"  Dialogue too short: {len(conversation)} turns")
+                    attempts.append({
+                        "attempt": attempt_idx + 1,
+                        "success": False,
+                        "reason": "Dialogue too short",
+                        "turns": len(conversation) if conversation else 0
+                    })
+                    continue
+
+                logger.info(f"  Dialogue complete ({len(conversation)} turns)")
+                time.sleep(1)
+
+                logger.info(f"  Evaluating with JudgeAgent...")
+                judge_result = self.judge_agent.evaluate_dialogue(
+                    conversation, full_profile, transcript
+                )
+
+                time.sleep(1)
+
+                attempt_time = time.time() - attempt_start
+
+                attempt_record = {
+                    "attempt": attempt_idx + 1,
+                    "success": judge_result['decision'] == "REALISTIC",
+                    "score": judge_result['score'],
+                    "decision": judge_result['decision'],
+                    "justification": judge_result['justification'],
+                    "turns": len(conversation),
+                    "time_seconds": attempt_time
+                }
+                attempts.append(attempt_record)
+
+                logger.info(f"  Result: {judge_result['decision']} (score: {judge_result['score']:.3f})")
+
+                if judge_result['score'] > best_score:
+                    best_score = judge_result['score']
+                    best_dialogue = {
+                        "conversation": conversation,
+                        "transcript": transcript,
+                        "judge_result": judge_result
+                    }
+                    best_attempt_idx = attempt_idx + 1
+
+                if judge_result['decision'] == "REALISTIC":
+                    logger.info(f"  Dialogue accepted on attempt {attempt_idx + 1}")
+                    break
+
+                if attempt_idx < self.max_attempts - 1:
+                    logger.info(f"  Generating improvements for next attempt...")
+                    improvements = self.prompt_improvement_agent.improve_prompts(
+                        judge_result, conversation
+                    )
+
+                    time.sleep(1)
+
+                    doctor_agent.update_prompt(improvements.get('doctor_improvements', ''))
+                    patient_agent.update_prompt(improvements.get('patient_improvements', ''))
+                    logger.info(f"  Prompts updated for attempt {attempt_idx + 2}")
+
+            except Exception as e:
+                logger.error(f"  Error in attempt {attempt_idx + 1}: {e}", exc_info=True)
+                attempts.append({
+                    "attempt": attempt_idx + 1,
+                    "success": False,
+                    "reason": f"Error: {str(e)}",
+                    "turns": 0
+                })
+
+        if best_dialogue:
+            return {
+                "success": True,
+                "profile_id": profile_id,
+                "best_attempt": best_attempt_idx,
+                "attempts_summary": attempts,
+                "dialogue": best_dialogue['conversation'],
+                "transcript": best_dialogue['transcript'],
+                "judge_evaluation": best_dialogue['judge_result']
+            }
+        else:
+            logger.error(f"  Failed to generate acceptable dialogue after {self.max_attempts} attempts")
+            return {
+                "success": False,
+                "profile_id": profile_id,
+                "attempts_summary": attempts,
+                "dialogue": None,
+                "transcript": None
+            }
+
+    def process_profile(
+        self,
+        full_profile: dict,
+        ehr_text: str = None,
+        profile_type: str = "NO_DIAGNOSIS_NO_TREATMENT"
+    ) -> dict:
+        profile_id = f"{full_profile.get('subject_id', 'unknown')}_{full_profile.get('hadm_id', 'unknown')}"
+        logger.info(f"\n{'='*80}")
+        logger.info(f"Processing profile {profile_id} (type: {profile_type})")
+
+        start_time = time.time()
+
+        partial_profile = generate_partial_profiles(full_profile, profile_type)
+
+        dialogue_result = self.generate_dialogue_with_iterations(
+            partial_profile, full_profile, ehr_text
+        )
+
+        if not dialogue_result['success']:
+            return {
+                "profile_id": profile_id,
+                "success": False,
+                "attempts": dialogue_result['attempts_summary'],
+                "processing_time": time.time() - start_time
+            }
+
+        is_realistic = dialogue_result['judge_evaluation']['decision'] == "REALISTIC"
+
+        ehr_summary = None
+        dialogue_summary = None
+        sts_result = None
+
+        if is_realistic:
+            logger.info(f"  Dialogue is REALISTIC - proceeding with summaries and STS")
+            time.sleep(1)
+
+            logger.info(f"  Generating EHR summary...")
+            ehr_summary = "No EHR text provided"
+            if ehr_text:
+                ehr_summary = self.ehr_summarizer.summarize(
+                    ehr_text,
+                    metadata=full_profile.get('Context_Fields', {})
+                )
+
+            time.sleep(1)
+
+            logger.info(f"  Generating dialogue summary...")
+            dialogue_summary = self.dialogue_summarizer.summarize(
+                dialogue_result['dialogue'],
+                dialogue_result['transcript']
+            )
+
+            time.sleep(1)
+
+            logger.info(f"  Computing STS between summaries...")
+            sts_result = self.sts_evaluator.compute_sts_detailed(
+                ehr_summary, dialogue_summary
+            )
+
+            time.sleep(1)
+        else:
+            logger.info(f"  Dialogue is NOT REALISTIC - skipping summaries and STS")
+
+        processing_time = time.time() - start_time
+
+        result = {
+            "profile_id": profile_id,
+            "subject_id": full_profile.get('subject_id'),
+            "hadm_id": full_profile.get('hadm_id'),
+            "profile_type": profile_type,
+            "success": True,
+            "is_realistic": is_realistic,
+            "best_attempt": dialogue_result['best_attempt'],
+            "total_attempts": len(dialogue_result['attempts_summary']),
+            "attempts_summary": dialogue_result['attempts_summary'],
+            "dialogue": dialogue_result['dialogue'],
+            "transcript": dialogue_result['transcript'],
+            "judge_evaluation": dialogue_result['judge_evaluation'],
+            "ehr_summary": ehr_summary,
+            "dialogue_summary": dialogue_summary,
+            "sts_evaluation": sts_result,
+            "processing_time": processing_time,
+            "dialogue_stats": {
+                "turn_count": len(dialogue_result['dialogue']),
+                "word_count": len(dialogue_result['transcript'].split()),
+                "doctor_turns": len([t for t in dialogue_result['dialogue'] if t.get('role') == 'Doctor']),
+                "patient_turns": len([t for t in dialogue_result['dialogue'] if t.get('role') == 'Patient'])
+            }
+        }
+
+        output_path = self.output_dir / f"dialogue_{profile_id}.md"
+        save_dialogue_markdown(result, str(output_path))
+        logger.info(f"  Saved result to {output_path}")
+
+        return result
+
+    def run_pipeline(
+        self,
+        gtmf_data: list[dict],
+        csv_loader: CSVDataLoader = None,
+        profile_types: list[str] = None
+    ) -> dict:
+        if profile_types is None:
+            profile_types = ["FULL", "NO_DIAGNOSIS", "NO_DIAGNOSIS_NO_TREATMENT"]
+
+        logger.info(f"\n{'='*80}")
+        logger.info(f"Starting pipeline with {len(gtmf_data)} profiles")
+        logger.info(f"Profile types: {profile_types}")
+        logger.info(f"Max attempts per dialogue: {self.max_attempts}")
+        logger.info(f"Judge threshold: {self.judge_threshold}")
+
+        all_results = []
+        stats = {
+            "total_profiles": len(gtmf_data),
+            "total_dialogues_attempted": 0,
+            "successful_dialogues": 0,
+            "failed_dialogues": 0,
+            "realistic_dialogues": 0,
+            "non_realistic_dialogues": 0,
+            "by_profile_type": {pt: {"success": 0, "fail": 0} for pt in profile_types},
+            "attempt_distribution": {1: 0, 2: 0, 3: 0},
+            "judge_scores": [],
+            "sts_scores": [],
+            "processing_times": []
+        }
+
+        # Process each profile
+        for idx, full_profile in enumerate(gtmf_data):
+            profile_id = f"{full_profile.get('subject_id', 'unknown')}_{full_profile.get('hadm_id', 'unknown')}"
+
+            if idx > 0:
+                time.sleep(2)
+
+            ehr_text = None
+            if csv_loader:
+                subject_id = full_profile.get('subject_id')
+                hadm_id = full_profile.get('hadm_id')
+                if subject_id and hadm_id:
+                    logger.info(f"  Loading clinical note for subject_id={subject_id}, hadm_id={hadm_id}")
+                    ehr_text = csv_loader.fetch_note_by_ids(subject_id, hadm_id)
+
+            profile_type = profile_types[0]
+
+            try:
+                result = self.process_profile(full_profile, ehr_text, profile_type)
+                all_results.append(result)
+
+                stats["total_dialogues_attempted"] += 1
+                if result['success']:
+                    stats["successful_dialogues"] += 1
+                    stats["by_profile_type"][profile_type]["success"] += 1
+                    stats["attempt_distribution"][result['best_attempt']] += 1
+                    stats["judge_scores"].append(result['judge_evaluation']['score'])
+                    if result.get('is_realistic'):
+                        stats["realistic_dialogues"] += 1
+                        if result.get('sts_evaluation'):
+                            stats["sts_scores"].append(result['sts_evaluation']['sts_score'])
+                    else:
+                        stats["non_realistic_dialogues"] += 1
+                    stats["processing_times"].append(result['processing_time'])
+                else:
+                    stats["failed_dialogues"] += 1
+                    stats["by_profile_type"][profile_type]["fail"] += 1
+
+            except Exception as e:
+                logger.error(f"Error processing profile {profile_id}: {e}", exc_info=True)
+                stats["failed_dialogues"] += 1
+
+        if stats["judge_scores"]:
+            stats["avg_judge_score"] = sum(stats["judge_scores"]) / len(stats["judge_scores"])
+            if stats["sts_scores"]:
+                stats["avg_sts_score"] = sum(stats["sts_scores"]) / len(stats["sts_scores"])
+            else:
+                stats["avg_sts_score"] = None
+            stats["avg_processing_time"] = sum(stats["processing_times"]) / len(stats["processing_times"])
+
+        # Save global stats
+        stats_path = self.output_dir / "global_stats.json"
+        with open(stats_path, 'w', encoding='utf-8') as f:
+            json.dump(stats, f, indent=2)
+
+        per_profile_stats = [
+            {
+                "profile_id": r.get('profile_id'),
+                "success": r.get('success'),
+                "is_realistic": r.get('is_realistic'),
+                "attempts": r.get('total_attempts'),
+                "best_attempt": r.get('best_attempt'),
+                "judge_score": r.get('judge_evaluation', {}).get('score'),
+                "sts_score": r.get('sts_evaluation', {}).get('sts_score') if r.get('sts_evaluation') else None,
+                "processing_time": r.get('processing_time')
+            }
+            for r in all_results if r.get('success')
+        ]
+        per_profile_path = self.output_dir / "per_profile_stats.json"
+        with open(per_profile_path, 'w', encoding='utf-8') as f:
+            json.dump(per_profile_stats, f, indent=2)
+
+        logger.info(f"\n{'='*80}")
+        logger.info("PIPELINE SUMMARY")
+        logger.info(f"{'='*80}")
+        logger.info(f"Total profiles: {stats['total_profiles']}")
+        logger.info(f"Successful dialogues: {stats['successful_dialogues']}")
+        logger.info(f"  - Realistic: {stats['realistic_dialogues']}")
+        logger.info(f"  - Non-realistic: {stats['non_realistic_dialogues']}")
+        logger.info(f"Failed dialogues: {stats['failed_dialogues']}")
+        logger.info(f"Success rate: {stats['successful_dialogues']/stats['total_dialogues_attempted']:.1%}")
+        if stats['realistic_dialogues'] > 0:
+            realistic_rate = stats['realistic_dialogues']/stats['successful_dialogues']
+            logger.info(f"Realistic rate: {realistic_rate:.1%} of successful dialogues")
+        if stats.get('avg_judge_score'):
+            logger.info(f"Average judge score: {stats['avg_judge_score']:.3f}")
+            if stats.get('avg_sts_score') is not None:
+                logger.info(f"Average STS score: {stats['avg_sts_score']:.3f}")
+                logger.info(f"Realistic dialogues with STS: {len(stats['sts_scores'])}")
+            else:
+                logger.info(f"No realistic dialogues generated (no STS scores)")
+            logger.info(f"Average processing time: {stats['avg_processing_time']:.1f}s")
+
+        return stats
+
+
+def main():
+    logger.info("Starting Synthetic Patient-Physician Conversation Framework")
+
+    # Load GTMF data from Markdown files (light cases only)
+    gtmf_dir = "gtmf"  # Directory containing Markdown GTMF files
+
+    if not os.path.exists(gtmf_dir):
+        logger.error(f"GTMF directory not found: {gtmf_dir}")
+        logger.info("Please run gtmf_creation.py first to generate light-case GTMFs")
+        return
+
+    logger.info(f"Loading GTMFs from {gtmf_dir}/...")
+    gtmf_data = load_all_gtmfs_from_directory(gtmf_dir)
+
+    if not gtmf_data:
+        logger.error(f"No GTMF files found in {gtmf_dir}/")
+        logger.info("Please run gtmf_creation.py first to generate GTMFs")
+        return
+
+    logger.info(f"Loaded {len(gtmf_data)} GTMF profiles from Markdown files")
+
+    mts_dialog_csv = os.getenv("MTS_DIALOG_CSV_PATH", None)
+    mimic_csv_dir = os.getenv("MIMIC_CSV_DIR", None)
+
+    csv_loader = None
+    if mimic_csv_dir and os.path.exists(mimic_csv_dir):
+        logger.info(f"Loading MIMIC-III CSV data from {mimic_csv_dir}")
+        csv_loader = CSVDataLoader(mimic_csv_dir)
+    else:
+        logger.warning("MIMIC_CSV_DIR not set or directory not found. STS comparison will use placeholder text.")
+
+    pipeline = DialogueGenerationPipeline(
+        max_attempts=3,
+        max_turns=16,
+        judge_threshold=0.70,
+        output_dir="output_dialogue_framework",
+        mts_dialog_csv_path=mts_dialog_csv
+    )
+
+    stats = pipeline.run_pipeline(
+        gtmf_data=gtmf_data,
+        csv_loader=csv_loader,
+        profile_types=None
+    )
+
+    logger.info("\nPipeline completed successfully!")
+    logger.info(f"Results saved to: {pipeline.output_dir}")
+
+
+if __name__ == "__main__":
+    main()
