@@ -1,13 +1,20 @@
 import logging
+import random
 from Utils.llms_utils import load_gpt_model, chat_generate
 from Utils.bias_aware_prompts import BASE_SYSTEM_PROMPT
+from Utils.conversation_variety import (
+    get_doctor_acknowledgment, get_doctor_empathy, get_doctor_transition,
+    get_doctor_reflection_start, should_doctor_summarize,
+    should_doctor_explain_reasoning, get_symptom_follow_up_question,
+    DOCTOR_CLINICAL_REASONING, DOCTOR_EDUCATIONAL_PHRASES
+)
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class DoctorAgent:
     def __init__(self, patient_profile: dict = None):
-        self.llm = load_gpt_model(temperature=0.3, max_tokens=250)
+        self.llm = load_gpt_model(temperature=0.5, max_tokens=300)  # Increased for more natural variation
         self.patient_profile = patient_profile
         self.coach_feedback_to_incorporate = None
         self.conversation_phase = "opening"
@@ -60,19 +67,35 @@ class DoctorAgent:
 
                 "**CONSULTATION APPROACH FOR LIGHT CASES:**\n"
                 "1. Start with a warm greeting and open-ended question (e.g., 'How have you been feeling lately?')\n"
-                "2. Listen to patient's chief complaint and explore symptoms systematically\n"
-                "3. Ask focused follow-up questions based on what they share\n"
-                "4. Show empathy and acknowledge patient concerns naturally\n"
-                "5. Keep questions appropriate for a light, common condition (not severe/ICU-level)\n"
-                "6. When ready, provide assessment and recommendations based on conversation\n\n"
+                "2. Listen to patient's chief complaint and explore symptoms systematically with follow-up questions\n"
+                "3. Show empathy naturally and contextually (not every turn)\n"
+                "4. Provide education and clinical reasoning - explain WHY you're asking certain questions\n"
+                "5. Occasionally summarize what you've heard to show active listening\n"
+                "6. Provide practical advice and explain conditions in simple terms\n"
+                "7. Keep questions appropriate for a light, common condition (not severe/ICU-level)\n\n"
 
-                "**COMMUNICATION GUIDELINES:**\n"
-                "- Keep responses concise (1-3 sentences)\n"
-                "- Ask ONE clear question per turn\n"
-                "- Use professional but accessible medical language\n"
-                "- Build on what patient shares: 'You mentioned X, can you tell me more about...'\n"
+                "**COMMUNICATION GUIDELINES - NATURAL CONVERSATION:**\n"
+                "- Vary your response style - don't start every response with 'Thank you' or 'I understand'\n"
+                "- Sometimes acknowledge briefly ('I see', 'Okay'), sometimes just continue directly\n"
+                "- Ask follow-up questions to explore symptoms in depth (severity, duration, triggers, alleviating factors)\n"
+                "- Build on what patient shares naturally\n"
                 "- Reference earlier parts of conversation when relevant\n"
-                "- Show empathy when patient expresses concern or discomfort\n\n"
+                "- Use transitional phrases: 'Let me ask about...', 'Tell me more about...'\n"
+                "- Occasionally explain your clinical thinking: 'Based on what you're describing...'\n"
+                "- Provide brief education when appropriate: 'What often happens with this is...'\n\n"
+
+                "**PROVIDE CLINICAL VALUE:**\n"
+                "- Explain likely mechanisms or causes in simple terms when appropriate\n"
+                "- Educate about warning signs to watch for\n"
+                "- Offer reassurance when findings suggest common, benign issues\n"
+                "- Provide practical self-care advice beyond just 'see your doctor'\n"
+                "- Help patient understand connections between symptoms\n\n"
+
+                "**AVOID REPETITION:**\n"
+                "- Don't ask about the same symptom multiple times unless seeking clarification\n"
+                "- Vary your phrasing and approach\n"
+                "- Don't repeat the same symptoms back to the patient every turn\n"
+                "- Progress the conversation forward\n\n"
 
                 "**CRITICAL GROUNDING RULES:**\n"
                 "- Base your questions and assessment ONLY on what the patient tells you in the conversation\n"
@@ -150,31 +173,44 @@ class DoctorAgent:
         if self.conversation_phase == "opening":
             phase_guidance = "Greet patient warmly and ask open-ended question about their chief concern."
         elif self.conversation_phase == "exploration":
-            phase_guidance = "Ask focused follow-up questions based on what patient shared."
+            phase_guidance = "Explore symptoms in depth with follow-up questions (severity, duration, triggers). Vary your acknowledgments - don't always say 'Thank you for sharing'."
+            # Suggest clinical depth
+            if should_doctor_summarize(self.conversation_turn, len(self.discussed_symptoms)):
+                phase_guidance += " Consider briefly summarizing what you've learned so far."
         elif self.conversation_phase == "synthesis":
-            phase_guidance = "Begin summarizing findings and forming clinical assessment."
+            phase_guidance = "Summarize findings and form clinical assessment. Explain your reasoning."
+            if should_doctor_explain_reasoning(self.conversation_turn, self.conversation_phase):
+                phase_guidance += " Share your clinical thinking with the patient in simple terms."
         else:
-            phase_guidance = "Provide assessment and recommendations based on conversation."
+            phase_guidance = "Provide clear assessment, practical advice, and warning signs to watch for. Educate the patient."
 
-        # Track symptom exploration
+        # Track symptom exploration with follow-up suggestions
         remaining_symptoms = [s for s in self.key_symptoms if s not in self.discussed_symptoms]
         symptom_hint = ""
         if remaining_symptoms and self.conversation_turn <= 10:
-            symptom_hint = f"Consider exploring: {', '.join(remaining_symptoms[:2])}"
+            # Provide specific follow-up question suggestion
+            first_symptom = remaining_symptoms[0]
+            follow_up = get_symptom_follow_up_question(first_symptom)
+            symptom_hint = f"Unexplored symptoms: {', '.join(remaining_symptoms[:2])}. Example follow-up: '{follow_up}'"
+        elif self.discussed_symptoms and self.conversation_turn <= 8:
+            # Suggest deeper exploration of discussed symptoms
+            symptom_hint = "Ask deeper follow-up questions about symptoms already mentioned (severity, duration, what makes it better/worse)."
 
-        # Simple, grounded prompt focusing on natural conversation
+        # Enhanced prompt with variety and clinical depth guidance
         user_prompt_for_next_turn = (
             f"**Turn {self.conversation_turn} - {self.conversation_phase.title()} Phase**\n"
             f"Guidance: {phase_guidance}\n"
             f"{symptom_hint}\n\n"
 
             "**Response guidelines:**\n"
-            "1. Keep response concise (1-3 sentences)\n"
-            "2. Ask ONE clear, focused question\n"
-            "3. Show empathy if patient expressed concern or discomfort\n"
-            "4. Build on what patient has shared in conversation\n"
-            "5. Use clear, professional medical language\n"
-            "6. Stay focused on light, common conditions\n\n"
+            "1. VARY your opening - don't always start with 'Thank you' or 'I understand'\n"
+            "   - Options: 'I see', 'Okay', 'Let me ask about...', or just continue directly\n"
+            "2. Ask focused questions OR provide clinical insight/education (depending on phase)\n"
+            "3. Show empathy contextually (not every turn) when patient expresses distress\n"
+            "4. Build on previous answers - explore symptoms in depth\n"
+            "5. If in synthesis/conclusion phase, explain your clinical reasoning in simple terms\n"
+            "6. Avoid repeating the same symptoms back to patient\n"
+            "7. Provide practical value - education, reassurance, or actionable advice\n\n"
 
             "Doctor's response:"
         )
