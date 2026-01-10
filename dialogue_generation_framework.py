@@ -22,7 +22,18 @@ logger = logging.getLogger(__name__)
 
 
 class DialogueGenerationPipeline:
-    def __init__(self, max_attempts=3, max_turns=16, judge_threshold=0.7, output_dir="output_dialogue_framework", mts_dialog_csv_path=None):
+    def __init__(self, max_attempts=3, max_turns=30, judge_threshold=0.7, output_dir="output_dialogue_framework", mts_dialog_csv_path=None):
+        """
+        Initialize the dialogue generation pipeline.
+
+        Args:
+            max_attempts: Maximum attempts to generate a realistic dialogue
+            max_turns: Maximum turns per dialogue (safety limit, not target). Default 30.
+                      Dialogues can end naturally much earlier (6-12 turns typically).
+            judge_threshold: Minimum score for dialogue to be considered realistic
+            output_dir: Directory for output files
+            mts_dialog_csv_path: Path to MTS dialog examples for judge
+        """
         self.max_attempts = max_attempts
         self.max_turns = max_turns
         self.judge_threshold = judge_threshold
@@ -419,7 +430,7 @@ def main():
 
     pipeline = DialogueGenerationPipeline(
         max_attempts=3,
-        max_turns=16,
+        max_turns=30,  # Safety limit - dialogues can end naturally much earlier (6-12 turns)
         judge_threshold=0.70,
         output_dir="output_dialogue_framework",
         mts_dialog_csv_path=mts_dialog_csv

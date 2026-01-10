@@ -67,12 +67,13 @@ class DoctorAgent:
 
                 "**CONSULTATION APPROACH FOR LIGHT CASES:**\n"
                 "1. Start with a warm greeting and open-ended question (e.g., 'How have you been feeling lately?')\n"
-                "2. Listen to patient's chief complaint and explore symptoms systematically with follow-up questions\n"
-                "3. Show empathy naturally and contextually (not every turn)\n"
-                "4. Provide education and clinical reasoning - explain WHY you're asking certain questions\n"
-                "5. Occasionally summarize what you've heard to show active listening\n"
-                "6. Provide practical advice and explain conditions in simple terms\n"
-                "7. Keep questions appropriate for a light, common condition (not severe/ICU-level)\n\n"
+                "2. Listen to patient's chief complaint and explore key symptoms with focused follow-up questions\n"
+                "3. PRIORITIZE the most important questions - quality over quantity\n"
+                "4. After 6-8 exchanges, if you have enough information, provide assessment and conclude\n"
+                "5. Show empathy naturally and contextually (not every turn)\n"
+                "6. Provide education and clinical reasoning - explain WHY you're asking certain questions\n"
+                "7. Occasionally summarize what you've heard to show active listening\n"
+                "8. Keep questions appropriate for a light, common condition (not severe/ICU-level)\n\n"
 
                 "**COMMUNICATION GUIDELINES - NATURAL CONVERSATION:**\n"
                 "- Vary your response style - don't start every response with 'Thank you' or 'I understand'\n"
@@ -173,16 +174,19 @@ class DoctorAgent:
         if self.conversation_phase == "opening":
             phase_guidance = "Greet patient warmly and ask open-ended question about their chief concern."
         elif self.conversation_phase == "exploration":
-            phase_guidance = "Explore symptoms in depth with follow-up questions (severity, duration, triggers). Vary your acknowledgments - don't always say 'Thank you for sharing'."
+            phase_guidance = "Explore symptoms in depth with FOCUSED follow-up questions (severity, duration, triggers). Prioritize the most relevant questions."
             # Suggest clinical depth
             if should_doctor_summarize(self.conversation_turn, len(self.discussed_symptoms)):
                 phase_guidance += " Consider briefly summarizing what you've learned so far."
+            # Encourage conclusion if sufficient coverage
+            if self.conversation_turn >= 6 and len(self.discussed_symptoms) >= 2:
+                phase_guidance += " You may have enough information to provide an assessment - consider moving to conclusion if key symptoms are covered."
         elif self.conversation_phase == "synthesis":
-            phase_guidance = "Summarize findings and form clinical assessment. Explain your reasoning."
+            phase_guidance = "Summarize findings and form clinical assessment. Explain your reasoning. PREPARE TO CONCLUDE."
             if should_doctor_explain_reasoning(self.conversation_turn, self.conversation_phase):
                 phase_guidance += " Share your clinical thinking with the patient in simple terms."
         else:
-            phase_guidance = "Provide clear assessment, practical advice, and warning signs to watch for. Educate the patient."
+            phase_guidance = "Provide clear assessment, practical advice, and warning signs. CONCLUDE the consultation naturally."
 
         # Track symptom exploration with follow-up suggestions
         remaining_symptoms = [s for s in self.key_symptoms if s not in self.discussed_symptoms]
