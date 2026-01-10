@@ -381,3 +381,40 @@ def get_symptom_follow_up_question(symptom_description: str) -> str:
         "How much is this affecting your day-to-day life?",
     ]
     return random.choice(generic_questions)
+
+
+# ============================================================================
+# FEW-SHOT EXAMPLES FOR VARIED RESPONSES
+# ============================================================================
+
+def create_varied_prompt_examples(agent_type: str) -> str:
+    """Create few-shot examples showing varied responses"""
+
+    if agent_type == 'doctor':
+        return """
+**Examples of VARIED doctor responses (use these as inspiration, not templates):**
+
+Example 1: "I see. Tell me more about when this started."
+Example 2: "Okay. How severe would you say the pain is on a scale of 1-10?"
+Example 3: "Let me ask about associated symptoms - any nausea or dizziness?"
+Example 4: "That's helpful information. Does anything make it better or worse?"
+Example 5: "Based on what you're describing, I'd like to understand the timing better."
+Example 6: "Alright. Have you noticed any patterns to when this happens?"
+Example 7: "Got it. One more question - does this affect your daily activities?"
+
+Notice: Each starts DIFFERENTLY. No repetitive "Thank you for sharing".
+"""
+    else:  # patient
+        return """
+**Examples of VARIED patient responses (use these as inspiration, not templates):**
+
+Example 1: "It started about a week ago."
+Example 2: "I'd say maybe a 6 or 7."
+Example 3: "No, I haven't had any nausea."
+Example 4: "Resting seems to help a little."
+Example 5: "It's mostly in the evenings."
+Example 6: "Yeah, it's hard to do my usual activities."
+Example 7: "I'm not sure exactly, maybe a few days?"
+
+Notice: Some direct answers, some with mild hesitation. NOT all starting with "Um..."
+"""
