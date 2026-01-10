@@ -194,7 +194,20 @@ class DoctorAgent:
                 phase_guidance += " Walk the patient through your thinking step-by-step."
 
         else:  # conclusion
-            phase_guidance = "Provide clear assessment, practical self-care advice, and warning signs to watch for. End by asking 'Does that make sense?' or 'Do you have any questions?' to allow patient to acknowledge understanding NATURALLY."
+            # Check if we already provided a conclusion
+            already_concluded = False
+            if conversation_history:
+                for msg in conversation_history:
+                    if msg.get('role', '').lower() == 'doctor':
+                        content_lower = msg['content'].lower()
+                        if any(keyword in content_lower for keyword in ['based on', 'sounds like', 'recommend', 'my assessment']):
+                            already_concluded = True
+                            break
+
+            if already_concluded:
+                phase_guidance = "You already provided your conclusion. Keep this response VERY brief - just answer patient's question or provide a final reassuring statement. DO NOT repeat your assessment or recommendations. Just say something like 'You're welcome' or 'Feel free to reach out if symptoms change' and STOP."
+            else:
+                phase_guidance = "Provide clear assessment, practical self-care advice, and warning signs to watch for. End by asking 'Does that make sense?' or 'Do you have any questions?' to allow patient to acknowledge understanding NATURALLY."
 
         # Track symptom exploration with follow-up suggestions
         remaining_symptoms = [s for s in self.key_symptoms if s not in self.discussed_symptoms]

@@ -20,12 +20,17 @@ DOCTOR_CONCLUSION_KEYWORDS = [
 ]
 
 PATIENT_UNDERSTANDING_KEYWORDS = [
-    "i understand", "that makes sense", "okay", "thank you doctor", "alright",
+    # Direct understanding
+    "i understand", "that makes sense", "okay", "thank you", "alright",
     "got it", "i see", "that helps", "sounds good", "that's clear",
-    "i think i understand", "that explains it", "thank you for explaining",
+    "i think i understand", "that explains it",
     # More natural acknowledgments
-    "that's helpful", "appreciate that", "makes sense", "good to know",
-    "i feel better knowing", "that's reassuring", "okay i'll do that"
+    "that's helpful", "appreciate", "makes sense", "good to know",
+    "i feel better", "that's reassuring", "okay i'll do that",
+    # Simple affirmations (very common in real conversations)
+    "yes", "sure", "right", "yeah", "ok", "great", "perfect",
+    # Grateful closings
+    "thanks", "thank", "appreciated"
 ]
 
 PATIENT_CONFUSION_KEYWORDS = [
@@ -141,7 +146,8 @@ def simulate_dialogue(doctor_agent, patient_agent, max_turns=30, consecutive_con
     turn_count = 0
     doctor_has_concluded = False
     patient_confusion_streak = 0
-    
+    post_conclusion_exchanges = 0  # Track exchanges after doctor concludes
+
     while turn_count < max_turns:
         turn_count += 1
         logger.info(f"--- 🔄 Turn {turn_count}/{max_turns} ---")
@@ -167,14 +173,21 @@ def simulate_dialogue(doctor_agent, patient_agent, max_turns=30, consecutive_con
 
         # Patient response analysis after doctor conclusion
         if doctor_has_concluded:
+            post_conclusion_exchanges += 1
             patient_text_lower = patient_message.lower()
             shows_understanding = any(keyword in patient_text_lower for keyword in PATIENT_UNDERSTANDING_KEYWORDS)
             shows_confusion = any(keyword in patient_text_lower for keyword in PATIENT_CONFUSION_KEYWORDS)
 
+            # End if patient shows understanding OR after 2 post-conclusion exchanges
             if shows_understanding and not shows_confusion:
                 logger.info(f"✅ Patient showed understanding of conclusion at turn {turn_count}")
                 transcript_log.append("[Patient showed understanding of Doctor's conclusion]")
-                break 
+                break
+            elif post_conclusion_exchanges >= 2:
+                # After 2 exchanges post-conclusion, end regardless
+                logger.info(f"✅ Ending after {post_conclusion_exchanges} post-conclusion exchanges")
+                transcript_log.append("[Dialogue concluded naturally]")
+                break
             elif shows_confusion:
                 patient_confusion_streak += 1
                 logger.info(f"❓ Patient confused after conclusion T{turn_count} (Streak: {patient_confusion_streak})")
@@ -229,10 +242,17 @@ def simulate_dialogue(doctor_agent, patient_agent, max_turns=30, consecutive_con
             is_conversation_substantial(conversation_history, min_turns=8)
         )
 
+        # Only allow ONE conclusion - prevent re-concluding
         if not doctor_has_concluded and is_genuine_conclusion and can_conclude:
             doctor_has_concluded = True
             patient_confusion_streak = 0
+            post_conclusion_exchanges = 0  # Reset counter when conclusion first detected
             logger.info(f"🎯 Doctor conclusion detected at turn {turn_count} (total messages: {len(conversation_history)})")
+        elif doctor_has_concluded and is_genuine_conclusion:
+            # Doctor is re-concluding - this is repetitive, end the dialogue
+            logger.warning(f"⚠️ Doctor re-concluding (repetitive) - ending dialogue")
+            transcript_log.append("[Dialogue ended: Doctor repeated conclusion]")
+            break
         
         if turn_count >= max_turns:
              logger.warning(f"⏰ Maximum turns ({max_turns}) reached after doctor response")
@@ -272,7 +292,8 @@ def simulate_dialogue_yield(doctor_agent, patient_agent, max_turns=30, consecuti
     turn_count = 0
     doctor_has_concluded = False
     patient_confusion_streak = 0
-    
+    post_conclusion_exchanges = 0  # Track exchanges after doctor concludes
+
     while turn_count < max_turns:
         turn_count += 1
         logger.info(f"--- 🔄 Yield Turn {turn_count}/{max_turns} ---")
@@ -296,13 +317,20 @@ def simulate_dialogue_yield(doctor_agent, patient_agent, max_turns=30, consecuti
 
         # Patient response analysis (same as non-yield version)
         if doctor_has_concluded:
+            post_conclusion_exchanges += 1
             patient_text_lower = patient_message_content.lower()
             shows_understanding = any(keyword in patient_text_lower for keyword in PATIENT_UNDERSTANDING_KEYWORDS)
             shows_confusion = any(keyword in patient_text_lower for keyword in PATIENT_CONFUSION_KEYWORDS)
-            
+
+            # End if patient shows understanding OR after 2 post-conclusion exchanges
             if shows_understanding and not shows_confusion:
                 logger.info(f"✅ Patient understanding in yield at turn {turn_count}")
                 yield {"role": "System", "content": "[Patient showed understanding of Doctor's conclusion]"}
+                break
+            elif post_conclusion_exchanges >= 2:
+                # After 2 exchanges post-conclusion, end regardless
+                logger.info(f"✅ Yield ending after {post_conclusion_exchanges} post-conclusion exchanges")
+                yield {"role": "System", "content": "[Dialogue concluded naturally]"}
                 break
             elif shows_confusion:
                 patient_confusion_streak += 1
@@ -349,10 +377,17 @@ def simulate_dialogue_yield(doctor_agent, patient_agent, max_turns=30, consecuti
             is_conversation_substantial(conversation_history, min_turns=8)
         )
 
+        # Only allow ONE conclusion - prevent re-concluding
         if not doctor_has_concluded and is_genuine_conclusion and can_conclude:
             doctor_has_concluded = True
             patient_confusion_streak = 0
+            post_conclusion_exchanges = 0  # Reset counter when conclusion first detected
             logger.info(f"🎯 Doctor conclusion in yield at turn {turn_count} (total messages: {len(conversation_history)})")
+        elif doctor_has_concluded and is_genuine_conclusion:
+            # Doctor is re-concluding - this is repetitive, end the dialogue
+            logger.warning(f"⚠️ Doctor re-concluding (repetitive) in yield - ending dialogue")
+            yield {"role": "System", "content": "[Dialogue ended: Doctor repeated conclusion]"}
+            break
         
         if turn_count >= max_turns:
             logger.warning(f"⏰ Maximum turns ({max_turns}) reached after doctor response (yield)")
