@@ -5,3 +5,7 @@ __pycache__/
 *.pyd
 .Python
 /.vscode
+Agents/__pycache__/
+*.pyc
+*.pyo
+*.pyd

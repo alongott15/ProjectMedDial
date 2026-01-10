@@ -2,12 +2,12 @@
   {
     "profile_id": "10145_135661",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
+    "is_realistic": false,
+    "attempts": 3,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.5916101932525635,
-    "processing_time": 89.39774823188782
+    "judge_score": 0.3,
+    "sts_score": null,
+    "processing_time": 454.30486130714417
   },
   {
     "profile_id": "10446_147753",
@@ -15,9 +15,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.6603374481201172,
-    "processing_time": 87.59037899971008
+    "judge_score": 0.95,
+    "sts_score": 0.6282104253768921,
+    "processing_time": 56.587774991989136
   },
   {
     "profile_id": "10589_164518",
@@ -25,19 +25,19 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.7561312913894653,
-    "processing_time": 88.87431955337524
+    "judge_score": 0.95,
+    "sts_score": 0.6535133123397827,
+    "processing_time": 66.78987550735474
   },
   {
     "profile_id": "11235_158824",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
+    "is_realistic": false,
+    "attempts": 3,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.44701147079467773,
-    "processing_time": 91.96031904220581
+    "judge_score": 0.5,
+    "sts_score": null,
+    "processing_time": 436.5886962413788
   },
   {
     "profile_id": "11335_171028",
@@ -45,9 +45,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.347324937582016,
-    "processing_time": 89.12664127349854
+    "judge_score": 0.9,
+    "sts_score": 0.4326004683971405,
+    "processing_time": 38.46079087257385
   },
   {
     "profile_id": "11373_144507",
@@ -55,19 +55,19 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.5910248756408691,
-    "processing_time": 28.205944299697876
+    "judge_score": 0.9,
+    "sts_score": 0.6505398154258728,
+    "processing_time": 40.8798086643219
   },
   {
     "profile_id": "1183_145559",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
+    "is_realistic": false,
+    "attempts": 3,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.37655043601989746,
-    "processing_time": 88.2205502986908
+    "judge_score": 0.6,
+    "sts_score": null,
+    "processing_time": 450.30530643463135
   },
   {
     "profile_id": "1183_191513",
@@ -76,8 +76,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.6894124150276184,
-    "processing_time": 91.82064414024353
+    "sts_score": 0.30631351470947266,
+    "processing_time": 58.092782735824585
   },
   {
     "profile_id": "11862_106778",
@@ -86,8 +86,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.6975560784339905,
-    "processing_time": 76.77111577987671
+    "sts_score": 0.5978313684463501,
+    "processing_time": 55.94011569023132
   },
   {
     "profile_id": "12414_120178",
@@ -95,9 +95,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.6949173808097839,
-    "processing_time": 32.14559459686279
+    "judge_score": 0.9,
+    "sts_score": 0.6942548155784607,
+    "processing_time": 35.104522466659546
   },
   {
     "profile_id": "12769_193014",
@@ -106,28 +106,28 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.6410382390022278,
-    "processing_time": 92.51265788078308
+    "sts_score": 0.5757839679718018,
+    "processing_time": 39.36038827896118
   },
   {
     "profile_id": "12980_140258",
     "success": true,
     "is_realistic": false,
     "attempts": 3,
-    "best_attempt": 3,
+    "best_attempt": 1,
     "judge_score": 0.3,
     "sts_score": null,
-    "processing_time": 217.96264696121216
+    "processing_time": 142.6457657814026
   },
   {
     "profile_id": "13464_159360",
     "success": true,
-    "is_realistic": true,
-    "attempts": 2,
-    "best_attempt": 2,
-    "judge_score": 0.97,
-    "sts_score": 0.6492162346839905,
-    "processing_time": 180.02252459526062
+    "is_realistic": false,
+    "attempts": 3,
+    "best_attempt": 1,
+    "judge_score": 0.4,
+    "sts_score": null,
+    "processing_time": 437.22781777381897
   },
   {
     "profile_id": "1346_106893",
@@ -136,8 +136,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.5066258907318115,
-    "processing_time": 101.57346081733704
+    "sts_score": 0.4900878071784973,
+    "processing_time": 63.035064935684204
   },
   {
     "profile_id": "13663_104113",
@@ -146,18 +146,18 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.5831426978111267,
-    "processing_time": 93.5374915599823
+    "sts_score": 0.6922256946563721,
+    "processing_time": 65.1954870223999
   },
   {
     "profile_id": "1368_112848",
     "success": true,
     "is_realistic": true,
-    "attempts": 2,
-    "best_attempt": 2,
+    "attempts": 1,
+    "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.6430578827857971,
-    "processing_time": 165.35923147201538
+    "sts_score": 0.540687084197998,
+    "processing_time": 60.67042827606201
   },
   {
     "profile_id": "14602_172030",
@@ -166,8 +166,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.556399941444397,
-    "processing_time": 77.58081269264221
+    "sts_score": 0.4985587000846863,
+    "processing_time": 57.88646411895752
   },
   {
     "profile_id": "14911_111700",
@@ -175,9 +175,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.34037211537361145,
-    "processing_time": 86.79342103004456
+    "judge_score": 0.95,
+    "sts_score": 0.3693988621234894,
+    "processing_time": 55.77797532081604
   },
   {
     "profile_id": "14993_104037",
@@ -185,9 +185,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.6594874858856201,
-    "processing_time": 87.55644750595093
+    "judge_score": 0.85,
+    "sts_score": 0.47878360748291016,
+    "processing_time": 28.97160816192627
   },
   {
     "profile_id": "15403_117184",
@@ -195,9 +195,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.4827837347984314,
-    "processing_time": 92.70594573020935
+    "judge_score": 0.97,
+    "sts_score": 0.4990379512310028,
+    "processing_time": 56.500383377075195
   },
   {
     "profile_id": "1577_190193",
@@ -205,9 +205,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.85,
-    "sts_score": 0.41006913781166077,
-    "processing_time": 83.46874117851257
+    "judge_score": 0.97,
+    "sts_score": 0.455433189868927,
+    "processing_time": 61.276323556900024
   },
   {
     "profile_id": "16178_138464",
@@ -216,8 +216,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.48811614513397217,
-    "processing_time": 93.07904648780823
+    "sts_score": 0.5346782207489014,
+    "processing_time": 71.11276602745056
   },
   {
     "profile_id": "16595_186515",
@@ -225,9 +225,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.3773953914642334,
-    "processing_time": 86.91474437713623
+    "judge_score": 0.97,
+    "sts_score": 0.4205605983734131,
+    "processing_time": 60.75004863739014
   },
   {
     "profile_id": "16755_121568",
@@ -236,8 +236,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.6417762041091919,
-    "processing_time": 92.97202515602112
+    "sts_score": 0.5772144794464111,
+    "processing_time": 58.259010553359985
   },
   {
     "profile_id": "16880_132241",
@@ -245,19 +245,19 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.7941129803657532,
-    "processing_time": 91.43509864807129
+    "judge_score": 0.92,
+    "sts_score": 0.45124751329421997,
+    "processing_time": 60.832621335983276
   },
   {
     "profile_id": "17025_117085",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
-    "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.6287119388580322,
-    "processing_time": 87.52427673339844
+    "is_realistic": false,
+    "attempts": 3,
+    "best_attempt": 2,
+    "judge_score": 0.5,
+    "sts_score": null,
+    "processing_time": 355.3296775817871
   },
   {
     "profile_id": "17043_157985",
@@ -265,19 +265,19 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.5876656174659729,
-    "processing_time": 89.00844168663025
+    "judge_score": 0.97,
+    "sts_score": 0.6021794676780701,
+    "processing_time": 67.43055272102356
   },
   {
     "profile_id": "17113_180310",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
+    "is_realistic": false,
+    "attempts": 3,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.5930675268173218,
-    "processing_time": 86.12175297737122
+    "judge_score": 0.4,
+    "sts_score": null,
+    "processing_time": 285.60713601112366
   },
   {
     "profile_id": "1713_108569",
@@ -285,19 +285,19 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.6751143932342529,
-    "processing_time": 93.08625555038452
+    "judge_score": 0.92,
+    "sts_score": 0.5993874073028564,
+    "processing_time": 57.37859058380127
   },
   {
     "profile_id": "1796_178045",
     "success": true,
     "is_realistic": true,
-    "attempts": 1,
-    "best_attempt": 1,
+    "attempts": 2,
+    "best_attempt": 2,
     "judge_score": 0.97,
-    "sts_score": 0.7453911900520325,
-    "processing_time": 94.79333233833313
+    "sts_score": 0.6175869703292847,
+    "processing_time": 64.34030795097351
   },
   {
     "profile_id": "18012_184189",
@@ -305,9 +305,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.6505049467086792,
-    "processing_time": 91.79387259483337
+    "judge_score": 0.95,
+    "sts_score": 0.5970156192779541,
+    "processing_time": 55.35105562210083
   },
   {
     "profile_id": "18111_134243",
@@ -315,9 +315,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.93,
-    "sts_score": 0.4067312180995941,
-    "processing_time": 88.1401731967926
+    "judge_score": 0.92,
+    "sts_score": 0.5656963586807251,
+    "processing_time": 58.66673231124878
   },
   {
     "profile_id": "18139_152558",
@@ -326,8 +326,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.6267764568328857,
-    "processing_time": 89.08092617988586
+    "sts_score": 0.5415922403335571,
+    "processing_time": 59.9815559387207
   },
   {
     "profile_id": "19087_171337",
@@ -335,19 +335,19 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.93,
-    "sts_score": 0.6659041047096252,
-    "processing_time": 91.9213273525238
+    "judge_score": 0.95,
+    "sts_score": 0.8287241458892822,
+    "processing_time": 64.48765993118286
   },
   {
     "profile_id": "19300_101516",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
+    "is_realistic": false,
+    "attempts": 3,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.4692106246948242,
-    "processing_time": 95.56044960021973
+    "judge_score": 0.5,
+    "sts_score": null,
+    "processing_time": 442.97507071495056
   },
   {
     "profile_id": "19475_128816",
@@ -355,9 +355,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.7914819717407227,
-    "processing_time": 92.73718738555908
+    "judge_score": 0.95,
+    "sts_score": 0.6652306914329529,
+    "processing_time": 60.967071294784546
   },
   {
     "profile_id": "20007_188442",
@@ -367,7 +367,7 @@
     "best_attempt": 1,
     "judge_score": 0.4,
     "sts_score": null,
-    "processing_time": 283.75192975997925
+    "processing_time": 298.6167118549347
   },
   {
     "profile_id": "20127_186328",
@@ -375,9 +375,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.45140540599823,
-    "processing_time": 95.09827876091003
+    "judge_score": 0.97,
+    "sts_score": 0.5413234233856201,
+    "processing_time": 65.4387743473053
   },
   {
     "profile_id": "20190_157270",
@@ -385,9 +385,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.3248300552368164,
-    "processing_time": 94.05440020561218
+    "judge_score": 0.95,
+    "sts_score": 0.3512727916240692,
+    "processing_time": 58.06101369857788
   },
   {
     "profile_id": "20260_102548",
@@ -396,8 +396,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.7001625895500183,
-    "processing_time": 88.3434567451477
+    "sts_score": 0.4873519539833069,
+    "processing_time": 59.137633323669434
   },
   {
     "profile_id": "2034_187734",
@@ -405,9 +405,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.5743801593780518,
-    "processing_time": 93.67450857162476
+    "judge_score": 0.9,
+    "sts_score": 0.484317421913147,
+    "processing_time": 43.27898979187012
   },
   {
     "profile_id": "20374_133497",
@@ -415,9 +415,9 @@
     "is_realistic": false,
     "attempts": 3,
     "best_attempt": 1,
-    "judge_score": 0.4,
+    "judge_score": 0.3,
     "sts_score": null,
-    "processing_time": 278.04402351379395
+    "processing_time": 431.34848141670227
   },
   {
     "profile_id": "20552_142002",
@@ -425,19 +425,19 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.3508734405040741,
-    "processing_time": 95.06426429748535
+    "judge_score": 0.95,
+    "sts_score": 0.4431941509246826,
+    "processing_time": 68.31579351425171
   },
   {
     "profile_id": "21312_198222",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
+    "is_realistic": false,
+    "attempts": 3,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.6908897161483765,
-    "processing_time": 92.07432579994202
+    "judge_score": 0.3,
+    "sts_score": null,
+    "processing_time": 314.03550362586975
   },
   {
     "profile_id": "21393_187249",
@@ -445,9 +445,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.28829652070999146,
-    "processing_time": 84.03039455413818
+    "judge_score": 0.98,
+    "sts_score": 0.33009275794029236,
+    "processing_time": 64.95160818099976
   },
   {
     "profile_id": "21443_170714",
@@ -456,28 +456,28 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.6251205801963806,
-    "processing_time": 92.34616875648499
+    "sts_score": 0.693865180015564,
+    "processing_time": 55.97218704223633
   },
   {
     "profile_id": "22165_108233",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
+    "is_realistic": false,
+    "attempts": 3,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.732514500617981,
-    "processing_time": 97.13723969459534
+    "judge_score": 0.4,
+    "sts_score": null,
+    "processing_time": 466.3414490222931
   },
   {
     "profile_id": "22247_112708",
     "success": true,
     "is_realistic": true,
-    "attempts": 1,
-    "best_attempt": 1,
+    "attempts": 2,
+    "best_attempt": 2,
     "judge_score": 0.95,
-    "sts_score": 0.771129846572876,
-    "processing_time": 96.69322896003723
+    "sts_score": 0.7363107204437256,
+    "processing_time": 71.82874608039856
   },
   {
     "profile_id": "22486_160869",
@@ -485,9 +485,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.6017544269561768,
-    "processing_time": 64.72909283638
+    "judge_score": 0.97,
+    "sts_score": 0.5912224054336548,
+    "processing_time": 71.8978943824768
   },
   {
     "profile_id": "22513_124864",
@@ -496,8 +496,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.42202305793762207,
-    "processing_time": 90.3120367527008
+    "sts_score": 0.4275670051574707,
+    "processing_time": 59.5434205532074
   },
   {
     "profile_id": "23099_159773",
@@ -505,9 +505,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.4082828462123871,
-    "processing_time": 36.7990505695343
+    "judge_score": 0.97,
+    "sts_score": 0.35612115263938904,
+    "processing_time": 59.575960636138916
   },
   {
     "profile_id": "23197_103789",
@@ -515,9 +515,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.5429457426071167,
-    "processing_time": 90.71862864494324
+    "judge_score": 0.95,
+    "sts_score": 0.6520649194717407,
+    "processing_time": 74.18952822685242
   },
   {
     "profile_id": "2334_155535",
@@ -526,18 +526,18 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.715779185295105,
-    "processing_time": 95.48660659790039
+    "sts_score": 0.6857650279998779,
+    "processing_time": 56.565189599990845
   },
   {
     "profile_id": "23594_169075",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
-    "best_attempt": 1,
-    "judge_score": 0.93,
-    "sts_score": 0.26340609788894653,
-    "processing_time": 89.30761814117432
+    "is_realistic": false,
+    "attempts": 3,
+    "best_attempt": 2,
+    "judge_score": 0.4,
+    "sts_score": null,
+    "processing_time": 483.22497057914734
   },
   {
     "profile_id": "23885_165607",
@@ -546,18 +546,18 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.36843883991241455,
-    "processing_time": 88.19476532936096
+    "sts_score": 0.23880566656589508,
+    "processing_time": 58.645764112472534
   },
   {
     "profile_id": "2404_194598",
     "success": true,
-    "is_realistic": true,
-    "attempts": 2,
+    "is_realistic": false,
+    "attempts": 3,
     "best_attempt": 2,
-    "judge_score": 0.97,
-    "sts_score": 0.49785369634628296,
-    "processing_time": 180.74820733070374
+    "judge_score": 0.4,
+    "sts_score": null,
+    "processing_time": 443.9567747116089
   },
   {
     "profile_id": "24424_146533",
@@ -565,19 +565,19 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.5908901691436768,
-    "processing_time": 102.35166239738464
+    "judge_score": 0.95,
+    "sts_score": 0.6379727125167847,
+    "processing_time": 60.27900218963623
   },
   {
     "profile_id": "24622_192777",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
+    "is_realistic": false,
+    "attempts": 3,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.7255188226699829,
-    "processing_time": 93.92954850196838
+    "judge_score": 0.3,
+    "sts_score": null,
+    "processing_time": 411.57775378227234
   },
   {
     "profile_id": "25021_133655",
@@ -585,9 +585,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.5974775552749634,
-    "processing_time": 102.55246543884277
+    "judge_score": 0.95,
+    "sts_score": 0.6517868638038635,
+    "processing_time": 65.9833116531372
   },
   {
     "profile_id": "25318_157572",
@@ -595,9 +595,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.5294721126556396,
-    "processing_time": 89.93581008911133
+    "judge_score": 0.95,
+    "sts_score": 0.43132299184799194,
+    "processing_time": 57.88986802101135
   },
   {
     "profile_id": "25780_199988",
@@ -606,8 +606,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.3989061713218689,
-    "processing_time": 88.28364205360413
+    "sts_score": 0.4479590654373169,
+    "processing_time": 55.357874155044556
   },
   {
     "profile_id": "25995_123177",
@@ -616,28 +616,28 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.6369605660438538,
-    "processing_time": 91.40888786315918
+    "sts_score": 0.5369441509246826,
+    "processing_time": 56.26686882972717
   },
   {
     "profile_id": "26338_182527",
     "success": true,
-    "is_realistic": true,
+    "is_realistic": false,
     "attempts": 3,
-    "best_attempt": 3,
-    "judge_score": 0.92,
-    "sts_score": 0.5598103404045105,
-    "processing_time": 284.032333612442
+    "best_attempt": 1,
+    "judge_score": 0.4,
+    "sts_score": null,
+    "processing_time": 424.84568643569946
   },
   {
     "profile_id": "2640_145753",
     "success": true,
-    "is_realistic": true,
-    "attempts": 2,
-    "best_attempt": 2,
-    "judge_score": 0.95,
-    "sts_score": 0.31456297636032104,
-    "processing_time": 133.66661167144775
+    "is_realistic": false,
+    "attempts": 3,
+    "best_attempt": 1,
+    "judge_score": 0.6,
+    "sts_score": null,
+    "processing_time": 418.9479534626007
   },
   {
     "profile_id": "26695_178368",
@@ -645,19 +645,19 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.42537522315979004,
-    "processing_time": 78.20463871955872
+    "judge_score": 0.95,
+    "sts_score": 0.4529869556427002,
+    "processing_time": 61.36294746398926
   },
   {
     "profile_id": "26713_178282",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
+    "is_realistic": false,
+    "attempts": 3,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.497217059135437,
-    "processing_time": 92.361083984375
+    "judge_score": 0.4,
+    "sts_score": null,
+    "processing_time": 259.4238452911377
   },
   {
     "profile_id": "26854_161090",
@@ -666,8 +666,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.5080592632293701,
-    "processing_time": 91.38501453399658
+    "sts_score": 0.5260835289955139,
+    "processing_time": 70.1626648902893
   },
   {
     "profile_id": "27743_135557",
@@ -676,18 +676,18 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.47548410296440125,
-    "processing_time": 97.50272274017334
+    "sts_score": 0.3951719403266907,
+    "processing_time": 56.60086631774902
   },
   {
     "profile_id": "30285_168147",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
+    "is_realistic": false,
+    "attempts": 3,
     "best_attempt": 1,
-    "judge_score": 0.9,
-    "sts_score": 0.5056565403938293,
-    "processing_time": 28.28048539161682
+    "judge_score": 0.5,
+    "sts_score": null,
+    "processing_time": 33.76874279975891
   },
   {
     "profile_id": "310_142159",
@@ -696,18 +696,18 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.5491621494293213,
-    "processing_time": 93.62763571739197
+    "sts_score": 0.26450133323669434,
+    "processing_time": 63.50743794441223
   },
   {
     "profile_id": "31911_141231",
     "success": true,
     "is_realistic": false,
     "attempts": 3,
-    "best_attempt": 1,
-    "judge_score": 0.6,
+    "best_attempt": 2,
+    "judge_score": 0.5,
     "sts_score": null,
-    "processing_time": 193.94771218299866
+    "processing_time": 389.24773359298706
   },
   {
     "profile_id": "3325_102248",
@@ -715,9 +715,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.44871070981025696,
-    "processing_time": 99.49516773223877
+    "judge_score": 0.95,
+    "sts_score": 0.44287344813346863,
+    "processing_time": 58.394389390945435
   },
   {
     "profile_id": "3326_179009",
@@ -725,9 +725,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.361531138420105,
-    "processing_time": 89.0100450515747
+    "judge_score": 0.98,
+    "sts_score": 0.4615751802921295,
+    "processing_time": 57.00620150566101
   },
   {
     "profile_id": "3612_185952",
@@ -736,8 +736,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.6773375868797302,
-    "processing_time": 90.98304009437561
+    "sts_score": 0.6806861162185669,
+    "processing_time": 72.18564009666443
   },
   {
     "profile_id": "3644_191406",
@@ -746,8 +746,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.6200039386749268,
-    "processing_time": 97.21876955032349
+    "sts_score": 0.6774599552154541,
+    "processing_time": 60.32180619239807
   },
   {
     "profile_id": "3746_173526",
@@ -756,8 +756,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.6053400039672852,
-    "processing_time": 94.21629929542542
+    "sts_score": 0.5546844005584717,
+    "processing_time": 57.85381889343262
   },
   {
     "profile_id": "45489_105911",
@@ -766,8 +766,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.45229455828666687,
-    "processing_time": 95.92164778709412
+    "sts_score": 0.48220327496528625,
+    "processing_time": 59.536335468292236
   },
   {
     "profile_id": "5278_126618",
@@ -776,8 +776,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.5388745069503784,
-    "processing_time": 91.43489503860474
+    "sts_score": 0.5405772924423218,
+    "processing_time": 61.32643461227417
   },
   {
     "profile_id": "5463_195685",
@@ -785,9 +785,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.7300546169281006,
-    "processing_time": 85.68193221092224
+    "judge_score": 0.95,
+    "sts_score": 0.6758274435997009,
+    "processing_time": 63.00350093841553
   },
   {
     "profile_id": "5559_176938",
@@ -796,18 +796,18 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.6094509959220886,
-    "processing_time": 91.39958477020264
+    "sts_score": 0.6050548553466797,
+    "processing_time": 60.27632999420166
   },
   {
     "profile_id": "5569_183684",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
-    "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.6800175905227661,
-    "processing_time": 90.64030241966248
+    "is_realistic": false,
+    "attempts": 3,
+    "best_attempt": 2,
+    "judge_score": 0.6,
+    "sts_score": null,
+    "processing_time": 277.09402227401733
   },
   {
     "profile_id": "6603_114610",
@@ -816,8 +816,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.42599260807037354,
-    "processing_time": 85.0862762928009
+    "sts_score": 0.5162708759307861,
+    "processing_time": 57.0033802986145
   },
   {
     "profile_id": "6917_120570",
@@ -825,9 +825,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.6516745090484619,
-    "processing_time": 91.97864866256714
+    "judge_score": 0.95,
+    "sts_score": 0.5906789302825928,
+    "processing_time": 58.26085162162781
   },
   {
     "profile_id": "74576_145072",
@@ -835,9 +835,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.6565392017364502,
-    "processing_time": 92.6765148639679
+    "judge_score": 0.95,
+    "sts_score": 0.6716809272766113,
+    "processing_time": 60.07831072807312
   },
   {
     "profile_id": "74835_105494",
@@ -845,9 +845,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.45860186219215393,
-    "processing_time": 82.45157194137573
+    "judge_score": 0.95,
+    "sts_score": 0.5421006679534912,
+    "processing_time": 58.1362042427063
   },
   {
     "profile_id": "756_131927",
@@ -855,19 +855,19 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.7173080444335938,
-    "processing_time": 89.52068495750427
+    "judge_score": 0.92,
+    "sts_score": 0.6718471050262451,
+    "processing_time": 294.6879768371582
   },
   {
     "profile_id": "76625_195967",
     "success": true,
-    "is_realistic": true,
-    "attempts": 1,
-    "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.5857775211334229,
-    "processing_time": 87.88603663444519
+    "is_realistic": false,
+    "attempts": 3,
+    "best_attempt": 2,
+    "judge_score": 0.5,
+    "sts_score": null,
+    "processing_time": 422.6967206001282
   },
   {
     "profile_id": "8258_168621",
@@ -876,8 +876,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.95,
-    "sts_score": 0.673515260219574,
-    "processing_time": 95.79647827148438
+    "sts_score": 0.6136927008628845,
+    "processing_time": 38.79504346847534
   },
   {
     "profile_id": "8402_177676",
@@ -886,8 +886,8 @@
     "attempts": 1,
     "best_attempt": 1,
     "judge_score": 0.97,
-    "sts_score": 0.6593406200408936,
-    "processing_time": 90.43052935600281
+    "sts_score": 0.7951463460922241,
+    "processing_time": 61.49445080757141
   },
   {
     "profile_id": "843_141809",
@@ -895,9 +895,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.30570441484451294,
-    "processing_time": 90.27493834495544
+    "judge_score": 0.9,
+    "sts_score": 0.25971248745918274,
+    "processing_time": 32.59990668296814
   },
   {
     "profile_id": "843_197617",
@@ -905,9 +905,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.5385028123855591,
-    "processing_time": 93.93484497070312
+    "judge_score": 0.92,
+    "sts_score": 0.6210422515869141,
+    "processing_time": 62.481985092163086
   },
   {
     "profile_id": "85150_104285",
@@ -915,9 +915,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.97,
-    "sts_score": 0.4675186276435852,
-    "processing_time": 99.94611835479736
+    "judge_score": 0.95,
+    "sts_score": 0.44184648990631104,
+    "processing_time": 59.887683391571045
   },
   {
     "profile_id": "8616_190070",
@@ -925,9 +925,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.7,
-    "sts_score": 0.46642911434173584,
-    "processing_time": 81.56981110572815
+    "judge_score": 0.95,
+    "sts_score": 0.3944432735443115,
+    "processing_time": 59.953495264053345
   },
   {
     "profile_id": "8771_176766",
@@ -935,9 +935,9 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.95,
-    "sts_score": 0.5418434143066406,
-    "processing_time": 36.70867991447449
+    "judge_score": 0.97,
+    "sts_score": 0.5243215560913086,
+    "processing_time": 66.68882966041565
   },
   {
     "profile_id": "9045_178512",
@@ -945,8 +945,8 @@
     "is_realistic": true,
     "attempts": 1,
     "best_attempt": 1,
-    "judge_score": 0.98,
-    "sts_score": 0.4210195541381836,
-    "processing_time": 95.52256560325623
+    "judge_score": 0.95,
+    "sts_score": 0.5345990061759949,
+    "processing_time": 59.25097894668579
   }
 ]
