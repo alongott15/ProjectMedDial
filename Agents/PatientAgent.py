@@ -4,8 +4,10 @@ from Utils.bias_aware_prompts import BASE_SYSTEM_PROMPT
 import random
 from Utils.conversation_variety import (
     PatientPersonality, get_patient_hesitation, get_patient_response_starter,
-    should_use_filler_words, PATIENT_WORRY_EXPRESSIONS
+    should_use_filler_words, PATIENT_WORRY_EXPRESSIONS,
+    create_varied_prompt_examples
 )
+from Utils.repetition_filter import RepetitionTracker
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -26,6 +28,9 @@ class PatientAgent:
         self.conversation_turn = 0
         # Track symptoms for gradual, natural disclosure
         self.symptoms_to_disclose = self._prepare_gradual_disclosure()
+
+        # Add repetition tracking
+        self.repetition_tracker = RepetitionTracker("PatientAgent")
         
         demographics_str = self._get_demographics(profile)
         chief_complaint_str = self._get_chief_complaint(profile)
@@ -80,7 +85,8 @@ class PatientAgent:
                 "**NATURAL CONVERSATION BEHAVIOR:**\n"
                 "- **Turn 1-2**: Share only your main concern briefly, with some initial hesitation\n"
                 "- **Turn 3-5**: When asked, reveal 1-2 additional symptoms gradually\n"
-                "- **Turn 6+**: Feel more comfortable - less hesitation, more direct answers\n\n"
+                "- **Turn 6+**: Feel more comfortable - less hesitation, more direct answers\n"
+                "- **When doctor gives assessment/conclusion**: Respond naturally - acknowledge understanding, ask clarifying questions if needed, or express relief/concern appropriately\n\n"
 
                 "**COMMUNICATION STYLE - VARY YOUR RESPONSES:**\n"
                 "- Use everyday language initially: 'my chest hurts', 'hard to breathe'\n"
@@ -254,8 +260,17 @@ class PatientAgent:
                 "experiencing", "happening"
             ])
 
+            # Detect if doctor is giving assessment/conclusion
+            doctor_concluding = any(phrase in doctor_lower for phrase in [
+                "based on", "from what you've told me", "my assessment", "sounds like",
+                "appears to be", "likely", "recommend", "suggest", "treatment", "next steps",
+                "what i think", "my recommendation", "you should", "i'd advise"
+            ])
+
             # Turn-based guidance for natural conversation with personality
-            if self.conversation_turn <= 2:
+            if doctor_concluding:
+                turn_guidance = "The doctor is giving you their assessment/recommendations. Respond NATURALLY - acknowledge understanding ('Okay', 'That makes sense'), ask a clarifying question if something is unclear, or express how you feel about the assessment (relief, still worried, etc.). Be conversational, not formulaic."
+            elif self.conversation_turn <= 2:
                 turn_guidance = "Brief and slightly hesitant initially. Share only your main concern. Don't overuse 'Um...' or 'Well...'."
             elif self.conversation_turn <= 5:
                 turn_guidance = "Share more details when asked. Hesitate only when genuinely uncertain, not every response."
@@ -277,36 +292,58 @@ class PatientAgent:
             else:
                 hesitation_guidance = "Use hesitation only when genuinely uncertain about the answer."
 
+            # Check repetition stats
+            repetition_stats = self.repetition_tracker.get_usage_stats()
+            repetition_warning = ""
+            if repetition_stats['phrase_counts']:
+                overused = [pattern for pattern, count in repetition_stats['phrase_counts'].items() if count >= 2]
+                if overused:
+                    repetition_warning = f"\n⚠️ CRITICAL: You've started responses with 'Um...' or 'Well...' {len(overused)} times. STOP! Answer directly.\n"
+
             user_prompt_for_next_turn = (
                 f"Turn {self.conversation_turn}\n"
                 f"Doctor said: \"{last_doctor_message}\"\n"
                 f"Guidance: {turn_guidance}\n"
                 f"{hesitation_guidance}\n"
-                f"{symptom_hint}\n\n"
+                f"{symptom_hint}\n"
+                f"{repetition_warning}\n"
+
+                "**CRITICAL ANTI-REPETITION RULES:**\n"
+                "- DO NOT start with 'Um...', 'Well...', or 'Uh...'\n"
+                "- DO NOT ask 'Should I be worried?' or 'Is this serious?' again\n"
+                "- Answer DIRECTLY if doctor asks a clear question\n"
+                "- Check your last 3 responses - use COMPLETELY different openings\n\n"
 
                 "**Response guidelines:**\n"
                 "1. Keep response brief and natural (1-3 sentences)\n"
-                "2. VARY your response style - don't start every response with 'Um...' or 'Well...'\n"
-                "   - If doctor asks a clear question, answer directly\n"
-                "   - Use hesitation ONLY when uncertain or uncomfortable\n"
+                "2. START DIFFERENTLY than your last 3 responses\n"
+                "   - Direct answer: 'Yes', 'No', 'It started...', 'I've had...'\n"
+                "   - Only use brief hesitation if genuinely uncertain\n"
                 "3. Use everyday language, but mirror doctor's medical terms when appropriate\n"
                 "4. ONLY discuss symptoms from your profile\n"
-                "5. If asked about symptoms you DON'T have, say you haven't experienced them\n"
-                "6. Don't repeat 'Should I be worried?' every turn - vary your concerns\n\n"
+                "5. If asked about symptoms you DON'T have, say you haven't experienced them\n\n"
 
-                "Patient's response:"
+                + create_varied_prompt_examples('patient') +
+
+                "\nPatient's response:"
             )
             llm_messages.append({"role": "user", "content": user_prompt_for_next_turn})
         else:
             # Opening response
             user_prompt_for_next_turn = (
                 f"Turn {self.conversation_turn} - Starting consultation\n"
-                "Share only your main concern briefly. Be somewhat hesitant initially.\n\n"
-                "Patient's response:"
+                "Share only your main concern briefly. Be somewhat hesitant initially, but don't start with 'Um...'.\n\n"
+
+                + create_varied_prompt_examples('patient') +
+
+                "\nPatient's response:"
             )
             llm_messages.append({"role": "user", "content": user_prompt_for_next_turn})
 
         response_content = chat_generate(self.llm, llm_messages)
+
+        # Track this response for repetition detection
+        self.repetition_tracker.track_response(response_content)
 
         logger.info(f"[Patient] Turn {self.conversation_turn}: {response_content[:80]}...")
         return response_content

@@ -6,8 +6,10 @@ from Utils.conversation_variety import (
     get_doctor_acknowledgment, get_doctor_empathy, get_doctor_transition,
     get_doctor_reflection_start, should_doctor_summarize,
     should_doctor_explain_reasoning, get_symptom_follow_up_question,
-    DOCTOR_CLINICAL_REASONING, DOCTOR_EDUCATIONAL_PHRASES
+    DOCTOR_CLINICAL_REASONING, DOCTOR_EDUCATIONAL_PHRASES,
+    create_varied_prompt_examples
 )
+from Utils.repetition_filter import RepetitionTracker, detect_symptom_repetition
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -21,6 +23,9 @@ class DoctorAgent:
         self.discussed_symptoms = set()
         self.conversation_turn = 0
         self.last_patient_emotion = "neutral"
+
+        # Add repetition tracking
+        self.repetition_tracker = RepetitionTracker("DoctorAgent")
 
         # Extract demographics and profile information
         demographics_info = "Not specified"
@@ -170,23 +175,26 @@ class DoctorAgent:
             last_patient_message = conversation_history[-1]['content']
             self.last_patient_emotion = self._detect_patient_emotion(last_patient_message)
 
-        # Phase-specific guidance for natural conversation flow
+        # Phase-specific guidance for natural conversation flow with smooth transitions
         if self.conversation_phase == "opening":
             phase_guidance = "Greet patient warmly and ask open-ended question about their chief concern."
+
         elif self.conversation_phase == "exploration":
             phase_guidance = "Explore symptoms in depth with FOCUSED follow-up questions (severity, duration, triggers). Prioritize the most relevant questions."
             # Suggest clinical depth
             if should_doctor_summarize(self.conversation_turn, len(self.discussed_symptoms)):
                 phase_guidance += " Consider briefly summarizing what you've learned so far."
-            # Encourage conclusion if sufficient coverage
+            # Encourage natural transition to conclusion if sufficient coverage
             if self.conversation_turn >= 6 and len(self.discussed_symptoms) >= 2:
-                phase_guidance += " You may have enough information to provide an assessment - consider moving to conclusion if key symptoms are covered."
+                phase_guidance += " You have gathered good information. After your next question or two, start transitioning toward a conclusion by saying something like 'Based on what you've shared...' or 'Let me explain what I'm thinking...'"
+
         elif self.conversation_phase == "synthesis":
-            phase_guidance = "Summarize findings and form clinical assessment. Explain your reasoning. PREPARE TO CONCLUDE."
+            phase_guidance = "Begin your clinical assessment NATURALLY. Use transitional phrases like: 'Based on what we've discussed...', 'From what you've told me...', 'Let me share my thoughts...' Then explain your clinical reasoning in simple terms before giving recommendations."
             if should_doctor_explain_reasoning(self.conversation_turn, self.conversation_phase):
-                phase_guidance += " Share your clinical thinking with the patient in simple terms."
-        else:
-            phase_guidance = "Provide clear assessment, practical advice, and warning signs. CONCLUDE the consultation naturally."
+                phase_guidance += " Walk the patient through your thinking step-by-step."
+
+        else:  # conclusion
+            phase_guidance = "Provide clear assessment, practical self-care advice, and warning signs to watch for. End by asking 'Does that make sense?' or 'Do you have any questions?' to allow patient to acknowledge understanding NATURALLY."
 
         # Track symptom exploration with follow-up suggestions
         remaining_symptoms = [s for s in self.key_symptoms if s not in self.discussed_symptoms]
@@ -200,28 +208,58 @@ class DoctorAgent:
             # Suggest deeper exploration of discussed symptoms
             symptom_hint = "Ask deeper follow-up questions about symptoms already mentioned (severity, duration, what makes it better/worse)."
 
-        # Enhanced prompt with variety and clinical depth guidance
+        # Check for symptom over-repetition
+        overmentioned_symptoms = detect_symptom_repetition(conversation_history)
+        symptom_warning = ""
+        if overmentioned_symptoms:
+            symptom_warning = f"\n⚠️ CRITICAL: You've mentioned these symptoms too many times: {', '.join(overmentioned_symptoms)}. STOP repeating them!\n"
+
+        # Get repetition stats for feedback
+        repetition_stats = self.repetition_tracker.get_usage_stats()
+        repetition_warning = ""
+        if repetition_stats['phrase_counts']:
+            # Find most overused phrases
+            overused = [pattern for pattern, count in repetition_stats['phrase_counts'].items() if count >= 3]
+            if overused:
+                repetition_warning = f"\n⚠️ CRITICAL: You've overused these phrase patterns - COMPLETELY AVOID THEM:\n" + \
+                                   "- Starting with 'Thank you for...'\n" + \
+                                   "- Starting with 'I understand...'\n" + \
+                                   "Use completely different openings!\n"
+
+        # Enhanced prompt with variety, clinical depth, AND anti-repetition
         user_prompt_for_next_turn = (
             f"**Turn {self.conversation_turn} - {self.conversation_phase.title()} Phase**\n"
             f"Guidance: {phase_guidance}\n"
-            f"{symptom_hint}\n\n"
+            f"{symptom_hint}\n"
+            f"{repetition_warning}"
+            f"{symptom_warning}\n"
+
+            "**CRITICAL ANTI-REPETITION RULES:**\n"
+            "- NEVER start with 'Thank you for sharing/letting me know/telling me'\n"
+            "- NEVER start with 'I understand' or 'I'm sorry you're experiencing'\n"
+            "- NEVER repeat the same symptoms back to the patient\n"
+            "- Check your last 3 responses - use COMPLETELY different openings\n\n"
 
             "**Response guidelines:**\n"
-            "1. VARY your opening - don't always start with 'Thank you' or 'I understand'\n"
-            "   - Options: 'I see', 'Okay', 'Let me ask about...', or just continue directly\n"
-            "2. Ask focused questions OR provide clinical insight/education (depending on phase)\n"
-            "3. Show empathy contextually (not every turn) when patient expresses distress\n"
-            "4. Build on previous answers - explore symptoms in depth\n"
-            "5. If in synthesis/conclusion phase, explain your clinical reasoning in simple terms\n"
-            "6. Avoid repeating the same symptoms back to patient\n"
-            "7. Provide practical value - education, reassurance, or actionable advice\n\n"
+            "1. START DIFFERENTLY than your last 3 responses\n"
+            "   - Options: 'I see', 'Okay', 'Let me ask about...', 'Tell me more about...', 'Got it', or dive straight into question\n"
+            "2. Ask ONE focused question OR provide clinical insight (depending on phase)\n"
+            "3. Show empathy contextually (not every turn)\n"
+            "4. Build on previous answers without repeating them\n"
+            "5. If in synthesis/conclusion phase, explain clinical reasoning\n"
+            "6. Provide practical value - education, reassurance, or actionable advice\n\n"
 
-            "Doctor's response:"
+            + create_varied_prompt_examples('doctor') +
+
+            "\nDoctor's response:"
         )
 
         llm_messages.append({"role": "user", "content": user_prompt_for_next_turn})
 
         response_content = chat_generate(self.llm, llm_messages)
+
+        # Track this response for repetition detection
+        self.repetition_tracker.track_response(response_content)
 
         logger.info(f"[Doctor] Turn {self.conversation_turn} ({self.conversation_phase}): {response_content[:80]}...")
         return response_content

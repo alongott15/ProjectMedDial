@@ -6,19 +6,26 @@ from typing import Tuple, List, Dict
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Simple conversation completion keywords
+# Natural conversation conclusion keywords - includes transitional phrases
 DOCTOR_CONCLUSION_KEYWORDS = [
     "based on our conversation", "my assessment is", "based on what you've told me",
     "i believe you have", "my diagnosis is", "this appears to be", "what i think is happening",
     "my recommendation is", "i'd like to recommend", "the treatment plan", "our next steps",
     "my clinical impression", "i think we're looking at", "the most likely explanation",
-    "i would diagnose this as", "my assessment shows", "given your symptoms"
+    "i would diagnose this as", "my assessment shows", "given your symptoms",
+    # Natural transitional phrases
+    "from what you've shared", "from what you've told me", "let me explain what i'm thinking",
+    "let me share my thoughts", "based on what we've discussed", "here's what i think",
+    "let me walk you through", "my sense is that", "what this sounds like to me"
 ]
 
 PATIENT_UNDERSTANDING_KEYWORDS = [
     "i understand", "that makes sense", "okay", "thank you doctor", "alright",
     "got it", "i see", "that helps", "sounds good", "that's clear",
-    "i think i understand", "that explains it", "thank you for explaining"
+    "i think i understand", "that explains it", "thank you for explaining",
+    # More natural acknowledgments
+    "that's helpful", "appreciate that", "makes sense", "good to know",
+    "i feel better knowing", "that's reassuring", "okay i'll do that"
 ]
 
 PATIENT_CONFUSION_KEYWORDS = [
