@@ -17,24 +17,95 @@ This document outlines the implementation strategy to achieve three key mileston
 
 ### Implementation Steps
 
-#### 1.1 Modify GTMF Creation Script
+#### 1.1 Add Function to Skip Existing GTMFs
 **File**: `gtmf_creation.py`
 
-**Changes**:
+**NEW: Add before `process_notes` function**:
 ```python
-# Line 415: Change limit parameter
+def get_existing_gtmf_ids(output_dir: str = 'gtmf') -> set:
+    """
+    Get set of (subject_id, hadm_id) tuples for existing GTMFs.
+
+    Returns:
+        Set of tuples (subject_id, hadm_id) that already exist
+    """
+    existing_ids = set()
+
+    if not os.path.exists(output_dir):
+        return existing_ids
+
+    for filename in os.listdir(output_dir):
+        if filename.startswith('gtmf_') and filename.endswith('.md'):
+            # Parse filename: gtmf_10145_135661.md
+            parts = filename.replace('gtmf_', '').replace('.md', '').split('_')
+            if len(parts) == 2:
+                try:
+                    subject_id = int(parts[0])
+                    hadm_id = int(parts[1])
+                    existing_ids.add((subject_id, hadm_id))
+                except ValueError:
+                    continue
+
+    logger.info(f"Found {len(existing_ids)} existing GTMF profiles")
+    return existing_ids
+```
+
+#### 1.2 Modify GTMF Creation Script to Skip Existing
+**File**: `gtmf_creation.py`
+
+**Changes to `process_notes` function**:
+```python
+def process_notes(results, azure_client: AzureAIClient, output_dir: str = 'gtmf'):
+    os.makedirs(output_dir, exist_ok=True)
+
+    # CRITICAL: Load existing GTMFs to avoid regeneration
+    existing_ids = get_existing_gtmf_ids(output_dir)
+    logger.info(f"Skipping {len(existing_ids)} existing profiles")
+
+    quality_summary = {
+        "total_processed": 0,
+        "skipped_existing": 0,  # NEW
+        "json_parse_failures": 0,
+        "light_case_passed": 0,
+        "light_case_failed": 0,
+        "gtmfs_created": 0
+    }
+
+    for idx, row in enumerate(results):
+        try:
+            # CRITICAL: Skip if already exists
+            subject_id = row['subject_id']
+            hadm_id = row['hadm_id']
+
+            if (subject_id, hadm_id) in existing_ids:
+                logger.info(f"  Skipping existing profile: {subject_id}_{hadm_id}")
+                quality_summary["skipped_existing"] += 1
+                continue
+
+            light_case_result = is_light_common_case(row['text'])
+            if not light_case_result['passed']:
+                quality_summary["light_case_failed"] += 1
+                continue
+            # ... rest of processing
+```
+
+**Changes to `main` function** (Line 415):
+```python
+# Fetch more notes to reach target after skipping existing
 results = loader.fetch_notes_with_light_case_filter(
     category_filter="Discharge summary",
-    limit=400  # Increased from 100 to account for filtering
+    limit=500,  # Increased to ensure we get 300 total after filtering
+    offset=0    # Start from beginning but will skip existing
 )
 ```
 
 **Rationale**:
-- Not all fetched notes will pass light case filtering
-- Setting limit=400 should yield ~300 valid light case profiles
-- Light case filtering removes ICU/severe cases
+- Preserves existing 95 GTMFs (no regeneration)
+- Only creates NEW profiles
+- Target: 95 existing + ~205 new = 300 total
+- Setting limit=500 ensures enough candidates after filtering and skipping
 
-#### 1.2 Add Progress Tracking
+#### 1.3 Add Progress Tracking
 **Enhancement**: Add progress indicators during batch processing
 
 ```python
@@ -45,7 +116,7 @@ for idx, row in enumerate(results):
         logger.info(f"  GTMFs created so far: {quality_summary['gtmfs_created']}")
 ```
 
-#### 1.3 Add Checkpoint System
+#### 1.4 Add Checkpoint System
 **Enhancement**: Save progress periodically to avoid reprocessing
 
 ```python
@@ -64,7 +135,9 @@ def load_checkpoint(output_dir):
 ```
 
 **Expected Outcome**:
-- 300+ patient profiles with light, common medical cases
+- 300+ total patient profiles (95 existing + ~205 new)
+- **CRITICAL**: Existing 95 profiles are preserved (NOT regenerated)
+- Only new profiles created, skipping any that already exist
 - Diverse symptom combinations and demographics
 - Improved statistical power for analysis
 - Checkpoint recovery in case of interruption
@@ -597,10 +670,12 @@ if __name__ == '__main__':
 ## Implementation Timeline
 
 ### Phase 1: Dataset Expansion (Week 1)
-- [ ] Modify `gtmf_creation.py` to fetch 400 notes
+- [ ] Add `get_existing_gtmf_ids()` function to skip existing profiles
+- [ ] Modify `gtmf_creation.py` to fetch 500 notes and skip existing 95
 - [ ] Add progress tracking and checkpoint system
-- [ ] Run GTMF generation (expect ~300 valid profiles)
+- [ ] Run GTMF generation (expect 95 existing + ~205 new = 300 total)
 - [ ] Validate quality and diversity of new profiles
+- [ ] **CRITICAL**: Verify existing 95 profiles were NOT regenerated
 
 ### Phase 2: Profile Type Evaluation (Week 2)
 - [ ] Modify `dialogue_generation_framework.py` to process all profile types
@@ -632,10 +707,11 @@ if __name__ == '__main__':
 ## Success Criteria
 
 ### Milestone 1: Dataset Expansion
-✓ 300+ patient profiles generated
+✓ 300+ total patient profiles (95 existing preserved + ~205 new generated)
+✓ **CRITICAL**: Existing 95 profiles NOT regenerated (verified by checking file timestamps)
 ✓ Diverse symptom combinations (>50 unique chief complaints)
 ✓ Balanced demographics (age, sex distribution)
-✓ All profiles pass light case filtering
+✓ All new profiles pass light case filtering
 
 ### Milestone 2: Profile Type Evaluation
 ✓ 900+ dialogues generated (300 profiles × 3 types)
@@ -696,10 +772,11 @@ if __name__ == '__main__':
 ## File Modifications Summary
 
 ### Files to Modify
-1. `gtmf_creation.py` - Increase limit, add checkpointing
-2. `dialogue_generation_framework.py` - Process all profile types
-3. `Utils/bias_aware_prompts.py` - Enhanced summarizer prompts
-4. `Agents/STSEvaluatorAgent.py` - Medical embedding models
+1. `gtmf_creation.py` - Add skip-existing function, increase limit to 500, add checkpointing
+   - **CRITICAL**: Preserves existing 95 profiles, only creates new ones
+2. `dialogue_generation_framework.py` - Process all profile types (FULL, NO_DIAGNOSIS, NO_DIAGNOSIS_NO_TREATMENT)
+3. `Utils/bias_aware_prompts.py` - Enhanced summarizer prompts with structured 6-focus-area format
+4. `Agents/STSEvaluatorAgent.py` - Add medical-specific embedding models (S-PubMedBert, Bio_ClinicalBERT)
 
 ### New Files to Create
 1. `analyze_profile_types.py` - Profile type comparison
