@@ -94,7 +94,7 @@ def process_notes(results, azure_client: AzureAIClient, output_dir: str = 'gtmf'
 # Fetch more notes to reach target after skipping existing
 results = loader.fetch_notes_with_light_case_filter(
     category_filter="Discharge summary",
-    limit=500,  # Increased to ensure we get 300 total after filtering
+    limit=800,  # Increased to ensure we get 300 total after filtering
     offset=0    # Start from beginning but will skip existing
 )
 ```
@@ -103,7 +103,8 @@ results = loader.fetch_notes_with_light_case_filter(
 - Preserves existing 95 GTMFs (no regeneration)
 - Only creates NEW profiles
 - Target: 95 existing + ~205 new = 300 total
-- Setting limit=500 ensures enough candidates after filtering and skipping
+- Setting limit=800 ensures enough candidates after filtering and skipping
+- Conservative estimate accounts for light case filtering removing ~50% of cases
 
 #### 1.3 Add Progress Tracking
 **Enhancement**: Add progress indicators during batch processing
@@ -671,7 +672,7 @@ if __name__ == '__main__':
 
 ### Phase 1: Dataset Expansion (Week 1)
 - [ ] Add `get_existing_gtmf_ids()` function to skip existing profiles
-- [ ] Modify `gtmf_creation.py` to fetch 500 notes and skip existing 95
+- [ ] Modify `gtmf_creation.py` to fetch 800 notes and skip existing 95
 - [ ] Add progress tracking and checkpoint system
 - [ ] Run GTMF generation (expect 95 existing + ~205 new = 300 total)
 - [ ] Validate quality and diversity of new profiles
@@ -772,8 +773,9 @@ if __name__ == '__main__':
 ## File Modifications Summary
 
 ### Files to Modify
-1. `gtmf_creation.py` - Add skip-existing function, increase limit to 500, add checkpointing
+1. `gtmf_creation.py` - Add skip-existing function, increase limit to 800, add checkpointing
    - **CRITICAL**: Preserves existing 95 profiles, only creates new ones
+   - Fetch limit increased to 800 to ensure 300 total after filtering
 2. `dialogue_generation_framework.py` - Process all profile types (FULL, NO_DIAGNOSIS, NO_DIAGNOSIS_NO_TREATMENT)
 3. `Utils/bias_aware_prompts.py` - Enhanced summarizer prompts with structured 6-focus-area format
 4. `Agents/STSEvaluatorAgent.py` - Add medical-specific embedding models (S-PubMedBert, Bio_ClinicalBERT)
