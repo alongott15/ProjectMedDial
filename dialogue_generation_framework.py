@@ -265,7 +265,8 @@ class DialogueGenerationPipeline:
             }
         }
 
-        output_path = self.output_dir / f"dialogue_{profile_id}.md"
+        # Include profile type in filename to distinguish different variants
+        output_path = self.output_dir / f"dialogue_{profile_id}_{profile_type}.md"
         save_dialogue_markdown(result, str(output_path))
         logger.info(f"  Saved result to {output_path}")
 
@@ -294,7 +295,16 @@ class DialogueGenerationPipeline:
             "failed_dialogues": 0,
             "realistic_dialogues": 0,
             "non_realistic_dialogues": 0,
-            "by_profile_type": {pt: {"success": 0, "fail": 0} for pt in profile_types},
+            "by_profile_type": {
+                pt: {
+                    "success": 0,
+                    "fail": 0,
+                    "realistic": 0,
+                    "non_realistic": 0,
+                    "judge_scores": [],
+                    "sts_scores": []
+                } for pt in profile_types
+            },
             "attempt_distribution": {1: 0, 2: 0, 3: 0},
             "judge_scores": [],
             "sts_scores": [],
@@ -316,32 +326,46 @@ class DialogueGenerationPipeline:
                     logger.info(f"  Loading clinical note for subject_id={subject_id}, hadm_id={hadm_id}")
                     ehr_text = csv_loader.fetch_note_by_ids(subject_id, hadm_id)
 
-            profile_type = profile_types[0]
+            # Process each profile with ALL profile types
+            for profile_type in profile_types:
+                logger.info(f"  Processing profile type: {profile_type}")
 
-            try:
-                result = self.process_profile(full_profile, ehr_text, profile_type)
-                all_results.append(result)
+                try:
+                    result = self.process_profile(full_profile, ehr_text, profile_type)
+                    all_results.append(result)
 
-                stats["total_dialogues_attempted"] += 1
-                if result['success']:
-                    stats["successful_dialogues"] += 1
-                    stats["by_profile_type"][profile_type]["success"] += 1
-                    stats["attempt_distribution"][result['best_attempt']] += 1
-                    stats["judge_scores"].append(result['judge_evaluation']['score'])
-                    if result.get('is_realistic'):
-                        stats["realistic_dialogues"] += 1
-                        if result.get('sts_evaluation'):
-                            stats["sts_scores"].append(result['sts_evaluation']['sts_score'])
+                    stats["total_dialogues_attempted"] += 1
+                    if result['success']:
+                        stats["successful_dialogues"] += 1
+                        stats["by_profile_type"][profile_type]["success"] += 1
+                        stats["attempt_distribution"][result['best_attempt']] += 1
+                        stats["judge_scores"].append(result['judge_evaluation']['score'])
+                        stats["by_profile_type"][profile_type]["judge_scores"].append(result['judge_evaluation']['score'])
+
+                        if result.get('is_realistic'):
+                            stats["realistic_dialogues"] += 1
+                            stats["by_profile_type"][profile_type]["realistic"] += 1
+                            if result.get('sts_evaluation'):
+                                sts_score = result['sts_evaluation']['sts_score']
+                                stats["sts_scores"].append(sts_score)
+                                stats["by_profile_type"][profile_type]["sts_scores"].append(sts_score)
+                        else:
+                            stats["non_realistic_dialogues"] += 1
+                            stats["by_profile_type"][profile_type]["non_realistic"] += 1
+
+                        stats["processing_times"].append(result['processing_time'])
                     else:
-                        stats["non_realistic_dialogues"] += 1
-                    stats["processing_times"].append(result['processing_time'])
-                else:
+                        stats["failed_dialogues"] += 1
+                        stats["by_profile_type"][profile_type]["fail"] += 1
+
+                    # Add delay between profile types
+                    if profile_type != profile_types[-1]:
+                        time.sleep(2)
+
+                except Exception as e:
+                    logger.error(f"Error processing profile {profile_id} ({profile_type}): {e}", exc_info=True)
                     stats["failed_dialogues"] += 1
                     stats["by_profile_type"][profile_type]["fail"] += 1
-
-            except Exception as e:
-                logger.error(f"Error processing profile {profile_id}: {e}", exc_info=True)
-                stats["failed_dialogues"] += 1
 
         if stats["judge_scores"]:
             stats["avg_judge_score"] = sum(stats["judge_scores"]) / len(stats["judge_scores"])
@@ -351,6 +375,19 @@ class DialogueGenerationPipeline:
                 stats["avg_sts_score"] = None
             stats["avg_processing_time"] = sum(stats["processing_times"]) / len(stats["processing_times"])
 
+        # Calculate averages for each profile type
+        for pt in profile_types:
+            pt_stats = stats["by_profile_type"][pt]
+            if pt_stats["judge_scores"]:
+                pt_stats["avg_judge_score"] = sum(pt_stats["judge_scores"]) / len(pt_stats["judge_scores"])
+            else:
+                pt_stats["avg_judge_score"] = None
+
+            if pt_stats["sts_scores"]:
+                pt_stats["avg_sts_score"] = sum(pt_stats["sts_scores"]) / len(pt_stats["sts_scores"])
+            else:
+                pt_stats["avg_sts_score"] = None
+
         # Save global stats
         stats_path = self.output_dir / "global_stats.json"
         with open(stats_path, 'w', encoding='utf-8') as f:
@@ -359,6 +396,7 @@ class DialogueGenerationPipeline:
         per_profile_stats = [
             {
                 "profile_id": r.get('profile_id'),
+                "profile_type": r.get('profile_type'),
                 "success": r.get('success'),
                 "is_realistic": r.get('is_realistic'),
                 "attempts": r.get('total_attempts'),
@@ -393,6 +431,21 @@ class DialogueGenerationPipeline:
             else:
                 logger.info(f"No realistic dialogues generated (no STS scores)")
             logger.info(f"Average processing time: {stats['avg_processing_time']:.1f}s")
+
+        # Log stats by profile type
+        logger.info(f"\n{'='*80}")
+        logger.info("STATS BY PROFILE TYPE")
+        logger.info(f"{'='*80}")
+        for pt in profile_types:
+            pt_stats = stats["by_profile_type"][pt]
+            logger.info(f"\n{pt}:")
+            logger.info(f"  Success: {pt_stats['success']}, Fail: {pt_stats['fail']}")
+            logger.info(f"  Realistic: {pt_stats['realistic']}, Non-realistic: {pt_stats['non_realistic']}")
+            if pt_stats.get('avg_judge_score') is not None:
+                logger.info(f"  Avg Judge Score: {pt_stats['avg_judge_score']:.3f}")
+            if pt_stats.get('avg_sts_score') is not None:
+                logger.info(f"  Avg STS Score: {pt_stats['avg_sts_score']:.3f}")
+                logger.info(f"  STS samples: {len(pt_stats['sts_scores'])}")
 
         return stats
 
