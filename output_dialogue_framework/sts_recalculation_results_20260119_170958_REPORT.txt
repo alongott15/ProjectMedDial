@@ -1,0 +1,233 @@
+====================================================================================================
+STS SCORE RECALCULATION - COMPREHENSIVE COMPARISON REPORT
+====================================================================================================
+
+Generated: 2026-01-19 17:11:03
+Data file: output_dialogue_framework/sts_recalculation_results_20260119_170958.json
+Timestamp: 2026-01-19T17:09:58.556681
+
+====================================================================================================
+
+EXECUTIVE SUMMARY
+====================================================================================================
+
+Total dialogues processed: 1342
+Skipped (missing data): 245
+Errors: 0
+
+Old STS Scores                 Mean: 0.9291  Median: 0.9530  StdDev: 0.0993
+  Range:                       [0.2390, 0.9830]
+
+New STS Scores                 Mean: 0.2728  Median: 0.2662  StdDev: 0.1479
+  Range:                       [0.0068, 0.7402]
+
+Change in Scores               Mean: -0.6562  Median: -0.6780
+  Range:                       [-0.9441, +0.0771]
+
+Information Retention          Mean: 0.2273  Median: 0.2105
+  Range:                       [0.0000, 1.0000]
+
+====================================================================================================
+
+ANALYSIS BY PROFILE TYPE
+====================================================================================================
+
+FULL (497 dialogues)
+----------------------------------------------------------------------------------------------------
+  Old STS:     Mean=0.8905  Median=0.9510  Range=[0.2390, 0.9780]
+  New STS:     Mean=0.2324  Median=0.2317  Range=[0.0084, 0.6681]
+  Change:      Mean=-0.6581  Median=-0.7022
+  Retention:   Mean=0.1932  Coverage=19.3%
+
+  Component Recall Scores:
+    symptoms        Mean=0.573  Median=0.571
+    diagnosis       Mean=0.131  Median=0.000
+    treatment       Mean=0.108  Median=0.000
+    findings        Mean=0.193  Median=0.000
+    history         Mean=0.215  Median=0.200
+
+NO_DIAGNOSIS (429 dialogues)
+----------------------------------------------------------------------------------------------------
+  Old STS:     Mean=0.9518  Median=0.9530  Range=[0.9050, 0.9830]
+  New STS:     Mean=0.2694  Median=0.2703  Range=[0.0068, 0.6627]
+  Change:      Mean=-0.6824  Median=-0.6878
+  Retention:   Mean=0.2257  Coverage=22.6%
+
+  Component Recall Scores:
+    symptoms        Mean=0.564  Median=0.600
+    diagnosis       Mean=0.122  Median=0.000
+    treatment       Mean=0.117  Median=0.000
+    findings        Mean=0.178  Median=0.000
+    history         Mean=0.256  Median=0.200
+
+NO_DIAGNOSIS_NO_TREATMENT (416 dialogues)
+----------------------------------------------------------------------------------------------------
+  Old STS:     Mean=0.9517  Median=0.9550  Range=[0.9030, 0.9810]
+  New STS:     Mean=0.3248  Median=0.3253  Range=[0.0077, 0.7402]
+  Change:      Mean=-0.6270  Median=-0.6312
+  Retention:   Mean=0.2696  Coverage=27.0%
+
+  Component Recall Scores:
+    symptoms        Mean=0.566  Median=0.571
+    diagnosis       Mean=0.126  Median=0.000
+    treatment       Mean=0.104  Median=0.000
+    findings        Mean=0.167  Median=0.000
+    history         Mean=0.221  Median=0.200
+
+====================================================================================================
+
+SCORE DISTRIBUTIONS
+====================================================================================================
+
+Old STS Score Distribution
+--------------------------------------------------------------------------------
+  [0.00-0.10):  0
+  [0.10-0.20):  0
+  [0.20-0.30):  3
+  [0.30-0.40):  7
+  [0.40-0.50):  19
+  [0.50-0.60):  20
+  [0.60-0.70):  21
+  [0.70-0.80):  2
+  [0.80-0.90):  1
+  [0.90-1.00): ██████████████████████████████████████████████████ 1269
+
+New STS Score Distribution
+--------------------------------------------------------------------------------
+  [0.00-0.10): ██████████████████████ 173
+  [0.10-0.20): █████████████████████████████████ 255
+  [0.20-0.30): ██████████████████████████████████████████████████ 385
+  [0.30-0.40): █████████████████████████████████████ 287
+  [0.40-0.50): ███████████████████ 148
+  [0.50-0.60): ████████ 62
+  [0.60-0.70): ███ 29
+  [0.70-0.80):  3
+  [0.80-0.90):  0
+  [0.90-1.00):  0
+
+====================================================================================================
+
+QUALITY TIERS (New STS)
+====================================================================================================
+
+Excellent (0.70-1.00)             3 dialogues (  0.2%)
+  NO_DIAGNOSIS_NO_TREATMENT    3
+
+Good (0.55-0.69)                 41 dialogues (  3.1%)
+  FULL                         6
+  NO_DIAGNOSIS                 8
+  NO_DIAGNOSIS_NO_TREATMENT   27
+
+Moderate (0.40-0.54)            198 dialogues ( 14.8%)
+  FULL                        28
+  NO_DIAGNOSIS                57
+  NO_DIAGNOSIS_NO_TREATMENT  113
+
+Fair (0.25-0.39)                504 dialogues ( 37.6%)
+  FULL                       188
+  NO_DIAGNOSIS               167
+  NO_DIAGNOSIS_NO_TREATMENT  149
+
+Poor (<0.25)                    596 dialogues ( 44.4%)
+  FULL                       275
+  NO_DIAGNOSIS               197
+  NO_DIAGNOSIS_NO_TREATMENT  124
+
+====================================================================================================
+
+MISSING COMPONENTS ANALYSIS
+====================================================================================================
+
+Most Frequently Missing Components:
+  findings             1081 dialogues ( 80.6%)
+  history               919 dialogues ( 68.5%)
+  treatment             799 dialogues ( 59.5%)
+  diagnosis             414 dialogues ( 30.8%)
+  symptoms              291 dialogues ( 21.7%)
+
+====================================================================================================
+
+EXAMPLES OF SIGNIFICANT CHANGES
+====================================================================================================
+
+Top 10 Largest Decreases (Most Overestimated):
+File                                                         Old      New      Change   Type      
+----------------------------------------------------------------------------------------------------
+dialogue_3597_162212_NO_DIAGNOSIS_NO_TREATMENT.md            0.972    0.028    -0.944   NO_DIAGNOSIS_NO_TREATMENT
+dialogue_19860_183847_NO_DIAGNOSIS.md                        0.961    0.018    -0.943   NO_DIAGNOSIS
+dialogue_14050_171131_NO_DIAGNOSIS_NO_TREATMENT.md           0.957    0.015    -0.943   NO_DIAGNOSIS_NO_TREATMENT
+dialogue_19583_199105_NO_DIAGNOSIS.md                        0.950    0.010    -0.940   NO_DIAGNOSIS
+dialogue_11850_198955_NO_DIAGNOSIS.md                        0.949    0.011    -0.938   NO_DIAGNOSIS
+dialogue_26524_140194_NO_DIAGNOSIS_NO_TREATMENT.md           0.959    0.022    -0.937   NO_DIAGNOSIS_NO_TREATMENT
+dialogue_10512_102368_FULL.md                                0.951    0.015    -0.935   FULL      
+dialogue_11850_198955_FULL.md                                0.945    0.010    -0.935   FULL      
+dialogue_6881_136936_NO_DIAGNOSIS_NO_TREATMENT.md            0.953    0.019    -0.934   NO_DIAGNOSIS_NO_TREATMENT
+dialogue_16455_142210_FULL.md                                0.959    0.025    -0.934   FULL      
+
+Top 10 Smallest Decreases (Most Accurate Originally):
+File                                                         Old      New      Change   Type      
+----------------------------------------------------------------------------------------------------
+dialogue_23885_165607.md                                     0.239    0.316    0.077    FULL      
+dialogue_20552_142002.md                                     0.443    0.485    0.042    FULL      
+dialogue_14911_111700.md                                     0.369    0.355    -0.014   FULL      
+dialogue_14993_104037.md                                     0.479    0.463    -0.016   FULL      
+dialogue_20127_186328.md                                     0.541    0.502    -0.039   FULL      
+dialogue_25995_123177.md                                     0.537    0.469    -0.068   FULL      
+dialogue_26695_178368.md                                     0.453    0.374    -0.079   FULL      
+dialogue_8258_168621.md                                      0.614    0.523    -0.091   FULL      
+dialogue_1183_191513.md                                      0.306    0.202    -0.104   FULL      
+dialogue_45489_105911.md                                     0.482    0.375    -0.107   FULL      
+
+Top 10 Best Information Retention:
+File                                                         New STS  Retention  Type      
+----------------------------------------------------------------------------------------------------
+dialogue_17606_140086_NO_DIAGNOSIS_NO_TREATMENT.md           0.731    1.000      NO_DIAGNOSIS_NO_TREATMENT
+dialogue_1378_175472_NO_DIAGNOSIS_NO_TREATMENT.md            0.696    0.800      NO_DIAGNOSIS_NO_TREATMENT
+dialogue_13961_115076_NO_DIAGNOSIS.md                        0.547    0.800      NO_DIAGNOSIS
+dialogue_18704_137385_NO_DIAGNOSIS_NO_TREATMENT.md           0.622    0.800      NO_DIAGNOSIS_NO_TREATMENT
+dialogue_11161_121167_NO_DIAGNOSIS.md                        0.541    0.750      NO_DIAGNOSIS
+dialogue_15061_191258_NO_DIAGNOSIS_NO_TREATMENT.md           0.571    0.750      NO_DIAGNOSIS_NO_TREATMENT
+dialogue_18647_177166_NO_DIAGNOSIS.md                        0.663    0.750      NO_DIAGNOSIS
+dialogue_11950_102642_NO_DIAGNOSIS_NO_TREATMENT.md           0.617    0.714      NO_DIAGNOSIS_NO_TREATMENT
+dialogue_13961_115076_FULL.md                                0.506    0.714      FULL      
+dialogue_16880_132241_NO_DIAGNOSIS_NO_TREATMENT.md           0.604    0.714      NO_DIAGNOSIS_NO_TREATMENT
+
+Top 10 Worst Information Retention:
+File                                                         New STS  Retention  Type      
+----------------------------------------------------------------------------------------------------
+dialogue_10512_102368_FULL.md                                0.015    0.000      FULL      
+dialogue_10994_101721_FULL.md                                0.366    0.000      FULL      
+dialogue_10994_101721_NO_DIAGNOSIS.md                        0.254    0.000      NO_DIAGNOSIS
+dialogue_10994_101721_NO_DIAGNOSIS_NO_TREATMENT.md           0.084    0.000      NO_DIAGNOSIS_NO_TREATMENT
+dialogue_11013_148766_FULL.md                                0.015    0.000      FULL      
+dialogue_11013_148766_NO_DIAGNOSIS_NO_TREATMENT.md           0.015    0.000      NO_DIAGNOSIS_NO_TREATMENT
+dialogue_11813_168063_FULL.md                                0.017    0.000      FULL      
+dialogue_11813_168063_NO_DIAGNOSIS.md                        0.159    0.000      NO_DIAGNOSIS
+dialogue_11813_168063_NO_DIAGNOSIS_NO_TREATMENT.md           0.012    0.000      NO_DIAGNOSIS_NO_TREATMENT
+dialogue_11850_198955_FULL.md                                0.010    0.000      FULL      
+
+====================================================================================================
+
+KEY FINDINGS
+====================================================================================================
+
+1. MAGNITUDE OF OVERESTIMATION
+   - Average decrease: 0.656 (65.6 percentage points)
+   - This confirms the original scores were artificially inflated
+
+2. PROFILE TYPE COMPARISON
+   - NO_DIAGNOSIS_NO_TREATMENT: 0.325
+   - NO_DIAGNOSIS: 0.269
+   - FULL: 0.232
+
+3. INFORMATION RETENTION
+   - Average retention: 0.227 (22.7% of expected facts captured)
+   - Dialogues with <30% retention: 957 (71.3%)
+
+4. MISSING COMPONENTS
+   - Most commonly missing: findings
+
+====================================================================================================
+
+END OF REPORT
+====================================================================================================
