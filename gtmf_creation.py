@@ -462,7 +462,7 @@ def main():
         # Using 800 to ensure we have enough after light case filtering and skip-existing logic
         results = loader.fetch_notes_with_light_case_filter(
             category_filter="Discharge summary",
-            limit=800  # Increased to ensure we reach 300 total after filtering and skipping
+            limit=10000000000000  # Increased to ensure we reach 300 total after filtering and skipping
         )
         if not results:
             logger.error("No light case notes found")
